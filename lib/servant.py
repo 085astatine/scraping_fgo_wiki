@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import logging
 from typing import List, TypedDict
 import lxml.html
 import requests
 
+
+_logger = logging.getLogger(__name__)
 
 _Servant = TypedDict(
         '_Servant',
@@ -58,11 +61,18 @@ def _parse_servant_table():
         servant_name = row.xpath('td[3]//a')[0].text
         servant_class = to_servant_class[row.xpath('td[4]')[0].text.strip()]
         servant_url = row.xpath('td[3]//a')[0].get('href')
+        _logger.debug(
+                'servant %d: %s, rarity:%d class:%s, url:%s',
+                servant_id,
+                servant_name,
+                rarity,
+                servant_class,
+                servant_url)
         result.append({
                 'id': servant_id,
+                'name': servant_name,
                 'class': servant_class,
                 'rarity': rarity,
-                'name': servant_name,
                 'url': servant_url})
     return result
 
