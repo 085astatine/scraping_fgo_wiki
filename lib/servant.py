@@ -2,12 +2,27 @@
 # -*- coding: utf-8 -*-
 
 import logging
-from typing import List, TypedDict
+import re
+import time
+from typing import List, NamedTuple, TypedDict
 import lxml.html
 import requests
 
 
+_interval = 1.0
+
 _logger = logging.getLogger(__name__)
+
+
+class Resource(NamedTuple):
+    name: str
+    piece: int
+
+
+class RequiredResource(NamedTuple):
+    level: int
+    resources: List[Resource]
+
 
 _Servant = TypedDict(
         '_Servant',
@@ -15,8 +30,64 @@ _Servant = TypedDict(
          'class': str,
          'rarity': int,
          'name': str,
-         'url': str},
+         'url': str,
+         'skill_reinforcement': List[RequiredResource]},
         total=False)
+
+
+class _RequiredResourceParser:
+    def __init__(self) -> None:
+        self._result: List[RequiredResource] = []
+        self._level = 0
+        self._next_level = 0
+        self._resources: List[Resource] = []
+
+    def push(self, cell: lxml.html.HtmlElement):
+        text = cell.text_content().strip()
+        if not text:
+            return
+        # level
+        level_match = re.match(
+                r'Lv(?P<privious>[0-9]+)→Lv(?P<next>[0-9]+)',
+                text)
+        if level_match:
+            privious_level = int(level_match.group('privious'))
+            next_level = int(level_match.group('next'))
+            _logger.debug('Lv.%d -> Lv.%d', privious_level, next_level)
+            assert privious_level == self._level + 1
+            assert next_level == privious_level + 1
+            if self._level != 0:
+                self._pack()
+            self._level = privious_level
+            self._next_level = next_level
+        else:
+            resource_regexp = re.compile(
+                    r'(?P<item>.+),(x|)(?P<piece>[0-9万]+)')
+            resource_match = resource_regexp.search(text)
+            while resource_match:
+                resource = Resource(
+                        name=resource_match.group('item'),
+                        piece=int(resource_match.group('piece')
+                                  .replace('万', '0000')))
+                _logger.debug(
+                        'resource %s x %d',
+                        resource.name,
+                        resource.piece)
+                self._resources.append(resource)
+                text = resource_regexp.sub('', text, count=1)
+                resource_match = resource_regexp.search(text)
+
+    def result(self) -> List[RequiredResource]:
+        if self._level < self._next_level:
+            self._pack()
+        return self._result
+
+    def _pack(self) -> None:
+        self._result.append(RequiredResource(
+                level=self._level,
+                resources=self._resources))
+        self._level = self._next_level
+        self._resources = []
 
 
 def _parse_servant_table():
@@ -77,6 +148,30 @@ def _parse_servant_table():
     return result
 
 
+def _parse_servant_page(servant: _Servant):
+    # access
+    response = requests.get('https:{0}'.format(servant['url']))
+    root = lxml.html.fromstring(response.text)
+    # スキル強化
+    servant['skill_reinforcement'] = _parse_skill_reinforcement(root)
+
+
+def _parse_skill_reinforcement(
+        root: lxml.html.HtmlElement) -> List[RequiredResource]:
+    parser = _RequiredResourceParser()
+    xpath = (
+            '//div[@id="wikibody"]'
+            '//h3[normalize-space()="スキル強化"]'
+            '/following-sibling::div[1]/div/table[1]/tbody/tr[td]')
+    for row in root.xpath(xpath):
+        for cell in row.xpath('td'):
+            parser.push(cell)
+    return parser.result()
+
+
 def servant_list():
-    servant_list = _parse_servant_table()
-    print(servant_list)
+    result = _parse_servant_table()
+    time.sleep(_interval)
+    for servant in result:
+        time.sleep(_interval)
+        _parse_servant_page(servant)
