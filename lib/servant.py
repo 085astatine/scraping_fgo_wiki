@@ -15,6 +15,14 @@ _interval = 1.0
 _logger = logging.getLogger(__name__)
 
 
+class Skill(NamedTuple):
+    order: int
+    is_upgraded: bool
+    name: str
+    rank: str
+    icon: int
+
+
 class Resource(NamedTuple):
     name: str
     piece: int
@@ -33,6 +41,7 @@ _Servant = TypedDict(
          'name': str,
          'url': str,
          'ascension': List[RequiredResource],
+         'skill': List[Skill],
          'skill_reinforcement': List[RequiredResource]},
         total=False)
 
@@ -184,6 +193,8 @@ def _parse_servant_page(servant: _Servant):
     root = lxml.html.fromstring(response.text)
     # 霊基再臨
     servant['ascension'] = _parse_ascension(root)
+    # スキル
+    servant['skill'] = _parse_skill(root)
     # スキル強化
     servant['skill_reinforcement'] = _parse_skill_reinforcement(root)
 
@@ -200,6 +211,49 @@ def _parse_ascension(
         for cell in row.xpath('td'):
             parser.push(cell)
     return parser.result()
+
+
+def _parse_skill(
+        root: lxml.html.HtmlElement) -> List[Skill]:
+    result = []
+    xpath = (
+            '//div[@id="wikibody"]'
+            '//h3[normalize-space()="保有スキル"]'
+            '/following-sibling::h4')
+    for node in root.xpath(xpath):
+        text = node.text_content().strip()
+        # order, name, rank
+        match = re.match(
+                r'Skill(?P<order>[123])(?P<upgraded>(|\[強化後\]))'
+                r'：(?P<name>.+) (?P<rank>.+)',
+                text)
+        if not match:
+            continue
+        order = int(match.group('order'))
+        name = match.group('name')
+        rank = match.group('rank')
+        is_upgraded = bool(match.group('upgraded'))
+        _logger.debug(
+                'skill %d%s: %s rank.%s',
+                order,
+                '(upgraded)' if is_upgraded else '',
+                name,
+                rank)
+        # icon
+        icon_node = node.xpath(
+            'following-sibling::div[1]/table//td[@rowspan]')[0]
+        icon_text = icon_node.text_content().strip()
+        icon_match = re.match(r'(?P<id>[0-9]+),(?P<rank>.+)', icon_text)
+        assert icon_match
+        icon_id = int(icon_match.group('id'))
+        _logger.debug('skill icon %d: %s', icon_id, name)
+        result.append(Skill(
+                order=order,
+                is_upgraded=is_upgraded,
+                name=name,
+                rank=rank,
+                icon=icon_id))
+    return result
 
 
 def _parse_skill_reinforcement(
