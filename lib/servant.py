@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import enum
 import logging
 import re
 import time
-from typing import List, NamedTuple, TypedDict
+from typing import List, NamedTuple, Optional, Tuple, TypedDict
 import lxml.html
 import requests
 
@@ -31,12 +32,19 @@ _Servant = TypedDict(
          'rarity': int,
          'name': str,
          'url': str,
+         'ascension': List[RequiredResource],
          'skill_reinforcement': List[RequiredResource]},
         total=False)
 
 
+class _RequiredResourceParserMode(enum.Enum):
+    ASCENSION = enum.auto()
+    SKILL_REINFORCEMENT = enum.auto()
+
+
 class _RequiredResourceParser:
-    def __init__(self) -> None:
+    def __init__(self, mode: _RequiredResourceParserMode) -> None:
+        self._mode = mode
         self._result: List[RequiredResource] = []
         self._level = 0
         self._next_level = 0
@@ -47,35 +55,23 @@ class _RequiredResourceParser:
         if not text:
             return
         # level
-        level_match = re.match(
-                r'Lv(?P<privious>[0-9]+)→Lv(?P<next>[0-9]+)',
-                text)
-        if level_match:
-            privious_level = int(level_match.group('privious'))
-            next_level = int(level_match.group('next'))
-            _logger.debug('Lv.%d -> Lv.%d', privious_level, next_level)
-            assert privious_level == self._level + 1
-            assert next_level == privious_level + 1
-            if self._level != 0:
-                self._pack()
-            self._level = privious_level
-            self._next_level = next_level
-        else:
-            resource_regexp = re.compile(
-                    r'(?P<item>.+),(x|)(?P<piece>[0-9万]+)')
+        if self._parse_level(text):
+            return
+        # resource
+        resource_regexp = re.compile(r'(?P<item>.+),(x|)(?P<piece>[0-9万]+)')
+        resource_match = resource_regexp.search(text)
+        while resource_match:
+            resource = Resource(
+                    name=resource_match.group('item'),
+                    piece=int(resource_match.group('piece')
+                              .replace('万', '0000')))
+            _logger.debug(
+                    'resource %s x %d',
+                    resource.name,
+                    resource.piece)
+            self._resources.append(resource)
+            text = resource_regexp.sub('', text, count=1)
             resource_match = resource_regexp.search(text)
-            while resource_match:
-                resource = Resource(
-                        name=resource_match.group('item'),
-                        piece=int(resource_match.group('piece')
-                                  .replace('万', '0000')))
-                _logger.debug(
-                        'resource %s x %d',
-                        resource.name,
-                        resource.piece)
-                self._resources.append(resource)
-                text = resource_regexp.sub('', text, count=1)
-                resource_match = resource_regexp.search(text)
 
     def result(self) -> List[RequiredResource]:
         if self._level < self._next_level:
@@ -88,6 +84,40 @@ class _RequiredResourceParser:
                 resources=self._resources))
         self._level = self._next_level
         self._resources = []
+
+    def _parse_level(self, text) -> bool:
+        levels: Optional[Tuple[int, int]] = None
+        # parse
+        Mode = _RequiredResourceParserMode
+        if self._mode is Mode.ASCENSION:
+            levels = self._parse_ascension_level(text)
+        if self._mode is Mode.SKILL_REINFORCEMENT:
+            levels = self._parse_skill_level(text)
+        # pack
+        if levels is not None:
+            privious_level = levels[0]
+            next_level = levels[1]
+            _logger.debug('Lv.%d -> Lv.%d', privious_level, next_level)
+            assert privious_level == self._level + 1
+            assert next_level == privious_level + 1
+            if self._level != 0:
+                self._pack()
+            self._level = privious_level
+            self._next_level = next_level
+            return True
+        return False
+
+    def _parse_ascension_level(self, text: str) -> Optional[Tuple[int, int]]:
+        match = re.match(r'(?P<level>[0-9]+)段階', text)
+        if match:
+            return (int(match.group('level')), int(match.group('level')) + 1)
+        return None
+
+    def _parse_skill_level(self, text: str) -> Optional[Tuple[int, int]]:
+        match = re.match(r'Lv(?P<privious>[0-9]+)→Lv(?P<next>[0-9]+)', text)
+        if match:
+            return (int(match.group('privious')), int(match.group('next')))
+        return None
 
 
 def _parse_servant_table():
@@ -152,13 +182,30 @@ def _parse_servant_page(servant: _Servant):
     # access
     response = requests.get('https:{0}'.format(servant['url']))
     root = lxml.html.fromstring(response.text)
+    # 霊基再臨
+    servant['ascension'] = _parse_ascension(root)
     # スキル強化
     servant['skill_reinforcement'] = _parse_skill_reinforcement(root)
 
 
+def _parse_ascension(
+        root: lxml.html.HtmlElement) -> List[RequiredResource]:
+    parser = _RequiredResourceParser(
+            mode=_RequiredResourceParserMode.ASCENSION)
+    xpath = (
+            '//div[@id="wikibody"]'
+            '//h3[normalize-space()="霊基再臨"]'
+            '/following-sibling::div[1]/div/table[1]/tbody/tr[td]')
+    for row in root.xpath(xpath):
+        for cell in row.xpath('td'):
+            parser.push(cell)
+    return parser.result()
+
+
 def _parse_skill_reinforcement(
         root: lxml.html.HtmlElement) -> List[RequiredResource]:
-    parser = _RequiredResourceParser()
+    parser = _RequiredResourceParser(
+            mode=_RequiredResourceParserMode.SKILL_REINFORCEMENT)
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="スキル強化"]'
