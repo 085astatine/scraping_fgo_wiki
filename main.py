@@ -13,6 +13,7 @@ def main():
                 fmt='%(name)s::%(levelname)s::%(message)s')
     logger.addHandler(handler)
 
+    lib.item.item_list()
     lib.servant.servant_list()
 
 
