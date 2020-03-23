@@ -244,9 +244,12 @@ def _parse_skill(
             'following-sibling::div[1]/table//td[@rowspan]')[0]
         icon_text = icon_node.text_content().strip()
         icon_match = re.match(r'(?P<id>[0-9]+),(?P<rank>.+)', icon_text)
-        assert icon_match
-        icon_id = int(icon_match.group('id'))
-        _logger.debug('skill icon %d: %s', icon_id, name)
+        if icon_match:
+            icon_id = int(icon_match.group('id'))
+            _logger.debug('skill icon %d: %s', icon_id, name)
+        else:
+            icon_id = 0
+            _logger.warning('skill icon not found: %s', icon_text)
         result.append(Skill(
                 order=order,
                 is_upgraded=is_upgraded,
