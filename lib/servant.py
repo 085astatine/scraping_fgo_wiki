@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import csv
 import enum
 import logging
 import re
@@ -38,7 +39,8 @@ _Servant = TypedDict(
         {'id': int,
          'class': str,
          'rarity': int,
-         'name': str,
+         'name_jp': str,
+         'name_en': str,
          'url': str,
          'ascension': List[RequiredResource],
          'skill': List[Skill],
@@ -180,7 +182,7 @@ def _parse_servant_table():
                 servant_url)
         result.append({
                 'id': servant_id,
-                'name': servant_name,
+                'name_jp': servant_name,
                 'class': servant_class,
                 'rarity': rarity,
                 'url': servant_url})
@@ -273,9 +275,28 @@ def _parse_skill_reinforcement(
     return parser.result()
 
 
+def _parse_name_en(
+        servants: List[_Servant]) -> None:
+    url = ('https://raw.githubusercontent.com'
+           '/WeebMogul/Fate--Grand-Order-Servant-Data-Extractor'
+           '/master/FGO_Servant_Data.csv')
+    response = requests.get(url)
+    reader = csv.DictReader(
+            response.text
+                    .replace('\ufeff', '')
+                    .replace('\u3000', ' ').split('\n'))
+    for row in reader:
+        servant_id = int(row['ID'])
+        name_en = row['Name']
+        for servant in (servant for servant in servants
+                        if servant['id'] == servant_id):
+            servant['name_en'] = name_en
+
+
 def servant_list():
     result = _parse_servant_table()
     time.sleep(_interval)
     for servant in result:
         time.sleep(_interval)
         _parse_servant_page(servant)
+    _parse_name_en(result)
