@@ -16,7 +16,7 @@ _interval = 1.0
 _logger = logging.getLogger(__name__)
 
 
-class Skill(NamedTuple):
+class _Skill(NamedTuple):
     order: int
     is_upgraded: bool
     name: str
@@ -24,19 +24,19 @@ class Skill(NamedTuple):
     icon: int
 
 
-class Resource(NamedTuple):
+class _Resource(NamedTuple):
     name: str
     piece: int
 
 
-class RequiredResource(NamedTuple):
+class _RequiredResource(NamedTuple):
     level: int
-    resources: List[Resource]
+    resources: List[_Resource]
 
 
-class SpiritronDress(NamedTuple):
+class _SpiritronDress(NamedTuple):
     name: str
-    resources: List[Resource]
+    resources: List[_Resource]
 
 
 _Servant = TypedDict(
@@ -47,10 +47,10 @@ _Servant = TypedDict(
          'name_jp': str,
          'name_en': str,
          'url': str,
-         'ascension': List[RequiredResource],
-         'spiritron_dress': List[SpiritronDress],
-         'skill': List[Skill],
-         'skill_reinforcement': List[RequiredResource]},
+         'ascension': List[_RequiredResource],
+         'spiritron_dress': List[_SpiritronDress],
+         'skill': List[_Skill],
+         'skill_reinforcement': List[_RequiredResource]},
         total=False)
 
 
@@ -62,10 +62,10 @@ class _RequiredResourceParserMode(enum.Enum):
 class _RequiredResourceParser:
     def __init__(self, mode: _RequiredResourceParserMode) -> None:
         self._mode = mode
-        self._result: List[RequiredResource] = []
+        self._result: List[_RequiredResource] = []
         self._level = 0
         self._next_level = 0
-        self._resources: List[Resource] = []
+        self._resources: List[_Resource] = []
 
     def push(self, cell: lxml.html.HtmlElement):
         text = cell.text_content().strip()
@@ -77,13 +77,13 @@ class _RequiredResourceParser:
         # resource
         self._resources.extend(_parse_resource(text))
 
-    def result(self) -> List[RequiredResource]:
+    def result(self) -> List[_RequiredResource]:
         if self._level < self._next_level:
             self._pack()
         return self._result
 
     def _pack(self) -> None:
-        self._result.append(RequiredResource(
+        self._result.append(_RequiredResource(
                 level=self._level,
                 resources=self._resources))
         self._level = self._next_level
@@ -112,12 +112,12 @@ class _RequiredResourceParser:
         return False
 
 
-def _parse_resource(text: str) -> List[Resource]:
-    result: List[Resource] = []
+def _parse_resource(text: str) -> List[_Resource]:
+    result: List[_Resource] = []
     regexp = re.compile(r'(?P<item>.+),(x|)(?P<piece>[0-9万]+)')
     match = regexp.search(text)
     while match:
-        resource = Resource(
+        resource = _Resource(
                 name=match.group('item'),
                 piece=int(match.group('piece').replace('万', '0000')))
         _logger.debug(
@@ -217,7 +217,7 @@ def _parse_servant_page(servant: _Servant):
 
 
 def _parse_ascension(
-        root: lxml.html.HtmlElement) -> List[RequiredResource]:
+        root: lxml.html.HtmlElement) -> List[_RequiredResource]:
     parser = _RequiredResourceParser(
             mode=_RequiredResourceParserMode.ASCENSION)
     xpath = (
@@ -231,7 +231,7 @@ def _parse_ascension(
 
 
 def _parse_skill(
-        root: lxml.html.HtmlElement) -> List[Skill]:
+        root: lxml.html.HtmlElement) -> List[_Skill]:
     result = []
     xpath = (
             '//div[@id="wikibody"]'
@@ -267,7 +267,7 @@ def _parse_skill(
         else:
             icon_id = 0
             _logger.warning('skill icon not found: %s', icon_text)
-        result.append(Skill(
+        result.append(_Skill(
                 order=order,
                 is_upgraded=is_upgraded,
                 name=name,
@@ -277,7 +277,7 @@ def _parse_skill(
 
 
 def _parse_skill_reinforcement(
-        root: lxml.html.HtmlElement) -> List[RequiredResource]:
+        root: lxml.html.HtmlElement) -> List[_RequiredResource]:
     parser = _RequiredResourceParser(
             mode=_RequiredResourceParserMode.SKILL_REINFORCEMENT)
     xpath = (
@@ -291,8 +291,8 @@ def _parse_skill_reinforcement(
 
 
 def _parse_spiritron_dress(
-        root: lxml.html.HtmlElement) -> List[SpiritronDress]:
-    result: List[SpiritronDress] = []
+        root: lxml.html.HtmlElement) -> List[_SpiritronDress]:
+    result: List[_SpiritronDress] = []
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="霊衣開放"]'
@@ -302,12 +302,12 @@ def _parse_spiritron_dress(
             '/table')
     for table in root.xpath(xpath):
         name = table.xpath('tbody/tr[1]/th')[0].text.strip()
-        resources: List[Resource] = []
+        resources: List[_Resource] = []
         for cell in table.xpath(
                 'tbody/tr[td[1 and normalize-space()="必要素材"]]'
                 '/td[position() > 1]'):
             resources.extend(_parse_resource(cell.text_content()))
-        result.append(SpiritronDress(
+        result.append(_SpiritronDress(
                 name=name,
                 resources=resources))
     return result
