@@ -101,9 +101,9 @@ class _RequiredResourceParser:
         # parse
         Mode = _RequiredResourceParserMode
         if self._mode is Mode.ASCENSION:
-            levels = self._parse_ascension_level(text)
+            levels = _parse_ascension_level(text)
         if self._mode is Mode.SKILL_REINFORCEMENT:
-            levels = self._parse_skill_level(text)
+            levels = _parse_skill_level(text)
         # pack
         if levels is not None:
             privious_level = levels[0]
@@ -118,17 +118,19 @@ class _RequiredResourceParser:
             return True
         return False
 
-    def _parse_ascension_level(self, text: str) -> Optional[Tuple[int, int]]:
-        match = re.match(r'(?P<level>[0-9]+)段階', text)
-        if match:
-            return (int(match.group('level')), int(match.group('level')) + 1)
-        return None
 
-    def _parse_skill_level(self, text: str) -> Optional[Tuple[int, int]]:
-        match = re.match(r'Lv(?P<privious>[0-9]+)→Lv(?P<next>[0-9]+)', text)
-        if match:
-            return (int(match.group('privious')), int(match.group('next')))
-        return None
+def _parse_ascension_level(text: str) -> Optional[Tuple[int, int]]:
+    match = re.match(r'(?P<level>[0-9]+)段階', text)
+    if match:
+        return (int(match.group('level')), int(match.group('level')) + 1)
+    return None
+
+
+def _parse_skill_level(text: str) -> Optional[Tuple[int, int]]:
+    match = re.match(r'Lv(?P<privious>[0-9]+)→Lv(?P<next>[0-9]+)', text)
+    if match:
+        return (int(match.group('privious')), int(match.group('next')))
+    return None
 
 
 def _parse_servant_table():
