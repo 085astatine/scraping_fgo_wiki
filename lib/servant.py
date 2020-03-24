@@ -34,6 +34,11 @@ class RequiredResource(NamedTuple):
     resources: List[Resource]
 
 
+class SpiritronDress(NamedTuple):
+    name: str
+    resources: List[Resource]
+
+
 _Servant = TypedDict(
         '_Servant',
         {'id': int,
@@ -43,6 +48,7 @@ _Servant = TypedDict(
          'name_en': str,
          'url': str,
          'ascension': List[RequiredResource],
+         'spiritron_dress': List[SpiritronDress],
          'skill': List[Skill],
          'skill_reinforcement': List[RequiredResource]},
         total=False)
@@ -69,20 +75,7 @@ class _RequiredResourceParser:
         if self._parse_level(text):
             return
         # resource
-        resource_regexp = re.compile(r'(?P<item>.+),(x|)(?P<piece>[0-9万]+)')
-        resource_match = resource_regexp.search(text)
-        while resource_match:
-            resource = Resource(
-                    name=resource_match.group('item'),
-                    piece=int(resource_match.group('piece')
-                              .replace('万', '0000')))
-            _logger.debug(
-                    'resource %s x %d',
-                    resource.name,
-                    resource.piece)
-            self._resources.append(resource)
-            text = resource_regexp.sub('', text, count=1)
-            resource_match = resource_regexp.search(text)
+        self._resources.extend(_parse_resource(text))
 
     def result(self) -> List[RequiredResource]:
         if self._level < self._next_level:
@@ -117,6 +110,24 @@ class _RequiredResourceParser:
             self._next_level = next_level
             return True
         return False
+
+
+def _parse_resource(text: str) -> List[Resource]:
+    result: List[Resource] = []
+    regexp = re.compile(r'(?P<item>.+),(x|)(?P<piece>[0-9万]+)')
+    match = regexp.search(text)
+    while match:
+        resource = Resource(
+                name=match.group('item'),
+                piece=int(match.group('piece').replace('万', '0000')))
+        _logger.debug(
+                'resource %s x %d',
+                resource.name,
+                resource.piece)
+        result.append(resource)
+        text = regexp.sub('', text, count=1)
+        match = regexp.search(text)
+    return result
 
 
 def _parse_ascension_level(text: str) -> Optional[Tuple[int, int]]:
