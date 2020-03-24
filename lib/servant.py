@@ -212,6 +212,8 @@ def _parse_servant_page(servant: _Servant):
     servant['skill'] = _parse_skill(root)
     # スキル強化
     servant['skill_reinforcement'] = _parse_skill_reinforcement(root)
+    # 霊衣開放
+    servant['spiritron_dress'] = _parse_spiritron_dress(root)
 
 
 def _parse_ascension(
@@ -286,6 +288,29 @@ def _parse_skill_reinforcement(
         for cell in row.xpath('td'):
             parser.push(cell)
     return parser.result()
+
+
+def _parse_spiritron_dress(
+        root: lxml.html.HtmlElement) -> List[SpiritronDress]:
+    result: List[SpiritronDress] = []
+    xpath = (
+            '//div[@id="wikibody"]'
+            '//h3[normalize-space()="霊衣開放"]'
+            '/following-sibling::div'
+            '[preceding-sibling::h3[position()=1'
+            ' and normalize-space()="霊衣開放"]]'
+            '/table')
+    for table in root.xpath(xpath):
+        name = table.xpath('tbody/tr[1]/th')[0].text.strip()
+        resources: List[Resource] = []
+        for cell in table.xpath(
+                'tbody/tr[td[1 and normalize-space()="必要素材"]]'
+                '/td[position() > 1]'):
+            resources.extend(_parse_resource(cell.text_content()))
+        result.append(SpiritronDress(
+                name=name,
+                resources=resources))
+    return result
 
 
 def _parse_name_en(
