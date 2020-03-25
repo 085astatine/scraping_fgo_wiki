@@ -9,11 +9,52 @@ import time
 from typing import Dict, List, NamedTuple, Optional, Tuple, TypedDict
 import lxml.html
 import requests
+from .item import Item
+from .text import Text
 
 
 _interval = 1.0
 
 _logger = logging.getLogger(__name__)
+
+
+Skill = TypedDict(
+        'Skill',
+        {'order': int,
+         'is_upgraded': bool,
+         'name': Text,
+         'rank': str,
+         'icon': int})
+
+
+Resource = TypedDict(
+        'Resource',
+        {'id': int,
+         'piece': int})
+
+
+RequiredResource = TypedDict(
+        'RequiredResource',
+        {'qp': int,
+         'resources': List[Resource]})
+
+
+SpiritronDress = TypedDict(
+        'SpiritronDress',
+        {'name': Text,
+         'required': RequiredResource})
+
+
+Servant = TypedDict(
+        'Servant',
+        {'id': int,
+         'name': Text,
+         'class': str,
+         'rarity': int,
+         'ascension': List[RequiredResource],
+         'spiritron_dress': List[SpiritronDress],
+         'skill': List[Skill],
+         'skill_reinforcement': List[RequiredResource]})
 
 
 class _Skill(NamedTuple):
@@ -23,20 +64,65 @@ class _Skill(NamedTuple):
     rank: str
     icon: int
 
+    def normalize(self, translator: Dict[str, str]) -> Skill:
+        if self.name not in translator:
+            _logger.error('Skill name %s is not found', self.name)
+        return {'order': self.order,
+                'is_upgraded': self.is_upgraded,
+                'name': {
+                    'jp': self.name,
+                    'en': translator.get(self.name, self.name)},
+                'rank': self.rank,
+                'icon': self.icon}
+
 
 class _Resource(NamedTuple):
     name: str
     piece: int
+
+    def normalize(self, items: List[Item]) -> Resource:
+        item_id = [item['id'] for item in items
+                   if item['name']['jp'] == self.name]
+        if len(item_id) != 1:
+            _logger.error('item ID error: %s', self.name)
+        return {'id': item_id[0] if item_id else 0,
+                'piece': self.piece}
 
 
 class _RequiredResource(NamedTuple):
     level: int
     resources: List[_Resource]
 
+    def normalize(self, items: List[Item]) -> RequiredResource:
+        qp = 0
+        resources: List[Resource] = []
+        for resource in self.resources:
+            if resource.name == 'QP':
+                qp = resource.piece
+            else:
+                resources.append(resource.normalize(items))
+        return {'qp': qp,
+                'resources': resources}
+
 
 class _SpiritronDress(NamedTuple):
     name: str
     resources: List[_Resource]
+
+    def normalize(self, items: List[Item]) -> SpiritronDress:
+        qp = 0
+        resources: List[Resource] = []
+        for resource in self.resources:
+            if resource.name == 'QP':
+                qp = resource.piece
+            else:
+                resources.append(resource.normalize(items))
+        return {'name': {
+                    'jp': self.name,
+                    'en': self.name},
+                'required': {
+                    'qp': qp,
+                    'resources': resources}}
 
 
 _Servant = TypedDict(
@@ -355,13 +441,39 @@ def _parse_skill_en() -> Dict[str, str]:
     return translator
 
 
-def servant_list():
-    result = _parse_servant_table()
+def _normalize(
+        servant: _Servant,
+        items: List[Item],
+        skill_translator: Dict[str, str]) -> Servant:
+    assert len(servant['ascension']) == 4
+    assert len(servant['skill_reinforcement']) == 9
+    return {'id': servant['id'],
+            'name': {
+                'jp': servant['name_jp'],
+                'en': servant['name_en']},
+            'class': servant['class'],
+            'rarity': servant['rarity'],
+            'ascension': [
+                    x.normalize(items) for x in servant['ascension']],
+            'spiritron_dress': [
+                    x.normalize(items) for x in servant['spiritron_dress']],
+            'skill': [
+                    x.normalize(skill_translator) for x in servant['skill']],
+            'skill_reinforcement': [
+                    x.normalize(items)
+                    for x in servant['skill_reinforcement']]}
+
+
+def servant_list(items: List[Item]) -> List[Servant]:
+    servants = _parse_servant_table()
     time.sleep(_interval)
-    for servant in result:
+    for servant in servants:
+        _logger.info('servant: %s', servant['name_jp'])
         time.sleep(_interval)
         _parse_servant_page(servant)
     time.sleep(_interval)
-    _parse_name_en(result)
+    _parse_name_en(servants)
     time.sleep(_interval)
     skill_translator = _parse_skill_en()
+    return [_normalize(servant, items, skill_translator)
+            for servant in servants]

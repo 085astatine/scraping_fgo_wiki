@@ -13,8 +13,8 @@ def main():
                 fmt='%(name)s::%(levelname)s::%(message)s')
     logger.addHandler(handler)
 
-    lib.item.item_list()
-    lib.servant.servant_list()
+    items = lib.item.item_list()
+    servants = lib.servant.servant_list(items)
 
 
 if __name__ == '__main__':
