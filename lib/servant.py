@@ -242,25 +242,31 @@ def _parse_skill(
         # order, name, rank
         match = re.match(
                 r'Skill(?P<order>[123])(?P<upgraded>(|\[強化後\]))'
-                r'：(?P<name>.+) (?P<rank>.+)',
+                r'：(?P<name>.+)',
                 text)
         if not match:
             continue
         order = int(match.group('order'))
-        name = match.group('name')
-        rank = match.group('rank')
         is_upgraded = bool(match.group('upgraded'))
+        name = match.group('name')
+        rank = ''
+        rank_match = re.match(
+                r'(?P<name>.+)\s+(?P<rank>(EX|[A-E])[\+-]*)',
+                name)
+        if rank_match:
+            name = rank_match.group('name')
+            rank = rank_match.group('rank')
         _logger.debug(
-                'skill %d%s: %s rank.%s',
+                'skill %d%s: %s%s',
                 order,
                 '(upgraded)' if is_upgraded else '',
                 name,
-                rank)
+                ' rank: {0}'.format(rank) if rank else '')
         # icon
         icon_node = node.xpath(
             'following-sibling::div[1]/table//td[@rowspan]')[0]
         icon_text = icon_node.text_content().strip()
-        icon_match = re.match(r'(?P<id>[0-9]+),(?P<rank>.+)', icon_text)
+        icon_match = re.match(r'(?P<id>[0-9]+),((?P<rank>.+)|)', icon_text)
         if icon_match:
             icon_id = int(icon_match.group('id'))
             _logger.debug('skill icon %d: %s', icon_id, name)
