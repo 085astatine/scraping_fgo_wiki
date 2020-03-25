@@ -6,7 +6,7 @@ import enum
 import logging
 import re
 import time
-from typing import List, NamedTuple, Optional, Tuple, TypedDict
+from typing import Dict, List, NamedTuple, Optional, Tuple, TypedDict
 import lxml.html
 import requests
 
@@ -337,10 +337,31 @@ def _parse_name_en(
             servant['name_en'] = name_en
 
 
+def _parse_skill_en() -> Dict[str, str]:
+    url = 'https://grandorder.wiki/Skills'
+    response = requests.get(url)
+    root = lxml.html.fromstring(response.text)
+    xpath = '//h1[text()="Skills"]/following-sibling::div//table/tr[td]'
+    translator: Dict[str, str] = {}
+    for row in root.xpath(xpath):
+        name_cell = row.xpath('td[1]')[0]
+        name_jp = name_cell.xpath('a/following-sibling::text()')[0].strip()
+        name_en = name_cell.xpath('a')[0].text.strip()
+        _logger.debug(
+                'skill: %s (%s)',
+                name_jp,
+                name_en)
+        translator[name_jp] = name_en
+    return translator
+
+
 def servant_list():
     result = _parse_servant_table()
     time.sleep(_interval)
     for servant in result:
         time.sleep(_interval)
         _parse_servant_page(servant)
+    time.sleep(_interval)
     _parse_name_en(result)
+    time.sleep(_interval)
+    skill_translator = _parse_skill_en()
