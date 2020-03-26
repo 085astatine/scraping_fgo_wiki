@@ -294,10 +294,18 @@ def _parse_servant_page(servant: _Servant):
     root = lxml.html.fromstring(response.text)
     # 霊基再臨
     servant['ascension'] = _parse_ascension(root)
+    if len(servant['ascension']) != 4:
+        _logger.error(
+                'servant %s: ascension parsing failed',
+                servant['name_jp'])
     # スキル
     servant['skill'] = _parse_skill(root)
     # スキル強化
     servant['skill_reinforcement'] = _parse_skill_reinforcement(root)
+    if len(servant['skill_reinforcement']) != 9:
+        _logger.error(
+                'servant %s: skill reinforcement parsing failed',
+                servant['name_jp'])
     # 霊衣開放
     servant['spiritron_dress'] = _parse_spiritron_dress(root)
 
@@ -445,8 +453,6 @@ def _normalize(
         servant: _Servant,
         items: List[Item],
         skill_translator: Dict[str, str]) -> Servant:
-    assert len(servant['ascension']) == 4
-    assert len(servant['skill_reinforcement']) == 9
     return {'id': servant['id'],
             'name': {
                 'jp': servant['name_jp'],
