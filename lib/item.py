@@ -13,6 +13,7 @@ _logger = logging.getLogger(__name__)
 Item = TypedDict(
     'Item',
     {'id': int,
+     'rarity': str,
      'name': Text})
 
 
@@ -33,14 +34,25 @@ def item_list() -> List[Item]:
         name_cell = row.xpath('td[3]')[0]
         name_jp = name_cell.xpath('br/following-sibling::text()')[0].strip()
         name_en = name_cell.xpath('a')[0].text.strip()
+        icon_cell = row.xpath('td[2]')[0]
+        rarity = row.xpath('td[2]/div')[0].get('class').replace('itembox', '')
+        if rarity not in ['Bronze', 'Silver', 'Gold']:
+            _logger.error(
+                    'item %d: %s(%s) has unknown ratiry "%s"',
+                    item_id,
+                    name_jp,
+                    name_en,
+                    rarity)
         _logger.debug(
-                'item %d: %s(%s) type:%s',
+                'item %d: %s(%s) rarity:%s, type:%s',
                 item_id,
                 name_jp,
                 name_en,
+                rarity,
                 item_type)
         result.append({
                 'id': item_id,
+                'rarity': rarity,
                 'name': {
                     'jp': name_jp,
                     'en': name_en}})
