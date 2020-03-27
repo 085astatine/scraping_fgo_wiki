@@ -49,7 +49,7 @@ Servant = TypedDict(
         'Servant',
         {'id': int,
          'name': Text,
-         'class': str,
+         'klass': str,
          'rarity': int,
          'ascension': List[RequiredResource],
          'spiritron_dress': List[SpiritronDress],
@@ -457,7 +457,7 @@ def _normalize(
             'name': {
                 'jp': servant['name_jp'],
                 'en': servant['name_en']},
-            'class': servant['class'],
+            'klass': servant['class'],
             'rarity': servant['rarity'],
             'ascension': [
                     x.normalize(items) for x in servant['ascension']],
