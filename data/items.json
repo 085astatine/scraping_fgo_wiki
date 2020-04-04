@@ -1,0 +1,786 @@
+[
+  {
+    "id": 2010,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "剣の輝石",
+      "en": "Gem of Saber"
+    }
+  },
+  {
+    "id": 2020,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "弓の輝石",
+      "en": "Gem of Archer"
+    }
+  },
+  {
+    "id": 2030,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "槍の輝石",
+      "en": "Gem of Lancer"
+    }
+  },
+  {
+    "id": 2040,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "騎の輝石",
+      "en": "Gem of Rider"
+    }
+  },
+  {
+    "id": 2050,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "術の輝石",
+      "en": "Gem of Caster"
+    }
+  },
+  {
+    "id": 2060,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "殺の輝石",
+      "en": "Gem of Assassin"
+    }
+  },
+  {
+    "id": 2070,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "狂の輝石",
+      "en": "Gem of Berserker"
+    }
+  },
+  {
+    "id": 2210,
+    "rarity": "Silver",
+    "name": {
+      "jp": "剣の魔石",
+      "en": "Magic Gem of Saber"
+    }
+  },
+  {
+    "id": 2220,
+    "rarity": "Silver",
+    "name": {
+      "jp": "弓の魔石",
+      "en": "Magic Gem of Archer"
+    }
+  },
+  {
+    "id": 2230,
+    "rarity": "Silver",
+    "name": {
+      "jp": "槍の魔石",
+      "en": "Magic Gem of Lancer"
+    }
+  },
+  {
+    "id": 2240,
+    "rarity": "Silver",
+    "name": {
+      "jp": "騎の魔石",
+      "en": "Magic Gem of Rider"
+    }
+  },
+  {
+    "id": 2250,
+    "rarity": "Silver",
+    "name": {
+      "jp": "術の魔石",
+      "en": "Magic Gem of Caster"
+    }
+  },
+  {
+    "id": 2260,
+    "rarity": "Silver",
+    "name": {
+      "jp": "殺の魔石",
+      "en": "Magic Gem of Assassin"
+    }
+  },
+  {
+    "id": 2270,
+    "rarity": "Silver",
+    "name": {
+      "jp": "狂の魔石",
+      "en": "Magic Gem of Berserker"
+    }
+  },
+  {
+    "id": 2410,
+    "rarity": "Gold",
+    "name": {
+      "jp": "剣の秘石",
+      "en": "Secret Gem of Saber"
+    }
+  },
+  {
+    "id": 2420,
+    "rarity": "Gold",
+    "name": {
+      "jp": "弓の秘石",
+      "en": "Secret Gem of Archer"
+    }
+  },
+  {
+    "id": 2430,
+    "rarity": "Gold",
+    "name": {
+      "jp": "槍の秘石",
+      "en": "Secret Gem of Lancer"
+    }
+  },
+  {
+    "id": 2440,
+    "rarity": "Gold",
+    "name": {
+      "jp": "騎の秘石",
+      "en": "Secret Gem of Rider"
+    }
+  },
+  {
+    "id": 2450,
+    "rarity": "Gold",
+    "name": {
+      "jp": "術の秘石",
+      "en": "Secret Gem of Caster"
+    }
+  },
+  {
+    "id": 2460,
+    "rarity": "Gold",
+    "name": {
+      "jp": "殺の秘石",
+      "en": "Secret Gem of Assassin"
+    }
+  },
+  {
+    "id": 2470,
+    "rarity": "Gold",
+    "name": {
+      "jp": "狂の秘石",
+      "en": "Secret Gem of Berserker"
+    }
+  },
+  {
+    "id": 2500,
+    "rarity": "Gold",
+    "name": {
+      "jp": "伝承結晶",
+      "en": "Crystallized Lore"
+    }
+  },
+  {
+    "id": 3009,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "英雄の証",
+      "en": "Proof of Hero"
+    }
+  },
+  {
+    "id": 3010,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "凶骨",
+      "en": "Evil Bone"
+    }
+  },
+  {
+    "id": 3020,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "竜の牙",
+      "en": "Dragon Fang"
+    }
+  },
+  {
+    "id": 3030,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "虚影の塵",
+      "en": "Void's Dust"
+    }
+  },
+  {
+    "id": 3040,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "愚者の鎖",
+      "en": "Fool's Chain"
+    }
+  },
+  {
+    "id": 3050,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "万死の毒針",
+      "en": "Deadly Poisonous Needle"
+    }
+  },
+  {
+    "id": 3060,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "魔術髄液",
+      "en": "Mystic Spinal Fluid"
+    }
+  },
+  {
+    "id": 3070,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "宵哭きの鉄杭",
+      "en": "Stake of Wailing Night"
+    }
+  },
+  {
+    "id": 3080,
+    "rarity": "Bronze",
+    "name": {
+      "jp": "励振火薬",
+      "en": "Volatile Gunpowder"
+    }
+  },
+  {
+    "id": 3300,
+    "rarity": "Silver",
+    "name": {
+      "jp": "世界樹の種",
+      "en": "Seed of Yggdrasil"
+    }
+  },
+  {
+    "id": 3310,
+    "rarity": "Silver",
+    "name": {
+      "jp": "ゴーストランタン",
+      "en": "Ghost Lantern"
+    }
+  },
+  {
+    "id": 3320,
+    "rarity": "Silver",
+    "name": {
+      "jp": "八連双晶",
+      "en": "Octuplet Crystals"
+    }
+  },
+  {
+    "id": 3330,
+    "rarity": "Silver",
+    "name": {
+      "jp": "蛇の宝玉",
+      "en": "Serpent Jewel"
+    }
+  },
+  {
+    "id": 3340,
+    "rarity": "Silver",
+    "name": {
+      "jp": "鳳凰の羽根",
+      "en": "Phoenix Feather"
+    }
+  },
+  {
+    "id": 3350,
+    "rarity": "Silver",
+    "name": {
+      "jp": "無間の歯車",
+      "en": "Eternal Gear"
+    }
+  },
+  {
+    "id": 3360,
+    "rarity": "Silver",
+    "name": {
+      "jp": "禁断の頁",
+      "en": "Forbidden Page"
+    }
+  },
+  {
+    "id": 3370,
+    "rarity": "Silver",
+    "name": {
+      "jp": "ホムンクルスベビー",
+      "en": "Homunculus Baby"
+    }
+  },
+  {
+    "id": 3380,
+    "rarity": "Silver",
+    "name": {
+      "jp": "隕蹄鉄",
+      "en": "Meteor Horseshoe"
+    }
+  },
+  {
+    "id": 3390,
+    "rarity": "Silver",
+    "name": {
+      "jp": "大騎士勲章",
+      "en": "Great Knight Medal"
+    }
+  },
+  {
+    "id": 3400,
+    "rarity": "Silver",
+    "name": {
+      "jp": "追憶の貝殻",
+      "en": "Shell of Reminiscence"
+    }
+  },
+  {
+    "id": 3410,
+    "rarity": "Silver",
+    "name": {
+      "jp": "枯淡勾玉",
+      "en": "Refined Magatama"
+    }
+  },
+  {
+    "id": 3420,
+    "rarity": "Silver",
+    "name": {
+      "jp": "永遠結氷",
+      "en": "Permafrost"
+    }
+  },
+  {
+    "id": 3430,
+    "rarity": "Silver",
+    "name": {
+      "jp": "巨人の指輪",
+      "en": "Giant's Ring"
+    }
+  },
+  {
+    "id": 3440,
+    "rarity": "Silver",
+    "name": {
+      "jp": "オーロラ鋼",
+      "en": "Aurora Steel"
+    }
+  },
+  {
+    "id": 3450,
+    "rarity": "Silver",
+    "name": {
+      "jp": "閑古鈴",
+      "en": "Old-fashioned Bell"
+    }
+  },
+  {
+    "id": 3460,
+    "rarity": "Silver",
+    "name": {
+      "jp": "禍罪の矢尻",
+      "en": "Arrowhead of Calamity"
+    }
+  },
+  {
+    "id": 3470,
+    "rarity": "{{{rarity}}}",
+    "name": {
+      "jp": "光銀の冠",
+      "en": "Crown of Radiant Silver"
+    }
+  },
+  {
+    "id": 3600,
+    "rarity": "Gold",
+    "name": {
+      "jp": "混沌の爪",
+      "en": "Claw of Chaos"
+    }
+  },
+  {
+    "id": 3610,
+    "rarity": "Gold",
+    "name": {
+      "jp": "蛮神の心臓",
+      "en": "Heart of the Foreign God"
+    }
+  },
+  {
+    "id": 3620,
+    "rarity": "Gold",
+    "name": {
+      "jp": "竜の逆鱗",
+      "en": "Dragon's Reverse Scale"
+    }
+  },
+  {
+    "id": 3630,
+    "rarity": "Gold",
+    "name": {
+      "jp": "精霊根",
+      "en": "Spirit Root"
+    }
+  },
+  {
+    "id": 3640,
+    "rarity": "Gold",
+    "name": {
+      "jp": "戦馬の幼角",
+      "en": "Warhorse's Young Horn"
+    }
+  },
+  {
+    "id": 3650,
+    "rarity": "Gold",
+    "name": {
+      "jp": "血の涙石",
+      "en": "Tearstone of Blood"
+    }
+  },
+  {
+    "id": 3660,
+    "rarity": "Gold",
+    "name": {
+      "jp": "黒獣脂",
+      "en": "Black Beast Grease"
+    }
+  },
+  {
+    "id": 3670,
+    "rarity": "Gold",
+    "name": {
+      "jp": "封魔のランプ",
+      "en": "Lamp of Evil-Sealing"
+    }
+  },
+  {
+    "id": 3680,
+    "rarity": "Gold",
+    "name": {
+      "jp": "智慧のスカラベ",
+      "en": "Scarab of Wisdom"
+    }
+  },
+  {
+    "id": 3690,
+    "rarity": "Gold",
+    "name": {
+      "jp": "原初の産毛",
+      "en": "Primordial Lanugo"
+    }
+  },
+  {
+    "id": 3700,
+    "rarity": "Gold",
+    "name": {
+      "jp": "呪獣胆石",
+      "en": "Cursed Beast Gallstone"
+    }
+  },
+  {
+    "id": 3710,
+    "rarity": "Gold",
+    "name": {
+      "jp": "奇奇神酒",
+      "en": "Mysterious Divine Wine"
+    }
+  },
+  {
+    "id": 3720,
+    "rarity": "Gold",
+    "name": {
+      "jp": "暁光炉心",
+      "en": "Daybreak Core"
+    }
+  },
+  {
+    "id": 3730,
+    "rarity": "Gold",
+    "name": {
+      "jp": "九十九鏡",
+      "en": "Tsukumo Mirror"
+    }
+  },
+  {
+    "id": 3740,
+    "rarity": "Gold",
+    "name": {
+      "jp": "真理の卵",
+      "en": "Egg of Truth"
+    }
+  },
+  {
+    "id": 3750,
+    "rarity": "{{{rarity}}}",
+    "name": {
+      "jp": "煌星のカケラ",
+      "en": "Comet Shard"
+    }
+  },
+  {
+    "id": 4000,
+    "rarity": "Silver",
+    "name": {
+      "jp": "セイバーピース",
+      "en": "Saber Piece"
+    }
+  },
+  {
+    "id": 4010,
+    "rarity": "Silver",
+    "name": {
+      "jp": "アーチャーピース",
+      "en": "Archer Piece"
+    }
+  },
+  {
+    "id": 4020,
+    "rarity": "Silver",
+    "name": {
+      "jp": "ランサーピース",
+      "en": "Lancer Piece"
+    }
+  },
+  {
+    "id": 4030,
+    "rarity": "Silver",
+    "name": {
+      "jp": "ライダーピース",
+      "en": "Rider Piece"
+    }
+  },
+  {
+    "id": 4040,
+    "rarity": "Silver",
+    "name": {
+      "jp": "キャスターピース",
+      "en": "Caster Piece"
+    }
+  },
+  {
+    "id": 4050,
+    "rarity": "Silver",
+    "name": {
+      "jp": "アサシンピース",
+      "en": "Assassin Piece"
+    }
+  },
+  {
+    "id": 4060,
+    "rarity": "Silver",
+    "name": {
+      "jp": "バーサーカーピース",
+      "en": "Berserker Piece"
+    }
+  },
+  {
+    "id": 4200,
+    "rarity": "Gold",
+    "name": {
+      "jp": "セイバーモニュメント",
+      "en": "Saber Monument"
+    }
+  },
+  {
+    "id": 4210,
+    "rarity": "Gold",
+    "name": {
+      "jp": "アーチャーモニュメント",
+      "en": "Archer Monument"
+    }
+  },
+  {
+    "id": 4220,
+    "rarity": "Gold",
+    "name": {
+      "jp": "ランサーモニュメント",
+      "en": "Lancer Monument"
+    }
+  },
+  {
+    "id": 4230,
+    "rarity": "Gold",
+    "name": {
+      "jp": "ライダーモニュメント",
+      "en": "Rider Monument"
+    }
+  },
+  {
+    "id": 4240,
+    "rarity": "Gold",
+    "name": {
+      "jp": "キャスターモニュメント",
+      "en": "Caster Monument"
+    }
+  },
+  {
+    "id": 4250,
+    "rarity": "Gold",
+    "name": {
+      "jp": "アサシンモニュメント",
+      "en": "Assassin Monument"
+    }
+  },
+  {
+    "id": 4260,
+    "rarity": "Gold",
+    "name": {
+      "jp": "バーサーカーモニュメント",
+      "en": "Berserker Monument"
+    }
+  },
+  {
+    "id": 4460,
+    "rarity": "Gold",
+    "name": {
+      "jp": "ティンクルキャンディー",
+      "en": "Twinkle Candy"
+    }
+  },
+  {
+    "id": 4470,
+    "rarity": "Gold",
+    "name": {
+      "jp": "黄金髑髏",
+      "en": "Golden Skull"
+    }
+  },
+  {
+    "id": 4480,
+    "rarity": "Gold",
+    "name": {
+      "jp": "樽入りチキン",
+      "en": "Bucket of Chicken"
+    }
+  },
+  {
+    "id": 4490,
+    "rarity": "Gold",
+    "name": {
+      "jp": "業物ナイフ",
+      "en": "Sharp Knife"
+    }
+  },
+  {
+    "id": 4500,
+    "rarity": "Gold",
+    "name": {
+      "jp": "水晶球",
+      "en": "Crystal Ball"
+    }
+  },
+  {
+    "id": 4510,
+    "rarity": "Gold",
+    "name": {
+      "jp": "ゴールデンベアライター",
+      "en": "Golden Bear Lighter"
+    }
+  },
+  {
+    "id": 4520,
+    "rarity": "Gold",
+    "name": {
+      "jp": "鈴鳴りの枝",
+      "en": "Bell-Ringing Branch"
+    }
+  },
+  {
+    "id": 4530,
+    "rarity": "Gold",
+    "name": {
+      "jp": "ハートのブレスレット",
+      "en": "Heart Bracelet"
+    }
+  },
+  {
+    "id": 4540,
+    "rarity": "Gold",
+    "name": {
+      "jp": "竜のオーブ",
+      "en": "Dragon Orb"
+    }
+  },
+  {
+    "id": 4550,
+    "rarity": "Gold",
+    "name": {
+      "jp": "ジル･ド･レェ人形",
+      "en": "Gilles de Rais Doll"
+    }
+  },
+  {
+    "id": 4560,
+    "rarity": "Gold",
+    "name": {
+      "jp": "蘭奢待",
+      "en": "Piece of Ranjatai"
+    }
+  },
+  {
+    "id": 4570,
+    "rarity": "Gold",
+    "name": {
+      "jp": "思い出のリボン",
+      "en": "Nostalgic Ribbon"
+    }
+  },
+  {
+    "id": 4579,
+    "rarity": "Gold",
+    "name": {
+      "jp": "明けの明星",
+      "en": "Morning Star"
+    }
+  },
+  {
+    "id": 4580,
+    "rarity": "Gold",
+    "name": {
+      "jp": "黄金の葦",
+      "en": "Golden Reed"
+    }
+  },
+  {
+    "id": 4581,
+    "rarity": "Gold",
+    "name": {
+      "jp": "予備リアクター",
+      "en": "Spare Reactor"
+    }
+  },
+  {
+    "id": 4582,
+    "rarity": "Gold",
+    "name": {
+      "jp": "ペレット",
+      "en": "B Pellets"
+    }
+  },
+  {
+    "id": 4583,
+    "rarity": "Gold",
+    "name": {
+      "jp": "サンタひげ",
+      "en": "Santa's Moustache"
+    }
+  },
+  {
+    "id": 4584,
+    "rarity": "Gold",
+    "name": {
+      "jp": "忘れじの葉",
+      "en": "Forgotten Leaf"
+    }
+  },
+  {
+    "id": 4585,
+    "rarity": "Gold",
+    "name": {
+      "jp": "漆黒の羽根ペン",
+      "en": "Jet-Black Quill"
+    }
+  }
+]
