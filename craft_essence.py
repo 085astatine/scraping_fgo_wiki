@@ -9,7 +9,7 @@ import lxml.html
 import requests
 
 
-class Reisou(NamedTuple):
+class CraftEssence(NamedTuple):
     id: int
     rarity: int
     name: str
@@ -17,9 +17,9 @@ class Reisou(NamedTuple):
 
 def parse_row(
         row: lxml.html.HtmlElement,
-        logger: Optional[logging.Logger] = None) -> List[Reisou]:
+        logger: Optional[logging.Logger] = None) -> List[CraftEssence]:
     logger = logger or logging.getLogger(__name__)
-    result: List[Reisou] = []
+    result: List[CraftEssence] = []
     # id, rarity
     id_cell = row.xpath('td[1]')[0].text_content().strip()
     rarity_cell = row.xpath('td[2]')[0].text_content().strip()
@@ -38,7 +38,7 @@ def parse_row(
                 int(id_cell),
                 int(rarity_cell),
                 name)
-        result.append(Reisou(
+        result.append(CraftEssence(
                 id=int(id_cell),
                 rarity=int(rarity_cell),
                 name=name))
@@ -49,22 +49,22 @@ def parse_row(
 
 def main(logger: Optional[logging.Logger] = None):
     logger = logger or logging.getLogger(__name__)
-    # reisou list
-    reisou_list: List[Reisou] = []
+    # craft essence list
+    craft_essences: List[CraftEssence] = []
     url = 'https://w.atwiki.jp/f_go/pages/32.html'
     response = requests.get(url)
     root = lxml.html.fromstring(response.text)
     xpath = '//*[@id="wikibody"]/div[3]/div/div/table/tbody/tr[td]'
     for row in root.xpath(xpath):
-        reisou_list.extend(parse_row(row, logger))
+        craft_essences.extend(parse_row(row, logger))
     # write as csv
-    with open('reisou.csv', mode='w') as csv:
-        for reisou in reisou_list:
-            csv.write('{0.id},{0.rarity},"{0.name}"\n'.format(reisou))
+    with open('craft_essences.csv', mode='w') as csv:
+        for craft_essence in craft_essences:
+            csv.write('{0.id},{0.rarity},"{0.name}"\n'.format(craft_essence))
 
 
 if __name__ == '__main__':
-    logger = logging.getLogger('reisou')
+    logger = logging.getLogger('craft_essence')
     logger.setLevel(logging.DEBUG)
     handler = logging.StreamHandler()
     handler.formatter = logging.Formatter(
