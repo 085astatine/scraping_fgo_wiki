@@ -20,19 +20,21 @@ def parse_row(
         row: lxml.html.HtmlElement,
         logger: Optional[logging.Logger] = None) -> Optional[CraftEssence]:
     logger = logger or logging.getLogger(__name__)
+    cells = row.xpath('td')
     # id, rarity
-    id_cell = row.xpath('td[1]')[0].text_content().strip()
-    rarity_cell = row.xpath('td[2]')[0].text_content().strip()
+    id_cell = cells[0].text_content().strip()
+    rarity_cell = cells[1].text_content().strip()
     logger.debug('id, rarity: %s, %s', id_cell, rarity_cell)
     # id range
     id_range_match = re.match('(?P<begin>[0-9]+)-(?P<end>[0-9]+)', id_cell)
     if id_range_match:
-        begin = int(id_range_match.group('begin'))
-        end = int(id_range_match.group('end'))
-        logger.debug('id range: %d - %d', begin, end)
+        logger.debug(
+                'id range: %d - %d',
+                int(id_range_match.group('begin')),
+                int(id_range_match.group('end')))
     elif id_cell.isdigit():
         logger.debug('id: %d', int(id_cell))
-        name = row.xpath('td[3]')[0].xpath('a')[0].text.strip()
+        name = cells[2].text_content().strip()
         result = CraftEssence(
                 id=int(id_cell),
                 rarity=int(rarity_cell),
