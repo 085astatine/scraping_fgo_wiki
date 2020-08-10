@@ -162,7 +162,7 @@ def main(logger: Optional[logging.Logger] = None):
     # sort by id
     craft_essences.sort(key=lambda x: x.id)
     # write as csv
-    with open('craft_essences.csv', mode='w') as csv:
+    with open('data/craft_essences.csv', mode='w') as csv:
         for craft_essence in craft_essences:
             csv.write('{0.id},{0.rarity},"{0.series}","{0.name}"\n'.format(
                     craft_essence))
