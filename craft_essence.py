@@ -5,7 +5,7 @@
 import logging
 import re
 import time
-from typing import NamedTuple, List, Optional
+from typing import NamedTuple, List, Optional, TypedDict
 import lxml.html
 import requests
 
@@ -14,6 +14,12 @@ class CraftEssence(NamedTuple):
     id: int
     rarity: int
     name: str
+
+
+class Subpage(TypedDict):
+    series: str
+    url: str
+    rarity: int
 
 
 def parse_row(
@@ -78,6 +84,33 @@ def parse_bond_craft_essences(
     return result
 
 
+def parse_subpage(
+        url: str,
+        series: str,
+        rarity: int,
+        logger: Optional[logging.Logger] = None) -> List[CraftEssence]:
+    logger = logger or logging.getLogger(__name__)
+    result: List[CraftEssence] = []
+    response = requests.get(url)
+    root = lxml.html.fromstring(response.text)
+    xpath = '//*[@id="wikibody"]//table/tbody/tr[td]'
+    for row in root.xpath(xpath):
+        cells = row.xpath('td')
+        if len(cells) < 2:
+            continue
+        id_match = re.match(
+            r'^No\.(?P<id>[0-9]+)$',
+            cells[0].text_content().strip())
+        if not id_match:
+            continue
+        result.append(CraftEssence(
+                id=int(id_match.group('id')),
+                rarity=rarity,
+                name=cells[1].text.strip()))
+        logger.info('%s: %s', series, result[-1])
+    return result
+
+
 def main(logger: Optional[logging.Logger] = None):
     logger = logger or logging.getLogger(__name__)
     sleep = 1.0
@@ -85,6 +118,30 @@ def main(logger: Optional[logging.Logger] = None):
     # bond craft essences
     craft_essences.extend(parse_bond_craft_essences(logger=logger))
     time.sleep(sleep)
+    # category: exclude 英霊肖像, 霊子肖像, 英霊祭装 due to format differences
+    subpages: List[Subpage] = [
+        {'series': '英霊肖像',
+         'url': 'https://w.atwiki.jp/f_go/pages/658.html',
+         'rarity': 4},
+        {'series': 'チョコレート',
+         'url': 'https://w.atwiki.jp/f_go/pages/696.html',
+         'rarity': 4},
+        {'series': '英霊正装',
+         'url': 'https://w.atwiki.jp/f_go/pages/2194.html',
+         'rarity': 4},
+        {'series': '英霊旅装',
+         'url': 'https://w.atwiki.jp/f_go/pages/3399.html',
+         'rarity': 4},
+        {'series': '英霊紀行',
+         'url': 'https://w.atwiki.jp/f_go/pages/4708.html',
+         'rarity': 4}]
+    for subpage in subpages:
+        craft_essences.extend(parse_subpage(
+                subpage['url'],
+                subpage['series'],
+                subpage['rarity'],
+                logger=logger))
+        time.sleep(sleep)
     # normal craft essence
     url = 'https://w.atwiki.jp/f_go/pages/32.html'
     response = requests.get(url)
