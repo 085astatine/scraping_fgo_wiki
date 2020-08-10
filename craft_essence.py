@@ -115,7 +115,7 @@ def parse_subpage(
     return result
 
 
-def main(logger: Optional[logging.Logger] = None):
+def main(logger: Optional[logging.Logger] = None) -> None:
     logger = logger or logging.getLogger(__name__)
     sleep = 1.0
     craft_essences: List[CraftEssence] = []
