@@ -14,6 +14,7 @@ class CraftEssence(NamedTuple):
     id: int
     rarity: int
     name: str
+    series: str
 
 
 class Subpage(TypedDict):
@@ -44,7 +45,8 @@ def parse_row(
         result = CraftEssence(
                 id=int(id_cell),
                 rarity=int(rarity_cell),
-                name=name)
+                name=name,
+                series='')
         logger.debug('parse row: %s', result)
         return result
     logger.debug('this row is not target')
@@ -79,7 +81,8 @@ def parse_bond_craft_essences(
         result.append(CraftEssence(
                 id=craft_essence_id,
                 rarity=craft_essence_rarity,
-                name=craft_essence_name))
+                name=craft_essence_name,
+                series='絆礼装'))
         logger.info('bond: %s', result[-1])
     return result
 
@@ -106,7 +109,8 @@ def parse_subpage(
         result.append(CraftEssence(
                 id=int(id_match.group('id')),
                 rarity=rarity,
-                name=cells[1].text.strip()))
+                name=cells[1].text.strip(),
+                series=series))
         logger.info('%s: %s', series, result[-1])
     return result
 
@@ -160,7 +164,8 @@ def main(logger: Optional[logging.Logger] = None):
     # write as csv
     with open('craft_essences.csv', mode='w') as csv:
         for craft_essence in craft_essences:
-            csv.write('{0.id},{0.rarity},"{0.name}"\n'.format(craft_essence))
+            csv.write('{0.id},{0.rarity},"{0.series}","{0.name}"\n'.format(
+                    craft_essence))
 
 
 if __name__ == '__main__':
