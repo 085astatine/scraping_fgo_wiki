@@ -244,7 +244,7 @@
     "rarity": "Bronze",
     "name": {
       "jp": "励振火薬",
-      "en": "Volatile Gunpowder"
+      "en": "Mystic Gunpowder"
     }
   },
   {
@@ -348,7 +348,7 @@
     "rarity": "Silver",
     "name": {
       "jp": "永遠結氷",
-      "en": "Permafrost"
+      "en": "Eternal Ice"
     }
   },
   {
@@ -385,10 +385,18 @@
   },
   {
     "id": 3470,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Silver",
     "name": {
       "jp": "光銀の冠",
       "en": "Crown of Radiant Silver"
+    }
+  },
+  {
+    "id": 3480,
+    "rarity": "Silver",
+    "name": {
+      "jp": "神脈霊子",
+      "en": "God Pulse"
     }
   },
   {
@@ -513,10 +521,18 @@
   },
   {
     "id": 3750,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Gold",
     "name": {
       "jp": "煌星のカケラ",
       "en": "Comet Shard"
+    }
+  },
+  {
+    "id": 3760,
+    "rarity": "Gold",
+    "name": {
+      "jp": "悠久の実",
+      "en": "Fig of Immortality"
     }
   },
   {
@@ -779,8 +795,72 @@
     "id": 4585,
     "rarity": "Gold",
     "name": {
+      "jp": "海援隊旗",
+      "en": "Kaientai Banner"
+    }
+  },
+  {
+    "id": 4586,
+    "rarity": "Gold",
+    "name": {
       "jp": "漆黒の羽根ペン",
       "en": "Jet-Black Quill"
+    }
+  },
+  {
+    "id": 4587,
+    "rarity": "Gold",
+    "name": {
+      "jp": "護法のステッキ",
+      "en": "Gohou's Cane"
+    }
+  },
+  {
+    "id": 4588,
+    "rarity": "Gold",
+    "name": {
+      "jp": "ククルカンマスク",
+      "en": "Kukulkán Mask"
+    }
+  },
+  {
+    "id": 4589,
+    "rarity": "Gold",
+    "name": {
+      "jp": "アッド・クッション",
+      "en": "Add Cushion"
+    }
+  },
+  {
+    "id": 4590,
+    "rarity": "Gold",
+    "name": {
+      "jp": "毘天の龍玉",
+      "en": "Bishamonten's Dragon Sphere"
+    }
+  },
+  {
+    "id": 4591,
+    "rarity": "Gold",
+    "name": {
+      "jp": "富嶽三十六氷",
+      "en": "Mount Fuji's 36 Ice Creams"
+    }
+  },
+  {
+    "id": 4592,
+    "rarity": "Gold",
+    "name": {
+      "jp": "献身のランプ",
+      "en": "Lamp of Devotion"
+    }
+  },
+  {
+    "id": 4593,
+    "rarity": "Gold",
+    "name": {
+      "jp": "遥かなる冒険のアストロラーベ",
+      "en": "Astrolabe of a Distant Adventure"
     }
   }
 ]
