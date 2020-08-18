@@ -456,7 +456,7 @@ def _normalize(
     return {'id': servant['id'],
             'name': {
                 'jp': servant['name_jp'],
-                'en': servant['name_en']},
+                'en': servant.get('name_en', servant['name_jp'])},
             'klass': servant['class'],
             'rarity': servant['rarity'],
             'ascension': [
