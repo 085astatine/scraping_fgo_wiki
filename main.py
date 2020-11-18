@@ -35,7 +35,7 @@ def main():
     logger.setLevel(logging.INFO)
     handler = logging.StreamHandler()
     handler.formatter = logging.Formatter(
-                fmt='%(asctime)s - %(name)s::%(levelname)s::%(message)s')
+                fmt='%(asctime)s %(name)s:%(levelname)s:%(message)s')
     logger.addHandler(handler)
     # arg parser
     parser = argparse.ArgumentParser(
