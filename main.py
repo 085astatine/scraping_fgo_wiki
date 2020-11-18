@@ -4,7 +4,28 @@
 import json
 import logging
 import pathlib
+from typing import List
 import lib
+
+
+def load_items(
+        path: pathlib.Path,
+        *,
+        force_update: bool = False) -> List[lib.Item]:
+    if not path.parent.exists():
+        path.parent.mkdir(parents=True)
+    if path.exists() and not force_update:
+        with path.open() as item_file:
+            items = json.load(item_file)
+    else:
+        items = lib.item_list()
+        with path.open(mode='w') as item_file:
+            json.dump(
+                    items,
+                    item_file,
+                    ensure_ascii=False,
+                    indent=2)
+    return items
 
 
 def main():
@@ -17,20 +38,9 @@ def main():
 
     force_update = True
     # item
-    item_path = pathlib.Path('data/items.json')
-    if not item_path.parent.exists():
-        item_path.parent.mkdir(parents=True)
-    if item_path.exists() and not force_update:
-        with item_path.open() as item_file:
-            items = json.load(item_file)
-    else:
-        items = lib.item.item_list()
-        with item_path.open(mode='w') as item_file:
-            json.dump(
-                    items,
-                    item_file,
-                    ensure_ascii=False,
-                    indent=2)
+    items = load_items(
+        pathlib.Path('data/items.json'),
+        force_update=force_update)
     # servant
     servant_path = pathlib.Path('data/servants.json')
     if not servant_path.parent.exists():
