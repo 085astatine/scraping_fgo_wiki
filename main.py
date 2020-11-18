@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import argparse
 import json
 import logging
 import pathlib
@@ -29,18 +30,41 @@ def load_items(
 
 
 def main():
+    # logger
     logger = logging.getLogger('lib')
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
     handler = logging.StreamHandler()
     handler.formatter = logging.Formatter(
-                fmt='%(name)s::%(levelname)s::%(message)s')
+                fmt='%(asctime)s - %(name)s::%(levelname)s::%(message)s')
     logger.addHandler(handler)
-
-    force_update = True
+    # arg parser
+    parser = argparse.ArgumentParser(
+            description='Fate/Grand Order scrayping')
+    parser.add_argument(
+            'mode',
+            choices=['dict', 'item', 'servant', 'merge'],
+            help='scraping target')
+    parser.add_argument(
+            '-v', '--verbose',
+            dest='verbose',
+            action='store_true',
+            help='set log level to debug')
+    parser.add_argument(
+            '-f', '--force',
+            dest='force',
+            action='store_true',
+            help='force update')
+    # option
+    option = parser.parse_args()
+    if option.verbose:
+        logger.setLevel(logging.DEBUG)
+    logger.debug('option: %s', option)
+    force_update = option.force
     # item
-    items = load_items(
-        pathlib.Path('data/items.json'),
-        force_update=force_update)
+    if option.mode in ['item', 'merge']:
+        items = load_items(
+                pathlib.Path('data/items.json'),
+                force_update=option.force or option.mode == 'item')
     # servant
     servant_path = pathlib.Path('data/servants.json')
     if not servant_path.parent.exists():
