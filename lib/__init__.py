@@ -2,7 +2,7 @@
 
 import logging
 from .item import Item, item_dict, item_list
-from .servant import servant_list
+from .servant import servant_list, skill_dict
 from .text import Dictionary, Text
 
 

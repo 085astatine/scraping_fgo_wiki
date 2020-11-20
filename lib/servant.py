@@ -431,24 +431,6 @@ def _parse_name_en(
             servant['name_en'] = name_en
 
 
-def _parse_skill_en() -> Dict[str, str]:
-    url = 'https://grandorder.wiki/Skills'
-    response = requests.get(url)
-    root = lxml.html.fromstring(response.text)
-    xpath = '//h1[text()="Skills"]/following-sibling::div//table/tr[td]'
-    translator: Dict[str, str] = {}
-    for row in root.xpath(xpath):
-        name_cell = row.xpath('td[1]')[0]
-        name_jp = name_cell.xpath('a/following-sibling::text()')[0].strip()
-        name_en = name_cell.xpath('a')[0].text.strip()
-        _logger.debug(
-                'skill: %s (%s)',
-                name_jp,
-                name_en)
-        translator[name_jp] = name_en
-    return translator
-
-
 def _normalize(
         servant: _Servant,
         items: List[Item],
@@ -483,3 +465,18 @@ def servant_list(items: List[Item]) -> List[Servant]:
     skill_translator = _parse_skill_en()
     return [_normalize(servant, items, skill_translator)
             for servant in servants]
+
+
+def skill_dict() -> Dict[str, Text]:
+    url = 'https://grandorder.wiki/Skills'
+    response = requests.get(url)
+    root = lxml.html.fromstring(response.text)
+    xpath = '//h1[text()="Skills"]/following-sibling::div//table/tr[td]'
+    result: Dict[str, Text] = {}
+    for row in root.xpath(xpath):
+        name_cell = row.xpath('td[1]')[0]
+        name_jp = name_cell.xpath('a/following-sibling::text()')[0].strip()
+        name_en = name_cell.xpath('a')[0].text.strip()
+        _logger.debug('skill: jp="%s" en="%s"', name_jp, name_en)
+        result[name_jp] = {'jp': name_jp, 'en': name_en}
+    return result
