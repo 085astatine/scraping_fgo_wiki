@@ -22,6 +22,39 @@ def save_json(
                 indent=2)
 
 
+def load_dict(
+        path: pathlib.Path,
+        *,
+        force_update: bool = False) -> lib.Dictionary:
+    # item
+    item_path = path.joinpath('item.json')
+    if item_path.exists() and not force_update:
+        with item_path.open() as item_file:
+            item_dict = json.load(item_file)
+    else:
+        item_dict = lib.item_dict()
+        save_json(item_path, item_dict)
+    # servant
+    servant_path = path.joinpath('servant.json')
+    if servant_path.exists() and not force_update:
+        with servant_path.open() as servant_file:
+            servant_dict = json.load(servant_file)
+    else:
+        servant_dict = lib.servant_dict()
+        save_json(servant_path, servant_dict)
+    # skill
+    skill_path = path.joinpath('skill.json')
+    if skill_path.exists() and not force_update:
+        with skill_path.open() as skill_file:
+            skill_dict = json.load(skill_file)
+    else:
+        skill_dict = lib.skill_dict()
+        save_json(skill_path, skill_dict)
+    return {'item': item_dict,
+            'servant': servant_dict,
+            'skill': skill_dict}
+
+
 def load_items(
         path: pathlib.Path,
         *,
@@ -66,6 +99,11 @@ def main():
         logger.setLevel(logging.DEBUG)
     logger.debug('option: %s', option)
     force_update = option.force
+    # dict
+    if option.mode in ['dict', 'merge']:
+        dictionary = load_dict(
+                pathlib.Path('data/dictionary/'),
+                force_update=option.force or option.mode == 'dict')
     # item
     if option.mode in ['item', 'merge']:
         items = load_items(
