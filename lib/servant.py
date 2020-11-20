@@ -467,6 +467,28 @@ def servant_list(items: List[Item]) -> List[Servant]:
             for servant in servants]
 
 
+def servant_dict() -> Dict[str, Text]:
+    url = 'https://grandorder.wiki/Servant_List'
+    response = requests.get(url)
+    root = lxml.html.fromstring(response.text)
+    xpath = '//table[@class="wikitable sortable"]//tr[td]'
+    result: Dict[str, Text] = {}
+    for row in reversed(root.xpath(xpath)):
+        cells = row.xpath('td')
+        servant_id = int(cells[0].text.strip())
+        name_en = cells[2].xpath('a')[0].text
+        name_jp = cells[2].xpath('br/following-sibling::text()')[0].strip()
+        if ';' in name_jp:
+            name_jp = name_jp.split(';')[0]
+        _logger.debug(
+                'servant %03d: jp="%s", en="%s"',
+                servant_id,
+                name_jp,
+                name_en)
+        result[name_jp] = {'jp': name_jp, 'en': name_en}
+    return result
+
+
 def skill_dict() -> Dict[str, Text]:
     url = 'https://grandorder.wiki/Skills'
     response = requests.get(url)
