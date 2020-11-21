@@ -18,13 +18,12 @@ _interval = 1.0
 _logger = logging.getLogger(__name__)
 
 
-Skill = TypedDict(
-        'Skill',
-        {'order': int,
-         'is_upgraded': bool,
-         'name': Text,
-         'rank': str,
-         'icon': int})
+class Skill(TypedDict):
+    order: int
+    is_upgraded: bool
+    name: str
+    rank: str
+    icon: int
 
 
 Resource = TypedDict(
@@ -55,25 +54,6 @@ Servant = TypedDict(
          'spiritron_dress': List[SpiritronDress],
          'skill': List[Skill],
          'skill_reinforcement': List[RequiredResource]})
-
-
-class _Skill(NamedTuple):
-    order: int
-    is_upgraded: bool
-    name: str
-    rank: str
-    icon: int
-
-    def normalize(self, translator: Dict[str, str]) -> Skill:
-        if self.name not in translator:
-            _logger.error('Skill name %s is not found', self.name)
-        return {'order': self.order,
-                'is_upgraded': self.is_upgraded,
-                'name': {
-                    'jp': self.name,
-                    'en': translator.get(self.name, self.name)},
-                'rank': self.rank,
-                'icon': self.icon}
 
 
 class _Resource(NamedTuple):
@@ -135,7 +115,7 @@ _Servant = TypedDict(
          'url': str,
          'ascension': List[_RequiredResource],
          'spiritron_dress': List[_SpiritronDress],
-         'skill': List[_Skill],
+         'skill': List[Skill],
          'skill_reinforcement': List[_RequiredResource]},
         total=False)
 
@@ -325,7 +305,7 @@ def _parse_ascension(
 
 
 def _parse_skill(
-        root: lxml.html.HtmlElement) -> List[_Skill]:
+        root: lxml.html.HtmlElement) -> List[Skill]:
     result = []
     xpath = (
             '//div[@id="wikibody"]'
@@ -367,7 +347,7 @@ def _parse_skill(
         else:
             icon_id = 0
             _logger.warning('skill icon not found: %s', icon_text)
-        result.append(_Skill(
+        result.append(Skill(
                 order=order,
                 is_upgraded=is_upgraded,
                 name=name,
