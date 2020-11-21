@@ -26,10 +26,9 @@ class Skill(TypedDict):
     icon: int
 
 
-Resource = TypedDict(
-        'Resource',
-        {'id': int,
-         'piece': int})
+class Resource(TypedDict):
+    name: str
+    piece: int
 
 
 RequiredResource = TypedDict(
@@ -56,29 +55,16 @@ Servant = TypedDict(
          'skill_reinforcement': List[RequiredResource]})
 
 
-class _Resource(NamedTuple):
-    name: str
-    piece: int
-
-    def normalize(self, items: List[Item]) -> Resource:
-        item_id = [item['id'] for item in items
-                   if item['name']['jp'] == self.name]
-        if len(item_id) != 1:
-            _logger.error('item ID error: %s', self.name)
-        return {'id': item_id[0] if item_id else 0,
-                'piece': self.piece}
-
-
 class _RequiredResource(NamedTuple):
     level: int
-    resources: List[_Resource]
+    resources: List[Resource]
 
     def normalize(self, items: List[Item]) -> RequiredResource:
         qp = 0
         resources: List[Resource] = []
         for resource in self.resources:
-            if resource.name == 'QP':
-                qp = resource.piece
+            if resource['name'] == 'QP':
+                qp = resource['piece']
             else:
                 resources.append(resource.normalize(items))
         return {'qp': qp,
@@ -87,14 +73,14 @@ class _RequiredResource(NamedTuple):
 
 class _SpiritronDress(NamedTuple):
     name: str
-    resources: List[_Resource]
+    resources: List[Resource]
 
     def normalize(self, items: List[Item]) -> SpiritronDress:
         qp = 0
         resources: List[Resource] = []
         for resource in self.resources:
-            if resource.name == 'QP':
-                qp = resource.piece
+            if resource['name'] == 'QP':
+                qp = resource['piece']
             else:
                 resources.append(resource.normalize(items))
         return {'name': {
@@ -131,7 +117,7 @@ class _RequiredResourceParser:
         self._result: List[_RequiredResource] = []
         self._level = 0
         self._next_level = 0
-        self._resources: List[_Resource] = []
+        self._resources: List[Resource] = []
 
     def push(self, cell: lxml.html.HtmlElement):
         text = cell.text_content().strip()
@@ -178,18 +164,18 @@ class _RequiredResourceParser:
         return False
 
 
-def _parse_resource(text: str) -> List[_Resource]:
-    result: List[_Resource] = []
+def _parse_resource(text: str) -> List[Resource]:
+    result: List[Resource] = []
     regexp = re.compile(r'(?P<item>.+),(x|)(?P<piece>[0-9万]+)')
     match = regexp.search(text)
     while match:
-        resource = _Resource(
+        resource = Resource(
                 name=match.group('item'),
                 piece=int(match.group('piece').replace('万', '0000')))
         _logger.debug(
                 'resource %s x %d',
-                resource.name,
-                resource.piece)
+                resource['name'],
+                resource['piece'])
         result.append(resource)
         text = regexp.sub('', text, count=1)
         match = regexp.search(text)
@@ -382,7 +368,7 @@ def _parse_spiritron_dress(
             '/table')
     for table in root.xpath(xpath):
         name = table.xpath('tbody/tr[1]/th')[0].text.strip()
-        resources: List[_Resource] = []
+        resources: List[Resource] = []
         for cell in table.xpath(
                 'tbody/tr[td[1 and normalize-space()="必要素材"]]'
                 '/td[position() > 1]'):
