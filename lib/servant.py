@@ -36,10 +36,9 @@ class ResourceSet(TypedDict):
     resources: List[Resource]
 
 
-SpiritronDress = TypedDict(
-        'SpiritronDress',
-        {'name': Text,
-         'required': ResourceSet})
+class SpiritronDress(TypedDict):
+    name: str
+    resource: ResourceSet
 
 
 Servant = TypedDict(
@@ -54,26 +53,6 @@ Servant = TypedDict(
          'skill_reinforcement': List[ResourceSet]})
 
 
-class _SpiritronDress(NamedTuple):
-    name: str
-    resources: List[Resource]
-
-    def normalize(self, items: List[Item]) -> SpiritronDress:
-        qp = 0
-        resources: List[Resource] = []
-        for resource in self.resources:
-            if resource['name'] == 'QP':
-                qp = resource['piece']
-            else:
-                resources.append(resource.normalize(items))
-        return {'name': {
-                    'jp': self.name,
-                    'en': self.name},
-                'required': {
-                    'qp': qp,
-                    'resources': resources}}
-
-
 _Servant = TypedDict(
         '_Servant',
         {'id': int,
@@ -83,7 +62,7 @@ _Servant = TypedDict(
          'name_en': str,
          'url': str,
          'ascension': List[ResourceSet],
-         'spiritron_dress': List[_SpiritronDress],
+         'spiritron_dress': List[SpiritronDress],
          'skill': List[Skill],
          'skill_reinforcement': List[ResourceSet]},
         total=False)
@@ -348,8 +327,8 @@ def _parse_skill_reinforcement(
 
 
 def _parse_spiritron_dress(
-        root: lxml.html.HtmlElement) -> List[_SpiritronDress]:
-    result: List[_SpiritronDress] = []
+        root: lxml.html.HtmlElement) -> List[SpiritronDress]:
+    result: List[SpiritronDress] = []
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="霊衣開放"]'
@@ -364,9 +343,9 @@ def _parse_spiritron_dress(
                 'tbody/tr[td[1 and normalize-space()="必要素材"]]'
                 '/td[position() > 1]'):
             resources.extend(_parse_resource(cell.text_content()))
-        result.append(_SpiritronDress(
+        result.append(SpiritronDress(
                 name=name,
-                resources=resources))
+                resource=_to_resource_set(resources)))
     return result
 
 
