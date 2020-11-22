@@ -58,13 +58,13 @@ class _ServantTable(TypedDict):
     url: str
 
 
-class _RequiredResourceParserMode(enum.Enum):
+class _ResourceSetParserMode(enum.Enum):
     ASCENSION = enum.auto()
     SKILL_REINFORCEMENT = enum.auto()
 
 
-class _RequiredResourceParser:
-    def __init__(self, mode: _RequiredResourceParserMode) -> None:
+class _ResourceSetParser:
+    def __init__(self, mode: _ResourceSetParserMode) -> None:
         self._mode = mode
         self._result: List[ResourceSet] = []
         self._level = 0
@@ -94,10 +94,9 @@ class _RequiredResourceParser:
     def _parse_level(self, text) -> bool:
         levels: Optional[Tuple[int, int]] = None
         # parse
-        Mode = _RequiredResourceParserMode
-        if self._mode is Mode.ASCENSION:
+        if self._mode is _ResourceSetParserMode.ASCENSION:
             levels = _parse_ascension_level(text)
-        if self._mode is Mode.SKILL_REINFORCEMENT:
+        if self._mode is _ResourceSetParserMode.SKILL_REINFORCEMENT:
             levels = _parse_skill_level(text)
         # pack
         if levels is not None:
@@ -247,8 +246,8 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
 
 def _parse_ascension(
         root: lxml.html.HtmlElement) -> List[ResourceSet]:
-    parser = _RequiredResourceParser(
-            mode=_RequiredResourceParserMode.ASCENSION)
+    parser = _ResourceSetParser(
+            mode=_ResourceSetParserMode.ASCENSION)
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="霊基再臨"]'
@@ -313,8 +312,8 @@ def _parse_skill(
 
 def _parse_skill_reinforcement(
         root: lxml.html.HtmlElement) -> List[ResourceSet]:
-    parser = _RequiredResourceParser(
-            mode=_RequiredResourceParserMode.SKILL_REINFORCEMENT)
+    parser = _ResourceSetParser(
+            mode=_ResourceSetParserMode.SKILL_REINFORCEMENT)
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="スキル強化"]'
