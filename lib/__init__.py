@@ -2,6 +2,7 @@
 
 import logging
 from .item import Item, item_dict, item_list
+from .io import load_json, save_json
 from .servant import servant_dict, servant_list, skill_dict
 from .text import Dictionary, Text
 
