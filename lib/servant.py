@@ -31,16 +31,15 @@ class Resource(TypedDict):
     piece: int
 
 
-RequiredResource = TypedDict(
-        'RequiredResource',
-        {'qp': int,
-         'resources': List[Resource]})
+class ResourceSet(TypedDict):
+    qp: int
+    resources: List[Resource]
 
 
 SpiritronDress = TypedDict(
         'SpiritronDress',
         {'name': Text,
-         'required': RequiredResource})
+         'required': ResourceSet})
 
 
 Servant = TypedDict(
@@ -49,26 +48,10 @@ Servant = TypedDict(
          'name': Text,
          'klass': str,
          'rarity': int,
-         'ascension': List[RequiredResource],
+         'ascension': List[ResourceSet],
          'spiritron_dress': List[SpiritronDress],
          'skill': List[Skill],
-         'skill_reinforcement': List[RequiredResource]})
-
-
-class _RequiredResource(NamedTuple):
-    level: int
-    resources: List[Resource]
-
-    def normalize(self, items: List[Item]) -> RequiredResource:
-        qp = 0
-        resources: List[Resource] = []
-        for resource in self.resources:
-            if resource['name'] == 'QP':
-                qp = resource['piece']
-            else:
-                resources.append(resource.normalize(items))
-        return {'qp': qp,
-                'resources': resources}
+         'skill_reinforcement': List[ResourceSet]})
 
 
 class _SpiritronDress(NamedTuple):
@@ -99,10 +82,10 @@ _Servant = TypedDict(
          'name_jp': str,
          'name_en': str,
          'url': str,
-         'ascension': List[_RequiredResource],
+         'ascension': List[ResourceSet],
          'spiritron_dress': List[_SpiritronDress],
          'skill': List[Skill],
-         'skill_reinforcement': List[_RequiredResource]},
+         'skill_reinforcement': List[ResourceSet]},
         total=False)
 
 
@@ -114,7 +97,7 @@ class _RequiredResourceParserMode(enum.Enum):
 class _RequiredResourceParser:
     def __init__(self, mode: _RequiredResourceParserMode) -> None:
         self._mode = mode
-        self._result: List[_RequiredResource] = []
+        self._result: List[ResourceSet] = []
         self._level = 0
         self._next_level = 0
         self._resources: List[Resource] = []
@@ -129,15 +112,13 @@ class _RequiredResourceParser:
         # resource
         self._resources.extend(_parse_resource(text))
 
-    def result(self) -> List[_RequiredResource]:
+    def result(self) -> List[ResourceSet]:
         if self._level < self._next_level:
             self._pack()
         return self._result
 
     def _pack(self) -> None:
-        self._result.append(_RequiredResource(
-                level=self._level,
-                resources=self._resources))
+        self._result.append(_to_resource_set(self._resources))
         self._level = self._next_level
         self._resources = []
 
@@ -162,6 +143,16 @@ class _RequiredResourceParser:
             self._next_level = next_level
             return True
         return False
+
+
+def _to_resource_set(resources: List[Resource]) -> ResourceSet:
+    result = ResourceSet(qp=0, resources=[])
+    for resource in resources:
+        if resource['name'] == 'QP':
+            result['qp'] += resource['piece']
+        else:
+            result['resources'].append(resource)
+    return result
 
 
 def _parse_resource(text: str) -> List[Resource]:
@@ -277,7 +268,7 @@ def _parse_servant_page(servant: _Servant):
 
 
 def _parse_ascension(
-        root: lxml.html.HtmlElement) -> List[_RequiredResource]:
+        root: lxml.html.HtmlElement) -> List[ResourceSet]:
     parser = _RequiredResourceParser(
             mode=_RequiredResourceParserMode.ASCENSION)
     xpath = (
@@ -343,7 +334,7 @@ def _parse_skill(
 
 
 def _parse_skill_reinforcement(
-        root: lxml.html.HtmlElement) -> List[_RequiredResource]:
+        root: lxml.html.HtmlElement) -> List[ResourceSet]:
     parser = _RequiredResourceParser(
             mode=_RequiredResourceParserMode.SKILL_REINFORCEMENT)
     xpath = (
