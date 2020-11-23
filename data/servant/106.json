@@ -1,0 +1,167 @@
+{
+  "id": 106,
+  "name": "ジャンヌ・ダルク〔オルタ〕",
+  "klass": "Avenger",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 10
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "鳳凰の羽根",
+          "piece": 10
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "血の涙石",
+          "piece": 10
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "自己改造",
+      "rank": "EX",
+      "icon": 303
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "竜の魔女",
+      "rank": "EX",
+      "icon": 300
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "うたかたの夢",
+      "rank": "A",
+      "icon": 306
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "蛇の宝玉",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "戦馬の幼角",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "蛮神の心臓",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

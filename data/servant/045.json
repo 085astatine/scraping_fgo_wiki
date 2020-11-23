@@ -1,0 +1,191 @@
+{
+  "id": 45,
+  "name": "マタ・ハリ",
+  "klass": "Assassin",
+  "rarity": 1,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 4
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 2
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 4
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 4
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "諜報",
+      "rank": "A++",
+      "icon": 604
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "フェロモン",
+      "rank": "B",
+      "icon": 509
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "ダブルクロス",
+      "rank": "B",
+      "icon": 512
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 2
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "鳳凰の羽根",
+          "piece": 3
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 6
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

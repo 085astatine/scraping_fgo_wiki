@@ -1,0 +1,191 @@
+{
+  "id": 53,
+  "name": "アステリオス",
+  "klass": "Berserker",
+  "rarity": 1,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 4
+        },
+        {
+          "name": "八連双晶",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 2
+        },
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "怪力",
+      "rank": "A",
+      "icon": 300
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "天性の魔",
+      "rank": "A++",
+      "icon": 401
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "深淵のラブリュス",
+      "rank": "C",
+      "icon": 311
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 4
+        },
+        {
+          "name": "英雄の証",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 2
+        },
+        {
+          "name": "英雄の証",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 4
+        },
+        {
+          "name": "八連双晶",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 4
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

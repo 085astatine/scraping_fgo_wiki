@@ -1,0 +1,198 @@
+{
+  "id": 33,
+  "name": "ハンス・クリスチャン・アンデルセン",
+  "klass": "Caster",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 6
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "人間観察",
+      "rank": "A",
+      "icon": 303
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "高速詠唱",
+      "rank": "E",
+      "icon": 601
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "無辜の怪物",
+      "rank": "D",
+      "icon": 605
+    },
+    {
+      "order": 3,
+      "is_upgraded": true,
+      "name": "人魚姫の愛",
+      "rank": "EX",
+      "icon": 605
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 6
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 3
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 6
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 5
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 18
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

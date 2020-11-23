@@ -1,0 +1,170 @@
+{
+  "id": 1,
+  "name": "マシュ・キリエライト",
+  "klass": "Shielder",
+  "rarity": 3,
+  "ascension": [
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "spiritron_dress": [
+    {
+      "name": "オルテナウス",
+      "resource": {
+        "qp": 0,
+        "resources": []
+      }
+    },
+    {
+      "name": "常夏の水着",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "八連双晶",
+            "piece": 5
+          },
+          {
+            "name": "大騎士勲章",
+            "piece": 5
+          },
+          {
+            "name": "鳳凰の羽根",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "今は脆き雪花の壁",
+      "rank": "",
+      "icon": 400
+    },
+    {
+      "order": 1,
+      "is_upgraded": true,
+      "name": "誉れ堅き雪花の壁",
+      "rank": "",
+      "icon": 400
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "時に煙る白亜の壁",
+      "rank": "",
+      "icon": 403
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "奮い断つ決意の盾",
+      "rank": "",
+      "icon": 700
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

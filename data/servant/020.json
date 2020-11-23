@@ -1,0 +1,198 @@
+{
+  "id": 20,
+  "name": "クー・フーリン〔プロトタイプ〕",
+  "klass": "Lancer",
+  "rarity": 3,
+  "ascension": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 8
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 8
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 8
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 4
+        },
+        {
+          "name": "八連双晶",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "ルーン魔術",
+      "rank": "B",
+      "icon": 303
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "矢避けの加護",
+      "rank": "B",
+      "icon": 402
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "獣殺し",
+      "rank": "B+",
+      "icon": 301
+    },
+    {
+      "order": 3,
+      "is_upgraded": true,
+      "name": "獣殺し",
+      "rank": "B++",
+      "icon": 301
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 8
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 8
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 13
+        },
+        {
+          "name": "英雄の証",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 36
+        },
+        {
+          "name": "八連双晶",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

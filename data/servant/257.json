@@ -1,0 +1,191 @@
+{
+  "id": 257,
+  "name": "バーソロミュー・ロバーツ",
+  "klass": "Rider",
+  "rarity": 1,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 4
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 2
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 2
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 4
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "嵐の航海者",
+      "rank": "A+",
+      "icon": 302
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "海賊紳士",
+      "rank": "A",
+      "icon": 537
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "疾風の掠奪",
+      "rank": "A",
+      "icon": 304
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 4
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 2
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 4
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 6
+        },
+        {
+          "name": "励振火薬",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

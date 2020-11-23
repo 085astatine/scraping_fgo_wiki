@@ -1,0 +1,191 @@
+{
+  "id": 63,
+  "name": "ダビデ",
+  "klass": "Archer",
+  "rarity": 3,
+  "ascension": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 8
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 7
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 8
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 3
+        },
+        {
+          "name": "八連双晶",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "神の加護",
+      "rank": "A",
+      "icon": 400
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "治癒の竪琴",
+      "rank": "B",
+      "icon": 608
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "カリスマ",
+      "rank": "B",
+      "icon": 300
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 8
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 4
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 8
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 13
+        },
+        {
+          "name": "英雄の証",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 36
+        },
+        {
+          "name": "八連双晶",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

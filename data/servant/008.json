@@ -1,0 +1,205 @@
+{
+  "id": 8,
+  "name": "アルテラ",
+  "klass": "Saber",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 12
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 6
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "軍略",
+      "rank": "B",
+      "icon": 302
+    },
+    {
+      "order": 1,
+      "is_upgraded": true,
+      "name": "神の鞭",
+      "rank": "A",
+      "icon": 302
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "天性の肉体",
+      "rank": "D",
+      "icon": 401
+    },
+    {
+      "order": 2,
+      "is_upgraded": true,
+      "name": "天性の肉体",
+      "rank": "EX",
+      "icon": 401
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "星の紋章",
+      "rank": "EX",
+      "icon": 300
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 12
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 12
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 20
+        },
+        {
+          "name": "凶骨",
+          "piece": 18
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 54
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

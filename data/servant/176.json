@@ -1,0 +1,191 @@
+{
+  "id": 176,
+  "name": "フランケンシュタイン",
+  "klass": "Saber",
+  "rarity": 4,
+  "ascension": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        },
+        {
+          "name": "八連双晶",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 10
+        },
+        {
+          "name": "八連双晶",
+          "piece": 8
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "サマー・ガルバニズム",
+      "rank": "B+",
+      "icon": 602
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "虚ろなる酷暑への嘆き",
+      "rank": "A",
+      "icon": 503
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "ほどほどロード",
+      "rank": "C",
+      "icon": 300
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 10
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 4
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 8
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 15
+        },
+        {
+          "name": "魔術髄液",
+          "piece": 60
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

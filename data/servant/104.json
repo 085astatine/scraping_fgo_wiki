@@ -1,0 +1,191 @@
+{
+  "id": 104,
+  "name": "ジェロニモ",
+  "klass": "Caster",
+  "rarity": 3,
+  "ascension": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 8
+        },
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 8
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 8
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 7
+        },
+        {
+          "name": "八連双晶",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "血塗れの悪魔",
+      "rank": "B",
+      "icon": 306
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "シャーマニズム",
+      "rank": "B",
+      "icon": 305
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "守護の獣",
+      "rank": "B",
+      "icon": 304
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 8
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 8
+        },
+        {
+          "name": "英雄の証",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 20
+        },
+        {
+          "name": "凶骨",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 36
+        },
+        {
+          "name": "精霊根",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

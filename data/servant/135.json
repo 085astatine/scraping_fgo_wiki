@@ -1,0 +1,251 @@
+{
+  "id": 135,
+  "name": "マルタ",
+  "klass": "Ruler",
+  "rarity": 4,
+  "ascension": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 4
+        },
+        {
+          "name": "ライダーピース",
+          "piece": 4
+        },
+        {
+          "name": "バーサーカーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 4
+        },
+        {
+          "name": "ランサーピース",
+          "piece": 4
+        },
+        {
+          "name": "キャスターピース",
+          "piece": 4
+        },
+        {
+          "name": "アサシンピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "ライダーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "ランサーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "キャスターモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "アサシンモニュメント",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "水辺の聖女",
+      "rank": "B+",
+      "icon": 601
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "天性の肉体（海）",
+      "rank": "A",
+      "icon": 411
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "ヤコブの手足",
+      "rank": "B",
+      "icon": 301
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 4
+        },
+        {
+          "name": "騎の輝石",
+          "piece": 4
+        },
+        {
+          "name": "狂の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 4
+        },
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        },
+        {
+          "name": "術の輝石",
+          "piece": 4
+        },
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 4
+        },
+        {
+          "name": "騎の魔石",
+          "piece": 4
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 4
+        },
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        },
+        {
+          "name": "術の魔石",
+          "piece": 4
+        },
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 4
+        },
+        {
+          "name": "騎の秘石",
+          "piece": 4
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 4
+        },
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "血の涙石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "竜の逆鱗",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

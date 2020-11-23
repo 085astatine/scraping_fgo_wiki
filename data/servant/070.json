@@ -1,0 +1,198 @@
+{
+  "id": 70,
+  "name": "スカサハ",
+  "klass": "Lancer",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 12
+        },
+        {
+          "name": "凶骨",
+          "piece": 22
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 20
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 6
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "魔境の智慧",
+      "rank": "A+",
+      "icon": 402
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "原初のルーン",
+      "rank": "",
+      "icon": 304
+    },
+    {
+      "order": 2,
+      "is_upgraded": true,
+      "name": "原初のルーン",
+      "rank": "",
+      "icon": 304
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "神殺し",
+      "rank": "B",
+      "icon": 301
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 12
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 5
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 12
+        },
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 29
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "鳳凰の羽根",
+          "piece": 15
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

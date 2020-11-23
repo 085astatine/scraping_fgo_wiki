@@ -1,0 +1,191 @@
+{
+  "id": 35,
+  "name": "メフィストフェレス",
+  "klass": "Caster",
+  "rarity": 3,
+  "ascension": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 8
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 7
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 8
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 3
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "呪術",
+      "rank": "A",
+      "icon": 513
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "無辜の怪物",
+      "rank": "B",
+      "icon": 605
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "道化の大笑",
+      "rank": "A+",
+      "icon": 521
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 8
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 8
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 13
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 12
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

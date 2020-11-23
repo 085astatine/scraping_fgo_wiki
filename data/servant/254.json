@@ -1,0 +1,191 @@
+{
+  "id": 254,
+  "name": "イアソン",
+  "klass": "Saber",
+  "rarity": 1,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 4
+        },
+        {
+          "name": "竜の牙",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 2
+        },
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 3
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 3
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "求めし金羊の皮",
+      "rank": "",
+      "icon": 600
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "虎口にて閃く",
+      "rank": "A",
+      "icon": 402
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "友と征く遙かなる海路",
+      "rank": "B++",
+      "icon": 300
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 4
+        },
+        {
+          "name": "英雄の証",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 2
+        },
+        {
+          "name": "英雄の証",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 4
+        },
+        {
+          "name": "竜の牙",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 8
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "巨人の指輪",
+          "piece": 6
+        },
+        {
+          "name": "真理の卵",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

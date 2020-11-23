@@ -1,0 +1,184 @@
+{
+  "id": 189,
+  "name": "刑部姫",
+  "klass": "Assassin",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 20
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 10
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "変化",
+      "rank": "A+",
+      "icon": 400
+    },
+    {
+      "order": 1,
+      "is_upgraded": true,
+      "name": "四神地相（白鷺）",
+      "rank": "A",
+      "icon": 400
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 12
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 5
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 12
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "奇奇神酒",
+          "piece": 8
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": 165,
+  "name": "鈴鹿御前",
+  "klass": "Saber",
+  "rarity": 4,
+  "ascension": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 10
+        },
+        {
+          "name": "凶骨",
+          "piece": 18
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 7
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "神通力",
+      "rank": "B",
+      "icon": 306
+    },
+    {
+      "order": 1,
+      "is_upgraded": true,
+      "name": "神通力（ＪＫ）",
+      "rank": "B+",
+      "icon": 306
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "魔眼",
+      "rank": "B+",
+      "icon": 509
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "才知の祝福",
+      "rank": "C",
+      "icon": 607
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 10
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 10
+        },
+        {
+          "name": "凶骨",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 24
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 15
+        },
+        {
+          "name": "精霊根",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

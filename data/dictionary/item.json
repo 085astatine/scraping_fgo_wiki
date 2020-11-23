@@ -1,0 +1,434 @@
+{
+  "剣の輝石": {
+    "jp": "剣の輝石",
+    "en": "Gem of Saber"
+  },
+  "弓の輝石": {
+    "jp": "弓の輝石",
+    "en": "Gem of Archer"
+  },
+  "槍の輝石": {
+    "jp": "槍の輝石",
+    "en": "Gem of Lancer"
+  },
+  "騎の輝石": {
+    "jp": "騎の輝石",
+    "en": "Gem of Rider"
+  },
+  "術の輝石": {
+    "jp": "術の輝石",
+    "en": "Gem of Caster"
+  },
+  "殺の輝石": {
+    "jp": "殺の輝石",
+    "en": "Gem of Assassin"
+  },
+  "狂の輝石": {
+    "jp": "狂の輝石",
+    "en": "Gem of Berserker"
+  },
+  "剣の魔石": {
+    "jp": "剣の魔石",
+    "en": "Magic Gem of Saber"
+  },
+  "弓の魔石": {
+    "jp": "弓の魔石",
+    "en": "Magic Gem of Archer"
+  },
+  "槍の魔石": {
+    "jp": "槍の魔石",
+    "en": "Magic Gem of Lancer"
+  },
+  "騎の魔石": {
+    "jp": "騎の魔石",
+    "en": "Magic Gem of Rider"
+  },
+  "術の魔石": {
+    "jp": "術の魔石",
+    "en": "Magic Gem of Caster"
+  },
+  "殺の魔石": {
+    "jp": "殺の魔石",
+    "en": "Magic Gem of Assassin"
+  },
+  "狂の魔石": {
+    "jp": "狂の魔石",
+    "en": "Magic Gem of Berserker"
+  },
+  "剣の秘石": {
+    "jp": "剣の秘石",
+    "en": "Secret Gem of Saber"
+  },
+  "弓の秘石": {
+    "jp": "弓の秘石",
+    "en": "Secret Gem of Archer"
+  },
+  "槍の秘石": {
+    "jp": "槍の秘石",
+    "en": "Secret Gem of Lancer"
+  },
+  "騎の秘石": {
+    "jp": "騎の秘石",
+    "en": "Secret Gem of Rider"
+  },
+  "術の秘石": {
+    "jp": "術の秘石",
+    "en": "Secret Gem of Caster"
+  },
+  "殺の秘石": {
+    "jp": "殺の秘石",
+    "en": "Secret Gem of Assassin"
+  },
+  "狂の秘石": {
+    "jp": "狂の秘石",
+    "en": "Secret Gem of Berserker"
+  },
+  "伝承結晶": {
+    "jp": "伝承結晶",
+    "en": "Crystallized Lore"
+  },
+  "英雄の証": {
+    "jp": "英雄の証",
+    "en": "Proof of Hero"
+  },
+  "凶骨": {
+    "jp": "凶骨",
+    "en": "Evil Bone"
+  },
+  "竜の牙": {
+    "jp": "竜の牙",
+    "en": "Dragon Fang"
+  },
+  "虚影の塵": {
+    "jp": "虚影の塵",
+    "en": "Void's Dust"
+  },
+  "愚者の鎖": {
+    "jp": "愚者の鎖",
+    "en": "Fool's Chain"
+  },
+  "万死の毒針": {
+    "jp": "万死の毒針",
+    "en": "Deadly Poisonous Needle"
+  },
+  "魔術髄液": {
+    "jp": "魔術髄液",
+    "en": "Mystic Spinal Fluid"
+  },
+  "宵哭きの鉄杭": {
+    "jp": "宵哭きの鉄杭",
+    "en": "Stake of Wailing Night"
+  },
+  "励振火薬": {
+    "jp": "励振火薬",
+    "en": "Mystic Gunpowder"
+  },
+  "世界樹の種": {
+    "jp": "世界樹の種",
+    "en": "Seed of Yggdrasil"
+  },
+  "ゴーストランタン": {
+    "jp": "ゴーストランタン",
+    "en": "Ghost Lantern"
+  },
+  "八連双晶": {
+    "jp": "八連双晶",
+    "en": "Octuplet Crystals"
+  },
+  "蛇の宝玉": {
+    "jp": "蛇の宝玉",
+    "en": "Serpent Jewel"
+  },
+  "鳳凰の羽根": {
+    "jp": "鳳凰の羽根",
+    "en": "Phoenix Feather"
+  },
+  "無間の歯車": {
+    "jp": "無間の歯車",
+    "en": "Eternal Gear"
+  },
+  "禁断の頁": {
+    "jp": "禁断の頁",
+    "en": "Forbidden Page"
+  },
+  "ホムンクルスベビー": {
+    "jp": "ホムンクルスベビー",
+    "en": "Homunculus Baby"
+  },
+  "隕蹄鉄": {
+    "jp": "隕蹄鉄",
+    "en": "Meteor Horseshoe"
+  },
+  "大騎士勲章": {
+    "jp": "大騎士勲章",
+    "en": "Great Knight Medal"
+  },
+  "追憶の貝殻": {
+    "jp": "追憶の貝殻",
+    "en": "Shell of Reminiscence"
+  },
+  "枯淡勾玉": {
+    "jp": "枯淡勾玉",
+    "en": "Refined Magatama"
+  },
+  "永遠結氷": {
+    "jp": "永遠結氷",
+    "en": "Eternal Ice"
+  },
+  "巨人の指輪": {
+    "jp": "巨人の指輪",
+    "en": "Giant's Ring"
+  },
+  "オーロラ鋼": {
+    "jp": "オーロラ鋼",
+    "en": "Aurora Steel"
+  },
+  "閑古鈴": {
+    "jp": "閑古鈴",
+    "en": "Old-fashioned Bell"
+  },
+  "禍罪の矢尻": {
+    "jp": "禍罪の矢尻",
+    "en": "Arrowhead of Calamity"
+  },
+  "光銀の冠": {
+    "jp": "光銀の冠",
+    "en": "Crown of Radiant Silver"
+  },
+  "神脈霊子": {
+    "jp": "神脈霊子",
+    "en": "God Pulse"
+  },
+  "混沌の爪": {
+    "jp": "混沌の爪",
+    "en": "Claw of Chaos"
+  },
+  "蛮神の心臓": {
+    "jp": "蛮神の心臓",
+    "en": "Heart of the Foreign God"
+  },
+  "竜の逆鱗": {
+    "jp": "竜の逆鱗",
+    "en": "Dragon's Reverse Scale"
+  },
+  "精霊根": {
+    "jp": "精霊根",
+    "en": "Spirit Root"
+  },
+  "戦馬の幼角": {
+    "jp": "戦馬の幼角",
+    "en": "Warhorse's Young Horn"
+  },
+  "血の涙石": {
+    "jp": "血の涙石",
+    "en": "Tearstone of Blood"
+  },
+  "黒獣脂": {
+    "jp": "黒獣脂",
+    "en": "Black Beast Grease"
+  },
+  "封魔のランプ": {
+    "jp": "封魔のランプ",
+    "en": "Lamp of Evil-Sealing"
+  },
+  "智慧のスカラベ": {
+    "jp": "智慧のスカラベ",
+    "en": "Scarab of Wisdom"
+  },
+  "原初の産毛": {
+    "jp": "原初の産毛",
+    "en": "Primordial Lanugo"
+  },
+  "呪獣胆石": {
+    "jp": "呪獣胆石",
+    "en": "Cursed Beast Gallstone"
+  },
+  "奇奇神酒": {
+    "jp": "奇奇神酒",
+    "en": "Mysterious Divine Wine"
+  },
+  "暁光炉心": {
+    "jp": "暁光炉心",
+    "en": "Daybreak Core"
+  },
+  "九十九鏡": {
+    "jp": "九十九鏡",
+    "en": "Tsukumo Mirror"
+  },
+  "真理の卵": {
+    "jp": "真理の卵",
+    "en": "Egg of Truth"
+  },
+  "煌星のカケラ": {
+    "jp": "煌星のカケラ",
+    "en": "Comet Shard"
+  },
+  "悠久の実": {
+    "jp": "悠久の実",
+    "en": "Fig of Immortality"
+  },
+  "セイバーピース": {
+    "jp": "セイバーピース",
+    "en": "Saber Piece"
+  },
+  "アーチャーピース": {
+    "jp": "アーチャーピース",
+    "en": "Archer Piece"
+  },
+  "ランサーピース": {
+    "jp": "ランサーピース",
+    "en": "Lancer Piece"
+  },
+  "ライダーピース": {
+    "jp": "ライダーピース",
+    "en": "Rider Piece"
+  },
+  "キャスターピース": {
+    "jp": "キャスターピース",
+    "en": "Caster Piece"
+  },
+  "アサシンピース": {
+    "jp": "アサシンピース",
+    "en": "Assassin Piece"
+  },
+  "バーサーカーピース": {
+    "jp": "バーサーカーピース",
+    "en": "Berserker Piece"
+  },
+  "セイバーモニュメント": {
+    "jp": "セイバーモニュメント",
+    "en": "Saber Monument"
+  },
+  "アーチャーモニュメント": {
+    "jp": "アーチャーモニュメント",
+    "en": "Archer Monument"
+  },
+  "ランサーモニュメント": {
+    "jp": "ランサーモニュメント",
+    "en": "Lancer Monument"
+  },
+  "ライダーモニュメント": {
+    "jp": "ライダーモニュメント",
+    "en": "Rider Monument"
+  },
+  "キャスターモニュメント": {
+    "jp": "キャスターモニュメント",
+    "en": "Caster Monument"
+  },
+  "アサシンモニュメント": {
+    "jp": "アサシンモニュメント",
+    "en": "Assassin Monument"
+  },
+  "バーサーカーモニュメント": {
+    "jp": "バーサーカーモニュメント",
+    "en": "Berserker Monument"
+  },
+  "ティンクルキャンディー": {
+    "jp": "ティンクルキャンディー",
+    "en": "Twinkle Candy"
+  },
+  "黄金髑髏": {
+    "jp": "黄金髑髏",
+    "en": "Golden Skull"
+  },
+  "樽入りチキン": {
+    "jp": "樽入りチキン",
+    "en": "Bucket of Chicken"
+  },
+  "業物ナイフ": {
+    "jp": "業物ナイフ",
+    "en": "Sharp Knife"
+  },
+  "水晶球": {
+    "jp": "水晶球",
+    "en": "Crystal Ball"
+  },
+  "ゴールデンベアライター": {
+    "jp": "ゴールデンベアライター",
+    "en": "Golden Bear Lighter"
+  },
+  "鈴鳴りの枝": {
+    "jp": "鈴鳴りの枝",
+    "en": "Bell-Ringing Branch"
+  },
+  "ハートのブレスレット": {
+    "jp": "ハートのブレスレット",
+    "en": "Heart Bracelet"
+  },
+  "竜のオーブ": {
+    "jp": "竜のオーブ",
+    "en": "Dragon Orb"
+  },
+  "ジル･ド･レェ人形": {
+    "jp": "ジル･ド･レェ人形",
+    "en": "Gilles de Rais Doll"
+  },
+  "蘭奢待": {
+    "jp": "蘭奢待",
+    "en": "Piece of Ranjatai"
+  },
+  "思い出のリボン": {
+    "jp": "思い出のリボン",
+    "en": "Nostalgic Ribbon"
+  },
+  "明けの明星": {
+    "jp": "明けの明星",
+    "en": "Morning Star"
+  },
+  "黄金の葦": {
+    "jp": "黄金の葦",
+    "en": "Golden Reed"
+  },
+  "予備リアクター": {
+    "jp": "予備リアクター",
+    "en": "Spare Reactor"
+  },
+  "ペレット": {
+    "jp": "ペレット",
+    "en": "B Pellets"
+  },
+  "サンタひげ": {
+    "jp": "サンタひげ",
+    "en": "Santa's Moustache"
+  },
+  "忘れじの葉": {
+    "jp": "忘れじの葉",
+    "en": "Forgotten Leaf"
+  },
+  "海援隊旗": {
+    "jp": "海援隊旗",
+    "en": "Kaientai Banner"
+  },
+  "漆黒の羽根ペン": {
+    "jp": "漆黒の羽根ペン",
+    "en": "Jet-Black Quill"
+  },
+  "護法のステッキ": {
+    "jp": "護法のステッキ",
+    "en": "Magifender Wand"
+  },
+  "ククルカンマスク": {
+    "jp": "ククルカンマスク",
+    "en": "Kukulkán Mask"
+  },
+  "アッド・クッション": {
+    "jp": "アッド・クッション",
+    "en": "Add Cushion"
+  },
+  "毘天の龍玉": {
+    "jp": "毘天の龍玉",
+    "en": "Bishamonten's Dragon Sphere"
+  },
+  "富嶽三十六氷": {
+    "jp": "富嶽三十六氷",
+    "en": "Mount Fuji's 36 Ice Creams"
+  },
+  "献身のランプ": {
+    "jp": "献身のランプ",
+    "en": "Lamp of Devotion"
+  },
+  "遥かなる冒険のアストロラーベ": {
+    "jp": "遥かなる冒険のアストロラーベ",
+    "en": "Astrolabe of a Distant Adventure"
+  }
+}

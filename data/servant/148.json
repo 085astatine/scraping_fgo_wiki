@@ -1,0 +1,191 @@
+{
+  "id": 148,
+  "name": "ジャガーマン",
+  "klass": "Lancer",
+  "rarity": 3,
+  "ascension": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 8
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 4
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 8
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 4
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "ジャガー・パンチ",
+      "rank": "A",
+      "icon": 306
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "ジャガー・キック",
+      "rank": "B",
+      "icon": 300
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "ジャガー・アイ",
+      "rank": "A+",
+      "icon": 303
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 8
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 8
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 8
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

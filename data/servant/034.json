@@ -1,0 +1,191 @@
+{
+  "id": 34,
+  "name": "ウィリアム・シェイクスピア",
+  "klass": "Caster",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 6
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 5
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "エンチャント",
+      "rank": "A",
+      "icon": 306
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "自己保存",
+      "rank": "B",
+      "icon": 403
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "国王一座",
+      "rank": "C",
+      "icon": 601
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 6
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 3
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 6
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 18
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

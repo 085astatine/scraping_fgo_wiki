@@ -1,0 +1,198 @@
+{
+  "id": 57,
+  "name": "エイリーク・ブラッドアクス",
+  "klass": "Berserker",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 6
+        },
+        {
+          "name": "凶骨",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 4
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "支援呪術",
+      "rank": "C",
+      "icon": 503
+    },
+    {
+      "order": 1,
+      "is_upgraded": true,
+      "name": "支援呪術",
+      "rank": "C+",
+      "icon": 503
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "戦闘続行",
+      "rank": "B",
+      "icon": 404
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "血啜の獣斧",
+      "rank": "A+",
+      "icon": 608
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 6
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 3
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 6
+        },
+        {
+          "name": "凶骨",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 15
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "混沌の爪",
+          "piece": 6
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

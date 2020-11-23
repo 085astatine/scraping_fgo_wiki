@@ -1,0 +1,169 @@
+{
+  "id": 231,
+  "name": "赤兎馬",
+  "klass": "Rider",
+  "rarity": 3,
+  "ascension": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 8
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "魔術髄液",
+          "piece": 20
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 8
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 20
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [],
+  "skill_reinforcement": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 8
+        },
+        {
+          "name": "魔術髄液",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 4
+        },
+        {
+          "name": "魔術髄液",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 8
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "隕蹄鉄",
+          "piece": 7
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "閑古鈴",
+          "piece": 12
+        },
+        {
+          "name": "血の涙石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": 54,
+  "name": "カリギュラ",
+  "klass": "Berserker",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 6
+        },
+        {
+          "name": "八連双晶",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 4
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "加虐体質",
+      "rank": "A",
+      "icon": 300
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "皇帝特権",
+      "rank": "A",
+      "icon": 600
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "在りし日の栄光",
+      "rank": "B",
+      "icon": 306
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 6
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 3
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 6
+        },
+        {
+          "name": "八連双晶",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 5
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "隕蹄鉄",
+          "piece": 9
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

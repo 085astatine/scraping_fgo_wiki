@@ -1,0 +1,191 @@
+{
+  "id": 255,
+  "name": "パリス",
+  "klass": "Archer",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 6
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "万死の毒針",
+          "piece": 12
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 3
+        },
+        {
+          "name": "精霊根",
+          "piece": 3
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "太陽神の眼（偽）",
+      "rank": "B+",
+      "icon": 402
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "男神の寵愛",
+      "rank": "B",
+      "icon": 328
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "不和呼びし黄金の林檎",
+      "rank": "EX",
+      "icon": 601
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 6
+        },
+        {
+          "name": "万死の毒針",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 3
+        },
+        {
+          "name": "万死の毒針",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 6
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 6
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "原初の産毛",
+          "piece": 6
+        },
+        {
+          "name": "禍罪の矢尻",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

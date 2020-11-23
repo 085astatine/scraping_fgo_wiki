@@ -1,0 +1,191 @@
+{
+  "id": 201,
+  "name": "アナスタシア",
+  "klass": "Caster",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 12
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 10
+        },
+        {
+          "name": "血の涙石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "血の涙石",
+          "piece": 6
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "透視の魔眼",
+      "rank": "D",
+      "icon": 312
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "絶凍のカリスマ",
+      "rank": "B",
+      "icon": 300
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "シュヴィブジック",
+      "rank": "B",
+      "icon": 601
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 12
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 20
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 18
+        },
+        {
+          "name": "励振火薬",
+          "piece": 72
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

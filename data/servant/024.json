@@ -1,0 +1,191 @@
+{
+  "id": 24,
+  "name": "ゲオルギウス",
+  "klass": "Rider",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 6
+        },
+        {
+          "name": "英雄の証",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 4
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 5
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "守護騎士",
+      "rank": "A+",
+      "icon": 700
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "殉教者の魂",
+      "rank": "B+",
+      "icon": 401
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "戦闘続行",
+      "rank": "A",
+      "icon": 404
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 6
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 3
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 6
+        },
+        {
+          "name": "英雄の証",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 15
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 9
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

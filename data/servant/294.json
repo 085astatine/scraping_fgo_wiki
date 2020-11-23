@@ -1,0 +1,191 @@
+{
+  "id": 294,
+  "name": "織田信勝",
+  "klass": "Archer",
+  "rarity": 1,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 4
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 2
+        },
+        {
+          "name": "八連双晶",
+          "piece": 4
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 4
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 3
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "稚拙な謀略",
+      "rank": "D",
+      "icon": 512
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "我、魔天に殉ず",
+      "rank": "B",
+      "icon": 605
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "戦乱の徒花",
+      "rank": "C",
+      "icon": 700
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 4
+        },
+        {
+          "name": "八連双晶",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 2
+        },
+        {
+          "name": "八連双晶",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 4
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 7
+        },
+        {
+          "name": "励振火薬",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 18
+        },
+        {
+          "name": "禍罪の矢尻",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
