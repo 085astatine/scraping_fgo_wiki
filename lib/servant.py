@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import csv
 import enum
 import logging
+import pathlib
 import re
 import time
-from typing import Dict, List, NamedTuple, Optional, Tuple, TypedDict
+from typing import Dict, List, Optional, Tuple, TypedDict
 import lxml.html
 import requests
-from .item import Item
+from .io import load_json, save_json
 from .text import Text
 
 
@@ -18,140 +18,60 @@ _interval = 1.0
 _logger = logging.getLogger(__name__)
 
 
-Skill = TypedDict(
-        'Skill',
-        {'order': int,
-         'is_upgraded': bool,
-         'name': Text,
-         'rank': str,
-         'icon': int})
-
-
-Resource = TypedDict(
-        'Resource',
-        {'id': int,
-         'piece': int})
-
-
-RequiredResource = TypedDict(
-        'RequiredResource',
-        {'qp': int,
-         'resources': List[Resource]})
-
-
-SpiritronDress = TypedDict(
-        'SpiritronDress',
-        {'name': Text,
-         'required': RequiredResource})
-
-
-Servant = TypedDict(
-        'Servant',
-        {'id': int,
-         'name': Text,
-         'klass': str,
-         'rarity': int,
-         'ascension': List[RequiredResource],
-         'spiritron_dress': List[SpiritronDress],
-         'skill': List[Skill],
-         'skill_reinforcement': List[RequiredResource]})
-
-
-class _Skill(NamedTuple):
+class Skill(TypedDict):
     order: int
     is_upgraded: bool
     name: str
     rank: str
     icon: int
 
-    def normalize(self, translator: Dict[str, str]) -> Skill:
-        if self.name not in translator:
-            _logger.error('Skill name %s is not found', self.name)
-        return {'order': self.order,
-                'is_upgraded': self.is_upgraded,
-                'name': {
-                    'jp': self.name,
-                    'en': translator.get(self.name, self.name)},
-                'rank': self.rank,
-                'icon': self.icon}
 
-
-class _Resource(NamedTuple):
+class Resource(TypedDict):
     name: str
     piece: int
 
-    def normalize(self, items: List[Item]) -> Resource:
-        item_id = [item['id'] for item in items
-                   if item['name']['jp'] == self.name]
-        if len(item_id) != 1:
-            _logger.error('item ID error: %s', self.name)
-        return {'id': item_id[0] if item_id else 0,
-                'piece': self.piece}
+
+class ResourceSet(TypedDict):
+    qp: int
+    resources: List[Resource]
 
 
-class _RequiredResource(NamedTuple):
-    level: int
-    resources: List[_Resource]
-
-    def normalize(self, items: List[Item]) -> RequiredResource:
-        qp = 0
-        resources: List[Resource] = []
-        for resource in self.resources:
-            if resource.name == 'QP':
-                qp = resource.piece
-            else:
-                resources.append(resource.normalize(items))
-        return {'qp': qp,
-                'resources': resources}
-
-
-class _SpiritronDress(NamedTuple):
+class SpiritronDress(TypedDict):
     name: str
-    resources: List[_Resource]
-
-    def normalize(self, items: List[Item]) -> SpiritronDress:
-        qp = 0
-        resources: List[Resource] = []
-        for resource in self.resources:
-            if resource.name == 'QP':
-                qp = resource.piece
-            else:
-                resources.append(resource.normalize(items))
-        return {'name': {
-                    'jp': self.name,
-                    'en': self.name},
-                'required': {
-                    'qp': qp,
-                    'resources': resources}}
+    resource: ResourceSet
 
 
-_Servant = TypedDict(
-        '_Servant',
-        {'id': int,
-         'class': str,
-         'rarity': int,
-         'name_jp': str,
-         'name_en': str,
-         'url': str,
-         'ascension': List[_RequiredResource],
-         'spiritron_dress': List[_SpiritronDress],
-         'skill': List[_Skill],
-         'skill_reinforcement': List[_RequiredResource]},
-        total=False)
+class Servant(TypedDict):
+    id: int
+    name: str
+    klass: str
+    rarity: int
+    ascension: List[ResourceSet]
+    spiritron_dress: List[SpiritronDress]
+    skill: List[Skill]
+    skill_reinforcement: List[ResourceSet]
 
 
-class _RequiredResourceParserMode(enum.Enum):
+class _ServantTable(TypedDict):
+    id: int
+    klass: str
+    rarity: int
+    name: str
+    url: str
+
+
+class _ResourceSetParserMode(enum.Enum):
     ASCENSION = enum.auto()
     SKILL_REINFORCEMENT = enum.auto()
 
 
-class _RequiredResourceParser:
-    def __init__(self, mode: _RequiredResourceParserMode) -> None:
+class _ResourceSetParser:
+    def __init__(self, mode: _ResourceSetParserMode) -> None:
         self._mode = mode
-        self._result: List[_RequiredResource] = []
+        self._result: List[ResourceSet] = []
         self._level = 0
         self._next_level = 0
-        self._resources: List[_Resource] = []
+        self._resources: List[Resource] = []
 
     def push(self, cell: lxml.html.HtmlElement):
         text = cell.text_content().strip()
@@ -163,25 +83,22 @@ class _RequiredResourceParser:
         # resource
         self._resources.extend(_parse_resource(text))
 
-    def result(self) -> List[_RequiredResource]:
+    def result(self) -> List[ResourceSet]:
         if self._level < self._next_level:
             self._pack()
         return self._result
 
     def _pack(self) -> None:
-        self._result.append(_RequiredResource(
-                level=self._level,
-                resources=self._resources))
+        self._result.append(_to_resource_set(self._resources))
         self._level = self._next_level
         self._resources = []
 
     def _parse_level(self, text) -> bool:
         levels: Optional[Tuple[int, int]] = None
         # parse
-        Mode = _RequiredResourceParserMode
-        if self._mode is Mode.ASCENSION:
+        if self._mode is _ResourceSetParserMode.ASCENSION:
             levels = _parse_ascension_level(text)
-        if self._mode is Mode.SKILL_REINFORCEMENT:
+        if self._mode is _ResourceSetParserMode.SKILL_REINFORCEMENT:
             levels = _parse_skill_level(text)
         # pack
         if levels is not None:
@@ -198,18 +115,28 @@ class _RequiredResourceParser:
         return False
 
 
-def _parse_resource(text: str) -> List[_Resource]:
-    result: List[_Resource] = []
+def _to_resource_set(resources: List[Resource]) -> ResourceSet:
+    result = ResourceSet(qp=0, resources=[])
+    for resource in resources:
+        if resource['name'] == 'QP':
+            result['qp'] += resource['piece']
+        else:
+            result['resources'].append(resource)
+    return result
+
+
+def _parse_resource(text: str) -> List[Resource]:
+    result: List[Resource] = []
     regexp = re.compile(r'(?P<item>.+),(x|)(?P<piece>[0-9万]+)')
     match = regexp.search(text)
     while match:
-        resource = _Resource(
+        resource = Resource(
                 name=match.group('item'),
                 piece=int(match.group('piece').replace('万', '0000')))
         _logger.debug(
                 'resource %s x %d',
-                resource.name,
-                resource.piece)
+                resource['name'],
+                resource['piece'])
         result.append(resource)
         text = regexp.sub('', text, count=1)
         match = regexp.search(text)
@@ -230,7 +157,7 @@ def _parse_skill_level(text: str) -> Optional[Tuple[int, int]]:
     return None
 
 
-def _parse_servant_table():
+def _parse_servant_table() -> List[_ServantTable]:
     # URL: サーヴァント > 一覧 > 番号順
     url = 'https://w.atwiki.jp/f_go/pages/713.html'
     # 入手不可サーヴァントID
@@ -260,10 +187,10 @@ def _parse_servant_table():
     # access
     response = requests.get(url)
     etree = lxml.html.fromstring(response.text)
-    xpath = ('/html/body//div[@id="wikibody"]/div[2]/div/'
+    xpath = ('/html/body//div[@id="wikibody"]/div[1]/div/'
              'table/tbody/tr[td]')
     # サーヴァントリスト作成
-    result: List[_Servant] = []
+    result: List[_ServantTable] = []
     for row in etree.xpath(xpath):
         servant_id = int(row.xpath('td[1]')[0].text)
         if servant_id in ignore_servant_ids:
@@ -279,41 +206,50 @@ def _parse_servant_table():
                 rarity,
                 servant_class,
                 servant_url)
-        result.append({
-                'id': servant_id,
-                'name_jp': servant_name,
-                'class': servant_class,
-                'rarity': rarity,
-                'url': servant_url})
+        result.append(_ServantTable(
+                id=servant_id,
+                name=servant_name,
+                klass=servant_class,
+                rarity=rarity,
+                url=servant_url))
     return result
 
 
-def _parse_servant_page(servant: _Servant):
+def _parse_servant_page(servant: _ServantTable) -> Servant:
     # access
     response = requests.get('https:{0}'.format(servant['url']))
     root = lxml.html.fromstring(response.text)
     # 霊基再臨
-    servant['ascension'] = _parse_ascension(root)
-    if len(servant['ascension']) != 4:
+    ascension = _parse_ascension(root)
+    if len(ascension) != 4:
         _logger.error(
                 'servant %s: ascension parsing failed',
-                servant['name_jp'])
+                servant['name'])
     # スキル
-    servant['skill'] = _parse_skill(root)
+    skill = _parse_skill(root)
     # スキル強化
-    servant['skill_reinforcement'] = _parse_skill_reinforcement(root)
-    if len(servant['skill_reinforcement']) != 9:
+    skill_reinforcement = _parse_skill_reinforcement(root)
+    if len(skill_reinforcement) != 9:
         _logger.error(
                 'servant %s: skill reinforcement parsing failed',
-                servant['name_jp'])
+                servant['name'])
     # 霊衣開放
-    servant['spiritron_dress'] = _parse_spiritron_dress(root)
+    spiritron_dress = _parse_spiritron_dress(root)
+    return Servant(
+            id=servant['id'],
+            name=servant['name'],
+            klass=servant['klass'],
+            rarity=servant['rarity'],
+            ascension=ascension,
+            spiritron_dress=spiritron_dress,
+            skill=skill,
+            skill_reinforcement=skill_reinforcement)
 
 
 def _parse_ascension(
-        root: lxml.html.HtmlElement) -> List[_RequiredResource]:
-    parser = _RequiredResourceParser(
-            mode=_RequiredResourceParserMode.ASCENSION)
+        root: lxml.html.HtmlElement) -> List[ResourceSet]:
+    parser = _ResourceSetParser(
+            mode=_ResourceSetParserMode.ASCENSION)
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="霊基再臨"]'
@@ -325,7 +261,7 @@ def _parse_ascension(
 
 
 def _parse_skill(
-        root: lxml.html.HtmlElement) -> List[_Skill]:
+        root: lxml.html.HtmlElement) -> List[Skill]:
     result = []
     xpath = (
             '//div[@id="wikibody"]'
@@ -367,7 +303,7 @@ def _parse_skill(
         else:
             icon_id = 0
             _logger.warning('skill icon not found: %s', icon_text)
-        result.append(_Skill(
+        result.append(Skill(
                 order=order,
                 is_upgraded=is_upgraded,
                 name=name,
@@ -377,9 +313,9 @@ def _parse_skill(
 
 
 def _parse_skill_reinforcement(
-        root: lxml.html.HtmlElement) -> List[_RequiredResource]:
-    parser = _RequiredResourceParser(
-            mode=_RequiredResourceParserMode.SKILL_REINFORCEMENT)
+        root: lxml.html.HtmlElement) -> List[ResourceSet]:
+    parser = _ResourceSetParser(
+            mode=_ResourceSetParserMode.SKILL_REINFORCEMENT)
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="スキル強化"]'
@@ -391,8 +327,8 @@ def _parse_skill_reinforcement(
 
 
 def _parse_spiritron_dress(
-        root: lxml.html.HtmlElement) -> List[_SpiritronDress]:
-    result: List[_SpiritronDress] = []
+        root: lxml.html.HtmlElement) -> List[SpiritronDress]:
+    result: List[SpiritronDress] = []
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="霊衣開放"]'
@@ -402,84 +338,97 @@ def _parse_spiritron_dress(
             '/table')
     for table in root.xpath(xpath):
         name = table.xpath('tbody/tr[1]/th')[0].text.strip()
-        resources: List[_Resource] = []
+        resources: List[Resource] = []
         for cell in table.xpath(
                 'tbody/tr[td[1 and normalize-space()="必要素材"]]'
                 '/td[position() > 1]'):
             resources.extend(_parse_resource(cell.text_content()))
-        result.append(_SpiritronDress(
+        result.append(SpiritronDress(
                 name=name,
-                resources=resources))
+                resource=_to_resource_set(resources)))
     return result
 
 
-def _parse_name_en(
-        servants: List[_Servant]) -> None:
-    url = ('https://raw.githubusercontent.com'
-           '/WeebMogul/Fate--Grand-Order-Servant-Data-Extractor'
-           '/master/FGO_Servant_Data.csv')
+def _load_servant(
+        data: _ServantTable,
+        *,
+        path: Optional[pathlib.Path] = None,
+        force_update: bool = False) -> Servant:
+    result: Optional[Servant] = None
+    # load
+    if path is not None and not force_update:
+        result = load_json(path)
+        if result is not None:
+            _logger.debug(
+                    'servant "%s" is load from "%s"',
+                    data['name'],
+                    path)
+            # check
+            assert result['id'] == data['id']
+    # request URL
+    if result is None or force_update:
+        result = _parse_servant_page(data)
+        time.sleep(_interval)
+        # save
+        if path is not None:
+            save_json(path, result)
+            _logger.debug(
+                'servant "%s" is saved to "%s"',
+                data['name'],
+                path)
+    return result
+
+
+def servant_list(
+        *,
+        directory: Optional[pathlib.Path] = None,
+        force_update: bool = False) -> List[Servant]:
+    servant_table = _parse_servant_table()
+    time.sleep(_interval)
+    result: List[Servant] = []
+    for row in servant_table:
+        _logger.info('servant: %s', row['name'])
+        result.append(_load_servant(
+                row,
+                path=(directory.joinpath(f'{row["id"]:03d}.json')
+                      if directory is not None
+                      else None),
+                force_update=force_update))
+    return result
+
+
+def servant_dict() -> Dict[str, Text]:
+    url = 'https://grandorder.wiki/Servant_List'
     response = requests.get(url)
-    reader = csv.DictReader(
-            response.text
-                    .replace('\ufeff', '')
-                    .replace('\u3000', ' ').split('\n'))
-    for row in reader:
-        servant_id = int(row['ID'])
-        name_en = row['Name']
-        for servant in (servant for servant in servants
-                        if servant['id'] == servant_id):
-            servant['name_en'] = name_en
+    root = lxml.html.fromstring(response.text)
+    xpath = '//table[@class="wikitable sortable"]//tr[td]'
+    result: Dict[str, Text] = {}
+    for row in reversed(root.xpath(xpath)):
+        cells = row.xpath('td')
+        servant_id = int(cells[0].text.strip())
+        name_en = cells[2].xpath('a')[0].text
+        name_jp = cells[2].xpath('br/following-sibling::text()')[0].strip()
+        if ';' in name_jp:
+            name_jp = name_jp.split(';')[0]
+        _logger.debug(
+                'servant %03d: jp="%s", en="%s"',
+                servant_id,
+                name_jp,
+                name_en)
+        result[name_jp] = {'jp': name_jp, 'en': name_en}
+    return result
 
 
-def _parse_skill_en() -> Dict[str, str]:
+def skill_dict() -> Dict[str, Text]:
     url = 'https://grandorder.wiki/Skills'
     response = requests.get(url)
     root = lxml.html.fromstring(response.text)
     xpath = '//h1[text()="Skills"]/following-sibling::div//table/tr[td]'
-    translator: Dict[str, str] = {}
+    result: Dict[str, Text] = {}
     for row in root.xpath(xpath):
         name_cell = row.xpath('td[1]')[0]
         name_jp = name_cell.xpath('a/following-sibling::text()')[0].strip()
         name_en = name_cell.xpath('a')[0].text.strip()
-        _logger.debug(
-                'skill: %s (%s)',
-                name_jp,
-                name_en)
-        translator[name_jp] = name_en
-    return translator
-
-
-def _normalize(
-        servant: _Servant,
-        items: List[Item],
-        skill_translator: Dict[str, str]) -> Servant:
-    return {'id': servant['id'],
-            'name': {
-                'jp': servant['name_jp'],
-                'en': servant.get('name_en', servant['name_jp'])},
-            'klass': servant['class'],
-            'rarity': servant['rarity'],
-            'ascension': [
-                    x.normalize(items) for x in servant['ascension']],
-            'spiritron_dress': [
-                    x.normalize(items) for x in servant['spiritron_dress']],
-            'skill': [
-                    x.normalize(skill_translator) for x in servant['skill']],
-            'skill_reinforcement': [
-                    x.normalize(items)
-                    for x in servant['skill_reinforcement']]}
-
-
-def servant_list(items: List[Item]) -> List[Servant]:
-    servants = _parse_servant_table()
-    time.sleep(_interval)
-    for servant in servants:
-        _logger.info('servant: %s', servant['name_jp'])
-        time.sleep(_interval)
-        _parse_servant_page(servant)
-    time.sleep(_interval)
-    _parse_name_en(servants)
-    time.sleep(_interval)
-    skill_translator = _parse_skill_en()
-    return [_normalize(servant, items, skill_translator)
-            for servant in servants]
+        _logger.debug('skill: jp="%s" en="%s"', name_jp, name_en)
+        result[name_jp] = {'jp': name_jp, 'en': name_en}
+    return result
