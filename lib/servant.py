@@ -187,7 +187,7 @@ def _parse_servant_table() -> List[_ServantTable]:
     # access
     response = requests.get(url)
     etree = lxml.html.fromstring(response.text)
-    xpath = ('/html/body//div[@id="wikibody"]/div[2]/div/'
+    xpath = ('/html/body//div[@id="wikibody"]/div[1]/div/'
              'table/tbody/tr[td]')
     # サーヴァントリスト作成
     result: List[_ServantTable] = []
