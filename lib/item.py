@@ -28,7 +28,7 @@ def item_list() -> List[Item]:
     result: List[Item] = []
     for row in root.xpath(xpath):
         item_type = row.xpath('td[4]')[0].text.strip()
-        if not any(map(lambda x: x in item_type, target_item_types)):
+        if not any(x in item_type for x in target_item_types):
             continue
         item_id = int(row.xpath('td[1]')[0].text)
         name_cell = row.xpath('td[3]')[0]
@@ -64,7 +64,7 @@ def item_dict() -> Dict[str, Text]:
     result: Dict[str, Text] = {}
     for row in root.xpath(xpath):
         item_type = row.xpath('td[4]')[0].text.strip()
-        if not any(map(lambda x: x in item_type, target_item_types)):
+        if not any(x in item_type for x in target_item_types):
             continue
         name_cell = row.xpath('td[3]')[0]
         name_jp = name_cell.xpath('br/following-sibling::text()')[0].strip()
