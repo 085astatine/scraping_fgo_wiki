@@ -1,0 +1,205 @@
+{
+  "id": 88,
+  "name": "ブリュンヒルデ",
+  "klass": "Lancer",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 12
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 12
+        },
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "英雄の証",
+          "piece": 29
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "魔力放出（炎）",
+      "rank": "B",
+      "icon": 306
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "原初のルーン",
+      "rank": "",
+      "icon": 520
+    },
+    {
+      "order": 2,
+      "is_upgraded": true,
+      "name": "原初のルーン",
+      "rank": "",
+      "icon": 601
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "英雄の介添",
+      "rank": "C",
+      "icon": 311
+    },
+    {
+      "order": 3,
+      "is_upgraded": true,
+      "name": "英雄の介添",
+      "rank": "C++",
+      "icon": 311
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 5
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 12
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "蛮神の心臓",
+          "piece": 4
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "鳳凰の羽根",
+          "piece": 15
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

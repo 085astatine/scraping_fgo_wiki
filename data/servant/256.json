@@ -1,0 +1,191 @@
+{
+  "id": 256,
+  "name": "ガレス",
+  "klass": "Lancer",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 6
+        },
+        {
+          "name": "英雄の証",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 3
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 10
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 3
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "戦闘続行",
+      "rank": "C",
+      "icon": 404
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "美しい手のガレス",
+      "rank": "B",
+      "icon": 601
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "変身の指輪",
+      "rank": "B",
+      "icon": 700
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 6
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 3
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 6
+        },
+        {
+          "name": "英雄の証",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 15
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "大騎士勲章",
+          "piece": 18
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

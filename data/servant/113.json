@@ -1,0 +1,191 @@
+{
+  "id": 113,
+  "name": "玄奘三蔵",
+  "klass": "Caster",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "八連双晶",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 8
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "高速読経",
+      "rank": "A",
+      "icon": 601
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "妖惹の紅顔",
+      "rank": "A",
+      "icon": 700
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "三蔵の教え",
+      "rank": "A",
+      "icon": 602
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 12
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "八連双晶",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 12
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "隕蹄鉄",
+          "piece": 18
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

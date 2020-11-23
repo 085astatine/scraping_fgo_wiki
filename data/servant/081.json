@@ -1,0 +1,191 @@
+{
+  "id": 81,
+  "name": "ヘンリー・ジキル＆ハイド",
+  "klass": "Assassin",
+  "rarity": 3,
+  "ascension": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 8
+        },
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 13
+        },
+        {
+          "name": "八連双晶",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 8
+        },
+        {
+          "name": "八連双晶",
+          "piece": 7
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "怪力",
+      "rank": "B",
+      "icon": 300
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "恐慌の声",
+      "rank": "A",
+      "icon": 508
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "自己改造",
+      "rank": "D",
+      "icon": 303
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 8
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 13
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 8
+        },
+        {
+          "name": "凶骨",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 20
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": 39,
+  "name": "佐々木小次郎",
+  "klass": "Assassin",
+  "rarity": 1,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 4
+        },
+        {
+          "name": "英雄の証",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 2
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 7
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 4
+        },
+        {
+          "name": "八連双晶",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "心眼（偽）",
+      "rank": "A",
+      "icon": 402
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "透化",
+      "rank": "B+",
+      "icon": 608
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "宗和の心得",
+      "rank": "B",
+      "icon": 310
+    },
+    {
+      "order": 3,
+      "is_upgraded": true,
+      "name": "宗和の心得",
+      "rank": "B++",
+      "icon": 310
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 2
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        },
+        {
+          "name": "英雄の証",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "凶骨",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 18
+        },
+        {
+          "name": "八連双晶",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

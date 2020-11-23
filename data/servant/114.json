@@ -1,0 +1,198 @@
+{
+  "id": 114,
+  "name": "源頼光",
+  "klass": "Berserker",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 12
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "凶骨",
+          "piece": 29
+        },
+        {
+          "name": "血の涙石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "血の涙石",
+          "piece": 6
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "無窮の武練",
+      "rank": "A+",
+      "icon": 311
+    },
+    {
+      "order": 1,
+      "is_upgraded": true,
+      "name": "源氏の武練",
+      "rank": "EX",
+      "icon": 311
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "魔力放出（雷）",
+      "rank": "A",
+      "icon": 306
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "神秘殺し",
+      "rank": "A",
+      "icon": 301
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 12
+        },
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 5
+        },
+        {
+          "name": "凶骨",
+          "piece": 29
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 12
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "混沌の爪",
+          "piece": 6
+        },
+        {
+          "name": "八連双晶",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 18
+        },
+        {
+          "name": "精霊根",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

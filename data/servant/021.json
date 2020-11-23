@@ -1,0 +1,191 @@
+{
+  "id": 21,
+  "name": "レオニダス一世",
+  "klass": "Lancer",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 6
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "八連双晶",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        },
+        {
+          "name": "凶骨",
+          "piece": 18
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "殿の矜持",
+      "rank": "A",
+      "icon": 700
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "戦闘続行",
+      "rank": "A",
+      "icon": 404
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "戦士の雄叫び",
+      "rank": "B",
+      "icon": 306
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 6
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 3
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 6
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "混沌の爪",
+          "piece": 3
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "蛇の宝玉",
+          "piece": 8
+        },
+        {
+          "name": "凶骨",
+          "piece": 36
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

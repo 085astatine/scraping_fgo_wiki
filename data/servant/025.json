@@ -1,0 +1,191 @@
+{
+  "id": 25,
+  "name": "エドワード・ティーチ",
+  "klass": "Rider",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 6
+        },
+        {
+          "name": "凶骨",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 5
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "嵐の航海者",
+      "rank": "A",
+      "icon": 302
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "海賊の誉れ",
+      "rank": "B",
+      "icon": 300
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "紳士的な愛",
+      "rank": "C",
+      "icon": 600
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 6
+        },
+        {
+          "name": "八連双晶",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 3
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 6
+        },
+        {
+          "name": "凶骨",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 15
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 9
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

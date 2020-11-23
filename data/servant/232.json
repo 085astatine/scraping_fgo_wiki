@@ -1,0 +1,191 @@
+{
+  "id": 232,
+  "name": "ブラダマンテ",
+  "klass": "Lancer",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 12
+        },
+        {
+          "name": "英雄の証",
+          "piece": 22
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 20
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 6
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "クレルモンの勲",
+      "rank": "B",
+      "icon": 314
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "白羽の騎士",
+      "rank": "B+",
+      "icon": 404
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "魔術解除",
+      "rank": "A",
+      "icon": 601
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 12
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 5
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 12
+        },
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 29
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 18
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

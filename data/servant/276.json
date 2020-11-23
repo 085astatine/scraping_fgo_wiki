@@ -1,0 +1,191 @@
+{
+  "id": 276,
+  "name": "清少納言",
+  "klass": "Archer",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 12
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 10
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 10
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "歌仙の詩歌",
+      "rank": "B",
+      "icon": 300
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "逢坂の関",
+      "rank": "A",
+      "icon": 402
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "星はすばる",
+      "rank": "B",
+      "icon": 304
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 12
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 5
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 12
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "枯淡勾玉",
+          "piece": 10
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "九十九鏡",
+          "piece": 8
+        },
+        {
+          "name": "真理の卵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

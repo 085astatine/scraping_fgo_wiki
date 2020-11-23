@@ -1,0 +1,191 @@
+{
+  "id": 194,
+  "name": "ミドラーシュのキャスター",
+  "klass": "Caster",
+  "rarity": 4,
+  "ascension": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 24
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 10
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 7
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "カリスマ",
+      "rank": "B-",
+      "icon": 300
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "精霊の目",
+      "rank": "A",
+      "icon": 303
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "魔神の叡智",
+      "rank": "A",
+      "icon": 315
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 10
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "鳳凰の羽根",
+          "piece": 7
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 45
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": 62,
+  "name": "玉藻の前",
+  "klass": "Caster",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 12
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "凶骨",
+          "piece": 29
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 4
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "呪術",
+      "rank": "EX",
+      "icon": 513
+    },
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "呪層・廣日照",
+      "rank": "A",
+      "icon": 513
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "変化",
+      "rank": "A",
+      "icon": 400
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "狐の嫁入り",
+      "rank": "EX",
+      "icon": 305
+    },
+    {
+      "order": 3,
+      "is_upgraded": true,
+      "name": "狐の嫁入り",
+      "rank": "EX",
+      "icon": 305
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 12
+        },
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "凶骨",
+          "piece": 29
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 22
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

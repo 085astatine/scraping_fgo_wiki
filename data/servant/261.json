@@ -1,0 +1,191 @@
+{
+  "id": 261,
+  "name": "宮本武蔵",
+  "klass": "Berserker",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 12
+        },
+        {
+          "name": "英雄の証",
+          "piece": 22
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 10
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 6
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "アクセルターン",
+      "rank": "B",
+      "icon": 402
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "第五盛",
+      "rank": "B",
+      "icon": 331
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "天魔轟眼",
+      "rank": "EX",
+      "icon": 312
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 12
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 5
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 12
+        },
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 29
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "巨人の指輪",
+          "piece": 18
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

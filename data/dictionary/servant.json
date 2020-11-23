@@ -1,0 +1,1126 @@
+{
+  "マシュ・キリエライト": {
+    "jp": "マシュ・キリエライト",
+    "en": "Mash Kyrielight"
+  },
+  "アルトリア・ペンドラゴン (Artoria Pendragon)": {
+    "jp": "アルトリア・ペンドラゴン (Artoria Pendragon)",
+    "en": "Altria Pendragon"
+  },
+  "アルトリア・ペンドラゴン［オルタ］": {
+    "jp": "アルトリア・ペンドラゴン［オルタ］",
+    "en": "Altria Pendragon (Alter)"
+  },
+  "アルトリア・ペンドラゴン［リリィ］": {
+    "jp": "アルトリア・ペンドラゴン［リリィ］",
+    "en": "Altria Pendragon (Lily)"
+  },
+  "ネロ・クラウディウス": {
+    "jp": "ネロ・クラウディウス",
+    "en": "Nero Claudius"
+  },
+  "ジークフリート": {
+    "jp": "ジークフリート",
+    "en": "Siegfried"
+  },
+  "ガイウス・ユリウス・カエサル": {
+    "jp": "ガイウス・ユリウス・カエサル",
+    "en": "Gaius Julius Caesar"
+  },
+  "アルテラ": {
+    "jp": "アルテラ",
+    "en": "Altera"
+  },
+  "ジル・ド・レェ": {
+    "jp": "ジル・ド・レェ",
+    "en": "Gilles de Rais (Caster)"
+  },
+  "シュヴァリエ・デオン": {
+    "jp": "シュヴァリエ・デオン",
+    "en": "Chevalier d'Eon"
+  },
+  "エミヤ": {
+    "jp": "エミヤ",
+    "en": "EMIYA"
+  },
+  "ギルガメッシュ": {
+    "jp": "ギルガメッシュ",
+    "en": "Gilgamesh"
+  },
+  "ロビンフッド": {
+    "jp": "ロビンフッド",
+    "en": "Robin Hood"
+  },
+  "アタランテ": {
+    "jp": "アタランテ",
+    "en": "Atalante"
+  },
+  "エウリュアレ": {
+    "jp": "エウリュアレ",
+    "en": "Euryale"
+  },
+  "アーラシュ": {
+    "jp": "アーラシュ",
+    "en": "Arash"
+  },
+  "クー・フーリン": {
+    "jp": "クー・フーリン",
+    "en": "Cú Chulainn (Caster)"
+  },
+  "エリザベート・バートリー": {
+    "jp": "エリザベート・バートリー",
+    "en": "Elisabeth Báthory"
+  },
+  "武蔵坊弁慶": {
+    "jp": "武蔵坊弁慶",
+    "en": "Musashibou Benkei"
+  },
+  "クー・フーリン〔プロトタイプ〕": {
+    "jp": "クー・フーリン〔プロトタイプ〕",
+    "en": "Cú Chulainn (Prototype)"
+  },
+  "レオニダス一世": {
+    "jp": "レオニダス一世",
+    "en": "Leonidas I"
+  },
+  "ロムルス": {
+    "jp": "ロムルス",
+    "en": "Romulus"
+  },
+  "メドゥーサ": {
+    "jp": "メドゥーサ",
+    "en": "Medusa"
+  },
+  "ゲオルギウス": {
+    "jp": "ゲオルギウス",
+    "en": "Georgios"
+  },
+  "エドワード・ティーチ": {
+    "jp": "エドワード・ティーチ",
+    "en": "Edward Teach"
+  },
+  "ブーディカ": {
+    "jp": "ブーディカ",
+    "en": "Boudica"
+  },
+  "牛若丸": {
+    "jp": "牛若丸",
+    "en": "Ushiwakamaru"
+  },
+  "アレキサンダー": {
+    "jp": "アレキサンダー",
+    "en": "Alexander"
+  },
+  "マリー・アントワネット": {
+    "jp": "マリー・アントワネット",
+    "en": "Marie Antoinette"
+  },
+  "マルタ": {
+    "jp": "マルタ",
+    "en": "Martha (Ruler)"
+  },
+  "メディア": {
+    "jp": "メディア",
+    "en": "Medea"
+  },
+  "ハンス・クリスチャン・アンデルセン": {
+    "jp": "ハンス・クリスチャン・アンデルセン",
+    "en": "Hans Christian Andersen"
+  },
+  "ウィリアム・シェイクスピア": {
+    "jp": "ウィリアム・シェイクスピア",
+    "en": "William Shakespeare"
+  },
+  "メフィストフェレス": {
+    "jp": "メフィストフェレス",
+    "en": "Mephistopheles"
+  },
+  "ヴォルフガング・アマデウス・モーツァルト": {
+    "jp": "ヴォルフガング・アマデウス・モーツァルト",
+    "en": "Wolfgang Amadeus Mozart"
+  },
+  "諸葛孔明［エルメロイⅡ世］": {
+    "jp": "諸葛孔明［エルメロイⅡ世］",
+    "en": "Zhuge Liang (Lord El-Melloi II)"
+  },
+  "佐々木小次郎": {
+    "jp": "佐々木小次郎",
+    "en": "Sasaki Kojirou"
+  },
+  "呪腕のハサン": {
+    "jp": "呪腕のハサン",
+    "en": "Hassan of the Cursed Arm"
+  },
+  "ステンノ": {
+    "jp": "ステンノ",
+    "en": "Stheno"
+  },
+  "荊軻": {
+    "jp": "荊軻",
+    "en": "Jing Ke"
+  },
+  "シャルル＝アンリ・サンソン": {
+    "jp": "シャルル＝アンリ・サンソン",
+    "en": "Charles-Henri Sanson"
+  },
+  "ファントム・オブ・ジ・オペラ": {
+    "jp": "ファントム・オブ・ジ・オペラ",
+    "en": "Phantom of the Opera"
+  },
+  "マタ・ハリ": {
+    "jp": "マタ・ハリ",
+    "en": "Mata Hari"
+  },
+  "カーミラ": {
+    "jp": "カーミラ",
+    "en": "Carmilla"
+  },
+  "ヘラクレス": {
+    "jp": "ヘラクレス",
+    "en": "Heracles"
+  },
+  "ランスロット": {
+    "jp": "ランスロット",
+    "en": "Lancelot (Saber)"
+  },
+  "呂布奉先": {
+    "jp": "呂布奉先",
+    "en": "Lu Bu Fengxian"
+  },
+  "スパルタクス": {
+    "jp": "スパルタクス",
+    "en": "Spartacus"
+  },
+  "坂田金時": {
+    "jp": "坂田金時",
+    "en": "Sakata Kintoki"
+  },
+  "ヴラド三世": {
+    "jp": "ヴラド三世",
+    "en": "Vlad III"
+  },
+  "アステリオス": {
+    "jp": "アステリオス",
+    "en": "Asterios"
+  },
+  "カリギュラ": {
+    "jp": "カリギュラ",
+    "en": "Caligula"
+  },
+  "ダレイオス三世": {
+    "jp": "ダレイオス三世",
+    "en": "Darius III"
+  },
+  "清姫": {
+    "jp": "清姫",
+    "en": "Kiyohime"
+  },
+  "エイリーク・ブラッドアクス": {
+    "jp": "エイリーク・ブラッドアクス",
+    "en": "Eric Bloodaxe"
+  },
+  "タマモキャット": {
+    "jp": "タマモキャット",
+    "en": "Tamamo Cat"
+  },
+  "ジャンヌ・ダルク": {
+    "jp": "ジャンヌ・ダルク",
+    "en": "Jeanne d'Arc"
+  },
+  "オリオン": {
+    "jp": "オリオン",
+    "en": "Orion"
+  },
+  "エリザベート・バートリー[ハロウィン]": {
+    "jp": "エリザベート・バートリー[ハロウィン]",
+    "en": "Elisabeth Báthory (Halloween)"
+  },
+  "玉藻の前": {
+    "jp": "玉藻の前",
+    "en": "Tamamo-no-Mae"
+  },
+  "ダビデ": {
+    "jp": "ダビデ",
+    "en": "David"
+  },
+  "ヘクトール": {
+    "jp": "ヘクトール",
+    "en": "Hektor"
+  },
+  "フランシス・ドレイク": {
+    "jp": "フランシス・ドレイク",
+    "en": "Francis Drake"
+  },
+  "アン・ボニー&メアリー・リード": {
+    "jp": "アン・ボニー&メアリー・リード",
+    "en": "Anne Bonny & Mary Read"
+  },
+  "メディア［リリィ］": {
+    "jp": "メディア［リリィ］",
+    "en": "Medea (Lily)"
+  },
+  "沖田総司": {
+    "jp": "沖田総司",
+    "en": "Okita Souji"
+  },
+  "織田信長": {
+    "jp": "織田信長",
+    "en": "Oda Nobunaga (Avenger)"
+  },
+  "スカサハ": {
+    "jp": "スカサハ",
+    "en": "Scáthach"
+  },
+  "ディルムッド・オディナ": {
+    "jp": "ディルムッド・オディナ",
+    "en": "Diarmuid Ua Duibhne"
+  },
+  "フェルグス・マック・ロイ": {
+    "jp": "フェルグス・マック・ロイ",
+    "en": "Fergus mac Róich"
+  },
+  "アルトリア・ペンドラゴン［サンタオルタ］": {
+    "jp": "アルトリア・ペンドラゴン［サンタオルタ］",
+    "en": "Altria Pendragon (Santa Alter)"
+  },
+  "ナーサリー・ライム": {
+    "jp": "ナーサリー・ライム",
+    "en": "Nursery Rhyme"
+  },
+  "ジャック・ザ・リッパー": {
+    "jp": "ジャック・ザ・リッパー",
+    "en": "Jack the Ripper"
+  },
+  "モードレッド": {
+    "jp": "モードレッド",
+    "en": "Mordred"
+  },
+  "ニコラ・テスラ": {
+    "jp": "ニコラ・テスラ",
+    "en": "Nikola Tesla"
+  },
+  "アルトリア・ペンドラゴン〔オルタ〕": {
+    "jp": "アルトリア・ペンドラゴン〔オルタ〕",
+    "en": "Altria Pendragon (Lancer Alter)"
+  },
+  "ヴァン・ホーエンハイム・パラケルスス": {
+    "jp": "ヴァン・ホーエンハイム・パラケルスス",
+    "en": "Paracelsus von Hohenheim"
+  },
+  "チャールズ・バベッジ": {
+    "jp": "チャールズ・バベッジ",
+    "en": "Charles Babbage"
+  },
+  "ヘンリー・ジキル＆ハイド": {
+    "jp": "ヘンリー・ジキル＆ハイド",
+    "en": "Henry Jekyll & Hyde"
+  },
+  "フランケンシュタイン": {
+    "jp": "フランケンシュタイン",
+    "en": "Frankenstein"
+  },
+  "ソロモン": {
+    "jp": "ソロモン",
+    "en": "Solomon"
+  },
+  "アルジュナ": {
+    "jp": "アルジュナ",
+    "en": "Arjuna"
+  },
+  "カルナ": {
+    "jp": "カルナ",
+    "en": "Karna"
+  },
+  "謎のヒロインX": {
+    "jp": "謎のヒロインX",
+    "en": "Mysterious Heroine X"
+  },
+  "フィン・マックール": {
+    "jp": "フィン・マックール",
+    "en": "Dioscuri"
+  },
+  "ブリュンヒルデ": {
+    "jp": "ブリュンヒルデ",
+    "en": "Brynhild (Berserker)"
+  },
+  "ベオウルフ": {
+    "jp": "ベオウルフ",
+    "en": "Beowulf"
+  },
+  "ネロ・クラウディウス (ブライド)": {
+    "jp": "ネロ・クラウディウス (ブライド)",
+    "en": "Nero Claudius (Bride)"
+  },
+  "両儀式〔セイバー〕": {
+    "jp": "両儀式〔セイバー〕",
+    "en": "Ryougi Shiki (Saber)"
+  },
+  "両儀式〔アサシン〕": {
+    "jp": "両儀式〔アサシン〕",
+    "en": "Ryougi Shiki (Assassin)"
+  },
+  "天草四郎": {
+    "jp": "天草四郎",
+    "en": "Amakusa Shirou"
+  },
+  "アストルフォ": {
+    "jp": "アストルフォ",
+    "en": "Astolfo"
+  },
+  "子ギル": {
+    "jp": "子ギル",
+    "en": "Gilgamesh (Child)"
+  },
+  "巌窟王 エドモン・ダンテス": {
+    "jp": "巌窟王 エドモン・ダンテス",
+    "en": "Edmond Dantès"
+  },
+  "ナイチンゲール": {
+    "jp": "ナイチンゲール",
+    "en": "Florence Nightingale"
+  },
+  "クー・フーリン〔オルタ〕": {
+    "jp": "クー・フーリン〔オルタ〕",
+    "en": "Cú Chulainn (Alter)"
+  },
+  "女王メイヴ": {
+    "jp": "女王メイヴ",
+    "en": "Queen Medb"
+  },
+  "エレナ・ブラヴァツキー": {
+    "jp": "エレナ・ブラヴァツキー",
+    "en": "Helena Blavatsky"
+  },
+  "ラーマ": {
+    "jp": "ラーマ",
+    "en": "Rama"
+  },
+  "神槍 李書文": {
+    "jp": "神槍 李書文",
+    "en": "Li Shuwen"
+  },
+  "トーマス・エジソン": {
+    "jp": "トーマス・エジソン",
+    "en": "Thomas Edison"
+  },
+  "ジェロニモ": {
+    "jp": "ジェロニモ",
+    "en": "Geronimo"
+  },
+  "ビリー・ザ・キッド": {
+    "jp": "ビリー・ザ・キッド",
+    "en": "Billy the Kid"
+  },
+  "ジャンヌ・ダルク [オルタ]": {
+    "jp": "ジャンヌ・ダルク [オルタ]",
+    "en": "Jeanne d'Arc (Alter)"
+  },
+  "アンリマユ": {
+    "jp": "アンリマユ",
+    "en": "Aŋra Mainiiu"
+  },
+  "イスカンダル": {
+    "jp": "イスカンダル",
+    "en": "Iskandar"
+  },
+  "エミヤ〔アサシン〕": {
+    "jp": "エミヤ〔アサシン〕",
+    "en": "Emiya (Assassin)"
+  },
+  "百貌のハサン": {
+    "jp": "百貌のハサン",
+    "en": "Hassan of the Hundred Personas"
+  },
+  "アイリスフィール〔天の衣〕": {
+    "jp": "アイリスフィール〔天の衣〕",
+    "en": "Irisviel (Holy Grail)"
+  },
+  "酒呑童子": {
+    "jp": "酒呑童子",
+    "en": "Shuten-Douji (Caster)"
+  },
+  "玄奘三蔵": {
+    "jp": "玄奘三蔵",
+    "en": "Xuanzang Sanzang"
+  },
+  "源頼光": {
+    "jp": "源頼光",
+    "en": "Minamoto-no-Raikou (Lancer)"
+  },
+  "坂田金時〔ライダー〕": {
+    "jp": "坂田金時〔ライダー〕",
+    "en": "Sakata Kintoki (Rider)"
+  },
+  "茨木童子": {
+    "jp": "茨木童子",
+    "en": "Ibaraki-Douji"
+  },
+  "風魔小太郎": {
+    "jp": "風魔小太郎",
+    "en": "Fuuma Kotarou"
+  },
+  "オジマンディアス": {
+    "jp": "オジマンディアス",
+    "en": "Ozymandias"
+  },
+  "アルトリア・ペンドラゴン": {
+    "jp": "アルトリア・ペンドラゴン",
+    "en": "Altria Pendragon (Lancer)"
+  },
+  "ニトクリス": {
+    "jp": "ニトクリス",
+    "en": "Nitocris"
+  },
+  "トリスタン": {
+    "jp": "トリスタン",
+    "en": "Tristan"
+  },
+  "ガウェイン": {
+    "jp": "ガウェイン",
+    "en": "Gawain"
+  },
+  "静謐のハサン": {
+    "jp": "静謐のハサン",
+    "en": "Hassan of the Serenity"
+  },
+  "俵藤太": {
+    "jp": "俵藤太",
+    "en": "Tawara Touta"
+  },
+  "ベディヴィエール": {
+    "jp": "ベディヴィエール",
+    "en": "Bedivere"
+  },
+  "レオナルド・ダ・ヴィンチ": {
+    "jp": "レオナルド・ダ・ヴィンチ",
+    "en": "Leonardo Da Vinci (Rider)"
+  },
+  "玉藻の前 〔ランサー〕": {
+    "jp": "玉藻の前 〔ランサー〕",
+    "en": "Tamamo-no-Mae (Lancer)"
+  },
+  "アルトリア・ペンドラゴン〔アーチャー〕": {
+    "jp": "アルトリア・ペンドラゴン〔アーチャー〕",
+    "en": "Altria Pendragon (Archer)"
+  },
+  "マリー・アントワネット〔キャスター〕": {
+    "jp": "マリー・アントワネット〔キャスター〕",
+    "en": "Marie Antoinette (Caster)"
+  },
+  "アン・ボニー＆メアリー・リード〔アーチャー〕": {
+    "jp": "アン・ボニー＆メアリー・リード〔アーチャー〕",
+    "en": "Anne Bonny & Mary Read (Archer)"
+  },
+  "モードレッド〔ライダー〕": {
+    "jp": "モードレッド〔ライダー〕",
+    "en": "Mordred (Rider)"
+  },
+  "スカサハ〔アサシン〕": {
+    "jp": "スカサハ〔アサシン〕",
+    "en": "Scáthach (Assassin)"
+  },
+  "清姫〔ランサー〕": {
+    "jp": "清姫〔ランサー〕",
+    "en": "Kiyohime (Lancer)"
+  },
+  "イリヤスフィール・フォン・アインツベルン": {
+    "jp": "イリヤスフィール・フォン・アインツベルン",
+    "en": "Illyasviel von Einzbern (Archer)"
+  },
+  "クロエ･フォン・アインツベルン": {
+    "jp": "クロエ･フォン・アインツベルン",
+    "en": "Chloe von Einzbern"
+  },
+  "エリザベート・バートリー[ブレイブ]": {
+    "jp": "エリザベート・バートリー[ブレイブ]",
+    "en": "Elisabeth Báthory (Brave)"
+  },
+  "クレオパトラ": {
+    "jp": "クレオパトラ",
+    "en": "Cleopatra"
+  },
+  "ヴラド三世 (EXTRA)": {
+    "jp": "ヴラド三世 (EXTRA)",
+    "en": "Vlad III (EXTRA)"
+  },
+  "ジャンヌ･ダルク･オルタ･サンタ･リリィ": {
+    "jp": "ジャンヌ･ダルク･オルタ･サンタ･リリィ",
+    "en": "Jeanne d'Arc Alter Santa Lily"
+  },
+  "イシュタル": {
+    "jp": "イシュタル",
+    "en": "Ishtar"
+  },
+  "エルキドゥ": {
+    "jp": "エルキドゥ",
+    "en": "Enkidu"
+  },
+  "ケツァル・コアトル": {
+    "jp": "ケツァル・コアトル",
+    "en": "Quetzalcoatl"
+  },
+  "ギルガメッシュ〔キャスター〕": {
+    "jp": "ギルガメッシュ〔キャスター〕",
+    "en": "Gilgamesh (Caster)"
+  },
+  "メドゥーサ〔ランサー〕": {
+    "jp": "メドゥーサ〔ランサー〕",
+    "en": "Medusa (Lancer)"
+  },
+  "ゴルゴーン": {
+    "jp": "ゴルゴーン",
+    "en": "Gorgon"
+  },
+  "ジャガーマン": {
+    "jp": "ジャガーマン",
+    "en": "Jaguar Warrior"
+  },
+  "ティアマト": {
+    "jp": "ティアマト",
+    "en": "Tiamat"
+  },
+  "マーリン": {
+    "jp": "マーリン",
+    "en": "Merlin"
+  },
+  "魔神王ゲーティア": {
+    "jp": "魔神王ゲーティア",
+    "en": "Goetia"
+  },
+  "宮本武蔵": {
+    "jp": "宮本武蔵",
+    "en": "Miyamoto Musashi"
+  },
+  "\"山の翁\"": {
+    "jp": "\"山の翁\"",
+    "en": "First Hassan"
+  },
+  "謎のヒロインＸ〔オルタ〕": {
+    "jp": "謎のヒロインＸ〔オルタ〕",
+    "en": "Mysterious Heroine X (Alter)"
+  },
+  "新宿のアーチャー,<br/>ジェームズ・モリアーティ": {
+    "jp": "新宿のアーチャー,<br/>ジェームズ・モリアーティ",
+    "en": "Archer of Shinjuku"
+  },
+  "エミヤ〔オルタ〕": {
+    "jp": "エミヤ〔オルタ〕",
+    "en": "EMIYA (Alter)"
+  },
+  "新宿のアヴェンジャー, ヘシアン・ロボ": {
+    "jp": "新宿のアヴェンジャー, ヘシアン・ロボ",
+    "en": "Avenger of Shinjuku"
+  },
+  "新宿のアサシン<br/>燕青<br/>エンセイ": {
+    "jp": "新宿のアサシン<br/>燕青<br/>エンセイ",
+    "en": "Assassin of Shinjuku"
+  },
+  "アーサー・ペンドラゴン〔プロトタイプ〕": {
+    "jp": "アーサー・ペンドラゴン〔プロトタイプ〕",
+    "en": "Arthur Pendragon (Prototype)"
+  },
+  "土方歳三": {
+    "jp": "土方歳三",
+    "en": "Hijikata Toshizo"
+  },
+  "茶々": {
+    "jp": "茶々",
+    "en": "Chacha"
+  },
+  "メルトリリス": {
+    "jp": "メルトリリス",
+    "en": "Meltryllis"
+  },
+  "パッションリップ": {
+    "jp": "パッションリップ",
+    "en": "Passionlip"
+  },
+  "鈴鹿御前": {
+    "jp": "鈴鹿御前",
+    "en": "Suzuka Gozen"
+  },
+  "ビィビィ": {
+    "jp": "ビィビィ",
+    "en": "BB (Summer)"
+  },
+  "殺生院キアラ": {
+    "jp": "殺生院キアラ",
+    "en": "Sessyoin Kiara (Moon Cancer)"
+  },
+  "ビーストIII／R": {
+    "jp": "ビーストIII／R",
+    "en": "Beast III/R"
+  },
+  "不夜城のキャスター": {
+    "jp": "不夜城のキャスター",
+    "en": "Caster of Nightless City"
+  },
+  "不夜城のアサシン": {
+    "jp": "不夜城のアサシン",
+    "en": "Assassin of Nightless City"
+  },
+  "エルドラドのバーサーカー": {
+    "jp": "エルドラドのバーサーカー",
+    "en": "Berserker of El Dorado"
+  },
+  "レジスタンスのライダー": {
+    "jp": "レジスタンスのライダー",
+    "en": "Rider of Resistance"
+  },
+  "シャーロック・ホームズ": {
+    "jp": "シャーロック・ホームズ",
+    "en": "Sherlock Holmes"
+  },
+  "ポール・バニヤン": {
+    "jp": "ポール・バニヤン",
+    "en": "Paul Bunyan"
+  },
+  "ネロ・クラウディウス (キャスター)": {
+    "jp": "ネロ・クラウディウス (キャスター)",
+    "en": "Nero Claudius (Caster)"
+  },
+  "フランケンシュタイン (セイバー)": {
+    "jp": "フランケンシュタイン (セイバー)",
+    "en": "Frankenstein (Saber)"
+  },
+  "ニトクリス (アサシン)": {
+    "jp": "ニトクリス (アサシン)",
+    "en": "Nitocris (Assassin)"
+  },
+  "織田信長 (バーサーカー)": {
+    "jp": "織田信長 (バーサーカー)",
+    "en": "Oda Nobunaga (Berserker)"
+  },
+  "アルトリア・ペンドラゴン (オルタ) (ライダー)": {
+    "jp": "アルトリア・ペンドラゴン (オルタ) (ライダー)",
+    "en": "Altria Pendragon (Rider Alter)"
+  },
+  "エレナ・ブラヴァツキー (アーチャー)": {
+    "jp": "エレナ・ブラヴァツキー (アーチャー)",
+    "en": "Helena Blavatsky (Archer)"
+  },
+  "イシュタル (ライダー)": {
+    "jp": "イシュタル (ライダー)",
+    "en": "Ishtar (Rider)"
+  },
+  "パールヴァティー": {
+    "jp": "パールヴァティー",
+    "en": "Parvati"
+  },
+  "巴御前": {
+    "jp": "巴御前",
+    "en": "Archer of Inferno"
+  },
+  "望月千代女": {
+    "jp": "望月千代女",
+    "en": "Assassin of Paradise, Assassin Paraiso"
+  },
+  "宝蔵院胤舜": {
+    "jp": "宝蔵院胤舜",
+    "en": "Houzouin Inshun"
+  },
+  "柳生但馬守宗矩": {
+    "jp": "柳生但馬守宗矩",
+    "en": "Munenori Yagyu"
+  },
+  "加藤段蔵": {
+    "jp": "加藤段蔵",
+    "en": "Kato Danzou"
+  },
+  "刑部姬": {
+    "jp": "刑部姬",
+    "en": "Osakabehime"
+  },
+  "メカエリチャン": {
+    "jp": "メカエリチャン",
+    "en": "Mecha Eli-chan"
+  },
+  "メカエリチャンⅡ号機": {
+    "jp": "メカエリチャンⅡ号機",
+    "en": "Mecha Eli-chan MkII"
+  },
+  "オケアノスのキャスター": {
+    "jp": "オケアノスのキャスター",
+    "en": "Caster of Okeanos"
+  },
+  "哪吒": {
+    "jp": "哪吒",
+    "en": "Nezha"
+  },
+  "ミドラーシュのキャスター": {
+    "jp": "ミドラーシュのキャスター",
+    "en": "Caster of Midrash"
+  },
+  "アビゲイル・ウィリアムズ": {
+    "jp": "アビゲイル・ウィリアムズ",
+    "en": "Abigail Williams"
+  },
+  "エレシュキガル": {
+    "jp": "エレシュキガル",
+    "en": "Ereshkigal"
+  },
+  "アルテラ・ザ・サン(タ)": {
+    "jp": "アルテラ・ザ・サン(タ)",
+    "en": "Altera the San(ta)"
+  },
+  "葛飾北斎": {
+    "jp": "葛飾北斎",
+    "en": "Katsushika Hokusai"
+  },
+  "セミラミス": {
+    "jp": "セミラミス",
+    "en": "Semiramis"
+  },
+  "浅上藤乃": {
+    "jp": "浅上藤乃",
+    "en": "Asagami Fujino"
+  },
+  "アナスタシア・ニコラエヴナ・ロマノヴァ": {
+    "jp": "アナスタシア・ニコラエヴナ・ロマノヴァ",
+    "en": "Anastasia Nikolaevna Romanova"
+  },
+  "アタランテ(オルタ)": {
+    "jp": "アタランテ(オルタ)",
+    "en": "Atalante (Alter)"
+  },
+  "アヴィケブロン": {
+    "jp": "アヴィケブロン",
+    "en": "Avicebron"
+  },
+  "アントニオ・サリエリ": {
+    "jp": "アントニオ・サリエリ",
+    "en": "Antonio Salieri"
+  },
+  "イヴァン雷帝": {
+    "jp": "イヴァン雷帝",
+    "en": "Ivan the Thunder Emperor"
+  },
+  "アキレウス": {
+    "jp": "アキレウス",
+    "en": "Achilles"
+  },
+  "ケイローン": {
+    "jp": "ケイローン",
+    "en": "Chiron"
+  },
+  "ジーク": {
+    "jp": "ジーク",
+    "en": "Sieg"
+  },
+  "沖田総司(オルタ)": {
+    "jp": "沖田総司(オルタ)",
+    "en": "Okita Souji (Alter)"
+  },
+  "岡田以蔵": {
+    "jp": "岡田以蔵",
+    "en": "Okada Izou"
+  },
+  "坂本龍馬": {
+    "jp": "坂本龍馬",
+    "en": "Sakamoto Ryouma"
+  },
+  "ナポレオン": {
+    "jp": "ナポレオン",
+    "en": "Napoleon"
+  },
+  "シグルド": {
+    "jp": "シグルド",
+    "en": "Sigurd"
+  },
+  "ワルキューレ": {
+    "jp": "ワルキューレ",
+    "en": "Valkyrie"
+  },
+  "スカサハ＝スカディ": {
+    "jp": "スカサハ＝スカディ",
+    "en": "Scáthach-Skadi"
+  },
+  "ジャンヌ・ダルク (アーチャー)": {
+    "jp": "ジャンヌ・ダルク (アーチャー)",
+    "en": "Jeanne d'Arc (Archer)"
+  },
+  "茨木童子〔ランサー〕": {
+    "jp": "茨木童子〔ランサー〕",
+    "en": "Ibaraki-Douji (Lancer)"
+  },
+  "牛若丸〔アサシン〕": {
+    "jp": "牛若丸〔アサシン〕",
+    "en": "Ushiwakamaru (Assassin)"
+  },
+  "ジャンヌ・ダルク [オルタ]〔バーサーカー〕": {
+    "jp": "ジャンヌ・ダルク [オルタ]〔バーサーカー〕",
+    "en": "Jeanne d'Arc (Berserker Alter)"
+  },
+  "女王メイヴ 〔セイバー〕": {
+    "jp": "女王メイヴ 〔セイバー〕",
+    "en": "Queen Medb (Saber)"
+  },
+  "謎のヒロインXX": {
+    "jp": "謎のヒロインXX",
+    "en": "Mysterious Heroine XX"
+  },
+  "ディルムッド･オディナ": {
+    "jp": "ディルムッド･オディナ",
+    "en": "Diarmuid Ua Duibhne (Saber)"
+  },
+  "シトナイ": {
+    "jp": "シトナイ",
+    "en": "Sitonai"
+  },
+  "項羽": {
+    "jp": "項羽",
+    "en": "Xiang Yu"
+  },
+  "蘭陵王": {
+    "jp": "蘭陵王",
+    "en": "Prince of Lan Ling"
+  },
+  "秦良玉": {
+    "jp": "秦良玉",
+    "en": "Qin Liangyu"
+  },
+  "始皇帝": {
+    "jp": "始皇帝",
+    "en": "Shi Huang Di"
+  },
+  "虞美人": {
+    "jp": "虞美人",
+    "en": "Yu Miaoyi (Lancer)"
+  },
+  "赤兎馬": {
+    "jp": "赤兎馬",
+    "en": "Red Hare"
+  },
+  "ブラダマンテ": {
+    "jp": "ブラダマンテ",
+    "en": "Bradamante"
+  },
+  "ケツァルコアトル (サンバ/サンタ)": {
+    "jp": "ケツァルコアトル (サンバ/サンタ)",
+    "en": "Quetzalcoatl (Samba/Santa)"
+  },
+  "紅閻魔": {
+    "jp": "紅閻魔",
+    "en": "Benienma"
+  },
+  "李書文": {
+    "jp": "李書文",
+    "en": "Li Shuwen (Assassin)"
+  },
+  "美遊・エーデルフェルト": {
+    "jp": "美遊・エーデルフェルト",
+    "en": "Miyu Edelfelt"
+  },
+  "紫式部": {
+    "jp": "紫式部",
+    "en": "Murasaki Shikibu"
+  },
+  "キングプロテア": {
+    "jp": "キングプロテア",
+    "en": "Kingprotea"
+  },
+  "カーマ": {
+    "jp": "カーマ",
+    "en": "Kama"
+  },
+  "ビーストIII／L": {
+    "jp": "ビーストIII／L",
+    "en": "Beast III/L"
+  },
+  "司馬懿〔ライネス〕": {
+    "jp": "司馬懿〔ライネス〕",
+    "en": "Sima Yi (Reines)"
+  },
+  "アストライア": {
+    "jp": "アストライア",
+    "en": "Astraea"
+  },
+  "グレイ": {
+    "jp": "グレイ",
+    "en": "Gray"
+  },
+  "ジナコ＝カリギリ": {
+    "jp": "ジナコ＝カリギリ",
+    "en": "Jinako Carigiri"
+  },
+  "ラクシュミー･バーイー": {
+    "jp": "ラクシュミー･バーイー",
+    "en": "Lakshmibai"
+  },
+  "ウィリアム･テル": {
+    "jp": "ウィリアム･テル",
+    "en": "William Tell"
+  },
+  "アルジュナ(オルタ)": {
+    "jp": "アルジュナ(オルタ)",
+    "en": "Arjuna (Alter)"
+  },
+  "アシュヴァッターマン": {
+    "jp": "アシュヴァッターマン",
+    "en": "Ashvatthaman"
+  },
+  "アスクレピオス": {
+    "jp": "アスクレピオス",
+    "en": "Asclepius"
+  },
+  "森長可": {
+    "jp": "森長可",
+    "en": "Mori Nagayoshi"
+  },
+  "長尾景虎": {
+    "jp": "長尾景虎",
+    "en": "Nagao Kagetora"
+  },
+  "イアソン": {
+    "jp": "イアソン",
+    "en": "Jason"
+  },
+  "パリス": {
+    "jp": "パリス",
+    "en": "Paris"
+  },
+  "ガレス": {
+    "jp": "ガレス",
+    "en": "Gareth"
+  },
+  "バーソロミュー・ロバーツ": {
+    "jp": "バーソロミュー・ロバーツ",
+    "en": "Bartholomew Roberts"
+  },
+  "陳宮": {
+    "jp": "陳宮",
+    "en": "Chen Gong"
+  },
+  "シャルロット・コルデー": {
+    "jp": "シャルロット・コルデー",
+    "en": "Charlotte Corday"
+  },
+  "サロメ": {
+    "jp": "サロメ",
+    "en": "Salome"
+  },
+  "宮本武蔵(バーサーカー)": {
+    "jp": "宮本武蔵(バーサーカー)",
+    "en": "Miyamoto Musashi (Berserker)"
+  },
+  "刑部姫(アーチャー)": {
+    "jp": "刑部姫(アーチャー)",
+    "en": "Osakabehime (Archer)"
+  },
+  "カーミラ (ライダー)": {
+    "jp": "カーミラ (ライダー)",
+    "en": "Carmilla (Rider)"
+  },
+  "葛飾北斎(セイバー)": {
+    "jp": "葛飾北斎(セイバー)",
+    "en": "Katsushika Hokusai (Saber)"
+  },
+  "アルトリア･ペンドラゴン(ルーラー)": {
+    "jp": "アルトリア･ペンドラゴン(ルーラー)",
+    "en": "Altria Pendragon (Ruler)"
+  },
+  "謎のアルターエゴ・Λ": {
+    "jp": "謎のアルターエゴ・Λ",
+    "en": "Mysterious Alter-Ego Lambda"
+  },
+  "オキタ･J･ソウジ": {
+    "jp": "オキタ･J･ソウジ",
+    "en": "Okita Souji (Assassin)"
+  },
+  "スペース・イシュタル": {
+    "jp": "スペース・イシュタル",
+    "en": "Space Ishtar"
+  },
+  "カラミティ・ジェーン": {
+    "jp": "カラミティ・ジェーン",
+    "en": "Calamity Jane"
+  },
+  "アストルフォ(セイバー)": {
+    "jp": "アストルフォ(セイバー)",
+    "en": "Astolfo (Saber)"
+  },
+  "ナイチンゲール(サンタ)": {
+    "jp": "ナイチンゲール(サンタ)",
+    "en": "Nightingale (Santa)"
+  },
+  "超人オリオン": {
+    "jp": "超人オリオン",
+    "en": "Super Orion"
+  },
+  "マンドリカルド": {
+    "jp": "マンドリカルド",
+    "en": "Mandricardo"
+  },
+  "エウロペ": {
+    "jp": "エウロペ",
+    "en": "Europa"
+  },
+  "楊貴妃": {
+    "jp": "楊貴妃",
+    "en": "Yang Guifei"
+  },
+  "清少納言": {
+    "jp": "清少納言",
+    "en": "Sei Shounagon"
+  },
+  "オデュッセウス": {
+    "jp": "オデュッセウス",
+    "en": "Odysseus"
+  },
+  "凱妮絲": {
+    "jp": "凱妮絲",
+    "en": "Caenis"
+  },
+  "ロムルス＝クィリヌス": {
+    "jp": "ロムルス＝クィリヌス",
+    "en": "Romulus-Quirinus"
+  },
+  "ボイジャー": {
+    "jp": "ボイジャー",
+    "en": "Voyager"
+  },
+  "鬼女紅葉": {
+    "jp": "鬼女紅葉",
+    "en": "Kijyo Kouyou"
+  },
+  "宇津見エリセ": {
+    "jp": "宇津見エリセ",
+    "en": "Erice Utsumi"
+  },
+  "アルトリア・キャスター": {
+    "jp": "アルトリア・キャスター",
+    "en": "Artoria (Caster)"
+  },
+  "アビゲイル・ウィリアムズ(夏)": {
+    "jp": "アビゲイル・ウィリアムズ(夏)",
+    "en": "Abigail Williams (Summer)"
+  },
+  "巴御前 〔セイバー〕": {
+    "jp": "巴御前 〔セイバー〕",
+    "en": "Tomoe Gozen (Saber)"
+  },
+  "紫式部 (ライダー)": {
+    "jp": "紫式部 (ライダー)",
+    "en": "Murasaki Shikibu (Rider)"
+  },
+  "卑弥呼": {
+    "jp": "卑弥呼",
+    "en": "Himiko"
+  },
+  "斎藤一": {
+    "jp": "斎藤一",
+    "en": "Saitou Hajime"
+  },
+  "織田信勝": {
+    "jp": "織田信勝",
+    "en": "Oda Nobukatsu"
+  },
+  "ヴァン・ゴッホ": {
+    "jp": "ヴァン・ゴッホ",
+    "en": "Van Gogh"
+  },
+  "ネモ": {
+    "jp": "ネモ",
+    "en": "Nemo"
+  }
+}

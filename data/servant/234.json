@@ -1,0 +1,191 @@
+{
+  "id": 234,
+  "name": "紅閻魔",
+  "klass": "Saber",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 8
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "心眼（偽）",
+      "rank": "A",
+      "icon": 402
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "星の籠（大）",
+      "rank": "EX",
+      "icon": 541
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "星の籠（小）",
+      "rank": "EX",
+      "icon": 329
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 12
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 5
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 12
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "閑古鈴",
+          "piece": 18
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

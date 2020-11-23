@@ -1,0 +1,198 @@
+{
+  "id": 50,
+  "name": "スパルタクス",
+  "klass": "Berserker",
+  "rarity": 1,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 4
+        },
+        {
+          "name": "八連双晶",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 2
+        },
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 4
+        },
+        {
+          "name": "凶骨",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "被虐の誉れ",
+      "rank": "B",
+      "icon": 606
+    },
+    {
+      "order": 1,
+      "is_upgraded": true,
+      "name": "被虐の誉れ",
+      "rank": "B+",
+      "icon": 606
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "不屈の意志",
+      "rank": "A",
+      "icon": 404
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "剣の凱旋",
+      "rank": "B",
+      "icon": 306
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 4
+        },
+        {
+          "name": "英雄の証",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 2
+        },
+        {
+          "name": "英雄の証",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 4
+        },
+        {
+          "name": "八連双晶",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 8
+        },
+        {
+          "name": "凶骨",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

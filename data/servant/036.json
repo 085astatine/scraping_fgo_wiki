@@ -1,0 +1,191 @@
+{
+  "id": 36,
+  "name": "ヴォルフガング・アマデウス・モーツァルト",
+  "klass": "Caster",
+  "rarity": 1,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 4
+        },
+        {
+          "name": "凶骨",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 2
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 4
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 4
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 2
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "音楽神の加護（偽）",
+      "rank": "EX",
+      "icon": 305
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "芸術審美",
+      "rank": "B",
+      "icon": 506
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "小さな夜の曲",
+      "rank": "EX",
+      "icon": 603
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 4
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 2
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "凶骨",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

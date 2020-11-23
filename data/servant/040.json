@@ -1,0 +1,198 @@
+{
+  "id": 40,
+  "name": "呪腕のハサン",
+  "klass": "Assassin",
+  "rarity": 2,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 6
+        },
+        {
+          "name": "凶骨",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 3
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 6
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "投擲（短刀）",
+      "rank": "B",
+      "icon": 603
+    },
+    {
+      "order": 1,
+      "is_upgraded": true,
+      "name": "投擲/回収",
+      "rank": "A",
+      "icon": 603
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "自己改造",
+      "rank": "C",
+      "icon": 303
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "風除けの加護",
+      "rank": "A",
+      "icon": 402
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 6
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 3
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 6
+        },
+        {
+          "name": "凶骨",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 15
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 9
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

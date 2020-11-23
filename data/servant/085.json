@@ -1,0 +1,216 @@
+{
+  "id": 85,
+  "name": "カルナ",
+  "klass": "Lancer",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 12
+        },
+        {
+          "name": "八連双晶",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 8
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [
+    {
+      "name": "燃える三神の衣",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "八連双晶",
+            "piece": 5
+          },
+          {
+            "name": "鳳凰の羽根",
+            "piece": 5
+          },
+          {
+            "name": "暁光炉心",
+            "piece": 5
+          },
+          {
+            "name": "真理の卵",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "貧者の見識",
+      "rank": "A",
+      "icon": 512
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "魔力放出（炎）",
+      "rank": "A",
+      "icon": 306
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "無冠の武芸",
+      "rank": "",
+      "icon": 601
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 12
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 5
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 12
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 10
+        },
+        {
+          "name": "英雄の証",
+          "piece": 18
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 54
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

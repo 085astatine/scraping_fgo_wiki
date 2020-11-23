@@ -1,0 +1,171 @@
+{
+  "id": 288,
+  "name": "虞美人",
+  "klass": "Lancer",
+  "rarity": 4,
+  "ascension": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "虞美人草の髪飾り",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "虞美人草の髪飾り",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "虞美人草の髪飾り",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "虞美人草の髪飾り",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "夏の受肉精霊",
+      "rank": "A+",
+      "icon": 404
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "覇王の姫",
+      "rank": "EX",
+      "icon": 601
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "在りし日の舞",
+      "rank": "EX",
+      "icon": 304
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 10
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "戦馬の幼角",
+          "piece": 5
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "閑古鈴",
+          "piece": 15
+        },
+        {
+          "name": "悠久の実",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

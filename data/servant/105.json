@@ -1,0 +1,191 @@
+{
+  "id": 105,
+  "name": "ビリー・ザ・キッド",
+  "klass": "Archer",
+  "rarity": 3,
+  "ascension": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 8
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "凶骨",
+          "piece": 20
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 8
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 6
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "射撃",
+      "rank": "A++",
+      "icon": 303
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "クイックドロウ",
+      "rank": "A+",
+      "icon": 601
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "心眼（偽）",
+      "rank": "C",
+      "icon": 402
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 8
+        },
+        {
+          "name": "凶骨",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 4
+        },
+        {
+          "name": "凶骨",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 8
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "隕蹄鉄",
+          "piece": 7
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 24
+        },
+        {
+          "name": "血の涙石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

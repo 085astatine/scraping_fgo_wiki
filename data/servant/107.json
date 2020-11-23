@@ -1,0 +1,174 @@
+{
+  "id": 107,
+  "name": "アンリマユ",
+  "klass": "Avenger",
+  "rarity": 0,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "凶骨",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        },
+        {
+          "name": "血の涙石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "精霊根",
+          "piece": 10
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "右歯噛咬",
+      "rank": "C",
+      "icon": 520
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "左歯噛咬",
+      "rank": "C",
+      "icon": 513
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "死滅願望",
+      "rank": "A",
+      "icon": 304
+    },
+    {
+      "order": 3,
+      "is_upgraded": true,
+      "name": "四夜の終末",
+      "rank": "EX",
+      "icon": 304
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "血の涙石",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "精霊根",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

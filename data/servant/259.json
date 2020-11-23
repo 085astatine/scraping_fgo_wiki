@@ -1,0 +1,191 @@
+{
+  "id": 259,
+  "name": "シャルロット・コルデー",
+  "klass": "Assassin",
+  "rarity": 1,
+  "ascension": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 4
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 2
+        },
+        {
+          "name": "血の涙石",
+          "piece": 2
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 10
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 2
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "暗殺の天使",
+      "rank": "A",
+      "icon": 522
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "鋼鉄の決意",
+      "rank": "D",
+      "icon": 312
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "でたらめプランニング",
+      "rank": "D+",
+      "icon": 301
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        },
+        {
+          "name": "血の涙石",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 2
+        },
+        {
+          "name": "血の涙石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 7
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "呪獣胆石",
+          "piece": 3
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

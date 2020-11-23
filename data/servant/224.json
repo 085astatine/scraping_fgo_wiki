@@ -1,0 +1,199 @@
+{
+  "id": 224,
+  "name": "シトナイ",
+  "klass": "AlterEgo",
+  "rarity": 5,
+  "ascension": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 5
+        },
+        {
+          "name": "バーサーカーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 12
+        },
+        {
+          "name": "バーサーカーピース",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "spiritron_dress": [],
+  "skill": [
+    {
+      "order": 1,
+      "is_upgraded": false,
+      "name": "スノーフェアリー",
+      "rank": "EX",
+      "icon": 403
+    },
+    {
+      "order": 2,
+      "is_upgraded": false,
+      "name": "感情凍結",
+      "rank": "B",
+      "icon": 305
+    },
+    {
+      "order": 3,
+      "is_upgraded": false,
+      "name": "カムイユカラ",
+      "rank": "A",
+      "icon": 601
+    }
+  ],
+  "skill_reinforcement": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 5
+        },
+        {
+          "name": "狂の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 12
+        },
+        {
+          "name": "狂の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 5
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 12
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "封魔のランプ",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "竜の逆鱗",
+          "piece": 9
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
