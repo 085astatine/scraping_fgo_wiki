@@ -24,3 +24,4 @@ def save_json(
                 file,
                 ensure_ascii=False,
                 indent=2)
+        file.write('\n')
