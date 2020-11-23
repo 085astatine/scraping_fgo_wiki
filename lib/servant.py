@@ -3,11 +3,13 @@
 
 import enum
 import logging
+import pathlib
 import re
 import time
 from typing import Dict, List, Optional, Tuple, TypedDict
 import lxml.html
 import requests
+from .io import load_json, save_json
 from .text import Text
 
 
@@ -347,15 +349,51 @@ def _parse_spiritron_dress(
     return result
 
 
-def servant_list() -> List[Servant]:
-    servants = _parse_servant_table()
+def _load_servant(
+        data: _ServantTable,
+        *,
+        path: Optional[pathlib.Path] = None,
+        force_update: bool = False) -> Servant:
+    result: Optional[Servant] = None
+    # load
+    if path is not None and not force_update:
+        result = load_json(path)
+        if result is not None:
+            _logger.debug(
+                    'servant "%s" is load from "%s"',
+                    data['name'],
+                    path)
+            # check
+            assert result['id'] == data['id']
+    # request URL
+    if result is None or force_update:
+        result = _parse_servant_page(data)
+        time.sleep(_interval)
+        # save
+        if path is not None:
+            save_json(path, result)
+            _logger.debug(
+                'servant "%s" is saved to "%s"',
+                data['name'],
+                path)
+    return result
+
+
+def servant_list(
+        *,
+        directory: Optional[pathlib.Path] = None,
+        force_update: bool = False) -> List[Servant]:
+    servant_table = _parse_servant_table()
     time.sleep(_interval)
     result: List[Servant] = []
-    for servant in servants:
-        _logger.info('servant: %s', servant['name'])
-        time.sleep(_interval)
-        result.append(_parse_servant_page(servant))
-    time.sleep(_interval)
+    for row in servant_table:
+        _logger.info('servant: %s', row['name'])
+        result.append(_load_servant(
+                row,
+                path=(directory.joinpath(f'{row["id"]:03d}.json')
+                      if directory is not None
+                      else None),
+                force_update=force_update))
     return result
 
 
