@@ -19,8 +19,8 @@ _logger = logging.getLogger(__name__)
 
 
 class Skill(TypedDict):
-    order: int
-    is_upgraded: bool
+    slot: int
+    level: int
     name: str
     rank: str
     icon: int
@@ -269,15 +269,15 @@ def _parse_skill(
             '/following-sibling::h4')
     for node in root.xpath(xpath):
         text = node.text_content().strip()
-        # order, name, rank
+        # slot, level, name, rank
         match = re.match(
-                r'Skill(?P<order>[123])(?P<upgraded>(|\[強化後\]))'
+                r'Skill(?P<slot>[123])(|(?P<upgraded>\[強化後\]))'
                 r'：(?P<name>.+)',
                 text)
         if not match:
             continue
-        order = int(match.group('order'))
-        is_upgraded = bool(match.group('upgraded'))
+        slot = int(match.group('slot'))
+        level = 1 if match.group('upgraded') is None else 2
         name = match.group('name')
         rank = ''
         rank_match = re.match(
@@ -287,9 +287,9 @@ def _parse_skill(
             name = rank_match.group('name')
             rank = rank_match.group('rank')
         _logger.debug(
-                'skill %d%s: %s%s',
-                order,
-                '(upgraded)' if is_upgraded else '',
+                'skill %d Lv.%d: %s%s',
+                slot,
+                level,
                 name,
                 ' rank: {0}'.format(rank) if rank else '')
         # icon
@@ -304,8 +304,8 @@ def _parse_skill(
             icon_id = 0
             _logger.warning('skill icon not found: %s', icon_text)
         result.append(Skill(
-                order=order,
-                is_upgraded=is_upgraded,
+                slot=slot,
+                level=level,
                 name=name,
                 rank=rank,
                 icon=icon_id))
