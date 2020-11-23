@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import argparse
-import json
 import logging
 import pathlib
 from typing import List
@@ -48,6 +47,15 @@ def load_items(
     return items
 
 
+def load_servants(
+        path: pathlib.Path,
+        *,
+        force_update: bool = False) -> List[lib.Servant]:
+    return lib.servant_list(
+            directory=path,
+            force_update=force_update)
+
+
 def main():
     # logger
     logger = logging.getLogger('lib')
@@ -78,25 +86,24 @@ def main():
     if option.verbose:
         logger.setLevel(logging.DEBUG)
     logger.debug('option: %s', option)
-    force_update = option.force
     # dict
     if option.mode in ['dict', 'merge']:
+        logger.info('run: dict')
         dictionary = load_dict(
                 pathlib.Path('data/dictionary/'),
                 force_update=option.force or option.mode == 'dict')
     # item
     if option.mode in ['item', 'merge']:
+        logger.info('run: item')
         items = load_items(
                 pathlib.Path('data/items.json'),
                 force_update=option.force or option.mode == 'item')
     # servant
-    servant_path = pathlib.Path('data/servants.json')
-    if servant_path.exists() and not force_update:
-        with servant_path.open() as servant_file:
-            servants = json.load(servant_file)
-    else:
-        servants = lib.servant.servant_list(items)
-        lib.save_json(servant_path, servants)
+    if option.mode in ['servant', 'merge']:
+        logger.info('run: servant')
+        servants = load_servants(
+                pathlib.Path('data/servant/'),
+                force_update=option.force)
     # master data
     master_data_path = pathlib.Path('data/master_data.json')
     master_data = {
