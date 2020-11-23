@@ -271,13 +271,16 @@ def _parse_skill(
         text = node.text_content().strip()
         # slot, level, name, rank
         match = re.match(
-                r'Skill(?P<slot>[123])(|(?P<upgraded>\[強化後\]))'
+                r'Skill(?P<slot>[123])'
+                r'(|(?P<upgraded>(|\[強化後(|(?P<level>[0-9]+)))\]))'
                 r'：(?P<name>.+)',
                 text)
         if not match:
             continue
         slot = int(match.group('slot'))
-        level = 1 if match.group('upgraded') is None else 2
+        level = (1 if match.group('upgraded') is None
+                 else 2 if match.group('level') is None
+                 else int(match.group('level')) + 1)
         name = match.group('name')
         rank = ''
         rank_match = re.match(
