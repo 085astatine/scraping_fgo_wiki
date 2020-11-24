@@ -1,6 +1,7 @@
 {
   "id": 233,
   "name": "ケツァル・コアトル〔サンバ／サンタ〕",
+  "alias_name": null,
   "klass": "Ruler",
   "rarity": 4,
   "ascension": [
@@ -41,7 +42,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "ルーダ・マスカラ",
       "resource": {
@@ -91,29 +92,35 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "サンビスタ",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "女神の贈り物",
-      "rank": "A",
-      "icon": 311
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "クリスマス殺法",
-      "rank": "EX",
-      "icon": 306
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "サンビスタ",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "女神の贈り物",
+        "rank": "A",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "クリスマス殺法",
+        "rank": "EX",
+        "icon": 306
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

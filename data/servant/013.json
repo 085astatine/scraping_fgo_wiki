@@ -1,6 +1,7 @@
 {
   "id": 13,
   "name": "ロビンフッド",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 3,
   "ascension": [
@@ -61,7 +62,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "夏の狩人",
       "resource": {
@@ -87,29 +88,35 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "破壊工作",
-      "rank": "A",
-      "icon": 503
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "黄金律",
-      "rank": "E",
-      "icon": 602
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "皐月の王",
-      "rank": "B",
-      "icon": 402
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "破壊工作",
+        "rank": "A",
+        "icon": 503
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "黄金律",
+        "rank": "E",
+        "icon": 602
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "皐月の王",
+        "rank": "B",
+        "icon": 402
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

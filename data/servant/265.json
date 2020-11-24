@@ -1,6 +1,7 @@
 {
   "id": 265,
   "name": "アルトリア・ペンドラゴン",
+  "alias_name": null,
   "klass": "Ruler",
   "rarity": 5,
   "ascension": [
@@ -81,37 +82,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ロイヤルバニー",
-      "rank": "A",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "ロイヤルカード",
-      "rank": "C+",
-      "icon": 703
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "ロイヤルカード",
-      "rank": "B+",
-      "icon": 703
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "獅子の騎士",
-      "rank": "B",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ロイヤルバニー",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "ロイヤルカード",
+        "rank": "C+",
+        "icon": 703
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "ロイヤルカード",
+        "rank": "B+",
+        "icon": 703
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "獅子の騎士",
+        "rank": "B",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

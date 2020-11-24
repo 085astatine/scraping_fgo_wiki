@@ -1,6 +1,7 @@
 {
   "id": 173,
   "name": "シャーロック・ホームズ",
+  "alias_name": null,
   "klass": "Ruler",
   "rarity": 5,
   "ascension": [
@@ -81,37 +82,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "天賦の見識",
-      "rank": "A++",
-      "icon": 512
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "天賦の見識",
-      "rank": "A+++",
-      "icon": 512
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "仮説推論",
-      "rank": "A+",
-      "icon": 311
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "バリツ",
-      "rank": "B++",
-      "icon": 305
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "天賦の見識",
+        "rank": "A++",
+        "icon": 512
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "天賦の見識",
+        "rank": "A+++",
+        "icon": 512
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "仮説推論",
+        "rank": "A+",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "バリツ",
+        "rank": "B++",
+        "icon": 305
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

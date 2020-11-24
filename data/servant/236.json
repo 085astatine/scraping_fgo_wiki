@@ -1,6 +1,7 @@
 {
   "id": 236,
   "name": "美遊・エーデルフェルト",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "愉快型魔術礼装（妹）",
-      "rank": "A",
-      "icon": 305
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "少女の意地",
-      "rank": "B",
-      "icon": 404
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "神稚児の願い",
-      "rank": "EX",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "愉快型魔術礼装（妹）",
+        "rank": "A",
+        "icon": 305
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "少女の意地",
+        "rank": "B",
+        "icon": 404
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "神稚児の願い",
+        "rank": "EX",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

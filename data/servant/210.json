@@ -1,6 +1,7 @@
 {
   "id": 210,
   "name": "岡田以蔵",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 3,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "人斬り",
-      "rank": "A",
-      "icon": 301
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "心眼（偽）",
-      "rank": "C",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "撃剣矯捷なること隼の如し",
-      "rank": "A",
-      "icon": 311
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "人斬り",
+        "rank": "A",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "心眼（偽）",
+        "rank": "C",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "撃剣矯捷なること隼の如し",
+        "rank": "A",
+        "icon": 311
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

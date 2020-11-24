@@ -1,6 +1,7 @@
 {
   "id": 74,
   "name": "ナーサリー・ライム",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "自己改造",
-      "rank": "A",
-      "icon": 303
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "変化",
-      "rank": "A+",
-      "icon": 400
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "一方その頃",
-      "rank": "A",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "自己改造",
+        "rank": "A",
+        "icon": 303
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "変化",
+        "rank": "A+",
+        "icon": 400
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "一方その頃",
+        "rank": "A",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

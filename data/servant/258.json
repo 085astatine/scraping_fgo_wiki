@@ -1,6 +1,7 @@
 {
   "id": 258,
   "name": "陳宮",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 2,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "スケープゴート",
-      "rank": "E",
-      "icon": 700
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "軍師の忠言",
-      "rank": "B++",
-      "icon": 400
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "軍師の本懐",
-      "rank": "A",
-      "icon": 306
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "スケープゴート",
+        "rank": "E",
+        "icon": 700
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "軍師の忠言",
+        "rank": "B++",
+        "icon": 400
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "軍師の本懐",
+        "rank": "A",
+        "icon": 306
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 20000,

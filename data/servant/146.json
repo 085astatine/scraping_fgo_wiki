@@ -1,6 +1,7 @@
 {
   "id": 146,
   "name": "メドゥーサ",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "魅惑の美声",
-      "rank": "B",
-      "icon": 509
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "儚き姉妹",
-      "rank": "A",
-      "icon": 509
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "怪力",
-      "rank": "C",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "彼方への想い",
-      "rank": "A",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "魅惑の美声",
+        "rank": "B",
+        "icon": 509
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "儚き姉妹",
+        "rank": "A",
+        "icon": 509
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "怪力",
+        "rank": "C",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "彼方への想い",
+        "rank": "A",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

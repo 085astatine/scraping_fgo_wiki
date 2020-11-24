@@ -1,6 +1,7 @@
 {
   "id": 175,
   "name": "ネロ・クラウディウス",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "暴走特権",
-      "rank": "EX",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "七つの冠",
-      "rank": "C",
-      "icon": 328
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "死なずのマグス",
-      "rank": "A",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "暴走特権",
+        "rank": "EX",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "七つの冠",
+        "rank": "C",
+        "icon": 328
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "死なずのマグス",
+        "rank": "A",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

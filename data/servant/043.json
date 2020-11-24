@@ -1,6 +1,7 @@
 {
   "id": 43,
   "name": "シャルル＝アンリ・サンソン",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 2,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "処刑人",
-      "rank": "A++",
-      "icon": 301
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "医術",
-      "rank": "A",
-      "icon": 600
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "医術",
-      "rank": "A+",
-      "icon": 600
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "人体研究",
-      "rank": "B",
-      "icon": 301
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "処刑人",
+        "rank": "A++",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "医術",
+        "rank": "A",
+        "icon": 600
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "医術",
+        "rank": "A+",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "人体研究",
+        "rank": "B",
+        "icon": 301
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 20000,

@@ -1,6 +1,7 @@
 {
   "id": 222,
   "name": "謎のヒロインXX",
+  "alias_name": null,
   "klass": "Foreigner",
   "rarity": 4,
   "ascension": [
@@ -57,30 +58,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "乗着",
-      "rank": "EX",
-      "icon": 403
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "刑事の直感",
-      "rank": "E",
-      "icon": 603
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "最果ての正義",
-      "rank": "A",
-      "icon": 312
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "乗着",
+        "rank": "EX",
+        "icon": 403
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "刑事の直感",
+        "rank": "E",
+        "icon": 603
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "最果ての正義",
+        "rank": "A",
+        "icon": 312
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

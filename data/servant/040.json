@@ -1,6 +1,7 @@
 {
   "id": 40,
   "name": "呪腕のハサン",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 2,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "投擲（短刀）",
-      "rank": "B",
-      "icon": 603
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "投擲/回収",
-      "rank": "A",
-      "icon": 603
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "自己改造",
-      "rank": "C",
-      "icon": 303
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "風除けの加護",
-      "rank": "A",
-      "icon": 402
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "投擲（短刀）",
+        "rank": "B",
+        "icon": 603
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "投擲/回収",
+        "rank": "A",
+        "icon": 603
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "自己改造",
+        "rank": "C",
+        "icon": 303
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "風除けの加護",
+        "rank": "A",
+        "icon": 402
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 20000,

@@ -1,6 +1,7 @@
 {
   "id": 54,
   "name": "カリギュラ",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 2,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "加虐体質",
-      "rank": "A",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "皇帝特権",
-      "rank": "A",
-      "icon": 600
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "在りし日の栄光",
-      "rank": "B",
-      "icon": 306
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "加虐体質",
+        "rank": "A",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "皇帝特権",
+        "rank": "A",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "在りし日の栄光",
+        "rank": "B",
+        "icon": 306
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 20000,

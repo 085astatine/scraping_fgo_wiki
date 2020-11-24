@@ -1,6 +1,7 @@
 {
   "id": 204,
   "name": "アントニオ・サリエリ",
+  "alias_name": null,
   "klass": "Avenger",
   "rarity": 3,
   "ascension": [
@@ -57,30 +58,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "無辜の怪物",
-      "rank": "EX",
-      "icon": 605
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "慟哭外装",
-      "rank": "A",
-      "icon": 305
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "燎原の火",
-      "rank": "B",
-      "icon": 504
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "無辜の怪物",
+        "rank": "EX",
+        "icon": 605
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "慟哭外装",
+        "rank": "A",
+        "icon": 305
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "燎原の火",
+        "rank": "B",
+        "icon": 504
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

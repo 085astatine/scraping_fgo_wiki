@@ -1,6 +1,7 @@
 {
   "id": 231,
   "name": "赤兎馬",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 3,
   "ascension": [
@@ -61,8 +62,12 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [],
+    "skill_2": [],
+    "skill_3": []
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

@@ -1,6 +1,7 @@
 {
   "id": 190,
   "name": "メカエリチャン",
+  "alias_name": null,
   "klass": "AlterEgo",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "無辜の怪獣",
-      "rank": "EX",
-      "icon": 605
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "オーバーロード改",
-      "rank": "C",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "ファイナルエリチャン",
-      "rank": "C",
-      "icon": 302
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "無辜の怪獣",
+        "rank": "EX",
+        "icon": 605
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "オーバーロード改",
+        "rank": "C",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ファイナルエリチャン",
+        "rank": "C",
+        "icon": 302
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

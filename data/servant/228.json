@@ -1,6 +1,7 @@
 {
   "id": 228,
   "name": "秦良玉",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "白杆槍",
-      "rank": "B",
-      "icon": 314
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "忠士の相",
-      "rank": "B",
-      "icon": 311
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "盗賊打破",
-      "rank": "B",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "白杆槍",
+        "rank": "B",
+        "icon": 314
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "忠士の相",
+        "rank": "B",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "盗賊打破",
+        "rank": "B",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

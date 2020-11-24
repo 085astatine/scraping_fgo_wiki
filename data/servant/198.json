@@ -1,6 +1,7 @@
 {
   "id": 198,
   "name": "葛飾北斎",
+  "alias_name": null,
   "klass": "Foreigner",
   "rarity": 5,
   "ascension": [
@@ -57,30 +58,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "森羅万象",
-      "rank": "A+",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "父娘の絆",
-      "rank": "A",
-      "icon": 305
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "雅号・異星蛸",
-      "rank": "B",
-      "icon": 325
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "森羅万象",
+        "rank": "A+",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "父娘の絆",
+        "rank": "A",
+        "icon": 305
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "雅号・異星蛸",
+        "rank": "B",
+        "icon": 325
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

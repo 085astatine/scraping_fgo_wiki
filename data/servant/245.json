@@ -1,6 +1,7 @@
 {
   "id": 245,
   "name": "ラクシュミー・バーイー",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ラーニーのカリスマ",
-      "rank": "B+",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "進撃するシパーヒー",
-      "rank": "B",
-      "icon": 403
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "グワーリヤルの抵抗",
-      "rank": "A",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ラーニーのカリスマ",
+        "rank": "B+",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "進撃するシパーヒー",
+        "rank": "B",
+        "icon": 403
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "グワーリヤルの抵抗",
+        "rank": "A",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

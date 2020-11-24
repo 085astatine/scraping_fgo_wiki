@@ -1,6 +1,7 @@
 {
   "id": 11,
   "name": "エミヤ",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 4,
   "ascension": [
@@ -61,44 +62,57 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "心眼（真）",
-      "rank": "B",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "千里眼",
-      "rank": "C",
-      "icon": 604
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "鷹の瞳",
-      "rank": "B+",
-      "icon": 604
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔術",
-      "rank": "C-",
-      "icon": 305
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "投影魔術",
-      "rank": "A",
-      "icon": 317
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "心眼（真）",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "千里眼",
+        "rank": "C",
+        "icon": 604
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "鷹の瞳",
+        "rank": "B+",
+        "icon": 604
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔術",
+        "rank": "C-",
+        "icon": 305
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "投影魔術",
+        "rank": "A",
+        "icon": 317
+      },
+      {
+        "slot": 3,
+        "level": 3,
+        "name": "回路接続",
+        "rank": "EX",
+        "icon": 317
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

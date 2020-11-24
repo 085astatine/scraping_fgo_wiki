@@ -1,6 +1,7 @@
 {
   "id": 121,
   "name": "ランスロット",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "湖の騎士",
-      "rank": "A",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "無窮の武練",
-      "rank": "A+",
-      "icon": 311
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "騎士は徒手にて死せず",
-      "rank": "A++",
-      "icon": 605
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "湖の騎士",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "無窮の武練",
+        "rank": "A+",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "騎士は徒手にて死せず",
+        "rank": "A++",
+        "icon": 605
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

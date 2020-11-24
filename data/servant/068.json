@@ -1,6 +1,7 @@
 {
   "id": 68,
   "name": "沖田総司",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 5,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "縮地",
-      "rank": "B",
-      "icon": 304
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "縮地",
-      "rank": "B+",
-      "icon": 304
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "病弱",
-      "rank": "A",
-      "icon": 311
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "心眼（偽）",
-      "rank": "A",
-      "icon": 402
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "縮地",
+        "rank": "B",
+        "icon": 304
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "縮地",
+        "rank": "B+",
+        "icon": 304
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "病弱",
+        "rank": "A",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "心眼（偽）",
+        "rank": "A",
+        "icon": 402
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

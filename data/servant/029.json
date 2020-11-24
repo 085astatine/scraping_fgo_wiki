@@ -1,6 +1,7 @@
 {
   "id": 29,
   "name": "マリー・アントワネット",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "魅惑の美声",
-      "rank": "C",
-      "icon": 509
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "王統の音色",
-      "rank": "B+",
-      "icon": 509
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "麗しの姫君",
-      "rank": "A",
-      "icon": 403
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "神の恩寵",
-      "rank": "B",
-      "icon": 500
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "魅惑の美声",
+        "rank": "C",
+        "icon": 509
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "王統の音色",
+        "rank": "B+",
+        "icon": 509
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "麗しの姫君",
+        "rank": "A",
+        "icon": 403
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "神の恩寵",
+        "rank": "B",
+        "icon": 500
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

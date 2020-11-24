@@ -1,6 +1,7 @@
 {
   "id": 178,
   "name": "織田信長",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "うつけ殺法",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "敦盛ビート",
-      "rank": "B",
-      "icon": 605
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "渚の第六天魔王",
-      "rank": "A-",
-      "icon": 311
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "うつけ殺法",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "敦盛ビート",
+        "rank": "B",
+        "icon": 605
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "渚の第六天魔王",
+        "rank": "A-",
+        "icon": 311
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

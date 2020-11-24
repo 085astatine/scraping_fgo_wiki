@@ -1,6 +1,7 @@
 {
   "id": 36,
   "name": "ヴォルフガング・アマデウス・モーツァルト",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 1,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "音楽神の加護（偽）",
-      "rank": "EX",
-      "icon": 305
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "芸術審美",
-      "rank": "B",
-      "icon": 506
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "小さな夜の曲",
-      "rank": "EX",
-      "icon": 603
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "音楽神の加護（偽）",
+        "rank": "EX",
+        "icon": 305
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "芸術審美",
+        "rank": "B",
+        "icon": 506
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "小さな夜の曲",
+        "rank": "EX",
+        "icon": 603
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 10000,

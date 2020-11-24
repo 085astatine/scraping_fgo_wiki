@@ -1,6 +1,7 @@
 {
   "id": 128,
   "name": "玉藻の前",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ビーチフラワー",
-      "rank": "EX",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "真夏の呪術",
-      "rank": "A",
-      "icon": 509
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "女神変生",
-      "rank": "B",
-      "icon": 403
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ビーチフラワー",
+        "rank": "EX",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "真夏の呪術",
+        "rank": "A",
+        "icon": 509
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "女神変生",
+        "rank": "B",
+        "icon": 403
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

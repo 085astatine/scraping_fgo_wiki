@@ -1,6 +1,7 @@
 {
   "id": 203,
   "name": "アヴィケブロン",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 3,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "数秘術",
-      "rank": "B",
-      "icon": 315
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "高速詠唱",
-      "rank": "B+",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "平穏の無花果",
-      "rank": "EX",
-      "icon": 319
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "数秘術",
+        "rank": "B",
+        "icon": 315
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "高速詠唱",
+        "rank": "B+",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "平穏の無花果",
+        "rank": "EX",
+        "icon": 319
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

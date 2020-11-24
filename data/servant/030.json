@@ -1,6 +1,7 @@
 {
   "id": 30,
   "name": "マルタ",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "信仰の加護",
-      "rank": "A",
-      "icon": 401
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "奇蹟",
-      "rank": "D",
-      "icon": 600
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "奇蹟",
-      "rank": "D+",
-      "icon": 600
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "聖女の誓い",
-      "rank": "C",
-      "icon": 504
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "信仰の加護",
+        "rank": "A",
+        "icon": 401
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "奇蹟",
+        "rank": "D",
+        "icon": 600
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "奇蹟",
+        "rank": "D+",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "聖女の誓い",
+        "rank": "C",
+        "icon": 504
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

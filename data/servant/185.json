@@ -1,6 +1,7 @@
 {
   "id": 185,
   "name": "アサシン・パライソ",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "呪術(巫)",
-      "rank": "C",
-      "icon": 512
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "おろちの呪",
-      "rank": "B",
-      "icon": 305
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "甲賀流",
-      "rank": "A",
-      "icon": 402
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "呪術(巫)",
+        "rank": "C",
+        "icon": 512
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "おろちの呪",
+        "rank": "B",
+        "icon": 305
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "甲賀流",
+        "rank": "A",
+        "icon": 402
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

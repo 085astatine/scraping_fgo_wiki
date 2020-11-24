@@ -1,6 +1,7 @@
 {
   "id": 80,
   "name": "チャールズ・バベッジ",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 3,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "一意専心",
-      "rank": "C",
-      "icon": 602
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "機関の鎧",
-      "rank": "EX",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "機関の鎧",
-      "rank": "EX",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "オーバーロード",
-      "rank": "D",
-      "icon": 302
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "一意専心",
+        "rank": "C",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "機関の鎧",
+        "rank": "EX",
+        "icon": 300
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "機関の鎧",
+        "rank": "EX",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "オーバーロード",
+        "rank": "D",
+        "icon": 302
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

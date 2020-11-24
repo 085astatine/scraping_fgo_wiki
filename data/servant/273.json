@@ -1,6 +1,7 @@
 {
   "id": 273,
   "name": "マンドリカルド",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 3,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "九偉人の鎧",
-      "rank": "A",
-      "icon": 328
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "間際の一撃",
-      "rank": "C",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "ブリリアドーロの嘶き",
-      "rank": "A",
-      "icon": 314
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "九偉人の鎧",
+        "rank": "A",
+        "icon": 328
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "間際の一撃",
+        "rank": "C",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ブリリアドーロの嘶き",
+        "rank": "A",
+        "icon": 314
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

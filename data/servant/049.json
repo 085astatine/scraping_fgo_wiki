@@ -1,6 +1,7 @@
 {
   "id": 49,
   "name": "呂布奉先",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 3,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "勇猛",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "反骨の相",
-      "rank": "B",
-      "icon": 400
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "乱世の梟雄",
-      "rank": "A",
-      "icon": 302
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "勇猛",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "反骨の相",
+        "rank": "B",
+        "icon": 400
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "乱世の梟雄",
+        "rank": "A",
+        "icon": 302
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

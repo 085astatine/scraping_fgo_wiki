@@ -1,6 +1,7 @@
 {
   "id": 276,
   "name": "清少納言",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "歌仙の詩歌",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "逢坂の関",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "星はすばる",
-      "rank": "B",
-      "icon": 304
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "歌仙の詩歌",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "逢坂の関",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "星はすばる",
+        "rank": "B",
+        "icon": 304
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

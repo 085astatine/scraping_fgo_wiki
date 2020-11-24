@@ -1,6 +1,7 @@
 {
   "id": 183,
   "name": "パールヴァティー",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,7 +62,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "少女の捜し物",
       "resource": {
@@ -87,29 +88,35 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "イマジナリ・アラウンド",
-      "rank": "EX",
-      "icon": 304
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "カーマの灰",
-      "rank": "EX",
-      "icon": 328
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "女神の恩恵",
-      "rank": "A+",
-      "icon": 601
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "イマジナリ・アラウンド",
+        "rank": "EX",
+        "icon": 304
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "カーマの灰",
+        "rank": "EX",
+        "icon": 328
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "女神の恩恵",
+        "rank": "A+",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

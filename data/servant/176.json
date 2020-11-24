@@ -1,6 +1,7 @@
 {
   "id": 176,
   "name": "フランケンシュタイン",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "サマー・ガルバニズム",
-      "rank": "B+",
-      "icon": 602
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "虚ろなる酷暑への嘆き",
-      "rank": "A",
-      "icon": 503
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "ほどほどロード",
-      "rank": "C",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "サマー・ガルバニズム",
+        "rank": "B+",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "虚ろなる酷暑への嘆き",
+        "rank": "A",
+        "icon": 503
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ほどほどロード",
+        "rank": "C",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

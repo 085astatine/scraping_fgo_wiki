@@ -1,6 +1,7 @@
 {
   "id": 145,
   "name": "ギルガメッシュ",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -61,7 +62,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "エスタブリッシュメント",
       "resource": {
@@ -87,29 +88,35 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "王の帰還",
-      "rank": "A",
-      "icon": 604
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "カリスマ",
-      "rank": "A+",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔杖の支配者",
-      "rank": "EX",
-      "icon": 305
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "王の帰還",
+        "rank": "A",
+        "icon": 604
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "A+",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔杖の支配者",
+        "rank": "EX",
+        "icon": 305
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

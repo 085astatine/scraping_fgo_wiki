@@ -1,6 +1,7 @@
 {
   "id": 60,
   "name": "オリオン",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "女神の寵愛",
-      "rank": "EX",
-      "icon": 400
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "移り気への楔",
-      "rank": "A+",
-      "icon": 301
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "心眼（偽）",
-      "rank": "B-",
-      "icon": 402
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "女神の寵愛",
+        "rank": "EX",
+        "icon": 400
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "移り気への楔",
+        "rank": "A+",
+        "icon": 301
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "心眼（偽）",
+        "rank": "B-",
+        "icon": 402
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

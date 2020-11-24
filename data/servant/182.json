@@ -1,6 +1,7 @@
 {
   "id": 182,
   "name": "イシュタル",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "輝ける水の衣",
-      "rank": "A",
-      "icon": 316
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "アクセルターン",
-      "rank": "B",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "サマー・ブレイカー！",
-      "rank": "A",
-      "icon": 403
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "輝ける水の衣",
+        "rank": "A",
+        "icon": 316
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "アクセルターン",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "サマー・ブレイカー！",
+        "rank": "A",
+        "icon": 403
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

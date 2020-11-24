@@ -1,6 +1,7 @@
 {
   "id": 135,
   "name": "マルタ",
+  "alias_name": null,
   "klass": "Ruler",
   "rarity": 4,
   "ascension": [
@@ -81,30 +82,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "水辺の聖女",
-      "rank": "B+",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "天性の肉体（海）",
-      "rank": "A",
-      "icon": 411
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "ヤコブの手足",
-      "rank": "B",
-      "icon": 301
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "水辺の聖女",
+        "rank": "B+",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "天性の肉体（海）",
+        "rank": "A",
+        "icon": 411
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ヤコブの手足",
+        "rank": "B",
+        "icon": 301
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

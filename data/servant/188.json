@@ -1,6 +1,7 @@
 {
   "id": 188,
   "name": "加藤段蔵",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "人造四肢（絡繰）",
-      "rank": "A++",
-      "icon": 316
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "忍術",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "絡繰幻法",
-      "rank": "B+",
-      "icon": 403
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "人造四肢（絡繰）",
+        "rank": "A++",
+        "icon": 316
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "忍術",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "絡繰幻法",
+        "rank": "B+",
+        "icon": 403
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

@@ -1,6 +1,7 @@
 {
   "id": 73,
   "name": "アルトリア・ペンドラゴン〔サンタオルタ〕",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "聖者の贈り物",
-      "rank": "EX",
-      "icon": 600
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "直感",
-      "rank": "A",
-      "icon": 603
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔力放出",
-      "rank": "A-",
-      "icon": 306
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "聖者の贈り物",
+        "rank": "EX",
+        "icon": 600
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "直感",
+        "rank": "A",
+        "icon": 603
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔力放出",
+        "rank": "A-",
+        "icon": 306
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

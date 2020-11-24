@@ -1,6 +1,7 @@
 {
   "id": 166,
   "name": "ＢＢ",
+  "alias_name": null,
   "klass": "MoonCancer",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "十の王冠",
-      "rank": "D",
-      "icon": 608
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "黄金の杯",
-      "rank": "C",
-      "icon": 508
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "自己改造",
-      "rank": "EX",
-      "icon": 303
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "十の王冠",
+        "rank": "D",
+        "icon": 608
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "黄金の杯",
+        "rank": "C",
+        "icon": 508
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "自己改造",
+        "rank": "EX",
+        "icon": 303
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

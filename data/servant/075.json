@@ -1,6 +1,7 @@
 {
   "id": 75,
   "name": "ジャック・ザ・リッパー",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "霧夜の殺人",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "情報抹消",
-      "rank": "B",
-      "icon": 512
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "外科手術",
-      "rank": "E",
-      "icon": 600
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "霧夜の殺人",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "情報抹消",
+        "rank": "B",
+        "icon": 512
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "外科手術",
+        "rank": "E",
+        "icon": 600
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

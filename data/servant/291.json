@@ -1,6 +1,7 @@
 {
   "id": 291,
   "name": "紫式部",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "サマーナイトブラックウィドウ",
-      "rank": "EX",
-      "icon": 512
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "猟奇趣味（夏）",
-      "rank": "C++",
-      "icon": 502
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "文学乙女（夏）",
-      "rank": "A",
-      "icon": 607
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "サマーナイトブラックウィドウ",
+        "rank": "EX",
+        "icon": 512
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "猟奇趣味（夏）",
+        "rank": "C++",
+        "icon": 502
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "文学乙女（夏）",
+        "rank": "A",
+        "icon": 607
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

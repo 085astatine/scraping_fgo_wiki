@@ -1,6 +1,7 @@
 {
   "id": 278,
   "name": "ディオスクロイ",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "主神の星",
-      "rank": "A",
-      "icon": 515
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "航海の守護者",
-      "rank": "B",
-      "icon": 302
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔力放出（光／古）",
-      "rank": "A",
-      "icon": 314
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "主神の星",
+        "rank": "A",
+        "icon": 515
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "航海の守護者",
+        "rank": "B",
+        "icon": 302
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔力放出（光／古）",
+        "rank": "A",
+        "icon": 314
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

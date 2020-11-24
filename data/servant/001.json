@@ -1,6 +1,7 @@
 {
   "id": 1,
   "name": "マシュ・キリエライト",
+  "alias_name": null,
   "klass": "Shielder",
   "rarity": 3,
   "ascension": [
@@ -21,7 +22,7 @@
       "resources": []
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "オルテナウス",
       "resource": {
@@ -54,36 +55,42 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "今は脆き雪花の壁",
-      "rank": "",
-      "icon": 400
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "誉れ堅き雪花の壁",
-      "rank": "",
-      "icon": 400
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "時に煙る白亜の壁",
-      "rank": "",
-      "icon": 403
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "奮い断つ決意の盾",
-      "rank": "",
-      "icon": 700
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "今は脆き雪花の壁",
+        "rank": "",
+        "icon": 400
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "誉れ堅き雪花の壁",
+        "rank": "",
+        "icon": 400
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "時に煙る白亜の壁",
+        "rank": "",
+        "icon": 403
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "奮い断つ決意の盾",
+        "rank": "",
+        "icon": 700
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

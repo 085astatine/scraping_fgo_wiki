@@ -1,6 +1,7 @@
 {
   "id": 227,
   "name": "蘭陵王",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "隠美の仮面",
-      "rank": "A",
-      "icon": 403
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "勢い破竹の如し",
-      "rank": "C",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔性の貌",
-      "rank": "EX",
-      "icon": 305
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "隠美の仮面",
+        "rank": "A",
+        "icon": 403
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "勢い破竹の如し",
+        "rank": "C",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔性の貌",
+        "rank": "EX",
+        "icon": 305
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

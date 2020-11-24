@@ -1,6 +1,7 @@
 {
   "id": 90,
   "name": "ネロ・クラウディウス〔ブライド〕",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 5,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "天に星を",
-      "rank": "A",
-      "icon": 602
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "天に星を",
-      "rank": "EX",
-      "icon": 602
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "地に花を",
-      "rank": "A",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "人に愛を",
-      "rank": "A",
-      "icon": 600
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "天に星を",
+        "rank": "A",
+        "icon": 602
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "天に星を",
+        "rank": "EX",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "地に花を",
+        "rank": "A",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "人に愛を",
+        "rank": "A",
+        "icon": 600
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

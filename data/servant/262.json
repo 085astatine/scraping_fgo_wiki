@@ -1,6 +1,7 @@
 {
   "id": 262,
   "name": "刑部姫",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "射撃（ＦＰＳ）",
-      "rank": "B",
-      "icon": 303
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "プリンセス・サマーバケーション（偽）",
-      "rank": "A",
-      "icon": 700
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "千代紙大隊長",
-      "rank": "EX",
-      "icon": 315
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "射撃（ＦＰＳ）",
+        "rank": "B",
+        "icon": 303
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "プリンセス・サマーバケーション（偽）",
+        "rank": "A",
+        "icon": 700
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "千代紙大隊長",
+        "rank": "EX",
+        "icon": 315
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

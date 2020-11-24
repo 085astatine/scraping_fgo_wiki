@@ -1,6 +1,7 @@
 {
   "id": 161,
   "name": "土方歳三",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 5,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "戦場の鬼",
-      "rank": "B",
-      "icon": 306
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "仕切り直し",
-      "rank": "C",
-      "icon": 608
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "凄烈たる道行き",
-      "rank": "B+",
-      "icon": 608
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "局中法度",
-      "rank": "EX",
-      "icon": 311
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "戦場の鬼",
+        "rank": "B",
+        "icon": 306
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "仕切り直し",
+        "rank": "C",
+        "icon": 608
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "凄烈たる道行き",
+        "rank": "B+",
+        "icon": 608
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "局中法度",
+        "rank": "EX",
+        "icon": 311
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

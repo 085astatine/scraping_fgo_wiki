@@ -1,6 +1,7 @@
 {
   "id": 32,
   "name": "ジル・ド・レェ",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 3,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "精神汚染",
-      "rank": "A",
-      "icon": 500
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "芸術審美",
-      "rank": "E-",
-      "icon": 506
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "冒涜審美",
-      "rank": "C+++",
-      "icon": 506
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "深淵の邪視",
-      "rank": "C",
-      "icon": 508
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "精神汚染",
+        "rank": "A",
+        "icon": 500
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "芸術審美",
+        "rank": "E-",
+        "icon": 506
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "冒涜審美",
+        "rank": "C+++",
+        "icon": 506
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "深淵の邪視",
+        "rank": "C",
+        "icon": 508
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

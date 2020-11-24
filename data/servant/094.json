@@ -1,6 +1,7 @@
 {
   "id": 94,
   "name": "アストルフォ",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -61,7 +62,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "トゥリファスでの思い出",
       "resource": {
@@ -87,36 +88,42 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "怪力",
-      "rank": "C-",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "触れれば転倒！",
-      "rank": "D",
-      "icon": 508
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "理性蒸発",
-      "rank": "D",
-      "icon": 605
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "理性蒸発",
-      "rank": "D+",
-      "icon": 605
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "怪力",
+        "rank": "C-",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "触れれば転倒！",
+        "rank": "D",
+        "icon": 508
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "理性蒸発",
+        "rank": "D",
+        "icon": 605
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "理性蒸発",
+        "rank": "D+",
+        "icon": 605
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

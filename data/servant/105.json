@@ -1,6 +1,7 @@
 {
   "id": 105,
   "name": "ビリー・ザ・キッド",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 3,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "射撃",
-      "rank": "A++",
-      "icon": 303
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "クイックドロウ",
-      "rank": "A+",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "心眼（偽）",
-      "rank": "C",
-      "icon": 402
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "射撃",
+        "rank": "A++",
+        "icon": 303
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "クイックドロウ",
+        "rank": "A+",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "心眼（偽）",
+        "rank": "C",
+        "icon": 402
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

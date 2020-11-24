@@ -1,6 +1,7 @@
 {
   "id": 93,
   "name": "天草四郎",
+  "alias_name": null,
   "klass": "Ruler",
   "rarity": 5,
   "ascension": [
@@ -81,44 +82,50 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "啓示",
-      "rank": "A",
-      "icon": 605
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "長き旅路への祈り",
-      "rank": "A",
-      "icon": 605
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "洗礼詠唱",
-      "rank": "B+",
-      "icon": 607
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "神明裁決",
-      "rank": "C",
-      "icon": 508
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "神明裁決（偽）",
-      "rank": "C++",
-      "icon": 508
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "啓示",
+        "rank": "A",
+        "icon": 605
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "長き旅路への祈り",
+        "rank": "A",
+        "icon": 605
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "洗礼詠唱",
+        "rank": "B+",
+        "icon": 607
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "神明裁決",
+        "rank": "C",
+        "icon": 508
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "神明裁決（偽）",
+        "rank": "C++",
+        "icon": 508
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

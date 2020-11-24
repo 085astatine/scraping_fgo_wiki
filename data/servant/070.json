@@ -1,6 +1,7 @@
 {
   "id": 70,
   "name": "スカサハ",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 5,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "魔境の智慧",
-      "rank": "A+",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "原初のルーン",
-      "rank": "",
-      "icon": 304
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "原初のルーン",
-      "rank": "",
-      "icon": 304
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "神殺し",
-      "rank": "B",
-      "icon": 301
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "魔境の智慧",
+        "rank": "A+",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "原初のルーン",
+        "rank": "",
+        "icon": 304
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "原初のルーン",
+        "rank": "",
+        "icon": 304
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "神殺し",
+        "rank": "B",
+        "icon": 301
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

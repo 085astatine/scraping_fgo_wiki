@@ -1,6 +1,7 @@
 {
   "id": 295,
   "name": "ヴァン・ゴッホ",
+  "alias_name": null,
   "klass": "Foreigner",
   "rarity": 5,
   "ascension": [
@@ -57,30 +58,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "虚数美術",
-      "rank": "B+",
-      "icon": 404
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "黄色い家",
-      "rank": "A+",
-      "icon": 504
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "澪標の魂",
-      "rank": "EX",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "虚数美術",
+        "rank": "B+",
+        "icon": 404
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "黄色い家",
+        "rank": "A+",
+        "icon": 504
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "澪標の魂",
+        "rank": "EX",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

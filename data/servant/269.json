@@ -1,6 +1,7 @@
 {
   "id": 269,
   "name": "カラミティ・ジェーン",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "破壊工作",
-      "rank": "B",
-      "icon": 503
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "銀河伝令",
-      "rank": "EX",
-      "icon": 513
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "極星よ道を示せ",
-      "rank": "B",
-      "icon": 401
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "破壊工作",
+        "rank": "B",
+        "icon": 503
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "銀河伝令",
+        "rank": "EX",
+        "icon": 513
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "極星よ道を示せ",
+        "rank": "B",
+        "icon": 401
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

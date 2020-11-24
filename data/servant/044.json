@@ -1,6 +1,7 @@
 {
   "id": 44,
   "name": "ファントム・オブ・ジ・オペラ",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 2,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "無辜の怪物",
-      "rank": "D",
-      "icon": 605
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "魅惑の美声",
-      "rank": "B",
-      "icon": 509
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "ガルニエからの呼び声",
-      "rank": "B+",
-      "icon": 509
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "精神汚染",
-      "rank": "A",
-      "icon": 500
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "無辜の怪物",
+        "rank": "D",
+        "icon": 605
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魅惑の美声",
+        "rank": "B",
+        "icon": 509
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "ガルニエからの呼び声",
+        "rank": "B+",
+        "icon": 509
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "精神汚染",
+        "rank": "A",
+        "icon": 500
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 20000,

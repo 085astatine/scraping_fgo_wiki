@@ -1,6 +1,7 @@
 {
   "id": 164,
   "name": "パッションリップ",
+  "alias_name": null,
   "klass": "AlterEgo",
   "rarity": 4,
   "ascension": [
@@ -57,37 +58,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ブレスト・バレー",
-      "rank": "A",
-      "icon": 400
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "被虐体質",
-      "rank": "A",
-      "icon": 700
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "被虐体質",
-      "rank": "A+",
-      "icon": 700
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "トラッシュ＆クラッシュ",
-      "rank": "EX",
-      "icon": 328
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ブレスト・バレー",
+        "rank": "A",
+        "icon": 400
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "被虐体質",
+        "rank": "A",
+        "icon": 700
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "被虐体質",
+        "rank": "A+",
+        "icon": 700
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "トラッシュ＆クラッシュ",
+        "rank": "EX",
+        "icon": 328
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

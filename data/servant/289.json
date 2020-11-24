@@ -1,6 +1,7 @@
 {
   "id": 289,
   "name": "アビゲイル・ウィリアムズ〔夏〕",
+  "alias_name": null,
   "klass": "Foreigner",
   "rarity": 5,
   "ascension": [
@@ -57,30 +58,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "薔薇の眠り",
-      "rank": "B",
-      "icon": 543
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "正気喪失",
-      "rank": "B+",
-      "icon": 508
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "導くもの",
-      "rank": "A",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "薔薇の眠り",
+        "rank": "B",
+        "icon": 543
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "正気喪失",
+        "rank": "B+",
+        "icon": 508
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "導くもの",
+        "rank": "A",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

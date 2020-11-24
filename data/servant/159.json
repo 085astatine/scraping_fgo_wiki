@@ -1,6 +1,7 @@
 {
   "id": 159,
   "name": "新宿のアサシン",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "中国拳法",
-      "rank": "EX",
-      "icon": 311
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "諜報",
-      "rank": "A",
-      "icon": 604
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "ドッペルゲンガー",
-      "rank": "B+",
-      "icon": 304
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "天巧星",
-      "rank": "A+",
-      "icon": 537
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "中国拳法",
+        "rank": "EX",
+        "icon": 311
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "諜報",
+        "rank": "A",
+        "icon": 604
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "ドッペルゲンガー",
+        "rank": "B+",
+        "icon": 304
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "天巧星",
+        "rank": "A+",
+        "icon": 537
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

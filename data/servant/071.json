@@ -1,6 +1,7 @@
 {
   "id": 71,
   "name": "ディルムッド・オディナ",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 3,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "心眼（真）",
-      "rank": "B",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "愛の黒子",
-      "rank": "C",
-      "icon": 503
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "騎士の武略",
-      "rank": "B",
-      "icon": 604
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "心眼（真）",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "愛の黒子",
+        "rank": "C",
+        "icon": 503
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "騎士の武略",
+        "rank": "B",
+        "icon": 604
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

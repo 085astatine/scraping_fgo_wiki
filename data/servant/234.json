@@ -1,6 +1,7 @@
 {
   "id": 234,
   "name": "紅閻魔",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "心眼（偽）",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "星の籠（大）",
-      "rank": "EX",
-      "icon": 541
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "星の籠（小）",
-      "rank": "EX",
-      "icon": 329
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "心眼（偽）",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "星の籠（大）",
+        "rank": "EX",
+        "icon": 541
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "星の籠（小）",
+        "rank": "EX",
+        "icon": 329
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

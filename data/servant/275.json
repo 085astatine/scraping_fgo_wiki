@@ -1,6 +1,7 @@
 {
   "id": 275,
   "name": "楊貴妃",
+  "alias_name": null,
   "klass": "Foreigner",
   "rarity": 5,
   "ascension": [
@@ -57,37 +58,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "三千寵愛在一身",
-      "rank": "A",
-      "icon": 403
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "三千寵愛在一身",
-      "rank": "A+",
-      "icon": 403
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "傾国の寵姫",
-      "rank": "A",
-      "icon": 513
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "妖星の火輪",
-      "rank": "A",
-      "icon": 707
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "三千寵愛在一身",
+        "rank": "A",
+        "icon": 403
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "三千寵愛在一身",
+        "rank": "A+",
+        "icon": 403
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "傾国の寵姫",
+        "rank": "A",
+        "icon": 513
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "妖星の火輪",
+        "rank": "A",
+        "icon": 707
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

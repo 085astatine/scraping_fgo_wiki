@@ -1,6 +1,7 @@
 {
   "id": 64,
   "name": "ヘクトール",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 3,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "軍略",
-      "rank": "C+",
-      "icon": 302
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "トロイアの守護者",
-      "rank": "A",
-      "icon": 302
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "友誼の証明",
-      "rank": "C",
-      "icon": 513
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "仕切り直し",
-      "rank": "B",
-      "icon": 608
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "軍略",
+        "rank": "C+",
+        "icon": 302
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "トロイアの守護者",
+        "rank": "A",
+        "icon": 302
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "友誼の証明",
+        "rank": "C",
+        "icon": 513
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "仕切り直し",
+        "rank": "B",
+        "icon": 608
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

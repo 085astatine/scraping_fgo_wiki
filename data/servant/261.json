@@ -1,6 +1,7 @@
 {
   "id": 261,
   "name": "宮本武蔵",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "アクセルターン",
-      "rank": "B",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "第五盛",
-      "rank": "B",
-      "icon": 331
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "天魔轟眼",
-      "rank": "EX",
-      "icon": 312
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "アクセルターン",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "第五盛",
+        "rank": "B",
+        "icon": 331
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "天魔轟眼",
+        "rank": "EX",
+        "icon": 312
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

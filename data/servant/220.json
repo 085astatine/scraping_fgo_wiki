@@ -1,6 +1,7 @@
 {
   "id": 220,
   "name": "ＢＢ",
+  "alias_name": null,
   "klass": "MoonCancer",
   "rarity": 5,
   "ascension": [
@@ -57,7 +58,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "簡易霊衣：小悪魔たまご肌（第三再臨）",
       "resource": {
@@ -107,29 +108,35 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "自己改造",
-      "rank": "EX",
-      "icon": 303
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "黄金の豚の杯",
-      "rank": "A",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "無貌の月",
-      "rank": "EX",
-      "icon": 705
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "自己改造",
+        "rank": "EX",
+        "icon": 303
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "黄金の豚の杯",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "無貌の月",
+        "rank": "EX",
+        "icon": 705
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

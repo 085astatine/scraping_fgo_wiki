@@ -1,6 +1,7 @@
 {
   "id": 45,
   "name": "マタ・ハリ",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 1,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "諜報",
-      "rank": "A++",
-      "icon": 604
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "フェロモン",
-      "rank": "B",
-      "icon": 509
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "ダブルクロス",
-      "rank": "B",
-      "icon": 512
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "諜報",
+        "rank": "A++",
+        "icon": 604
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "フェロモン",
+        "rank": "B",
+        "icon": 509
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ダブルクロス",
+        "rank": "B",
+        "icon": 512
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 10000,

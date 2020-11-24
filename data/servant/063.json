@@ -1,6 +1,7 @@
 {
   "id": 63,
   "name": "ダビデ",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 3,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "神の加護",
-      "rank": "A",
-      "icon": 400
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "治癒の竪琴",
-      "rank": "B",
-      "icon": 608
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "カリスマ",
-      "rank": "B",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "神の加護",
+        "rank": "A",
+        "icon": 400
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "治癒の竪琴",
+        "rank": "B",
+        "icon": 608
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "B",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

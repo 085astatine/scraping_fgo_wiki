@@ -1,6 +1,7 @@
 {
   "id": 133,
   "name": "スカサハ",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ビーチクライシス",
-      "rank": "A+",
-      "icon": 700
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "原初のルーン（海）",
-      "rank": "A",
-      "icon": 600
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "真夏のあやまち",
-      "rank": "C",
-      "icon": 312
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ビーチクライシス",
+        "rank": "A+",
+        "icon": 700
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "原初のルーン（海）",
+        "rank": "A",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "真夏のあやまち",
+        "rank": "C",
+        "icon": 312
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

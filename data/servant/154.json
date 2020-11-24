@@ -1,6 +1,7 @@
 {
   "id": 154,
   "name": "“山の翁”",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "戦闘続行",
-      "rank": "EX",
-      "icon": 404
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "死の淵",
-      "rank": "EX",
-      "icon": 404
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "信仰の加護",
-      "rank": "A+++",
-      "icon": 401
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "晩鐘",
-      "rank": "EX",
-      "icon": 524
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "戦闘続行",
+        "rank": "EX",
+        "icon": 404
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "死の淵",
+        "rank": "EX",
+        "icon": 404
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "信仰の加護",
+        "rank": "A+++",
+        "icon": 401
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "晩鐘",
+        "rank": "EX",
+        "icon": 524
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

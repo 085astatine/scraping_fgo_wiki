@@ -1,6 +1,7 @@
 {
   "id": 279,
   "name": "カイニス",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "怪力",
-      "rank": "B+",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "略奪の鉾",
-      "rank": "B",
-      "icon": 515
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "海神の偏愛",
-      "rank": "A",
-      "icon": 400
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "怪力",
+        "rank": "B+",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "略奪の鉾",
+        "rank": "B",
+        "icon": 515
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "海神の偏愛",
+        "rank": "A",
+        "icon": 400
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

@@ -1,6 +1,7 @@
 {
   "id": 209,
   "name": "沖田総司〔オルタ〕",
+  "alias_name": null,
   "klass": "AlterEgo",
   "rarity": 5,
   "ascension": [
@@ -57,37 +58,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "極地",
-      "rank": "A",
-      "icon": 316
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "不断",
-      "rank": "B",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "不断",
-      "rank": "B+",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "無辺",
-      "rank": "A",
-      "icon": 302
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "極地",
+        "rank": "A",
+        "icon": 316
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "不断",
+        "rank": "B",
+        "icon": 601
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "不断",
+        "rank": "B+",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "無辺",
+        "rank": "A",
+        "icon": 302
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

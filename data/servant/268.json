@@ -1,6 +1,7 @@
 {
   "id": 268,
   "name": "スペース・イシュタル",
+  "alias_name": null,
   "klass": "Avenger",
   "rarity": 5,
   "ascension": [
@@ -57,7 +58,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "簡易霊衣：アシュタレト・オリジン",
       "resource": {
@@ -83,29 +84,35 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "デビルズ・シュガー",
-      "rank": "A",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "ヴィナス・ドライバー",
-      "rank": "B",
-      "icon": 302
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "マルチプル・スターリング",
-      "rank": "EX",
-      "icon": 601
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "デビルズ・シュガー",
+        "rank": "A",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "ヴィナス・ドライバー",
+        "rank": "B",
+        "icon": 302
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "マルチプル・スターリング",
+        "rank": "EX",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

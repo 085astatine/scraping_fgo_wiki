@@ -1,6 +1,7 @@
 {
   "id": 137,
   "name": "クロエ・フォン・アインツベルン",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 4,
   "ascension": [
@@ -41,37 +42,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "心眼（偽）",
-      "rank": "B",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "投影魔術",
-      "rank": "B",
-      "icon": 317
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "キス魔",
-      "rank": "B",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "キス魔",
-      "rank": "B++",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "心眼（偽）",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "投影魔術",
+        "rank": "B",
+        "icon": 317
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "キス魔",
+        "rank": "B",
+        "icon": 601
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "キス魔",
+        "rank": "B++",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

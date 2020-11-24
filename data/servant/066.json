@@ -1,6 +1,7 @@
 {
   "id": 66,
   "name": "アン・ボニー＆メアリー・リード",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "航海",
-      "rank": "A",
-      "icon": 604
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "射撃",
-      "rank": "B",
-      "icon": 303
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "コンビネーション",
-      "rank": "C",
-      "icon": 311
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "航海",
+        "rank": "A",
+        "icon": 604
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "射撃",
+        "rank": "B",
+        "icon": 303
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "コンビネーション",
+        "rank": "C",
+        "icon": 311
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

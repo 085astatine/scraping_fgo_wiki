@@ -1,6 +1,7 @@
 {
   "id": 208,
   "name": "ジーク",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "人工英雄（偽）",
-      "rank": "B+",
-      "icon": 602
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "魔術",
-      "rank": "C",
-      "icon": 305
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "竜告令呪",
-      "rank": "EX",
-      "icon": 301
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "人工英雄（偽）",
+        "rank": "B+",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔術",
+        "rank": "C",
+        "icon": 305
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "竜告令呪",
+        "rank": "EX",
+        "icon": 301
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

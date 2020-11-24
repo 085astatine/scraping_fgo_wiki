@@ -1,6 +1,7 @@
 {
   "id": 225,
   "name": "酒呑童子",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "護法の鬼・心握殺",
-      "rank": "A+",
-      "icon": 512
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "護法の鬼・殴殺棒",
-      "rank": "B",
-      "icon": 315
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "鬼種の魔（護）",
-      "rank": "A",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "護法の鬼・心握殺",
+        "rank": "A+",
+        "icon": 512
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "護法の鬼・殴殺棒",
+        "rank": "B",
+        "icon": 315
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "鬼種の魔（護）",
+        "rank": "A",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,
