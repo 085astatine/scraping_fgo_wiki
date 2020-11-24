@@ -13,17 +13,21 @@ from .io import load_json, save_json
 from .text import Text
 
 
-_interval = 1.0
-
 _logger = logging.getLogger(__name__)
 
 
 class Skill(TypedDict):
-    order: int
-    is_upgraded: bool
+    slot: int
+    level: int
     name: str
     rank: str
     icon: int
+
+
+class Skills(TypedDict):
+    skill_1: List[Skill]
+    skill_2: List[Skill]
+    skill_3: List[Skill]
 
 
 class Resource(TypedDict):
@@ -44,11 +48,12 @@ class SpiritronDress(TypedDict):
 class Servant(TypedDict):
     id: int
     name: str
+    alias_name: Optional[str]
     klass: str
     rarity: int
     ascension: List[ResourceSet]
-    spiritron_dress: List[SpiritronDress]
-    skill: List[Skill]
+    spiritron_dresses: List[SpiritronDress]
+    skills: Skills
     skill_reinforcement: List[ResourceSet]
 
 
@@ -226,7 +231,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
                 'servant %s: ascension parsing failed',
                 servant['name'])
     # スキル
-    skill = _parse_skill(root)
+    skills = _parse_skill(root)
     # スキル強化
     skill_reinforcement = _parse_skill_reinforcement(root)
     if len(skill_reinforcement) != 9:
@@ -234,15 +239,16 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
                 'servant %s: skill reinforcement parsing failed',
                 servant['name'])
     # 霊衣開放
-    spiritron_dress = _parse_spiritron_dress(root)
+    spiritron_dresses = _parse_spiritron_dress(root)
     return Servant(
             id=servant['id'],
             name=servant['name'],
+            alias_name=None,
             klass=servant['klass'],
             rarity=servant['rarity'],
             ascension=ascension,
-            spiritron_dress=spiritron_dress,
-            skill=skill,
+            spiritron_dresses=spiritron_dresses,
+            skills=skills,
             skill_reinforcement=skill_reinforcement)
 
 
@@ -261,35 +267,38 @@ def _parse_ascension(
 
 
 def _parse_skill(
-        root: lxml.html.HtmlElement) -> List[Skill]:
-    result = []
+        root: lxml.html.HtmlElement) -> Skills:
+    skill_slots: Dict[int, List[Skill]] = {i: [] for i in range(1, 4)}
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="保有スキル"]'
             '/following-sibling::h4')
     for node in root.xpath(xpath):
         text = node.text_content().strip()
-        # order, name, rank
+        # slot, level, name, rank
         match = re.match(
-                r'Skill(?P<order>[123])(?P<upgraded>(|\[強化後\]))'
+                r'Skill(?P<slot>[123])'
+                r'(|(?P<upgraded>(|\[強化後(|(?P<level>[0-9]+)))\]))'
                 r'：(?P<name>.+)',
                 text)
         if not match:
             continue
-        order = int(match.group('order'))
-        is_upgraded = bool(match.group('upgraded'))
-        name = match.group('name')
+        slot = int(match.group('slot'))
+        level = (1 if match.group('upgraded') is None
+                 else 2 if match.group('level') is None
+                 else int(match.group('level')) + 1)
+        name = match.group('name').strip()
         rank = ''
         rank_match = re.match(
                 r'(?P<name>.+)\s+(?P<rank>(EX|[A-E])[\+-]*)',
                 name)
         if rank_match:
-            name = rank_match.group('name')
+            name = rank_match.group('name').strip()
             rank = rank_match.group('rank')
         _logger.debug(
-                'skill %d%s: %s%s',
-                order,
-                '(upgraded)' if is_upgraded else '',
+                'skill %d Lv.%d: %s%s',
+                slot,
+                level,
                 name,
                 ' rank: {0}'.format(rank) if rank else '')
         # icon
@@ -303,13 +312,23 @@ def _parse_skill(
         else:
             icon_id = 0
             _logger.warning('skill icon not found: %s', icon_text)
-        result.append(Skill(
-                order=order,
-                is_upgraded=is_upgraded,
+        skill_slots[slot].append(Skill(
+                slot=slot,
+                level=level,
                 name=name,
                 rank=rank,
                 icon=icon_id))
-    return result
+    # check
+    if not all(len(slot) > 0 for slot in skill_slots.values()):
+        _logger.error('there is a missing skill slot')
+    if not all(skill['level'] == i + 1
+               for slot in skill_slots.values()
+               for i, skill in enumerate(slot)):
+        _logger.error('duplicate or missing skill levels')
+    return Skills(
+            skill_1=skill_slots[1],
+            skill_2=skill_slots[2],
+            skill_3=skill_slots[3])
 
 
 def _parse_skill_reinforcement(
@@ -353,7 +372,8 @@ def _load_servant(
         data: _ServantTable,
         *,
         path: Optional[pathlib.Path] = None,
-        force_update: bool = False) -> Servant:
+        force_update: bool = False,
+        request_interval: float = 1.0) -> Servant:
     result: Optional[Servant] = None
     # load
     if path is not None and not force_update:
@@ -368,7 +388,7 @@ def _load_servant(
     # request URL
     if result is None or force_update:
         result = _parse_servant_page(data)
-        time.sleep(_interval)
+        time.sleep(request_interval)
         # save
         if path is not None:
             save_json(path, result)
@@ -382,9 +402,10 @@ def _load_servant(
 def servant_list(
         *,
         directory: Optional[pathlib.Path] = None,
-        force_update: bool = False) -> List[Servant]:
+        force_update: bool = False,
+        request_interval: float = 1.0) -> List[Servant]:
     servant_table = _parse_servant_table()
-    time.sleep(_interval)
+    time.sleep(request_interval)
     result: List[Servant] = []
     for row in servant_table:
         _logger.info('servant: %s', row['name'])
@@ -393,7 +414,8 @@ def servant_list(
                 path=(directory.joinpath(f'{row["id"]:03d}.json')
                       if directory is not None
                       else None),
-                force_update=force_update))
+                force_update=force_update,
+                request_interval=request_interval))
     return result
 
 
