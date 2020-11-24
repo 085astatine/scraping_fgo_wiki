@@ -319,10 +319,12 @@ def _parse_skill(
                 rank=rank,
                 icon=icon_id))
     # check
-    assert all(len(slot) > 0 for slot in skill_slots.values())
-    assert all(skill['level'] == i + 1
+    if not all(len(slot) > 0 for slot in skill_slots.values()):
+        _logger.error('there is a missing skill slot')
+    if not all(skill['level'] == i + 1
                for slot in skill_slots.values()
-               for i, skill in enumerate(slot))
+               for i, skill in enumerate(slot)):
+        _logger.error('duplicate or missing skill levels')
     return Skills(
             skill_1=skill_slots[1],
             skill_2=skill_slots[2],
