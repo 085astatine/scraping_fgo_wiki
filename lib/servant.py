@@ -13,8 +13,6 @@ from .io import load_json, save_json
 from .text import Text
 
 
-_interval = 1.0
-
 _logger = logging.getLogger(__name__)
 
 
@@ -372,7 +370,8 @@ def _load_servant(
         data: _ServantTable,
         *,
         path: Optional[pathlib.Path] = None,
-        force_update: bool = False) -> Servant:
+        force_update: bool = False,
+        request_interval: float = 1.0) -> Servant:
     result: Optional[Servant] = None
     # load
     if path is not None and not force_update:
@@ -387,7 +386,7 @@ def _load_servant(
     # request URL
     if result is None or force_update:
         result = _parse_servant_page(data)
-        time.sleep(_interval)
+        time.sleep(request_interval)
         # save
         if path is not None:
             save_json(path, result)
@@ -401,9 +400,10 @@ def _load_servant(
 def servant_list(
         *,
         directory: Optional[pathlib.Path] = None,
-        force_update: bool = False) -> List[Servant]:
+        force_update: bool = False,
+        request_interval: float = 1.0) -> List[Servant]:
     servant_table = _parse_servant_table()
-    time.sleep(_interval)
+    time.sleep(request_interval)
     result: List[Servant] = []
     for row in servant_table:
         _logger.info('servant: %s', row['name'])
@@ -412,7 +412,8 @@ def servant_list(
                 path=(directory.joinpath(f'{row["id"]:03d}.json')
                       if directory is not None
                       else None),
-                force_update=force_update))
+                force_update=force_update,
+                request_interval=request_interval))
     return result
 
 

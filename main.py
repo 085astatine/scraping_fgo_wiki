@@ -53,7 +53,8 @@ def load_servants(
         force_update: bool = False) -> List[lib.Servant]:
     return lib.servant_list(
             directory=path,
-            force_update=force_update)
+            force_update=force_update,
+            request_interval=1.0)
 
 
 def main():
