@@ -52,7 +52,7 @@ class Servant(TypedDict):
     klass: str
     rarity: int
     ascension: List[ResourceSet]
-    spiritron_dress: List[SpiritronDress]
+    spiritron_dresses: List[SpiritronDress]
     skills: Skills
     skill_reinforcement: List[ResourceSet]
 
@@ -239,7 +239,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
                 'servant %s: skill reinforcement parsing failed',
                 servant['name'])
     # 霊衣開放
-    spiritron_dress = _parse_spiritron_dress(root)
+    spiritron_dresses = _parse_spiritron_dress(root)
     return Servant(
             id=servant['id'],
             name=servant['name'],
@@ -247,7 +247,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
             klass=servant['klass'],
             rarity=servant['rarity'],
             ascension=ascension,
-            spiritron_dress=spiritron_dress,
+            spiritron_dresses=spiritron_dresses,
             skills=skills,
             skill_reinforcement=skill_reinforcement)
 

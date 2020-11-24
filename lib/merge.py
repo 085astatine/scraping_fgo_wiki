@@ -50,7 +50,7 @@ class Servant(TypedDict):
     klass: str
     rarity: int
     ascension: List[ResourceSet]
-    spiritron_dress: List[SpiritronDress]
+    spiritron_dresses: List[SpiritronDress]
     skills: Skills
     skill_reinforcement: List[ResourceSet]
 
@@ -147,9 +147,9 @@ def _convert_servant(
             ascension=[
                 _convert_resource_set(resource, items)
                 for resource in servant_['ascension']],
-            spiritron_dress=[
+            spiritron_dresses=[
                 _convert_spiritron_dress(dress, items)
-                for dress in servant_['spiritron_dress']],
+                for dress in servant_['spiritron_dresses']],
             skills=_convert_skills(servant_['skills'], dictionary),
             skill_reinforcement=[
                 _convert_resource_set(resource, items)
