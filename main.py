@@ -57,7 +57,7 @@ def load_servants(
             request_interval=1.0)
 
 
-def main():
+def main() -> None:
     # logger
     logger = logging.getLogger('lib')
     logger.setLevel(logging.INFO)
@@ -106,11 +106,12 @@ def main():
                 pathlib.Path('data/servant/'),
                 force_update=option.force)
     # master data
-    master_data_path = pathlib.Path('data/master_data.json')
-    master_data = {
-            'items': items,
-            'servants': servants}
-    lib.save_json(master_data_path, master_data)
+    if option.mode == 'merge':
+        logger.info('run: merge')
+        data = lib.merge(items, servants, dictionary)
+        lib.save_json(
+                pathlib.Path('data/master_data.json'),
+                data)
 
 
 if __name__ == '__main__':
