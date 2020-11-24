@@ -10,11 +10,10 @@ from .text import Text
 _logger = logging.getLogger(__name__)
 
 
-Item = TypedDict(
-    'Item',
-    {'id': int,
-     'rarity': str,
-     'name': str})
+class Item(TypedDict):
+    id: int
+    rarity: str
+    name: str
 
 
 def item_list() -> List[Item]:
