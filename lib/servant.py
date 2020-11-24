@@ -26,6 +26,12 @@ class Skill(TypedDict):
     icon: int
 
 
+class Skills(TypedDict):
+    skill_1: List[Skill]
+    skill_2: List[Skill]
+    skill_3: List[Skill]
+
+
 class Resource(TypedDict):
     name: str
     piece: int
@@ -48,7 +54,7 @@ class Servant(TypedDict):
     rarity: int
     ascension: List[ResourceSet]
     spiritron_dress: List[SpiritronDress]
-    skill: List[Skill]
+    skills: Skills
     skill_reinforcement: List[ResourceSet]
 
 
@@ -226,7 +232,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
                 'servant %s: ascension parsing failed',
                 servant['name'])
     # スキル
-    skill = _parse_skill(root)
+    skills = _parse_skill(root)
     # スキル強化
     skill_reinforcement = _parse_skill_reinforcement(root)
     if len(skill_reinforcement) != 9:
@@ -242,7 +248,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
             rarity=servant['rarity'],
             ascension=ascension,
             spiritron_dress=spiritron_dress,
-            skill=skill,
+            skills=skills,
             skill_reinforcement=skill_reinforcement)
 
 
@@ -261,8 +267,8 @@ def _parse_ascension(
 
 
 def _parse_skill(
-        root: lxml.html.HtmlElement) -> List[Skill]:
-    result = []
+        root: lxml.html.HtmlElement) -> Skills:
+    skill_slots: Dict[int, List[Skill]] = {i: [] for i in range(1, 4)}
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="保有スキル"]'
@@ -306,13 +312,21 @@ def _parse_skill(
         else:
             icon_id = 0
             _logger.warning('skill icon not found: %s', icon_text)
-        result.append(Skill(
+        skill_slots[slot].append(Skill(
                 slot=slot,
                 level=level,
                 name=name,
                 rank=rank,
                 icon=icon_id))
-    return result
+    # check
+    assert all(len(slot) > 0 for slot in skill_slots.values())
+    assert all(skill['level'] == i + 1
+               for slot in skill_slots.values()
+               for i, skill in enumerate(slot))
+    return Skills(
+            skill_1=skill_slots[1],
+            skill_2=skill_slots[2],
+            skill_3=skill_slots[3])
 
 
 def _parse_skill_reinforcement(
