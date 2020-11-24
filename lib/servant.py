@@ -287,13 +287,13 @@ def _parse_skill(
         level = (1 if match.group('upgraded') is None
                  else 2 if match.group('level') is None
                  else int(match.group('level')) + 1)
-        name = match.group('name')
+        name = match.group('name').strip()
         rank = ''
         rank_match = re.match(
                 r'(?P<name>.+)\s+(?P<rank>(EX|[A-E])[\+-]*)',
                 name)
         if rank_match:
-            name = rank_match.group('name')
+            name = rank_match.group('name').strip()
             rank = rank_match.group('rank')
         _logger.debug(
                 'skill %d Lv.%d: %s%s',
