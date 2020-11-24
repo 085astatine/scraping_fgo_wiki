@@ -50,6 +50,7 @@ class SpiritronDress(TypedDict):
 class Servant(TypedDict):
     id: int
     name: str
+    alias_name: Optional[str]
     klass: str
     rarity: int
     ascension: List[ResourceSet]
@@ -244,6 +245,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
     return Servant(
             id=servant['id'],
             name=servant['name'],
+            alias_name=None,
             klass=servant['klass'],
             rarity=servant['rarity'],
             ascension=ascension,
