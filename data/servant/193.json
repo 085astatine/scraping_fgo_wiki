@@ -64,8 +64,24 @@
   ],
   "spiritron_dresses": [],
   "skills": {
-    "skill_1": [],
-    "skill_2": [],
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "道術",
+        "rank": "A",
+        "icon": 316
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "霊珠子",
+        "rank": "A",
+        "icon": 404
+      }
+    ],
     "skill_3": [
       {
         "slot": 3,
