@@ -241,12 +241,12 @@
   },
   {
     "id": 3470,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Silver",
     "name": "光銀の冠"
   },
   {
     "id": 3480,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Silver",
     "name": "神脈霊子"
   },
   {
@@ -326,12 +326,12 @@
   },
   {
     "id": 3750,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Gold",
     "name": "煌星のカケラ"
   },
   {
     "id": 3760,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Gold",
     "name": "悠久の実"
   },
   {
