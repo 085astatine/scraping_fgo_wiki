@@ -1,6 +1,7 @@
 {
   "id": 266,
   "name": "謎のアルターエゴ・Λ",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "スワンレイク",
-      "rank": "A",
-      "icon": 305
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "完全流体",
-      "rank": "B",
-      "icon": 706
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "メルトエンヴィー",
-      "rank": "EX",
-      "icon": 513
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "スワンレイク",
+        "rank": "A",
+        "icon": 305
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "完全流体",
+        "rank": "B",
+        "icon": 706
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "メルトエンヴィー",
+        "rank": "EX",
+        "icon": 513
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

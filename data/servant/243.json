@@ -1,6 +1,7 @@
 {
   "id": 243,
   "name": "グレイ",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "対霊戦闘",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "封印礼装解除",
-      "rank": "C",
-      "icon": 316
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "最果ての加護",
-      "rank": "B",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "対霊戦闘",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "封印礼装解除",
+        "rank": "C",
+        "icon": 316
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "最果ての加護",
+        "rank": "B",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

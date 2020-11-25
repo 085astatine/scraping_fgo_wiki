@@ -1,6 +1,7 @@
 {
   "id": 102,
   "name": "李書文",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "中国武術（六合大槍）",
-      "rank": "A+++",
-      "icon": 310
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "圏境",
-      "rank": "B",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "絶招",
-      "rank": "B",
-      "icon": 312
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "絶招",
-      "rank": "B++",
-      "icon": 312
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "中国武術（六合大槍）",
+        "rank": "A+++",
+        "icon": 310
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "圏境",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "絶招",
+        "rank": "B",
+        "icon": 312
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "絶招",
+        "rank": "B++",
+        "icon": 312
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

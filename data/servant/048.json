@@ -1,6 +1,7 @@
 {
   "id": 48,
   "name": "ランスロット",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "無窮の武練",
-      "rank": "A+",
-      "icon": 311
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "精霊の加護",
-      "rank": "A",
-      "icon": 604
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔力逆流",
-      "rank": "A",
-      "icon": 602
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "無窮の武練",
+        "rank": "A+",
+        "icon": 311
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "精霊の加護",
+        "rank": "A",
+        "icon": 604
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔力逆流",
+        "rank": "A",
+        "icon": 602
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

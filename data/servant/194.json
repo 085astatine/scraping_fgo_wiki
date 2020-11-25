@@ -1,6 +1,7 @@
 {
   "id": 194,
   "name": "ミドラーシュのキャスター",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "カリスマ",
-      "rank": "B-",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "精霊の目",
-      "rank": "A",
-      "icon": 303
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔神の叡智",
-      "rank": "A",
-      "icon": 315
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "B-",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "精霊の目",
+        "rank": "A",
+        "icon": 303
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔神の叡智",
+        "rank": "A",
+        "icon": 315
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

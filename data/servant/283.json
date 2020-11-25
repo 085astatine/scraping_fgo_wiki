@@ -1,6 +1,7 @@
 {
   "id": 283,
   "name": "宇津見エリセ",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "巫邪霊媒",
-      "rank": "A",
-      "icon": 305
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "魔弾の射手（模造）",
-      "rank": "B",
-      "icon": 310
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "死神",
-      "rank": "B",
-      "icon": 522
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "巫邪霊媒",
+        "rank": "A",
+        "icon": 305
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔弾の射手（模造）",
+        "rank": "B",
+        "icon": 310
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "死神",
+        "rank": "B",
+        "icon": 522
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

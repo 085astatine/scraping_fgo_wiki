@@ -1,6 +1,7 @@
 {
   "id": 165,
   "name": "鈴鹿御前",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "神通力",
-      "rank": "B",
-      "icon": 306
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "神通力（ＪＫ）",
-      "rank": "B+",
-      "icon": 306
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "魔眼",
-      "rank": "B+",
-      "icon": 509
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "才知の祝福",
-      "rank": "C",
-      "icon": 607
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "神通力",
+        "rank": "B",
+        "icon": 306
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "神通力（ＪＫ）",
+        "rank": "B+",
+        "icon": 306
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔眼",
+        "rank": "B+",
+        "icon": 509
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "才知の祝福",
+        "rank": "C",
+        "icon": 607
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

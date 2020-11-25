@@ -1,6 +1,7 @@
 {
   "id": 111,
   "name": "アイリスフィール〔天の衣〕",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "献身の覚悟",
-      "rank": "A",
-      "icon": 611
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "自然の嬰児",
-      "rank": "A",
-      "icon": 403
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔術医療",
-      "rank": "A",
-      "icon": 600
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "献身の覚悟",
+        "rank": "A",
+        "icon": 611
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "自然の嬰児",
+        "rank": "A",
+        "icon": 403
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔術医療",
+        "rank": "A",
+        "icon": 600
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

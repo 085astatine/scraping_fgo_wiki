@@ -1,6 +1,7 @@
 {
   "id": 250,
   "name": "魔王信長",
+  "alias_name": null,
   "klass": "Avenger",
   "rarity": 5,
   "ascension": [
@@ -57,37 +58,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "是非もなし",
-      "rank": "A-",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "夢幻の如く",
-      "rank": "B",
-      "icon": 403
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "夢幻の如く",
-      "rank": "B++",
-      "icon": 403
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "第六天魔王",
-      "rank": "EX",
-      "icon": 605
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "是非もなし",
+        "rank": "A-",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "夢幻の如く",
+        "rank": "B",
+        "icon": 403
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "夢幻の如く",
+        "rank": "B++",
+        "icon": 403
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "第六天魔王",
+        "rank": "EX",
+        "icon": 605
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

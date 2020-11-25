@@ -1,6 +1,7 @@
 {
   "id": 117,
   "name": "風魔小太郎",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 3,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "破壊工作",
-      "rank": "B+",
-      "icon": 503
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "忍術",
-      "rank": "A+++",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "風声鶴唳",
-      "rank": "C",
-      "icon": 502
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "風声鶴唳",
-      "rank": "C++",
-      "icon": 502
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "破壊工作",
+        "rank": "B+",
+        "icon": 503
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "忍術",
+        "rank": "A+++",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "風声鶴唳",
+        "rank": "C",
+        "icon": 502
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "風声鶴唳",
+        "rank": "C++",
+        "icon": 502
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

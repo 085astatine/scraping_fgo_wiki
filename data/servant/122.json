@@ -1,6 +1,7 @@
 {
   "id": 122,
   "name": "トリスタン",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "治癒の竪琴",
-      "rank": "C",
-      "icon": 608
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "祝福されぬ生誕",
-      "rank": "B",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "騎士王への諫言",
-      "rank": "B",
-      "icon": 512
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "治癒の竪琴",
+        "rank": "C",
+        "icon": 608
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "祝福されぬ生誕",
+        "rank": "B",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "騎士王への諫言",
+        "rank": "B",
+        "icon": 512
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

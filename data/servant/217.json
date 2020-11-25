@@ -1,6 +1,7 @@
 {
   "id": 217,
   "name": "茨木童子",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "鬼種の魔（水）",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "吾はまだ帰らぬ！",
-      "rank": "B++",
-      "icon": 608
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "サマータイムトラブルガール",
-      "rank": "A",
-      "icon": 311
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "鬼種の魔（水）",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "吾はまだ帰らぬ！",
+        "rank": "B++",
+        "icon": 608
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "サマータイムトラブルガール",
+        "rank": "A",
+        "icon": 311
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

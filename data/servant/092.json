@@ -1,6 +1,7 @@
 {
   "id": 92,
   "name": "両儀式",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "直死の魔眼",
-      "rank": "A",
-      "icon": 514
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "心眼（偽）",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "陰陽魚",
-      "rank": "B",
-      "icon": 610
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "直死の魔眼",
+        "rank": "A",
+        "icon": 514
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "心眼（偽）",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "陰陽魚",
+        "rank": "B",
+        "icon": 610
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

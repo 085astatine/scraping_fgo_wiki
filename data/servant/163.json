@@ -1,6 +1,7 @@
 {
   "id": 163,
   "name": "メルトリリス",
+  "alias_name": null,
   "klass": "AlterEgo",
   "rarity": 5,
   "ascension": [
@@ -57,44 +58,50 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "クライム・バレエ",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "加虐体質",
-      "rank": "A",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "加虐体質",
-      "rank": "A+",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "メルトウイルス",
-      "rank": "EX",
-      "icon": 506
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "メルトウイルス",
-      "rank": "EX",
-      "icon": 506
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "クライム・バレエ",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "加虐体質",
+        "rank": "A",
+        "icon": 300
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "加虐体質",
+        "rank": "A+",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "メルトウイルス",
+        "rank": "EX",
+        "icon": 506
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "メルトウイルス",
+        "rank": "EX",
+        "icon": 506
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

@@ -1,6 +1,7 @@
 {
   "id": 53,
   "name": "アステリオス",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 1,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "怪力",
-      "rank": "A",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "天性の魔",
-      "rank": "A++",
-      "icon": 401
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "深淵のラブリュス",
-      "rank": "C",
-      "icon": 311
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "怪力",
+        "rank": "A",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "天性の魔",
+        "rank": "A++",
+        "icon": 401
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "深淵のラブリュス",
+        "rank": "C",
+        "icon": 311
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 10000,

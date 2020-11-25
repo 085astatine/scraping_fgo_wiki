@@ -1,6 +1,7 @@
 {
   "id": 114,
   "name": "源頼光",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 5,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "無窮の武練",
-      "rank": "A+",
-      "icon": 311
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "源氏の武練",
-      "rank": "EX",
-      "icon": 311
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "魔力放出（雷）",
-      "rank": "A",
-      "icon": 306
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "神秘殺し",
-      "rank": "A",
-      "icon": 301
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "無窮の武練",
+        "rank": "A+",
+        "icon": 311
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "源氏の武練",
+        "rank": "EX",
+        "icon": 311
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力放出（雷）",
+        "rank": "A",
+        "icon": 306
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "神秘殺し",
+        "rank": "A",
+        "icon": 301
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

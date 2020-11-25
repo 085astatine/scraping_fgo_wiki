@@ -1,6 +1,7 @@
 {
   "id": 85,
   "name": "カルナ",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 5,
   "ascension": [
@@ -61,7 +62,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "燃える三神の衣",
       "resource": {
@@ -87,29 +88,35 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "貧者の見識",
-      "rank": "A",
-      "icon": 512
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "魔力放出（炎）",
-      "rank": "A",
-      "icon": 306
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "無冠の武芸",
-      "rank": "",
-      "icon": 601
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "貧者の見識",
+        "rank": "A",
+        "icon": 512
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力放出（炎）",
+        "rank": "A",
+        "icon": 306
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "無冠の武芸",
+        "rank": "",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

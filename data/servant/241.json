@@ -1,6 +1,7 @@
 {
   "id": 241,
   "name": "司馬懿〔ライネス〕",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 5,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "軍師の忠言",
-      "rank": "A",
-      "icon": 400
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "宣帝の指揮",
-      "rank": "A",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "至上礼装・月霊髄液",
-      "rank": "B",
-      "icon": 403
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "至上礼装・月霊髄液",
-      "rank": "EX",
-      "icon": 403
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "軍師の忠言",
+        "rank": "A",
+        "icon": 400
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "宣帝の指揮",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "至上礼装・月霊髄液",
+        "rank": "B",
+        "icon": 403
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "至上礼装・月霊髄液",
+        "rank": "EX",
+        "icon": 403
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

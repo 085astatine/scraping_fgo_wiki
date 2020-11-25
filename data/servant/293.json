@@ -1,6 +1,7 @@
 {
   "id": 293,
   "name": "斎藤一",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "抜刀自在",
-      "rank": "B",
-      "icon": 315
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "心眼（真）",
-      "rank": "B",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "無敵の剣",
-      "rank": "A",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "抜刀自在",
+        "rank": "B",
+        "icon": 315
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "心眼（真）",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "無敵の剣",
+        "rank": "A",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

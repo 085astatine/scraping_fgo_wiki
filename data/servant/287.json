@@ -1,6 +1,7 @@
 {
   "id": 287,
   "name": "ブリュンヒルデ",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "白鳥礼装（夏）",
-      "rank": "A+",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "真夏の叡智",
-      "rank": "B",
-      "icon": 607
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "サマータイムラバーズ",
-      "rank": "EX",
-      "icon": 315
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "白鳥礼装（夏）",
+        "rank": "A+",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "真夏の叡智",
+        "rank": "B",
+        "icon": 607
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "サマータイムラバーズ",
+        "rank": "EX",
+        "icon": 315
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

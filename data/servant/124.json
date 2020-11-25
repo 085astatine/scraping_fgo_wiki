@@ -1,6 +1,7 @@
 {
   "id": 124,
   "name": "静謐のハサン",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 3,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "変化（潜入特化）",
-      "rank": "C",
-      "icon": 520
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "投擲（短刀）",
-      "rank": "C",
-      "icon": 603
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "毒の刃",
-      "rank": "C++",
-      "icon": 510
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "静寂の舞踏",
-      "rank": "B",
-      "icon": 522
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "変化（潜入特化）",
+        "rank": "C",
+        "icon": 520
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "投擲（短刀）",
+        "rank": "C",
+        "icon": 603
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "毒の刃",
+        "rank": "C++",
+        "icon": 510
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "静寂の舞踏",
+        "rank": "B",
+        "icon": 522
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

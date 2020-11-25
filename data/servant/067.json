@@ -1,6 +1,7 @@
 {
   "id": 67,
   "name": "メディア〔リリィ〕",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -61,44 +62,50 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "高速神言",
-      "rank": "A",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "耐毒",
-      "rank": "A",
-      "icon": 608
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "耐毒",
-      "rank": "A++",
-      "icon": 608
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "うたかたの恋",
-      "rank": "B",
-      "icon": 600
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "うたかたの恋",
-      "rank": "EX",
-      "icon": 600
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "高速神言",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "耐毒",
+        "rank": "A",
+        "icon": 608
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "耐毒",
+        "rank": "A++",
+        "icon": 608
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "うたかたの恋",
+        "rank": "B",
+        "icon": 600
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "うたかたの恋",
+        "rank": "EX",
+        "icon": 600
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

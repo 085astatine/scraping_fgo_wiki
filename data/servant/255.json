@@ -1,6 +1,7 @@
 {
   "id": 255,
   "name": "パリス",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 2,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "太陽神の眼（偽）",
-      "rank": "B+",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "男神の寵愛",
-      "rank": "B",
-      "icon": 328
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "不和呼びし黄金の林檎",
-      "rank": "EX",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "太陽神の眼（偽）",
+        "rank": "B+",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "男神の寵愛",
+        "rank": "B",
+        "icon": 328
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "不和呼びし黄金の林檎",
+        "rank": "EX",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 20000,

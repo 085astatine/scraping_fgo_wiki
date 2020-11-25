@@ -1,6 +1,7 @@
 {
   "id": 139,
   "name": "クレオパトラ",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "皇帝特権",
-      "rank": "A",
-      "icon": 600
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "黄金律（富＆体）",
-      "rank": "B",
-      "icon": 607
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "女神の加護",
-      "rank": "C",
-      "icon": 403
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "皇帝特権",
+        "rank": "A",
+        "icon": 600
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "黄金律（富＆体）",
+        "rank": "B",
+        "icon": 607
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "女神の加護",
+        "rank": "C",
+        "icon": 403
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

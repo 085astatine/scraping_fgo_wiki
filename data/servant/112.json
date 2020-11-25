@@ -1,6 +1,7 @@
 {
   "id": 112,
   "name": "酒呑童子",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "果実の酒気",
-      "rank": "A",
-      "icon": 509
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "鬼種の魔",
-      "rank": "A",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "戦闘続行",
-      "rank": "A+",
-      "icon": 404
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "鬼の首",
-      "rank": "EX",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "果実の酒気",
+        "rank": "A",
+        "icon": 509
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "鬼種の魔",
+        "rank": "A",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "戦闘続行",
+        "rank": "A+",
+        "icon": 404
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "鬼の首",
+        "rank": "EX",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

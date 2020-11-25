@@ -1,6 +1,7 @@
 {
   "id": 59,
   "name": "ジャンヌ・ダルク",
+  "alias_name": null,
   "klass": "Ruler",
   "rarity": 5,
   "ascension": [
@@ -81,30 +82,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "啓示",
-      "rank": "A",
-      "icon": 605
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "真名看破",
-      "rank": "B",
-      "icon": 506
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "神明裁決",
-      "rank": "A",
-      "icon": 508
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "啓示",
+        "rank": "A",
+        "icon": 605
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "真名看破",
+        "rank": "B",
+        "icon": 506
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "神明裁決",
+        "rank": "A",
+        "icon": 508
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

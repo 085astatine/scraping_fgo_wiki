@@ -1,6 +1,7 @@
 {
   "id": 129,
   "name": "アルトリア・ペンドラゴン",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "サマー・スプラッシュ！",
-      "rank": "A+",
-      "icon": 305
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "海の家の加護",
-      "rank": "EX",
-      "icon": 600
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "ビーチフラワー",
-      "rank": "B",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "サマー・スプラッシュ！",
+        "rank": "A+",
+        "icon": 305
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "海の家の加護",
+        "rank": "EX",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ビーチフラワー",
+        "rank": "B",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

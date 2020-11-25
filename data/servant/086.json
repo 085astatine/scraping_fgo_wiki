@@ -1,6 +1,7 @@
 {
   "id": 86,
   "name": "謎のヒロインX",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
   "ascension": [
@@ -61,7 +62,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "簡易霊衣：謎のヒロインZ",
       "resource": {
@@ -87,50 +88,56 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "支援砲撃",
-      "rank": "EX",
-      "icon": 508
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "支援砲撃XEX",
-      "rank": "EX",
-      "icon": 508
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "直感",
-      "rank": "C+",
-      "icon": 603
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "セイバーの星",
-      "rank": "C++",
-      "icon": 403
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "銀河流星剣",
-      "rank": "C",
-      "icon": 604
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "銀河流星剣XEX",
-      "rank": "A",
-      "icon": 604
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "支援砲撃",
+        "rank": "EX",
+        "icon": 508
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "支援砲撃XEX",
+        "rank": "EX",
+        "icon": 508
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "直感",
+        "rank": "C+",
+        "icon": 603
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "セイバーの星",
+        "rank": "C++",
+        "icon": 403
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "銀河流星剣",
+        "rank": "C",
+        "icon": 604
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "銀河流星剣XEX",
+        "rank": "A",
+        "icon": 604
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

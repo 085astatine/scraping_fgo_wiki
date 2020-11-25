@@ -1,6 +1,7 @@
 {
   "id": 77,
   "name": "ニコラ・テスラ",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 5,
   "ascension": [
@@ -61,44 +62,50 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ガルバニズム",
-      "rank": "A",
-      "icon": 602
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "テスラコイル",
-      "rank": "A+",
-      "icon": 602
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "天賦の叡智",
-      "rank": "A",
-      "icon": 404
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "天賦の叡智",
-      "rank": "EX",
-      "icon": 404
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "星の開拓者",
-      "rank": "EX",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ガルバニズム",
+        "rank": "A",
+        "icon": 602
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "テスラコイル",
+        "rank": "A+",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "天賦の叡智",
+        "rank": "A",
+        "icon": 404
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "天賦の叡智",
+        "rank": "EX",
+        "icon": 404
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "星の開拓者",
+        "rank": "EX",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

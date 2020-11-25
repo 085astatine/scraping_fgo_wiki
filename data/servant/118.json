@@ -1,6 +1,7 @@
 {
   "id": 118,
   "name": "オジマンディアス",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "カリスマ",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "皇帝特権",
-      "rank": "A",
-      "icon": 600
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "太陽神の加護",
-      "rank": "A",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "皇帝特権",
+        "rank": "A",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "太陽神の加護",
+        "rank": "A",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

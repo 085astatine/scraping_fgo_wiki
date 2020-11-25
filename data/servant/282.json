@@ -1,6 +1,7 @@
 {
   "id": 282,
   "name": "鬼女紅葉",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "変化（恐竜）",
-      "rank": "C",
-      "icon": 400
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "九頭竜の雷火",
-      "rank": "A",
-      "icon": 316
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "命の綱",
-      "rank": "B",
-      "icon": 600
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "変化（恐竜）",
+        "rank": "C",
+        "icon": 400
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "九頭竜の雷火",
+        "rank": "A",
+        "icon": 316
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "命の綱",
+        "rank": "B",
+        "icon": 600
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

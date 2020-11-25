@@ -1,6 +1,7 @@
 {
   "id": 238,
   "name": "キングプロテア",
+  "alias_name": null,
   "klass": "AlterEgo",
   "rarity": 5,
   "ascension": [
@@ -57,37 +58,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ヒュージスケール",
-      "rank": "C",
-      "icon": 412
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "ヒュージスケール",
-      "rank": "C+",
-      "icon": 412
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "幼児退行",
-      "rank": "C",
-      "icon": 609
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "怪力",
-      "rank": "EX",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ヒュージスケール",
+        "rank": "C",
+        "icon": 412
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "ヒュージスケール",
+        "rank": "C+",
+        "icon": 412
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "幼児退行",
+        "rank": "C",
+        "icon": 609
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "怪力",
+        "rank": "EX",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

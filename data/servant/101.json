@@ -1,6 +1,7 @@
 {
   "id": 101,
   "name": "ラーマ",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "武の祝福",
-      "rank": "A",
-      "icon": 311
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "カリスマ",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "離別の呪い",
-      "rank": "A",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "武の祝福",
+        "rank": "A",
+        "icon": 311
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "離別の呪い",
+        "rank": "A",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

@@ -1,6 +1,7 @@
 {
   "id": 31,
   "name": "メディア",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 3,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "高速神言",
-      "rank": "A",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "金羊の皮",
-      "rank": "",
-      "icon": 600
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "キルケーの教え",
-      "rank": "A",
-      "icon": 608
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "高速神言",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "金羊の皮",
+        "rank": "",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "キルケーの教え",
+        "rank": "A",
+        "icon": 608
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

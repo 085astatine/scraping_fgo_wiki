@@ -1,6 +1,7 @@
 {
   "id": 232,
   "name": "ブラダマンテ",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "クレルモンの勲",
-      "rank": "B",
-      "icon": 314
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "白羽の騎士",
-      "rank": "B+",
-      "icon": 404
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔術解除",
-      "rank": "A",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "クレルモンの勲",
+        "rank": "B",
+        "icon": 314
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "白羽の騎士",
+        "rank": "B+",
+        "icon": 404
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔術解除",
+        "rank": "A",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

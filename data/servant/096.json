@@ -1,6 +1,7 @@
 {
   "id": 96,
   "name": "巌窟王",
+  "alias_name": null,
   "klass": "Avenger",
   "rarity": 5,
   "ascension": [
@@ -57,7 +58,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "モンテ・クリストセレクション",
       "resource": {
@@ -83,29 +84,35 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "鋼鉄の決意",
-      "rank": "EX",
-      "icon": 312
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "黄金律",
-      "rank": "A",
-      "icon": 602
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "窮地の智慧",
-      "rank": "A",
-      "icon": 513
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "鋼鉄の決意",
+        "rank": "EX",
+        "icon": 312
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "黄金律",
+        "rank": "A",
+        "icon": 602
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "窮地の智慧",
+        "rank": "A",
+        "icon": 513
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

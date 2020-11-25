@@ -1,6 +1,7 @@
 {
   "id": 107,
   "name": "アンリマユ",
+  "alias_name": null,
   "klass": "Avenger",
   "rarity": 0,
   "ascension": [
@@ -57,37 +58,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "右歯噛咬",
-      "rank": "C",
-      "icon": 520
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "左歯噛咬",
-      "rank": "C",
-      "icon": 513
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "死滅願望",
-      "rank": "A",
-      "icon": 304
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "四夜の終末",
-      "rank": "EX",
-      "icon": 304
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "右歯噛咬",
+        "rank": "C",
+        "icon": 520
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "左歯噛咬",
+        "rank": "C",
+        "icon": 513
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "死滅願望",
+        "rank": "A",
+        "icon": 304
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "四夜の終末",
+        "rank": "EX",
+        "icon": 304
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 20000,

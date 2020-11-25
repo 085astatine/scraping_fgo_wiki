@@ -1,6 +1,7 @@
 {
   "id": 235,
   "name": "李書文",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
   "ascension": [
@@ -61,7 +62,7 @@
       ]
     }
   ],
-  "spiritron_dress": [
+  "spiritron_dresses": [
     {
       "name": "簡易霊衣：グラスレス（第一再臨）",
       "resource": {
@@ -111,29 +112,35 @@
       }
     }
   ],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "中国武術（八極拳）",
-      "rank": "A+++",
-      "icon": 312
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "圏境（極）",
-      "rank": "A-",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "陰陽交差",
-      "rank": "B",
-      "icon": 300
-    }
-  ],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "中国武術（八極拳）",
+        "rank": "A+++",
+        "icon": 312
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "圏境（極）",
+        "rank": "A-",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "陰陽交差",
+        "rank": "B",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

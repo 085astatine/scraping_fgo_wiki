@@ -1,6 +1,7 @@
 {
   "id": 87,
   "name": "フィン・マックール",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,44 +62,50 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "千里眼",
-      "rank": "B",
-      "icon": 604
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "千里眼（麗）",
-      "rank": "B++",
-      "icon": 604
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "女難の美",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "華麗奔放",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魔術",
-      "rank": "B",
-      "icon": 305
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "千里眼",
+        "rank": "B",
+        "icon": 604
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "千里眼（麗）",
+        "rank": "B++",
+        "icon": 604
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "女難の美",
+        "rank": "A",
+        "icon": 402
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "華麗奔放",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔術",
+        "rank": "B",
+        "icon": 305
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

@@ -1,6 +1,7 @@
 {
   "id": 82,
   "name": "フランケンシュタイン",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ガルバニズム",
-      "rank": "B",
-      "icon": 602
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "虚ろなる生者の嘆き",
-      "rank": "D",
-      "icon": 508
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "虚ろなる生者の嘆き",
-      "rank": "C",
-      "icon": 508
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "オーバーロード",
-      "rank": "C",
-      "icon": 302
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ガルバニズム",
+        "rank": "B",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "虚ろなる生者の嘆き",
+        "rank": "D",
+        "icon": 508
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "虚ろなる生者の嘆き",
+        "rank": "C",
+        "icon": 508
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "オーバーロード",
+        "rank": "C",
+        "icon": 302
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

@@ -1,6 +1,7 @@
 {
   "id": 39,
   "name": "佐々木小次郎",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 1,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "心眼（偽）",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "透化",
-      "rank": "B+",
-      "icon": 608
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "宗和の心得",
-      "rank": "B",
-      "icon": 310
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "宗和の心得",
-      "rank": "B++",
-      "icon": 310
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "心眼（偽）",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "透化",
+        "rank": "B+",
+        "icon": 608
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "宗和の心得",
+        "rank": "B",
+        "icon": 310
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "宗和の心得",
+        "rank": "B++",
+        "icon": 310
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 10000,

@@ -1,6 +1,7 @@
 {
   "id": 201,
   "name": "アナスタシア",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "透視の魔眼",
-      "rank": "D",
-      "icon": 312
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "絶凍のカリスマ",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "シュヴィブジック",
-      "rank": "B",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "透視の魔眼",
+        "rank": "D",
+        "icon": 312
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "絶凍のカリスマ",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "シュヴィブジック",
+        "rank": "B",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

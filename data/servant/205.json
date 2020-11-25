@@ -1,6 +1,7 @@
 {
   "id": 205,
   "name": "イヴァン雷帝",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "矛盾精神",
-      "rank": "A",
-      "icon": 602
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "無辜の怪物（異）",
-      "rank": "A",
-      "icon": 605
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "非常大権",
-      "rank": "A",
-      "icon": 403
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "矛盾精神",
+        "rank": "A",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "無辜の怪物（異）",
+        "rank": "A",
+        "icon": 605
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "非常大権",
+        "rank": "A",
+        "icon": 403
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

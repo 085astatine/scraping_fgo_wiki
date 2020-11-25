@@ -1,6 +1,7 @@
 {
   "id": 263,
   "name": "カーミラ",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ファム・ファタール（偽）",
-      "rank": "A",
-      "icon": 512
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "怪盗の予告状",
-      "rank": "A",
-      "icon": 513
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "ミストレス・Ｃ",
-      "rank": "EX",
-      "icon": 600
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ファム・ファタール（偽）",
+        "rank": "A",
+        "icon": 512
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "怪盗の予告状",
+        "rank": "A",
+        "icon": 513
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ミストレス・Ｃ",
+        "rank": "EX",
+        "icon": 600
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

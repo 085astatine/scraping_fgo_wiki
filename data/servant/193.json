@@ -1,6 +1,7 @@
 {
   "id": 193,
   "name": "哪吒",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,16 +62,20 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "如来の加護 ",
-      "rank": "B",
-      "icon": 311
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [],
+    "skill_2": [],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "如来の加護",
+        "rank": "B",
+        "icon": 311
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

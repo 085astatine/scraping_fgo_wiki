@@ -1,6 +1,7 @@
 {
   "id": 79,
   "name": "ヴァン・ホーエンハイム・パラケルスス",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 3,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "高速詠唱",
-      "rank": "A",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "エレメンタル",
-      "rank": "A+",
-      "icon": 305
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "賢者の石",
-      "rank": "A",
-      "icon": 404
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "賢者の石［強化後］",
-      "rank": "A+",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "高速詠唱",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "エレメンタル",
+        "rank": "A+",
+        "icon": 305
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "賢者の石",
+        "rank": "A",
+        "icon": 404
+      },
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "賢者の石［強化後］",
+        "rank": "A+",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

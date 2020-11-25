@@ -1,6 +1,7 @@
 {
   "id": 206,
   "name": "アキレウス",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "彗星走法",
-      "rank": "A+",
-      "icon": 304
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "勇者の不凋花",
-      "rank": "B",
-      "icon": 403
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "宙駆ける星の穂先",
-      "rank": "B+",
-      "icon": 700
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "彗星走法",
+        "rank": "A+",
+        "icon": 304
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "勇者の不凋花",
+        "rank": "B",
+        "icon": 403
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "宙駆ける星の穂先",
+        "rank": "B+",
+        "icon": 700
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

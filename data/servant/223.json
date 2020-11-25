@@ -1,6 +1,7 @@
 {
   "id": 223,
   "name": "ディルムッド・オディナ",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "魔力放出（跳躍）",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "フィオナ騎士の誉れ",
-      "rank": "B",
-      "icon": 311
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "激情の細波",
-      "rank": "B+",
-      "icon": 400
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "魔力放出（跳躍）",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "フィオナ騎士の誉れ",
+        "rank": "B",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "激情の細波",
+        "rank": "B+",
+        "icon": 400
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

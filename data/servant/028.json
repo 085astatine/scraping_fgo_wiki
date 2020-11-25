@@ -1,6 +1,7 @@
 {
   "id": 28,
   "name": "アレキサンダー",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 3,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "カリスマ",
-      "rank": "C",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "紅顔の美少年",
-      "rank": "B",
-      "icon": 509
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "紅顔の美少年（雷）",
-      "rank": "A",
-      "icon": 509
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "覇王の兆し",
-      "rank": "A",
-      "icon": 304
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "C",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "紅顔の美少年",
+        "rank": "B",
+        "icon": 509
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "紅顔の美少年（雷）",
+        "rank": "A",
+        "icon": 509
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "覇王の兆し",
+        "rank": "A",
+        "icon": 304
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 50000,

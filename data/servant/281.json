@@ -1,6 +1,7 @@
 {
   "id": 281,
   "name": "ボイジャー",
+  "alias_name": null,
   "klass": "Foreigner",
   "rarity": 5,
   "ascension": [
@@ -57,30 +58,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "星の航海者",
-      "rank": "A",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "スイングバイ",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "最果ての加護（宇宙）",
-      "rank": "B",
-      "icon": 311
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "星の航海者",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "スイングバイ",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "最果ての加護（宇宙）",
+        "rank": "B",
+        "icon": 311
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

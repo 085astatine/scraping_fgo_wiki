@@ -1,6 +1,7 @@
 {
   "id": 285,
   "name": "殺生院キアラ",
+  "alias_name": null,
   "klass": "MoonCancer",
   "rarity": 5,
   "ascension": [
@@ -57,30 +58,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "人魚の肉",
-      "rank": "EX",
-      "icon": 333
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "神通力（墨）",
-      "rank": "B",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "蛤御殿",
-      "rank": "A",
-      "icon": 402
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "人魚の肉",
+        "rank": "EX",
+        "icon": 333
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "神通力（墨）",
+        "rank": "B",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "蛤御殿",
+        "rank": "A",
+        "icon": 402
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

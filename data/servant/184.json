@@ -1,6 +1,7 @@
 {
   "id": 184,
   "name": "アーチャー・インフェルノ",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "鬼種の魔",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "乱戦の心得",
-      "rank": "B",
-      "icon": 311
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "血脈励起",
-      "rank": "A",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "鬼種の魔",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "乱戦の心得",
+        "rank": "B",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "血脈励起",
+        "rank": "A",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

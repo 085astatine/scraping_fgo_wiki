@@ -1,6 +1,7 @@
 {
   "id": 294,
   "name": "織田信勝",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 1,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "稚拙な謀略",
-      "rank": "D",
-      "icon": 512
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "我、魔天に殉ず",
-      "rank": "B",
-      "icon": 605
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "戦乱の徒花",
-      "rank": "C",
-      "icon": 700
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "稚拙な謀略",
+        "rank": "D",
+        "icon": 512
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "我、魔天に殉ず",
+        "rank": "B",
+        "icon": 605
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "戦乱の徒花",
+        "rank": "C",
+        "icon": 700
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 10000,

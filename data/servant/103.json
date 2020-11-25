@@ -1,6 +1,7 @@
 {
   "id": 103,
   "name": "トーマス・エジソン",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "変化",
-      "rank": "C",
-      "icon": 400
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "メンロパークの魔術師",
-      "rank": "A",
-      "icon": 400
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "大量生産",
-      "rank": "A",
-      "icon": 605
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "概念改良",
-      "rank": "A+",
-      "icon": 313
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "変化",
+        "rank": "C",
+        "icon": 400
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "メンロパークの魔術師",
+        "rank": "A",
+        "icon": 400
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "大量生産",
+        "rank": "A",
+        "icon": 605
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "概念改良",
+        "rank": "A+",
+        "icon": 313
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

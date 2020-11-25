@@ -1,6 +1,7 @@
 {
   "id": 167,
   "name": "殺生院キアラ",
+  "alias_name": null,
   "klass": "AlterEgo",
   "rarity": 5,
   "ascension": [
@@ -57,44 +58,50 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "千里眼（獣）",
-      "rank": "D",
-      "icon": 502
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "千里眼（獣）",
-      "rank": "D+++",
-      "icon": 502
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "五停心観",
-      "rank": "A",
-      "icon": 513
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "五停心観",
-      "rank": "A+",
-      "icon": 513
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "女神変生",
-      "rank": "EX",
-      "icon": 403
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "千里眼（獣）",
+        "rank": "D",
+        "icon": 502
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "千里眼（獣）",
+        "rank": "D+++",
+        "icon": 502
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "五停心観",
+        "rank": "A",
+        "icon": 513
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "五停心観",
+        "rank": "A+",
+        "icon": 513
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "女神変生",
+        "rank": "EX",
+        "icon": 403
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

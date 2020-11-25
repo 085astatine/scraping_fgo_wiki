@@ -1,6 +1,7 @@
 {
   "id": 170,
   "name": "不夜城のアサシン",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "拷問技術",
-      "rank": "A",
-      "icon": 504
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "焦骨牡丹",
-      "rank": "A+",
-      "icon": 504
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "皇帝特権",
-      "rank": "B",
-      "icon": 600
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "女帝のカリスマ",
-      "rank": "A",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "拷問技術",
+        "rank": "A",
+        "icon": 504
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "焦骨牡丹",
+        "rank": "A+",
+        "icon": 504
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "皇帝特権",
+        "rank": "B",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "女帝のカリスマ",
+        "rank": "A",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

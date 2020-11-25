@@ -1,6 +1,7 @@
 {
   "id": 215,
   "name": "スカサハ＝スカディ",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "原初のルーン",
-      "rank": "",
-      "icon": 304
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "凍える吹雪",
-      "rank": "B",
-      "icon": 504
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "大神の叡智",
-      "rank": "B+",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "原初のルーン",
+        "rank": "",
+        "icon": 304
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "凍える吹雪",
+        "rank": "B",
+        "icon": 504
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "大神の叡智",
+        "rank": "B+",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

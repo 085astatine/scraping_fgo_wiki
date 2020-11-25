@@ -1,6 +1,7 @@
 {
   "id": 61,
   "name": "エリザベート・バートリー〔ハロウィン〕",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "無辜の怪物",
-      "rank": "EX",
-      "icon": 605
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "魔力放出（かぼちゃ）",
-      "rank": "A",
-      "icon": 306
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "出演続行",
-      "rank": "A",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "無辜の怪物",
+        "rank": "EX",
+        "icon": 605
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力放出（かぼちゃ）",
+        "rank": "A",
+        "icon": 306
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "出演続行",
+        "rank": "A",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

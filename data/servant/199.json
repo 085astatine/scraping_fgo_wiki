@@ -1,6 +1,7 @@
 {
   "id": 199,
   "name": "セミラミス",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "使い魔（鳩）",
-      "rank": "D",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "二重召喚",
-      "rank": "B",
-      "icon": 602
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "驕慢王の美酒",
-      "rank": "B+",
-      "icon": 510
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "使い魔（鳩）",
+        "rank": "D",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "二重召喚",
+        "rank": "B",
+        "icon": 602
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "驕慢王の美酒",
+        "rank": "B+",
+        "icon": 510
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

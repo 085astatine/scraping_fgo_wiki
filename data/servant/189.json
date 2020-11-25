@@ -1,6 +1,7 @@
 {
   "id": 189,
   "name": "刑部姫",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
   "ascension": [
@@ -61,23 +62,27 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "変化",
-      "rank": "A+",
-      "icon": 400
-    },
-    {
-      "order": 1,
-      "is_upgraded": true,
-      "name": "四神地相（白鷺）",
-      "rank": "A",
-      "icon": 400
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "変化",
+        "rank": "A+",
+        "icon": 400
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "四神地相（白鷺）",
+        "rank": "A",
+        "icon": 400
+      }
+    ],
+    "skill_2": [],
+    "skill_3": []
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

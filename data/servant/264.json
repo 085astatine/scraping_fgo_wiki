@@ -1,6 +1,7 @@
 {
   "id": 264,
   "name": "葛飾北斎",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "神通力（墨）",
-      "rank": "C",
-      "icon": 601
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "父娘の縁",
-      "rank": "B",
-      "icon": 311
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "雅号・竜紋蛸",
-      "rank": "B",
-      "icon": 305
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "神通力（墨）",
+        "rank": "C",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "父娘の縁",
+        "rank": "B",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "雅号・竜紋蛸",
+        "rank": "B",
+        "icon": 305
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

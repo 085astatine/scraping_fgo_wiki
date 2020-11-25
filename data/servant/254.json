@@ -1,6 +1,7 @@
 {
   "id": 254,
   "name": "イアソン",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 1,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "求めし金羊の皮",
-      "rank": "",
-      "icon": 600
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "虎口にて閃く",
-      "rank": "A",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "友と征く遙かなる海路",
-      "rank": "B++",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "求めし金羊の皮",
+        "rank": "",
+        "icon": 600
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "虎口にて閃く",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "友と征く遙かなる海路",
+        "rank": "B++",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 10000,

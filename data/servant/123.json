@@ -1,6 +1,7 @@
 {
   "id": 123,
   "name": "ガウェイン",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "聖者の数字",
-      "rank": "EX",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "カリスマ",
-      "rank": "E",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": true,
-      "name": "不夜のカリスマ",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "ベルシラックの帯",
-      "rank": "EX",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "聖者の数字",
+        "rank": "EX",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "E",
+        "icon": 300
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "不夜のカリスマ",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ベルシラックの帯",
+        "rank": "EX",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

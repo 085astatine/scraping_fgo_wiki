@@ -1,6 +1,7 @@
 {
   "id": 229,
   "name": "始皇帝",
+  "alias_name": null,
   "klass": "Ruler",
   "rarity": 5,
   "ascension": [
@@ -81,30 +82,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "書は焚すべし",
-      "rank": "A",
-      "icon": 513
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "儒は坑すべし",
-      "rank": "A",
-      "icon": 508
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "永世帝位",
-      "rank": "A",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "書は焚すべし",
+        "rank": "A",
+        "icon": 513
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "儒は坑すべし",
+        "rank": "A",
+        "icon": 508
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "永世帝位",
+        "rank": "A",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

@@ -1,6 +1,7 @@
 {
   "id": 212,
   "name": "ナポレオン",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "凱旋のカリスマ",
-      "rank": "B",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "火力支援（砲）",
-      "rank": "B+",
-      "icon": 302
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "可能性の光",
-      "rank": "B",
-      "icon": 601
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "凱旋のカリスマ",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "火力支援（砲）",
+        "rank": "B+",
+        "icon": 302
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "可能性の光",
+        "rank": "B",
+        "icon": 601
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

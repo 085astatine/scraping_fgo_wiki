@@ -1,6 +1,7 @@
 {
   "id": 247,
   "name": "アルジュナ〔オルタ〕",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 5,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "対邪悪（特殊）",
-      "rank": "EX",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "千里眼（超越）",
-      "rank": "EX",
-      "icon": 308
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "魂の灯火",
-      "rank": "EX",
-      "icon": 404
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "対邪悪（特殊）",
+        "rank": "EX",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "千里眼（超越）",
+        "rank": "EX",
+        "icon": 308
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魂の灯火",
+        "rank": "EX",
+        "icon": 404
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 200000,

@@ -1,6 +1,7 @@
 {
   "id": 140,
   "name": "ヴラド三世〔EXTRA〕",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "信仰の加護",
-      "rank": "A+++",
-      "icon": 401
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "軍略",
-      "rank": "B",
-      "icon": 302
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "無辜の怪物",
-      "rank": "A",
-      "icon": 605
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "信仰の加護",
+        "rank": "A+++",
+        "icon": 401
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "軍略",
+        "rank": "B",
+        "icon": 302
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "無辜の怪物",
+        "rank": "A",
+        "icon": 605
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

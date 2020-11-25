@@ -1,6 +1,7 @@
 {
   "id": 162,
   "name": "茶々",
+  "alias_name": null,
   "klass": "Berserker",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "黄金律(凶)",
-      "rank": "B",
-      "icon": 607
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "無辜の怪物(焔)",
-      "rank": "C",
-      "icon": 605
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "日輪の寵姫",
-      "rank": "EX",
-      "icon": 504
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "黄金律(凶)",
+        "rank": "B",
+        "icon": 607
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "無辜の怪物(焔)",
+        "rank": "C",
+        "icon": 605
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "日輪の寵姫",
+        "rank": "EX",
+        "icon": 504
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

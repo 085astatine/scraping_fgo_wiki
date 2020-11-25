@@ -1,6 +1,7 @@
 {
   "id": 177,
   "name": "ニトクリス",
+  "alias_name": null,
   "klass": "Assassin",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "白き御衣",
-      "rank": "A",
-      "icon": 400
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "ビーチパニック",
-      "rank": "EX",
-      "icon": 700
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "熱砂の王道",
-      "rank": "A",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "白き御衣",
+        "rank": "A",
+        "icon": 400
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "ビーチパニック",
+        "rank": "EX",
+        "icon": 700
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "熱砂の王道",
+        "rank": "A",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

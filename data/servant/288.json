@@ -1,6 +1,7 @@
 {
   "id": 288,
   "name": "虞美人",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "夏の受肉精霊",
-      "rank": "A+",
-      "icon": 404
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "覇王の姫",
-      "rank": "EX",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "在りし日の舞",
-      "rank": "EX",
-      "icon": 304
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "夏の受肉精霊",
+        "rank": "A+",
+        "icon": 404
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "覇王の姫",
+        "rank": "EX",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "在りし日の舞",
+        "rank": "EX",
+        "icon": 304
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

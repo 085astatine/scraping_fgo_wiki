@@ -1,6 +1,7 @@
 {
   "id": 115,
   "name": "坂田金時",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "千里疾走",
-      "rank": "A",
-      "icon": 304
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "動物会話",
-      "rank": "C",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "天性の肉体",
-      "rank": "A",
-      "icon": 401
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "千里疾走",
+        "rank": "A",
+        "icon": 304
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "動物会話",
+        "rank": "C",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "天性の肉体",
+        "rank": "A",
+        "icon": 401
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

@@ -1,6 +1,7 @@
 {
   "id": 21,
   "name": "レオニダス一世",
+  "alias_name": null,
   "klass": "Lancer",
   "rarity": 2,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "殿の矜持",
-      "rank": "A",
-      "icon": 700
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "戦闘続行",
-      "rank": "A",
-      "icon": 404
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "戦士の雄叫び",
-      "rank": "B",
-      "icon": 306
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "殿の矜持",
+        "rank": "A",
+        "icon": 700
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "戦闘続行",
+        "rank": "A",
+        "icon": 404
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "戦士の雄叫び",
+        "rank": "B",
+        "icon": 306
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 20000,

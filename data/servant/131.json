@@ -1,6 +1,7 @@
 {
   "id": 131,
   "name": "アン・ボニー＆メアリー・リード",
+  "alias_name": null,
   "klass": "Archer",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "ビーチフラワー",
-      "rank": "A+",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "トレジャーハント（海）",
-      "rank": "C",
-      "icon": 311
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "海賊の誉れ",
-      "rank": "C+",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ビーチフラワー",
+        "rank": "A+",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "トレジャーハント（海）",
+        "rank": "C",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "海賊の誉れ",
+        "rank": "C+",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

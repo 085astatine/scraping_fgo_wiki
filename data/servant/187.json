@@ -1,6 +1,7 @@
 {
   "id": 187,
   "name": "柳生但馬守宗矩",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "新陰流",
-      "rank": "A++",
-      "icon": 305
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "水月",
-      "rank": "B",
-      "icon": 402
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "無刀取り",
-      "rank": "A",
-      "icon": 503
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "新陰流",
+        "rank": "A++",
+        "icon": 305
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "水月",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "無刀取り",
+        "rank": "A",
+        "icon": 503
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

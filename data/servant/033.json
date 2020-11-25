@@ -1,6 +1,7 @@
 {
   "id": 33,
   "name": "ハンス・クリスチャン・アンデルセン",
+  "alias_name": null,
   "klass": "Caster",
   "rarity": 2,
   "ascension": [
@@ -61,37 +62,43 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "人間観察",
-      "rank": "A",
-      "icon": 303
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "高速詠唱",
-      "rank": "E",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "無辜の怪物",
-      "rank": "D",
-      "icon": 605
-    },
-    {
-      "order": 3,
-      "is_upgraded": true,
-      "name": "人魚姫の愛",
-      "rank": "EX",
-      "icon": 605
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "人間観察",
+        "rank": "A",
+        "icon": 303
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "高速詠唱",
+        "rank": "E",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "無辜の怪物",
+        "rank": "D",
+        "icon": 605
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "人魚姫の愛",
+        "rank": "EX",
+        "icon": 605
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 20000,

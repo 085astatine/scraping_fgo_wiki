@@ -1,6 +1,7 @@
 {
   "id": 211,
   "name": "坂本龍馬",
+  "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
   "ascension": [
@@ -41,30 +42,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "カリスマ",
-      "rank": "C+",
-      "icon": 300
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "船中八策",
-      "rank": "A",
-      "icon": 601
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "維新の英雄",
-      "rank": "A",
-      "icon": 305
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "C+",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "船中八策",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "維新の英雄",
+        "rank": "A",
+        "icon": 305
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

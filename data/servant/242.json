@@ -1,6 +1,7 @@
 {
   "id": 242,
   "name": "アストライア",
+  "alias_name": null,
   "klass": "Ruler",
   "rarity": 4,
   "ascension": [
@@ -81,30 +82,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "天秤の護り",
-      "rank": "A+",
-      "icon": 328
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "魔力放出（星）",
-      "rank": "A+",
-      "icon": 305
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "星の裁き",
-      "rank": "A",
-      "icon": 311
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "天秤の護り",
+        "rank": "A+",
+        "icon": 328
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力放出（星）",
+        "rank": "A+",
+        "icon": 305
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "星の裁き",
+        "rank": "A",
+        "icon": 311
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,

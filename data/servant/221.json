@@ -1,6 +1,7 @@
 {
   "id": 221,
   "name": "女王メイヴ",
+  "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
   "ascension": [
@@ -61,30 +62,36 @@
       ]
     }
   ],
-  "spiritron_dress": [],
-  "skill": [
-    {
-      "order": 1,
-      "is_upgraded": false,
-      "name": "私が水着に着替えたら",
-      "rank": "A+",
-      "icon": 607
-    },
-    {
-      "order": 2,
-      "is_upgraded": false,
-      "name": "オードトワレ・ホワイトハニー",
-      "rank": "B",
-      "icon": 509
-    },
-    {
-      "order": 3,
-      "is_upgraded": false,
-      "name": "女王の躾（海）",
-      "rank": "A",
-      "icon": 300
-    }
-  ],
+  "spiritron_dresses": [],
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "私が水着に着替えたら",
+        "rank": "A+",
+        "icon": 607
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "オードトワレ・ホワイトハニー",
+        "rank": "B",
+        "icon": 509
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "女王の躾（海）",
+        "rank": "A",
+        "icon": 300
+      }
+    ]
+  },
   "skill_reinforcement": [
     {
       "qp": 100000,
