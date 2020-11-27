@@ -80,8 +80,24 @@
         "icon": 400
       }
     ],
-    "skill_2": [],
-    "skill_3": []
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "千代紙操法",
+        "rank": "EX",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "城化物",
+        "rank": "A++",
+        "icon": 504
+      }
+    ]
   },
   "skill_reinforcement": [
     {

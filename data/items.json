@@ -241,12 +241,12 @@
   },
   {
     "id": 3470,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Silver",
     "name": "光銀の冠"
   },
   {
     "id": 3480,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Silver",
     "name": "神脈霊子"
   },
   {
@@ -326,12 +326,12 @@
   },
   {
     "id": 3750,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Gold",
     "name": "煌星のカケラ"
   },
   {
     "id": 3760,
-    "rarity": "{{{rarity}}}",
+    "rarity": "Gold",
     "name": "悠久の実"
   },
   {
@@ -452,7 +452,7 @@
   {
     "id": 4550,
     "rarity": "Gold",
-    "name": "ジル･ド･レェ人形"
+    "name": "ジル・ド・レェ人形"
   },
   {
     "id": 4560,
@@ -482,7 +482,7 @@
   {
     "id": 4582,
     "rarity": "Gold",
-    "name": "ペレット"
+    "name": "Bペレット"
   },
   {
     "id": 4583,
@@ -527,7 +527,7 @@
   {
     "id": 4591,
     "rarity": "Gold",
-    "name": "富嶽三十六氷"
+    "name": "冨嶽三十六氷"
   },
   {
     "id": 4592,
@@ -538,5 +538,10 @@
     "id": 4593,
     "rarity": "Gold",
     "name": "遥かなる冒険のアストロラーベ"
+  },
+  {
+    "id": 4594,
+    "rarity": "Gold",
+    "name": "虞美人草の髪飾り"
   }
 ]
