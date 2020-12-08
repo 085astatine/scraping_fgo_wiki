@@ -1,546 +1,536 @@
 [
   {
-    "id": 2010,
+    "id": 1001,
     "rarity": "Bronze",
     "name": "剣の輝石"
   },
   {
-    "id": 2020,
+    "id": 1002,
     "rarity": "Bronze",
     "name": "弓の輝石"
   },
   {
-    "id": 2030,
+    "id": 1003,
     "rarity": "Bronze",
     "name": "槍の輝石"
   },
   {
-    "id": 2040,
+    "id": 1004,
     "rarity": "Bronze",
     "name": "騎の輝石"
   },
   {
-    "id": 2050,
+    "id": 1005,
     "rarity": "Bronze",
     "name": "術の輝石"
   },
   {
-    "id": 2060,
+    "id": 1006,
     "rarity": "Bronze",
     "name": "殺の輝石"
   },
   {
-    "id": 2070,
+    "id": 1007,
     "rarity": "Bronze",
     "name": "狂の輝石"
   },
   {
-    "id": 2210,
+    "id": 1101,
     "rarity": "Silver",
     "name": "剣の魔石"
   },
   {
-    "id": 2220,
+    "id": 1102,
     "rarity": "Silver",
     "name": "弓の魔石"
   },
   {
-    "id": 2230,
+    "id": 1103,
     "rarity": "Silver",
     "name": "槍の魔石"
   },
   {
-    "id": 2240,
+    "id": 1104,
     "rarity": "Silver",
     "name": "騎の魔石"
   },
   {
-    "id": 2250,
+    "id": 1105,
     "rarity": "Silver",
     "name": "術の魔石"
   },
   {
-    "id": 2260,
+    "id": 1106,
     "rarity": "Silver",
     "name": "殺の魔石"
   },
   {
-    "id": 2270,
+    "id": 1107,
     "rarity": "Silver",
     "name": "狂の魔石"
   },
   {
-    "id": 2410,
+    "id": 1201,
     "rarity": "Gold",
     "name": "剣の秘石"
   },
   {
-    "id": 2420,
+    "id": 1202,
     "rarity": "Gold",
     "name": "弓の秘石"
   },
   {
-    "id": 2430,
+    "id": 1203,
     "rarity": "Gold",
     "name": "槍の秘石"
   },
   {
-    "id": 2440,
+    "id": 1204,
     "rarity": "Gold",
     "name": "騎の秘石"
   },
   {
-    "id": 2450,
+    "id": 1205,
     "rarity": "Gold",
     "name": "術の秘石"
   },
   {
-    "id": 2460,
+    "id": 1206,
     "rarity": "Gold",
     "name": "殺の秘石"
   },
   {
-    "id": 2470,
+    "id": 1207,
     "rarity": "Gold",
     "name": "狂の秘石"
   },
   {
-    "id": 2500,
-    "rarity": "Gold",
-    "name": "伝承結晶"
-  },
-  {
-    "id": 3009,
+    "id": 2001,
     "rarity": "Bronze",
     "name": "英雄の証"
   },
   {
-    "id": 3010,
+    "id": 2002,
     "rarity": "Bronze",
     "name": "凶骨"
   },
   {
-    "id": 3020,
+    "id": 2003,
     "rarity": "Bronze",
     "name": "竜の牙"
   },
   {
-    "id": 3030,
+    "id": 2004,
     "rarity": "Bronze",
     "name": "虚影の塵"
   },
   {
-    "id": 3040,
+    "id": 2005,
     "rarity": "Bronze",
     "name": "愚者の鎖"
   },
   {
-    "id": 3050,
+    "id": 2006,
     "rarity": "Bronze",
     "name": "万死の毒針"
   },
   {
-    "id": 3060,
+    "id": 2007,
     "rarity": "Bronze",
     "name": "魔術髄液"
   },
   {
-    "id": 3070,
+    "id": 2008,
     "rarity": "Bronze",
     "name": "宵哭きの鉄杭"
   },
   {
-    "id": 3080,
+    "id": 2009,
     "rarity": "Bronze",
     "name": "励振火薬"
   },
   {
-    "id": 3300,
+    "id": 2101,
     "rarity": "Silver",
     "name": "世界樹の種"
   },
   {
-    "id": 3310,
+    "id": 2102,
     "rarity": "Silver",
     "name": "ゴーストランタン"
   },
   {
-    "id": 3320,
+    "id": 2103,
     "rarity": "Silver",
     "name": "八連双晶"
   },
   {
-    "id": 3330,
+    "id": 2104,
     "rarity": "Silver",
     "name": "蛇の宝玉"
   },
   {
-    "id": 3340,
+    "id": 2105,
     "rarity": "Silver",
     "name": "鳳凰の羽根"
   },
   {
-    "id": 3350,
+    "id": 2106,
     "rarity": "Silver",
     "name": "無間の歯車"
   },
   {
-    "id": 3360,
+    "id": 2107,
     "rarity": "Silver",
     "name": "禁断の頁"
   },
   {
-    "id": 3370,
+    "id": 2108,
     "rarity": "Silver",
     "name": "ホムンクルスベビー"
   },
   {
-    "id": 3380,
+    "id": 2109,
     "rarity": "Silver",
     "name": "隕蹄鉄"
   },
   {
-    "id": 3390,
+    "id": 2110,
     "rarity": "Silver",
     "name": "大騎士勲章"
   },
   {
-    "id": 3400,
+    "id": 2111,
     "rarity": "Silver",
     "name": "追憶の貝殻"
   },
   {
-    "id": 3410,
+    "id": 2112,
     "rarity": "Silver",
     "name": "枯淡勾玉"
   },
   {
-    "id": 3420,
+    "id": 2113,
     "rarity": "Silver",
     "name": "永遠結氷"
   },
   {
-    "id": 3430,
+    "id": 2114,
     "rarity": "Silver",
     "name": "巨人の指輪"
   },
   {
-    "id": 3440,
+    "id": 2115,
     "rarity": "Silver",
     "name": "オーロラ鋼"
   },
   {
-    "id": 3450,
+    "id": 2116,
     "rarity": "Silver",
     "name": "閑古鈴"
   },
   {
-    "id": 3460,
+    "id": 2117,
     "rarity": "Silver",
     "name": "禍罪の矢尻"
   },
   {
-    "id": 3470,
+    "id": 2118,
     "rarity": "Silver",
     "name": "光銀の冠"
   },
   {
-    "id": 3480,
+    "id": 2119,
     "rarity": "Silver",
     "name": "神脈霊子"
   },
   {
-    "id": 3600,
+    "id": 2201,
     "rarity": "Gold",
     "name": "混沌の爪"
   },
   {
-    "id": 3610,
+    "id": 2202,
     "rarity": "Gold",
     "name": "蛮神の心臓"
   },
   {
-    "id": 3620,
+    "id": 2203,
     "rarity": "Gold",
     "name": "竜の逆鱗"
   },
   {
-    "id": 3630,
+    "id": 2204,
     "rarity": "Gold",
     "name": "精霊根"
   },
   {
-    "id": 3640,
+    "id": 2205,
     "rarity": "Gold",
     "name": "戦馬の幼角"
   },
   {
-    "id": 3650,
+    "id": 2206,
     "rarity": "Gold",
     "name": "血の涙石"
   },
   {
-    "id": 3660,
+    "id": 2207,
     "rarity": "Gold",
     "name": "黒獣脂"
   },
   {
-    "id": 3670,
+    "id": 2208,
     "rarity": "Gold",
     "name": "封魔のランプ"
   },
   {
-    "id": 3680,
+    "id": 2209,
     "rarity": "Gold",
     "name": "智慧のスカラベ"
   },
   {
-    "id": 3690,
+    "id": 2210,
     "rarity": "Gold",
     "name": "原初の産毛"
   },
   {
-    "id": 3700,
+    "id": 2211,
     "rarity": "Gold",
     "name": "呪獣胆石"
   },
   {
-    "id": 3710,
+    "id": 2212,
     "rarity": "Gold",
     "name": "奇奇神酒"
   },
   {
-    "id": 3720,
+    "id": 2213,
     "rarity": "Gold",
     "name": "暁光炉心"
   },
   {
-    "id": 3730,
+    "id": 2214,
     "rarity": "Gold",
     "name": "九十九鏡"
   },
   {
-    "id": 3740,
+    "id": 2215,
     "rarity": "Gold",
     "name": "真理の卵"
   },
   {
-    "id": 3750,
+    "id": 2216,
     "rarity": "Gold",
     "name": "煌星のカケラ"
   },
   {
-    "id": 3760,
+    "id": 2217,
     "rarity": "Gold",
     "name": "悠久の実"
   },
   {
-    "id": 4000,
+    "id": 2300,
+    "rarity": "Gold",
+    "name": "伝承結晶"
+  },
+  {
+    "id": 3001,
     "rarity": "Silver",
     "name": "セイバーピース"
   },
   {
-    "id": 4010,
+    "id": 3002,
     "rarity": "Silver",
     "name": "アーチャーピース"
   },
   {
-    "id": 4020,
+    "id": 3003,
     "rarity": "Silver",
     "name": "ランサーピース"
   },
   {
-    "id": 4030,
+    "id": 3004,
     "rarity": "Silver",
     "name": "ライダーピース"
   },
   {
-    "id": 4040,
+    "id": 3005,
     "rarity": "Silver",
     "name": "キャスターピース"
   },
   {
-    "id": 4050,
+    "id": 3006,
     "rarity": "Silver",
     "name": "アサシンピース"
   },
   {
-    "id": 4060,
+    "id": 3007,
     "rarity": "Silver",
     "name": "バーサーカーピース"
   },
   {
-    "id": 4200,
+    "id": 3101,
     "rarity": "Gold",
     "name": "セイバーモニュメント"
   },
   {
-    "id": 4210,
+    "id": 3102,
     "rarity": "Gold",
     "name": "アーチャーモニュメント"
   },
   {
-    "id": 4220,
+    "id": 3103,
     "rarity": "Gold",
     "name": "ランサーモニュメント"
   },
   {
-    "id": 4230,
+    "id": 3104,
     "rarity": "Gold",
     "name": "ライダーモニュメント"
   },
   {
-    "id": 4240,
+    "id": 3105,
     "rarity": "Gold",
     "name": "キャスターモニュメント"
   },
   {
-    "id": 4250,
+    "id": 3106,
     "rarity": "Gold",
     "name": "アサシンモニュメント"
   },
   {
-    "id": 4260,
+    "id": 3107,
     "rarity": "Gold",
     "name": "バーサーカーモニュメント"
   },
   {
-    "id": 4460,
+    "id": 4001,
     "rarity": "Gold",
     "name": "ティンクルキャンディー"
   },
   {
-    "id": 4470,
+    "id": 4002,
     "rarity": "Gold",
     "name": "黄金髑髏"
   },
   {
-    "id": 4480,
+    "id": 4003,
     "rarity": "Gold",
     "name": "樽入りチキン"
   },
   {
-    "id": 4490,
+    "id": 4004,
     "rarity": "Gold",
     "name": "業物ナイフ"
   },
   {
-    "id": 4500,
+    "id": 4005,
     "rarity": "Gold",
     "name": "水晶球"
   },
   {
-    "id": 4510,
+    "id": 4006,
     "rarity": "Gold",
     "name": "ゴールデンベアライター"
   },
   {
-    "id": 4520,
+    "id": 4007,
     "rarity": "Gold",
     "name": "鈴鳴りの枝"
   },
   {
-    "id": 4530,
+    "id": 4008,
     "rarity": "Gold",
     "name": "ハートのブレスレット"
   },
   {
-    "id": 4540,
+    "id": 4009,
     "rarity": "Gold",
     "name": "竜のオーブ"
   },
   {
-    "id": 4550,
+    "id": 4010,
     "rarity": "Gold",
     "name": "ジル・ド・レェ人形"
   },
   {
-    "id": 4560,
+    "id": 4011,
     "rarity": "Gold",
     "name": "蘭奢待"
   },
   {
-    "id": 4570,
+    "id": 4012,
     "rarity": "Gold",
     "name": "思い出のリボン"
   },
   {
-    "id": 4579,
-    "rarity": "Gold",
-    "name": "明けの明星"
-  },
-  {
-    "id": 4580,
+    "id": 4013,
     "rarity": "Gold",
     "name": "黄金の葦"
   },
   {
-    "id": 4581,
-    "rarity": "Gold",
-    "name": "予備リアクター"
-  },
-  {
-    "id": 4582,
+    "id": 4014,
     "rarity": "Gold",
     "name": "Bペレット"
   },
   {
-    "id": 4583,
+    "id": 4015,
     "rarity": "Gold",
     "name": "サンタひげ"
   },
   {
-    "id": 4584,
+    "id": 4016,
     "rarity": "Gold",
     "name": "忘れじの葉"
   },
   {
-    "id": 4585,
+    "id": 4017,
     "rarity": "Gold",
     "name": "海援隊旗"
   },
   {
-    "id": 4586,
+    "id": 4018,
     "rarity": "Gold",
     "name": "漆黒の羽根ペン"
   },
   {
-    "id": 4587,
+    "id": 4019,
     "rarity": "Gold",
     "name": "護法のステッキ"
   },
   {
-    "id": 4588,
+    "id": 4020,
     "rarity": "Gold",
     "name": "ククルカンマスク"
   },
   {
-    "id": 4589,
+    "id": 4021,
     "rarity": "Gold",
     "name": "アッド・クッション"
   },
   {
-    "id": 4590,
+    "id": 4022,
     "rarity": "Gold",
     "name": "毘天の龍玉"
   },
   {
-    "id": 4591,
+    "id": 4023,
     "rarity": "Gold",
     "name": "冨嶽三十六氷"
   },
   {
-    "id": 4592,
+    "id": 4024,
     "rarity": "Gold",
     "name": "献身のランプ"
   },
   {
-    "id": 4593,
+    "id": 4025,
     "rarity": "Gold",
     "name": "遥かなる冒険のアストロラーベ"
   },
   {
-    "id": 4594,
+    "id": 4026,
     "rarity": "Gold",
     "name": "虞美人草の髪飾り"
   }
