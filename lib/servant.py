@@ -51,9 +51,9 @@ class Servant(TypedDict):
     alias_name: Optional[str]
     klass: str
     rarity: int
-    ascension: List[ResourceSet]
     spiritron_dresses: List[SpiritronDress]
     skills: Skills
+    ascension_resources: List[ResourceSet]
     skill_resources: List[ResourceSet]
 
 
@@ -224,11 +224,11 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
     # access
     response = requests.get('https:{0}'.format(servant['url']))
     root = lxml.html.fromstring(response.text)
-    # 霊基再臨
-    ascension = _parse_ascension(root)
-    if len(ascension) != 4:
+    # 霊基再臨用素材
+    ascension_resources = _parse_ascension_resources(root)
+    if len(ascension_resources) != 4:
         _logger.error(
-                'servant %s: ascension parsing failed',
+                'servant %s: ascension resources parsing failed',
                 servant['name'])
     # スキル
     skills = _parse_skill(root)
@@ -246,13 +246,13 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
             alias_name=None,
             klass=servant['klass'],
             rarity=servant['rarity'],
-            ascension=ascension,
             spiritron_dresses=spiritron_dresses,
             skills=skills,
+            ascension_resources=ascension_resources,
             skill_resources=skill_resources)
 
 
-def _parse_ascension(
+def _parse_ascension_resources(
         root: lxml.html.HtmlElement) -> List[ResourceSet]:
     parser = _ResourceSetParser(
             mode=_ResourceSetParserMode.ASCENSION)
