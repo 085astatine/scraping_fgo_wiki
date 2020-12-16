@@ -54,7 +54,7 @@ class Servant(TypedDict):
     ascension: List[ResourceSet]
     spiritron_dresses: List[SpiritronDress]
     skills: Skills
-    skill_reinforcement: List[ResourceSet]
+    skill_resources: List[ResourceSet]
 
 
 class _ServantTable(TypedDict):
@@ -232,11 +232,11 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
                 servant['name'])
     # スキル
     skills = _parse_skill(root)
-    # スキル強化
-    skill_reinforcement = _parse_skill_reinforcement(root)
-    if len(skill_reinforcement) != 9:
+    # スキル強化用素材
+    skill_resources = _parse_skill_resources(root)
+    if len(skill_resources) != 9:
         _logger.error(
-                'servant %s: skill reinforcement parsing failed',
+                'servant %s: skill resources parsing failed',
                 servant['name'])
     # 霊衣開放
     spiritron_dresses = _parse_spiritron_dress(root)
@@ -249,7 +249,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
             ascension=ascension,
             spiritron_dresses=spiritron_dresses,
             skills=skills,
-            skill_reinforcement=skill_reinforcement)
+            skill_resources=skill_resources)
 
 
 def _parse_ascension(
@@ -331,7 +331,7 @@ def _parse_skill(
             skill_3=skill_slots[3])
 
 
-def _parse_skill_reinforcement(
+def _parse_skill_resources(
         root: lxml.html.HtmlElement) -> List[ResourceSet]:
     parser = _ResourceSetParser(
             mode=_ResourceSetParserMode.SKILL_REINFORCEMENT)

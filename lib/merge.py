@@ -52,7 +52,7 @@ class Servant(TypedDict):
     ascension: List[ResourceSet]
     spiritron_dresses: List[SpiritronDress]
     skills: Skills
-    skill_reinforcement: List[ResourceSet]
+    skill_resources: List[ResourceSet]
 
 
 class MergedData(TypedDict):
@@ -151,9 +151,9 @@ def _convert_servant(
                 _convert_spiritron_dress(dress, items)
                 for dress in servant_['spiritron_dresses']],
             skills=_convert_skills(servant_['skills'], dictionary),
-            skill_reinforcement=[
+            skill_resources=[
                 _convert_resource_set(resource, items)
-                for resource in servant_['skill_reinforcement']])
+                for resource in servant_['skill_resources']])
 
 
 def merge(
