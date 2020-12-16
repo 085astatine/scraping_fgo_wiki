@@ -67,7 +67,7 @@ class _ServantTable(TypedDict):
 
 class _ResourceSetParserMode(enum.Enum):
     ASCENSION = enum.auto()
-    SKILL_REINFORCEMENT = enum.auto()
+    SKILL = enum.auto()
 
 
 class _ResourceSetParser:
@@ -103,7 +103,7 @@ class _ResourceSetParser:
         # parse
         if self._mode is _ResourceSetParserMode.ASCENSION:
             levels = _parse_ascension_level(text)
-        if self._mode is _ResourceSetParserMode.SKILL_REINFORCEMENT:
+        if self._mode is _ResourceSetParserMode.SKILL:
             levels = _parse_skill_level(text)
         # pack
         if levels is not None:
@@ -334,7 +334,7 @@ def _parse_skill(
 def _parse_skill_resources(
         root: lxml.html.HtmlElement) -> List[ResourceSet]:
     parser = _ResourceSetParser(
-            mode=_ResourceSetParserMode.SKILL_REINFORCEMENT)
+            mode=_ResourceSetParserMode.SKILL)
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="スキル強化"]'
