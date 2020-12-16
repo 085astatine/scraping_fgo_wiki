@@ -38,7 +38,7 @@ class ResourceSet(TypedDict):
     resources: List[Resource]
 
 
-class SpiritronDress(TypedDict):
+class Costume(TypedDict):
     name: text.Text
     resource: ResourceSet
 
@@ -49,8 +49,8 @@ class Servant(TypedDict):
     alias_name: Optional[text.Text]
     klass: str
     rarity: int
-    spiritron_dresses: List[SpiritronDress]
     skills: Skills
+    costumes: List[Costume]
     ascension_resources: List[ResourceSet]
     skill_resources: List[ResourceSet]
 
@@ -124,12 +124,12 @@ def _convert_resource_set(
                        for resource in resource_set['resources']])
 
 
-def _convert_spiritron_dress(
-        spritron_dress: servant.SpiritronDress,
-        items: List[item.Item]) -> SpiritronDress:
-    return SpiritronDress(
-            name=_convert_text(spritron_dress['name'], {}),
-            resource=_convert_resource_set(spritron_dress['resource'], items))
+def _convert_costume(
+        costume: servant.Costume,
+        items: List[item.Item]) -> Costume:
+    return Costume(
+            name=_convert_text(costume['name'], {}),
+            resource=_convert_resource_set(costume['resource'], items))
 
 
 def _convert_servant(
@@ -144,10 +144,10 @@ def _convert_servant(
                 if servant_['alias_name'] is not None else None),
             klass=servant_['klass'],
             rarity=servant_['rarity'],
-            spiritron_dresses=[
-                _convert_spiritron_dress(dress, items)
-                for dress in servant_['spiritron_dresses']],
             skills=_convert_skills(servant_['skills'], dictionary),
+            costumes=[
+                _convert_costume(costume, items)
+                for costume in servant_['costumes']],
             ascension_resources=[
                 _convert_resource_set(resource, items)
                 for resource in servant_['ascension_resources']],

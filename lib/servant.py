@@ -40,7 +40,7 @@ class ResourceSet(TypedDict):
     resources: List[Resource]
 
 
-class SpiritronDress(TypedDict):
+class Costume(TypedDict):
     name: str
     resource: ResourceSet
 
@@ -51,8 +51,8 @@ class Servant(TypedDict):
     alias_name: Optional[str]
     klass: str
     rarity: int
-    spiritron_dresses: List[SpiritronDress]
     skills: Skills
+    costumes: List[Costume]
     ascension_resources: List[ResourceSet]
     skill_resources: List[ResourceSet]
 
@@ -239,15 +239,15 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
                 'servant %s: skill resources parsing failed',
                 servant['name'])
     # 霊衣開放
-    spiritron_dresses = _parse_spiritron_dress(root)
+    costumes = _parse_costumes(root)
     return Servant(
             id=servant['id'],
             name=servant['name'],
             alias_name=None,
             klass=servant['klass'],
             rarity=servant['rarity'],
-            spiritron_dresses=spiritron_dresses,
             skills=skills,
+            costumes=costumes,
             ascension_resources=ascension_resources,
             skill_resources=skill_resources)
 
@@ -345,9 +345,9 @@ def _parse_skill_resources(
     return parser.result()
 
 
-def _parse_spiritron_dress(
-        root: lxml.html.HtmlElement) -> List[SpiritronDress]:
-    result: List[SpiritronDress] = []
+def _parse_costumes(
+        root: lxml.html.HtmlElement) -> List[Costume]:
+    result: List[Costume] = []
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="霊衣開放"]'
@@ -362,7 +362,7 @@ def _parse_spiritron_dress(
                 'tbody/tr[td[1 and normalize-space()="必要素材"]]'
                 '/td[position() > 1]'):
             resources.extend(_parse_resource(cell.text_content()))
-        result.append(SpiritronDress(
+        result.append(Costume(
                 name=name,
                 resource=_to_resource_set(resources)))
     return result
