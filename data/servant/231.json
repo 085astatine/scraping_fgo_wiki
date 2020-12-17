@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Rider",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "千里疾走（馬）",
+        "rank": "EX",
+        "icon": 304
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "武芸百般（馬）",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "戦闘機動（馬）",
+        "rank": "B",
+        "icon": 303
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "千里疾走（馬）",
-        "rank": "EX",
-        "icon": 304
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "武芸百般（馬）",
-        "rank": "A",
-        "icon": 402
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "戦闘機動（馬）",
-        "rank": "B",
-        "icon": 303
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

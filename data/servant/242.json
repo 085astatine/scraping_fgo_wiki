@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Ruler",
   "rarity": 4,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "天秤の護り",
+        "rank": "A+",
+        "icon": 328
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力放出（星）",
+        "rank": "A+",
+        "icon": 305
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "星の裁き",
+        "rank": "A",
+        "icon": 311
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 50000,
       "resources": [
@@ -82,37 +112,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "天秤の護り",
-        "rank": "A+",
-        "icon": 328
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "魔力放出（星）",
-        "rank": "A+",
-        "icon": 305
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "星の裁き",
-        "rank": "A",
-        "icon": 311
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 100000,
       "resources": [

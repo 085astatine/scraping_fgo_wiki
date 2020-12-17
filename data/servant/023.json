@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Rider",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "魔眼",
+        "rank": "A+",
+        "icon": 508
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "怪力",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "鮮血神殿",
+        "rank": "B",
+        "icon": 601
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "魔眼",
-        "rank": "A+",
-        "icon": 508
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "怪力",
-        "rank": "B",
-        "icon": 300
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "鮮血神殿",
-        "rank": "B",
-        "icon": 601
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Assassin",
   "rarity": 4,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "対霊戦闘",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "封印礼装解除",
+        "rank": "C",
+        "icon": 316
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "最果ての加護",
+        "rank": "B",
+        "icon": 601
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 50000,
       "resources": [
@@ -42,37 +72,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "対霊戦闘",
-        "rank": "B",
-        "icon": 300
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "封印礼装解除",
-        "rank": "C",
-        "icon": 316
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "最果ての加護",
-        "rank": "B",
-        "icon": 601
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 100000,
       "resources": [

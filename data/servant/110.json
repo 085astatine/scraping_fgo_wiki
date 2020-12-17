@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Assassin",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "蔵知の司書",
+        "rank": "C",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "専科百般",
+        "rank": "A+",
+        "icon": 317
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "戦闘撤退",
+        "rank": "B",
+        "icon": 600
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "蔵知の司書",
-        "rank": "C",
-        "icon": 602
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "専科百般",
-        "rank": "A+",
-        "icon": 317
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "戦闘撤退",
-        "rank": "B",
-        "icon": 600
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Berserker",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "精神汚染（兇）",
+        "rank": "B",
+        "icon": 303
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "血濡れの蛮勇",
+        "rank": "A",
+        "icon": 515
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "鬼武蔵の遺言状",
+        "rank": "C",
+        "icon": 311
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "精神汚染（兇）",
-        "rank": "B",
-        "icon": 303
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "血濡れの蛮勇",
-        "rank": "A",
-        "icon": 515
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "鬼武蔵の遺言状",
-        "rank": "C",
-        "icon": 311
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

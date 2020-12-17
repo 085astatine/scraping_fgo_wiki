@@ -4,7 +4,37 @@
   "alias_name": "オケアノスのキャスター",
   "klass": "Caster",
   "rarity": 4,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "高速神言",
+        "rank": "B",
+        "icon": 601
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "毒の食饌",
+        "rank": "A",
+        "icon": 510
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "出航の助言",
+        "rank": "A",
+        "icon": 604
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 50000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "高速神言",
-        "rank": "B",
-        "icon": 601
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "毒の食饌",
-        "rank": "A",
-        "icon": 510
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "出航の助言",
-        "rank": "A",
-        "icon": 604
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 100000,
       "resources": [

@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "皇帝特権",
+        "rank": "A",
+        "icon": 600
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "黄金律（富＆体）",
+        "rank": "B",
+        "icon": 607
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "女神の加護",
+        "rank": "C",
+        "icon": 403
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "皇帝特権",
-        "rank": "A",
-        "icon": 600
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "黄金律（富＆体）",
-        "rank": "B",
-        "icon": 607
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "女神の加護",
-        "rank": "C",
-        "icon": 403
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 200000,
       "resources": [

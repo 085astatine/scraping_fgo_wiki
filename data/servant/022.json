@@ -4,7 +4,44 @@
   "alias_name": null,
   "klass": "Lancer",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "天性の肉体",
+        "rank": "C",
+        "icon": 401
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "浪漫の風",
+        "rank": "B",
+        "icon": 401
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "皇帝特権",
+        "rank": "EX",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "七つの丘",
+        "rank": "A",
+        "icon": 404
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,44 +99,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "天性の肉体",
-        "rank": "C",
-        "icon": 401
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "浪漫の風",
-        "rank": "B",
-        "icon": 401
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "皇帝特権",
-        "rank": "EX",
-        "icon": 600
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "七つの丘",
-        "rank": "A",
-        "icon": 404
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

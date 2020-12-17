@@ -4,7 +4,51 @@
   "alias_name": null,
   "klass": "AlterEgo",
   "rarity": 5,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "千里眼（獣）",
+        "rank": "D",
+        "icon": 502
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "千里眼（獣）",
+        "rank": "D+++",
+        "icon": 502
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "五停心観",
+        "rank": "A",
+        "icon": 513
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "五停心観",
+        "rank": "A+",
+        "icon": 513
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "女神変生",
+        "rank": "EX",
+        "icon": 403
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
@@ -58,51 +102,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "千里眼（獣）",
-        "rank": "D",
-        "icon": 502
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "千里眼（獣）",
-        "rank": "D+++",
-        "icon": 502
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "五停心観",
-        "rank": "A",
-        "icon": 513
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "五停心観",
-        "rank": "A+",
-        "icon": 513
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "女神変生",
-        "rank": "EX",
-        "icon": 403
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 200000,
       "resources": [

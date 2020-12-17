@@ -4,7 +4,44 @@
   "alias_name": null,
   "klass": "Rider",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "天狗の兵法",
+        "rank": "A",
+        "icon": 602
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "天狗の兵法",
+        "rank": "EX",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "C+",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "燕の早業",
+        "rank": "B",
+        "icon": 402
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,44 +99,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "天狗の兵法",
-        "rank": "A",
-        "icon": 602
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "天狗の兵法",
-        "rank": "EX",
-        "icon": 602
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "カリスマ",
-        "rank": "C+",
-        "icon": 300
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "燕の早業",
-        "rank": "B",
-        "icon": 402
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

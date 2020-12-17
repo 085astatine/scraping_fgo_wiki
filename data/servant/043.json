@@ -4,7 +4,44 @@
   "alias_name": null,
   "klass": "Assassin",
   "rarity": 2,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "処刑人",
+        "rank": "A++",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "医術",
+        "rank": "A",
+        "icon": 600
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "医術",
+        "rank": "A+",
+        "icon": 600
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "人体研究",
+        "rank": "B",
+        "icon": 301
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 10000,
       "resources": [
@@ -62,44 +99,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "処刑人",
-        "rank": "A++",
-        "icon": 301
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "医術",
-        "rank": "A",
-        "icon": 600
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "医術",
-        "rank": "A+",
-        "icon": 600
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "人体研究",
-        "rank": "B",
-        "icon": 301
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 20000,
       "resources": [

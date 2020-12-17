@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Berserker",
   "rarity": 2,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "血塗られた銀盆",
+        "rank": "B+",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "天性の肉体（体）",
+        "rank": "C",
+        "icon": 411
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "七つのヴェールの踊り",
+        "rank": "A",
+        "icon": 606
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 10000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "血塗られた銀盆",
-        "rank": "B+",
-        "icon": 301
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "天性の肉体（体）",
-        "rank": "C",
-        "icon": 411
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "七つのヴェールの踊り",
-        "rank": "A",
-        "icon": 606
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 20000,
       "resources": [

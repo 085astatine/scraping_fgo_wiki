@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Archer",
   "rarity": 2,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "太陽神の眼（偽）",
+        "rank": "B+",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "男神の寵愛",
+        "rank": "B",
+        "icon": 328
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "不和呼びし黄金の林檎",
+        "rank": "EX",
+        "icon": 601
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 10000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "太陽神の眼（偽）",
-        "rank": "B+",
-        "icon": 402
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "男神の寵愛",
-        "rank": "B",
-        "icon": 328
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "不和呼びし黄金の林檎",
-        "rank": "EX",
-        "icon": 601
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 20000,
       "resources": [

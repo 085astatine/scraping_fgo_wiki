@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Rider",
   "rarity": 4,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "サマーナイトブラックウィドウ",
+        "rank": "EX",
+        "icon": 512
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "猟奇趣味（夏）",
+        "rank": "C++",
+        "icon": 502
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "文学乙女（夏）",
+        "rank": "A",
+        "icon": 607
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 50000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "サマーナイトブラックウィドウ",
-        "rank": "EX",
-        "icon": 512
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "猟奇趣味（夏）",
-        "rank": "C++",
-        "icon": 502
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "文学乙女（夏）",
-        "rank": "A",
-        "icon": 607
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 100000,
       "resources": [

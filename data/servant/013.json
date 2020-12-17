@@ -4,7 +4,62 @@
   "alias_name": null,
   "klass": "Archer",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "破壊工作",
+        "rank": "A",
+        "icon": 503
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "黄金律",
+        "rank": "E",
+        "icon": 602
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "皐月の王",
+        "rank": "B",
+        "icon": 402
+      }
+    ]
+  },
+  "costumes": [
+    {
+      "name": "夏の狩人",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "万死の毒針",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "精霊根",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,62 +117,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [
-    {
-      "name": "夏の狩人",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "万死の毒針",
-            "piece": 10
-          },
-          {
-            "name": "追憶の貝殻",
-            "piece": 5
-          },
-          {
-            "name": "原初の産毛",
-            "piece": 5
-          },
-          {
-            "name": "精霊根",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "破壊工作",
-        "rank": "A",
-        "icon": 503
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "黄金律",
-        "rank": "E",
-        "icon": 602
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "皐月の王",
-        "rank": "B",
-        "icon": 402
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

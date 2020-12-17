@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Assassin",
   "rarity": 1,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "暗殺の天使",
+        "rank": "A",
+        "icon": 522
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "鋼鉄の決意",
+        "rank": "D",
+        "icon": 312
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "でたらめプランニング",
+        "rank": "D+",
+        "icon": 301
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 10000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "暗殺の天使",
-        "rank": "A",
-        "icon": 522
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "鋼鉄の決意",
-        "rank": "D",
-        "icon": 312
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "でたらめプランニング",
-        "rank": "D+",
-        "icon": 301
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 10000,
       "resources": [
