@@ -17,6 +17,8 @@ class Item(TypedDict):
 
 
 class Skill(TypedDict):
+    slot: int
+    level: int
     name: text.Text
     rank: str
     icon: int
@@ -85,6 +87,8 @@ def _convert_skill(
         skill: servant.Skill,
         dictionary: text.Dictionary) -> Skill:
     return Skill(
+            slot=skill['slot'],
+            level=skill['level'],
             name=_convert_text(skill['name'], dictionary['skill']),
             rank=skill['rank'],
             icon=skill['icon'])
