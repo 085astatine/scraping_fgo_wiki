@@ -4,7 +4,62 @@
   "alias_name": null,
   "klass": "Caster",
   "rarity": 5,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "愉快型魔術礼装",
+        "rank": "A",
+        "icon": 306
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "自然の嬰児",
+        "rank": "B",
+        "icon": 403
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "あやしい薬",
+        "rank": "A",
+        "icon": 600
+      }
+    ]
+  },
+  "costumes": [
+    {
+      "name": "テスタメント・フォーム",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "ホムンクルスベビー",
+            "piece": 5
+          },
+          {
+            "name": "封魔のランプ",
+            "piece": 5
+          },
+          {
+            "name": "蛮神の心臓",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
@@ -62,62 +117,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [
-    {
-      "name": "テスタメント・フォーム",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "虚影の塵",
-            "piece": 10
-          },
-          {
-            "name": "ホムンクルスベビー",
-            "piece": 5
-          },
-          {
-            "name": "封魔のランプ",
-            "piece": 5
-          },
-          {
-            "name": "蛮神の心臓",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "愉快型魔術礼装",
-        "rank": "A",
-        "icon": 306
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "自然の嬰児",
-        "rank": "B",
-        "icon": 403
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "あやしい薬",
-        "rank": "A",
-        "icon": 600
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 200000,
       "resources": [

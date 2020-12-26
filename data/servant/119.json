@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Lancer",
   "rarity": 5,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "魔力放出",
+        "rank": "A",
+        "icon": 306
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "B",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "最果ての加護",
+        "rank": "EX",
+        "icon": 601
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "魔力放出",
-        "rank": "A",
-        "icon": 306
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "カリスマ",
-        "rank": "B",
-        "icon": 300
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "最果ての加護",
-        "rank": "EX",
-        "icon": 601
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 200000,
       "resources": [

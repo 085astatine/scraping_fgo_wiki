@@ -4,7 +4,51 @@
   "alias_name": null,
   "klass": "AlterEgo",
   "rarity": 5,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "クライム・バレエ",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "加虐体質",
+        "rank": "A",
+        "icon": 300
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "加虐体質",
+        "rank": "A+",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "メルトウイルス",
+        "rank": "EX",
+        "icon": 506
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "メルトウイルス",
+        "rank": "EX",
+        "icon": 506
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
@@ -58,51 +102,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "クライム・バレエ",
-        "rank": "A",
-        "icon": 402
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "加虐体質",
-        "rank": "A",
-        "icon": 300
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "加虐体質",
-        "rank": "A+",
-        "icon": 300
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "メルトウイルス",
-        "rank": "EX",
-        "icon": 506
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "メルトウイルス",
-        "rank": "EX",
-        "icon": 506
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 200000,
       "resources": [

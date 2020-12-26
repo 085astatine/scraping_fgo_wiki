@@ -4,7 +4,44 @@
   "alias_name": null,
   "klass": "Caster",
   "rarity": 2,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "人間観察",
+        "rank": "A",
+        "icon": 303
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "高速詠唱",
+        "rank": "E",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "無辜の怪物",
+        "rank": "D",
+        "icon": 605
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "人魚姫の愛",
+        "rank": "EX",
+        "icon": 605
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 10000,
       "resources": [
@@ -62,44 +99,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "人間観察",
-        "rank": "A",
-        "icon": 303
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "高速詠唱",
-        "rank": "E",
-        "icon": 601
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "無辜の怪物",
-        "rank": "D",
-        "icon": 605
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "人魚姫の愛",
-        "rank": "EX",
-        "icon": 605
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 20000,
       "resources": [

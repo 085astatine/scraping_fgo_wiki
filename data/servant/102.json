@@ -4,7 +4,44 @@
   "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "中国武術（六合大槍）",
+        "rank": "A+++",
+        "icon": 310
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "圏境",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "絶招",
+        "rank": "B",
+        "icon": 312
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "絶招",
+        "rank": "B++",
+        "icon": 312
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 50000,
       "resources": [
@@ -62,44 +99,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "中国武術（六合大槍）",
-        "rank": "A+++",
-        "icon": 310
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "圏境",
-        "rank": "B",
-        "icon": 402
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "絶招",
-        "rank": "B",
-        "icon": 312
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "絶招",
-        "rank": "B++",
-        "icon": 312
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 100000,
       "resources": [

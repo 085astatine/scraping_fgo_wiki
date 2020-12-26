@@ -17,6 +17,8 @@ class Item(TypedDict):
 
 
 class Skill(TypedDict):
+    slot: int
+    level: int
     name: text.Text
     rank: str
     icon: int
@@ -38,7 +40,7 @@ class ResourceSet(TypedDict):
     resources: List[Resource]
 
 
-class SpiritronDress(TypedDict):
+class Costume(TypedDict):
     name: text.Text
     resource: ResourceSet
 
@@ -49,10 +51,10 @@ class Servant(TypedDict):
     alias_name: Optional[text.Text]
     klass: str
     rarity: int
-    ascension: List[ResourceSet]
-    spiritron_dresses: List[SpiritronDress]
     skills: Skills
-    skill_reinforcement: List[ResourceSet]
+    costumes: List[Costume]
+    ascension_resources: List[ResourceSet]
+    skill_resources: List[ResourceSet]
 
 
 class MergedData(TypedDict):
@@ -85,6 +87,8 @@ def _convert_skill(
         skill: servant.Skill,
         dictionary: text.Dictionary) -> Skill:
     return Skill(
+            slot=skill['slot'],
+            level=skill['level'],
             name=_convert_text(skill['name'], dictionary['skill']),
             rank=skill['rank'],
             icon=skill['icon'])
@@ -124,12 +128,12 @@ def _convert_resource_set(
                        for resource in resource_set['resources']])
 
 
-def _convert_spiritron_dress(
-        spritron_dress: servant.SpiritronDress,
-        items: List[item.Item]) -> SpiritronDress:
-    return SpiritronDress(
-            name=_convert_text(spritron_dress['name'], {}),
-            resource=_convert_resource_set(spritron_dress['resource'], items))
+def _convert_costume(
+        costume: servant.Costume,
+        items: List[item.Item]) -> Costume:
+    return Costume(
+            name=_convert_text(costume['name'], {}),
+            resource=_convert_resource_set(costume['resource'], items))
 
 
 def _convert_servant(
@@ -144,16 +148,16 @@ def _convert_servant(
                 if servant_['alias_name'] is not None else None),
             klass=servant_['klass'],
             rarity=servant_['rarity'],
-            ascension=[
-                _convert_resource_set(resource, items)
-                for resource in servant_['ascension']],
-            spiritron_dresses=[
-                _convert_spiritron_dress(dress, items)
-                for dress in servant_['spiritron_dresses']],
             skills=_convert_skills(servant_['skills'], dictionary),
-            skill_reinforcement=[
+            costumes=[
+                _convert_costume(costume, items)
+                for costume in servant_['costumes']],
+            ascension_resources=[
                 _convert_resource_set(resource, items)
-                for resource in servant_['skill_reinforcement']])
+                for resource in servant_['ascension_resources']],
+            skill_resources=[
+                _convert_resource_set(resource, items)
+                for resource in servant_['skill_resources']])
 
 
 def merge(

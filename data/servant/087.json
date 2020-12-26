@@ -4,7 +4,51 @@
   "alias_name": null,
   "klass": "Lancer",
   "rarity": 4,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "千里眼",
+        "rank": "B",
+        "icon": 604
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "千里眼（麗）",
+        "rank": "B++",
+        "icon": 604
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "女難の美",
+        "rank": "A",
+        "icon": 402
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "華麗奔放",
+        "rank": "A",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔術",
+        "rank": "B",
+        "icon": 305
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 50000,
       "resources": [
@@ -62,51 +106,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "千里眼",
-        "rank": "B",
-        "icon": 604
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "千里眼（麗）",
-        "rank": "B++",
-        "icon": 604
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "女難の美",
-        "rank": "A",
-        "icon": 402
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "華麗奔放",
-        "rank": "A",
-        "icon": 402
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "魔術",
-        "rank": "B",
-        "icon": 305
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 100000,
       "resources": [

@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Lancer",
   "rarity": 2,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "怨霊調伏",
+        "rank": "A",
+        "icon": 512
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "仁王立ち",
+        "rank": "B",
+        "icon": 700
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "白紙の勧進帳",
+        "rank": "",
+        "icon": 512
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 10000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "怨霊調伏",
-        "rank": "A",
-        "icon": 512
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "仁王立ち",
-        "rank": "B",
-        "icon": 700
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "白紙の勧進帳",
-        "rank": "",
-        "icon": 512
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 20000,
       "resources": [

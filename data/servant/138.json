@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "勇者大原則",
+        "rank": "EX",
+        "icon": 403
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力放出（勇気）",
+        "rank": "D",
+        "icon": 306
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "真紅の勇者伝説",
+        "rank": "EX",
+        "icon": 301
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 50000,
       "resources": [
@@ -42,37 +72,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "勇者大原則",
-        "rank": "EX",
-        "icon": 403
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "魔力放出（勇気）",
-        "rank": "D",
-        "icon": 306
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "真紅の勇者伝説",
-        "rank": "EX",
-        "icon": 301
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 100000,
       "resources": [

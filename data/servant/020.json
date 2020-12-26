@@ -4,7 +4,44 @@
   "alias_name": null,
   "klass": "Lancer",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ルーン魔術",
+        "rank": "B",
+        "icon": 303
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "矢避けの加護",
+        "rank": "B",
+        "icon": 402
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "獣殺し",
+        "rank": "B+",
+        "icon": 301
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "獣殺し",
+        "rank": "B++",
+        "icon": 301
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,44 +99,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "ルーン魔術",
-        "rank": "B",
-        "icon": 303
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "矢避けの加護",
-        "rank": "B",
-        "icon": 402
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "獣殺し",
-        "rank": "B+",
-        "icon": 301
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "獣殺し",
-        "rank": "B++",
-        "icon": 301
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

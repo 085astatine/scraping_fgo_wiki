@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Rider",
   "rarity": 1,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "嵐の航海者",
+        "rank": "A+",
+        "icon": 302
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "海賊紳士",
+        "rank": "A",
+        "icon": 537
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "疾風の掠奪",
+        "rank": "A",
+        "icon": 304
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 10000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "嵐の航海者",
-        "rank": "A+",
-        "icon": 302
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "海賊紳士",
-        "rank": "A",
-        "icon": 537
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "疾風の掠奪",
-        "rank": "A",
-        "icon": 304
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 10000,
       "resources": [

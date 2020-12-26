@@ -4,7 +4,44 @@
   "alias_name": null,
   "klass": "Berserker",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "黄金律",
+        "rank": "B",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "仕切り直し",
+        "rank": "A",
+        "icon": 608
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "戦闘続行",
+        "rank": "A",
+        "icon": 404
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "アケメネスの誇り",
+        "rank": "A+",
+        "icon": 404
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,44 +99,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "黄金律",
-        "rank": "B",
-        "icon": 602
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "仕切り直し",
-        "rank": "A",
-        "icon": 608
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "戦闘続行",
-        "rank": "A",
-        "icon": 404
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "アケメネスの誇り",
-        "rank": "A+",
-        "icon": 404
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

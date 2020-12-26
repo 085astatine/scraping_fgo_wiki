@@ -4,7 +4,69 @@
   "alias_name": null,
   "klass": "Saber",
   "rarity": 5,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "魔力放出",
+        "rank": "A",
+        "icon": 306
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "直感",
+        "rank": "A",
+        "icon": 603
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "眩き旅路",
+        "rank": "EX",
+        "icon": 603
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "巨獣狩り",
+        "rank": "A",
+        "icon": 301
+      }
+    ]
+  },
+  "costumes": [
+    {
+      "name": "ホワイトローズ",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "鳳凰の羽根",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          },
+          {
+            "name": "竜の逆鱗",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
@@ -62,69 +124,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [
-    {
-      "name": "ホワイトローズ",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "虚影の塵",
-            "piece": 10
-          },
-          {
-            "name": "鳳凰の羽根",
-            "piece": 5
-          },
-          {
-            "name": "智慧のスカラベ",
-            "piece": 5
-          },
-          {
-            "name": "竜の逆鱗",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "魔力放出",
-        "rank": "A",
-        "icon": 306
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "直感",
-        "rank": "A",
-        "icon": 603
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "眩き旅路",
-        "rank": "EX",
-        "icon": 603
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "巨獣狩り",
-        "rank": "A",
-        "icon": 301
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 200000,
       "resources": [

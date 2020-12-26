@@ -4,7 +4,44 @@
   "alias_name": null,
   "klass": "Berserker",
   "rarity": 4,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "鬼種の魔",
+        "rank": "A",
+        "icon": 300
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "仕切り直し",
+        "rank": "A",
+        "icon": 608
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "大江の鬼あばれ",
+        "rank": "A+",
+        "icon": 608
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "変化",
+        "rank": "A",
+        "icon": 400
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 50000,
       "resources": [
@@ -62,44 +99,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "鬼種の魔",
-        "rank": "A",
-        "icon": 300
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "仕切り直し",
-        "rank": "A",
-        "icon": 608
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "大江の鬼あばれ",
-        "rank": "A+",
-        "icon": 608
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "変化",
-        "rank": "A",
-        "icon": 400
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 100000,
       "resources": [

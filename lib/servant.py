@@ -40,7 +40,7 @@ class ResourceSet(TypedDict):
     resources: List[Resource]
 
 
-class SpiritronDress(TypedDict):
+class Costume(TypedDict):
     name: str
     resource: ResourceSet
 
@@ -51,10 +51,10 @@ class Servant(TypedDict):
     alias_name: Optional[str]
     klass: str
     rarity: int
-    ascension: List[ResourceSet]
-    spiritron_dresses: List[SpiritronDress]
     skills: Skills
-    skill_reinforcement: List[ResourceSet]
+    costumes: List[Costume]
+    ascension_resources: List[ResourceSet]
+    skill_resources: List[ResourceSet]
 
 
 class _ServantTable(TypedDict):
@@ -67,7 +67,7 @@ class _ServantTable(TypedDict):
 
 class _ResourceSetParserMode(enum.Enum):
     ASCENSION = enum.auto()
-    SKILL_REINFORCEMENT = enum.auto()
+    SKILL = enum.auto()
 
 
 class _ResourceSetParser:
@@ -103,7 +103,7 @@ class _ResourceSetParser:
         # parse
         if self._mode is _ResourceSetParserMode.ASCENSION:
             levels = _parse_ascension_level(text)
-        if self._mode is _ResourceSetParserMode.SKILL_REINFORCEMENT:
+        if self._mode is _ResourceSetParserMode.SKILL:
             levels = _parse_skill_level(text)
         # pack
         if levels is not None:
@@ -224,35 +224,35 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
     # access
     response = requests.get('https:{0}'.format(servant['url']))
     root = lxml.html.fromstring(response.text)
-    # 霊基再臨
-    ascension = _parse_ascension(root)
-    if len(ascension) != 4:
+    # 霊基再臨用素材
+    ascension_resources = _parse_ascension_resources(root)
+    if len(ascension_resources) != 4:
         _logger.error(
-                'servant %s: ascension parsing failed',
+                'servant %s: ascension resources parsing failed',
                 servant['name'])
     # スキル
     skills = _parse_skill(root)
-    # スキル強化
-    skill_reinforcement = _parse_skill_reinforcement(root)
-    if len(skill_reinforcement) != 9:
+    # スキル強化用素材
+    skill_resources = _parse_skill_resources(root)
+    if len(skill_resources) != 9:
         _logger.error(
-                'servant %s: skill reinforcement parsing failed',
+                'servant %s: skill resources parsing failed',
                 servant['name'])
     # 霊衣開放
-    spiritron_dresses = _parse_spiritron_dress(root)
+    costumes = _parse_costumes(root)
     return Servant(
             id=servant['id'],
             name=servant['name'],
             alias_name=None,
             klass=servant['klass'],
             rarity=servant['rarity'],
-            ascension=ascension,
-            spiritron_dresses=spiritron_dresses,
             skills=skills,
-            skill_reinforcement=skill_reinforcement)
+            costumes=costumes,
+            ascension_resources=ascension_resources,
+            skill_resources=skill_resources)
 
 
-def _parse_ascension(
+def _parse_ascension_resources(
         root: lxml.html.HtmlElement) -> List[ResourceSet]:
     parser = _ResourceSetParser(
             mode=_ResourceSetParserMode.ASCENSION)
@@ -331,10 +331,10 @@ def _parse_skill(
             skill_3=skill_slots[3])
 
 
-def _parse_skill_reinforcement(
+def _parse_skill_resources(
         root: lxml.html.HtmlElement) -> List[ResourceSet]:
     parser = _ResourceSetParser(
-            mode=_ResourceSetParserMode.SKILL_REINFORCEMENT)
+            mode=_ResourceSetParserMode.SKILL)
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="スキル強化"]'
@@ -345,9 +345,9 @@ def _parse_skill_reinforcement(
     return parser.result()
 
 
-def _parse_spiritron_dress(
-        root: lxml.html.HtmlElement) -> List[SpiritronDress]:
-    result: List[SpiritronDress] = []
+def _parse_costumes(
+        root: lxml.html.HtmlElement) -> List[Costume]:
+    result: List[Costume] = []
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="霊衣開放"]'
@@ -362,7 +362,7 @@ def _parse_spiritron_dress(
                 'tbody/tr[td[1 and normalize-space()="必要素材"]]'
                 '/td[position() > 1]'):
             resources.extend(_parse_resource(cell.text_content()))
-        result.append(SpiritronDress(
+        result.append(Costume(
                 name=name,
                 resource=_to_resource_set(resources)))
     return result

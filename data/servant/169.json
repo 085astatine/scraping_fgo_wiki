@@ -4,7 +4,51 @@
   "alias_name": "不夜城のキャスター",
   "klass": "Caster",
   "rarity": 5,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "語り手",
+        "rank": "EX",
+        "icon": 513
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "夜話の語り手",
+        "rank": "EX",
+        "icon": 513
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "生存の閨",
+        "rank": "A+",
+        "icon": 509
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対英雄",
+        "rank": "A",
+        "icon": 404
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "対英雄（譚）",
+        "rank": "EX",
+        "icon": 404
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
@@ -62,51 +106,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "語り手",
-        "rank": "EX",
-        "icon": 513
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "夜話の語り手",
-        "rank": "EX",
-        "icon": 513
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "生存の閨",
-        "rank": "A+",
-        "icon": 509
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "対英雄",
-        "rank": "A",
-        "icon": 404
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "対英雄（譚）",
-        "rank": "EX",
-        "icon": 404
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 200000,
       "resources": [

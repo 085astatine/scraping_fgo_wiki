@@ -4,7 +4,44 @@
   "alias_name": null,
   "klass": "Saber",
   "rarity": 3,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "軍略",
+        "rank": "B",
+        "icon": 302
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "カリスマ",
+        "rank": "C",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "扇動",
+        "rank": "EX",
+        "icon": 303
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "扇動",
+        "rank": "EX",
+        "icon": 303
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 30000,
       "resources": [
@@ -62,44 +99,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "軍略",
-        "rank": "B",
-        "icon": 302
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "カリスマ",
-        "rank": "C",
-        "icon": 300
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "扇動",
-        "rank": "EX",
-        "icon": 303
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "扇動",
-        "rank": "EX",
-        "icon": 303
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 50000,
       "resources": [

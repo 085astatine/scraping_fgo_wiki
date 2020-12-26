@@ -4,7 +4,37 @@
   "alias_name": null,
   "klass": "Caster",
   "rarity": 1,
-  "ascension": [
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "音楽神の加護（偽）",
+        "rank": "EX",
+        "icon": 305
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "芸術審美",
+        "rank": "B",
+        "icon": 506
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "小さな夜の曲",
+        "rank": "EX",
+        "icon": 603
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
     {
       "qp": 10000,
       "resources": [
@@ -62,37 +92,7 @@
       ]
     }
   ],
-  "spiritron_dresses": [],
-  "skills": {
-    "skill_1": [
-      {
-        "slot": 1,
-        "level": 1,
-        "name": "音楽神の加護（偽）",
-        "rank": "EX",
-        "icon": 305
-      }
-    ],
-    "skill_2": [
-      {
-        "slot": 2,
-        "level": 1,
-        "name": "芸術審美",
-        "rank": "B",
-        "icon": 506
-      }
-    ],
-    "skill_3": [
-      {
-        "slot": 3,
-        "level": 1,
-        "name": "小さな夜の曲",
-        "rank": "EX",
-        "icon": 603
-      }
-    ]
-  },
-  "skill_reinforcement": [
+  "skill_resources": [
     {
       "qp": 10000,
       "resources": [
