@@ -33,7 +33,32 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "name": "平安武者装束",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "枯淡勾玉",
+            "piece": 5
+          },
+          {
+            "name": "閑古鈴",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "精霊根",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

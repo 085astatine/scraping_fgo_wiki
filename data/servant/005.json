@@ -64,6 +64,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "ヴィナスのシルク",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "英雄の証",
+            "piece": 10
+          },
+          {
+            "name": "鳳凰の羽根",
+            "piece": 5
+          },
+          {
+            "name": "オーロラ鋼",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

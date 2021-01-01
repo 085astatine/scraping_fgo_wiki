@@ -40,7 +40,32 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "name": "スーパー・クールビズ",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "竜の牙",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "混沌の爪",
+            "piece": 5
+          },
+          {
+            "name": "竜の逆鱗",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

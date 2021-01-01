@@ -33,7 +33,32 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "name": "Camelot & Co",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "英雄の証",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

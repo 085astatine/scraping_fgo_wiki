@@ -40,7 +40,32 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "name": "簡易霊衣：浅葱の羽織袴",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "英雄の証",
+            "piece": 10
+          },
+          {
+            "name": "枯淡勾玉",
+            "piece": 5
+          },
+          {
+            "name": "血の涙石",
+            "piece": 5
+          },
+          {
+            "name": "九十九鏡",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

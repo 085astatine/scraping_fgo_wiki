@@ -33,7 +33,32 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "name": "まっこと格好えい羽織袴",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "凶骨",
+            "piece": 10
+          },
+          {
+            "name": "蛇の宝玉",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "奇奇神酒",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 30000,

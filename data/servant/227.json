@@ -33,7 +33,32 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "name": "辨天衣",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "英雄の証",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "閑古鈴",
+            "piece": 5
+          },
+          {
+            "name": "竜の逆鱗",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

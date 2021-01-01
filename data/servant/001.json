@@ -42,13 +42,6 @@
   },
   "costumes": [
     {
-      "name": "オルテナウス",
-      "resource": {
-        "qp": 0,
-        "resources": []
-      }
-    },
-    {
       "name": "常夏の水着",
       "resource": {
         "qp": 3000000,
@@ -67,6 +60,44 @@
           },
           {
             "name": "鳳凰の羽根",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "オルテナウス",
+      "resource": {
+        "qp": 0,
+        "resources": []
+      }
+    },
+    {
+      "name": "オルテナウス（改修型）",
+      "resource": {
+        "qp": 0,
+        "resources": []
+      }
+    },
+    {
+      "name": "常夏の水着ver.02",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "大騎士勲章",
+            "piece": 5
+          },
+          {
+            "name": "永遠結氷",
+            "piece": 5
+          },
+          {
+            "name": "オーロラ鋼",
             "piece": 5
           }
         ]
