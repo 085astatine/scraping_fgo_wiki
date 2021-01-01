@@ -42,6 +42,7 @@
   },
   "costumes": [
     {
+      "id": 33,
       "name": "漆黒の騎士王ver新宿1999",
       "resource": {
         "qp": 3000000,
