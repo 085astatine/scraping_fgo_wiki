@@ -57,6 +57,17 @@ def load_servants(
             request_interval=1.0)
 
 
+def load_sounds(
+        path: pathlib.Path,
+        *,
+        force_update: bool = False) -> List[lib.Sound]:
+    sounds = lib.load_json(path)
+    if sounds is None or force_update:
+        sounds = lib.sound_list()
+        lib.save_json(path, sounds)
+    return sounds
+
+
 def main() -> None:
     # logger
     logger = logging.getLogger('lib')
@@ -70,7 +81,7 @@ def main() -> None:
             description='Fate/Grand Order scrayping')
     parser.add_argument(
             'mode',
-            choices=['dict', 'item', 'servant', 'merge'],
+            choices=['dict', 'item', 'servant', 'sound', 'merge'],
             help='scraping target')
     parser.add_argument(
             '-v', '--verbose',
@@ -104,6 +115,12 @@ def main() -> None:
         logger.info('run: servant')
         servants = load_servants(
                 pathlib.Path('data/servant/'),
+                force_update=option.force)
+    # sound
+    if option.mode in ['sound', 'merge']:
+        logger.info('run: sound')
+        sounds = load_sounds(
+                pathlib.Path('data/sound.json'),
                 force_update=option.force)
     # master data
     if option.mode == 'merge':
