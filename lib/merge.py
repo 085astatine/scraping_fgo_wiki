@@ -61,7 +61,7 @@ class Servant(TypedDict):
 
 class Sound(TypedDict):
     id: int
-    series: str
+    source: str
     title: text.Text
     resource: ResourceSet
 
@@ -176,7 +176,7 @@ def _convert_sound(
         items: List[item.Item]) -> Sound:
     return Sound(
             id=sound_['id'],
-            series=sound_['series'],
+            source=sound_['source'],
             title=_convert_text(sound_['title'], {}),
             resource=_convert_resource_set(sound_['resource'], items))
 
