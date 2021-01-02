@@ -33,7 +33,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 21,
+      "name": "簡易霊衣：行人包",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "枯淡勾玉",
+            "piece": 10
+          },
+          {
+            "name": "閑古鈴",
+            "piece": 5
+          },
+          {
+            "name": "戦馬の幼角",
+            "piece": 5
+          },
+          {
+            "name": "竜の逆鱗",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

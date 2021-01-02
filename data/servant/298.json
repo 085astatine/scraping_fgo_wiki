@@ -1,6 +1,6 @@
 {
-  "id": 5,
-  "name": "ネロ・クラウディウス",
+  "id": 298,
+  "name": "渡辺綱",
   "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
@@ -9,89 +9,31 @@
       {
         "slot": 1,
         "level": 1,
-        "name": "頭痛持ち",
-        "rank": "B",
-        "icon": 401
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "富の杯",
-        "rank": "B",
-        "icon": 601
+        "name": "無窮の武練（対魔）",
+        "rank": "A-",
+        "icon": 308
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "皇帝特権",
-        "rank": "EX",
-        "icon": 600
+        "name": "水天の徒",
+        "rank": "B",
+        "icon": 402
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "三度、落陽を迎えても",
-        "rank": "A",
-        "icon": 404
+        "name": "一条戻橋の腕斬",
+        "rank": "EX",
+        "icon": 306
       }
     ]
   },
-  "costumes": [
-    {
-      "id": 3,
-      "name": "オリンピアの体操服",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "英雄の証",
-            "piece": 10
-          },
-          {
-            "name": "隕蹄鉄",
-            "piece": 5
-          },
-          {
-            "name": "混沌の爪",
-            "piece": 5
-          },
-          {
-            "name": "智慧のスカラベ",
-            "piece": 5
-          }
-        ]
-      }
-    },
-    {
-      "id": 38,
-      "name": "ヴィナスのシルク",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "英雄の証",
-            "piece": 10
-          },
-          {
-            "name": "鳳凰の羽根",
-            "piece": 5
-          },
-          {
-            "name": "オーロラ鋼",
-            "piece": 5
-          },
-          {
-            "name": "智慧のスカラベ",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
+  "costumes": [],
   "ascension_resources": [
     {
       "qp": 50000,
@@ -110,8 +52,8 @@
           "piece": 10
         },
         {
-          "name": "八連双晶",
-          "piece": 6
+          "name": "英雄の証",
+          "piece": 18
         }
       ]
     },
@@ -123,11 +65,11 @@
           "piece": 4
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 7
+          "name": "枯淡勾玉",
+          "piece": 8
         },
         {
-          "name": "ゴーストランタン",
+          "name": "鳳凰の羽根",
           "piece": 4
         }
       ]
@@ -140,12 +82,12 @@
           "piece": 10
         },
         {
-          "name": "ゴーストランタン",
-          "piece": 8
+          "name": "鳳凰の羽根",
+          "piece": 7
         },
         {
-          "name": "無間の歯車",
-          "piece": 10
+          "name": "九十九鏡",
+          "piece": 4
         }
       ]
     }
@@ -186,7 +128,7 @@
           "piece": 10
         },
         {
-          "name": "鳳凰の羽根",
+          "name": "枯淡勾玉",
           "piece": 4
         }
       ]
@@ -199,8 +141,8 @@
           "piece": 4
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 7
+          "name": "枯淡勾玉",
+          "piece": 8
         }
       ]
     },
@@ -212,8 +154,8 @@
           "piece": 10
         },
         {
-          "name": "八連双晶",
-          "piece": 4
+          "name": "英雄の証",
+          "piece": 12
         }
       ]
     },
@@ -221,12 +163,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "八連双晶",
-          "piece": 8
+          "name": "英雄の証",
+          "piece": 24
         },
         {
-          "name": "竜の牙",
-          "piece": 12
+          "name": "閑古鈴",
+          "piece": 5
         }
       ]
     },
@@ -234,11 +176,11 @@
       "qp": 6000000,
       "resources": [
         {
-          "name": "竜の牙",
-          "piece": 36
+          "name": "閑古鈴",
+          "piece": 15
         },
         {
-          "name": "無間の歯車",
+          "name": "虹の糸玉",
           "piece": 20
         }
       ]

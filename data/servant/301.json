@@ -1,6 +1,6 @@
 {
-  "id": 3,
-  "name": "アルトリア・ペンドラゴン〔オルタ〕",
+  "id": 301,
+  "name": "カルナ〔サンタ〕",
   "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
@@ -9,71 +9,38 @@
       {
         "slot": 1,
         "level": 1,
-        "name": "魔力放出",
+        "name": "フットサンタ",
         "rank": "A",
-        "icon": 306
+        "icon": 316
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "直感",
-        "rank": "B",
-        "icon": 603
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "宵闇の星",
+        "name": "閃光の拳",
         "rank": "A",
-        "icon": 601
+        "icon": 402
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "カリスマ",
-        "rank": "E",
-        "icon": 300
+        "name": "施しの英雄（聖夜）",
+        "rank": "EX",
+        "icon": 601
       }
     ]
   },
-  "costumes": [
-    {
-      "id": 33,
-      "name": "漆黒の騎士王ver新宿1999",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "竜の牙",
-            "piece": 10
-          },
-          {
-            "name": "虚影の塵",
-            "piece": 10
-          },
-          {
-            "name": "血の涙石",
-            "piece": 5
-          },
-          {
-            "name": "真理の卵",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
+  "costumes": [],
   "ascension_resources": [
     {
       "qp": 50000,
       "resources": [
         {
-          "name": "セイバーピース",
-          "piece": 4
+          "name": "サンタバッグ",
+          "piece": 1
         }
       ]
     },
@@ -81,12 +48,8 @@
       "qp": 150000,
       "resources": [
         {
-          "name": "セイバーピース",
-          "piece": 10
-        },
-        {
-          "name": "竜の牙",
-          "piece": 15
+          "name": "サンタバッグ",
+          "piece": 1
         }
       ]
     },
@@ -94,16 +57,8 @@
       "qp": 500000,
       "resources": [
         {
-          "name": "セイバーモニュメント",
-          "piece": 4
-        },
-        {
-          "name": "混沌の爪",
-          "piece": 5
-        },
-        {
-          "name": "竜の逆鱗",
-          "piece": 2
+          "name": "サンタバッグ",
+          "piece": 1
         }
       ]
     },
@@ -111,16 +66,8 @@
       "qp": 1500000,
       "resources": [
         {
-          "name": "セイバーモニュメント",
-          "piece": 10
-        },
-        {
-          "name": "竜の逆鱗",
-          "piece": 4
-        },
-        {
-          "name": "蛮神の心臓",
-          "piece": 4
+          "name": "サンタバッグ",
+          "piece": 1
         }
       ]
     }
@@ -161,8 +108,8 @@
           "piece": 10
         },
         {
-          "name": "混沌の爪",
-          "piece": 3
+          "name": "虚影の塵",
+          "piece": 8
         }
       ]
     },
@@ -174,8 +121,8 @@
           "piece": 4
         },
         {
-          "name": "混沌の爪",
-          "piece": 5
+          "name": "虚影の塵",
+          "piece": 16
         }
       ]
     },
@@ -187,8 +134,8 @@
           "piece": 10
         },
         {
-          "name": "竜の牙",
-          "piece": 10
+          "name": "愚者の鎖",
+          "piece": 12
         }
       ]
     },
@@ -196,12 +143,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "竜の牙",
-          "piece": 20
+          "name": "愚者の鎖",
+          "piece": 24
         },
         {
-          "name": "虚影の塵",
-          "piece": 10
+          "name": "光銀の冠",
+          "piece": 5
         }
       ]
     },
@@ -209,12 +156,12 @@
       "qp": 6000000,
       "resources": [
         {
-          "name": "虚影の塵",
-          "piece": 30
+          "name": "光銀の冠",
+          "piece": 15
         },
         {
-          "name": "蛮神の心臓",
-          "piece": 8
+          "name": "神脈霊子",
+          "piece": 20
         }
       ]
     },

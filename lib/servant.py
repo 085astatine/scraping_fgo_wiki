@@ -41,6 +41,7 @@ class ResourceSet(TypedDict):
 
 
 class Costume(TypedDict):
+    id: int
     name: str
     resource: ResourceSet
 
@@ -363,6 +364,7 @@ def _parse_costumes(
                 '/td[position() > 1]'):
             resources.extend(_parse_resource(cell.text_content()))
         result.append(Costume(
+                id=0,
                 name=name,
                 resource=_to_resource_set(resources)))
     return result

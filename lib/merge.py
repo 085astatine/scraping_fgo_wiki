@@ -41,6 +41,7 @@ class ResourceSet(TypedDict):
 
 
 class Costume(TypedDict):
+    id: int
     name: text.Text
     resource: ResourceSet
 
@@ -132,6 +133,7 @@ def _convert_costume(
         costume: servant.Costume,
         items: List[item.Item]) -> Costume:
     return Costume(
+            id=costume['id'],
             name=_convert_text(costume['name'], {}),
             resource=_convert_resource_set(costume['resource'], items))
 

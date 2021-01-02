@@ -33,7 +33,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 37,
+      "name": "アクティブ・セーラー",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "永遠結氷",
+            "piece": 5
+          },
+          {
+            "name": "神脈霊子",
+            "piece": 5
+          },
+          {
+            "name": "煌星のカケラ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

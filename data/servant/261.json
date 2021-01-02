@@ -33,7 +33,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 28,
+      "name": "簡易霊衣：武蔵ちゃんの夏モード",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "宵哭きの鉄杭",
+            "piece": 10
+          },
+          {
+            "name": "巨人の指輪",
+            "piece": 5
+          },
+          {
+            "name": "鳳凰の羽根",
+            "piece": 5
+          },
+          {
+            "name": "蛮神の心臓",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

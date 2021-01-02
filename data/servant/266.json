@@ -33,7 +33,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 29,
+      "name": "簡易霊衣：アイス・セレブリティ",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "永遠結氷",
+            "piece": 10
+          },
+          {
+            "name": "オーロラ鋼",
+            "piece": 5
+          },
+          {
+            "name": "黒獣脂",
+            "piece": 5
+          },
+          {
+            "name": "呪獣胆石",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

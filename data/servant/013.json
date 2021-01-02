@@ -35,6 +35,7 @@
   },
   "costumes": [
     {
+      "id": 11,
       "name": "夏の狩人",
       "resource": {
         "qp": 3000000,
