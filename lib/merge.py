@@ -5,6 +5,7 @@ from typing import Dict, List, Optional, TypedDict
 from . import item
 from . import servant
 from . import text
+from . import sound
 
 
 _logger = logging.getLogger(__name__)
@@ -58,9 +59,17 @@ class Servant(TypedDict):
     skill_resources: List[ResourceSet]
 
 
+class Sound(TypedDict):
+    id: int
+    series: str
+    title: text.Text
+    resource: ResourceSet
+
+
 class MergedData(TypedDict):
     items: List[Item]
     servants: List[Servant]
+    sounds: List[Sound]
 
 
 def _convert_text(
@@ -162,11 +171,23 @@ def _convert_servant(
                 for resource in servant_['skill_resources']])
 
 
+def _convert_sound(
+        sound_: sound.Sound,
+        items: List[item.Item]) -> Sound:
+    return Sound(
+            id=sound_['id'],
+            series=sound_['series'],
+            title=_convert_text(sound_['title'], {}),
+            resource=_convert_resource_set(sound_['resource'], items))
+
+
 def merge(
         items: List[item.Item],
         servants: List[servant.Servant],
+        sounds: List[sound.Sound],
         dictionary: text.Dictionary) -> MergedData:
     return MergedData(
         items=[_convert_item(item, dictionary) for item in items],
         servants=[_convert_servant(servant, items, dictionary)
-                  for servant in servants])
+                  for servant in servants],
+        sounds=[_convert_sound(sound, items) for sound in sounds])

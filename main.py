@@ -125,7 +125,7 @@ def main() -> None:
     # master data
     if option.mode == 'merge':
         logger.info('run: merge')
-        data = lib.merge(items, servants, dictionary)
+        data = lib.merge(items, servants, sounds, dictionary)
         lib.save_json(
                 pathlib.Path('data/master_data.json'),
                 data)
