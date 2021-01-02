@@ -1,0 +1,3389 @@
+[
+  {
+    "id": 1000,
+    "source": "Part1",
+    "title": "Grand Order",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1001,
+    "source": "Part1",
+    "title": "マイルーム",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1002,
+    "source": "Part1",
+    "title": "カルデア",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1003,
+    "source": "Part1",
+    "title": "人理の光",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1004,
+    "source": "Part1",
+    "title": "聞き慣れたメロディー",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1005,
+    "source": "Part1",
+    "title": "エマージェンシー",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1006,
+    "source": "Part1",
+    "title": "不屈の覚悟",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1007,
+    "source": "Part1",
+    "title": "暗雲を払え",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1008,
+    "source": "Part1",
+    "title": "絆",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1009,
+    "source": "Part1",
+    "title": "賑やかな旅路",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1010,
+    "source": "Part1",
+    "title": "記憶の回廊",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1011,
+    "source": "Part1",
+    "title": "集いし英雄〜BATTLE 1〜",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1012,
+    "source": "Part1",
+    "title": "鋼の矜持〜FATAL BATTLE 1〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1013,
+    "source": "Part1",
+    "title": "運命〜GRAND BATTLE〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1014,
+    "source": "Part1",
+    "title": "蘇る神話〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1015,
+    "source": "Part1",
+    "title": "勝利〜BATTLE FINISH〜",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1016,
+    "source": "Part1",
+    "title": "英霊召喚",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 1017,
+    "source": "Part1",
+    "title": "マイルーム〜NEW YEAR~",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1018,
+    "source": "Part1",
+    "title": "炎上汚染都市：冬木",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1019,
+    "source": "Part1",
+    "title": "邪竜百年戦争：オルレアン",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1020,
+    "source": "Part1",
+    "title": "永続狂気帝国：セプテム",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1021,
+    "source": "Part1",
+    "title": "封鎖終局四海：オケアノス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1022,
+    "source": "Part1",
+    "title": "死界魔霧都市：ロンドン",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1023,
+    "source": "Part1",
+    "title": "誕生の時来たれり〜御使いの四柱戦〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 1024,
+    "source": "Part1",
+    "title": "北米神話大戦：イ・プルーリバス・ウナム",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1025,
+    "source": "Part1",
+    "title": "イグニッション〜BATTLE 2〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1026,
+    "source": "Part1",
+    "title": "解き放つ力〜FATAL BATTLE 2〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1027,
+    "source": "Part1",
+    "title": "人理の錨〜魔神柱戦〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1028,
+    "source": "Part1",
+    "title": "大統王行進曲",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1029,
+    "source": "Part1",
+    "title": "神聖円卓領域：キャメロットⅠ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1030,
+    "source": "Part1",
+    "title": "神聖円卓領域：キャメロットⅡ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1031,
+    "source": "Part1",
+    "title": "神聖円卓領域：キャメロットⅢ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1032,
+    "source": "Part1",
+    "title": "獅子の円卓〜殲滅すべき神記の剣〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1033,
+    "source": "Part1",
+    "title": "最果ての死闘〜女神ロンゴミニアド戦〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1034,
+    "source": "Part1",
+    "title": "いまは遥か理想の城",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1035,
+    "source": "Part1",
+    "title": "獅子の玉座",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1036,
+    "source": "Part1",
+    "title": "臨戦",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1037,
+    "source": "Part1",
+    "title": "山間にて",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1038,
+    "source": "Part1",
+    "title": "絶対魔獣戦線：バビロニア",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1039,
+    "source": "Part1",
+    "title": "絶対魔獣戦線：メソポタミア",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1040,
+    "source": "Part1",
+    "title": "襲い来る神話〜複合神性ゴルゴーン戦〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1041,
+    "source": "Part1",
+    "title": "dis-communication〜ラフム戦〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1042,
+    "source": "Part1",
+    "title": "BEAST Ⅱ〜ティアマト戦〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1043,
+    "source": "Part1",
+    "title": "最古の都",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1044,
+    "source": "Part1",
+    "title": "黄金の王〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1045,
+    "source": "Part1",
+    "title": "終焉",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1046,
+    "source": "Part1",
+    "title": "冠位時間神殿：ソロモン",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1047,
+    "source": "Part1",
+    "title": "溶鉱炉ナベリウス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 1048,
+    "source": "Part1",
+    "title": "情報室フラウロス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1049,
+    "source": "Part1",
+    "title": "観測所フォルネウス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1050,
+    "source": "Part1",
+    "title": "管制塔バルバトス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1051,
+    "source": "Part1",
+    "title": "兵装舎ハルファス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1052,
+    "source": "Part1",
+    "title": "覗覚星アモン",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1053,
+    "source": "Part1",
+    "title": "生命院サブナック",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1054,
+    "source": "Part1",
+    "title": "廃棄孔アンドロマリウス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1055,
+    "source": "Part1",
+    "title": "戴冠の時来たれり",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1056,
+    "source": "Part1",
+    "title": "色彩〜決別の時来たれり〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1057,
+    "source": "Part1",
+    "title": "Fate/Grand Order",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1058,
+    "source": "Part1",
+    "title": "outbreak〜FGO~",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1059,
+    "source": "Part1",
+    "title": "色彩〜雪花の盾〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1060,
+    "source": "Part1",
+    "title": "蒼穹の未来",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 1061,
+    "source": "Part1",
+    "title": "君の願い",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2000,
+    "source": "Part1_5",
+    "title": "Epic of Remnant",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 2001,
+    "source": "Part1_5",
+    "title": "Stormfang〜FATAL BATTLE 3〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2002,
+    "source": "Part1_5",
+    "title": "その命題〜GRAND BATTLE 2〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2003,
+    "source": "Part1_5",
+    "title": "悪性隔絶魔境：新宿",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2004,
+    "source": "Part1_5",
+    "title": "アンチヒーローズ〜BATTLE 3〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2005,
+    "source": "Part1_5",
+    "title": "幻霊都市",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2006,
+    "source": "Part1_5",
+    "title": "歌舞伎町の怪人",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2007,
+    "source": "Part1_5",
+    "title": "Dance with Black〜子犬のワルツより〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2008,
+    "source": "Part1_5",
+    "title": "伝承地底世界：アガルタ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2009,
+    "source": "Part1_5",
+    "title": "幻想空中都市：ラピュタ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2010,
+    "source": "Part1_5",
+    "title": "それぞれの理念〜BATTLE 4〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2011,
+    "source": "Part1_5",
+    "title": "新天地に舵を切れ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2012,
+    "source": "Part1_5",
+    "title": "密告の不夜城",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2013,
+    "source": "Part1_5",
+    "title": "エルドラドの女王",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2014,
+    "source": "Part1_5",
+    "title": "屍山血河舞台：下総国",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2015,
+    "source": "Part1_5",
+    "title": "血風〜BATTLE 5〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2016,
+    "source": "Part1_5",
+    "title": "極限の刻へ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2017,
+    "source": "Part1_5",
+    "title": "鏖殺を斬る〜英霊剣豪七番勝負〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2018,
+    "source": "Part1_5",
+    "title": "勝負あり",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2019,
+    "source": "Part1_5",
+    "title": "刀匠の庵",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2020,
+    "source": "Part1_5",
+    "title": "御前也",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2021,
+    "source": "Part1_5",
+    "title": "エミヤ〜無元の剣製〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2022,
+    "source": "Part1_5",
+    "title": "残焔",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2023,
+    "source": "Part1_5",
+    "title": "禁忌降臨庭園：セイレム",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2024,
+    "source": "Part1_5",
+    "title": "恐怖への呼び声〜BATTLE 6〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2025,
+    "source": "Part1_5",
+    "title": "迷信の町",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2026,
+    "source": "Part1_5",
+    "title": "異端の夜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 2027,
+    "source": "Part1_5",
+    "title": "魔女裁判",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3000,
+    "source": "Part2",
+    "title": "Cosmos in theLostbelt",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 3001,
+    "source": "Part2",
+    "title": "ともに憩いを",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 3002,
+    "source": "Part2",
+    "title": "シャドウ・ボーダー",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 3003,
+    "source": "Part2",
+    "title": "ありふれたメロディー",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3004,
+    "source": "Part2",
+    "title": "人理の誓い",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3005,
+    "source": "Part2",
+    "title": "アージェンシー",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3006,
+    "source": "Part2",
+    "title": "暗雲の中へ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3007,
+    "source": "Part2",
+    "title": "不撓の覚悟",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3008,
+    "source": "Part2",
+    "title": "縁",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3009,
+    "source": "Part2",
+    "title": "残氷",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3010,
+    "source": "Part2",
+    "title": "Rebellion",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3011,
+    "source": "Part2",
+    "title": "Lost Memories",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3012,
+    "source": "Part2",
+    "title": "賑やかな航海",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3013,
+    "source": "Part2",
+    "title": "漂白のサバイバー〜FATAL BATTLE 4〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3014,
+    "source": "Part2",
+    "title": "凱歌〜BATTLE FINISH 2〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3015,
+    "source": "Part2",
+    "title": "宿命〜GRAND BATTLE 3〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3016,
+    "source": "Part2",
+    "title": "In the Air〜TREE BATTLE 1〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3017,
+    "source": "Part2",
+    "title": "Hypothesis Cosmos〜TREE BATTLE 2〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3018,
+    "source": "Part2",
+    "title": "消えない想い〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 3019,
+    "source": "Part2",
+    "title": "Hideous Theory〜TREE BATTLE 2.5〜",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 3020,
+    "source": "Part2",
+    "title": "Wodime〜TREE BATTLE 3〜",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "id": 3021,
+    "source": "Part2",
+    "title": "永久凍土帝国：アナスタシア",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3022,
+    "source": "Part2",
+    "title": "ホワイトアウト",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3023,
+    "source": "Part2",
+    "title": "獣国の皇女〜BATTLE 7〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3024,
+    "source": "Part2",
+    "title": "咆哮〜怒りの日より〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3025,
+    "source": "Part2",
+    "title": "無間氷焔世紀：ゲッテルデメルング",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3026,
+    "source": "Part2",
+    "title": "無間氷焔世紀：ラグナロク",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3027,
+    "source": "Part2",
+    "title": "消えぬ炎の快男児〜BATTLE 8〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3028,
+    "source": "Part2",
+    "title": "雪原の少女",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3029,
+    "source": "Part2",
+    "title": "人智統合真国：シン",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3030,
+    "source": "Part2",
+    "title": "紅の月下美人〜BATTLE 9〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3031,
+    "source": "Part2",
+    "title": "万里の風",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3032,
+    "source": "Part2",
+    "title": "真なる人",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3033,
+    "source": "Part2",
+    "title": "創世滅亡輪廻：ユガ・クシェートラⅠ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3034,
+    "source": "Part2",
+    "title": "創世滅亡輪廻：ユガ・クシェートラⅡ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3035,
+    "source": "Part2",
+    "title": "創世滅亡輪廻：ユガ・クシェートラⅢ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3036,
+    "source": "Part2",
+    "title": "創世滅亡輪廻：ユガ・クシェートラⅣ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3037,
+    "source": "Part2",
+    "title": "黒き最後の神〜BATTLE 10〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3038,
+    "source": "Part2",
+    "title": "家族の絆",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3039,
+    "source": "Part2",
+    "title": "漆黒の威光",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3040,
+    "source": "Part2",
+    "title": "Lost Piece",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3041,
+    "source": "Part2",
+    "title": "神代巨神海洋：アトランティス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3042,
+    "source": "Part2",
+    "title": "神代巨神海洋：ポセイドン",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3043,
+    "source": "Part2",
+    "title": "神を撃ち落とす日Ⅰ〜BATTLE 11〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3044,
+    "source": "Part2",
+    "title": "真体機神降臨〜オリュンポス十二機神戦〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3045,
+    "source": "Part2",
+    "title": "信仰の海",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3046,
+    "source": "Part2",
+    "title": "星間都市山脈：オリュンポス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3047,
+    "source": "Part2",
+    "title": "神を撃ち落とす日Ⅱ〜BATTLE 12〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3048,
+    "source": "Part2",
+    "title": "Nine Drive〜コヤンスカヤ異聞録〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3049,
+    "source": "Part2",
+    "title": "星を裂く雷霆〜ゼウス戦〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3050,
+    "source": "Part2",
+    "title": "久遠の揺籃",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3051,
+    "source": "Part2",
+    "title": "死の調べ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3052,
+    "source": "Part2",
+    "title": "神託",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3053,
+    "source": "Part2",
+    "title": "Final Strike",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3054,
+    "source": "Part2",
+    "title": "虚空を斬る〜零の先へ〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 3055,
+    "source": "Part2",
+    "title": "降臨",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ランサーピース",
+          "piece": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": 4000,
+    "source": "Event",
+    "title": "日差しの中で〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4001,
+    "source": "Event",
+    "title": "歌うカボチャ城の冒険：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4002,
+    "source": "Event",
+    "title": "Sonic Barrage〜FGO~",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4003,
+    "source": "Event",
+    "title": "ぐだぐだショップ大炎上〜寺〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4004,
+    "source": "Event",
+    "title": "ほぼ週間 サンタオルタさん：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4005,
+    "source": "Event",
+    "title": "銀河の彼方から",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "大騎士勲章",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4006,
+    "source": "Event",
+    "title": "outbreak〜異聞〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4007,
+    "source": "Event",
+    "title": "wars〜異聞〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4008,
+    "source": "Event",
+    "title": "鬼哭酔夢魔京 羅生門：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4009,
+    "source": "Event",
+    "title": "天魔御伽草子 鬼ヶ島：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4010,
+    "source": "Event",
+    "title": "雷光〜丑御前戦〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4011,
+    "source": "Event",
+    "title": "天魔御伽草子 鬼ヶ島：BATTLE FINISH",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4012,
+    "source": "Event",
+    "title": "カルデアサマーメモリー：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4013,
+    "source": "Event",
+    "title": "Samba de Island〜SUMMER BATTLE〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4014,
+    "source": "Event",
+    "title": "うりぼうのテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4015,
+    "source": "Event",
+    "title": "常夏のアドベンチャー",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4016,
+    "source": "Event",
+    "title": "うりぼうのテーマ〜旅立ち〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4017,
+    "source": "Event",
+    "title": "カルデアヒートオデッセイ：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4018,
+    "source": "Event",
+    "title": "ネロ祭再び：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "大騎士勲章",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4019,
+    "source": "Event",
+    "title": "超極☆大かぼちゃ村：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4020,
+    "source": "Event",
+    "title": "鮮血魔嬢〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4021,
+    "source": "Event",
+    "title": "超極☆大かぼちゃ村：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4022,
+    "source": "Event",
+    "title": "月の海は静寂にて。",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4023,
+    "source": "Event",
+    "title": "二代目はオルタちゃん：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4024,
+    "source": "Event",
+    "title": "激突する魂〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4025,
+    "source": "Event",
+    "title": "光と闇〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4026,
+    "source": "Event",
+    "title": "運命〜剣舞〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "大騎士勲章",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4027,
+    "source": "Event",
+    "title": "cha cha ka wa ii !!",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4028,
+    "source": "Event",
+    "title": "ぐだぐだショップ大炎上〜誠〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4029,
+    "source": "Event",
+    "title": "moon salto(Ⅱ)〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4030,
+    "source": "Event",
+    "title": "spinal sg coaster",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4031,
+    "source": "Event",
+    "title": "BB channel〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4032,
+    "source": "Event",
+    "title": "anima ataraxia〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4033,
+    "source": "Event",
+    "title": "深海電脳楽土 SE.RA.PH：BATTLE FINISH",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4034,
+    "source": "Event",
+    "title": "spinal swan coasterⅠ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4035,
+    "source": "Event",
+    "title": "spinal swan coasterⅡ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4036,
+    "source": "Event",
+    "title": "spinal swan coasterⅢ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4037,
+    "source": "Event",
+    "title": "デッドヒート・サマーレース！：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4038,
+    "source": "Event",
+    "title": "Venus Racer〜SUMMER BATTLE 2〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4039,
+    "source": "Event",
+    "title": "Crazy Machines",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4040,
+    "source": "Event",
+    "title": "Overtake",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4041,
+    "source": "Event",
+    "title": "light step〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4042,
+    "source": "Event",
+    "title": "デスジェイル・サマーエスケイプ：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4043,
+    "source": "Event",
+    "title": "Connacht Breaker〜SUMMER BATTLE 3〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4044,
+    "source": "Event",
+    "title": "超絶縦長魔城：チェイテ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4045,
+    "source": "Event",
+    "title": "天然特撮魔城：チェイテ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4046,
+    "source": "Event",
+    "title": "エリチャンファイト",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4047,
+    "source": "Event",
+    "title": "ハロウィン・ストライク！：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4048,
+    "source": "Event",
+    "title": "The Sun in the Abyss",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4049,
+    "source": "Event",
+    "title": "ぐだぐだ帝都聖杯奇譚：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4050,
+    "source": "Event",
+    "title": "天を駆ける",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4051,
+    "source": "Event",
+    "title": "絶剱",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "枯淡勾玉",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4052,
+    "source": "Event",
+    "title": "帝都夜行",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4053,
+    "source": "Event",
+    "title": "ぐだぐだショップ大炎上〜帝〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4054,
+    "source": "Event",
+    "title": "サーヴァント・サマー・フェスティバル！：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4055,
+    "source": "Event",
+    "title": "Dive to the Fes〜SUMMER BATTLE 4〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4056,
+    "source": "Event",
+    "title": "BB channel〜dark mix〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4057,
+    "source": "Event",
+    "title": "常夏の楽園にて",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4058,
+    "source": "Event",
+    "title": "サーヴァント・サマー・フェスティバル！：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4059,
+    "source": "Event",
+    "title": "Burst Up〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "枯淡勾玉",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4060,
+    "source": "Event",
+    "title": "最後の力〜FGO〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "大騎士勲章",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4061,
+    "source": "Event",
+    "title": "バトル・イン・ニューヨーク：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4062,
+    "source": "Event",
+    "title": "神秘の国のONILAND!!：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4063,
+    "source": "Event",
+    "title": "護法少女推参",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4064,
+    "source": "Event",
+    "title": "伝説の鬼救阿",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4065,
+    "source": "Event",
+    "title": "神秘の国のONILAND!!：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4066,
+    "source": "Event",
+    "title": "ジングルゴングは鳴らされた",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4067,
+    "source": "Event",
+    "title": "ホーリー・サンバ・ナイト：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "永遠結氷",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4068,
+    "source": "Event",
+    "title": "閻魔亭繁盛記：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4069,
+    "source": "Event",
+    "title": "おさるはへっちゃら！",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4070,
+    "source": "Event",
+    "title": "過ぎ去りし日々",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4071,
+    "source": "Event",
+    "title": "徳川廻天迷宮：大奥 〜表〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4072,
+    "source": "Event",
+    "title": "徳川廻天迷宮：大奥 〜裏〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4073,
+    "source": "Event",
+    "title": "鏡花水月",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4074,
+    "source": "Event",
+    "title": "karma ataraxia",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4075,
+    "source": "Event",
+    "title": "徳川廻天迷宮：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4076,
+    "source": "Event",
+    "title": "ぐだぐだファイナル本能寺：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4077,
+    "source": "Event",
+    "title": "一番槍",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4078,
+    "source": "Event",
+    "title": "天魔",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4079,
+    "source": "Event",
+    "title": "ぐだぐだショップ大炎上〜結〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4080,
+    "source": "Event",
+    "title": "見参！ラスベガス御前試合：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4081,
+    "source": "Event",
+    "title": "Sweet Paradise〜SUMMER BATTLE 5〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4082,
+    "source": "Event",
+    "title": "饗宴の刻へ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4083,
+    "source": "Event",
+    "title": "悩殺を斬る〜水着剣豪七色勝負〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4084,
+    "source": "Event",
+    "title": "カジノへようこそ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "大騎士勲章",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4085,
+    "source": "Event",
+    "title": "ぐだぐだマーチ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4086,
+    "source": "Event",
+    "title": "見参！ラスベガス御前試合：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "枯淡勾玉",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4087,
+    "source": "Event",
+    "title": "セイバーウォーズ2：マップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "永遠結氷",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4088,
+    "source": "Event",
+    "title": "スペースハンティング",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4089,
+    "source": "Event",
+    "title": "始まりの宇宙へ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4090,
+    "source": "Event",
+    "title": "金星の女神〜Universe Mix〜",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4091,
+    "source": "Event",
+    "title": "セイバーウォーズ2：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4092,
+    "source": "Event",
+    "title": "聖夜に集いし英雄",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4093,
+    "source": "Event",
+    "title": "カルデアのクリスマス",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4094,
+    "source": "Event",
+    "title": "最強のCEO",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4095,
+    "source": "Event",
+    "title": "救え！アマゾネス・ドットコム：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4096,
+    "source": "Event",
+    "title": "Spring Emotion",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4097,
+    "source": "Event",
+    "title": "星屑盤上冥路：アステロ・アキハバラ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": 4098,
+    "source": "Event",
+    "title": "死神の舞踏",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4099,
+    "source": "Event",
+    "title": "盤上遊戯黙示録：BATTLE FINISH",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4100,
+    "source": "Event",
+    "title": "涙の雨の日",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": 4101,
+    "source": "Event",
+    "title": "盤上遊戯黙示録：ショップテーマ",
+    "resource": {
+      "qp": 0,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 10
+        }
+      ]
+    }
+  }
+]
