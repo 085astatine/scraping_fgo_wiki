@@ -28,6 +28,13 @@
         "name": "戦闘続行",
         "rank": "A",
         "icon": 404
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "戦場の糧",
+        "rank": "A+",
+        "icon": 404
       }
     ],
     "skill_3": [

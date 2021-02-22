@@ -1,0 +1,284 @@
+{
+  "id": 305,
+  "name": "カレン・C・オルテンシア",
+  "alias_name": null,
+  "klass": "Ruler",
+  "rarity": 5,
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ヴァレンティヌスの聖骸布",
+        "rank": "A",
+        "icon": 403
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "黄金の矢",
+        "rank": "A",
+        "icon": 700
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "魔力放出（愛）",
+        "rank": "A",
+        "icon": 317
+      }
+    ]
+  },
+  "costumes": [
+    {
+      "id": 51,
+      "name": "簡易霊衣：デビルカレン",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "宵哭きの鉄杭",
+            "piece": 10
+          },
+          {
+            "name": "禍罪の矢尻",
+            "piece": 5
+          },
+          {
+            "name": "混沌の爪",
+            "piece": 5
+          },
+          {
+            "name": "蛮神の心臓",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "アーチャーピース",
+          "piece": 5
+        },
+        {
+          "name": "キャスターピース",
+          "piece": 5
+        },
+        {
+          "name": "バーサーカーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 5
+        },
+        {
+          "name": "ランサーピース",
+          "piece": 5
+        },
+        {
+          "name": "ライダーピース",
+          "piece": 5
+        },
+        {
+          "name": "アサシンピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "アーチャーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "キャスターモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "バーサーカーモニュメント",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "ランサーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "ライダーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "アサシンモニュメント",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "弓の輝石",
+          "piece": 5
+        },
+        {
+          "name": "術の輝石",
+          "piece": 5
+        },
+        {
+          "name": "狂の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 5
+        },
+        {
+          "name": "槍の輝石",
+          "piece": 5
+        },
+        {
+          "name": "騎の輝石",
+          "piece": 5
+        },
+        {
+          "name": "殺の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "弓の魔石",
+          "piece": 5
+        },
+        {
+          "name": "術の魔石",
+          "piece": 5
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 5
+        },
+        {
+          "name": "槍の魔石",
+          "piece": 5
+        },
+        {
+          "name": "騎の魔石",
+          "piece": 5
+        },
+        {
+          "name": "殺の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "弓の秘石",
+          "piece": 5
+        },
+        {
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 5
+        },
+        {
+          "name": "槍の秘石",
+          "piece": 5
+        },
+        {
+          "name": "騎の秘石",
+          "piece": 5
+        },
+        {
+          "name": "殺の秘石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "禍罪の矢尻",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "虹の糸玉",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
