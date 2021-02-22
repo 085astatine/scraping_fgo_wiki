@@ -34,7 +34,7 @@ def sound_list() -> List[Sound]:
     for i, table in enumerate(etree.xpath(xpath)):
         source = source_list[i]
         for k, row in enumerate(table.xpath('tbody/tr')):
-            sound = _parse_sound(source, (i + 1) * 1000 + k, row)
+            sound = _parse_sound(source, k, row)
             if sound is not None:
                 _logger.info(
                         'sound: %s, %d, "%s"',
