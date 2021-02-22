@@ -13,8 +13,8 @@ _logger = logging.getLogger(__name__)
 
 
 class Sound(TypedDict):
-    id: int
     source: str
+    index: int
     title: str
     resource: ResourceSet
 
@@ -34,24 +34,28 @@ def sound_list() -> List[Sound]:
     for i, table in enumerate(etree.xpath(xpath)):
         source = source_list[i]
         for k, row in enumerate(table.xpath('tbody/tr')):
-            sound = _parse_sound((i + 1) * 1000 + k, source, row)
+            sound = _parse_sound(source, (i + 1) * 1000 + k, row)
             if sound is not None:
-                _logger.info('sound %d: %s', sound['id'], sound['title'])
+                _logger.info(
+                        'sound: %s, %d, "%s"',
+                        sound['source'],
+                        sound['index'],
+                        sound['title'])
                 result.append(sound)
     return result
 
 
 def _parse_sound(
-        id: int,
         source: str,
+        index: int,
         row: lxml.html.HtmlElement) -> Optional[Sound]:
     cells = row.xpath('td')
     if len(cells) < 2:
-        _logger.error('parse failed: %d', id)
+        _logger.error('parse failed: %s, %d', source, index)
         return None
     return Sound(
-            id=id,
             source=source,
+            index=index,
             title=cells[1].text_content().strip(),
             resource=_parse_resource(cells[2]))
 
