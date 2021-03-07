@@ -21,6 +21,13 @@
         "name": "プランニング",
         "rank": "B",
         "icon": 604
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "十歩殺一人",
+        "rank": "B+",
+        "icon": 301
       }
     ],
     "skill_3": [

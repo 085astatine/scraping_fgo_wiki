@@ -28,6 +28,13 @@
         "name": "洗礼詠唱",
         "rank": "B+",
         "icon": 607
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "熾天の杯",
+        "rank": "EX",
+        "icon": 607
       }
     ],
     "skill_3": [

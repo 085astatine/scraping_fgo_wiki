@@ -21,6 +21,13 @@
         "name": "水月",
         "rank": "B",
         "icon": 402
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "水月",
+        "rank": "B++",
+        "icon": 402
       }
     ],
     "skill_3": [
