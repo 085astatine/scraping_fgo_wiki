@@ -28,6 +28,13 @@
         "name": "洗礼詠唱",
         "rank": "B+",
         "icon": 607
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "熾天の杯",
+        "rank": "EX",
+        "icon": 607
       }
     ],
     "skill_3": [
@@ -47,7 +54,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 52,
+      "name": "怪盗天草四郎",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "魔術髄液",
+            "piece": 10
+          },
+          {
+            "name": "無間の歯車",
+            "piece": 5
+          },
+          {
+            "name": "鳳凰の羽根",
+            "piece": 5
+          },
+          {
+            "name": "真理の卵",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

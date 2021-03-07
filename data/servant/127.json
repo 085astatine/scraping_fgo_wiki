@@ -21,6 +21,13 @@
         "name": "黄金律（体）",
         "rank": "B",
         "icon": 606
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "モナ・リザ",
+        "rank": "A+",
+        "icon": 606
       }
     ],
     "skill_3": [
