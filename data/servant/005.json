@@ -90,6 +90,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 54,
+      "name": "覇嵐蛮嬢ラプソディア",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "竜の牙",
+            "piece": 10
+          },
+          {
+            "name": "八連双晶",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "竜の逆鱗",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

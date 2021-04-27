@@ -79,6 +79,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 57,
+      "name": "愛しき私の敵対者",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "愚者の鎖",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "悠久の実",
+            "piece": 5
+          },
+          {
+            "name": "九十九鏡",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [
