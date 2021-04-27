@@ -1,85 +1,45 @@
 {
-  "id": 8,
-  "name": "アルテラ",
+  "id": 307,
+  "name": "ミス・クレーン ",
   "alias_name": null,
-  "klass": "Saber",
+  "klass": "Caster",
   "rarity": 5,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "軍略",
-        "rank": "B",
-        "icon": 302
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "神の鞭",
-        "rank": "A",
-        "icon": 302
+        "name": "レディの衣装な愛情",
+        "rank": "EX",
+        "icon": 403
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "天性の肉体",
-        "rank": "D",
-        "icon": 401
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "天性の肉体",
-        "rank": "EX",
-        "icon": 401
+        "name": "一夜羽織",
+        "rank": "B",
+        "icon": 601
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "星の紋章",
-        "rank": "EX",
-        "icon": 300
+        "name": "千年の報恩",
+        "rank": "A",
+        "icon": 311
       }
     ]
   },
-  "costumes": [
-    {
-      "id": 53,
-      "name": "掌の星屑",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "虚影の塵",
-            "piece": 10
-          },
-          {
-            "name": "隕蹄鉄",
-            "piece": 5
-          },
-          {
-            "name": "戦馬の幼角",
-            "piece": 5
-          },
-          {
-            "name": "煌星のカケラ",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
+  "costumes": [],
   "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
         {
-          "name": "セイバーピース",
+          "name": "キャスターピース",
           "piece": 5
         }
       ]
@@ -88,12 +48,12 @@
       "qp": 300000,
       "resources": [
         {
-          "name": "セイバーピース",
+          "name": "キャスターピース",
           "piece": 12
         },
         {
-          "name": "虚影の塵",
-          "piece": 15
+          "name": "鳳凰の羽根",
+          "piece": 6
         }
       ]
     },
@@ -101,15 +61,15 @@
       "qp": 1000000,
       "resources": [
         {
-          "name": "セイバーモニュメント",
+          "name": "キャスターモニュメント",
           "piece": 5
         },
         {
-          "name": "混沌の爪",
+          "name": "封魔のランプ",
           "piece": 6
         },
         {
-          "name": "隕蹄鉄",
+          "name": "無間の歯車",
           "piece": 5
         }
       ]
@@ -118,16 +78,16 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "セイバーモニュメント",
+          "name": "キャスターモニュメント",
           "piece": 12
         },
         {
-          "name": "隕蹄鉄",
+          "name": "無間の歯車",
           "piece": 10
         },
         {
-          "name": "蛮神の心臓",
-          "piece": 5
+          "name": "虹の糸玉",
+          "piece": 12
         }
       ]
     }
@@ -137,7 +97,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "剣の輝石",
+          "name": "術の輝石",
           "piece": 5
         }
       ]
@@ -146,7 +106,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "剣の輝石",
+          "name": "術の輝石",
           "piece": 12
         }
       ]
@@ -155,7 +115,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "剣の魔石",
+          "name": "術の魔石",
           "piece": 5
         }
       ]
@@ -164,11 +124,11 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "剣の魔石",
+          "name": "術の魔石",
           "piece": 12
         },
         {
-          "name": "混沌の爪",
+          "name": "封魔のランプ",
           "piece": 3
         }
       ]
@@ -177,11 +137,11 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "剣の秘石",
+          "name": "術の秘石",
           "piece": 5
         },
         {
-          "name": "混沌の爪",
+          "name": "封魔のランプ",
           "piece": 6
         }
       ]
@@ -190,12 +150,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "剣の秘石",
+          "name": "術の秘石",
           "piece": 12
         },
         {
-          "name": "虚影の塵",
-          "piece": 10
+          "name": "鳳凰の羽根",
+          "piece": 4
         }
       ]
     },
@@ -203,12 +163,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "虚影の塵",
-          "piece": 20
+          "name": "鳳凰の羽根",
+          "piece": 8
         },
         {
-          "name": "凶骨",
-          "piece": 18
+          "name": "九十九鏡",
+          "piece": 3
         }
       ]
     },
@@ -216,12 +176,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "凶骨",
-          "piece": 54
+          "name": "九十九鏡",
+          "piece": 8
         },
         {
-          "name": "蛮神の心臓",
-          "piece": 10
+          "name": "虹の糸玉",
+          "piece": 24
         }
       ]
     },

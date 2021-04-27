@@ -37,10 +37,43 @@
         "name": "静寂の舞踏",
         "rank": "B",
         "icon": 522
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "青ざめた死の舞踏",
+        "rank": "A",
+        "icon": 522
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 61,
+      "name": "夜に咲く毒の華",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "万死の毒針",
+            "piece": 10
+          },
+          {
+            "name": "ゴーストランタン",
+            "piece": 5
+          },
+          {
+            "name": "鳳凰の羽根",
+            "piece": 5
+          },
+          {
+            "name": "呪獣胆石",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 30000,

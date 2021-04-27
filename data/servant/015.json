@@ -33,7 +33,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 55,
+      "name": "mirage",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "魔術髄液",
+            "piece": 10
+          },
+          {
+            "name": "オーロラ鋼",
+            "piece": 5
+          },
+          {
+            "name": "神脈霊子",
+            "piece": 5
+          },
+          {
+            "name": "蛮神の心臓",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 30000,

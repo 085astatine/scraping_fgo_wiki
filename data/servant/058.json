@@ -47,7 +47,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 62,
+      "name": "笑顔 glory day",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "宵哭きの鉄杭",
+            "piece": 10
+          },
+          {
+            "name": "巨人の指輪",
+            "piece": 5
+          },
+          {
+            "name": "混沌の爪",
+            "piece": 5
+          },
+          {
+            "name": "奇奇神酒",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

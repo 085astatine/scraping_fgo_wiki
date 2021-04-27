@@ -21,6 +21,13 @@
         "name": "透化",
         "rank": "B+",
         "icon": 608
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "透化",
+        "rank": "A+",
+        "icon": 608
       }
     ],
     "skill_3": [

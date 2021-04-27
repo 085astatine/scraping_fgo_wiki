@@ -21,6 +21,13 @@
         "name": "マハトマ",
         "rank": "A",
         "icon": 605
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "マハトマ",
+        "rank": "A++",
+        "icon": 605
       }
     ],
     "skill_3": [
@@ -33,7 +40,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 58,
+      "name": "それってとってもマハトマね☆",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "励振火薬",
+            "piece": 10
+          },
+          {
+            "name": "禁断の頁",
+            "piece": 5
+          },
+          {
+            "name": "暁光炉心",
+            "piece": 5
+          },
+          {
+            "name": "真理の卵",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,
