@@ -2091,5 +2091,26 @@
     "klass": "Ruler",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/4995.html"
+  },
+  {
+    "id": 306,
+    "name": "ガラテア",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5028.html"
+  },
+  {
+    "id": 307,
+    "name": "ミス・クレーン ",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5044.html"
+  },
+  {
+    "id": 308,
+    "name": "謎のアイドルX〔オルタ〕",
+    "klass": "Foreigner",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5046.html"
   }
 ]
