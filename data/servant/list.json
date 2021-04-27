@@ -1,0 +1,2095 @@
+[
+  {
+    "id": 1,
+    "name": "マシュ・キリエライト",
+    "klass": "Shielder",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/55.html"
+  },
+  {
+    "id": 2,
+    "name": "アルトリア・ペンドラゴン",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/31.html"
+  },
+  {
+    "id": 3,
+    "name": "アルトリア・ペンドラゴン〔オルタ〕",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/609.html"
+  },
+  {
+    "id": 4,
+    "name": "アルトリア・ペンドラゴン〔リリィ〕",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/92.html"
+  },
+  {
+    "id": 5,
+    "name": "ネロ・クラウディウス",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/142.html"
+  },
+  {
+    "id": 6,
+    "name": "ジークフリート",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/56.html"
+  },
+  {
+    "id": 7,
+    "name": "ガイウス・ユリウス・カエサル",
+    "klass": "Saber",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/57.html"
+  },
+  {
+    "id": 8,
+    "name": "アルテラ",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/85.html"
+  },
+  {
+    "id": 9,
+    "name": "ジル・ド・レェ",
+    "klass": "Saber",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/58.html"
+  },
+  {
+    "id": 10,
+    "name": "シュヴァリエ・デオン",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/59.html"
+  },
+  {
+    "id": 11,
+    "name": "エミヤ",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/88.html"
+  },
+  {
+    "id": 12,
+    "name": "ギルガメッシュ",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/250.html"
+  },
+  {
+    "id": 13,
+    "name": "ロビンフッド",
+    "klass": "Archer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/60.html"
+  },
+  {
+    "id": 14,
+    "name": "アタランテ",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/257.html"
+  },
+  {
+    "id": 15,
+    "name": "エウリュアレ",
+    "klass": "Archer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/299.html"
+  },
+  {
+    "id": 16,
+    "name": "アーラシュ",
+    "klass": "Archer",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/74.html"
+  },
+  {
+    "id": 17,
+    "name": "クー・フーリン",
+    "klass": "Lancer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/119.html"
+  },
+  {
+    "id": 18,
+    "name": "エリザベート・バートリー",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/50.html"
+  },
+  {
+    "id": 19,
+    "name": "武蔵坊弁慶",
+    "klass": "Lancer",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/110.html"
+  },
+  {
+    "id": 20,
+    "name": "クー・フーリン〔プロトタイプ〕",
+    "klass": "Lancer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/255.html"
+  },
+  {
+    "id": 21,
+    "name": "レオニダス一世",
+    "klass": "Lancer",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/143.html"
+  },
+  {
+    "id": 22,
+    "name": "ロムルス",
+    "klass": "Lancer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/94.html"
+  },
+  {
+    "id": 23,
+    "name": "メドゥーサ",
+    "klass": "Rider",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/61.html"
+  },
+  {
+    "id": 24,
+    "name": "ゲオルギウス",
+    "klass": "Rider",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/62.html"
+  },
+  {
+    "id": 25,
+    "name": "エドワード・ティーチ",
+    "klass": "Rider",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/154.html"
+  },
+  {
+    "id": 26,
+    "name": "ブーディカ",
+    "klass": "Rider",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/63.html"
+  },
+  {
+    "id": 27,
+    "name": "牛若丸",
+    "klass": "Rider",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/95.html"
+  },
+  {
+    "id": 28,
+    "name": "アレキサンダー",
+    "klass": "Rider",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/96.html"
+  },
+  {
+    "id": 29,
+    "name": "マリー・アントワネット",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/71.html"
+  },
+  {
+    "id": 30,
+    "name": "マルタ",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/64.html"
+  },
+  {
+    "id": 31,
+    "name": "メディア",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/254.html"
+  },
+  {
+    "id": 32,
+    "name": "ジル・ド・レェ",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/155.html"
+  },
+  {
+    "id": 33,
+    "name": "ハンス・クリスチャン・アンデルセン",
+    "klass": "Caster",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/127.html"
+  },
+  {
+    "id": 34,
+    "name": "ウィリアム・シェイクスピア",
+    "klass": "Caster",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/173.html"
+  },
+  {
+    "id": 35,
+    "name": "メフィストフェレス",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/67.html"
+  },
+  {
+    "id": 36,
+    "name": "ヴォルフガング・アマデウス・モーツァルト",
+    "klass": "Caster",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/75.html"
+  },
+  {
+    "id": 37,
+    "name": "諸葛孔明〔エルメロイⅡ世〕",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/47.html"
+  },
+  {
+    "id": 38,
+    "name": "クー・フーリン",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/109.html"
+  },
+  {
+    "id": 39,
+    "name": "佐々木小次郎",
+    "klass": "Assassin",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/118.html"
+  },
+  {
+    "id": 40,
+    "name": "呪腕のハサン",
+    "klass": "Assassin",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/156.html"
+  },
+  {
+    "id": 41,
+    "name": "ステンノ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/89.html"
+  },
+  {
+    "id": 42,
+    "name": "荊軻",
+    "klass": "Assassin",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/97.html"
+  },
+  {
+    "id": 43,
+    "name": "シャルル＝アンリ・サンソン",
+    "klass": "Assassin",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/153.html"
+  },
+  {
+    "id": 44,
+    "name": "ファントム・オブ・ジ・オペラ",
+    "klass": "Assassin",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/104.html"
+  },
+  {
+    "id": 45,
+    "name": "マタ・ハリ",
+    "klass": "Assassin",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/53.html"
+  },
+  {
+    "id": 46,
+    "name": "カーミラ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/90.html"
+  },
+  {
+    "id": 47,
+    "name": "ヘラクレス",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/83.html"
+  },
+  {
+    "id": 48,
+    "name": "ランスロット",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1150.html"
+  },
+  {
+    "id": 49,
+    "name": "呂布奉先",
+    "klass": "Berserker",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/76.html"
+  },
+  {
+    "id": 50,
+    "name": "スパルタクス",
+    "klass": "Berserker",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/77.html"
+  },
+  {
+    "id": 51,
+    "name": "坂田金時",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/297.html"
+  },
+  {
+    "id": 52,
+    "name": "ヴラド三世",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/87.html"
+  },
+  {
+    "id": 53,
+    "name": "アステリオス",
+    "klass": "Berserker",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/78.html"
+  },
+  {
+    "id": 54,
+    "name": "カリギュラ",
+    "klass": "Berserker",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/79.html"
+  },
+  {
+    "id": 55,
+    "name": "ダレイオス三世",
+    "klass": "Berserker",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/80.html"
+  },
+  {
+    "id": 56,
+    "name": "清姫",
+    "klass": "Berserker",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/54.html"
+  },
+  {
+    "id": 57,
+    "name": "エイリーク・ブラッドアクス",
+    "klass": "Berserker",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/81.html"
+  },
+  {
+    "id": 58,
+    "name": "タマモキャット",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/91.html"
+  },
+  {
+    "id": 59,
+    "name": "ジャンヌ・ダルク",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/86.html"
+  },
+  {
+    "id": 60,
+    "name": "オリオン",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/318.html"
+  },
+  {
+    "id": 61,
+    "name": "エリザベート・バートリー〔ハロウィン〕",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/382.html"
+  },
+  {
+    "id": 62,
+    "name": "玉藻の前",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/392.html"
+  },
+  {
+    "id": 63,
+    "name": "ダビデ",
+    "klass": "Archer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/412.html"
+  },
+  {
+    "id": 64,
+    "name": "ヘクトール",
+    "klass": "Lancer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/413.html"
+  },
+  {
+    "id": 65,
+    "name": "フランシス・ドレイク",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/416.html"
+  },
+  {
+    "id": 66,
+    "name": "アン・ボニー＆メアリー・リード",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/415.html"
+  },
+  {
+    "id": 67,
+    "name": "メディア〔リリィ〕",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/433.html"
+  },
+  {
+    "id": 68,
+    "name": "沖田総司",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/478.html"
+  },
+  {
+    "id": 69,
+    "name": "織田信長",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/477.html"
+  },
+  {
+    "id": 70,
+    "name": "スカサハ",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/497.html"
+  },
+  {
+    "id": 71,
+    "name": "ディルムッド・オディナ",
+    "klass": "Lancer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/499.html"
+  },
+  {
+    "id": 72,
+    "name": "フェルグス・マック・ロイ",
+    "klass": "Saber",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/505.html"
+  },
+  {
+    "id": 73,
+    "name": "アルトリア・ペンドラゴン〔サンタオルタ〕",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/520.html"
+  },
+  {
+    "id": 74,
+    "name": "ナーサリー・ライム",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/522.html"
+  },
+  {
+    "id": 75,
+    "name": "ジャック・ザ・リッパー",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/521.html"
+  },
+  {
+    "id": 76,
+    "name": "モードレッド",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/551.html"
+  },
+  {
+    "id": 77,
+    "name": "ニコラ・テスラ",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/581.html"
+  },
+  {
+    "id": 78,
+    "name": "アルトリア・ペンドラゴン〔オルタ〕",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/580.html"
+  },
+  {
+    "id": 79,
+    "name": "ヴァン・ホーエンハイム・パラケルスス",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/554.html"
+  },
+  {
+    "id": 80,
+    "name": "チャールズ・バベッジ",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/555.html"
+  },
+  {
+    "id": 81,
+    "name": "ヘンリー・ジキル＆ハイド",
+    "klass": "Assassin",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/553.html"
+  },
+  {
+    "id": 82,
+    "name": "フランケンシュタイン",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/552.html"
+  },
+  {
+    "id": 84,
+    "name": "アルジュナ",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/595.html"
+  },
+  {
+    "id": 85,
+    "name": "カルナ",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/596.html"
+  },
+  {
+    "id": 86,
+    "name": "謎のヒロインX",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/634.html"
+  },
+  {
+    "id": 87,
+    "name": "フィン・マックール",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/662.html"
+  },
+  {
+    "id": 88,
+    "name": "ブリュンヒルデ",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/660.html"
+  },
+  {
+    "id": 89,
+    "name": "ベオウルフ",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/661.html"
+  },
+  {
+    "id": 90,
+    "name": "ネロ・クラウディウス〔ブライド〕",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/674.html"
+  },
+  {
+    "id": 91,
+    "name": "両儀式",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/706.html"
+  },
+  {
+    "id": 92,
+    "name": "両儀式",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/705.html"
+  },
+  {
+    "id": 93,
+    "name": "天草四郎",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/737.html"
+  },
+  {
+    "id": 94,
+    "name": "アストルフォ",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/736.html"
+  },
+  {
+    "id": 95,
+    "name": "子ギル",
+    "klass": "Archer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/735.html"
+  },
+  {
+    "id": 96,
+    "name": "巌窟王",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/759.html"
+  },
+  {
+    "id": 97,
+    "name": "ナイチンゲール",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/804.html"
+  },
+  {
+    "id": 98,
+    "name": "クー・フーリン〔オルタ〕",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/825.html"
+  },
+  {
+    "id": 99,
+    "name": "女王メイヴ",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/826.html"
+  },
+  {
+    "id": 100,
+    "name": "エレナ・ブラヴァツキー",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/805.html"
+  },
+  {
+    "id": 101,
+    "name": "ラーマ",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/806.html"
+  },
+  {
+    "id": 102,
+    "name": "李書文",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/827.html"
+  },
+  {
+    "id": 103,
+    "name": "トーマス・エジソン",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/824.html"
+  },
+  {
+    "id": 104,
+    "name": "ジェロニモ",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/807.html"
+  },
+  {
+    "id": 105,
+    "name": "ビリー・ザ・キッド",
+    "klass": "Archer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/808.html"
+  },
+  {
+    "id": 106,
+    "name": "ジャンヌ・ダルク〔オルタ〕",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/857.html"
+  },
+  {
+    "id": 107,
+    "name": "アンリマユ",
+    "klass": "Avenger",
+    "rarity": 0,
+    "url": "//w.atwiki.jp/f_go/pages/894.html"
+  },
+  {
+    "id": 108,
+    "name": "イスカンダル",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/884.html"
+  },
+  {
+    "id": 109,
+    "name": "エミヤ〔アサシン〕",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/885.html"
+  },
+  {
+    "id": 110,
+    "name": "百貌のハサン",
+    "klass": "Assassin",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/1737.html"
+  },
+  {
+    "id": 111,
+    "name": "アイリスフィール〔天の衣〕",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/903.html"
+  },
+  {
+    "id": 112,
+    "name": "酒呑童子",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/957.html"
+  },
+  {
+    "id": 113,
+    "name": "玄奘三蔵",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1016.html"
+  },
+  {
+    "id": 114,
+    "name": "源頼光",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1092.html"
+  },
+  {
+    "id": 115,
+    "name": "坂田金時",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1084.html"
+  },
+  {
+    "id": 116,
+    "name": "茨木童子",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1093.html"
+  },
+  {
+    "id": 117,
+    "name": "風魔小太郎",
+    "klass": "Assassin",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/1094.html"
+  },
+  {
+    "id": 118,
+    "name": "オジマンディアス",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1145.html"
+  },
+  {
+    "id": 119,
+    "name": "アルトリア・ペンドラゴン",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1157.html"
+  },
+  {
+    "id": 120,
+    "name": "ニトクリス",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1146.html"
+  },
+  {
+    "id": 121,
+    "name": "ランスロット",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1147.html"
+  },
+  {
+    "id": 122,
+    "name": "トリスタン",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1158.html"
+  },
+  {
+    "id": 123,
+    "name": "ガウェイン",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1159.html"
+  },
+  {
+    "id": 124,
+    "name": "静謐のハサン",
+    "klass": "Assassin",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/1148.html"
+  },
+  {
+    "id": 125,
+    "name": "俵藤太",
+    "klass": "Archer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/1149.html"
+  },
+  {
+    "id": 126,
+    "name": "ベディヴィエール",
+    "klass": "Saber",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/1160.html"
+  },
+  {
+    "id": 127,
+    "name": "レオナルド・ダ・ヴィンチ",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/541.html"
+  },
+  {
+    "id": 128,
+    "name": "玉藻の前",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1236.html"
+  },
+  {
+    "id": 129,
+    "name": "アルトリア・ペンドラゴン",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1259.html"
+  },
+  {
+    "id": 130,
+    "name": "マリー・アントワネット",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1260.html"
+  },
+  {
+    "id": 131,
+    "name": "アン・ボニー＆メアリー・リード",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1237.html"
+  },
+  {
+    "id": 132,
+    "name": "モードレッド",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1238.html"
+  },
+  {
+    "id": 133,
+    "name": "スカサハ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1235.html"
+  },
+  {
+    "id": 134,
+    "name": "清姫",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1239.html"
+  },
+  {
+    "id": 135,
+    "name": "マルタ",
+    "klass": "Ruler",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1261.html"
+  },
+  {
+    "id": 136,
+    "name": "イリヤスフィール・フォン・アインツベルン",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1338.html"
+  },
+  {
+    "id": 137,
+    "name": "クロエ・フォン・アインツベルン",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1339.html"
+  },
+  {
+    "id": 138,
+    "name": "エリザベート・バートリー〔ブレイブ〕",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1411.html"
+  },
+  {
+    "id": 139,
+    "name": "クレオパトラ",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1436.html"
+  },
+  {
+    "id": 140,
+    "name": "ヴラド三世〔EXTRA〕",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1437.html"
+  },
+  {
+    "id": 141,
+    "name": "ジャンヌ・ダルク・オルタ・サンタ・リリィ",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1522.html"
+  },
+  {
+    "id": 142,
+    "name": "イシュタル",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1525.html"
+  },
+  {
+    "id": 143,
+    "name": "エルキドゥ",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1551.html"
+  },
+  {
+    "id": 144,
+    "name": "ケツァル・コアトル",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1566.html"
+  },
+  {
+    "id": 145,
+    "name": "ギルガメッシュ",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1553.html"
+  },
+  {
+    "id": 146,
+    "name": "メドゥーサ",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1552.html"
+  },
+  {
+    "id": 147,
+    "name": "ゴルゴーン",
+    "klass": "Avenger",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1567.html"
+  },
+  {
+    "id": 148,
+    "name": "ジャガーマン",
+    "klass": "Lancer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/1568.html"
+  },
+  {
+    "id": 150,
+    "name": "マーリン",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1573.html"
+  },
+  {
+    "id": 153,
+    "name": "宮本武蔵",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1667.html"
+  },
+  {
+    "id": 154,
+    "name": "“山の翁”",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1581.html"
+  },
+  {
+    "id": 155,
+    "name": "謎のヒロインX〔オルタ〕",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1769.html"
+  },
+  {
+    "id": 156,
+    "name": "新宿のアーチャー",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1834.html"
+  },
+  {
+    "id": 157,
+    "name": "エミヤ〔オルタ〕",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1845.html"
+  },
+  {
+    "id": 158,
+    "name": "新宿のアヴェンジャー",
+    "klass": "Avenger",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1836.html"
+  },
+  {
+    "id": 159,
+    "name": "新宿のアサシン",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1835.html"
+  },
+  {
+    "id": 160,
+    "name": "アーサー・ペンドラゴン〔プロトタイプ〕",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1874.html"
+  },
+  {
+    "id": 161,
+    "name": "土方歳三",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1929.html"
+  },
+  {
+    "id": 162,
+    "name": "茶々",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1942.html"
+  },
+  {
+    "id": 163,
+    "name": "メルトリリス",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/1999.html"
+  },
+  {
+    "id": 164,
+    "name": "パッションリップ",
+    "klass": "AlterEgo",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2000.html"
+  },
+  {
+    "id": 165,
+    "name": "鈴鹿御前",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2001.html"
+  },
+  {
+    "id": 166,
+    "name": "ＢＢ",
+    "klass": "MoonCancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/1998.html"
+  },
+  {
+    "id": 167,
+    "name": "殺生院キアラ",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2035.html"
+  },
+  {
+    "id": 169,
+    "name": "不夜城のキャスター",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2127.html"
+  },
+  {
+    "id": 170,
+    "name": "不夜城のアサシン",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2128.html"
+  },
+  {
+    "id": 171,
+    "name": "エルドラドのバーサーカー",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2129.html"
+  },
+  {
+    "id": 172,
+    "name": "レジスタンスのライダー",
+    "klass": "Rider",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/2142.html"
+  },
+  {
+    "id": 173,
+    "name": "シャーロック・ホームズ",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2198.html"
+  },
+  {
+    "id": 174,
+    "name": "ポール・バニヤン",
+    "klass": "Berserker",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/2217.html"
+  },
+  {
+    "id": 175,
+    "name": "ネロ・クラウディウス",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2244.html"
+  },
+  {
+    "id": 176,
+    "name": "フランケンシュタイン",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2251.html"
+  },
+  {
+    "id": 177,
+    "name": "ニトクリス",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2241.html"
+  },
+  {
+    "id": 178,
+    "name": "織田信長",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2243.html"
+  },
+  {
+    "id": 179,
+    "name": "アルトリア・ペンドラゴン〔オルタ〕",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2254.html"
+  },
+  {
+    "id": 180,
+    "name": "エレナ・ブラヴァツキー",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2255.html"
+  },
+  {
+    "id": 181,
+    "name": "源頼光",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2256.html"
+  },
+  {
+    "id": 182,
+    "name": "イシュタル",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2240.html"
+  },
+  {
+    "id": 183,
+    "name": "パールヴァティー",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2410.html"
+  },
+  {
+    "id": 184,
+    "name": "アーチャー・インフェルノ",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2434.html"
+  },
+  {
+    "id": 185,
+    "name": "アサシン・パライソ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2436.html"
+  },
+  {
+    "id": 186,
+    "name": "宝蔵院胤舜",
+    "klass": "Lancer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/2437.html"
+  },
+  {
+    "id": 187,
+    "name": "柳生但馬守宗矩",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2449.html"
+  },
+  {
+    "id": 188,
+    "name": "加藤段蔵",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2450.html"
+  },
+  {
+    "id": 189,
+    "name": "刑部姫",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2469.html"
+  },
+  {
+    "id": 190,
+    "name": "メカエリチャン",
+    "klass": "AlterEgo",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2471.html"
+  },
+  {
+    "id": 191,
+    "name": "メカエリチャンⅡ号機",
+    "klass": "AlterEgo",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2500.html"
+  },
+  {
+    "id": 192,
+    "name": "オケアノスのキャスター",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2546.html"
+  },
+  {
+    "id": 193,
+    "name": "哪吒",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2543.html"
+  },
+  {
+    "id": 194,
+    "name": "ミドラーシュのキャスター",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2561.html"
+  },
+  {
+    "id": 195,
+    "name": "アビゲイル・ウィリアムズ",
+    "klass": "Foreigner",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2572.html"
+  },
+  {
+    "id": 196,
+    "name": "エレシュキガル",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2580.html"
+  },
+  {
+    "id": 197,
+    "name": "アルテラ・ザ・サン〔タ〕",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/2591.html"
+  },
+  {
+    "id": 198,
+    "name": "葛飾北斎",
+    "klass": "Foreigner",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2854.html"
+  },
+  {
+    "id": 199,
+    "name": "セミラミス",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/2959.html"
+  },
+  {
+    "id": 200,
+    "name": "浅上藤乃",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3003.html"
+  },
+  {
+    "id": 201,
+    "name": "アナスタシア",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3090.html"
+  },
+  {
+    "id": 202,
+    "name": "アタランテ〔オルタ〕",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3107.html"
+  },
+  {
+    "id": 203,
+    "name": "アヴィケブロン",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/3108.html"
+  },
+  {
+    "id": 204,
+    "name": "アントニオ・サリエリ",
+    "klass": "Avenger",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/3117.html"
+  },
+  {
+    "id": 205,
+    "name": "イヴァン雷帝",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3162.html"
+  },
+  {
+    "id": 206,
+    "name": "アキレウス",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3195.html"
+  },
+  {
+    "id": 207,
+    "name": "ケイローン",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3196.html"
+  },
+  {
+    "id": 208,
+    "name": "ジーク",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3197.html"
+  },
+  {
+    "id": 209,
+    "name": "沖田総司〔オルタ〕",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3281.html"
+  },
+  {
+    "id": 210,
+    "name": "岡田以蔵",
+    "klass": "Assassin",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/3280.html"
+  },
+  {
+    "id": 211,
+    "name": "坂本龍馬",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3278.html"
+  },
+  {
+    "id": 212,
+    "name": "ナポレオン",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3340.html"
+  },
+  {
+    "id": 213,
+    "name": "シグルド",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3349.html"
+  },
+  {
+    "id": 214,
+    "name": "ワルキューレ",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3350.html"
+  },
+  {
+    "id": 215,
+    "name": "スカサハ＝スカディ",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3375.html"
+  },
+  {
+    "id": 216,
+    "name": "ジャンヌ・ダルク",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3443.html"
+  },
+  {
+    "id": 217,
+    "name": "茨木童子",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3439.html"
+  },
+  {
+    "id": 218,
+    "name": "牛若丸",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3446.html"
+  },
+  {
+    "id": 219,
+    "name": "ジャンヌ・ダルク〔オルタ〕",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3447.html"
+  },
+  {
+    "id": 220,
+    "name": "ＢＢ",
+    "klass": "MoonCancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3449.html"
+  },
+  {
+    "id": 221,
+    "name": "女王メイヴ",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3453.html"
+  },
+  {
+    "id": 222,
+    "name": "謎のヒロインXX",
+    "klass": "Foreigner",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3454.html"
+  },
+  {
+    "id": 223,
+    "name": "ディルムッド・オディナ",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3592.html"
+  },
+  {
+    "id": 224,
+    "name": "シトナイ",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3669.html"
+  },
+  {
+    "id": 225,
+    "name": "酒呑童子",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3670.html"
+  },
+  {
+    "id": 226,
+    "name": "項羽",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3729.html"
+  },
+  {
+    "id": 227,
+    "name": "蘭陵王",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3730.html"
+  },
+  {
+    "id": 228,
+    "name": "秦良玉",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3731.html"
+  },
+  {
+    "id": 229,
+    "name": "始皇帝",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3767.html"
+  },
+  {
+    "id": 230,
+    "name": "虞美人",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3769.html"
+  },
+  {
+    "id": 231,
+    "name": "赤兎馬",
+    "klass": "Rider",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/3770.html"
+  },
+  {
+    "id": 232,
+    "name": "ブラダマンテ",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3792.html"
+  },
+  {
+    "id": 233,
+    "name": "ケツァル・コアトル〔サンバ／サンタ〕",
+    "klass": "Ruler",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3791.html"
+  },
+  {
+    "id": 234,
+    "name": "紅閻魔",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3824.html"
+  },
+  {
+    "id": 235,
+    "name": "李書文",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3852.html"
+  },
+  {
+    "id": 236,
+    "name": "美遊・エーデルフェルト",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/3877.html"
+  },
+  {
+    "id": 237,
+    "name": "紫式部",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3899.html"
+  },
+  {
+    "id": 238,
+    "name": "キングプロテア",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3940.html"
+  },
+  {
+    "id": 239,
+    "name": "カーマ",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/3984.html"
+  },
+  {
+    "id": 241,
+    "name": "司馬懿〔ライネス〕",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4019.html"
+  },
+  {
+    "id": 242,
+    "name": "アストライア",
+    "klass": "Ruler",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4020.html"
+  },
+  {
+    "id": 243,
+    "name": "グレイ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4022.html"
+  },
+  {
+    "id": 244,
+    "name": "ジナコ＝カリギリ",
+    "klass": "MoonCancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4069.html"
+  },
+  {
+    "id": 245,
+    "name": "ラクシュミー・バーイー",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4070.html"
+  },
+  {
+    "id": 246,
+    "name": "ウィリアム・テル",
+    "klass": "Archer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/4072.html"
+  },
+  {
+    "id": 247,
+    "name": "アルジュナ〔オルタ〕",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4085.html"
+  },
+  {
+    "id": 248,
+    "name": "アシュヴァッターマン",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4088.html"
+  },
+  {
+    "id": 249,
+    "name": "アスクレピオス",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/4089.html"
+  },
+  {
+    "id": 250,
+    "name": "魔王信長",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4128.html"
+  },
+  {
+    "id": 251,
+    "name": "森長可",
+    "klass": "Berserker",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/4131.html"
+  },
+  {
+    "id": 252,
+    "name": "長尾景虎",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4126.html"
+  },
+  {
+    "id": 253,
+    "name": "レオナルド・ダ・ヴィンチ",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4185.html"
+  },
+  {
+    "id": 254,
+    "name": "イアソン",
+    "klass": "Saber",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/4177.html"
+  },
+  {
+    "id": 255,
+    "name": "パリス",
+    "klass": "Archer",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/4179.html"
+  },
+  {
+    "id": 256,
+    "name": "ガレス",
+    "klass": "Lancer",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/4180.html"
+  },
+  {
+    "id": 257,
+    "name": "バーソロミュー・ロバーツ",
+    "klass": "Rider",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/4174.html"
+  },
+  {
+    "id": 258,
+    "name": "陳宮",
+    "klass": "Caster",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/4173.html"
+  },
+  {
+    "id": 259,
+    "name": "シャルロット・コルデー",
+    "klass": "Assassin",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/4175.html"
+  },
+  {
+    "id": 260,
+    "name": "サロメ",
+    "klass": "Berserker",
+    "rarity": 2,
+    "url": "//w.atwiki.jp/f_go/pages/4182.html"
+  },
+  {
+    "id": 261,
+    "name": "宮本武蔵",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4244.html"
+  },
+  {
+    "id": 262,
+    "name": "刑部姫",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4245.html"
+  },
+  {
+    "id": 263,
+    "name": "カーミラ",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4248.html"
+  },
+  {
+    "id": 264,
+    "name": "葛飾北斎",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4249.html"
+  },
+  {
+    "id": 265,
+    "name": "アルトリア・ペンドラゴン",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4287.html"
+  },
+  {
+    "id": 266,
+    "name": "謎のアルターエゴ・Λ",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4288.html"
+  },
+  {
+    "id": 267,
+    "name": "沖田総司",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4290.html"
+  },
+  {
+    "id": 268,
+    "name": "スペース・イシュタル",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4376.html"
+  },
+  {
+    "id": 269,
+    "name": "カラミティ・ジェーン",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4378.html"
+  },
+  {
+    "id": 270,
+    "name": "アストルフォ",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4408.html"
+  },
+  {
+    "id": 271,
+    "name": "ナイチンゲール〔サンタ〕",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4409.html"
+  },
+  {
+    "id": 272,
+    "name": "超人オリオン",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4438.html"
+  },
+  {
+    "id": 273,
+    "name": "マンドリカルド",
+    "klass": "Rider",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/4441.html"
+  },
+  {
+    "id": 274,
+    "name": "エウロペ",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4440.html"
+  },
+  {
+    "id": 275,
+    "name": "楊貴妃",
+    "klass": "Foreigner",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4478.html"
+  },
+  {
+    "id": 276,
+    "name": "清少納言",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4508.html"
+  },
+  {
+    "id": 277,
+    "name": "オデュッセウス",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4531.html"
+  },
+  {
+    "id": 278,
+    "name": "ディオスクロイ",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4552.html"
+  },
+  {
+    "id": 279,
+    "name": "カイニス",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4553.html"
+  },
+  {
+    "id": 280,
+    "name": "ロムルス＝クィリヌス",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4562.html"
+  },
+  {
+    "id": 281,
+    "name": "ボイジャー",
+    "klass": "Foreigner",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4587.html"
+  },
+  {
+    "id": 282,
+    "name": "鬼女紅葉",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4589.html"
+  },
+  {
+    "id": 283,
+    "name": "宇津見エリセ",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4608.html"
+  },
+  {
+    "id": 284,
+    "name": "アルトリア・キャスター",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4719.html"
+  },
+  {
+    "id": 285,
+    "name": "殺生院キアラ",
+    "klass": "MoonCancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4750.html"
+  },
+  {
+    "id": 286,
+    "name": "イリヤスフィール・フォン・アインツベルン",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4744.html"
+  },
+  {
+    "id": 287,
+    "name": "ブリュンヒルデ",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4748.html"
+  },
+  {
+    "id": 288,
+    "name": "虞美人",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4745.html"
+  },
+  {
+    "id": 289,
+    "name": "アビゲイル・ウィリアムズ〔夏〕",
+    "klass": "Foreigner",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4789.html"
+  },
+  {
+    "id": 290,
+    "name": "巴御前",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4790.html"
+  },
+  {
+    "id": 291,
+    "name": "紫式部",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4792.html"
+  },
+  {
+    "id": 292,
+    "name": "卑弥呼",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4836.html"
+  },
+  {
+    "id": 293,
+    "name": "斎藤一",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4838.html"
+  },
+  {
+    "id": 294,
+    "name": "織田信勝",
+    "klass": "Archer",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/4839.html"
+  },
+  {
+    "id": 295,
+    "name": "ヴァン・ゴッホ",
+    "klass": "Foreigner",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4872.html"
+  },
+  {
+    "id": 296,
+    "name": "ネモ",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4870.html"
+  },
+  {
+    "id": 297,
+    "name": "蘆屋道満",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4893.html"
+  },
+  {
+    "id": 298,
+    "name": "渡辺綱",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4895.html"
+  },
+  {
+    "id": 299,
+    "name": "伊吹童子",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4921.html"
+  },
+  {
+    "id": 300,
+    "name": "ヴリトラ",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4929.html"
+  },
+  {
+    "id": 301,
+    "name": "カルナ〔サンタ〕",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4928.html"
+  },
+  {
+    "id": 302,
+    "name": "千子村正",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4949.html"
+  },
+  {
+    "id": 303,
+    "name": "平景清",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4974.html"
+  },
+  {
+    "id": 304,
+    "name": "鬼一法眼",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/4972.html"
+  },
+  {
+    "id": 305,
+    "name": "アムール〔カレン〕",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/4995.html"
+  }
+]
