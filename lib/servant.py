@@ -397,28 +397,24 @@ def _load_servant(
         path: Optional[pathlib.Path] = None,
         force_update: bool = False,
         request_interval: float = 1.0) -> Servant:
-    result: Optional[Servant] = None
     # load
     if path is not None and not force_update:
         result = load_json(path)
         if result is not None:
             _logger.debug(
-                    'servant "%s" is load from "%s"',
+                    'servant "%s" is loaded from "%s"',
                     data['name'],
                     path)
             # check
             assert result['id'] == data['id']
-    # request URL
-    if result is None or force_update:
-        result = _parse_servant_page(data)
-        time.sleep(request_interval)
-        # save
-        if path is not None:
-            save_json(path, result)
-            _logger.debug(
-                'servant "%s" is saved to "%s"',
-                data['name'],
-                path)
+            return result
+    # request
+    result = _parse_servant_page(data)
+    time.sleep(request_interval)
+    # save
+    if path is not None:
+        save_json(path, result)
+        _logger.debug('servant "%s" is saved to "%s"', data['name'], path)
     return result
 
 
