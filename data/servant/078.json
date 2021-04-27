@@ -12,6 +12,13 @@
         "name": "魔力放出",
         "rank": "A+",
         "icon": 306
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "赤竜の息吹",
+        "rank": "EX",
+        "icon": 306
       }
     ],
     "skill_2": [

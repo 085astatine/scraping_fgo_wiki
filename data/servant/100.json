@@ -21,6 +21,13 @@
         "name": "マハトマ",
         "rank": "A",
         "icon": 605
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "マハトマ",
+        "rank": "A++",
+        "icon": 605
       }
     ],
     "skill_3": [
