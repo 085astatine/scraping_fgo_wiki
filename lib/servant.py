@@ -370,6 +370,27 @@ def _parse_costumes(
     return result
 
 
+def _load_servant_table(
+        *,
+        path: Optional[pathlib.Path] = None,
+        force_update: bool = False,
+        request_interval: float = 1.0) -> List[_ServantTable]:
+    # load
+    if path is not None and not force_update:
+        result = load_json(path)
+        if result is not None:
+            _logger.debug('servant table is loaded from "%s"', path)
+            return result
+    # request
+    result = _parse_servant_table()
+    time.sleep(request_interval)
+    # save
+    if path is not None:
+        save_json(path, result)
+        _logger.debug('savant table is saved to "%s"', path)
+    return result
+
+
 def _load_servant(
         data: _ServantTable,
         *,
@@ -406,7 +427,10 @@ def servant_list(
         directory: Optional[pathlib.Path] = None,
         force_update: bool = False,
         request_interval: float = 1.0) -> List[Servant]:
-    servant_table = _parse_servant_table()
+    servant_table = _load_servant_table(
+            path=directory.joinpath('list.json'),
+            force_update=force_update,
+            request_interval=request_interval)
     time.sleep(request_interval)
     result: List[Servant] = []
     for row in servant_table:
