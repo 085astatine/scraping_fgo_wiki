@@ -3,6 +3,7 @@
 import json
 import pathlib
 from typing import Any, Optional
+import yaml
 
 
 def load_json(
@@ -25,3 +26,25 @@ def save_json(
                 ensure_ascii=False,
                 indent=2)
         file.write('\n')
+
+
+def load_yaml(
+        path: pathlib.Path) -> Optional[Any]:
+    if not path.exists():
+        return None
+    with path.open() as file:
+        return yaml.safe_load(file)
+
+
+def save_yaml(
+        path: pathlib.Path,
+        data: Any) -> None:
+    if not path.parent.exists():
+        path.parent.mkdir(parents=True)
+    with path.open(mode='w') as file:
+        yaml.dump(
+                data,
+                file,
+                default_flow_style=False,
+                allow_unicode=True,
+                sort_keys=False)
