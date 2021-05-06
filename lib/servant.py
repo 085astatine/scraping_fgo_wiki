@@ -424,7 +424,8 @@ def servant_list(
         force_update: bool = False,
         request_interval: float = 1.0) -> List[Servant]:
     servant_table = _load_servant_table(
-            path=directory.joinpath('list.json'),
+            path=(directory.joinpath('list.json')
+                  if directory is not None else None),
             force_update=force_update,
             request_interval=request_interval)
     time.sleep(request_interval)
@@ -434,8 +435,7 @@ def servant_list(
         result.append(_load_servant(
                 row,
                 path=(directory.joinpath(f'{row["id"]:03d}.json')
-                      if directory is not None
-                      else None),
+                      if directory is not None else None),
                 force_update=force_update,
                 request_interval=request_interval))
     return result
