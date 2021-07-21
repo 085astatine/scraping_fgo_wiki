@@ -12,6 +12,13 @@
         "name": "軍略",
         "rank": "C",
         "icon": 302
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "騎士の軍略",
+        "rank": "B",
+        "icon": 302
       }
     ],
     "skill_2": [

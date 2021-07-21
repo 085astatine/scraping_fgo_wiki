@@ -12,6 +12,13 @@
         "name": "カリスマ",
         "rank": "B",
         "icon": 300
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "熱砂の神王",
+        "rank": "A",
+        "icon": 300
       }
     ],
     "skill_2": [
