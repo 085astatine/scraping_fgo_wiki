@@ -21,6 +21,13 @@
         "name": "略奪の鉾",
         "rank": "B",
         "icon": 515
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "簒奪の鉾",
+        "rank": "A",
+        "icon": 515
       }
     ],
     "skill_3": [

@@ -150,6 +150,11 @@
     "name": "励振火薬"
   },
   {
+    "id": 2010,
+    "rarity": "Bronze",
+    "name": "赦免の小鐘"
+  },
+  {
     "id": 2101,
     "rarity": "Silver",
     "name": "世界樹の種"
@@ -248,6 +253,11 @@
     "id": 2120,
     "rarity": "Silver",
     "name": "虹の糸玉"
+  },
+  {
+    "id": 2121,
+    "rarity": "Silver",
+    "name": "夢幻の鱗粉"
   },
   {
     "id": 2201,

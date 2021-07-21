@@ -1,25 +1,25 @@
 {
-  "id": 307,
-  "name": "ミス・クレーン",
+  "id": 309,
+  "name": "モルガン",
   "alias_name": null,
-  "klass": "Caster",
+  "klass": "Berserker",
   "rarity": 5,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "レディの衣装な愛情",
-        "rank": "EX",
-        "icon": 403
+        "name": "渇望のカリスマ",
+        "rank": "B",
+        "icon": 300
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "一夜羽織",
-        "rank": "B",
+        "name": "湖の加護",
+        "rank": "C",
         "icon": 601
       }
     ],
@@ -27,9 +27,9 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "千年の報恩",
+        "name": "最果てより",
         "rank": "A",
-        "icon": 311
+        "icon": 404
       }
     ]
   },
@@ -39,7 +39,7 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "キャスターピース",
+          "name": "バーサーカーピース",
           "piece": 5
         }
       ]
@@ -48,12 +48,12 @@
       "qp": 300000,
       "resources": [
         {
-          "name": "キャスターピース",
+          "name": "バーサーカーピース",
           "piece": 12
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 6
+          "name": "禁断の頁",
+          "piece": 8
         }
       ]
     },
@@ -61,16 +61,16 @@
       "qp": 1000000,
       "resources": [
         {
-          "name": "キャスターモニュメント",
+          "name": "バーサーカーモニュメント",
           "piece": 5
         },
         {
-          "name": "封魔のランプ",
-          "piece": 6
+          "name": "ホムンクルスベビー",
+          "piece": 10
         },
         {
-          "name": "無間の歯車",
-          "piece": 5
+          "name": "智慧のスカラベ",
+          "piece": 2
         }
       ]
     },
@@ -78,16 +78,16 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "キャスターモニュメント",
+          "name": "バーサーカーモニュメント",
           "piece": 12
         },
         {
-          "name": "無間の歯車",
-          "piece": 10
+          "name": "智慧のスカラベ",
+          "piece": 4
         },
         {
-          "name": "虹の糸玉",
-          "piece": 12
+          "name": "真理の卵",
+          "piece": 5
         }
       ]
     }
@@ -97,7 +97,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "術の輝石",
+          "name": "狂の輝石",
           "piece": 5
         }
       ]
@@ -106,7 +106,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "術の輝石",
+          "name": "狂の輝石",
           "piece": 12
         }
       ]
@@ -115,7 +115,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "術の魔石",
+          "name": "狂の魔石",
           "piece": 5
         }
       ]
@@ -124,12 +124,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "術の魔石",
+          "name": "狂の魔石",
           "piece": 12
         },
         {
-          "name": "封魔のランプ",
-          "piece": 3
+          "name": "ホムンクルスベビー",
+          "piece": 5
         }
       ]
     },
@@ -137,12 +137,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "術の秘石",
+          "name": "狂の秘石",
           "piece": 5
         },
         {
-          "name": "封魔のランプ",
-          "piece": 6
+          "name": "ホムンクルスベビー",
+          "piece": 10
         }
       ]
     },
@@ -150,12 +150,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "術の秘石",
+          "name": "狂の秘石",
           "piece": 12
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 4
+          "name": "禁断の頁",
+          "piece": 5
         }
       ]
     },
@@ -163,12 +163,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "鳳凰の羽根",
-          "piece": 8
+          "name": "禁断の頁",
+          "piece": 10
         },
         {
-          "name": "九十九鏡",
-          "piece": 3
+          "name": "悠久の実",
+          "piece": 4
         }
       ]
     },
@@ -176,11 +176,11 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "九十九鏡",
-          "piece": 8
+          "name": "悠久の実",
+          "piece": 11
         },
         {
-          "name": "虹の糸玉",
+          "name": "夢幻の鱗粉",
           "piece": 24
         }
       ]

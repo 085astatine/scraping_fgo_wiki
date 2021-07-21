@@ -12,6 +12,13 @@
         "name": "戦闘続行",
         "rank": "C",
         "icon": 404
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "狼は眠らず",
+        "rank": "B++",
+        "icon": 404
       }
     ],
     "skill_2": [

@@ -1,42 +1,35 @@
 {
-  "id": 122,
-  "name": "トリスタン",
+  "id": 313,
+  "name": "パーシヴァル",
   "alias_name": null,
-  "klass": "Archer",
+  "klass": "Lancer",
   "rarity": 4,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "治癒の竪琴",
-        "rank": "C",
-        "icon": 608
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "声高らかに愛を讃えん",
+        "name": "聖杯の加護",
         "rank": "A",
-        "icon": 304
+        "icon": 305
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "祝福されぬ生誕",
-        "rank": "B",
-        "icon": 601
+        "name": "守護騎士（聖槍）",
+        "rank": "B+",
+        "icon": 700
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "騎士王への諫言",
+        "name": "救済の光",
         "rank": "B",
-        "icon": 512
+        "icon": 403
       }
     ]
   },
@@ -46,7 +39,7 @@
       "qp": 50000,
       "resources": [
         {
-          "name": "アーチャーピース",
+          "name": "ランサーピース",
           "piece": 4
         }
       ]
@@ -55,12 +48,12 @@
       "qp": 150000,
       "resources": [
         {
-          "name": "アーチャーピース",
+          "name": "ランサーピース",
           "piece": 10
         },
         {
-          "name": "大騎士勲章",
-          "piece": 12
+          "name": "英雄の証",
+          "piece": 18
         }
       ]
     },
@@ -68,15 +61,15 @@
       "qp": 500000,
       "resources": [
         {
-          "name": "アーチャーモニュメント",
+          "name": "ランサーモニュメント",
           "piece": 4
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 7
+          "name": "大騎士勲章",
+          "piece": 16
         },
         {
-          "name": "禁断の頁",
+          "name": "八連双晶",
           "piece": 4
         }
       ]
@@ -85,15 +78,15 @@
       "qp": 1500000,
       "resources": [
         {
-          "name": "アーチャーモニュメント",
+          "name": "ランサーモニュメント",
           "piece": 10
         },
         {
-          "name": "禁断の頁",
+          "name": "八連双晶",
           "piece": 8
         },
         {
-          "name": "血の涙石",
+          "name": "戦馬の幼角",
           "piece": 6
         }
       ]
@@ -104,7 +97,7 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "槍の輝石",
           "piece": 4
         }
       ]
@@ -113,7 +106,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "槍の輝石",
           "piece": 10
         }
       ]
@@ -122,7 +115,7 @@
       "qp": 600000,
       "resources": [
         {
-          "name": "弓の魔石",
+          "name": "槍の魔石",
           "piece": 4
         }
       ]
@@ -131,33 +124,7 @@
       "qp": 800000,
       "resources": [
         {
-          "name": "弓の魔石",
-          "piece": 10
-        },
-        {
-          "name": "鳳凰の羽根",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 2000000,
-      "resources": [
-        {
-          "name": "弓の秘石",
-          "piece": 4
-        },
-        {
-          "name": "鳳凰の羽根",
-          "piece": 7
-        }
-      ]
-    },
-    {
-      "qp": 2500000,
-      "resources": [
-        {
-          "name": "弓の秘石",
+          "name": "槍の魔石",
           "piece": 10
         },
         {
@@ -167,15 +134,41 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 2000000,
       "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
         {
           "name": "大騎士勲章",
           "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 10
         },
         {
-          "name": "ゴーストランタン",
-          "piece": 5
+          "name": "英雄の証",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 24
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 3
         }
       ]
     },
@@ -183,12 +176,12 @@
       "qp": 6000000,
       "resources": [
         {
-          "name": "ゴーストランタン",
-          "piece": 15
+          "name": "戦馬の幼角",
+          "piece": 9
         },
         {
-          "name": "愚者の鎖",
-          "piece": 60
+          "name": "悠久の実",
+          "piece": 12
         }
       ]
     },

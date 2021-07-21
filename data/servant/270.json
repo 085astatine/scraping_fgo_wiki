@@ -12,6 +12,13 @@
         "name": "破却宣言",
         "rank": "C",
         "icon": 607
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "破却宣言（強）",
+        "rank": "B+",
+        "icon": 601
       }
     ],
     "skill_2": [
