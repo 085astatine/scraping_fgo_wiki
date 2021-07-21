@@ -2112,5 +2112,40 @@
     "klass": "Foreigner",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5046.html"
+  },
+  {
+    "id": 309,
+    "name": "モルガン",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5082.html"
+  },
+  {
+    "id": 310,
+    "name": "妖精騎士ガウェイン",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5085.html"
+  },
+  {
+    "id": 311,
+    "name": "妖精騎士トリスタン",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5081.html"
+  },
+  {
+    "id": 312,
+    "name": "妖精騎士ランスロット",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5128.html"
+  },
+  {
+    "id": 313,
+    "name": "パーシヴァル",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5126.html"
   }
 ]
