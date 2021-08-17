@@ -1,0 +1,174 @@
+{
+  "id": 316,
+  "name": "オベロン",
+  "alias_name": null,
+  "klass": "Pretender",
+  "rarity": 5,
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "夜のとばり",
+        "rank": "EX",
+        "icon": 302
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "朝のひばり",
+        "rank": "EX",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "夢のおわり",
+        "rank": "EX",
+        "icon": 306
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "混沌の爪",
+          "piece": 10
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 10
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "精霊根",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "呪獣胆石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "光銀の冠",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "悠久の実",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "赦免の小鐘",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
