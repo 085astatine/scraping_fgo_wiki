@@ -21,6 +21,13 @@
         "name": "黄金律",
         "rank": "B",
         "icon": 602
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "駆け抜ける黄金律",
+        "rank": "A",
+        "icon": 602
       }
     ],
     "skill_3": [

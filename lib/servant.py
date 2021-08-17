@@ -189,6 +189,7 @@ def _parse_servant_table() -> List[_ServantTable]:
             '分': 'AlterEgo',  # アルターエゴ
             '月': 'MoonCancer',  # ムーンキャンサー
             '降': 'Foreigner',  # フォーリナー
+            '詐': 'Pretender',  # プリテンダー
             '獣': 'Beast'}  # ビースト
     # access
     response = requests.get(url)

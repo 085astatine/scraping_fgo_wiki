@@ -18,7 +18,7 @@
     "name": "アルトリア・ペンドラゴン〔オルタ〕",
     "klass": "Saber",
     "rarity": 4,
-    "url": "//w.atwiki.jp/f_go/pages/609.html"
+    "url": "//w.atwiki.jp/f_go/pages/117.html"
   },
   {
     "id": 4,
@@ -333,7 +333,7 @@
     "name": "ランスロット",
     "klass": "Berserker",
     "rarity": 4,
-    "url": "//w.atwiki.jp/f_go/pages/1150.html"
+    "url": "//w.atwiki.jp/f_go/pages/258.html"
   },
   {
     "id": 49,
@@ -2147,5 +2147,26 @@
     "klass": "Lancer",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5126.html"
+  },
+  {
+    "id": 314,
+    "name": "光のコヤンスカヤ",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5141.html"
+  },
+  {
+    "id": 315,
+    "name": "ハベトロット",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5156.html"
+  },
+  {
+    "id": 316,
+    "name": "オベロン",
+    "klass": "Pretender",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5170.html"
   }
 ]

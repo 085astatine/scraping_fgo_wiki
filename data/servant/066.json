@@ -12,6 +12,13 @@
         "name": "航海",
         "rank": "A",
         "icon": 604
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "接舷突撃",
+        "rank": "B+",
+        "icon": 404
       }
     ],
     "skill_2": [

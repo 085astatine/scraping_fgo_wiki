@@ -21,6 +21,13 @@
         "name": "無辜の怪物",
         "rank": "B",
         "icon": 605
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "不毛なる憤怒",
+        "rank": "B+",
+        "icon": 605
       }
     ],
     "skill_3": [

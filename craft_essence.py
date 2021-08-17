@@ -138,6 +138,9 @@ def main(logger: Optional[logging.Logger] = None) -> None:
          'rarity': 4},
         {'series': '英霊紀行',
          'url': 'https://w.atwiki.jp/f_go/pages/4708.html',
+         'rarity': 4},
+        {'series': '英霊巡遊',
+         'url': 'https://w.atwiki.jp/f_go/pages/5146.html',
          'rarity': 4}]
     for subpage in subpages:
         craft_essences.extend(parse_subpage(
