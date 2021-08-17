@@ -23,7 +23,15 @@
         "icon": 311
       }
     ],
-    "skill_3": []
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "レイ・ホライゾン",
+        "rank": "A",
+        "icon": 803
+      }
+    ]
   },
   "costumes": [],
   "ascension_resources": [
