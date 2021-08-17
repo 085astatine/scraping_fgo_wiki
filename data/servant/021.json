@@ -21,6 +21,13 @@
         "name": "戦闘続行",
         "rank": "A",
         "icon": 404
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "三百の奮闘",
+        "rank": "A+",
+        "icon": 404
       }
     ],
     "skill_3": [

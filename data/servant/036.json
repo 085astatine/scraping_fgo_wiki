@@ -21,6 +21,13 @@
         "name": "芸術審美",
         "rank": "B",
         "icon": 506
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "天使の調べ",
+        "rank": "A",
+        "icon": 506
       }
     ],
     "skill_3": [

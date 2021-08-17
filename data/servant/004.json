@@ -12,6 +12,13 @@
         "name": "直感",
         "rank": "B",
         "icon": 603
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "花の降る路",
+        "rank": "A",
+        "icon": 603
       }
     ],
     "skill_2": [
