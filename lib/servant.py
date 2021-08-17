@@ -6,7 +6,7 @@ import logging
 import pathlib
 import re
 import time
-from typing import Dict, Optional, Tuple, TypedDict
+from typing import Optional, Tuple, TypedDict
 import lxml.html
 import requests
 from .io import load_json, save_json
@@ -270,7 +270,7 @@ def _parse_ascension_resources(
 
 def _parse_skill(
         root: lxml.html.HtmlElement) -> Skills:
-    skill_slots: Dict[int, list[Skill]] = {i: [] for i in range(1, 4)}
+    skill_slots: dict[int, list[Skill]] = {i: [] for i in range(1, 4)}
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="保有スキル"]'
@@ -442,12 +442,12 @@ def servant_list(
     return result
 
 
-def servant_dict() -> Dict[str, Text]:
+def servant_dict() -> dict[str, Text]:
     url = 'https://grandorder.wiki/Servant_List'
     response = requests.get(url)
     root = lxml.html.fromstring(response.text)
     xpath = '//table[@class="wikitable sortable"]//tr[td]'
-    result: Dict[str, Text] = {}
+    result: dict[str, Text] = {}
     for row in reversed(root.xpath(xpath)):
         cells = row.xpath('td')
         servant_id = int(cells[0].text.strip())
@@ -464,12 +464,12 @@ def servant_dict() -> Dict[str, Text]:
     return result
 
 
-def skill_dict() -> Dict[str, Text]:
+def skill_dict() -> dict[str, Text]:
     url = 'https://grandorder.wiki/Skills'
     response = requests.get(url)
     root = lxml.html.fromstring(response.text)
     xpath = '//h1[text()="Skills"]/following-sibling::div//table/tr[td]'
-    result: Dict[str, Text] = {}
+    result: dict[str, Text] = {}
     for row in root.xpath(xpath):
         name_cell = row.xpath('td[1]')[0]
         name_jp = name_cell.xpath('a/following-sibling::text()')[0].strip()

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-from typing import Dict, Optional, TypedDict
+from typing import Optional, TypedDict
 from . import item
 from . import servant
 from . import text
@@ -74,7 +74,7 @@ class MergedData(TypedDict):
 
 def _convert_text(
         text_: str,
-        dictionary: Dict[str, text.Text]) -> text.Text:
+        dictionary: dict[str, text.Text]) -> text.Text:
     if text_ not in dictionary:
         _logger.warning('"%s" is not found in dictionary data', text_)
     return dictionary.get(
