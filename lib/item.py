@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-from typing import Dict, List, TypedDict
+from typing import Dict, TypedDict
 import lxml.html
 import requests
 from .text import Text
@@ -16,7 +16,7 @@ class Item(TypedDict):
     name: str
 
 
-def item_list() -> List[Item]:
+def item_list() -> list[Item]:
     url = 'https://grandorder.wiki/Items'
     response = requests.get(url)
     root = lxml.html.fromstring(response.text)
@@ -24,7 +24,7 @@ def item_list() -> List[Item]:
             '//h2[span[normalize-space()="Item List"]]'
             '/following-sibling::table//tr[td]')
     target_item_types = ['Ascension', 'Skill']
-    result: List[Item] = []
+    result: list[Item] = []
     for row in root.xpath(xpath):
         item_type = row.xpath('td[4]')[0].text.strip()
         if not any(x in item_type for x in target_item_types):

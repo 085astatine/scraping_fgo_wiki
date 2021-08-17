@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
-from typing import Dict, List, Optional, TypedDict
+from typing import Dict, Optional, TypedDict
 from . import item
 from . import servant
 from . import text
@@ -26,9 +26,9 @@ class Skill(TypedDict):
 
 
 class Skills(TypedDict):
-    skill_1: List[Skill]
-    skill_2: List[Skill]
-    skill_3: List[Skill]
+    skill_1: list[Skill]
+    skill_2: list[Skill]
+    skill_3: list[Skill]
 
 
 class Resource(TypedDict):
@@ -38,7 +38,7 @@ class Resource(TypedDict):
 
 class ResourceSet(TypedDict):
     qp: int
-    resources: List[Resource]
+    resources: list[Resource]
 
 
 class Costume(TypedDict):
@@ -54,9 +54,9 @@ class Servant(TypedDict):
     klass: str
     rarity: int
     skills: Skills
-    costumes: List[Costume]
-    ascension_resources: List[ResourceSet]
-    skill_resources: List[ResourceSet]
+    costumes: list[Costume]
+    ascension_resources: list[ResourceSet]
+    skill_resources: list[ResourceSet]
 
 
 class Sound(TypedDict):
@@ -67,9 +67,9 @@ class Sound(TypedDict):
 
 
 class MergedData(TypedDict):
-    items: List[Item]
-    servants: List[Servant]
-    sounds: List[Sound]
+    items: list[Item]
+    servants: list[Servant]
+    sounds: list[Sound]
 
 
 def _convert_text(
@@ -118,7 +118,7 @@ def _convert_skills(
 
 def _convert_resource(
         resource: servant.Resource,
-        items: List[item.Item]) -> Resource:
+        items: list[item.Item]) -> Resource:
     invalid_item_id = 0
     item_id = [item['id'] for item in items
                if item['name'] == resource['name']]
@@ -131,7 +131,7 @@ def _convert_resource(
 
 def _convert_resource_set(
         resource_set: servant.ResourceSet,
-        items: List[item.Item]) -> ResourceSet:
+        items: list[item.Item]) -> ResourceSet:
     return ResourceSet(
             qp=resource_set['qp'],
             resources=[_convert_resource(resource, items)
@@ -140,7 +140,7 @@ def _convert_resource_set(
 
 def _convert_costume(
         costume: servant.Costume,
-        items: List[item.Item]) -> Costume:
+        items: list[item.Item]) -> Costume:
     return Costume(
             id=costume['id'],
             name=_convert_text(costume['name'], {}),
@@ -149,7 +149,7 @@ def _convert_costume(
 
 def _convert_servant(
         servant_: servant.Servant,
-        items: List[item.Item],
+        items: list[item.Item],
         dictionary: text.Dictionary) -> Servant:
     return Servant(
             id=servant_['id'],
@@ -173,7 +173,7 @@ def _convert_servant(
 
 def _convert_sound(
         sound_: sound.Sound,
-        items: List[item.Item]) -> Sound:
+        items: list[item.Item]) -> Sound:
     return Sound(
             source=sound_['source'],
             index=sound_['index'],
@@ -182,9 +182,9 @@ def _convert_sound(
 
 
 def merge(
-        items: List[item.Item],
-        servants: List[servant.Servant],
-        sounds: List[sound.Sound],
+        items: list[item.Item],
+        servants: list[servant.Servant],
+        sounds: list[sound.Sound],
         dictionary: text.Dictionary) -> MergedData:
     return MergedData(
         items=[_convert_item(item, dictionary) for item in items],

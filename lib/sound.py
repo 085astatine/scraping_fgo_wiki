@@ -2,7 +2,7 @@
 
 import logging
 import re
-from typing import List, Optional, TypedDict
+from typing import Optional, TypedDict
 import requests
 import lxml.html
 from .servant import Resource, ResourceSet
@@ -18,8 +18,8 @@ class Sound(TypedDict):
     resource: ResourceSet
 
 
-def sound_list() -> List[Sound]:
-    result: List[Sound] = []
+def sound_list() -> list[Sound]:
+    result: list[Sound] = []
     source_list = [
         'Part1',
         'Part1_5',
@@ -61,7 +61,7 @@ def _parse_sound(
 
 def _parse_resource(
         cell: lxml.html.HtmlElement) -> ResourceSet:
-    resources: List[Resource] = []
+    resources: list[Resource] = []
     img = cell.xpath('span/a/img')
     if img:
         item = img[0].get('alt').strip()

@@ -4,7 +4,6 @@
 import argparse
 import logging
 import pathlib
-from typing import List
 import lib
 
 
@@ -39,7 +38,7 @@ def load_dict(
 def load_items(
         path: pathlib.Path,
         *,
-        force_update: bool = False) -> List[lib.Item]:
+        force_update: bool = False) -> list[lib.Item]:
     items = lib.load_json(path)
     if items is None or force_update:
         items = lib.item_list()
@@ -50,7 +49,7 @@ def load_items(
 def load_servants(
         path: pathlib.Path,
         *,
-        force_update: bool = False) -> List[lib.Servant]:
+        force_update: bool = False) -> list[lib.Servant]:
     return lib.servant_list(
             directory=path,
             force_update=force_update,
@@ -60,7 +59,7 @@ def load_servants(
 def load_sounds(
         path: pathlib.Path,
         *,
-        force_update: bool = False) -> List[lib.Sound]:
+        force_update: bool = False) -> list[lib.Sound]:
     sounds = lib.load_json(path)
     if sounds is None or force_update:
         sounds = lib.sound_list()

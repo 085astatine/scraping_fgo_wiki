@@ -6,7 +6,7 @@ import logging
 import pathlib
 import re
 import time
-from typing import Dict, List, Optional, Tuple, TypedDict
+from typing import Dict, Optional, Tuple, TypedDict
 import lxml.html
 import requests
 from .io import load_json, save_json
@@ -25,9 +25,9 @@ class Skill(TypedDict):
 
 
 class Skills(TypedDict):
-    skill_1: List[Skill]
-    skill_2: List[Skill]
-    skill_3: List[Skill]
+    skill_1: list[Skill]
+    skill_2: list[Skill]
+    skill_3: list[Skill]
 
 
 class Resource(TypedDict):
@@ -37,7 +37,7 @@ class Resource(TypedDict):
 
 class ResourceSet(TypedDict):
     qp: int
-    resources: List[Resource]
+    resources: list[Resource]
 
 
 class Costume(TypedDict):
@@ -53,9 +53,9 @@ class Servant(TypedDict):
     klass: str
     rarity: int
     skills: Skills
-    costumes: List[Costume]
-    ascension_resources: List[ResourceSet]
-    skill_resources: List[ResourceSet]
+    costumes: list[Costume]
+    ascension_resources: list[ResourceSet]
+    skill_resources: list[ResourceSet]
 
 
 class _ServantTable(TypedDict):
@@ -74,10 +74,10 @@ class _ResourceSetParserMode(enum.Enum):
 class _ResourceSetParser:
     def __init__(self, mode: _ResourceSetParserMode) -> None:
         self._mode = mode
-        self._result: List[ResourceSet] = []
+        self._result: list[ResourceSet] = []
         self._level = 0
         self._next_level = 0
-        self._resources: List[Resource] = []
+        self._resources: list[Resource] = []
 
     def push(self, cell: lxml.html.HtmlElement):
         text = cell.text_content().strip()
@@ -89,7 +89,7 @@ class _ResourceSetParser:
         # resource
         self._resources.extend(_parse_resource(text))
 
-    def result(self) -> List[ResourceSet]:
+    def result(self) -> list[ResourceSet]:
         if self._level < self._next_level:
             self._pack()
         return self._result
@@ -121,7 +121,7 @@ class _ResourceSetParser:
         return False
 
 
-def _to_resource_set(resources: List[Resource]) -> ResourceSet:
+def _to_resource_set(resources: list[Resource]) -> ResourceSet:
     result = ResourceSet(qp=0, resources=[])
     for resource in resources:
         if resource['name'] == 'QP':
@@ -131,8 +131,8 @@ def _to_resource_set(resources: List[Resource]) -> ResourceSet:
     return result
 
 
-def _parse_resource(text: str) -> List[Resource]:
-    result: List[Resource] = []
+def _parse_resource(text: str) -> list[Resource]:
+    result: list[Resource] = []
     regexp = re.compile(r'(?P<item>.+),(x|)(?P<piece>[0-9万]+)')
     match = regexp.search(text)
     while match:
@@ -163,7 +163,7 @@ def _parse_skill_level(text: str) -> Optional[Tuple[int, int]]:
     return None
 
 
-def _parse_servant_table() -> List[_ServantTable]:
+def _parse_servant_table() -> list[_ServantTable]:
     # URL: サーヴァント > 一覧 > 番号順
     url = 'https://w.atwiki.jp/f_go/pages/713.html'
     # 入手不可サーヴァントID
@@ -197,7 +197,7 @@ def _parse_servant_table() -> List[_ServantTable]:
     xpath = ('/html/body//div[@id="wikibody"]/div[1]/div/'
              'table/tbody/tr[td]')
     # サーヴァントリスト作成
-    result: List[_ServantTable] = []
+    result: list[_ServantTable] = []
     for row in etree.xpath(xpath):
         servant_id = int(row.xpath('td[1]')[0].text)
         if servant_id in ignore_servant_ids:
@@ -255,7 +255,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
 
 
 def _parse_ascension_resources(
-        root: lxml.html.HtmlElement) -> List[ResourceSet]:
+        root: lxml.html.HtmlElement) -> list[ResourceSet]:
     parser = _ResourceSetParser(
             mode=_ResourceSetParserMode.ASCENSION)
     xpath = (
@@ -270,7 +270,7 @@ def _parse_ascension_resources(
 
 def _parse_skill(
         root: lxml.html.HtmlElement) -> Skills:
-    skill_slots: Dict[int, List[Skill]] = {i: [] for i in range(1, 4)}
+    skill_slots: Dict[int, list[Skill]] = {i: [] for i in range(1, 4)}
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="保有スキル"]'
@@ -334,7 +334,7 @@ def _parse_skill(
 
 
 def _parse_skill_resources(
-        root: lxml.html.HtmlElement) -> List[ResourceSet]:
+        root: lxml.html.HtmlElement) -> list[ResourceSet]:
     parser = _ResourceSetParser(
             mode=_ResourceSetParserMode.SKILL)
     xpath = (
@@ -348,8 +348,8 @@ def _parse_skill_resources(
 
 
 def _parse_costumes(
-        root: lxml.html.HtmlElement) -> List[Costume]:
-    result: List[Costume] = []
+        root: lxml.html.HtmlElement) -> list[Costume]:
+    result: list[Costume] = []
     xpath = (
             '//div[@id="wikibody"]'
             '//h3[normalize-space()="霊衣開放"]'
@@ -359,7 +359,7 @@ def _parse_costumes(
             '/table')
     for table in root.xpath(xpath):
         name = table.xpath('tbody/tr[1]/th')[0].text.strip()
-        resources: List[Resource] = []
+        resources: list[Resource] = []
         for cell in table.xpath(
                 'tbody/tr[td[1 and normalize-space()="必要素材"]]'
                 '/td[position() > 1]'):
@@ -375,7 +375,7 @@ def _load_servant_table(
         *,
         path: Optional[pathlib.Path] = None,
         force_update: bool = False,
-        request_interval: float = 1.0) -> List[_ServantTable]:
+        request_interval: float = 1.0) -> list[_ServantTable]:
     # load
     if path is not None and not force_update:
         result = load_json(path)
@@ -423,14 +423,14 @@ def servant_list(
         *,
         directory: Optional[pathlib.Path] = None,
         force_update: bool = False,
-        request_interval: float = 1.0) -> List[Servant]:
+        request_interval: float = 1.0) -> list[Servant]:
     servant_table = _load_servant_table(
             path=(directory.joinpath('list.json')
                   if directory is not None else None),
             force_update=force_update,
             request_interval=request_interval)
     time.sleep(request_interval)
-    result: List[Servant] = []
+    result: list[Servant] = []
     for row in servant_table:
         _logger.info('servant: %s', row['name'])
         result.append(_load_servant(
