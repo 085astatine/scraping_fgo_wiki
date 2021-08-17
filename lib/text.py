@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from typing import Dict, TypedDict
+from typing import TypedDict
 
 
 class Text(TypedDict):
@@ -9,6 +9,6 @@ class Text(TypedDict):
 
 
 class Dictionary(TypedDict):
-    item: Dict[str, Text]
-    servant: Dict[str, Text]
-    skill: Dict[str, Text]
+    item: dict[str, Text]
+    servant: dict[str, Text]
+    skill: dict[str, Text]

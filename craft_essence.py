@@ -5,7 +5,7 @@
 import logging
 import re
 import time
-from typing import NamedTuple, List, Optional, TypedDict
+from typing import NamedTuple, Optional, TypedDict
 import lxml.html
 import requests
 
@@ -54,9 +54,9 @@ def parse_row(
 
 
 def parse_bond_craft_essences(
-        logger: Optional[logging.Logger]) -> List[CraftEssence]:
+        logger: Optional[logging.Logger]) -> list[CraftEssence]:
     logger = logger or logging.getLogger(__name__)
-    result: List[CraftEssence] = []
+    result: list[CraftEssence] = []
     url = 'https://w.atwiki.jp/f_go/pages/1106.html'
     response = requests.get(url)
     root = lxml.html.fromstring(response.text)
@@ -91,9 +91,9 @@ def parse_subpage(
         url: str,
         series: str,
         rarity: int,
-        logger: Optional[logging.Logger] = None) -> List[CraftEssence]:
+        logger: Optional[logging.Logger] = None) -> list[CraftEssence]:
     logger = logger or logging.getLogger(__name__)
-    result: List[CraftEssence] = []
+    result: list[CraftEssence] = []
     response = requests.get(url)
     root = lxml.html.fromstring(response.text)
     xpath = '//*[@id="wikibody"]//table/tbody/tr[td]'
@@ -118,12 +118,12 @@ def parse_subpage(
 def main(logger: Optional[logging.Logger] = None) -> None:
     logger = logger or logging.getLogger(__name__)
     sleep = 1.0
-    craft_essences: List[CraftEssence] = []
+    craft_essences: list[CraftEssence] = []
     # bond craft essences
     craft_essences.extend(parse_bond_craft_essences(logger=logger))
     time.sleep(sleep)
     # category: exclude 英霊肖像, 霊子肖像, 英霊祭装 due to format differences
-    subpages: List[Subpage] = [
+    subpages: list[Subpage] = [
         {'series': '英霊肖像',
          'url': 'https://w.atwiki.jp/f_go/pages/658.html',
          'rarity': 4},
