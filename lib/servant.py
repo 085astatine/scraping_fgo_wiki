@@ -6,7 +6,7 @@ import logging
 import pathlib
 import re
 import time
-from typing import Optional, Tuple, TypedDict
+from typing import Optional, TypedDict
 import lxml.html
 import requests
 from .io import load_json, save_json
@@ -100,7 +100,7 @@ class _ResourceSetParser:
         self._resources = []
 
     def _parse_level(self, text) -> bool:
-        levels: Optional[Tuple[int, int]] = None
+        levels: Optional[tuple[int, int]] = None
         # parse
         if self._mode is _ResourceSetParserMode.ASCENSION:
             levels = _parse_ascension_level(text)
@@ -149,14 +149,14 @@ def _parse_resource(text: str) -> list[Resource]:
     return result
 
 
-def _parse_ascension_level(text: str) -> Optional[Tuple[int, int]]:
+def _parse_ascension_level(text: str) -> Optional[tuple[int, int]]:
     match = re.match(r'(?P<level>[0-9]+)段階', text)
     if match:
         return (int(match.group('level')), int(match.group('level')) + 1)
     return None
 
 
-def _parse_skill_level(text: str) -> Optional[Tuple[int, int]]:
+def _parse_skill_level(text: str) -> Optional[tuple[int, int]]:
     match = re.match(r'Lv(?P<privious>[0-9]+)→Lv(?P<next>[0-9]+)', text)
     if match:
         return (int(match.group('privious')), int(match.group('next')))
