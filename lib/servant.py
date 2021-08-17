@@ -326,7 +326,7 @@ def _parse_skill(
         icon_node = node.xpath(
             'following-sibling::div[1]/table//td[@rowspan]')[0]
         icon_text = icon_node.text_content().strip()
-        icon_match = re.match(r'(?P<id>[0-9]+),((?P<rank>.+)|)', icon_text)
+        icon_match = re.match(r'(?P<id>[0-9]+)(,(?P<rank>.+)|)', icon_text)
         if icon_match:
             icon_id = int(icon_match.group('id'))
             _logger.debug('skill icon %d: %s', icon_id, name)
