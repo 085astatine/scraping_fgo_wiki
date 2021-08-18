@@ -40,6 +40,35 @@
       }
     ]
   },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対ルーラー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
   "costumes": [],
   "ascension_resources": [
     {
@@ -188,6 +217,109 @@
         },
         {
           "name": "暁光炉心",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 10
+        },
+        {
+          "name": "血の涙石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 10
+        },
+        {
+          "name": "精霊根",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "精霊根",
+          "piece": 4
+        },
+        {
+          "name": "魔術髄液",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 45
+        },
+        {
+          "name": "悠久の実",
           "piece": 12
         }
       ]

@@ -6,6 +6,7 @@ import logging
 import pathlib
 import re
 import time
+import unicodedata
 from typing import Literal, Optional, TypedDict
 import lxml.html
 import requests
@@ -248,7 +249,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
     # スキル強化用素材
     _logger.debug('append skill resources')
     append_skill_resources = _parse_skill_resources(root, 'append_skill')
-    if len(skill_resources) != 9:
+    if len(append_skill_resources) != 9:
         _logger.error(
                 'servant %s: append skill resources parsing failed',
                 servant['name'])
@@ -312,6 +313,11 @@ def _parse_skill(
                  else 2 if match.group('level') is None
                  else int(match.group('level')) + 1)
         name = match.group('name').strip()
+        # 半角カタカナ -> 全角カタカナ
+        name = re.sub(
+                r'[\uff66-\uff9f]+',  # \uff66(ｦ) - \uff9f(ﾟ)
+                lambda x: unicodedata.normalize('NFKC', x.group(0)),
+                name)
         rank = ''
         rank_match = re.match(
                 r'(?P<name>.+)\s+(?P<rank>(EX|[A-E])[\+-]*)',

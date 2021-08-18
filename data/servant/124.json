@@ -47,6 +47,35 @@
       }
     ]
   },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対バーサーカー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
   "costumes": [
     {
       "id": 61,
@@ -222,6 +251,109 @@
         {
           "name": "封魔のランプ",
           "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 8
+        },
+        {
+          "name": "万死の毒針",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        },
+        {
+          "name": "万死の毒針",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 8
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "黒獣脂",
+          "piece": 4
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 36
+        },
+        {
+          "name": "赦免の小鐘",
+          "piece": 48
         }
       ]
     },

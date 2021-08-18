@@ -33,6 +33,35 @@
       }
     ]
   },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対ランサークリティカル発生耐性",
+        "rank": "",
+        "icon": 417
+      }
+    ]
+  },
   "costumes": [],
   "ascension_resources": [
     {
@@ -182,6 +211,109 @@
         {
           "name": "虚影の塵",
           "piece": 48
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "狂の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "狂の魔石",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 5
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "狂の秘石",
+          "piece": 12
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "呪獣胆石",
+          "piece": 4
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 18
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 54
+        },
+        {
+          "name": "赦免の小鐘",
+          "piece": 72
         }
       ]
     },
