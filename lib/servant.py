@@ -226,28 +226,34 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
     response = requests.get('https:{0}'.format(servant['url']))
     root = lxml.html.fromstring(response.text)
     # 霊基再臨用素材
+    _logger.debug('ascension resources')
     ascension_resources = _parse_ascension_resources(root)
     if len(ascension_resources) != 4:
         _logger.error(
                 'servant %s: ascension resources parsing failed',
                 servant['name'])
     # スキル
+    _logger.debug('skills')
     skills = _parse_skill(root, 'skill')
     # スキル強化用素材
+    _logger.debug('skill resources')
     skill_resources = _parse_skill_resources(root, 'skill')
     if len(skill_resources) != 9:
         _logger.error(
                 'servant %s: skill resources parsing failed',
                 servant['name'])
     # アペンドスキル
+    _logger.debug('append skills')
     append_skills = _parse_skill(root, 'append_skill')
     # スキル強化用素材
+    _logger.debug('append skill resources')
     append_skill_resources = _parse_skill_resources(root, 'append_skill')
     if len(skill_resources) != 9:
         _logger.error(
                 'servant %s: append skill resources parsing failed',
                 servant['name'])
-    # 霊衣開放
+    # 霊衣
+    _logger.debug('costumes')
     costumes = _parse_costumes(root)
     return Servant(
             id=servant['id'],
@@ -382,6 +388,7 @@ def _parse_costumes(
             '/table')
     for table in root.xpath(xpath):
         name = table.xpath('tbody/tr[1]/th')[0].text.strip()
+        _logger.debug('costume: %s', name)
         resources: list[Resource] = []
         for cell in table.xpath(
                 'tbody/tr[td[1 and normalize-space()="必要素材"]]'
