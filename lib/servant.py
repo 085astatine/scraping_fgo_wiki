@@ -248,7 +248,7 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
     # スキル強化用素材
     _logger.debug('append skill resources')
     append_skill_resources = _parse_skill_resources(root, 'append_skill')
-    if len(skill_resources) != 9:
+    if len(append_skill_resources) != 9:
         _logger.error(
                 'servant %s: append skill resources parsing failed',
                 servant['name'])
