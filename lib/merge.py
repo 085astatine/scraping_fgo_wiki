@@ -54,9 +54,11 @@ class Servant(TypedDict):
     klass: str
     rarity: int
     skills: Skills
+    append_skills: Skills
     costumes: list[Costume]
     ascension_resources: list[ResourceSet]
     skill_resources: list[ResourceSet]
+    append_skill_resources: list[ResourceSet]
 
 
 class Sound(TypedDict):
@@ -159,7 +161,12 @@ def _convert_servant(
                 if servant_['alias_name'] is not None else None),
             klass=servant_['klass'],
             rarity=servant_['rarity'],
-            skills=_convert_skills(servant_['skills'], dictionary),
+            skills=_convert_skills(
+                servant_['skills'],
+                dictionary),
+            append_skills=_convert_skills(
+                servant_['append_skills'],
+                dictionary),
             costumes=[
                 _convert_costume(costume, items)
                 for costume in servant_['costumes']],
@@ -168,7 +175,10 @@ def _convert_servant(
                 for resource in servant_['ascension_resources']],
             skill_resources=[
                 _convert_resource_set(resource, items)
-                for resource in servant_['skill_resources']])
+                for resource in servant_['skill_resources']],
+            append_skill_resources=[
+                _convert_resource_set(resource, items)
+                for resource in servant_['append_skill_resources']])
 
 
 def _convert_sound(

@@ -6,7 +6,7 @@ import logging
 import pathlib
 import re
 import time
-from typing import Optional, TypedDict
+from typing import Literal, Optional, TypedDict
 import lxml.html
 import requests
 from .io import load_json, save_json
@@ -53,9 +53,11 @@ class Servant(TypedDict):
     klass: str
     rarity: int
     skills: Skills
+    append_skills: Skills
     costumes: list[Costume]
     ascension_resources: list[ResourceSet]
     skill_resources: list[ResourceSet]
+    append_skill_resources: list[ResourceSet]
 
 
 class _ServantTable(TypedDict):
@@ -75,8 +77,7 @@ class _ResourceSetParser:
     def __init__(self, mode: _ResourceSetParserMode) -> None:
         self._mode = mode
         self._result: list[ResourceSet] = []
-        self._level = 0
-        self._next_level = 0
+        self._level: Optional[int] = None
         self._resources: list[Resource] = []
 
     def push(self, cell: lxml.html.HtmlElement):
@@ -87,36 +88,31 @@ class _ResourceSetParser:
         if self._parse_level(text):
             return
         # resource
-        self._resources.extend(_parse_resource(text))
+        if self._level is not None:
+            self._resources.extend(_parse_resource(text))
 
     def result(self) -> list[ResourceSet]:
-        if self._level < self._next_level:
+        if self._level is not None:
             self._pack()
         return self._result
 
     def _pack(self) -> None:
         self._result.append(_to_resource_set(self._resources))
-        self._level = self._next_level
         self._resources = []
 
     def _parse_level(self, text) -> bool:
-        levels: Optional[tuple[int, int]] = None
+        level: Optional[int] = None
         # parse
         if self._mode is _ResourceSetParserMode.ASCENSION:
-            levels = _parse_ascension_level(text)
-        if self._mode is _ResourceSetParserMode.SKILL:
-            levels = _parse_skill_level(text)
+            level = _parse_ascension_level(text)
+        elif self._mode is _ResourceSetParserMode.SKILL:
+            level = _parse_skill_level(text)
         # pack
-        if levels is not None:
-            privious_level = levels[0]
-            next_level = levels[1]
-            _logger.debug('Lv.%d -> Lv.%d', privious_level, next_level)
-            assert privious_level == self._level + 1
-            assert next_level == privious_level + 1
-            if self._level != 0:
+        if level is not None:
+            _logger.debug('Lv.%d -> Lv.%d', level, level + 1)
+            if self._level is not None:
                 self._pack()
-            self._level = privious_level
-            self._next_level = next_level
+            self._level = level
             return True
         return False
 
@@ -149,17 +145,20 @@ def _parse_resource(text: str) -> list[Resource]:
     return result
 
 
-def _parse_ascension_level(text: str) -> Optional[tuple[int, int]]:
+def _parse_ascension_level(text: str) -> Optional[int]:
     match = re.match(r'(?P<level>[0-9]+)段階', text)
     if match:
-        return (int(match.group('level')), int(match.group('level')) + 1)
+        return int(match.group('level'))
     return None
 
 
-def _parse_skill_level(text: str) -> Optional[tuple[int, int]]:
-    match = re.match(r'Lv(?P<privious>[0-9]+)→Lv(?P<next>[0-9]+)', text)
+def _parse_skill_level(text: str) -> Optional[int]:
+    match = re.match(r'Lv(?P<current>[0-9]+)→Lv(?P<next>[0-9]+)', text)
     if match:
-        return (int(match.group('privious')), int(match.group('next')))
+        level = int(match.group('current'))
+        next_level = int(match.group('next'))
+        assert level + 1 == next_level
+        return level
     return None
 
 
@@ -227,20 +226,34 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
     response = requests.get('https:{0}'.format(servant['url']))
     root = lxml.html.fromstring(response.text)
     # 霊基再臨用素材
+    _logger.debug('ascension resources')
     ascension_resources = _parse_ascension_resources(root)
     if len(ascension_resources) != 4:
         _logger.error(
                 'servant %s: ascension resources parsing failed',
                 servant['name'])
     # スキル
-    skills = _parse_skill(root)
+    _logger.debug('skills')
+    skills = _parse_skill(root, 'skill')
     # スキル強化用素材
-    skill_resources = _parse_skill_resources(root)
+    _logger.debug('skill resources')
+    skill_resources = _parse_skill_resources(root, 'skill')
     if len(skill_resources) != 9:
         _logger.error(
                 'servant %s: skill resources parsing failed',
                 servant['name'])
-    # 霊衣開放
+    # アペンドスキル
+    _logger.debug('append skills')
+    append_skills = _parse_skill(root, 'append_skill')
+    # スキル強化用素材
+    _logger.debug('append skill resources')
+    append_skill_resources = _parse_skill_resources(root, 'append_skill')
+    if len(skill_resources) != 9:
+        _logger.error(
+                'servant %s: append skill resources parsing failed',
+                servant['name'])
+    # 霊衣
+    _logger.debug('costumes')
     costumes = _parse_costumes(root)
     return Servant(
             id=servant['id'],
@@ -249,9 +262,11 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
             klass=servant['klass'],
             rarity=servant['rarity'],
             skills=skills,
+            append_skills=append_skills,
             costumes=costumes,
             ascension_resources=ascension_resources,
-            skill_resources=skill_resources)
+            skill_resources=skill_resources,
+            append_skill_resources=append_skill_resources)
 
 
 def _parse_ascension_resources(
@@ -269,12 +284,19 @@ def _parse_ascension_resources(
 
 
 def _parse_skill(
-        root: lxml.html.HtmlElement) -> Skills:
+        root: lxml.html.HtmlElement,
+        target: Literal['skill', 'append_skill']) -> Skills:
     skill_slots: dict[int, list[Skill]] = {i: [] for i in range(1, 4)}
-    xpath = (
-            '//div[@id="wikibody"]'
-            '//h3[normalize-space()="保有スキル"]'
-            '/following-sibling::h4')
+    if target == 'skill':
+        xpath = (
+                '//div[@id="wikibody"]'
+                '//h3[normalize-space()="保有スキル"]'
+                '/following-sibling::h4')
+    elif target == 'append_skill':
+        xpath = (
+                '//div[@id="wikibody"]'
+                '//h3[normalize-space()="アペンドスキル"]'
+                '/following-sibling::div/h4')
     for node in root.xpath(xpath):
         text = node.text_content().strip()
         # slot, level, name, rank
@@ -307,7 +329,7 @@ def _parse_skill(
         icon_node = node.xpath(
             'following-sibling::div[1]/table//td[@rowspan]')[0]
         icon_text = icon_node.text_content().strip()
-        icon_match = re.match(r'(?P<id>[0-9]+),((?P<rank>.+)|)', icon_text)
+        icon_match = re.match(r'(?P<id>[0-9]+)(,(?P<rank>.+)|)', icon_text)
         if icon_match:
             icon_id = int(icon_match.group('id'))
             _logger.debug('skill icon %d: %s', icon_id, name)
@@ -334,13 +356,20 @@ def _parse_skill(
 
 
 def _parse_skill_resources(
-        root: lxml.html.HtmlElement) -> list[ResourceSet]:
+        root: lxml.html.HtmlElement,
+        target: Literal['skill', 'append_skill']) -> list[ResourceSet]:
     parser = _ResourceSetParser(
             mode=_ResourceSetParserMode.SKILL)
-    xpath = (
-            '//div[@id="wikibody"]'
-            '//h3[normalize-space()="スキル強化"]'
-            '/following-sibling::div[1]/div/table[1]/tbody/tr[td]')
+    if target == 'skill':
+        xpath = (
+                '//div[@id="wikibody"]'
+                '//h3[normalize-space()="スキル強化"]'
+                '/following-sibling::div[1]/div/table[1]/tbody/tr[td]')
+    elif target == 'append_skill':
+        xpath = (
+                '//div[@id="wikibody"]'
+                '//h3[normalize-space()="アペンドスキル強化"]'
+                '/following-sibling::div[1]/div/table[1]/tbody/tr[td]')
     for row in root.xpath(xpath):
         for cell in row.xpath('td'):
             parser.push(cell)
@@ -359,6 +388,7 @@ def _parse_costumes(
             '/table')
     for table in root.xpath(xpath):
         name = table.xpath('tbody/tr[1]/th')[0].text.strip()
+        _logger.debug('costume: %s', name)
         resources: list[Resource] = []
         for cell in table.xpath(
                 'tbody/tr[td[1 and normalize-space()="必要素材"]]'
