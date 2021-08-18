@@ -40,6 +40,35 @@
       }
     ]
   },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対ライダー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
   "costumes": [],
   "ascension_resources": [
     {
@@ -188,6 +217,109 @@
         },
         {
           "name": "オーロラ鋼",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 6
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 3
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 6
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "竜の逆鱗",
+          "piece": 2
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "巨人の指輪",
+          "piece": 9
+        },
+        {
+          "name": "虹の糸玉",
           "piece": 12
         }
       ]

@@ -47,6 +47,35 @@
       }
     ]
   },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対ルーラー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
   "costumes": [],
   "ascension_resources": [
     {
@@ -203,6 +232,121 @@
         },
         {
           "name": "蛮神の心臓",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 5
+        },
+        {
+          "name": "術の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 12
+        },
+        {
+          "name": "術の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 5
+        },
+        {
+          "name": "術の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 12
+        },
+        {
+          "name": "術の魔石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 5
+        },
+        {
+          "name": "術の秘石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 12
+        },
+        {
+          "name": "術の秘石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "虹の糸玉",
+          "piece": 8
+        },
+        {
+          "name": "悠久の実",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "九十九鏡",
+          "piece": 9
+        },
+        {
+          "name": "鬼炎鬼灯",
           "piece": 9
         }
       ]

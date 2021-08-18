@@ -40,6 +40,35 @@
       }
     ]
   },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対セイバー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
   "costumes": [],
   "ascension_resources": [
     {
@@ -189,6 +218,109 @@
         {
           "name": "凶骨",
           "piece": 48
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 8
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 8
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "封魔のランプ",
+          "piece": 4
+        },
+        {
+          "name": "真理の卵",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "真理の卵",
+          "piece": 5
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 16
         }
       ]
     },

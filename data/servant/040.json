@@ -40,6 +40,35 @@
       }
     ]
   },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対ランサー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
   "costumes": [],
   "ascension_resources": [
     {
@@ -189,6 +218,109 @@
         {
           "name": "ホムンクルスベビー",
           "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 6
+        },
+        {
+          "name": "万死の毒針",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 3
+        },
+        {
+          "name": "万死の毒針",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 6
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "蛮神の心臓",
+          "piece": 2
+        },
+        {
+          "name": "魔術髄液",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 27
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 36
         }
       ]
     },

@@ -47,6 +47,35 @@
       }
     ]
   },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対セイバー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
   "costumes": [],
   "ascension_resources": [
     {
@@ -196,6 +225,109 @@
         {
           "name": "八連双晶",
           "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        },
+        {
+          "name": "竜の牙",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 2
+        },
+        {
+          "name": "竜の牙",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 4
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "枯淡勾玉",
+          "piece": 6
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 4
         }
       ]
     },
