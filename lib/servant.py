@@ -77,8 +77,7 @@ class _ResourceSetParser:
     def __init__(self, mode: _ResourceSetParserMode) -> None:
         self._mode = mode
         self._result: list[ResourceSet] = []
-        self._level = 0
-        self._next_level = 0
+        self._level: Optional[int] = None
         self._resources: list[Resource] = []
 
     def push(self, cell: lxml.html.HtmlElement):
@@ -89,36 +88,31 @@ class _ResourceSetParser:
         if self._parse_level(text):
             return
         # resource
-        self._resources.extend(_parse_resource(text))
+        if self._level is not None:
+            self._resources.extend(_parse_resource(text))
 
     def result(self) -> list[ResourceSet]:
-        if self._level < self._next_level:
+        if self._level is not None:
             self._pack()
         return self._result
 
     def _pack(self) -> None:
         self._result.append(_to_resource_set(self._resources))
-        self._level = self._next_level
         self._resources = []
 
     def _parse_level(self, text) -> bool:
-        levels: Optional[tuple[int, int]] = None
+        level: Optional[int] = None
         # parse
         if self._mode is _ResourceSetParserMode.ASCENSION:
-            levels = _parse_ascension_level(text)
-        if self._mode is _ResourceSetParserMode.SKILL:
-            levels = _parse_skill_level(text)
+            level = _parse_ascension_level(text)
+        elif self._mode is _ResourceSetParserMode.SKILL:
+            level = _parse_skill_level(text)
         # pack
-        if levels is not None:
-            privious_level = levels[0]
-            next_level = levels[1]
-            _logger.debug('Lv.%d -> Lv.%d', privious_level, next_level)
-            assert privious_level == self._level + 1
-            assert next_level == privious_level + 1
-            if self._level != 0:
+        if level is not None:
+            _logger.debug('Lv.%d -> Lv.%d', level, level + 1)
+            if self._level is not None:
                 self._pack()
-            self._level = privious_level
-            self._next_level = next_level
+            self._level = level
             return True
         return False
 
@@ -151,17 +145,20 @@ def _parse_resource(text: str) -> list[Resource]:
     return result
 
 
-def _parse_ascension_level(text: str) -> Optional[tuple[int, int]]:
+def _parse_ascension_level(text: str) -> Optional[int]:
     match = re.match(r'(?P<level>[0-9]+)段階', text)
     if match:
-        return (int(match.group('level')), int(match.group('level')) + 1)
+        return int(match.group('level'))
     return None
 
 
-def _parse_skill_level(text: str) -> Optional[tuple[int, int]]:
-    match = re.match(r'Lv(?P<privious>[0-9]+)→Lv(?P<next>[0-9]+)', text)
+def _parse_skill_level(text: str) -> Optional[int]:
+    match = re.match(r'Lv(?P<current>[0-9]+)→Lv(?P<next>[0-9]+)', text)
     if match:
-        return (int(match.group('privious')), int(match.group('next')))
+        level = int(match.group('current'))
+        next_level = int(match.group('next'))
+        assert level + 1 == next_level
+        return level
     return None
 
 
