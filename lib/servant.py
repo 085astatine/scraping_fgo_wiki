@@ -6,6 +6,7 @@ import logging
 import pathlib
 import re
 import time
+import unicodedata
 from typing import Literal, Optional, TypedDict
 import lxml.html
 import requests
@@ -312,6 +313,11 @@ def _parse_skill(
                  else 2 if match.group('level') is None
                  else int(match.group('level')) + 1)
         name = match.group('name').strip()
+        # 半角カタカナ -> 全角カタカナ
+        name = re.sub(
+                r'[\uff66-\uff9f]+',  # \uff66(ｦ) - \uff9f(ﾟ)
+                lambda x: unicodedata.normalize('NFKC', x.group(0)),
+                name)
         rank = ''
         rank_match = re.match(
                 r'(?P<name>.+)\s+(?P<rank>(EX|[A-E])[\+-]*)',
