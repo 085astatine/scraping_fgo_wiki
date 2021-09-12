@@ -1,42 +1,35 @@
 {
-  "id": 136,
-  "name": "イリヤスフィール・フォン・アインツベルン",
+  "id": 317,
+  "name": "沖田総司〔オルタ〕",
   "alias_name": null,
-  "klass": "Caster",
+  "klass": "Saber",
   "rarity": 5,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "愉快型魔術礼装",
-        "rank": "A",
-        "icon": 306
+        "name": "魔神剣",
+        "rank": "B++",
+        "icon": 300
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "自然の嬰児",
+        "name": "煉獄",
         "rank": "B",
-        "icon": 403
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "未来へと輝く",
-        "rank": "A",
-        "icon": 403
+        "icon": 601
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "あやしい薬",
+        "name": "日月",
         "rank": "A",
-        "icon": 600
+        "icon": 403
       }
     ]
   },
@@ -63,45 +56,19 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対アーチャー攻撃適性",
+        "name": "対バーサーカー攻撃適性",
         "rank": "",
         "icon": 300
       }
     ]
   },
-  "costumes": [
-    {
-      "id": 16,
-      "name": "テスタメント・フォーム",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "虚影の塵",
-            "piece": 10
-          },
-          {
-            "name": "ホムンクルスベビー",
-            "piece": 5
-          },
-          {
-            "name": "封魔のランプ",
-            "piece": 5
-          },
-          {
-            "name": "蛮神の心臓",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
+  "costumes": [],
   "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
         {
-          "name": "キャスターピース",
+          "name": "セイバーピース",
           "piece": 5
         }
       ]
@@ -110,12 +77,12 @@
       "qp": 300000,
       "resources": [
         {
-          "name": "キャスターピース",
+          "name": "セイバーピース",
           "piece": 12
         },
         {
-          "name": "世界樹の種",
-          "piece": 9
+          "name": "追憶の貝殻",
+          "piece": 8
         }
       ]
     },
@@ -123,16 +90,16 @@
       "qp": 1000000,
       "resources": [
         {
-          "name": "キャスターモニュメント",
+          "name": "セイバーモニュメント",
           "piece": 5
         },
         {
-          "name": "禁断の頁",
+          "name": "ホムンクルスベビー",
           "piece": 10
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 4
+          "name": "枯淡勾玉",
+          "piece": 5
         }
       ]
     },
@@ -140,15 +107,15 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "キャスターモニュメント",
+          "name": "セイバーモニュメント",
           "piece": 12
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 8
+          "name": "枯淡勾玉",
+          "piece": 10
         },
         {
-          "name": "智慧のスカラベ",
+          "name": "九十九鏡",
           "piece": 5
         }
       ]
@@ -159,7 +126,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "術の輝石",
+          "name": "剣の輝石",
           "piece": 5
         }
       ]
@@ -168,7 +135,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "術の輝石",
+          "name": "剣の輝石",
           "piece": 12
         }
       ]
@@ -177,7 +144,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "術の魔石",
+          "name": "剣の魔石",
           "piece": 5
         }
       ]
@@ -186,11 +153,11 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "術の魔石",
+          "name": "剣の魔石",
           "piece": 12
         },
         {
-          "name": "禁断の頁",
+          "name": "ホムンクルスベビー",
           "piece": 5
         }
       ]
@@ -199,11 +166,11 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "術の秘石",
+          "name": "剣の秘石",
           "piece": 5
         },
         {
-          "name": "禁断の頁",
+          "name": "ホムンクルスベビー",
           "piece": 10
         }
       ]
@@ -212,12 +179,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "術の秘石",
+          "name": "剣の秘石",
           "piece": 12
         },
         {
-          "name": "世界樹の種",
-          "piece": 6
+          "name": "追憶の貝殻",
+          "piece": 5
         }
       ]
     },
@@ -225,12 +192,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "世界樹の種",
-          "piece": 12
+          "name": "追憶の貝殻",
+          "piece": 10
         },
         {
-          "name": "ホムンクルスベビー",
-          "piece": 6
+          "name": "暁光炉心",
+          "piece": 4
         }
       ]
     },
@@ -238,11 +205,11 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "ホムンクルスベビー",
-          "piece": 18
+          "name": "暁光炉心",
+          "piece": 11
         },
         {
-          "name": "精霊根",
+          "name": "奇奇神酒",
           "piece": 10
         }
       ]
@@ -262,7 +229,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "術の輝石",
+          "name": "剣の輝石",
           "piece": 5
         }
       ]
@@ -271,7 +238,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "術の輝石",
+          "name": "剣の輝石",
           "piece": 12
         }
       ]
@@ -280,7 +247,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "術の魔石",
+          "name": "剣の魔石",
           "piece": 5
         }
       ]
@@ -289,12 +256,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "術の魔石",
+          "name": "剣の魔石",
           "piece": 12
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 4
+          "name": "英雄の証",
+          "piece": 15
         }
       ]
     },
@@ -302,12 +269,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "術の秘石",
+          "name": "剣の秘石",
           "piece": 5
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 8
+          "name": "英雄の証",
+          "piece": 29
         }
       ]
     },
@@ -315,12 +282,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "術の秘石",
+          "name": "剣の秘石",
           "piece": 12
         },
         {
-          "name": "智慧のスカラベ",
-          "piece": 2
+          "name": "八連双晶",
+          "piece": 5
         }
       ]
     },
@@ -328,11 +295,11 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "智慧のスカラベ",
-          "piece": 4
+          "name": "八連双晶",
+          "piece": 10
         },
         {
-          "name": "神脈霊子",
+          "name": "閑古鈴",
           "piece": 6
         }
       ]
@@ -341,11 +308,11 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "神脈霊子",
+          "name": "閑古鈴",
           "piece": 18
         },
         {
-          "name": "夢幻の鱗粉",
+          "name": "永遠結氷",
           "piece": 24
         }
       ]

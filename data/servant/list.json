@@ -2168,5 +2168,33 @@
     "klass": "Pretender",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/5170.html"
+  },
+  {
+    "id": 317,
+    "name": "沖田総司〔オルタ〕",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5190.html"
+  },
+  {
+    "id": 318,
+    "name": "アナスタシア＆ヴィイ",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5192.html"
+  },
+  {
+    "id": 319,
+    "name": "シャルロット・コルデー",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5194.html"
+  },
+  {
+    "id": 320,
+    "name": "レオナルド・ダ・ヴィンチ",
+    "klass": "Ruler",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5196.html"
   }
 ]
