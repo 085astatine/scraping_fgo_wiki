@@ -465,7 +465,6 @@ def servant_list(
                   if directory is not None else None),
             force_update=force_update,
             request_interval=request_interval)
-    time.sleep(request_interval)
     result: list[Servant] = []
     for row in servant_table:
         _logger.info('servant: %s', row['name'])
