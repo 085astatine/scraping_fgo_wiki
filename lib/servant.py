@@ -283,7 +283,9 @@ def _parse_costume_table(
     return costumes
 
 
-def _parse_servant_page(servant: _ServantTable) -> Servant:
+def _parse_servant_page(
+        servant: _ServantTable,
+        all_costumes: list[_CostumeTable]) -> Servant:
     # access
     response = requests.get('https:{0}'.format(servant['url']))
     root = lxml.html.fromstring(response.text)
@@ -316,7 +318,12 @@ def _parse_servant_page(servant: _ServantTable) -> Servant:
                 servant['name'])
     # 霊衣
     _logger.debug('costumes')
-    costumes = _parse_costumes(root)
+    costumes = [
+            Costume(id=costume['costume_id'],
+                    name=costume['name'],
+                    resource=costume['resource'])
+            for costume in all_costumes
+            if costume['servant_id'] == servant['id']]
     return Servant(
             id=servant['id'],
             name=servant['name'],
@@ -513,6 +520,7 @@ def _load_costumes(
 
 def _load_servant(
         data: _ServantTable,
+        costumes: list[_CostumeTable],
         *,
         path: Optional[pathlib.Path] = None,
         force_update: bool = False,
@@ -529,7 +537,7 @@ def _load_servant(
             assert result['id'] == data['id']
             return result
     # request
-    result = _parse_servant_page(data)
+    result = _parse_servant_page(data, costumes)
     time.sleep(request_interval)
     # save
     if path is not None:
@@ -562,6 +570,7 @@ def servant_list(
         _logger.info('servant: %s', row['name'])
         result.append(_load_servant(
                 row,
+                costumes,
                 path=(directory.joinpath(f'{row["id"]:03d}.json')
                       if directory is not None else None),
                 force_update=force_update,
