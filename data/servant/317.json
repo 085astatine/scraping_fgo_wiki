@@ -1,39 +1,25 @@
 {
-  "id": 156,
-  "name": "ジェームズ・モリアーティ",
-  "alias_name": "新宿のアーチャー",
-  "klass": "Archer",
+  "id": 317,
+  "name": "沖田総司〔オルタ〕",
+  "alias_name": null,
+  "klass": "Saber",
   "rarity": 5,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "魔弾の射手",
-        "rank": "EX",
-        "icon": 312
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "魔弾の射手",
-        "rank": "EX",
-        "icon": 312
+        "name": "魔神剣",
+        "rank": "B++",
+        "icon": 300
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "蜘蛛糸の果て",
-        "rank": "A++",
-        "icon": 601
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "蜘蛛糸の果て",
-        "rank": "A+++",
+        "name": "煉獄",
+        "rank": "B",
         "icon": 601
       }
     ],
@@ -41,9 +27,9 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "邪智のカリスマ",
+        "name": "日月",
         "rank": "A",
-        "icon": 300
+        "icon": 403
       }
     ]
   },
@@ -70,45 +56,19 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対キャスター攻撃適性",
+        "name": "対バーサーカー攻撃適性",
         "rank": "",
         "icon": 300
       }
     ]
   },
-  "costumes": [
-    {
-      "id": 17,
-      "name": "グレイ・カラー",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "宵哭きの鉄杭",
-            "piece": 10
-          },
-          {
-            "name": "永遠結氷",
-            "piece": 5
-          },
-          {
-            "name": "血の涙石",
-            "piece": 5
-          },
-          {
-            "name": "奇奇神酒",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
+  "costumes": [],
   "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
         {
-          "name": "アーチャーピース",
+          "name": "セイバーピース",
           "piece": 5
         }
       ]
@@ -117,11 +77,11 @@
       "qp": 300000,
       "resources": [
         {
-          "name": "アーチャーピース",
+          "name": "セイバーピース",
           "piece": 12
         },
         {
-          "name": "禁断の頁",
+          "name": "追憶の貝殻",
           "piece": 8
         }
       ]
@@ -130,16 +90,16 @@
       "qp": 1000000,
       "resources": [
         {
-          "name": "アーチャーモニュメント",
+          "name": "セイバーモニュメント",
           "piece": 5
         },
         {
-          "name": "万死の毒針",
-          "piece": 24
+          "name": "ホムンクルスベビー",
+          "piece": 10
         },
         {
-          "name": "混沌の爪",
-          "piece": 3
+          "name": "枯淡勾玉",
+          "piece": 5
         }
       ]
     },
@@ -147,15 +107,15 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "アーチャーモニュメント",
+          "name": "セイバーモニュメント",
           "piece": 12
         },
         {
-          "name": "混沌の爪",
-          "piece": 6
+          "name": "枯淡勾玉",
+          "piece": 10
         },
         {
-          "name": "智慧のスカラベ",
+          "name": "九十九鏡",
           "piece": 5
         }
       ]
@@ -166,7 +126,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "剣の輝石",
           "piece": 5
         }
       ]
@@ -175,7 +135,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "剣の輝石",
           "piece": 12
         }
       ]
@@ -184,7 +144,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "弓の魔石",
+          "name": "剣の魔石",
           "piece": 5
         }
       ]
@@ -193,12 +153,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "弓の魔石",
+          "name": "剣の魔石",
           "piece": 12
         },
         {
-          "name": "万死の毒針",
-          "piece": 12
+          "name": "ホムンクルスベビー",
+          "piece": 5
         }
       ]
     },
@@ -206,12 +166,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "弓の秘石",
+          "name": "剣の秘石",
           "piece": 5
         },
         {
-          "name": "万死の毒針",
-          "piece": 24
+          "name": "ホムンクルスベビー",
+          "piece": 10
         }
       ]
     },
@@ -219,11 +179,11 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "弓の秘石",
+          "name": "剣の秘石",
           "piece": 12
         },
         {
-          "name": "禁断の頁",
+          "name": "追憶の貝殻",
           "piece": 5
         }
       ]
@@ -232,12 +192,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "禁断の頁",
+          "name": "追憶の貝殻",
           "piece": 10
         },
         {
-          "name": "虚影の塵",
-          "piece": 12
+          "name": "暁光炉心",
+          "piece": 4
         }
       ]
     },
@@ -245,12 +205,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "虚影の塵",
-          "piece": 36
+          "name": "暁光炉心",
+          "piece": 11
         },
         {
-          "name": "魔術髄液",
-          "piece": 72
+          "name": "奇奇神酒",
+          "piece": 10
         }
       ]
     },
@@ -269,7 +229,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "剣の輝石",
           "piece": 5
         }
       ]
@@ -278,7 +238,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "剣の輝石",
           "piece": 12
         }
       ]
@@ -287,7 +247,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "弓の魔石",
+          "name": "剣の魔石",
           "piece": 5
         }
       ]
@@ -296,12 +256,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "弓の魔石",
+          "name": "剣の魔石",
           "piece": 12
         },
         {
-          "name": "混沌の爪",
-          "piece": 3
+          "name": "英雄の証",
+          "piece": 15
         }
       ]
     },
@@ -309,12 +269,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "弓の秘石",
+          "name": "剣の秘石",
           "piece": 5
         },
         {
-          "name": "混沌の爪",
-          "piece": 6
+          "name": "英雄の証",
+          "piece": 29
         }
       ]
     },
@@ -322,12 +282,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "弓の秘石",
+          "name": "剣の秘石",
           "piece": 12
         },
         {
-          "name": "智慧のスカラベ",
-          "piece": 2
+          "name": "八連双晶",
+          "piece": 5
         }
       ]
     },
@@ -335,12 +295,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "智慧のスカラベ",
-          "piece": 4
+          "name": "八連双晶",
+          "piece": 10
         },
         {
-          "name": "励振火薬",
-          "piece": 18
+          "name": "閑古鈴",
+          "piece": 6
         }
       ]
     },
@@ -348,12 +308,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "励振火薬",
-          "piece": 54
+          "name": "閑古鈴",
+          "piece": 18
         },
         {
-          "name": "真理の卵",
-          "piece": 10
+          "name": "永遠結氷",
+          "piece": 24
         }
       ]
     },

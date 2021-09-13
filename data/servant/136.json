@@ -21,6 +21,13 @@
         "name": "自然の嬰児",
         "rank": "B",
         "icon": 403
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "未来へと輝く",
+        "rank": "A",
+        "icon": 403
       }
     ],
     "skill_3": [

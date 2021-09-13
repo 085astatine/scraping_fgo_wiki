@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 69,
+      "name": "盛夏の紳士",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "励振火薬",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "永遠結氷",
+            "piece": 5
+          },
+          {
+            "name": "九十九鏡",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 10000,
