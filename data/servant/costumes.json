@@ -1,0 +1,1868 @@
+[
+  {
+    "costume_id": 1,
+    "servant_id": 1,
+    "name": "常夏の水着",
+    "flavor_text": "カルデアのみんなに選んでもらった初めての水着。2016年の思い出。",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 2,
+    "servant_id": 99,
+    "name": "魅惑の獄長ルック",
+    "flavor_text": "メイヴ大監獄を支配する者の衣装。赤い看守服が実に似合っている。",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 10
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 3,
+    "servant_id": 5,
+    "name": "オリンピアの体操服",
+    "flavor_text": "人類最古の体操服といっても過言ではないのかもしれない。",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 4,
+    "servant_id": 183,
+    "name": "少女の捜し物",
+    "flavor_text": "存在としての結びつきとして手元に在るべき霊衣。",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 5,
+    "servant_id": 94,
+    "name": "トゥリファスでの思い出",
+    "flavor_text": "大切な友人たちがいたことを思い出させてくれる霊衣。",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 6,
+    "servant_id": 106,
+    "name": "邪竜の魔女ver新宿1999",
+    "flavor_text": "ファヴニールが私にもっと黒に染まれと囁いてくるのよファヴニールが。",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 10
+        },
+        {
+          "name": "万死の毒針",
+          "piece": 10
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 7,
+    "servant_id": 160,
+    "name": "ホワイトローズ",
+    "flavor_text": "———白い薔薇。一輪の。異世界の騎士によく似合うだろう。",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 8,
+    "servant_id": 1,
+    "name": "オルテナウス",
+    "flavor_text": "ダ・ヴィンチが改良した霊基外骨骼。アーマードとも呼ばれる。",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "costume_id": 9,
+    "servant_id": 96,
+    "name": "モンテ・クリストセレクション",
+    "flavor_text": "巌窟王の夏の装い浮き輪が密かにお気に入りとのこと",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 10,
+    "servant_id": 145,
+    "name": "エスタブリッシュメント",
+    "flavor_text": "無造作に着こなしているが、いずれも超高級ブランド品である",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 11,
+    "servant_id": 13,
+    "name": "夏の狩人",
+    "flavor_text": "BBによって強制的に着せられた霊衣だが、本人は割と気に入っている",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 12,
+    "servant_id": 220,
+    "name": "簡易霊衣：小悪魔たまご肌（第二再臨）",
+    "flavor_text": "BB本来の肌色「紫外線は乙女の敵です！」",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 10
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 5
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 13,
+    "servant_id": 220,
+    "name": "簡易霊衣：小悪魔たまご肌（第三再臨）",
+    "flavor_text": "BB本来の肌色「UVケアは乙女の味方です！」",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 10
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 14,
+    "servant_id": 233,
+    "name": "簡易霊衣：テクニカ・マスカラ",
+    "flavor_text": "ケツァル・コアトル愛用のマスク身につけるだけで闘志が溢れてくる",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 5
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 15,
+    "servant_id": 233,
+    "name": "簡易霊衣：ルーダ・マスカラ",
+    "flavor_text": "真のサンタを目指した悪役の名残気を抜くと顔が怖くなってしまう",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 10
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 10
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 16,
+    "servant_id": 136,
+    "name": "テスタメント・フォーム",
+    "flavor_text": "あくまで衣装で、心身に影響はないと、某ステッキは主張している",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 17,
+    "servant_id": 156,
+    "name": "グレイ・カラー",
+    "flavor_text": "蝶モチーフのバーテン服教授本人のデザインセンスが光る一品",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 10
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 18,
+    "servant_id": 235,
+    "name": "簡易霊衣：グラスレス（第一再臨）",
+    "flavor_text": "本人曰く、圏境極まれば視界はさほど重要では無いらしい",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 10
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 19,
+    "servant_id": 235,
+    "name": "簡易霊衣：グラスレス（第二再臨）",
+    "flavor_text": "色眼鏡は初動の視線を隠すのに役立つ老境に至れどその牙、いまだ衰えず",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 20,
+    "servant_id": 85,
+    "name": "燃える三神の衣",
+    "flavor_text": "シヴァ神とヴィシュヌ神の力を得た姿別名のスーパーカルナは自称である",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 21,
+    "servant_id": 252,
+    "name": "簡易霊衣：行人包",
+    "flavor_text": "白手巾にてつふりをつつみし景虎自慢のスタイリッシュ頭巾姿",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 22,
+    "servant_id": 6,
+    "name": "スーパー・クールビズ",
+    "flavor_text": "大胆に背中が全開になっているスーツ通気性はとても良い",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 23,
+    "servant_id": 117,
+    "name": "夏休み満喫用忍び装束",
+    "flavor_text": "小太郎の用意した現代衣装市井に溶け込むは忍者の得手なり",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 24,
+    "servant_id": 150,
+    "name": "Camelot & Co",
+    "flavor_text": "謎のマーリン専用服飾ブランドそういう事する、と円卓騎士は語る",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 25,
+    "servant_id": 91,
+    "name": "簡易霊衣：首切りバニー（第一再臨）",
+    "flavor_text": "ウサ耳を着けた貴人クリティカルヒット",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 10
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 5
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 26,
+    "servant_id": 91,
+    "name": "簡易霊衣：首切りバニー（第二再臨）",
+    "flavor_text": "ウサ耳を着けた貴人つうこんのいちげき",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 10
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 27,
+    "servant_id": 91,
+    "name": "簡易霊衣：首切りバニー（第三再臨）",
+    "flavor_text": "ウサ耳を着けた貴人アルテミット・ニャン",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        },
+        {
+          "name": "禍罪の矢尻",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 28,
+    "servant_id": 261,
+    "name": "簡易霊衣：武蔵ちゃんの夏モード",
+    "flavor_text": "天魔と化した宮本武蔵、ではなくこちらは普通の日焼けとのコト",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 10
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 29,
+    "servant_id": 266,
+    "name": "簡易霊衣：アイス・セレブリティ",
+    "flavor_text": "氷上のプリマドンナのお忍びモードその立ち振る舞いはまさにスタァ",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "永遠結氷",
+          "piece": 5
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 30,
+    "servant_id": 86,
+    "name": "簡易霊衣：謎のヒロインZ",
+    "flavor_text": "謎のヒロインXにとってすら謎な存在セイバー飽和現象が生んだパラレルX",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 31,
+    "servant_id": 268,
+    "name": "簡易霊衣：アシュタレト・オリジン",
+    "flavor_text": "記憶すら残らぬ遥か時の彼方冷え切った宇宙にいた原初の女神の色彩",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 32,
+    "servant_id": 171,
+    "name": "簡易霊衣：アマゾネスCEOセット",
+    "flavor_text": "霊基接触の影響か、この霊衣で戦闘すると言動に謎の変化が見られる",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 10
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 33,
+    "servant_id": 3,
+    "name": "漆黒の騎士王ver新宿1999",
+    "flavor_text": "ストリートという劇場に舞い降りた黒騎士は、シーンの最前線に立ち続ける",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 34,
+    "servant_id": 76,
+    "name": "トゥリファスの記憶",
+    "flavor_text": "どこかの戦場で着ていたお気に入りの服誰かが買ってくれたような憶えがある",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        },
+        {
+          "name": "凶骨",
+          "piece": 10
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 35,
+    "servant_id": 1,
+    "name": "オルテナウス（改修型）",
+    "flavor_text": "シオンの協力により、アトラス院の技術が組み込まれた霊基外骨骼",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "costume_id": 36,
+    "servant_id": 84,
+    "name": "授かりし旅装",
+    "flavor_text": "とある英霊が日本を訪れた時の衣装お供の猿は猿拳を使いこなす武闘派",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 5
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 37,
+    "servant_id": 253,
+    "name": "アクティブ・セーラー",
+    "flavor_text": "おしゃまなアクティブスタイル未完の馬にあった可能性のひとつ",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 5
+        },
+        {
+          "name": "神脈霊子",
+          "piece": 5
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 38,
+    "servant_id": 5,
+    "name": "ヴィナスのシルク",
+    "flavor_text": "薔薇の皇帝のパーティードレスかの美神ヴィナスに喩えられる華やかさ",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 39,
+    "servant_id": 210,
+    "name": "まっこと格好えい羽織袴",
+    "flavor_text": "カルデアパレスにいた酔いどれ侍の衣装風流人もかくやの粋で洒脱な羽織袴",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 10
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 40,
+    "servant_id": 174,
+    "name": "マッド・バニー",
+    "flavor_text": "ポール・バニヤンのお祭り衣装血糊はベリーソース（自己申告）",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 41,
+    "servant_id": 2,
+    "name": "簡易霊衣：風王結界",
+    "flavor_text": "騎士王の纏う風の宝具主に聖剣の不可視化に用いられる",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 42,
+    "servant_id": 213,
+    "name": "我が愛との思い出",
+    "flavor_text": "愛しき者と過ごしたひと夏の記憶ストールは自分で染めたらしい",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 43,
+    "servant_id": 227,
+    "name": "辨天衣",
+    "flavor_text": "蘭陵王の涼やかな夏の衣装叡智の結晶はシグルド作",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 44,
+    "servant_id": 11,
+    "name": "サマー・カジュアル",
+    "flavor_text": "とある夏の事件の時に来ていた衣装キャンプの引率者として参加していた",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "禍罪の矢尻",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 45,
+    "servant_id": 1,
+    "name": "常夏の水着Ver.02",
+    "flavor_text": "マシュの新しい水着。今年は自分で可愛いと思ったものを選んだとのこと",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 5
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 5
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 46,
+    "servant_id": 70,
+    "name": "刺し穿つバニー",
+    "flavor_text": "首切り、マッドに続く第三のバニー衣装本人は割と気に入っている",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 47,
+    "servant_id": 68,
+    "name": "簡易霊衣：浅葱の羽織袴",
+    "flavor_text": "浅葱の羽織袴。袴姿の新選組隊服任務によって使い分けていたとの事",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 48,
+    "servant_id": 126,
+    "name": "シルバー・バトラー",
+    "flavor_text": "とある騎士が纏う執事服動きやすさと優美さを備えたデザイン",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 49,
+    "servant_id": 51,
+    "name": "平安武者装束",
+    "flavor_text": "坂田金時の頼光四天王としての姿大江山での決戦においても纏っていた",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 50,
+    "servant_id": 299,
+    "name": "簡易霊衣：大蛇神の分け御霊",
+    "flavor_text": "伊吹童子の古き神としての姿自然の顕れとしての荒ぶる神、その分霊",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 51,
+    "servant_id": 305,
+    "name": "簡易霊衣：デビルカレン",
+    "flavor_text": "さらにテンションあがったカレンわからせる事は困難と思われる",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 10
+        },
+        {
+          "name": "禍罪の矢尻",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 52,
+    "servant_id": 93,
+    "name": "怪盗天草四郎",
+    "flavor_text": "とある微小特異点での天草四郎の衣装まず形から入りました、とは本人の言",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 10
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 53,
+    "servant_id": 8,
+    "name": "掌の星屑",
+    "flavor_text": "神の鞭のダンス衣装草原の少女に在り得た、可能性の一つ",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 5
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 5
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 54,
+    "servant_id": 5,
+    "name": "覇嵐蛮嬢ラプソディア",
+    "flavor_text": "薔薇の皇帝のダンス衣装そのステップは軽やかにして優美",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 55,
+    "servant_id": 15,
+    "name": "mirage",
+    "flavor_text": "可憐の女神が纏うダンス衣装その魅力を更に際立たせるきらめき",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 10
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "神脈霊子",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 56,
+    "servant_id": 27,
+    "name": "サイケデリック流離譚",
+    "flavor_text": "源氏の若武者のダンス衣装和風意匠を織り込んだ豪華な一品",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        },
+        {
+          "name": "光銀の冠",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 57,
+    "servant_id": 99,
+    "name": "愛しき私の敵対者",
+    "flavor_text": "蜜の女王のダンス衣装某光の御子特効霊衣、らしい？",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "悠久の実",
+          "piece": 5
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 58,
+    "servant_id": 100,
+    "name": "それってとってもマハトマね☆",
+    "flavor_text": "異端の魔術師のダンス衣装マハトマ的可愛さの集大成",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 10
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 59,
+    "servant_id": 120,
+    "name": "Beyond the Mirror",
+    "flavor_text": "天空のファラオのダンス衣装本人は口にしないが大変お気に入り",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 5
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 60,
+    "servant_id": 112,
+    "name": "桜歌爛漫",
+    "flavor_text": "鬼の化生のダンス衣装時にはのんびり、はんなりと",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 10
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 61,
+    "servant_id": 124,
+    "name": "夜に咲く毒の華",
+    "flavor_text": "孤独な暗殺者のドレス衣装その笑顔は、あなたのために",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 10
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 62,
+    "servant_id": 58,
+    "name": "笑顔 glory day",
+    "flavor_text": "万能有能猫（？）のダンス衣装いわゆるダイナースタイルだワン☆",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 10
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 63,
+    "servant_id": 1,
+    "name": "Bright Voyager",
+    "flavor_text": "「旅」をテーマにしたダンス衣装アクティブ＆キュートなデザイン",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "costume_id": 64,
+    "servant_id": 59,
+    "name": "Prove",
+    "flavor_text": "救国の聖女のダンス衣装ゴージャスかつ清楚な純白のドレス",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        },
+        {
+          "name": "虹の糸玉",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 65,
+    "servant_id": 312,
+    "name": "簡易霊衣：妖精騎士ランスロット（第一再臨）",
+    "flavor_text": "ある世界における最速の騎士の姿もっとも強く、美しい妖精騎士",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 5
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 66,
+    "servant_id": 312,
+    "name": "簡易霊衣：妖精騎士ランスロット（第二再臨）",
+    "flavor_text": "ある世界における最速の騎士の姿隠された素顔は気ままな百面相である",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "赦免の小鐘",
+          "piece": 5
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "悠久の実",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 67,
+    "servant_id": 312,
+    "name": "簡易霊衣：赤熱偏位",
+    "flavor_text": "希望の地の門番として現れる竜の影。白き竜と赤き竜は相克し、また同一。",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        },
+        {
+          "name": "神脈霊子",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "竜の逆鱗",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 68,
+    "servant_id": 309,
+    "name": "簡易霊衣：冬の女王",
+    "flavor_text": "楽園の妖精の統治者としての姿最果ての地から来襲した、冷たい冬の嵐",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "光銀の冠",
+          "piece": 5
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 69,
+    "servant_id": 25,
+    "name": "盛夏の紳士",
+    "flavor_text": "驚くべきことに、趣味服以外のセンスは大変良好だった大海賊である",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 5
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 70,
+    "servant_id": 206,
+    "name": "フィアレス・ダイバー",
+    "flavor_text": "彗星走法は戦場を選ばず当然、海でも人類最速の座は揺るがない",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "竜の牙",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 71,
+    "servant_id": 273,
+    "name": "サマー・スポーツウェア",
+    "flavor_text": "アマゾネス.comで購入した、動き易さとファッション性を兼ね備えた外出着",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  }
+]
