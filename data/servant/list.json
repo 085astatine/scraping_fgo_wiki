@@ -2196,5 +2196,26 @@
     "klass": "Ruler",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5196.html"
+  },
+  {
+    "id": 321,
+    "name": "カーマ",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5220.html"
+  },
+  {
+    "id": 322,
+    "name": "カイニス",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5221.html"
+  },
+  {
+    "id": 323,
+    "name": "清少納言",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5222.html"
   }
 ]
