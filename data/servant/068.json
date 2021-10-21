@@ -28,6 +28,13 @@
         "name": "病弱",
         "rank": "A",
         "icon": 311
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "絶刀",
+        "rank": "A",
+        "icon": 311
       }
     ],
     "skill_3": [

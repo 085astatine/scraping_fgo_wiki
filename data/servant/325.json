@@ -1,42 +1,35 @@
 {
-  "id": 191,
-  "name": "メカエリチャンⅡ号機",
+  "id": 325,
+  "name": "ゼノビア",
   "alias_name": null,
-  "klass": "AlterEgo",
+  "klass": "Archer",
   "rarity": 4,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "無辜の怪獣",
-        "rank": "EX",
-        "icon": 605
+        "name": "僭称のアウグスタ",
+        "rank": "B",
+        "icon": 305
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "オーバーロード改",
-        "rank": "C",
-        "icon": 601
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "オーバーロード改",
-        "rank": "C+",
-        "icon": 601
+        "name": "アウレリアヌスの攻囲（抗）",
+        "rank": "A",
+        "icon": 404
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "ファイナルエリチャン",
-        "rank": "C",
-        "icon": 302
+        "name": "栄行くパルミラ",
+        "rank": "A",
+        "icon": 300
       }
     ]
   },
@@ -63,7 +56,7 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対セイバー攻撃適性",
+        "name": "対バーサーカー攻撃適性",
         "rank": "",
         "icon": 300
       }
@@ -75,8 +68,8 @@
       "qp": 50000,
       "resources": [
         {
-          "name": "Bペレット",
-          "piece": 1
+          "name": "アーチャーピース",
+          "piece": 4
         }
       ]
     },
@@ -84,8 +77,12 @@
       "qp": 150000,
       "resources": [
         {
-          "name": "Bペレット",
-          "piece": 1
+          "name": "アーチャーピース",
+          "piece": 10
+        },
+        {
+          "name": "英雄の証",
+          "piece": 18
         }
       ]
     },
@@ -93,8 +90,16 @@
       "qp": 500000,
       "resources": [
         {
-          "name": "Bペレット",
-          "piece": 1
+          "name": "アーチャーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 24
+        },
+        {
+          "name": "血の涙石",
+          "piece": 3
         }
       ]
     },
@@ -102,8 +107,16 @@
       "qp": 1500000,
       "resources": [
         {
-          "name": "Bペレット",
-          "piece": 1
+          "name": "アーチャーモニュメント",
+          "piece": 10
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 4
         }
       ]
     }
@@ -113,11 +126,7 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "騎の輝石",
-          "piece": 4
-        },
-        {
-          "name": "狂の輝石",
+          "name": "弓の輝石",
           "piece": 4
         }
       ]
@@ -126,11 +135,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "騎の輝石",
-          "piece": 10
-        },
-        {
-          "name": "狂の輝石",
+          "name": "弓の輝石",
           "piece": 10
         }
       ]
@@ -139,11 +144,7 @@
       "qp": 600000,
       "resources": [
         {
-          "name": "騎の魔石",
-          "piece": 4
-        },
-        {
-          "name": "狂の魔石",
+          "name": "弓の魔石",
           "piece": 4
         }
       ]
@@ -152,12 +153,12 @@
       "qp": 800000,
       "resources": [
         {
-          "name": "騎の魔石",
+          "name": "弓の魔石",
           "piece": 10
         },
         {
-          "name": "狂の魔石",
-          "piece": 10
+          "name": "愚者の鎖",
+          "piece": 12
         }
       ]
     },
@@ -165,12 +166,12 @@
       "qp": 2000000,
       "resources": [
         {
-          "name": "騎の秘石",
+          "name": "弓の秘石",
           "piece": 4
         },
         {
-          "name": "狂の秘石",
-          "piece": 4
+          "name": "愚者の鎖",
+          "piece": 24
         }
       ]
     },
@@ -178,12 +179,12 @@
       "qp": 2500000,
       "resources": [
         {
-          "name": "騎の秘石",
+          "name": "弓の秘石",
           "piece": 10
         },
         {
-          "name": "狂の秘石",
-          "piece": 10
+          "name": "英雄の証",
+          "piece": 12
         }
       ]
     },
@@ -191,12 +192,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "血の涙石",
-          "piece": 4
+          "name": "英雄の証",
+          "piece": 24
         },
         {
-          "name": "黒獣脂",
-          "piece": 4
+          "name": "禍罪の矢尻",
+          "piece": 5
         }
       ]
     },
@@ -204,12 +205,12 @@
       "qp": 6000000,
       "resources": [
         {
-          "name": "竜の逆鱗",
-          "piece": 7
+          "name": "禍罪の矢尻",
+          "piece": 15
         },
         {
-          "name": "奇奇神酒",
-          "piece": 7
+          "name": "光銀の冠",
+          "piece": 20
         }
       ]
     },
@@ -228,11 +229,7 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "騎の輝石",
-          "piece": 4
-        },
-        {
-          "name": "狂の輝石",
+          "name": "弓の輝石",
           "piece": 4
         }
       ]
@@ -241,11 +238,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "騎の輝石",
-          "piece": 10
-        },
-        {
-          "name": "狂の輝石",
+          "name": "弓の輝石",
           "piece": 10
         }
       ]
@@ -254,11 +247,7 @@
       "qp": 600000,
       "resources": [
         {
-          "name": "騎の魔石",
-          "piece": 4
-        },
-        {
-          "name": "狂の魔石",
+          "name": "弓の魔石",
           "piece": 4
         }
       ]
@@ -267,12 +256,12 @@
       "qp": 800000,
       "resources": [
         {
-          "name": "騎の魔石",
+          "name": "弓の魔石",
           "piece": 10
         },
         {
-          "name": "狂の魔石",
-          "piece": 10
+          "name": "世界樹の種",
+          "piece": 5
         }
       ]
     },
@@ -280,12 +269,12 @@
       "qp": 2000000,
       "resources": [
         {
-          "name": "騎の秘石",
+          "name": "弓の秘石",
           "piece": 4
         },
         {
-          "name": "狂の秘石",
-          "piece": 4
+          "name": "世界樹の種",
+          "piece": 10
         }
       ]
     },
@@ -293,12 +282,12 @@
       "qp": 2500000,
       "resources": [
         {
-          "name": "騎の秘石",
+          "name": "弓の秘石",
           "piece": 10
         },
         {
-          "name": "狂の秘石",
-          "piece": 10
+          "name": "智慧のスカラベ",
+          "piece": 2
         }
       ]
     },
@@ -306,12 +295,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "無間の歯車",
-          "piece": 6
+          "name": "智慧のスカラベ",
+          "piece": 4
         },
         {
-          "name": "巨人の指輪",
-          "piece": 6
+          "name": "宵哭きの鉄杭",
+          "piece": 15
         }
       ]
     },
@@ -319,12 +308,12 @@
       "qp": 6000000,
       "resources": [
         {
-          "name": "暁光炉心",
-          "piece": 10
+          "name": "宵哭きの鉄杭",
+          "piece": 45
         },
         {
-          "name": "煌星のカケラ",
-          "piece": 7
+          "name": "虹の糸玉",
+          "piece": 20
         }
       ]
     },
