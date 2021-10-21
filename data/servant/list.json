@@ -2217,5 +2217,26 @@
     "klass": "Berserker",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5222.html"
+  },
+  {
+    "id": 324,
+    "name": "ジャック・ド・モレー",
+    "klass": "Foreigner",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5244.html"
+  },
+  {
+    "id": 325,
+    "name": "ゼノビア",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5248.html"
+  },
+  {
+    "id": 326,
+    "name": "エリザベート・バートリー〔シンデレラ〕",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5245.html"
   }
 ]
