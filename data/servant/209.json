@@ -37,6 +37,13 @@
         "name": "無辺",
         "rank": "A",
         "icon": 302
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "無辺",
+        "rank": "A+",
+        "icon": 302
       }
     ]
   },
