@@ -1,0 +1,330 @@
+{
+  "id": 327,
+  "name": "出雲阿国",
+  "alias_name": null,
+  "klass": "Caster",
+  "rarity": 5,
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "荒事舞",
+        "rank": "B",
+        "icon": 316
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "人形神楽",
+        "rank": "A",
+        "icon": 311
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "封印の巫女",
+        "rank": "B+",
+        "icon": 609
+      }
+    ]
+  },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対プリテンダー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "キャスターピース",
+          "piece": 12
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 10
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 8
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 12
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 10
+        },
+        {
+          "name": "虹の糸玉",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "虹の糸玉",
+          "piece": 18
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 12
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "八連双晶",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 10
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "閑古鈴",
+          "piece": 18
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
