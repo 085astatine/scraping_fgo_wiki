@@ -2252,5 +2252,12 @@
     "klass": "Avenger",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5271.html"
+  },
+  {
+    "id": 329,
+    "name": "坂本龍馬",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5284.html"
   }
 ]
