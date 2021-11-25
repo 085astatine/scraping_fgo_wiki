@@ -1,35 +1,35 @@
 {
-  "id": 324,
-  "name": "ジャック・ド・モレー",
+  "id": 327,
+  "name": "出雲阿国",
   "alias_name": null,
-  "klass": "Foreigner",
+  "klass": "Caster",
   "rarity": 5,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "堕落の叙任",
-        "rank": "A",
-        "icon": 300
+        "name": "荒事舞",
+        "rank": "B",
+        "icon": 316
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "聖骸布（偽）",
-        "rank": "B",
-        "icon": 403
+        "name": "人形神楽",
+        "rank": "A",
+        "icon": 311
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "無辜の怪物",
-        "rank": "A",
-        "icon": 605
+        "name": "封印の巫女",
+        "rank": "B+",
+        "icon": 609
       }
     ]
   },
@@ -56,7 +56,7 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対セイバー攻撃適性",
+        "name": "対プリテンダー攻撃適性",
         "rank": "",
         "icon": 300
       }
@@ -68,12 +68,8 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "凶骨",
-          "piece": 10
-        },
-        {
-          "name": "愚者の鎖",
-          "piece": 10
+          "name": "キャスターピース",
+          "piece": 5
         }
       ]
     },
@@ -81,12 +77,12 @@
       "qp": 300000,
       "resources": [
         {
-          "name": "大騎士勲章",
-          "piece": 10
+          "name": "キャスターピース",
+          "piece": 12
         },
         {
-          "name": "禁断の頁",
-          "piece": 10
+          "name": "無間の歯車",
+          "piece": 8
         }
       ]
     },
@@ -94,12 +90,16 @@
       "qp": 1000000,
       "resources": [
         {
-          "name": "魔術髄液",
+          "name": "キャスターモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "枯淡勾玉",
           "piece": 10
         },
         {
-          "name": "蛮神の心臓",
-          "piece": 10
+          "name": "鳳凰の羽根",
+          "piece": 4
         }
       ]
     },
@@ -107,12 +107,16 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "真理の卵",
-          "piece": 10
+          "name": "キャスターモニュメント",
+          "piece": 12
         },
         {
-          "name": "煌星のカケラ",
-          "piece": 10
+          "name": "鳳凰の羽根",
+          "piece": 8
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
         }
       ]
     }
@@ -122,8 +126,8 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "凶骨",
-          "piece": 10
+          "name": "術の輝石",
+          "piece": 5
         }
       ]
     },
@@ -131,8 +135,8 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "愚者の鎖",
-          "piece": 10
+          "name": "術の輝石",
+          "piece": 12
         }
       ]
     },
@@ -140,8 +144,8 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "大騎士勲章",
-          "piece": 12
+          "name": "術の魔石",
+          "piece": 5
         }
       ]
     },
@@ -149,8 +153,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "禁断の頁",
+          "name": "術の魔石",
           "piece": 12
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
         }
       ]
     },
@@ -158,8 +166,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "魔術髄液",
-          "piece": 12
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 10
         }
       ]
     },
@@ -167,8 +179,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "蛮神の心臓",
-          "piece": 15
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
         }
       ]
     },
@@ -176,8 +192,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "真理の卵",
-          "piece": 15
+          "name": "無間の歯車",
+          "piece": 10
+        },
+        {
+          "name": "虹の糸玉",
+          "piece": 6
         }
       ]
     },
@@ -185,8 +205,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "煌星のカケラ",
-          "piece": 15
+          "name": "虹の糸玉",
+          "piece": 18
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 10
         }
       ]
     },
@@ -205,8 +229,8 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "虚影の塵",
-          "piece": 10
+          "name": "術の輝石",
+          "piece": 5
         }
       ]
     },
@@ -214,8 +238,8 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "黒獣脂",
-          "piece": 10
+          "name": "術の輝石",
+          "piece": 12
         }
       ]
     },
@@ -223,8 +247,8 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "血の涙石",
-          "piece": 12
+          "name": "術の魔石",
+          "piece": 5
         }
       ]
     },
@@ -232,8 +256,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "万死の毒針",
+          "name": "術の魔石",
           "piece": 12
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
         }
       ]
     },
@@ -241,8 +269,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "封魔のランプ",
-          "piece": 12
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "八連双晶",
+          "piece": 10
         }
       ]
     },
@@ -250,8 +282,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "宵哭きの鉄杭",
-          "piece": 15
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 5
         }
       ]
     },
@@ -259,8 +295,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "悠久の実",
-          "piece": 15
+          "name": "ホムンクルスベビー",
+          "piece": 10
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 6
         }
       ]
     },
@@ -268,8 +308,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "鬼炎鬼灯",
-          "piece": 15
+          "name": "閑古鈴",
+          "piece": 18
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 10
         }
       ]
     },

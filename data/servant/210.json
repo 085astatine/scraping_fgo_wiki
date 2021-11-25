@@ -87,6 +87,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 72,
+      "name": "えろうイケちょるスーツ",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "凶骨",
+            "piece": 10
+          },
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "血の涙石",
+            "piece": 5
+          },
+          {
+            "name": "鬼炎鬼灯",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

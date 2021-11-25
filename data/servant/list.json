@@ -2222,7 +2222,7 @@
     "id": 324,
     "name": "ジャック・ド・モレー",
     "klass": "Foreigner",
-    "rarity": 4,
+    "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/5244.html"
   },
   {
@@ -2238,5 +2238,26 @@
     "klass": "Rider",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5245.html"
+  },
+  {
+    "id": 327,
+    "name": "出雲阿国",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5272.html"
+  },
+  {
+    "id": 328,
+    "name": "謎の蘭丸X",
+    "klass": "Avenger",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5271.html"
+  },
+  {
+    "id": 329,
+    "name": "坂本龍馬",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5284.html"
   }
 ]
