@@ -202,7 +202,8 @@ def _parse_servant_table() -> list[_ServantTable]:
     # access
     response = requests.get(url)
     etree = lxml.html.fromstring(response.text)
-    xpath = ('/html/body//div[@id="wikibody"]/div[1]/div/'
+    xpath = ('//h2[normalize-space()="サーヴァント一覧"]/'
+             'following-sibling::div[1]//'
              'table/tbody/tr[td]')
     # サーヴァントリスト作成
     result: list[_ServantTable] = []
