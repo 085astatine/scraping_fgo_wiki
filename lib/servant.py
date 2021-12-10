@@ -257,10 +257,10 @@ def _parse_costume_table(
                 (servant['id'] for servant in servants
                  if servant['url'] == servant_url),
                 None)
-        _logger.debug('servant ID: %d', servant_id)
         if servant_id is None:
             _logger.error('costume %d: servant ID is not found', costume_id)
             continue
+        _logger.debug('servant ID: %d', servant_id)
         # name
         name = tbody.xpath('tr[2]/td[2]')[0].text_content().strip()
         _logger.debug('costume name: %s', name)
