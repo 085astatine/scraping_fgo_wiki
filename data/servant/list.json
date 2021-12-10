@@ -2259,5 +2259,12 @@
     "klass": "Lancer",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/5284.html"
+  },
+  {
+    "id": 330,
+    "name": "マルタ〔サンタ〕",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5297.html"
   }
 ]
