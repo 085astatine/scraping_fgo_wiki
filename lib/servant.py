@@ -202,7 +202,8 @@ def _parse_servant_table() -> list[_ServantTable]:
     # access
     response = requests.get(url)
     etree = lxml.html.fromstring(response.text)
-    xpath = ('/html/body//div[@id="wikibody"]/div[1]/div/'
+    xpath = ('//h2[normalize-space()="サーヴァント一覧"]/'
+             'following-sibling::div[1]//'
              'table/tbody/tr[td]')
     # サーヴァントリスト作成
     result: list[_ServantTable] = []
@@ -257,10 +258,10 @@ def _parse_costume_table(
                 (servant['id'] for servant in servants
                  if servant['url'] == servant_url),
                 None)
-        _logger.debug('servant ID: %d', servant_id)
         if servant_id is None:
             _logger.error('costume %d: servant ID is not found', costume_id)
             continue
+        _logger.debug('servant ID: %d', servant_id)
         # name
         name = tbody.xpath('tr[2]/td[2]')[0].text_content().strip()
         _logger.debug('costume name: %s', name)
