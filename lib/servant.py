@@ -7,7 +7,7 @@ import pathlib
 import re
 import time
 import unicodedata
-from typing import Literal, Optional, TypedDict
+from typing import Final, Literal, Optional, TypedDict
 import lxml.html
 import requests
 from .io import load_json, save_json
@@ -15,6 +15,9 @@ from .text import Text
 
 
 _logger = logging.getLogger(__name__)
+
+
+_REQUEST_INTERVAL: Final[float] = 1.0
 
 
 class Skill(TypedDict):
@@ -480,7 +483,7 @@ def _load_servant_table(
         *,
         path: Optional[pathlib.Path] = None,
         force_update: bool = False,
-        request_interval: float = 1.0) -> list[_ServantTable]:
+        request_interval: float = _REQUEST_INTERVAL) -> list[_ServantTable]:
     # load
     if path is not None and not force_update:
         result = load_json(path)
@@ -502,7 +505,7 @@ def _load_costumes(
         *,
         path: Optional[pathlib.Path],
         force_update: bool = False,
-        request_interval: float = 1.0) -> list[_CostumeTable]:
+        request_interval: float = _REQUEST_INTERVAL) -> list[_CostumeTable]:
     # load
     if path is not None and not force_update:
         result = load_json(path)
@@ -525,7 +528,7 @@ def _load_servant(
         *,
         path: Optional[pathlib.Path] = None,
         force_update: bool = False,
-        request_interval: float = 1.0) -> Servant:
+        request_interval: float = _REQUEST_INTERVAL) -> Servant:
     # load
     if path is not None and not force_update:
         result = load_json(path)
@@ -551,7 +554,7 @@ def servant_list(
         *,
         directory: Optional[pathlib.Path] = None,
         force_update: bool = False,
-        request_interval: float = 1.0) -> list[Servant]:
+        request_interval: float = _REQUEST_INTERVAL) -> list[Servant]:
     # table
     servant_table = _load_servant_table(
             path=(directory.joinpath('list.json')
