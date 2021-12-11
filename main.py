@@ -8,7 +8,7 @@ from typing import Final
 import lib
 
 
-_REQUEST_INTERVAL: Final[float] = 1.0
+_REQUEST_INTERVAL: Final[float] = 2.0
 
 
 def load_dict(

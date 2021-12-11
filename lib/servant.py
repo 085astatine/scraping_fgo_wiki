@@ -17,7 +17,7 @@ from .text import Text
 _logger = logging.getLogger(__name__)
 
 
-_REQUEST_INTERVAL: Final[float] = 1.0
+_REQUEST_INTERVAL: Final[float] = 2.0
 
 
 class Skill(TypedDict):
