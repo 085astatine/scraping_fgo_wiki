@@ -4,7 +4,11 @@
 import argparse
 import logging
 import pathlib
+from typing import Final
 import lib
+
+
+_REQUEST_INTERVAL: Final[float] = 2.0
 
 
 def load_dict(
@@ -49,11 +53,12 @@ def load_items(
 def load_servants(
         path: pathlib.Path,
         *,
-        force_update: bool = False) -> list[lib.Servant]:
+        force_update: bool = False,
+        request_interval: float = _REQUEST_INTERVAL) -> list[lib.Servant]:
     return lib.servant_list(
             directory=path,
             force_update=force_update,
-            request_interval=1.0)
+            request_interval=request_interval)
 
 
 def load_sounds(
@@ -92,6 +97,13 @@ def main() -> None:
             dest='force',
             action='store_true',
             help='force update')
+    parser.add_argument(
+            '--request-interval',
+            dest='request_interval',
+            type=float,
+            default=_REQUEST_INTERVAL,
+            help='request intarval seconds (default: %(default)s)',
+            metavar='SECONDS')
     # option
     option = parser.parse_args()
     if option.verbose:
