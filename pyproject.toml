@@ -6,7 +6,7 @@ authors = ["085astatine <astatine085@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-lxml = "^4.6.4"
+lxml = "^4.6.5"
 requests = "^2.26.0"
 PyYAML = "^6.0"
 
