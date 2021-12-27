@@ -2266,5 +2266,19 @@
     "klass": "Caster",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5297.html"
+  },
+  {
+    "id": 331,
+    "name": "太公望",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5310.html"
+  },
+  {
+    "id": 332,
+    "name": "ドブルイニャ・ニキチッチ",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5311.html"
   }
 ]
