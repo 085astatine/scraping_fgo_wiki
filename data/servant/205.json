@@ -12,6 +12,13 @@
         "name": "矛盾精神",
         "rank": "A",
         "icon": 602
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "矛盾精神",
+        "rank": "A+",
+        "icon": 602
       }
     ],
     "skill_2": [

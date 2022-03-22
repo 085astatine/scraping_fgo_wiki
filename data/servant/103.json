@@ -28,6 +28,13 @@
         "name": "大量生産",
         "rank": "A",
         "icon": 605
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "大量生産",
+        "rank": "A+",
+        "icon": 605
       }
     ],
     "skill_3": [
