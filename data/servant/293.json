@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 74,
+      "name": "メガネ霊衣：はじめちゃんグラス",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "励振火薬",
+            "piece": 5
+          },
+          {
+            "name": "閑古鈴",
+            "piece": 5
+          },
+          {
+            "name": "血の涙石",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

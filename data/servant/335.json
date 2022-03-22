@@ -1,49 +1,35 @@
 {
-  "id": 103,
-  "name": "トーマス・エジソン",
+  "id": 335,
+  "name": "ヘファイスティオン",
   "alias_name": null,
-  "klass": "Caster",
+  "klass": "Pretender",
   "rarity": 4,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "変化",
-        "rank": "C",
-        "icon": 400
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "メンロパークの魔術師",
+        "name": "彼もまたイスカンダルなのだから（偽）",
         "rank": "A",
-        "icon": 400
+        "icon": 315
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "大量生産",
-        "rank": "A",
-        "icon": 605
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "大量生産",
-        "rank": "A+",
-        "icon": 605
+        "name": "高速神言",
+        "rank": "B",
+        "icon": 601
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "概念改良",
-        "rank": "A+",
-        "icon": 313
+        "name": "無銘の恩恵",
+        "rank": "EX",
+        "icon": 700
       }
     ]
   },
@@ -70,7 +56,7 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対アーチャー攻撃適性",
+        "name": "対ランサー攻撃適性",
         "rank": "",
         "icon": 300
       }
@@ -82,8 +68,12 @@
       "qp": 50000,
       "resources": [
         {
-          "name": "キャスターピース",
-          "piece": 4
+          "name": "英雄の証",
+          "piece": 8
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 8
         }
       ]
     },
@@ -91,12 +81,12 @@
       "qp": 150000,
       "resources": [
         {
-          "name": "キャスターピース",
-          "piece": 10
+          "name": "隕蹄鉄",
+          "piece": 8
         },
         {
           "name": "禁断の頁",
-          "piece": 6
+          "piece": 8
         }
       ]
     },
@@ -104,16 +94,12 @@
       "qp": 500000,
       "resources": [
         {
-          "name": "キャスターモニュメント",
-          "piece": 4
-        },
-        {
-          "name": "英雄の証",
-          "piece": 24
-        },
-        {
           "name": "無間の歯車",
-          "piece": 4
+          "piece": 8
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 8
         }
       ]
     },
@@ -121,16 +107,12 @@
       "qp": 1500000,
       "resources": [
         {
-          "name": "キャスターモニュメント",
-          "piece": 10
-        },
-        {
-          "name": "無間の歯車",
+          "name": "智慧のスカラベ",
           "piece": 8
         },
         {
-          "name": "黒獣脂",
-          "piece": 6
+          "name": "奇奇神酒",
+          "piece": 8
         }
       ]
     }
@@ -140,8 +122,8 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "術の輝石",
-          "piece": 4
+          "name": "英雄の証",
+          "piece": 8
         }
       ]
     },
@@ -149,8 +131,8 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "術の輝石",
-          "piece": 10
+          "name": "虚影の塵",
+          "piece": 8
         }
       ]
     },
@@ -158,8 +140,8 @@
       "qp": 600000,
       "resources": [
         {
-          "name": "術の魔石",
-          "piece": 4
+          "name": "隕蹄鉄",
+          "piece": 10
         }
       ]
     },
@@ -167,12 +149,8 @@
       "qp": 800000,
       "resources": [
         {
-          "name": "術の魔石",
+          "name": "禁断の頁",
           "piece": 10
-        },
-        {
-          "name": "英雄の証",
-          "piece": 12
         }
       ]
     },
@@ -180,12 +158,8 @@
       "qp": 2000000,
       "resources": [
         {
-          "name": "術の秘石",
-          "piece": 4
-        },
-        {
-          "name": "英雄の証",
-          "piece": 24
+          "name": "追憶の貝殻",
+          "piece": 10
         }
       ]
     },
@@ -193,12 +167,8 @@
       "qp": 2500000,
       "resources": [
         {
-          "name": "術の秘石",
-          "piece": 10
-        },
-        {
-          "name": "禁断の頁",
-          "piece": 4
+          "name": "原初の産毛",
+          "piece": 12
         }
       ]
     },
@@ -206,12 +176,8 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "禁断の頁",
-          "piece": 8
-        },
-        {
-          "name": "蛮神の心臓",
-          "piece": 2
+          "name": "奇奇神酒",
+          "piece": 12
         }
       ]
     },
@@ -219,11 +185,7 @@
       "qp": 6000000,
       "resources": [
         {
-          "name": "蛮神の心臓",
-          "piece": 6
-        },
-        {
-          "name": "混沌の爪",
+          "name": "真理の卵",
           "piece": 12
         }
       ]
@@ -243,8 +205,8 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "術の輝石",
-          "piece": 4
+          "name": "凶骨",
+          "piece": 8
         }
       ]
     },
@@ -252,8 +214,8 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "術の輝石",
-          "piece": 10
+          "name": "鳳凰の羽根",
+          "piece": 8
         }
       ]
     },
@@ -261,8 +223,8 @@
       "qp": 600000,
       "resources": [
         {
-          "name": "術の魔石",
-          "piece": 4
+          "name": "血の涙石",
+          "piece": 10
         }
       ]
     },
@@ -270,12 +232,8 @@
       "qp": 800000,
       "resources": [
         {
-          "name": "術の魔石",
+          "name": "愚者の鎖",
           "piece": 10
-        },
-        {
-          "name": "無間の歯車",
-          "piece": 4
         }
       ]
     },
@@ -283,12 +241,8 @@
       "qp": 2000000,
       "resources": [
         {
-          "name": "術の秘石",
-          "piece": 4
-        },
-        {
-          "name": "無間の歯車",
-          "piece": 8
+          "name": "封魔のランプ",
+          "piece": 10
         }
       ]
     },
@@ -296,12 +250,8 @@
       "qp": 2500000,
       "resources": [
         {
-          "name": "術の秘石",
-          "piece": 10
-        },
-        {
-          "name": "原初の産毛",
-          "piece": 3
+          "name": "蛮神の心臓",
+          "piece": 12
         }
       ]
     },
@@ -309,12 +259,8 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "原初の産毛",
-          "piece": 5
-        },
-        {
-          "name": "暁光炉心",
-          "piece": 3
+          "name": "神脈霊子",
+          "piece": 12
         }
       ]
     },
@@ -322,12 +268,8 @@
       "qp": 6000000,
       "resources": [
         {
-          "name": "暁光炉心",
-          "piece": 9
-        },
-        {
-          "name": "神脈霊子",
-          "piece": 20
+          "name": "夢幻の鱗粉",
+          "piece": 12
         }
       ]
     },

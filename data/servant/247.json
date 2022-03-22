@@ -62,7 +62,58 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 84,
+      "name": "生徒会長たるアルジュナ",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "禁断の頁",
+            "piece": 5
+          },
+          {
+            "name": "禍罪の矢尻",
+            "piece": 5
+          },
+          {
+            "name": "封魔のランプ",
+            "piece": 5
+          },
+          {
+            "name": "真理の卵",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "name": "メガネ霊衣：生徒会長たるアルジュナ（メガネ）",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "禁断の頁",
+            "piece": 5
+          },
+          {
+            "name": "光銀の冠",
+            "piece": 5
+          },
+          {
+            "name": "黒獣脂",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

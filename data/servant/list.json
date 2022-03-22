@@ -2287,5 +2287,19 @@
     "klass": "Foreigner",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/5331.html"
+  },
+  {
+    "id": 335,
+    "name": "ヘファイスティオン",
+    "klass": "Pretender",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5348.html"
+  },
+  {
+    "id": 336,
+    "name": "マナナン・マク・リール〔バゼット〕",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5360.html"
   }
 ]

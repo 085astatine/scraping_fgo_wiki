@@ -1,42 +1,35 @@
 {
-  "id": 76,
-  "name": "モードレッド",
+  "id": 336,
+  "name": "マナナン・マク・リール〔バゼット〕",
   "alias_name": null,
-  "klass": "Saber",
+  "klass": "AlterEgo",
   "rarity": 5,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "魔力放出",
+        "name": "封印指定執行者",
         "rank": "A",
-        "icon": 306
+        "icon": 316
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "直感",
-        "rank": "B",
-        "icon": 603
-      },
-      {
-        "slot": 2,
-        "level": 2,
-        "name": "シガレット・ライオン",
-        "rank": "B+",
-        "icon": 603
+        "name": "海神のルーン",
+        "rank": "EX",
+        "icon": 601
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "不貞隠しの兜",
-        "rank": "EX",
-        "icon": 400
+        "name": "赤枝の後継",
+        "rank": "B",
+        "icon": 402
       }
     ]
   },
@@ -63,70 +56,23 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対セイバー攻撃適性",
+        "name": "対アヴェンジャー攻撃適性",
         "rank": "",
         "icon": 300
       }
     ]
   },
-  "costumes": [
-    {
-      "id": 34,
-      "name": "トゥリファスの記憶",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "竜の牙",
-            "piece": 10
-          },
-          {
-            "name": "凶骨",
-            "piece": 10
-          },
-          {
-            "name": "血の涙石",
-            "piece": 5
-          },
-          {
-            "name": "竜の逆鱗",
-            "piece": 5
-          }
-        ]
-      }
-    },
-    {
-      "id": 75,
-      "name": "メガネ霊衣：レッドセイバー",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "竜の牙",
-            "piece": 10
-          },
-          {
-            "name": "大騎士勲章",
-            "piece": 5
-          },
-          {
-            "name": "原初の産毛",
-            "piece": 5
-          },
-          {
-            "name": "智慧のスカラベ",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
+  "costumes": [],
   "ascension_resources": [
     {
       "qp": 100000,
       "resources": [
         {
-          "name": "セイバーピース",
+          "name": "ライダーピース",
+          "piece": 5
+        },
+        {
+          "name": "キャスターピース",
           "piece": 5
         }
       ]
@@ -135,12 +81,12 @@
       "qp": 300000,
       "resources": [
         {
-          "name": "セイバーピース",
+          "name": "ライダーピース",
           "piece": 12
         },
         {
-          "name": "竜の牙",
-          "piece": 18
+          "name": "キャスターピース",
+          "piece": 12
         }
       ]
     },
@@ -148,16 +94,12 @@
       "qp": 1000000,
       "resources": [
         {
-          "name": "セイバーモニュメント",
+          "name": "ライダーモニュメント",
           "piece": 5
         },
         {
-          "name": "八連双晶",
-          "piece": 10
-        },
-        {
-          "name": "蛮神の心臓",
-          "piece": 2
+          "name": "キャスターモニュメント",
+          "piece": 5
         }
       ]
     },
@@ -165,16 +107,12 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "セイバーモニュメント",
+          "name": "ライダーモニュメント",
           "piece": 12
         },
         {
-          "name": "蛮神の心臓",
-          "piece": 4
-        },
-        {
-          "name": "竜の逆鱗",
-          "piece": 5
+          "name": "キャスターモニュメント",
+          "piece": 12
         }
       ]
     }
@@ -184,7 +122,11 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "剣の輝石",
+          "name": "騎の輝石",
+          "piece": 5
+        },
+        {
+          "name": "術の輝石",
           "piece": 5
         }
       ]
@@ -193,7 +135,11 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "剣の輝石",
+          "name": "騎の輝石",
+          "piece": 12
+        },
+        {
+          "name": "術の輝石",
           "piece": 12
         }
       ]
@@ -202,7 +148,11 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "剣の魔石",
+          "name": "騎の魔石",
+          "piece": 5
+        },
+        {
+          "name": "術の魔石",
           "piece": 5
         }
       ]
@@ -211,12 +161,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "剣の魔石",
+          "name": "騎の魔石",
           "piece": 12
         },
         {
-          "name": "八連双晶",
-          "piece": 5
+          "name": "術の魔石",
+          "piece": 12
         }
       ]
     },
@@ -224,12 +174,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "剣の秘石",
+          "name": "騎の秘石",
           "piece": 5
         },
         {
-          "name": "八連双晶",
-          "piece": 10
+          "name": "術の秘石",
+          "piece": 5
         }
       ]
     },
@@ -237,11 +187,11 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "剣の秘石",
+          "name": "騎の秘石",
           "piece": 12
         },
         {
-          "name": "竜の牙",
+          "name": "術の秘石",
           "piece": 12
         }
       ]
@@ -250,12 +200,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "竜の牙",
-          "piece": 24
+          "name": "追憶の貝殻",
+          "piece": 8
         },
         {
-          "name": "混沌の爪",
-          "piece": 4
+          "name": "禁断の頁",
+          "piece": 8
         }
       ]
     },
@@ -263,12 +213,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "混沌の爪",
-          "piece": 11
+          "name": "智慧のスカラベ",
+          "piece": 9
         },
         {
-          "name": "竜の逆鱗",
-          "piece": 10
+          "name": "真理の卵",
+          "piece": 9
         }
       ]
     },
@@ -287,7 +237,11 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "剣の輝石",
+          "name": "騎の輝石",
+          "piece": 5
+        },
+        {
+          "name": "術の輝石",
           "piece": 5
         }
       ]
@@ -296,7 +250,11 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "剣の輝石",
+          "name": "騎の輝石",
+          "piece": 12
+        },
+        {
+          "name": "術の輝石",
           "piece": 12
         }
       ]
@@ -305,7 +263,11 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "剣の魔石",
+          "name": "騎の魔石",
+          "piece": 5
+        },
+        {
+          "name": "術の魔石",
           "piece": 5
         }
       ]
@@ -314,12 +276,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "剣の魔石",
+          "name": "騎の魔石",
           "piece": 12
         },
         {
-          "name": "ホムンクルスベビー",
-          "piece": 5
+          "name": "術の魔石",
+          "piece": 12
         }
       ]
     },
@@ -327,12 +289,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "剣の秘石",
+          "name": "騎の秘石",
           "piece": 5
         },
         {
-          "name": "ホムンクルスベビー",
-          "piece": 10
+          "name": "術の秘石",
+          "piece": 5
         }
       ]
     },
@@ -340,12 +302,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "剣の秘石",
+          "name": "騎の秘石",
           "piece": 12
         },
         {
-          "name": "大騎士勲章",
-          "piece": 10
+          "name": "術の秘石",
+          "piece": 12
         }
       ]
     },
@@ -353,12 +315,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "大騎士勲章",
-          "piece": 20
+          "name": "神脈霊子",
+          "piece": 8
         },
         {
-          "name": "オーロラ鋼",
-          "piece": 6
+          "name": "夢幻の鱗粉",
+          "piece": 8
         }
       ]
     },
@@ -366,12 +328,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "オーロラ鋼",
-          "piece": 18
+          "name": "蛮神の心臓",
+          "piece": 9
         },
         {
-          "name": "夢幻の鱗粉",
-          "piece": 24
+          "name": "煌星のカケラ",
+          "piece": 9
         }
       ]
     },

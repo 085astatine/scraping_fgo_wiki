@@ -69,7 +69,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 83,
+      "name": "メガネ霊衣：リムレスラウンド",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "愚者の鎖",
+            "piece": 10
+          },
+          {
+            "name": "ホムンクルスベビー",
+            "piece": 5
+          },
+          {
+            "name": "血の涙石",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 10000,

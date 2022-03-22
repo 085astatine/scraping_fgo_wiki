@@ -69,7 +69,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 81,
+      "name": "メガネ霊衣：マグニファイアーズ",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "魔術髄液",
+            "piece": 10
+          },
+          {
+            "name": "禁断の頁",
+            "piece": 5
+          },
+          {
+            "name": "悠久の実",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 30000,
