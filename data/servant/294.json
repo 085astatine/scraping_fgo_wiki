@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 76,
+      "name": "メガネ霊衣：織田金縁丸眼鏡",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "万死の毒針",
+            "piece": 10
+          },
+          {
+            "name": "禍罪の矢尻",
+            "piece": 5
+          },
+          {
+            "name": "血の涙石",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 10000,

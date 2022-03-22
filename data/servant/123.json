@@ -69,7 +69,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 73,
+      "name": "メガネ霊衣：エレガントスクエア",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "英雄の証",
+            "piece": 10
+          },
+          {
+            "name": "大騎士勲章",
+            "piece": 5
+          },
+          {
+            "name": "戦馬の幼角",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

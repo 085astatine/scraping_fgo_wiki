@@ -94,6 +94,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 75,
+      "name": "メガネ霊衣：レッドセイバー",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "竜の牙",
+            "piece": 10
+          },
+          {
+            "name": "大騎士勲章",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

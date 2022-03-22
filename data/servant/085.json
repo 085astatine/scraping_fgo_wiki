@@ -87,6 +87,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 78,
+      "name": "メガネ霊衣：終末に輝く彩虹",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "英雄の証",
+            "piece": 10
+          },
+          {
+            "name": "光銀の冠",
+            "piece": 5
+          },
+          {
+            "name": "暁光炉心",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

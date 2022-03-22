@@ -87,6 +87,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 82,
+      "name": "メガネ霊衣：Camelot&Co.モデルフレーム",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "世界樹の種",
+            "piece": 10
+          },
+          {
+            "name": "虹の糸玉",
+            "piece": 5
+          },
+          {
+            "name": "悠久の実",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

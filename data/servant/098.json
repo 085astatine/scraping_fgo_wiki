@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 86,
+      "name": "メガネ霊衣：オーバルグラス",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "凶骨",
+            "piece": 10
+          },
+          {
+            "name": "巨人の指輪",
+            "piece": 5
+          },
+          {
+            "name": "混沌の爪",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,
