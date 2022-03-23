@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import copy
 import enum
 import logging
 import pathlib
@@ -269,8 +270,11 @@ def _parse_costume_table(
         name = tbody.xpath('tr[2]/td[2]')[0].text_content().strip()
         _logger.debug('costume name: %s', name)
         # flavor text
-        flavor_text = tbody.xpath('tr[3]/td')[0].text_content().strip()
-        _logger.debug('flavor text: %s', flavor_text)
+        flavor_text_cell = copy.deepcopy(tbody.xpath('tr[3]/td')[0])
+        for br in flavor_text_cell.xpath('br'):
+            br.tail = ('\n' + br.tail) if br.tail else '\n'
+        flavor_text = flavor_text_cell.text_content().strip()
+        _logger.debug('flavor text: %s', repr(flavor_text))
         # resoruce
         resource = _to_resource_set(_parse_resource(
                 tbody.xpath(
