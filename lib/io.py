@@ -8,7 +8,7 @@ def load_json(
         path: pathlib.Path) -> Optional[Any]:
     if not path.exists():
         return None
-    with path.open() as file:
+    with path.open(encoding='utf-8') as file:
         return json.load(file)
 
 
@@ -17,7 +17,7 @@ def save_json(
         data: Any) -> None:
     if not path.parent.exists():
         path.parent.mkdir(parents=True)
-    with path.open(mode='w') as file:
+    with path.open(mode='w', encoding='utf-8') as file:
         json.dump(
                 data,
                 file,
@@ -30,7 +30,7 @@ def load_yaml(
         path: pathlib.Path) -> Optional[Any]:
     if not path.exists():
         return None
-    with path.open() as file:
+    with path.open(encoding='utf-8') as file:
         return yaml.safe_load(file)
 
 
@@ -39,7 +39,7 @@ def save_yaml(
         data: Any) -> None:
     if not path.parent.exists():
         path.parent.mkdir(parents=True)
-    with path.open(mode='w') as file:
+    with path.open(mode='w', encoding='utf-8') as file:
         yaml.dump(
                 data,
                 file,
