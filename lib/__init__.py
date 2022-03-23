@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import logging
 from .item import Item, item_dict, item_list
 from .io import load_json, save_json

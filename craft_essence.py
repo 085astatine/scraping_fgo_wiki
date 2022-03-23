@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 
 import logging
@@ -165,7 +164,7 @@ def main(logger: Optional[logging.Logger] = None) -> None:
     # sort by id
     craft_essences.sort(key=lambda x: x.id)
     # write as csv
-    with open('data/craft_essences.csv', mode='w') as csv:
+    with open('data/craft_essences.csv', mode='w', encoding='utf-8') as csv:
         for craft_essence in craft_essences:
             csv.write('{0.id},{0.rarity},"{0.series}","{0.name}"\n'.format(
                     craft_essence))
