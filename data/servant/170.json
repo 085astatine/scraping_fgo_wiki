@@ -28,6 +28,13 @@
         "name": "皇帝特権",
         "rank": "B",
         "icon": 600
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "女中英主",
+        "rank": "B+",
+        "icon": 600
       }
     ],
     "skill_3": [

@@ -1,16 +1,16 @@
 {
-  "id": 128,
-  "name": "玉藻の前",
+  "id": 337,
+  "name": "徴姉妹",
   "alias_name": null,
-  "klass": "Lancer",
+  "klass": "Saber",
   "rarity": 5,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "ビーチフラワー",
-        "rank": "EX",
+        "name": "反乱のカリスマ",
+        "rank": "B-",
         "icon": 300
       }
     ],
@@ -18,25 +18,18 @@
       {
         "slot": 2,
         "level": 1,
-        "name": "真夏の呪術",
+        "name": "姉妹の絆",
         "rank": "A",
-        "icon": 509
+        "icon": 315
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "女神変生",
-        "rank": "B",
-        "icon": 403
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "女神変生（天）",
-        "rank": "A",
-        "icon": 403
+        "name": "徴聖王",
+        "rank": "EX",
+        "icon": 601
       }
     ]
   },
@@ -63,7 +56,7 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対バーサーカー攻撃適性",
+        "name": "対アサシン攻撃適性",
         "rank": "",
         "icon": 300
       }
@@ -75,7 +68,7 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "ランサーピース",
+          "name": "セイバーピース",
           "piece": 5
         }
       ]
@@ -84,12 +77,12 @@
       "qp": 300000,
       "resources": [
         {
-          "name": "ランサーピース",
+          "name": "セイバーピース",
           "piece": 12
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 6
+          "name": "英雄の証",
+          "piece": 22
         }
       ]
     },
@@ -97,16 +90,16 @@
       "qp": 1000000,
       "resources": [
         {
-          "name": "ランサーモニュメント",
+          "name": "セイバーモニュメント",
           "piece": 5
         },
         {
-          "name": "世界樹の種",
-          "piece": 12
+          "name": "追憶の貝殻",
+          "piece": 10
         },
         {
-          "name": "戦馬の幼角",
-          "piece": 3
+          "name": "隕蹄鉄",
+          "piece": 5
         }
       ]
     },
@@ -114,16 +107,16 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "ランサーモニュメント",
+          "name": "セイバーモニュメント",
           "piece": 12
         },
         {
-          "name": "戦馬の幼角",
-          "piece": 6
+          "name": "隕蹄鉄",
+          "piece": 10
         },
         {
-          "name": "追憶の貝殻",
-          "piece": 12
+          "name": "鳳凰の羽根",
+          "piece": 10
         }
       ]
     }
@@ -133,7 +126,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "槍の輝石",
+          "name": "剣の輝石",
           "piece": 5
         }
       ]
@@ -142,7 +135,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "槍の輝石",
+          "name": "剣の輝石",
           "piece": 12
         }
       ]
@@ -151,7 +144,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "槍の魔石",
+          "name": "剣の魔石",
           "piece": 5
         }
       ]
@@ -160,12 +153,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "槍の魔石",
+          "name": "剣の魔石",
           "piece": 12
         },
         {
-          "name": "世界樹の種",
-          "piece": 6
+          "name": "追憶の貝殻",
+          "piece": 5
         }
       ]
     },
@@ -173,12 +166,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "槍の秘石",
+          "name": "剣の秘石",
           "piece": 5
         },
         {
-          "name": "世界樹の種",
-          "piece": 12
+          "name": "追憶の貝殻",
+          "piece": 10
         }
       ]
     },
@@ -186,12 +179,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "槍の秘石",
+          "name": "剣の秘石",
           "piece": 12
         },
         {
-          "name": "鳳凰の羽根",
-          "piece": 4
+          "name": "英雄の証",
+          "piece": 15
         }
       ]
     },
@@ -199,12 +192,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "鳳凰の羽根",
-          "piece": 8
+          "name": "英雄の証",
+          "piece": 29
         },
         {
-          "name": "混沌の爪",
-          "piece": 4
+          "name": "精霊根",
+          "piece": 3
         }
       ]
     },
@@ -212,12 +205,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "混沌の爪",
-          "piece": 11
+          "name": "精霊根",
+          "piece": 8
         },
         {
-          "name": "蛮神の心臓",
-          "piece": 10
+          "name": "光銀の冠",
+          "piece": 24
         }
       ]
     },
@@ -236,7 +229,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "槍の輝石",
+          "name": "剣の輝石",
           "piece": 5
         }
       ]
@@ -245,7 +238,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "槍の輝石",
+          "name": "剣の輝石",
           "piece": 12
         }
       ]
@@ -254,7 +247,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "槍の魔石",
+          "name": "剣の魔石",
           "piece": 5
         }
       ]
@@ -263,12 +256,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "槍の魔石",
+          "name": "剣の魔石",
           "piece": 12
         },
         {
-          "name": "戦馬の幼角",
-          "piece": 3
+          "name": "世界樹の種",
+          "piece": 6
         }
       ]
     },
@@ -276,12 +269,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "槍の秘石",
+          "name": "剣の秘石",
           "piece": 5
         },
         {
-          "name": "戦馬の幼角",
-          "piece": 6
+          "name": "世界樹の種",
+          "piece": 12
         }
       ]
     },
@@ -289,11 +282,11 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "槍の秘石",
+          "name": "剣の秘石",
           "piece": 12
         },
         {
-          "name": "追憶の貝殻",
+          "name": "隕蹄鉄",
           "piece": 5
         }
       ]
@@ -302,12 +295,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "追憶の貝殻",
+          "name": "隕蹄鉄",
           "piece": 10
         },
         {
-          "name": "永遠結氷",
-          "piece": 6
+          "name": "九十九鏡",
+          "piece": 3
         }
       ]
     },
@@ -315,12 +308,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "永遠結氷",
-          "piece": 18
+          "name": "九十九鏡",
+          "piece": 8
         },
         {
-          "name": "九十九鏡",
-          "piece": 10
+          "name": "閑古鈴",
+          "piece": 24
         }
       ]
     },

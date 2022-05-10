@@ -35,6 +35,13 @@
         "name": "天性の肉体",
         "rank": "EX",
         "icon": 401
+      },
+      {
+        "slot": 2,
+        "level": 3,
+        "name": "完全構造体",
+        "rank": "EX",
+        "icon": 601
       }
     ],
     "skill_3": [

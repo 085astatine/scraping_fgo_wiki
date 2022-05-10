@@ -28,6 +28,13 @@
         "name": "射撃",
         "rank": "B",
         "icon": 303
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "絢爛の海賊姫",
+        "rank": "B+",
+        "icon": 303
       }
     ],
     "skill_3": [

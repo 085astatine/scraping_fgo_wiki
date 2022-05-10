@@ -2301,5 +2301,40 @@
     "klass": "AlterEgo",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/5360.html"
+  },
+  {
+    "id": 337,
+    "name": "徴姉妹",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5499.html"
+  },
+  {
+    "id": 338,
+    "name": "太歳星君",
+    "klass": "AlterEgo",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5512.html"
+  },
+  {
+    "id": 339,
+    "name": "スーパーバニヤン",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5521.html"
+  },
+  {
+    "id": 340,
+    "name": "大黒天",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5519.html"
+  },
+  {
+    "id": 341,
+    "name": "メアリー・アニング",
+    "klass": "Lancer",
+    "rarity": 1,
+    "url": "//w.atwiki.jp/f_go/pages/5523.html"
   }
 ]
