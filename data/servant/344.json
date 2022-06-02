@@ -1,0 +1,330 @@
+{
+  "id": 344,
+  "name": "ローラン",
+  "alias_name": null,
+  "klass": "Saber",
+  "rarity": 4,
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "金剛体",
+        "rank": "A",
+        "icon": 403
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "恋に恋してさめざめと涙",
+        "rank": "C",
+        "icon": 306
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "いと遅き角笛",
+        "rank": "EX",
+        "icon": 603
+      }
+    ]
+  },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対ライダー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "セイバーピース",
+          "piece": 10
+        },
+        {
+          "name": "英雄の証",
+          "piece": 18
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "セイバーモニュメント",
+          "piece": 10
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 16
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 10
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 10
+        },
+        {
+          "name": "英雄の証",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 24
+        },
+        {
+          "name": "黄昏の儀式剣",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "黄昏の儀式剣",
+          "piece": 45
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 10
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 4
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 10
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "戦馬の幼角",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "精霊根",
+          "piece": 6
+        },
+        {
+          "name": "悠久の実",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
