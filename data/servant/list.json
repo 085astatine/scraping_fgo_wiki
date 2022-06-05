@@ -2336,5 +2336,33 @@
     "klass": "Lancer",
     "rarity": 1,
     "url": "//w.atwiki.jp/f_go/pages/5523.html"
+  },
+  {
+    "id": 342,
+    "name": "コンスタンティノス11世",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5543.html"
+  },
+  {
+    "id": 343,
+    "name": "シャルルマーニュ",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5556.html"
+  },
+  {
+    "id": 344,
+    "name": "ローラン",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5552.html"
+  },
+  {
+    "id": 345,
+    "name": "クリームヒルト",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5553.html"
   }
 ]

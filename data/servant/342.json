@@ -1,0 +1,330 @@
+{
+  "id": 342,
+  "name": "コンスタンティノス11世",
+  "alias_name": null,
+  "klass": "Rider",
+  "rarity": 5,
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ハギア・ソフィアの祈り",
+        "rank": "C-",
+        "icon": 602
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "落日の帝国",
+        "rank": "EX",
+        "icon": 300
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "終焉特権",
+        "rank": "C",
+        "icon": 601
+      }
+    ]
+  },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対アーチャー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 12
+        },
+        {
+          "name": "英雄の証",
+          "piece": 22
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 6
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 12
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 5
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 12
+        },
+        {
+          "name": "英雄の証",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 29
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "オーロラ鋼",
+          "piece": 18
+        },
+        {
+          "name": "光銀の冠",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 12
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 5
+        },
+        {
+          "name": "八連双晶",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 12
+        },
+        {
+          "name": "大騎士勲章",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "大騎士勲章",
+          "piece": 20
+        },
+        {
+          "name": "神脈霊子",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "神脈霊子",
+          "piece": 18
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
