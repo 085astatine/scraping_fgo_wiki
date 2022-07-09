@@ -1,35 +1,35 @@
 {
-  "id": 318,
-  "name": "アナスタシア＆ヴィイ",
+  "id": 348,
+  "name": "張角",
   "alias_name": null,
-  "klass": "Archer",
-  "rarity": 4,
+  "klass": "Caster",
+  "rarity": 3,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "シュヴィブジック（夏）",
-        "rank": "B+",
-        "icon": 305
+        "name": "天公将軍",
+        "rank": "B-",
+        "icon": 314
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "フリージング・サマータイム",
+        "name": "大賢良師",
         "rank": "A",
-        "icon": 403
+        "icon": 311
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "加速・精霊眼球",
-        "rank": "B",
-        "icon": 310
+        "name": "太平要術",
+        "rank": "EX",
+        "icon": 601
       }
     ]
   },
@@ -65,113 +65,126 @@
   "costumes": [],
   "ascension_resources": [
     {
-      "qp": 50000,
+      "qp": 30000,
       "resources": [
         {
-          "name": "アーチャーピース",
+          "name": "キャスターピース",
           "piece": 4
         }
       ]
     },
     {
-      "qp": 150000,
+      "qp": 100000,
       "resources": [
         {
-          "name": "アーチャーピース",
-          "piece": 10
-        },
-        {
-          "name": "追憶の貝殻",
-          "piece": 6
-        }
-      ]
-    },
-    {
-      "qp": 500000,
-      "resources": [
-        {
-          "name": "アーチャーモニュメント",
-          "piece": 4
-        },
-        {
-          "name": "ゴーストランタン",
+          "name": "キャスターピース",
           "piece": 8
         },
         {
-          "name": "永遠結氷",
-          "piece": 4
+          "name": "禁断の頁",
+          "piece": 5
         }
       ]
     },
     {
-      "qp": 1500000,
+      "qp": 300000,
       "resources": [
         {
-          "name": "アーチャーモニュメント",
-          "piece": 10
+          "name": "キャスターモニュメント",
+          "piece": 4
         },
         {
-          "name": "永遠結氷",
+          "name": "愚者の鎖",
+          "piece": 20
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "キャスターモニュメント",
           "piece": 8
         },
         {
-          "name": "虹の糸玉",
-          "piece": 10
+          "name": "封魔のランプ",
+          "piece": 4
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 4
         }
       ]
     }
   ],
   "skill_resources": [
     {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
       "qp": 100000,
       "resources": [
         {
-          "name": "弓の輝石",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 200000,
-      "resources": [
-        {
-          "name": "弓の輝石",
-          "piece": 10
-        }
-      ]
-    },
-    {
-      "qp": 600000,
-      "resources": [
-        {
-          "name": "弓の魔石",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 800000,
-      "resources": [
-        {
-          "name": "弓の魔石",
-          "piece": 10
-        },
-        {
-          "name": "ゴーストランタン",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 2000000,
-      "resources": [
-        {
-          "name": "弓の秘石",
-          "piece": 4
-        },
-        {
-          "name": "ゴーストランタン",
+          "name": "術の輝石",
           "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 8
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 8
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 4
         }
       ]
     },
@@ -179,43 +192,30 @@
       "qp": 2500000,
       "resources": [
         {
-          "name": "弓の秘石",
-          "piece": 10
+          "name": "禁断の頁",
+          "piece": 7
         },
         {
-          "name": "追憶の貝殻",
+          "name": "閑古鈴",
           "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "閑古鈴",
+          "piece": 12
+        },
+        {
+          "name": "忘れじの灰",
+          "piece": 48
         }
       ]
     },
     {
       "qp": 5000000,
-      "resources": [
-        {
-          "name": "追憶の貝殻",
-          "piece": 8
-        },
-        {
-          "name": "鳳凰の羽根",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 6000000,
-      "resources": [
-        {
-          "name": "鳳凰の羽根",
-          "piece": 12
-        },
-        {
-          "name": "禍罪の矢尻",
-          "piece": 20
-        }
-      ]
-    },
-    {
-      "qp": 10000000,
       "resources": [
         {
           "name": "伝承結晶",
@@ -226,55 +226,68 @@
   ],
   "append_skill_resources": [
     {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
       "qp": 100000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "術の輝石",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "術の魔石",
           "piece": 4
         }
       ]
     },
     {
-      "qp": 200000,
+      "qp": 400000,
       "resources": [
         {
-          "name": "弓の輝石",
-          "piece": 10
-        }
-      ]
-    },
-    {
-      "qp": 600000,
-      "resources": [
-        {
-          "name": "弓の魔石",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 800000,
-      "resources": [
-        {
-          "name": "弓の魔石",
-          "piece": 10
+          "name": "術の魔石",
+          "piece": 8
         },
         {
-          "name": "世界樹の種",
-          "piece": 5
+          "name": "凶骨",
+          "piece": 10
         }
       ]
     },
     {
-      "qp": 2000000,
+      "qp": 1000000,
       "resources": [
         {
-          "name": "弓の秘石",
+          "name": "術の秘石",
           "piece": 4
         },
         {
-          "name": "世界樹の種",
-          "piece": 10
+          "name": "凶骨",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 8
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 2
         }
       ]
     },
@@ -282,43 +295,30 @@
       "qp": 2500000,
       "resources": [
         {
-          "name": "弓の秘石",
-          "piece": 10
+          "name": "智慧のスカラベ",
+          "piece": 3
         },
         {
-          "name": "精霊根",
-          "piece": 2
+          "name": "魔術髄液",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 36
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 7
         }
       ]
     },
     {
       "qp": 5000000,
-      "resources": [
-        {
-          "name": "精霊根",
-          "piece": 4
-        },
-        {
-          "name": "永遠結氷",
-          "piece": 5
-        }
-      ]
-    },
-    {
-      "qp": 6000000,
-      "resources": [
-        {
-          "name": "永遠結氷",
-          "piece": 15
-        },
-        {
-          "name": "夢幻の鱗粉",
-          "piece": 20
-        }
-      ]
-    },
-    {
-      "qp": 10000000,
       "resources": [
         {
           "name": "伝承結晶",

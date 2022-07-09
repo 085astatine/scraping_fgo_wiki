@@ -2364,5 +2364,40 @@
     "klass": "Berserker",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5553.html"
+  },
+  {
+    "id": 346,
+    "name": "ジェームズ・モリアーティ",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5580.html"
+  },
+  {
+    "id": 347,
+    "name": "ドン・キホーテ",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5581.html"
+  },
+  {
+    "id": 348,
+    "name": "張角",
+    "klass": "Caster",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/5583.html"
+  },
+  {
+    "id": 349,
+    "name": "曲亭馬琴",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5598.html"
+  },
+  {
+    "id": 350,
+    "name": "源為朝",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5613.html"
   }
 ]

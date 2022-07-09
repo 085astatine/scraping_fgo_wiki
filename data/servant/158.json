@@ -21,6 +21,13 @@
         "name": "怪力",
         "rank": "B",
         "icon": 300
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "郷愁の白狼",
+        "rank": "EX",
+        "icon": 300
       }
     ],
     "skill_3": [
