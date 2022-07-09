@@ -2385,5 +2385,19 @@
     "klass": "Caster",
     "rarity": 3,
     "url": "//w.atwiki.jp/f_go/pages/5583.html"
+  },
+  {
+    "id": 349,
+    "name": "曲亭馬琴",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5598.html"
+  },
+  {
+    "id": 350,
+    "name": "源為朝",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5613.html"
   }
 ]
