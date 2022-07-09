@@ -28,6 +28,13 @@
         "name": "仮説推論",
         "rank": "A+",
         "icon": 311
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "明かす者",
+        "rank": "EX",
+        "icon": 601
       }
     ],
     "skill_3": [

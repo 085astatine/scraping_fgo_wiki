@@ -12,6 +12,13 @@
         "name": "黄金律",
         "rank": "C-",
         "icon": 602
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "貪欲なる黄金",
+        "rank": "A",
+        "icon": 601
       }
     ],
     "skill_2": [

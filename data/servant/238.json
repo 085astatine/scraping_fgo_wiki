@@ -37,6 +37,13 @@
         "name": "怪力",
         "rank": "EX",
         "icon": 300
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "大河の巨獣",
+        "rank": "B",
+        "icon": 300
       }
     ]
   },

@@ -12,6 +12,13 @@
         "name": "自己改造",
         "rank": "EX",
         "icon": 303
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "自己改造（愛）",
+        "rank": "EX",
+        "icon": 303
       }
     ],
     "skill_2": [
