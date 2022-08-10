@@ -2399,5 +2399,19 @@
     "klass": "Archer",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/5613.html"
+  },
+  {
+    "id": 351,
+    "name": "アーキタイプ：アース",
+    "klass": "MoonCancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5623.html"
+  },
+  {
+    "id": 352,
+    "name": "徐福",
+    "klass": "AlterEgo",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/5624.html"
   }
 ]
