@@ -69,11 +69,11 @@
       "resources": [
         {
           "name": "キャスターピース",
-          "piece": 5
+          "piece": 3
         },
         {
           "name": "アサシンピース",
-          "piece": 5
+          "piece": 3
         }
       ]
     },
@@ -82,11 +82,11 @@
       "resources": [
         {
           "name": "キャスターピース",
-          "piece": 12
+          "piece": 8
         },
         {
           "name": "アサシンピース",
-          "piece": 12
+          "piece": 8
         }
       ]
     },
@@ -95,11 +95,11 @@
       "resources": [
         {
           "name": "キャスターモニュメント",
-          "piece": 5
+          "piece": 3
         },
         {
           "name": "アサシンモニュメント",
-          "piece": 5
+          "piece": 3
         }
       ]
     },
@@ -108,11 +108,11 @@
       "resources": [
         {
           "name": "キャスターモニュメント",
-          "piece": 12
+          "piece": 8
         },
         {
           "name": "アサシンモニュメント",
-          "piece": 12
+          "piece": 8
         }
       ]
     }
