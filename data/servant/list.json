@@ -2413,5 +2413,19 @@
     "klass": "AlterEgo",
     "rarity": 3,
     "url": "//w.atwiki.jp/f_go/pages/5624.html"
+  },
+  {
+    "id": 353,
+    "name": "レディ・アヴァロン",
+    "klass": "Pretender",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5652.html"
+  },
+  {
+    "id": 354,
+    "name": "ガレス",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5650.html"
   }
 ]
