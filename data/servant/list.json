@@ -2427,5 +2427,19 @@
     "klass": "Saber",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5650.html"
+  },
+  {
+    "id": 355,
+    "name": "伊吹童子",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5678.html"
+  },
+  {
+    "id": 356,
+    "name": "宇津見エリセ",
+    "klass": "Avenger",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5680.html"
   }
 ]
