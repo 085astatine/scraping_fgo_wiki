@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 93,
+      "name": "戦乙女エルルーン",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "励振火薬",
+            "piece": 10
+          },
+          {
+            "name": "オーロラ鋼",
+            "piece": 5
+          },
+          {
+            "name": "暁光炉心",
+            "piece": 5
+          },
+          {
+            "name": "九十九鏡",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

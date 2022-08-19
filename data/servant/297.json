@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 91,
+      "name": "朝顔柄の浴衣(呪)",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "凶骨",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "封魔のランプ",
+            "piece": 5
+          },
+          {
+            "name": "蛮神の心臓",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

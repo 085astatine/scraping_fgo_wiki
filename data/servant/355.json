@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 95,
+      "name": "簡易霊衣：荒ぶる真夏の女神",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "凶骨",
+            "piece": 10
+          },
+          {
+            "name": "宵哭きの鉄杭",
+            "piece": 10
+          },
+          {
+            "name": "黒獣脂",
+            "piece": 5
+          },
+          {
+            "name": "鬼炎鬼灯",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,
