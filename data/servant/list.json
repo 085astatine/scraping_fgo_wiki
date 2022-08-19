@@ -2441,5 +2441,40 @@
     "klass": "Avenger",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5680.html"
+  },
+  {
+    "id": 357,
+    "name": "スカサハ＝スカディ",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5698.html"
+  },
+  {
+    "id": 358,
+    "name": "武則天",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5700.html"
+  },
+  {
+    "id": 359,
+    "name": "スルーズ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5688.html"
+  },
+  {
+    "id": 360,
+    "name": "ヒルド",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5689.html"
+  },
+  {
+    "id": 361,
+    "name": "オルトリンデ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5690.html"
   }
 ]
