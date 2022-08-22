@@ -1,35 +1,35 @@
 {
-  "id": 249,
-  "name": "アスクレピオス",
+  "id": 351,
+  "name": "アーキタイプ：アース",
   "alias_name": null,
-  "klass": "Caster",
-  "rarity": 3,
+  "klass": "MoonCancer",
+  "rarity": 5,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "医神",
-        "rank": "EX",
-        "icon": 600
+        "name": "虹の魔眼",
+        "rank": "A",
+        "icon": 512
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "アポロンの子",
-        "rank": "A",
-        "icon": 512
+        "name": "星の息吹",
+        "rank": "C",
+        "icon": 601
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "蛇遣い",
-        "rank": "B",
-        "icon": 601
+        "name": "ファニー・ヴァンプ",
+        "rank": "EX",
+        "icon": 403
       }
     ]
   },
@@ -56,58 +56,23 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対アーチャー攻撃適性",
+        "name": "対フォーリナー攻撃適性",
         "rank": "",
         "icon": 300
       }
     ]
   },
-  "costumes": [
-    {
-      "id": 89,
-      "name": "サマーレスキュー",
-      "resource": {
-        "qp": 3000000,
-        "resources": [
-          {
-            "name": "世界樹の種",
-            "piece": 10
-          },
-          {
-            "name": "追憶の貝殻",
-            "piece": 5
-          },
-          {
-            "name": "悠久の実",
-            "piece": 5
-          },
-          {
-            "name": "精霊根",
-            "piece": 5
-          }
-        ]
-      }
-    }
-  ],
+  "costumes": [],
   "ascension_resources": [
-    {
-      "qp": 30000,
-      "resources": [
-        {
-          "name": "キャスターピース",
-          "piece": 4
-        }
-      ]
-    },
     {
       "qp": 100000,
       "resources": [
         {
           "name": "キャスターピース",
-          "piece": 8
+          "piece": 5
         },
         {
-          "name": "禁断の頁",
+          "name": "バーサーカーピース",
           "piece": 5
         }
       ]
@@ -116,75 +81,12 @@
       "qp": 300000,
       "resources": [
         {
-          "name": "キャスターモニュメント",
-          "piece": 4
+          "name": "キャスターピース",
+          "piece": 12
         },
         {
-          "name": "蛇の宝玉",
-          "piece": 6
-        },
-        {
-          "name": "ホムンクルスベビー",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 900000,
-      "resources": [
-        {
-          "name": "キャスターモニュメント",
-          "piece": 8
-        },
-        {
-          "name": "ホムンクルスベビー",
-          "piece": 7
-        },
-        {
-          "name": "智慧のスカラベ",
-          "piece": 4
-        }
-      ]
-    }
-  ],
-  "skill_resources": [
-    {
-      "qp": 50000,
-      "resources": [
-        {
-          "name": "術の輝石",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 100000,
-      "resources": [
-        {
-          "name": "術の輝石",
-          "piece": 8
-        }
-      ]
-    },
-    {
-      "qp": 300000,
-      "resources": [
-        {
-          "name": "術の魔石",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 400000,
-      "resources": [
-        {
-          "name": "術の魔石",
-          "piece": 8
-        },
-        {
-          "name": "蛇の宝玉",
-          "piece": 3
+          "name": "バーサーカーピース",
+          "piece": 12
         }
       ]
     },
@@ -192,38 +94,12 @@
       "qp": 1000000,
       "resources": [
         {
-          "name": "術の秘石",
-          "piece": 4
+          "name": "キャスターモニュメント",
+          "piece": 5
         },
         {
-          "name": "蛇の宝玉",
-          "piece": 6
-        }
-      ]
-    },
-    {
-      "qp": 1250000,
-      "resources": [
-        {
-          "name": "術の秘石",
-          "piece": 8
-        },
-        {
-          "name": "禁断の頁",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 2500000,
-      "resources": [
-        {
-          "name": "禁断の頁",
-          "piece": 7
-        },
-        {
-          "name": "魔術髄液",
-          "piece": 12
+          "name": "バーサーカーモニュメント",
+          "piece": 5
         }
       ]
     },
@@ -231,17 +107,123 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "魔術髄液",
-          "piece": 36
+          "name": "キャスターモニュメント",
+          "piece": 12
         },
         {
-          "name": "真理の卵",
-          "piece": 7
+          "name": "バーサーカーモニュメント",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 5
+        },
+        {
+          "name": "狂の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 12
+        },
+        {
+          "name": "狂の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 5
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 12
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 5
         }
       ]
     },
     {
       "qp": 5000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "神脈霊子",
+          "piece": 8
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "原初の産毛",
+          "piece": 12
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
       "resources": [
         {
           "name": "伝承結晶",
@@ -252,29 +234,15 @@
   ],
   "append_skill_resources": [
     {
-      "qp": 50000,
+      "qp": 200000,
       "resources": [
         {
           "name": "術の輝石",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 100000,
-      "resources": [
+          "piece": 5
+        },
         {
-          "name": "術の輝石",
-          "piece": 8
-        }
-      ]
-    },
-    {
-      "qp": 300000,
-      "resources": [
-        {
-          "name": "術の魔石",
-          "piece": 4
+          "name": "狂の輝石",
+          "piece": 5
         }
       ]
     },
@@ -282,69 +250,95 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "術の魔石",
-          "piece": 8
-        },
-        {
-          "name": "ホムンクルスベビー",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 1000000,
-      "resources": [
-        {
-          "name": "術の秘石",
-          "piece": 4
-        },
-        {
-          "name": "ホムンクルスベビー",
-          "piece": 7
-        }
-      ]
-    },
-    {
-      "qp": 1250000,
-      "resources": [
-        {
-          "name": "術の秘石",
-          "piece": 8
-        },
-        {
-          "name": "智慧のスカラベ",
-          "piece": 2
-        }
-      ]
-    },
-    {
-      "qp": 2500000,
-      "resources": [
-        {
-          "name": "智慧のスカラベ",
-          "piece": 3
-        },
-        {
-          "name": "永遠結氷",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 3000000,
-      "resources": [
-        {
-          "name": "永遠結氷",
+          "name": "術の輝石",
           "piece": 12
         },
         {
-          "name": "悠久の実",
-          "piece": 10
+          "name": "狂の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 5
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 12
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 5
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 5
         }
       ]
     },
     {
       "qp": 5000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 12
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "オーロラ鋼",
+          "piece": 8
+        },
+        {
+          "name": "虹の糸玉",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "精霊根",
+          "piece": 9
+        },
+        {
+          "name": "真理の卵",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
       "resources": [
         {
           "name": "伝承結晶",

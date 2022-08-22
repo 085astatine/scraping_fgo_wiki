@@ -2323,5 +2323,194 @@
         }
       ]
     }
+  },
+  {
+    "costume_id": 89,
+    "servant_id": 249,
+    "name": "サマーレスキュー",
+    "flavor_text": "カルデア救護班の夏の装い\nバッグの中身は開かない方が良いらしい",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "悠久の実",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 90,
+    "servant_id": 159,
+    "name": "修練着(現代Ver.)",
+    "flavor_text": "修練時代の服を現代仕様にしたもの\n身軽さが身上の素晴らしい装い",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "万死の毒針",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 91,
+    "servant_id": 297,
+    "name": "朝顔柄の浴衣(呪)",
+    "flavor_text": "時折奇妙な朝顔が表面に現れるが、\n言うまでもなく式神である",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 92,
+    "servant_id": 359,
+    "name": "戦乙女リンド",
+    "flavor_text": "スルーズと同時期に製造された個体\n作戦参謀的な役割を有している",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 10
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 93,
+    "servant_id": 360,
+    "name": "戦乙女エルルーン",
+    "flavor_text": "ヒルドと同時期の製造個体\nなお覚醒時期はオルトリンデと同じ",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 10
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 94,
+    "servant_id": 361,
+    "name": "戦乙女ゲイルスケグル",
+    "flavor_text": "単独行動向きの個体\nオルトリンデと同時期に製造された",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 10
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "九十九鏡",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 95,
+    "servant_id": 355,
+    "name": "簡易霊衣：荒ぶる真夏の女神",
+    "flavor_text": "夏モードの伊吹童子の荒ぶる姿\n第三再臨の姿よりもさらに荒ぶっている",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "凶骨",
+          "piece": 10
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 10
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 5
+        }
+      ]
+    }
   }
 ]

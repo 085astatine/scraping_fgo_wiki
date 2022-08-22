@@ -21,6 +21,13 @@
         "name": "軍略",
         "rank": "B",
         "icon": 302
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "悪魔の軍略",
+        "rank": "A",
+        "icon": 302
       }
     ],
     "skill_3": [

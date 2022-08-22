@@ -21,6 +21,13 @@
         "name": "海賊紳士",
         "rank": "A",
         "icon": 537
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "海賊紳士",
+        "rank": "A+",
+        "icon": 537
       }
     ],
     "skill_3": [

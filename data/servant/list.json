@@ -2399,5 +2399,82 @@
     "klass": "Archer",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/5613.html"
+  },
+  {
+    "id": 351,
+    "name": "アーキタイプ：アース",
+    "klass": "MoonCancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5623.html"
+  },
+  {
+    "id": 352,
+    "name": "徐福",
+    "klass": "AlterEgo",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/5624.html"
+  },
+  {
+    "id": 353,
+    "name": "レディ・アヴァロン",
+    "klass": "Pretender",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5652.html"
+  },
+  {
+    "id": 354,
+    "name": "ガレス",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5650.html"
+  },
+  {
+    "id": 355,
+    "name": "伊吹童子",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5678.html"
+  },
+  {
+    "id": 356,
+    "name": "宇津見エリセ",
+    "klass": "Avenger",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5680.html"
+  },
+  {
+    "id": 357,
+    "name": "スカサハ＝スカディ",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5698.html"
+  },
+  {
+    "id": 358,
+    "name": "武則天",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5700.html"
+  },
+  {
+    "id": 359,
+    "name": "スルーズ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5688.html"
+  },
+  {
+    "id": 360,
+    "name": "ヒルド",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5689.html"
+  },
+  {
+    "id": 361,
+    "name": "オルトリンデ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5690.html"
   }
 ]

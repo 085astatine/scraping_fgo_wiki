@@ -21,6 +21,13 @@
         "name": "反骨の相",
         "rank": "B",
         "icon": 400
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "勇士の矜持",
+        "rank": "A",
+        "icon": 306
       }
     ],
     "skill_3": [

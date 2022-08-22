@@ -69,7 +69,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 90,
+      "name": "修練着(現代Ver.)",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "万死の毒針",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "混沌の爪",
+            "piece": 5
+          },
+          {
+            "name": "鬼炎鬼灯",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,
