@@ -12,6 +12,13 @@
         "name": "極地",
         "rank": "A",
         "icon": 316
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "極地",
+        "rank": "A+",
+        "icon": 316
       }
     ],
     "skill_2": [
