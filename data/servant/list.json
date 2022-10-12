@@ -2476,5 +2476,26 @@
     "klass": "Assassin",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5690.html"
+  },
+  {
+    "id": 362,
+    "name": "千利休",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5723.html"
+  },
+  {
+    "id": 363,
+    "name": "山南敬助",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5725.html"
+  },
+  {
+    "id": 364,
+    "name": "壱与",
+    "klass": "Ruler",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5727.html"
   }
 ]

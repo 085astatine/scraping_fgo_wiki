@@ -1,0 +1,390 @@
+{
+  "id": 364,
+  "name": "壱与",
+  "alias_name": null,
+  "klass": "Ruler",
+  "rarity": 4,
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "鬼道（滅）",
+        "rank": "B",
+        "icon": 305
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "闇の託宣",
+        "rank": "B",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "終末の巫女",
+        "rank": "C",
+        "icon": 300
+      }
+    ]
+  },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対フォーリナー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "宵闇の勾玉",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "宵闇の勾玉",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "宵闇の勾玉",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "宵闇の勾玉",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 4
+        },
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        },
+        {
+          "name": "狂の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 4
+        },
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        },
+        {
+          "name": "弓の輝石",
+          "piece": 4
+        },
+        {
+          "name": "騎の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 4
+        },
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 4
+        },
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        },
+        {
+          "name": "弓の魔石",
+          "piece": 4
+        },
+        {
+          "name": "騎の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 4
+        },
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "枯淡勾玉",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "術の輝石",
+          "piece": 4
+        },
+        {
+          "name": "殺の輝石",
+          "piece": 4
+        },
+        {
+          "name": "狂の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "剣の輝石",
+          "piece": 4
+        },
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        },
+        {
+          "name": "弓の輝石",
+          "piece": 4
+        },
+        {
+          "name": "騎の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "術の魔石",
+          "piece": 4
+        },
+        {
+          "name": "殺の魔石",
+          "piece": 4
+        },
+        {
+          "name": "狂の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "剣の魔石",
+          "piece": 4
+        },
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        },
+        {
+          "name": "弓の魔石",
+          "piece": 4
+        },
+        {
+          "name": "騎の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        },
+        {
+          "name": "狂の秘石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "剣の秘石",
+          "piece": 4
+        },
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "術の秘石",
+          "piece": 4
+        },
+        {
+          "name": "殺の秘石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "ゴーストランタン",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "忘れじの灰",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
