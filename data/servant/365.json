@@ -1,0 +1,330 @@
+{
+  "id": 365,
+  "name": "呼延灼",
+  "alias_name": null,
+  "klass": "Assassin",
+  "rarity": 5,
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "双鞭",
+        "rank": "A",
+        "icon": 316
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "天威星",
+        "rank": "A",
+        "icon": 312
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "センシティブ・メンタル",
+        "rank": "EX",
+        "icon": 402
+      }
+    ]
+  },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対アーチャー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "アサシンピース",
+          "piece": 12
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 29
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "アサシンモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 6
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 12
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 5
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 29
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 12
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 20
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "原初の産毛",
+          "piece": 11
+        },
+        {
+          "name": "黄昏の儀式剣",
+          "piece": 72
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "殺の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "殺の魔石",
+          "piece": 12
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "殺の秘石",
+          "piece": 12
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "黒獣脂",
+          "piece": 6
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "閑古鈴",
+          "piece": 18
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
