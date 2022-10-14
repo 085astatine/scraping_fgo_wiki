@@ -12,6 +12,13 @@
         "name": "中国拳法",
         "rank": "EX",
         "icon": 311
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "燕青拳",
+        "rank": "EX",
+        "icon": 311
       }
     ],
     "skill_2": [
