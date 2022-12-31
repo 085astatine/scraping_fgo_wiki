@@ -2566,5 +2566,32 @@
         }
       ]
     }
+  },
+  {
+    "costume_id": 98,
+    "servant_id": 314,
+    "name": "簡易霊衣：NFFバニー",
+    "flavor_text": "寒冷地用の白コートを脱いだ姿\n敏腕秘書はTPOを弁えるのである",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "太陽皮",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
   }
 ]
