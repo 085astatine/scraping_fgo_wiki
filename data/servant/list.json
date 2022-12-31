@@ -2518,5 +2518,12 @@
     "klass": "Pretender",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5757.html"
+  },
+  {
+    "id": 368,
+    "name": "ブリトマート",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5790.html"
   }
 ]
