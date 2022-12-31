@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 98,
+      "name": "簡易霊衣：NFFバニー",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "太陽皮",
+            "piece": 5
+          },
+          {
+            "name": "暁光炉心",
+            "piece": 5
+          },
+          {
+            "name": "呪獣胆石",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

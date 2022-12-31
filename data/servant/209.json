@@ -12,6 +12,13 @@
         "name": "極地",
         "rank": "A",
         "icon": 316
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "極地",
+        "rank": "A+",
+        "icon": 316
       }
     ],
     "skill_2": [
@@ -76,7 +83,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 97,
+      "name": "簡易霊衣：煉獄オルタ",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "ホムンクルスベビー",
+            "piece": 5
+          },
+          {
+            "name": "封魔のランプ",
+            "piece": 5
+          },
+          {
+            "name": "鬼炎鬼灯",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

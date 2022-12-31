@@ -1,49 +1,35 @@
 {
-  "id": 12,
-  "name": "ギルガメッシュ",
+  "id": 362,
+  "name": "千利休",
   "alias_name": null,
-  "klass": "Archer",
+  "klass": "Berserker",
   "rarity": 5,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "カリスマ",
-        "rank": "A+",
-        "icon": 300
-      },
-      {
-        "slot": 1,
-        "level": 2,
-        "name": "すべてを見たもの",
-        "rank": "EX",
-        "icon": 300
+        "name": "侘びの極み",
+        "rank": "A-",
+        "icon": 304
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "黄金律",
-        "rank": "A",
-        "icon": 602
+        "name": "一輪の花",
+        "rank": "B",
+        "icon": 601
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "コレクター",
-        "rank": "EX",
-        "icon": 311
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "バビロンの蔵",
-        "rank": "EX",
-        "icon": 311
+        "name": "幽玄たる黒",
+        "rank": "A",
+        "icon": 303
       }
     ]
   },
@@ -70,9 +56,9 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対ライダー攻撃適性",
+        "name": "対セイバークリティカル発生耐性",
         "rank": "",
-        "icon": 300
+        "icon": 417
       }
     ]
   },
@@ -82,7 +68,7 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "アーチャーピース",
+          "name": "バーサーカーピース",
           "piece": 5
         }
       ]
@@ -91,12 +77,12 @@
       "qp": 300000,
       "resources": [
         {
-          "name": "アーチャーピース",
+          "name": "バーサーカーピース",
           "piece": 12
         },
         {
-          "name": "蛇の宝玉",
-          "piece": 6
+          "name": "八連双晶",
+          "piece": 8
         }
       ]
     },
@@ -104,16 +90,16 @@
       "qp": 1000000,
       "resources": [
         {
-          "name": "アーチャーモニュメント",
+          "name": "バーサーカーモニュメント",
           "piece": 5
         },
         {
-          "name": "英雄の証",
-          "piece": 29
+          "name": "黒獣脂",
+          "piece": 6
         },
         {
-          "name": "竜の逆鱗",
-          "piece": 2
+          "name": "封魔のランプ",
+          "piece": 3
         }
       ]
     },
@@ -121,15 +107,15 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "アーチャーモニュメント",
+          "name": "バーサーカーモニュメント",
           "piece": 12
         },
         {
-          "name": "竜の逆鱗",
-          "piece": 4
+          "name": "封魔のランプ",
+          "piece": 6
         },
         {
-          "name": "蛮神の心臓",
+          "name": "呪獣胆石",
           "piece": 5
         }
       ]
@@ -140,7 +126,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "狂の輝石",
           "piece": 5
         }
       ]
@@ -149,7 +135,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "狂の輝石",
           "piece": 12
         }
       ]
@@ -158,7 +144,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "弓の魔石",
+          "name": "狂の魔石",
           "piece": 5
         }
       ]
@@ -167,12 +153,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "弓の魔石",
+          "name": "狂の魔石",
           "piece": 12
         },
         {
-          "name": "英雄の証",
-          "piece": 15
+          "name": "黒獣脂",
+          "piece": 3
         }
       ]
     },
@@ -180,12 +166,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "弓の秘石",
+          "name": "狂の秘石",
           "piece": 5
         },
         {
-          "name": "英雄の証",
-          "piece": 29
+          "name": "黒獣脂",
+          "piece": 6
         }
       ]
     },
@@ -193,12 +179,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "弓の秘石",
+          "name": "狂の秘石",
           "piece": 12
         },
         {
-          "name": "蛇の宝玉",
-          "piece": 4
+          "name": "八連双晶",
+          "piece": 5
         }
       ]
     },
@@ -206,12 +192,12 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "蛇の宝玉",
-          "piece": 8
+          "name": "八連双晶",
+          "piece": 10
         },
         {
-          "name": "虚影の塵",
-          "piece": 12
+          "name": "閑古鈴",
+          "piece": 6
         }
       ]
     },
@@ -219,12 +205,12 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": "虚影の塵",
-          "piece": 36
+          "name": "閑古鈴",
+          "piece": 18
         },
         {
-          "name": "蛮神の心臓",
-          "piece": 10
+          "name": "忘れじの灰",
+          "piece": 72
         }
       ]
     },
@@ -243,7 +229,7 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "狂の輝石",
           "piece": 5
         }
       ]
@@ -252,7 +238,7 @@
       "qp": 400000,
       "resources": [
         {
-          "name": "弓の輝石",
+          "name": "狂の輝石",
           "piece": 12
         }
       ]
@@ -261,7 +247,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "弓の魔石",
+          "name": "狂の魔石",
           "piece": 5
         }
       ]
@@ -270,12 +256,12 @@
       "qp": 1600000,
       "resources": [
         {
-          "name": "弓の魔石",
+          "name": "狂の魔石",
           "piece": 12
         },
         {
-          "name": "八連双晶",
-          "piece": 5
+          "name": "凶骨",
+          "piece": 15
         }
       ]
     },
@@ -283,12 +269,12 @@
       "qp": 4000000,
       "resources": [
         {
-          "name": "弓の秘石",
+          "name": "狂の秘石",
           "piece": 5
         },
         {
-          "name": "八連双晶",
-          "piece": 10
+          "name": "凶骨",
+          "piece": 29
         }
       ]
     },
@@ -296,12 +282,12 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "弓の秘石",
+          "name": "狂の秘石",
           "piece": 12
         },
         {
-          "name": "智慧のスカラベ",
-          "piece": 2
+          "name": "血の涙石",
+          "piece": 3
         }
       ]
     },
@@ -309,8 +295,8 @@
       "qp": 10000000,
       "resources": [
         {
-          "name": "智慧のスカラベ",
-          "piece": 4
+          "name": "血の涙石",
+          "piece": 6
         },
         {
           "name": "真理の卵",
@@ -326,8 +312,8 @@
           "piece": 8
         },
         {
-          "name": "悠久の実",
-          "piece": 15
+          "name": "赦免の小鐘",
+          "piece": 72
         }
       ]
     },

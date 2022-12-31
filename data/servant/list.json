@@ -2476,5 +2476,54 @@
     "klass": "Assassin",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/5690.html"
+  },
+  {
+    "id": 362,
+    "name": "千利休",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5723.html"
+  },
+  {
+    "id": 363,
+    "name": "山南敬助",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5725.html"
+  },
+  {
+    "id": 364,
+    "name": "壱与",
+    "klass": "Ruler",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5727.html"
+  },
+  {
+    "id": 365,
+    "name": "呼延灼",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5753.html"
+  },
+  {
+    "id": 366,
+    "name": "黄飛虎",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5755.html"
+  },
+  {
+    "id": 367,
+    "name": "九紋竜エリザ",
+    "klass": "Pretender",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5757.html"
+  },
+  {
+    "id": 368,
+    "name": "ブリトマート",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5790.html"
   }
 ]

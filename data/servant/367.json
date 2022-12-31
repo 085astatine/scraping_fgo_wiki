@@ -1,42 +1,35 @@
 {
-  "id": 228,
-  "name": "秦良玉",
+  "id": 367,
+  "name": "九紋竜エリザ",
   "alias_name": null,
-  "klass": "Lancer",
+  "klass": "Pretender",
   "rarity": 4,
   "skills": {
     "skill_1": [
       {
         "slot": 1,
         "level": 1,
-        "name": "白杆槍",
-        "rank": "B",
-        "icon": 314
+        "name": "鬨の声・梁山泊",
+        "rank": "EX",
+        "icon": 300
       }
     ],
     "skill_2": [
       {
         "slot": 2,
         "level": 1,
-        "name": "忠士の相",
-        "rank": "B",
-        "icon": 311
+        "name": "極大宴会・梁山泊",
+        "rank": "EX",
+        "icon": 601
       }
     ],
     "skill_3": [
       {
         "slot": 3,
         "level": 1,
-        "name": "盗賊打破",
-        "rank": "B",
-        "icon": 404
-      },
-      {
-        "slot": 3,
-        "level": 2,
-        "name": "悪漢打破",
-        "rank": "A",
-        "icon": 404
+        "name": "天微星の羽織",
+        "rank": "C",
+        "icon": 316
       }
     ]
   },
@@ -63,7 +56,7 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "対バーサーカー攻撃適性",
+        "name": "対アサシン攻撃適性",
         "rank": "",
         "icon": 300
       }
@@ -75,8 +68,8 @@
       "qp": 50000,
       "resources": [
         {
-          "name": "ランサーピース",
-          "piece": 4
+          "name": "天微星の双玉",
+          "piece": 1
         }
       ]
     },
@@ -84,12 +77,8 @@
       "qp": 150000,
       "resources": [
         {
-          "name": "ランサーピース",
-          "piece": 10
-        },
-        {
-          "name": "世界樹の種",
-          "piece": 8
+          "name": "天微星の双玉",
+          "piece": 1
         }
       ]
     },
@@ -97,16 +86,8 @@
       "qp": 500000,
       "resources": [
         {
-          "name": "ランサーモニュメント",
-          "piece": 4
-        },
-        {
-          "name": "蛇の宝玉",
-          "piece": 7
-        },
-        {
-          "name": "鳳凰の羽根",
-          "piece": 4
+          "name": "天微星の双玉",
+          "piece": 1
         }
       ]
     },
@@ -114,16 +95,8 @@
       "qp": 1500000,
       "resources": [
         {
-          "name": "ランサーモニュメント",
-          "piece": 10
-        },
-        {
-          "name": "鳳凰の羽根",
-          "piece": 7
-        },
-        {
-          "name": "混沌の爪",
-          "piece": 6
+          "name": "天微星の双玉",
+          "piece": 1
         }
       ]
     }
@@ -133,8 +106,8 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "槍の輝石",
-          "piece": 4
+          "name": "竜の牙",
+          "piece": 8
         }
       ]
     },
@@ -142,8 +115,8 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "槍の輝石",
-          "piece": 10
+          "name": "世界樹の種",
+          "piece": 8
         }
       ]
     },
@@ -151,8 +124,8 @@
       "qp": 600000,
       "resources": [
         {
-          "name": "槍の魔石",
-          "piece": 4
+          "name": "八連双晶",
+          "piece": 10
         }
       ]
     },
@@ -160,12 +133,8 @@
       "qp": 800000,
       "resources": [
         {
-          "name": "槍の魔石",
-          "piece": 10
-        },
-        {
           "name": "蛇の宝玉",
-          "piece": 4
+          "piece": 10
         }
       ]
     },
@@ -173,12 +142,8 @@
       "qp": 2000000,
       "resources": [
         {
-          "name": "槍の秘石",
-          "piece": 4
-        },
-        {
-          "name": "蛇の宝玉",
-          "piece": 7
+          "name": "鳳凰の羽根",
+          "piece": 10
         }
       ]
     },
@@ -186,12 +151,8 @@
       "qp": 2500000,
       "resources": [
         {
-          "name": "槍の秘石",
-          "piece": 10
-        },
-        {
-          "name": "世界樹の種",
-          "piece": 5
+          "name": "精霊根",
+          "piece": 12
         }
       ]
     },
@@ -199,12 +160,8 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "世界樹の種",
-          "piece": 10
-        },
-        {
-          "name": "オーロラ鋼",
-          "piece": 5
+          "name": "竜の逆鱗",
+          "piece": 12
         }
       ]
     },
@@ -212,12 +169,8 @@
       "qp": 6000000,
       "resources": [
         {
-          "name": "オーロラ鋼",
-          "piece": 15
-        },
-        {
-          "name": "閑古鈴",
-          "piece": 20
+          "name": "煌星のカケラ",
+          "piece": 12
         }
       ]
     },
@@ -236,8 +189,8 @@
       "qp": 100000,
       "resources": [
         {
-          "name": "槍の輝石",
-          "piece": 4
+          "name": "凶骨",
+          "piece": 8
         }
       ]
     },
@@ -245,8 +198,8 @@
       "qp": 200000,
       "resources": [
         {
-          "name": "槍の輝石",
-          "piece": 10
+          "name": "ゴーストランタン",
+          "piece": 8
         }
       ]
     },
@@ -254,8 +207,8 @@
       "qp": 600000,
       "resources": [
         {
-          "name": "槍の魔石",
-          "piece": 4
+          "name": "ホムンクルスベビー",
+          "piece": 10
         }
       ]
     },
@@ -263,12 +216,8 @@
       "qp": 800000,
       "resources": [
         {
-          "name": "槍の魔石",
+          "name": "封魔のランプ",
           "piece": 10
-        },
-        {
-          "name": "鳳凰の羽根",
-          "piece": 4
         }
       ]
     },
@@ -276,12 +225,8 @@
       "qp": 2000000,
       "resources": [
         {
-          "name": "槍の秘石",
-          "piece": 4
-        },
-        {
-          "name": "鳳凰の羽根",
-          "piece": 7
+          "name": "魔術髄液",
+          "piece": 10
         }
       ]
     },
@@ -289,12 +234,8 @@
       "qp": 2500000,
       "resources": [
         {
-          "name": "槍の秘石",
-          "piece": 10
-        },
-        {
-          "name": "精霊根",
-          "piece": 2
+          "name": "禍罪の矢尻",
+          "piece": 12
         }
       ]
     },
@@ -302,12 +243,8 @@
       "qp": 5000000,
       "resources": [
         {
-          "name": "精霊根",
-          "piece": 4
-        },
-        {
-          "name": "枯淡勾玉",
-          "piece": 5
+          "name": "鬼炎鬼灯",
+          "piece": 12
         }
       ]
     },
@@ -315,12 +252,8 @@
       "qp": 6000000,
       "resources": [
         {
-          "name": "枯淡勾玉",
-          "piece": 15
-        },
-        {
-          "name": "虹の糸玉",
-          "piece": 20
+          "name": "夢幻の鱗粉",
+          "piece": 12
         }
       ]
     },

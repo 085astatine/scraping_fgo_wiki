@@ -12,6 +12,13 @@
         "name": "呪術(巫)",
         "rank": "C",
         "icon": 512
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "呪術(巫)",
+        "rank": "C+",
+        "icon": 512
       }
     ],
     "skill_2": [

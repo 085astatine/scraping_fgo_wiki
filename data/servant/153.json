@@ -12,6 +12,13 @@
         "name": "第五勢",
         "rank": "A",
         "icon": 323
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "第五勢",
+        "rank": "A+",
+        "icon": 323
       }
     ],
     "skill_2": [

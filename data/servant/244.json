@@ -29,7 +29,14 @@
         "level": 1,
         "name": "ヴィナーヤカ",
         "rank": "EX",
-        "icon": 404
+        "icon": 403
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "ヴィナーヤカ",
+        "rank": "EX",
+        "icon": 403
       }
     ]
   },

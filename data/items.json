@@ -165,6 +165,11 @@
     "name": "忘れじの灰"
   },
   {
+    "id": 2013,
+    "rarity": "Bronze",
+    "name": "黒曜鋭刃"
+  },
+  {
     "id": 2101,
     "rarity": "Silver",
     "name": "世界樹の種"
@@ -268,6 +273,11 @@
     "id": 2121,
     "rarity": "Silver",
     "name": "夢幻の鱗粉"
+  },
+  {
+    "id": 2122,
+    "rarity": "Silver",
+    "name": "太陽皮"
   },
   {
     "id": 2201,
@@ -608,5 +618,15 @@
     "id": 4035,
     "rarity": "Gold",
     "name": "戦乙女のベレー帽"
+  },
+  {
+    "id": 4036,
+    "rarity": "Gold",
+    "name": "宵闇の勾玉"
+  },
+  {
+    "id": 4037,
+    "rarity": "Gold",
+    "name": "天微星の双玉"
   }
 ]
