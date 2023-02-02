@@ -87,7 +87,7 @@ def skills() -> dict[str, Any]:
         f'skill_{slot}': {
           'type': 'array',
           'items': skill(slot),
-          'minItems': 1
+          'minItems': 1,
         } for slot in skill_slots
       },
       'required': [f'skill_{slot}' for slot in skill_slots],
@@ -140,7 +140,7 @@ def costume() -> dict[str, Any]:
           'minimum': 1,
         },
         'name': {'type': 'string'},
-        'resource': resource()
+        'resource': resource(),
       },
       'required': ['id', 'name', 'resource'],
       'additionalProperties': False,
