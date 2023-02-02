@@ -37,7 +37,9 @@ def validate_servant(
 
 
 def validate_servants(
-        directory: pathlib.Path) -> bool:
+        directory: pathlib.Path,
+        *,
+        halt_on_error: bool = False) -> bool:
     result = True
     for file in _servant_files(directory):
         # load
@@ -46,9 +48,14 @@ def validate_servants(
         if servant is None:
             _logger.info(f'failed to load {file}')
             result = False
+            if halt_on_error:
+                return result
             continue
+        # validate servant
         if not validate_servant(servant):
             result = False
+            if halt_on_error:
+                return result
     return result
 
 
