@@ -73,9 +73,13 @@ def _validate_skills(
             else 'skill_3')
 
     def _validate(slot: Literal[1, 2, 3]) -> bool:
+        result = True
         levels = [skill['level'] for skill in skills[_to_key(slot)]]
-        result = levels == list(range(min(levels), max(levels) + 1))
-        if not result:
+        if min(levels) != 1:
+            result = False
+            _logger.error(f'{prefix} minimum level != 1 in {target} {slot}')
+        if levels != list(range(min(levels), max(levels) + 1)):
+            result = False
             _logger.error(
                     f'{prefix} levels are not consective in {target} {slot}')
         return result
