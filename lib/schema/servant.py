@@ -25,7 +25,7 @@ def servant() -> dict[str, Any]:
           'items': costume(),
         },
         'skills': skills(),
-        'append_skills': skills(),
+        'append_skills': append_skills(),
         'ascension_resources': {
           'type': 'array',
           'items': resource(),
@@ -88,6 +88,24 @@ def skills() -> dict[str, Any]:
           'type': 'array',
           'items': skill(slot),
           'minItems': 1,
+        } for slot in skill_slots
+      },
+      'required': [f'skill_{slot}' for slot in skill_slots],
+      'additionalProperties': False,
+    }
+    return schema
+
+
+def append_skills() -> dict[str, Any]:
+    skill_slots = [1, 2, 3]
+    schema = {
+      'type': 'object',
+      'properties': {
+        f'skill_{slot}': {
+          'type': 'array',
+          'items': skill(slot),
+          'minItems': 1,
+          'maxItems': 1,
         } for slot in skill_slots
       },
       'required': [f'skill_{slot}' for slot in skill_slots],
