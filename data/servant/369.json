@@ -1,0 +1,350 @@
+{
+  "id": 369,
+  "name": "グレゴリー・ラスプーチン",
+  "alias_name": null,
+  "klass": "AlterEgo",
+  "rarity": 5,
+  "skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "信仰の加護（独）",
+        "rank": "A+",
+        "icon": 600
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "悪心祝祭",
+        "rank": "A",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "死なずのバールー",
+        "rank": "EX",
+        "icon": 404
+      }
+    ]
+  },
+  "append_skills": {
+    "skill_1": [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    "skill_2": [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    "skill_3": [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対キャスター攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ]
+  },
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 5
+        },
+        {
+          "name": "キャスターピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 12
+        },
+        {
+          "name": "キャスターピース",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "キャスターモニュメント",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "キャスターモニュメント",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 5
+        },
+        {
+          "name": "術の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 12
+        },
+        {
+          "name": "術の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 5
+        },
+        {
+          "name": "術の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 12
+        },
+        {
+          "name": "術の魔石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 5
+        },
+        {
+          "name": "術の秘石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 12
+        },
+        {
+          "name": "術の秘石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "禁断の頁",
+          "piece": 8
+        },
+        {
+          "name": "神脈霊子",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "蛮神の心臓",
+          "piece": 9
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 5
+        },
+        {
+          "name": "術の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 12
+        },
+        {
+          "name": "術の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 5
+        },
+        {
+          "name": "術の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 12
+        },
+        {
+          "name": "術の魔石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 5
+        },
+        {
+          "name": "術の秘石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 12
+        },
+        {
+          "name": "術の秘石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "蛇の宝玉",
+          "piece": 7
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "竜の逆鱗",
+          "piece": 9
+        },
+        {
+          "name": "真理の卵",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
