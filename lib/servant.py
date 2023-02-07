@@ -182,7 +182,8 @@ def _parse_servant_table() -> list[_ServantTable]:
             151,  # ゲーティア
             152,  # ソロモン
             168,  # ビーストIII/R
-            240)  # ビーストIII/L
+            240,  # ビーストIII/L
+            333)  # ビーストIV
     # クラス変換
     to_servant_class = {
             '剣': 'Saber',  # セイバー
