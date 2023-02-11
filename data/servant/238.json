@@ -76,7 +76,58 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 100,
+      "name": "トラトラウキの番人",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "赦免の小鐘",
+            "piece": 10
+          },
+          {
+            "name": "ゴーストランタン",
+            "piece": 5
+          },
+          {
+            "name": "巨人の指輪",
+            "piece": 5
+          },
+          {
+            "name": "精霊根",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "name": "ダーク・プロテア",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "忘れじの灰",
+            "piece": 10
+          },
+          {
+            "name": "ゴーストランタン",
+            "piece": 5
+          },
+          {
+            "name": "枯淡勾玉",
+            "piece": 5
+          },
+          {
+            "name": "真理の卵",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,
