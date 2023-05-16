@@ -2515,33 +2515,6 @@
   },
   {
     "costume_id": 96,
-    "servant_id": 364,
-    "name": "簡易霊衣：思い出の休日スタイル",
-    "flavor_text": "神殿を抜け出す先輩にくっついて国を\n巡った遠く昨日のようなあの頃",
-    "resource": {
-      "qp": 3000000,
-      "resources": [
-        {
-          "name": "世界樹の種",
-          "piece": 10
-        },
-        {
-          "name": "虹の糸玉",
-          "piece": 5
-        },
-        {
-          "name": "悠久の実",
-          "piece": 5
-        },
-        {
-          "name": "精霊根",
-          "piece": 5
-        }
-      ]
-    }
-  },
-  {
-    "costume_id": 97,
     "servant_id": 209,
     "name": "簡易霊衣：煉獄オルタ",
     "flavor_text": "沖田オルタの霊基を緊急対応で制御中\n実のところ煉獄本来の役割ともいえる",
@@ -2568,6 +2541,33 @@
     }
   },
   {
+    "costume_id": 97,
+    "servant_id": 364,
+    "name": "簡易霊衣：思い出の休日スタイル",
+    "flavor_text": "神殿を抜け出す先輩にくっついて国を\n巡った遠く昨日のようなあの頃",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        },
+        {
+          "name": "虹の糸玉",
+          "piece": 5
+        },
+        {
+          "name": "悠久の実",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
     "costume_id": 98,
     "servant_id": 314,
     "name": "簡易霊衣：NFFバニー",
@@ -2585,6 +2585,114 @@
         },
         {
           "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 99,
+    "servant_id": 196,
+    "name": "ニンキガル",
+    "flavor_text": "第三冥界の番人としての姿\n自称、悪辣で淫蕩で強欲な女神",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "黒曜鋭刃",
+          "piece": 10
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 5
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 100,
+    "servant_id": 238,
+    "name": "トラトラウキの番人",
+    "flavor_text": "第一冥界の番人としての姿\n悪い子プロテアだが、根はやはりプロテア",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "赦免の小鐘",
+          "piece": 10
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 101,
+    "servant_id": 238,
+    "name": "ダーク・プロテア",
+    "flavor_text": "第一冥界の番人としての姿\n怪獣衣装が増えた、と割りと本人には好評",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "忘れじの灰",
+          "piece": 10
+        },
+        {
+          "name": "ゴーストランタン",
+          "piece": 5
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 102,
+    "servant_id": 371,
+    "name": "簡易霊衣：ジャガーマン",
+    "flavor_text": "『ジャガーの戦士』たちの王であって\nジャガーそのものなワケではない",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "黒曜鋭刃",
+          "piece": 10
+        },
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "神脈霊子",
           "piece": 5
         },
         {

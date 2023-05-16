@@ -2525,5 +2525,40 @@
     "klass": "Lancer",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/5790.html"
+  },
+  {
+    "id": 369,
+    "name": "グレゴリー・ラスプーチン",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5824.html"
+  },
+  {
+    "id": 370,
+    "name": "ニトクリス〔オルタ〕",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5841.html"
+  },
+  {
+    "id": 371,
+    "name": "テスカトリポカ",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5848.html"
+  },
+  {
+    "id": 372,
+    "name": "トラロック",
+    "klass": "Pretender",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5850.html"
+  },
+  {
+    "id": 373,
+    "name": "ククルカン",
+    "klass": "Foreigner",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5864.html"
   }
 ]
