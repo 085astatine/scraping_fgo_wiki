@@ -18,6 +18,7 @@ def klass() -> dict[str, Any]:
         'MoonCancer',
         'Foreigner',
         'Pretender',
+        'Beast',
       ],
     }
     return schema
@@ -60,6 +61,7 @@ def item() -> dict[str, Any]:
         '黄昏の儀式剣',
         '忘れじの灰',
         '黒曜鋭刃',
+        '狂気の残滓',
         '世界樹の種',
         'ゴーストランタン',
         '八連双晶',
@@ -82,6 +84,7 @@ def item() -> dict[str, Any]:
         '虹の糸玉',
         '夢幻の鱗粉',
         '太陽皮',
+        'エーテル収光体',
         '混沌の爪',
         '蛮神の心臓',
         '竜の逆鱗',
@@ -152,6 +155,7 @@ def item() -> dict[str, Any]:
         '戦乙女のベレー帽',
         '宵闇の勾玉',
         '天微星の双玉',
+        'ケルト式修練武具',
       ],
     }
     return schema
