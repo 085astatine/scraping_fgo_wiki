@@ -2560,5 +2560,89 @@
     "klass": "Foreigner",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/5864.html"
+  },
+  {
+    "id": 374,
+    "name": "女教皇ヨハンナ",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5874.html"
+  },
+  {
+    "id": 375,
+    "name": "高杉晋作",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5904.html"
+  },
+  {
+    "id": 376,
+    "name": "ラーヴァ／ティアマト",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5923.html"
+  },
+  {
+    "id": 377,
+    "name": "ソドムズビースト／ドラコー",
+    "klass": "Beast",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5938.html"
+  },
+  {
+    "id": 378,
+    "name": "ロクスタ",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5940.html"
+  },
+  {
+    "id": 379,
+    "name": "セタンタ",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5946.html"
+  },
+  {
+    "id": 380,
+    "name": "果心居士",
+    "klass": "Assassin",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5962.html"
+  },
+  {
+    "id": 381,
+    "name": "ビーマ",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5982.html"
+  },
+  {
+    "id": 382,
+    "name": "ドゥリーヨダナ",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/5983.html"
+  },
+  {
+    "id": 383,
+    "name": "ドゥルガー",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/5997.html"
+  },
+  {
+    "id": 384,
+    "name": "メドゥーサ",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6005.html"
+  },
+  {
+    "id": 385,
+    "name": "雨の魔女トネリコ",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6019.html"
   }
 ]
