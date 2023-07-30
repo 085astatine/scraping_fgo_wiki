@@ -12,6 +12,13 @@
         "name": "戦略",
         "rank": "B",
         "icon": 602
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "信長タクティクス",
+        "rank": "B",
+        "icon": 306
       }
     ],
     "skill_2": [

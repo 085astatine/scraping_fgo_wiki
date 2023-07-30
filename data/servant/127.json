@@ -12,6 +12,13 @@
         "name": "天賦の叡智",
         "rank": "EX",
         "icon": 404
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "聡明叡知",
+        "rank": "EX",
+        "icon": 313
       }
     ],
     "skill_2": [
