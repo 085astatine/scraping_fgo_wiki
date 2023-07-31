@@ -12,6 +12,13 @@
         "name": "王の帰還",
         "rank": "A",
         "icon": 604
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "王の帰還",
+        "rank": "EX",
+        "icon": 601
       }
     ],
     "skill_2": [

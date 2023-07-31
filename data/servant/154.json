@@ -37,6 +37,13 @@
         "name": "晩鐘",
         "rank": "EX",
         "icon": 524
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "晩鐘、帰路",
+        "rank": "EX",
+        "icon": 524
       }
     ]
   },
