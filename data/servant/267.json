@@ -30,6 +30,13 @@
         "name": "M・DRIVE",
         "rank": "EX",
         "icon": 304
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "誠・ＤＲＩＶＥ",
+        "rank": "EX",
+        "icon": 304
       }
     ]
   },

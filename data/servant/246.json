@@ -21,6 +21,13 @@
         "name": "不動の忍耐",
         "rank": "C",
         "icon": 305
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "機へ至る忍耐",
+        "rank": "B",
+        "icon": 305
       }
     ],
     "skill_3": [

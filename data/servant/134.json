@@ -12,6 +12,13 @@
         "name": "情熱の炎夏",
         "rank": "A",
         "icon": 520
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "情熱の炎夏",
+        "rank": "A+",
+        "icon": 520
       }
     ],
     "skill_2": [
