@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 107,
+      "name": "簡易霊衣：本気モード",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "魔術髄液",
+            "piece": 10
+          },
+          {
+            "name": "オーロラ鋼",
+            "piece": 5
+          },
+          {
+            "name": "血の涙石",
+            "piece": 5
+          },
+          {
+            "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

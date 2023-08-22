@@ -62,7 +62,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 108,
+      "name": "簡易霊衣：青翠の夏女神",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "神脈霊子",
+            "piece": 5
+          },
+          {
+            "name": "永遠結氷",
+            "piece": 5
+          },
+          {
+            "name": "虹の糸玉",
+            "piece": 5
+          },
+          {
+            "name": "蛮神の心臓",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

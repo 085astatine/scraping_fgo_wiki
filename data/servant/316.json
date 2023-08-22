@@ -62,7 +62,58 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 106,
+      "name": "爽やかサマー・プリンセス",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "永遠結氷",
+            "piece": 5
+          },
+          {
+            "name": "真理の卵",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "name": "不機嫌サマー・オベロン",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "忘れじの灰",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "黒獣脂",
+            "piece": 5
+          },
+          {
+            "name": "黒曜鋭刃",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,
