@@ -156,6 +156,7 @@ def item() -> dict[str, Any]:
         '宵闇の勾玉',
         '天微星の双玉',
         'ケルト式修練武具',
+        'VVVスティック',
       ],
     }
     return schema
