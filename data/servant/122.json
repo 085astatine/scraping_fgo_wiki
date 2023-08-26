@@ -69,7 +69,33 @@
       }
     ]
   },
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 105,
+      "name": "ルルハワの鶏",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "禍罪の矢尻",
+            "piece": 5
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "鳳凰の羽根",
+            "piece": 5
+          },
+          {
+            "name": "精霊根",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

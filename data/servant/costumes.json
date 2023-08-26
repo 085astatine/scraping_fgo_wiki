@@ -2701,5 +2701,194 @@
         }
       ]
     }
+  },
+  {
+    "costume_id": 103,
+    "servant_id": 123,
+    "name": "夏の御曹司",
+    "flavor_text": "円卓騎士の夏の装い\n節度を弁えるながらも開放感のある姿",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "黄昏の儀式剣",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "太陽皮",
+          "piece": 5
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 104,
+    "servant_id": 121,
+    "name": "夏の最強騎士",
+    "flavor_text": "円卓騎士の夏の装い。ここまでするのが\nランスロットなんだよね",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 5
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "エーテル収光体",
+          "piece": 5
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 105,
+    "servant_id": 122,
+    "name": "ルルハワの鶏",
+    "flavor_text": "ベディヴィエールが買ってくれたアロハ\n皆で遊ぶためにゴーグルは常時複数携帯",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "禍罪の矢尻",
+          "piece": 5
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 106,
+    "servant_id": 316,
+    "name": "爽やかサマー・プリンセス",
+    "flavor_text": "カルデア食堂で拝借したパーカー\nアイスと共に夏を満喫するスタイル",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 107,
+    "servant_id": 388,
+    "name": "簡易霊衣：本気モード",
+    "flavor_text": "有能美少女編集者の本気のオフモード\n何に本気になっているかは言わぬが花",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 10
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 5
+        },
+        {
+          "name": "智慧のスカラベ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 108,
+    "servant_id": 357,
+    "name": "簡易霊衣：青翠の夏女神",
+    "flavor_text": "ケルトのスカサハと選んだ水着\nあまり人前では着られていなかった",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "神脈霊子",
+          "piece": 5
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 5
+        },
+        {
+          "name": "虹の糸玉",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 109,
+    "servant_id": 316,
+    "name": "不機嫌サマー・オベロン",
+    "flavor_text": "現地購入した黒のサマーパーカー\n正直暑い",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "忘れじの灰",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        },
+        {
+          "name": "黒曜鋭刃",
+          "piece": 10
+        }
+      ]
+    }
   }
 ]

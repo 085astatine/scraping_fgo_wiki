@@ -94,6 +94,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 103,
+      "name": "夏の御曹司",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "黄昏の儀式剣",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "太陽皮",
+            "piece": 5
+          },
+          {
+            "name": "鬼炎鬼灯",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

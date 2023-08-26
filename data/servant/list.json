@@ -2644,5 +2644,54 @@
     "klass": "Caster",
     "rarity": 5,
     "url": "//w.atwiki.jp/f_go/pages/6019.html"
+  },
+  {
+    "id": 386,
+    "name": "アルトリア・キャスター",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6040.html"
+  },
+  {
+    "id": 387,
+    "name": "鈴鹿御前〔サマバケ〕",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6041.html"
+  },
+  {
+    "id": 388,
+    "name": "クロエ・フォン・アインツベルン",
+    "klass": "Avenger",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6043.html"
+  },
+  {
+    "id": 389,
+    "name": "ノクナレア・ヤラアーンドゥ",
+    "klass": "Foreigner",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6068.html"
+  },
+  {
+    "id": 390,
+    "name": "メリュジーヌ",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6072.html"
+  },
+  {
+    "id": 391,
+    "name": "UDK-バーゲスト",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6074.html"
+  },
+  {
+    "id": 392,
+    "name": "ケット・クー・ミコケル",
+    "klass": "Pretender",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6076.html"
   }
 ]

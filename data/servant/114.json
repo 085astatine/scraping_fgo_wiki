@@ -28,6 +28,13 @@
         "name": "魔力放出（雷）",
         "rank": "A",
         "icon": 306
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "雷神の顕",
+        "rank": "A+",
+        "icon": 306
       }
     ],
     "skill_3": [

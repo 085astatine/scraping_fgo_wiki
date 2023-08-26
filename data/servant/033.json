@@ -12,6 +12,13 @@
         "name": "人間観察",
         "rank": "A",
         "icon": 303
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "人間観察",
+        "rank": "A++",
+        "icon": 303
       }
     ],
     "skill_2": [
