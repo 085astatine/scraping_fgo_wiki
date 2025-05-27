@@ -183,6 +183,9 @@ def _parse_servant_table() -> list[_ServantTable]:
         168,  # ビーストIII/R
         240,  # ビーストIII/L
         333,  # ビーストIV
+        411,  # Ｅ－フレアマリー
+        412,  # Ｅ－アクアマリー
+        436,  # Ｅ－グランマリー
     )
     # クラス変換
     to_servant_class = {
