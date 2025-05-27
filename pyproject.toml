@@ -12,6 +12,12 @@ requests = "^2.32.3"
 PyYAML = "^6.0.2"
 
 [tool.poetry.group.dev.dependencies]
+lxml-stubs = "^0.5.1"
+mypy = "^1.15.0"
+pylint = "^3.3.7"
+types-jsonschema = "^4.23.0.20250516"
+types-pyyaml = "^6.0.12.20250516"
+types-requests = "^2.32.0.20250515"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
