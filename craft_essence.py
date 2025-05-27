@@ -5,6 +5,7 @@ import logging
 import re
 import time
 from typing import NamedTuple, Optional, TypedDict
+
 import lxml.html
 import requests
 

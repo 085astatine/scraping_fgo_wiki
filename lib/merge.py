@@ -1,10 +1,7 @@
 import logging
 from typing import Optional, TypedDict
-from . import item
-from . import servant
-from . import text
-from . import sound
 
+from . import item, servant, sound, text
 
 _logger = logging.getLogger(__name__)
 

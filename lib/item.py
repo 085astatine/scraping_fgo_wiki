@@ -1,9 +1,10 @@
 import logging
 from typing import TypedDict
+
 import lxml.html
 import requests
-from .text import Text
 
+from .text import Text
 
 _logger = logging.getLogger(__name__)
 

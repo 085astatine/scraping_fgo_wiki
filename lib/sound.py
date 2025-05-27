@@ -1,10 +1,11 @@
 import logging
 import re
 from typing import Optional, TypedDict
-import requests
-import lxml.html
-from .servant import Resource, ResourceSet
 
+import lxml.html
+import requests
+
+from .servant import Resource, ResourceSet
 
 _logger = logging.getLogger(__name__)
 

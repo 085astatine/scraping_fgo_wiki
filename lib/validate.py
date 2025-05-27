@@ -2,11 +2,12 @@ import logging
 import pathlib
 import re
 from typing import Literal
-import jsonschema
-from .io import load_json
-from .servant import Costume, Servant, Skills
-from .schema import servant as servant_schema
 
+import jsonschema
+
+from .io import load_json
+from .schema import servant as servant_schema
+from .servant import Costume, Servant, Skills
 
 _logger = logging.getLogger(__name__)
 

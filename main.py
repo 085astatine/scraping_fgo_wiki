@@ -4,8 +4,8 @@ import argparse
 import logging
 import pathlib
 from typing import Final
-import lib
 
+import lib
 
 _REQUEST_INTERVAL: Final[float] = 2.0
 

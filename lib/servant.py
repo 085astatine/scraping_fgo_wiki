@@ -6,11 +6,12 @@ import re
 import time
 import unicodedata
 from typing import Final, Literal, Optional, TypedDict
+
 import lxml.html
 import requests
+
 from .io import load_json, save_json
 from .text import Text
-
 
 _logger = logging.getLogger(__name__)
 
