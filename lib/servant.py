@@ -27,10 +27,7 @@ class Skill(TypedDict):
     icon: int
 
 
-class Skills(TypedDict):
-    skill_1: list[Skill]
-    skill_2: list[Skill]
-    skill_3: list[Skill]
+type Skills = list[list[Skill]]
 
 
 class Resource(TypedDict):
@@ -389,7 +386,7 @@ def _parse_skills(
     root: lxml.html.HtmlElement,
     target: Literal["skill", "append_skill"],
 ) -> Skills:
-    skill_slots: dict[int, list[Skill]] = {i: [] for i in range(1, 4)}
+    skills: Skills = [[] for _ in range(3)]
     if target == "skill":
         xpath = (
             '//div[@id="wikibody"]'
@@ -406,21 +403,15 @@ def _parse_skills(
         skill = _parse_skill(node)
         if skill is None:
             continue
-        skill_slots[skill["slot"]].append(skill)
+        skills[skill["slot"] - 1].append(skill)
     # check
-    if not all(len(slot) > 0 for slot in skill_slots.values()):
+    if not all(len(skill_n) > 0 for skill_n in skills):
         _logger.error("there is a missing skill slot")
     if not all(
-        skill["level"] == i + 1
-        for slot in skill_slots.values()
-        for i, skill in enumerate(slot)
+        skill["level"] == i + 1 for skill_n in skills for i, skill in enumerate(skill_n)
     ):
         _logger.error("duplicate or missing skill levels")
-    return Skills(
-        skill_1=skill_slots[1],
-        skill_2=skill_slots[2],
-        skill_3=skill_slots[3],
-    )
+    return skills
 
 
 def _parse_skill(node: lxml.html.HtmlElement) -> Optional[Skill]:
