@@ -21,6 +21,13 @@
         "name": "幻術",
         "rank": "A",
         "icon": 403
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "幻術",
+        "rank": "A+",
+        "icon": 403
       }
     ],
     [

@@ -37,6 +37,13 @@
         "name": "神殺し",
         "rank": "B",
         "icon": 301
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "神殺し",
+        "rank": "EX",
+        "icon": 301
       }
     ]
   ],
