@@ -408,7 +408,7 @@ def _parse_skills(
 def _parse_append_skills(
     root: lxml.html.HtmlElement,
 ) -> AppendSkills:
-    skills: AppendSkills = [[] for _ in range(3)]
+    skills: AppendSkills = [[] for _ in range(5)]
     xpath = (
         '//div[@id="wikibody"]'
         '//h3[normalize-space()="アペンドスキル"]'
@@ -428,7 +428,7 @@ def _parse_skill(node: lxml.html.HtmlElement) -> Optional[Skill]:
     text = node.text_content().strip()
     # slot, level, name, rank
     match = re.match(
-        r"Skill(?P<slot>[123])"
+        r"Skill(?P<slot>[0-9+])"
         r"(|(?P<upgraded>(|\[強化後(|(?P<level>[0-9]+)))\]))"
         r"：(?P<name>.+)",
         text,

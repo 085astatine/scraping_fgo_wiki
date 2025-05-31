@@ -105,8 +105,8 @@ def append_skills() -> dict[str, Any]:
             "minItems": 1,
             "maxItems": 1,
         },
-        "minItems": 3,
-        "maxItems": 3,
+        "minItems": 5,
+        "maxItems": 5,
     }
     return schema
 
