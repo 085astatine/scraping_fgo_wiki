@@ -14,7 +14,7 @@ import requests
 
 from .io import load_json, save_json
 from .text import Text
-from .validate import validate_skills
+from .validate import validate_append_skills, validate_skills
 
 _logger = logging.getLogger(__name__)
 
@@ -31,6 +31,7 @@ class Skill(TypedDict):
 
 
 type Skills = list[list[Skill]]
+type AppendSkills = list[list[Skill]]
 
 
 class Resource(TypedDict):
@@ -56,7 +57,7 @@ class Servant(TypedDict):
     klass: str
     rarity: int
     skills: Skills
-    append_skills: Skills
+    append_skills: AppendSkills
     costumes: list[Costume]
     ascension_resources: list[ResourceSet]
     skill_resources: list[ResourceSet]
@@ -326,7 +327,7 @@ def _parse_servant_page(
         )
     # スキル
     _logger.debug("skills")
-    skills = _parse_skills(root, "skill")
+    skills = _parse_skills(root)
     # スキル強化用素材
     _logger.debug("skill resources")
     skill_resources = _parse_skill_resources(root, "skill")
@@ -337,7 +338,7 @@ def _parse_servant_page(
         )
     # アペンドスキル
     _logger.debug("append skills")
-    append_skills = _parse_skills(root, "append_skill")
+    append_skills = _parse_append_skills(root)
     # スキル強化用素材
     _logger.debug("append skill resources")
     append_skill_resources = _parse_skill_resources(root, "append_skill")
@@ -387,28 +388,39 @@ def _parse_ascension_resources(root: lxml.html.HtmlElement) -> list[ResourceSet]
 
 def _parse_skills(
     root: lxml.html.HtmlElement,
-    target: Literal["skill", "append_skill"],
 ) -> Skills:
     skills: Skills = [[] for _ in range(3)]
-    if target == "skill":
-        xpath = (
-            '//div[@id="wikibody"]'
-            '//h3[normalize-space()="保有スキル"]'
-            "/following-sibling::h4"
-        )
-    elif target == "append_skill":
-        xpath = (
-            '//div[@id="wikibody"]'
-            '//h3[normalize-space()="アペンドスキル"]'
-            "/following-sibling::div/h4"
-        )
+    xpath = (
+        '//div[@id="wikibody"]'
+        '//h3[normalize-space()="保有スキル"]'
+        "/following-sibling::h4"
+    )
     for node in root.xpath(xpath):
         skill = _parse_skill(node)
         if skill is None:
             continue
         skills[skill["slot"] - 1].append(skill)
     # check
-    validate_skills("", target, skills)
+    validate_skills("", skills)
+    return skills
+
+
+def _parse_append_skills(
+    root: lxml.html.HtmlElement,
+) -> AppendSkills:
+    skills: AppendSkills = [[] for _ in range(3)]
+    xpath = (
+        '//div[@id="wikibody"]'
+        '//h3[normalize-space()="アペンドスキル"]'
+        "/following-sibling::div/h4"
+    )
+    for node in root.xpath(xpath):
+        skill = _parse_skill(node)
+        if skill is None:
+            continue
+        skills[skill["slot"] - 1].append(skill)
+    # check
+    validate_append_skills("", skills)
     return skills
 
 

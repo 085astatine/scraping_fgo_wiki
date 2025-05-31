@@ -11,7 +11,7 @@ from .io import load_json
 from .schema import servant as servant_schema
 
 if TYPE_CHECKING:
-    from .servant import Costume, Servant, Skill, Skills
+    from .servant import AppendSkills, Costume, Servant, Skill, Skills
 
 _logger = logging.getLogger(__name__)
 
@@ -29,9 +29,9 @@ def validate_servant(servant: Servant) -> bool:
         _logger.error(f"{prefix} JSONSchema validaton error\n{error}")
         return False
     # check skills
-    if not validate_skills(prefix, "skill", servant["skills"]):
+    if not validate_skills(prefix, servant["skills"]):
         result = False
-    if not validate_skills(prefix, "append_skill", servant["append_skills"]):
+    if not validate_append_skills(prefix, servant["append_skills"]):
         result = False
     # check costumes
     if not _validate_costumes(prefix, servant["costumes"]):
@@ -65,22 +65,32 @@ def validate_servants(
 
 def validate_skills(
     prefix: str,
-    target: Literal["skill", "append_skill"],
     skills: Skills,
 ) -> bool:
     result = True
-    # size
-    if target == "skill":
-        if len(skills) != 3:
-            result = False
-            logger.error(f"{prefix} skills require 3 slots")
-    elif target == "append_skill":
-        if len(skills) != 3:
-            result = False
-            logger.error(f"{prefix} append skills require 3 slots")
+    # slots
+    if len(skills) != 3:
+        result = False
+        logger.error(f"{prefix} skills require 3 slots")
     # skill
     for i, skill in enumerate(skills):
-        if not _validate_skill_n(i + 1, skills[i], _logger, prefix, target):
+        if not _validate_skill_n(i + 1, skills[i], _logger, prefix, "skill"):
+            result = False
+    return result
+
+
+def validate_append_skills(
+    prefix: str,
+    skills: AppendSkills,
+) -> bool:
+    result = True
+    # slots
+    if len(skills) != 3:
+        result = False
+        logger.error(f"{prefix} append skills require 3 slots")
+    # append skill
+    for i, skill in enumerate(skills):
+        if not _validate_skill_n(i + 1, skills[i], _logger, prefix, "append_skill"):
             result = False
     return result
 
