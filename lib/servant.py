@@ -14,6 +14,7 @@ import requests
 
 from .io import load_json, save_json
 from .text import Text
+from .validate import validate_skills
 
 _logger = logging.getLogger(__name__)
 
@@ -407,12 +408,7 @@ def _parse_skills(
             continue
         skills[skill["slot"] - 1].append(skill)
     # check
-    if not all(len(skill_n) > 0 for skill_n in skills):
-        _logger.error("there is a missing skill slot")
-    if not all(
-        skill["level"] == i + 1 for skill_n in skills for i, skill in enumerate(skill_n)
-    ):
-        _logger.error("duplicate or missing skill levels")
+    validate_skills("", target, skills)
     return skills
 
 
