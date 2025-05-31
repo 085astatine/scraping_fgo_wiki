@@ -7,7 +7,7 @@ import jsonschema
 
 from .io import load_json
 from .schema import servant as servant_schema
-from .servant import Costume, Servant, Skills
+from .servant import Costume, Servant, Skill, Skills
 
 _logger = logging.getLogger(__name__)
 
@@ -25,9 +25,9 @@ def validate_servant(servant: Servant) -> bool:
         _logger.error(f"{prefix} JSONSchema validaton error\n{error}")
         return False
     # check skills
-    if not _validate_skills(prefix, "skill", servant["skills"]):
+    if not validate_skills(prefix, "skill", servant["skills"]):
         result = False
-    if not _validate_skills(prefix, "append_skill", servant["append_skills"]):
+    if not validate_skills(prefix, "append_skill", servant["append_skills"]):
         result = False
     # check costumes
     if not _validate_costumes(prefix, servant["costumes"]):
@@ -59,31 +59,49 @@ def validate_servants(
     return result
 
 
-def _validate_skills(
+def validate_skills(
     prefix: str,
     target: Literal["skill", "append_skill"],
     skills: Skills,
 ) -> bool:
-
-    def _validate(slot: int) -> bool:
-        result = True
-        levels = [skill["level"] for skill in skills[slot - 1]]
-        if min(levels) != 1:
-            result = False
-            _logger.error(f"{prefix} minimum level != 1 in {target} {slot}")
-        if levels != list(range(min(levels), max(levels) + 1)):
-            result = False
-            _logger.error(f"{prefix} levels are not consective in {target} {slot}")
-        return result
-
-    # validate skill 1, 2, 3
     result = True
-    if not _validate(1):
+    # size
+    if target == "skill":
+        if len(skills) != 3:
+            result = False
+            logger.error(f"{prefix} skills require 3 slots")
+    elif target == "append_skill":
+        if len(skills) != 3:
+            result = False
+            logger.error(f"{prefix} append skills require 3 slots")
+    # skill
+    for i, skill in enumerate(skills):
+        if not _validate_skill_n(i + 1, skills[i], _logger, prefix, target):
+            result = False
+    return result
+
+
+def _validate_skill_n(
+    slot: int,
+    skill_n: list[Skill],
+    logger: logging.Logger,
+    prefix: str,
+    target: Literal["skill", "append_skill"],
+) -> bool:
+    result = True
+    # size
+    if not skill_n:
         result = False
-    if not _validate(2):
+        logger.error(f"{prefix} {target} {slot} is empty")
+    # slot
+    if any(skill["slot"] != slot for skill in skill_n):
         result = False
-    if not _validate(3):
+        logger.error(f"{prefix} exist unexpected slot in {target} {slot}")
+    # level
+    levels = [skill["level"] for skill in skill_n]
+    if levels != list(range(1, len(levels) + 1)):
         result = False
+        logger.error(f"{prefix} levels are not consective in {target} {slot}")
     return result
 
 
