@@ -4,8 +4,8 @@
   "alias_name": null,
   "klass": "Berserker",
   "rarity": 4,
-  "skills": {
-    "skill_1": [
+  "skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -14,7 +14,7 @@
         "icon": 300
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -30,7 +30,7 @@
         "icon": 513
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -46,9 +46,9 @@
         "icon": 400
       }
     ]
-  },
-  "append_skills": {
-    "skill_1": [
+  ],
+  "append_skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -57,7 +57,7 @@
         "icon": 301
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -66,7 +66,7 @@
         "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -75,7 +75,7 @@
         "icon": 417
       }
     ]
-  },
+  ],
   "costumes": [
     {
       "id": 62,

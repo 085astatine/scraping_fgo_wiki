@@ -4,8 +4,8 @@
   "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
-  "skills": {
-    "skill_1": [
+  "skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -14,7 +14,7 @@
         "icon": 509
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -23,7 +23,7 @@
         "icon": 300
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -39,9 +39,9 @@
         "icon": 404
       }
     ]
-  },
-  "append_skills": {
-    "skill_1": [
+  ],
+  "append_skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -50,7 +50,7 @@
         "icon": 301
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -59,7 +59,7 @@
         "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -68,7 +68,7 @@
         "icon": 300
       }
     ]
-  },
+  ],
   "costumes": [
     {
       "id": 60,
