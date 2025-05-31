@@ -59,18 +59,15 @@ def validate_servants(
     return result
 
 
-def _validate_skillsa(
+def _validate_skills(
     prefix: str,
     target: Literal["skill", "append_skill"],
     skills: Skills,
 ) -> bool:
 
-    def _to_key(slot: Literal[1, 2, 3]) -> Literal["skill_1", "skill_2", "skill_3"]:
-        return "skill_1" if slot == 1 else "skill_2" if slot == 2 else "skill_3"
-
-    def _validate(slot: Literal[1, 2, 3]) -> bool:
+    def _validate(slot: int) -> bool:
         result = True
-        levels = [skill["level"] for skill in skills[_to_key(slot)]]
+        levels = [skill["level"] for skill in skills[slot - 1]]
         if min(levels) != 1:
             result = False
             _logger.error(f"{prefix} minimum level != 1 in {target} {slot}")

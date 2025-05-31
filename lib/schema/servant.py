@@ -64,11 +64,11 @@ def servant() -> dict[str, Any]:
     return schema
 
 
-def skill(slot: int) -> dict[str, Any]:
+def skill() -> dict[str, Any]:
     schema = {
         "type": "object",
         "properties": {
-            "slot": {"const": slot},
+            "slot": {"type": "integer"},
             "level": {"type": "integer"},
             "name": {"type": "string"},
             "rank": {"type": "string"},
@@ -81,38 +81,30 @@ def skill(slot: int) -> dict[str, Any]:
 
 
 def skills() -> dict[str, Any]:
-    skill_slots = [1, 2, 3]
     schema = {
-        "type": "object",
-        "properties": {
-            f"skill_{slot}": {
-                "type": "array",
-                "items": skill(slot),
-                "minItems": 1,
-            }
-            for slot in skill_slots
+        "type": "array",
+        "items": {
+            "type": "array",
+            "items": skill(),
+            "minItems": 1,
         },
-        "required": [f"skill_{slot}" for slot in skill_slots],
-        "additionalProperties": False,
+        "minItems": 3,
+        "maxItems": 3,
     }
     return schema
 
 
 def append_skills() -> dict[str, Any]:
-    skill_slots = [1, 2, 3]
     schema = {
-        "type": "object",
-        "properties": {
-            f"skill_{slot}": {
-                "type": "array",
-                "items": skill(slot),
-                "minItems": 1,
-                "maxItems": 1,
-            }
-            for slot in skill_slots
+        "type": "array",
+        "items": {
+            "type": "array",
+            "items": skill(),
+            "minItems": 1,
+            "maxItems": 1,
         },
-        "required": [f"skill_{slot}" for slot in skill_slots],
-        "additionalProperties": False,
+        "minItems": 3,
+        "maxItems": 3,
     }
     return schema
 
