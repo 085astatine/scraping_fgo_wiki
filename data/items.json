@@ -290,6 +290,21 @@
     "name": "エーテル収光体"
   },
   {
+    "id": 2124,
+    "rarity": "Silver",
+    "name": "終の花"
+  },
+  {
+    "id": 2125,
+    "rarity": "Silver",
+    "name": "ユニバーサルキューブ"
+  },
+  {
+    "id": 2126,
+    "rarity": "Silver",
+    "name": "神彩のレンズ"
+  },
+  {
     "id": 2201,
     "rarity": "Gold",
     "name": "混沌の爪"
@@ -378,6 +393,21 @@
     "id": 2218,
     "rarity": "Gold",
     "name": "鬼炎鬼灯"
+  },
+  {
+    "id": 2219,
+    "rarity": "Gold",
+    "name": "黄金釜"
+  },
+  {
+    "id": 2220,
+    "rarity": "Gold",
+    "name": "月光核"
+  },
+  {
+    "id": 2221,
+    "rarity": "Gold",
+    "name": "天命の聖水"
   },
   {
     "id": 2300,
@@ -648,5 +678,35 @@
     "id": 4039,
     "rarity": "Gold",
     "name": "VVVスティック"
+  },
+  {
+    "id": 4040,
+    "rarity": "Gold",
+    "name": "M51チケット"
+  },
+  {
+    "id": 4041,
+    "rarity": "Gold",
+    "name": "サンタボンバーハット"
+  },
+  {
+    "id": 4042,
+    "rarity": "Gold",
+    "name": "水引根付"
+  },
+  {
+    "id": 4043,
+    "rarity": "Gold",
+    "name": "おしおきチョーカー"
+  },
+  {
+    "id": 4044,
+    "rarity": "Gold",
+    "name": "マイナーメット"
+  },
+  {
+    "id": 4045,
+    "rarity": "Gold",
+    "name": "サンタユーゴ"
   }
 ]
