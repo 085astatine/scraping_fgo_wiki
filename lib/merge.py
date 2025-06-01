@@ -22,10 +22,8 @@ class Skill(TypedDict):
     icon: int
 
 
-class Skills(TypedDict):
-    skill_1: list[Skill]
-    skill_2: list[Skill]
-    skill_3: list[Skill]
+type Skills = list[list[Skill]]
+type AppendSkills = list[list[Skill]]
 
 
 class Resource(TypedDict):
@@ -51,7 +49,7 @@ class Servant(TypedDict):
     klass: str
     rarity: int
     skills: Skills
-    append_skills: Skills
+    append_skills: AppendSkills
     costumes: list[Costume]
     ascension_resources: list[ResourceSet]
     skill_resources: list[ResourceSet]
@@ -108,11 +106,18 @@ def _convert_skills(
     skills: servant.Skills,
     dictionary: text.Dictionary,
 ) -> Skills:
-    return Skills(
-        skill_1=[_convert_skill(skill, dictionary) for skill in skills["skill_1"]],
-        skill_2=[_convert_skill(skill, dictionary) for skill in skills["skill_2"]],
-        skill_3=[_convert_skill(skill, dictionary) for skill in skills["skill_3"]],
-    )
+    return [
+        [_convert_skill(skill, dictionary) for skill in skill_n] for skill_n in skills
+    ]
+
+
+def _convert_append_skills(
+    skills: servant.AppendSkills,
+    dictionary: text.Dictionary,
+) -> AppendSkills:
+    return [
+        [_convert_skill(skill, dictionary) for skill in skill_n] for skill_n in skills
+    ]
 
 
 def _convert_resource(
@@ -167,7 +172,7 @@ def _convert_servant(
         klass=servant_["klass"],
         rarity=servant_["rarity"],
         skills=_convert_skills(servant_["skills"], dictionary),
-        append_skills=_convert_skills(servant_["append_skills"], dictionary),
+        append_skills=_convert_append_skills(servant_["append_skills"], dictionary),
         costumes=[_convert_costume(costume, items) for costume in servant_["costumes"]],
         ascension_resources=[
             _convert_resource_set(resource, items)
