@@ -4,8 +4,8 @@
   "alias_name": null,
   "klass": "AlterEgo",
   "rarity": 4,
-  "skills": {
-    "skill_1": [
+  "skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -21,7 +21,7 @@
         "icon": 400
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -37,7 +37,7 @@
         "icon": 700
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -46,9 +46,9 @@
         "icon": 328
       }
     ]
-  },
-  "append_skills": {
-    "skill_1": [
+  ],
+  "append_skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -57,7 +57,7 @@
         "icon": 301
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -66,7 +66,7 @@
         "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -74,9 +74,53 @@
         "rank": "",
         "icon": 300
       }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
     ]
-  },
-  "costumes": [],
+  ],
+  "costumes": [
+    {
+      "id": 118,
+      "name": "簡易霊衣：イノセントフラワー",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "宵哭きの鉄杭",
+            "piece": 10
+          },
+          {
+            "name": "エーテル収光体",
+            "piece": 5
+          },
+          {
+            "name": "混沌の爪",
+            "piece": 5
+          },
+          {
+            "name": "蛮神の心臓",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

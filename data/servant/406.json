@@ -1,0 +1,348 @@
+{
+  "id": 406,
+  "name": "アンドロメダ",
+  "alias_name": null,
+  "klass": "Rider",
+  "rarity": 5,
+  "skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "カシオペアの娘",
+        "rank": "A",
+        "icon": 603
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "生贄の乙女",
+        "rank": "A",
+        "icon": 700
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "神託鎖ネレイデス",
+        "rank": "EX",
+        "icon": 314
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対バーサーカー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "ライダーピース",
+          "piece": 12
+        },
+        {
+          "name": "八連双晶",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 29
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 4
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 12
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 5
+        },
+        {
+          "name": "愚者の鎖",
+          "piece": 29
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 12
+        },
+        {
+          "name": "八連双晶",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "八連双晶",
+          "piece": 10
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "オーロラ鋼",
+          "piece": 18
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "騎の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "騎の魔石",
+          "piece": 12
+        },
+        {
+          "name": "血の涙石",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 5
+        },
+        {
+          "name": "血の涙石",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "騎の秘石",
+          "piece": 12
+        },
+        {
+          "name": "呪獣胆石",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "呪獣胆石",
+          "piece": 4
+        },
+        {
+          "name": "太陽皮",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "太陽皮",
+          "piece": 18
+        },
+        {
+          "name": "エーテル収光体",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

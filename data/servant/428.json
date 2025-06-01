@@ -1,0 +1,361 @@
+{
+  "id": 428,
+  "name": "ヴァン・ゴッホ〔マイナー〕",
+  "alias_name": null,
+  "klass": "Lancer",
+  "rarity": 4,
+  "skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "虚数美術（立体）",
+        "rank": "B",
+        "icon": 317
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "ポテトイーター",
+        "rank": "C",
+        "icon": 412
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ダウジング",
+        "rank": "B",
+        "icon": 402
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "太陽との決別",
+        "rank": "EX",
+        "icon": 402
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対バーサーカー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "id": 120,
+      "name": "簡易霊衣：決別のバルーンライト",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "無間の歯車",
+            "piece": 5
+          },
+          {
+            "name": "エーテル収光体",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "月光核",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "マイナーメット",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "マイナーメット",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "マイナーメット",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "マイナーメット",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 10
+        },
+        {
+          "name": "八連双晶",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "八連双晶",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 10
+        },
+        {
+          "name": "オーロラ鋼",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "オーロラ鋼",
+          "piece": 8
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "煌星のカケラ",
+          "piece": 6
+        },
+        {
+          "name": "黄金釜",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "槍の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "槍の魔石",
+          "piece": 10
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "槍の秘石",
+          "piece": 10
+        },
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 24
+        },
+        {
+          "name": "狂気の残滓",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "狂気の残滓",
+          "piece": 45
+        },
+        {
+          "name": "ユニバーサルキューブ",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -4,17 +4,24 @@
   "alias_name": null,
   "klass": "Saber",
   "rarity": 5,
-  "skills": {
-    "skill_1": [
+  "skills": [
+    [
       {
         "slot": 1,
         "level": 1,
         "name": "王道踏破",
         "rank": "C",
         "icon": 403
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "王道踏破",
+        "rank": "C+",
+        "icon": 403
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -23,7 +30,7 @@
         "icon": 300
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -32,9 +39,9 @@
         "icon": 304
       }
     ]
-  },
-  "append_skills": {
-    "skill_1": [
+  ],
+  "append_skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -43,7 +50,7 @@
         "icon": 301
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -52,7 +59,7 @@
         "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -60,9 +67,53 @@
         "rank": "",
         "icon": 300
       }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
     ]
-  },
-  "costumes": [],
+  ],
+  "costumes": [
+    {
+      "id": 111,
+      "name": "ディスガイズ・コスチューム",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "励振火薬",
+            "piece": 10
+          },
+          {
+            "name": "禁断の頁",
+            "piece": 5
+          },
+          {
+            "name": "無間の歯車",
+            "piece": 5
+          },
+          {
+            "name": "煌星のカケラ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

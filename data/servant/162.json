@@ -4,26 +4,33 @@
   "alias_name": null,
   "klass": "Berserker",
   "rarity": 4,
-  "skills": {
-    "skill_1": [
+  "skills": [
+    [
       {
         "slot": 1,
         "level": 1,
-        "name": "黄金律(凶)",
+        "name": "黄金律（凶）",
         "rank": "B",
+        "icon": 607
+      },
+      {
+        "slot": 1,
+        "level": 2,
+        "name": "黄金律（凶）",
+        "rank": "B++",
         "icon": 607
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
-        "name": "無辜の怪物(焔)",
+        "name": "無辜の怪物（焔）",
         "rank": "C",
         "icon": 605
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -32,9 +39,9 @@
         "icon": 504
       }
     ]
-  },
-  "append_skills": {
-    "skill_1": [
+  ],
+  "append_skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -43,7 +50,7 @@
         "icon": 301
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -52,7 +59,7 @@
         "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -60,8 +67,26 @@
         "rank": "",
         "icon": 417
       }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
     ]
-  },
+  ],
   "costumes": [],
   "ascension_resources": [
     {

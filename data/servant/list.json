@@ -1128,7 +1128,7 @@
   },
   {
     "id": 166,
-    "name": "ＢＢ",
+    "name": "BB",
     "klass": "MoonCancer",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/1998.html"
@@ -2693,5 +2693,320 @@
     "klass": "Pretender",
     "rarity": 4,
     "url": "//w.atwiki.jp/f_go/pages/6076.html"
+  },
+  {
+    "id": 393,
+    "name": "ワンジナ",
+    "klass": "Foreigner",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6098.html"
+  },
+  {
+    "id": 394,
+    "name": "プトレマイオス",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6111.html"
+  },
+  {
+    "id": 395,
+    "name": "杉谷善住坊",
+    "klass": "Archer",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/6112.html"
+  },
+  {
+    "id": 396,
+    "name": "テセウス",
+    "klass": "Saber",
+    "rarity": 3,
+    "url": "//w.atwiki.jp/f_go/pages/6125.html"
+  },
+  {
+    "id": 397,
+    "name": "武田晴信",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6135.html"
+  },
+  {
+    "id": 398,
+    "name": "永倉新八",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6136.html"
+  },
+  {
+    "id": 399,
+    "name": "雑賀孫一",
+    "klass": "Archer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6146.html"
+  },
+  {
+    "id": 400,
+    "name": "上杉謙信",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6155.html"
+  },
+  {
+    "id": 401,
+    "name": "ネモ〔サンタ〕",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6160.html"
+  },
+  {
+    "id": 402,
+    "name": "ヤマトタケル",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6172.html"
+  },
+  {
+    "id": 403,
+    "name": "源頼光／丑御前",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6184.html"
+  },
+  {
+    "id": 404,
+    "name": "由井正雪",
+    "klass": "Caster",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6186.html"
+  },
+  {
+    "id": 405,
+    "name": "宮本伊織",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6188.html"
+  },
+  {
+    "id": 406,
+    "name": "アンドロメダ",
+    "klass": "Rider",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6210.html"
+  },
+  {
+    "id": 407,
+    "name": "マリー・アントワネット〔オルタ〕",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6237.html"
+  },
+  {
+    "id": 408,
+    "name": "耀星のハサン",
+    "klass": "Assassin",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6239.html"
+  },
+  {
+    "id": 409,
+    "name": "巌窟王 モンテ・クリスト",
+    "klass": "Avenger",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6251.html"
+  },
+  {
+    "id": 410,
+    "name": "アレッサンドロ・ディ・カリオストロ",
+    "klass": "Pretender",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6252.html"
+  },
+  {
+    "id": 413,
+    "name": "蒼崎青子",
+    "klass": "Foreigner",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6267.html"
+  },
+  {
+    "id": 414,
+    "name": "静希草十郎",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6269.html"
+  },
+  {
+    "id": 415,
+    "name": "久遠寺有珠",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6284.html"
+  },
+  {
+    "id": 416,
+    "name": "ひびき＆千鍵",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6317.html"
+  },
+  {
+    "id": 417,
+    "name": "スペース・エレシュキガル",
+    "klass": "Beast",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6328.html"
+  },
+  {
+    "id": 418,
+    "name": "謎の代行者C.I.E.L",
+    "klass": "MoonCancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6343.html"
+  },
+  {
+    "id": 419,
+    "name": "ドブルイニャ・ニキチッチ",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6345.html"
+  },
+  {
+    "id": 420,
+    "name": "徐福",
+    "klass": "Avenger",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6346.html"
+  },
+  {
+    "id": 421,
+    "name": "BBドバイ",
+    "klass": "MoonCancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6377.html"
+  },
+  {
+    "id": 422,
+    "name": "テノチティトラン",
+    "klass": "MoonCancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6379.html"
+  },
+  {
+    "id": 423,
+    "name": "謎のヒロインXX〔オルタ〕",
+    "klass": "Foreigner",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6380.html"
+  },
+  {
+    "id": 424,
+    "name": "岸波白野〔男〕",
+    "klass": "MoonCancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6398.html"
+  },
+  {
+    "id": 425,
+    "name": "岸波白野〔女〕",
+    "klass": "MoonCancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6399.html"
+  },
+  {
+    "id": 426,
+    "name": "カズラドロップ",
+    "klass": "AlterEgo",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6415.html"
+  },
+  {
+    "id": 427,
+    "name": "ツタンカーメン",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6432.html"
+  },
+  {
+    "id": 428,
+    "name": "ヴァン・ゴッホ〔マイナー〕",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6434.html"
+  },
+  {
+    "id": 429,
+    "name": "ロウヒ",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6457.html"
+  },
+  {
+    "id": 430,
+    "name": "アビゲイル・ウィリアムズ〔サンタ〕",
+    "klass": "Pretender",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6459.html"
+  },
+  {
+    "id": 431,
+    "name": "ファンタズムーン",
+    "klass": "Pretender",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6474.html"
+  },
+  {
+    "id": 432,
+    "name": "リチャードⅠ世",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6485.html"
+  },
+  {
+    "id": 433,
+    "name": "ビショーネ",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6517.html"
+  },
+  {
+    "id": 434,
+    "name": "黒姫",
+    "klass": "Saber",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6518.html"
+  },
+  {
+    "id": 435,
+    "name": "小野小町",
+    "klass": "Caster",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6536.html"
+  },
+  {
+    "id": 437,
+    "name": "ダンテ・アリギエーリ",
+    "klass": "Pretender",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6553.html"
+  },
+  {
+    "id": 438,
+    "name": "メタトロン・ジャンヌ",
+    "klass": "Ruler",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6573.html"
+  },
+  {
+    "id": 439,
+    "name": "アショカ王",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "//w.atwiki.jp/f_go/pages/6574.html"
+  },
+  {
+    "id": 440,
+    "name": "リリス",
+    "klass": "Berserker",
+    "rarity": 5,
+    "url": "//w.atwiki.jp/f_go/pages/6588.html"
   }
 ]

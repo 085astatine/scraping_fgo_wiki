@@ -2890,5 +2890,356 @@
         }
       ]
     }
+  },
+  {
+    "costume_id": 110,
+    "servant_id": 393,
+    "name": "簡易霊衣：ワンジナ・アイ",
+    "flavor_text": "大精霊たるワンジナの惑星観察モード\n交信用の表情機能は意外とパターン豊か",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        },
+        {
+          "name": "エーテル収光体",
+          "piece": 5
+        },
+        {
+          "name": "暁光炉心",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 111,
+    "servant_id": 343,
+    "name": "ディスガイズ・コスチューム",
+    "flavor_text": "シャルルマーニュの変装衣装\n色々隠せていないが本人はお気に入り",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "励振火薬",
+          "piece": 10
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 5
+        },
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 112,
+    "servant_id": 56,
+    "name": "乙女清姫",
+    "flavor_text": "竜の少女の姫衣装\n見た目とは裏腹に相変わらずの強火属性",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "蛇の宝玉",
+          "piece": 5
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 5
+        },
+        {
+          "name": "鬼炎鬼灯",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 113,
+    "servant_id": 85,
+    "name": "カルナ・夏コーデ",
+    "flavor_text": "真の英雄の夏コーデ\n太陽神の加護でUV対策はバッチリ",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "英雄の証",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "黄金釜",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 114,
+    "servant_id": 313,
+    "name": "夏の騎士の装い",
+    "flavor_text": "マーリンからもらった夏の装い\n機動力の向上が期待できるようだ",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "大騎士勲章",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "悠久の実",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 115,
+    "servant_id": 257,
+    "name": "スマイリー・サマーウェア",
+    "flavor_text": "伊達男な海賊のサマーバージョン\n陽気な笑顔で夏のメカクレを求める",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "愚者の鎖",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 116,
+    "servant_id": 418,
+    "name": "簡易霊衣：オープン・サマー",
+    "flavor_text": "色々とオープンにした代行者\n月のお姫様に見せつけてあげよう",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "黄昏の儀式剣",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 117,
+    "servant_id": 418,
+    "name": "簡易霊衣：メガネオフモード",
+    "flavor_text": "メガネを外した代行者\nオフの素顔でいつもと違う雰囲気に",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "黒曜鋭刃",
+          "piece": 10
+        },
+        {
+          "name": "エーテル収光体",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 118,
+    "servant_id": 164,
+    "name": "簡易霊衣：イノセントフラワー",
+    "flavor_text": "初期化状態で起動したパッションリップ\n片鱗はあるものの、まだエゴは持たない",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "宵哭きの鉄杭",
+          "piece": 10
+        },
+        {
+          "name": "エーテル収光体",
+          "piece": 5
+        },
+        {
+          "name": "混沌の爪",
+          "piece": 5
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 119,
+    "servant_id": 426,
+    "name": "簡易霊衣：ムリアン",
+    "flavor_text": "翅の氏族の、とある妖精の姿\n妖精國随一の知恵者、蕗下の出会いの姫",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虹の糸玉",
+          "piece": 5
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 5
+        },
+        {
+          "name": "黒獣脂",
+          "piece": 5
+        },
+        {
+          "name": "真理の卵",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 120,
+    "servant_id": 428,
+    "name": "簡易霊衣：決別のバルーンライト",
+    "flavor_text": "拓いた道に光を手向け\nただひとり闇へと向かう、鉱員の装い",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "無間の歯車",
+          "piece": 5
+        },
+        {
+          "name": "エーテル収光体",
+          "piece": 5
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 5
+        },
+        {
+          "name": "月光核",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 121,
+    "servant_id": 189,
+    "name": "簡易霊衣：メガネあり（第二再臨）",
+    "flavor_text": "メガネをかけた刑部姫\nお姫様オーラをシャットダウン",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 5
+        },
+        {
+          "name": "枯淡勾玉",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 122,
+    "servant_id": 189,
+    "name": "簡易霊衣：メガネあり（第三再臨）",
+    "flavor_text": "メガネをかけた刑部姫\n姫様ムーブはしばらくお休み",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "禁断の頁",
+          "piece": 5
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 5
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 5
+        }
+      ]
+    }
   }
 ]

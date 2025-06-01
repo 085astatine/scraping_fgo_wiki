@@ -4,8 +4,8 @@
   "alias_name": null,
   "klass": "Assassin",
   "rarity": 5,
-  "skills": {
-    "skill_1": [
+  "skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -21,16 +21,23 @@
         "icon": 400
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
         "name": "千代紙操法",
         "rank": "EX",
         "icon": 601
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "千代紙操法",
+        "rank": "EX",
+        "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -39,9 +46,9 @@
         "icon": 504
       }
     ]
-  },
-  "append_skills": {
-    "skill_1": [
+  ],
+  "append_skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -50,7 +57,7 @@
         "icon": 301
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -59,7 +66,7 @@
         "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -67,9 +74,78 @@
         "rank": "",
         "icon": 300
       }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
     ]
-  },
-  "costumes": [],
+  ],
+  "costumes": [
+    {
+      "id": 121,
+      "name": "簡易霊衣：メガネあり（第二再臨）",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "世界樹の種",
+            "piece": 5
+          },
+          {
+            "name": "枯淡勾玉",
+            "piece": 5
+          },
+          {
+            "name": "精霊根",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "name": "簡易霊衣：メガネあり（第三再臨）",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "禁断の頁",
+            "piece": 5
+          },
+          {
+            "name": "閑古鈴",
+            "piece": 5
+          },
+          {
+            "name": "奇奇神酒",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

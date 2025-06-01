@@ -4,8 +4,8 @@
   "alias_name": null,
   "klass": "Saber",
   "rarity": 4,
-  "skills": {
-    "skill_1": [
+  "skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -14,7 +14,7 @@
         "icon": 311
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -23,18 +23,25 @@
         "icon": 300
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
         "name": "離別の呪い",
         "rank": "A",
         "icon": 404
+      },
+      {
+        "slot": 3,
+        "level": 2,
+        "name": "再縁の夢",
+        "rank": "EX",
+        "icon": 404
       }
     ]
-  },
-  "append_skills": {
-    "skill_1": [
+  ],
+  "append_skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -43,7 +50,7 @@
         "icon": 301
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -52,7 +59,7 @@
         "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -60,8 +67,26 @@
         "rank": "",
         "icon": 300
       }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
     ]
-  },
+  ],
   "costumes": [],
   "ascension_resources": [
     {

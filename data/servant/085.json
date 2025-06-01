@@ -4,8 +4,8 @@
   "alias_name": null,
   "klass": "Lancer",
   "rarity": 5,
-  "skills": {
-    "skill_1": [
+  "skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -14,16 +14,23 @@
         "icon": 512
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
         "name": "魔力放出（炎）",
         "rank": "A",
         "icon": 306
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "太陽神の閃光",
+        "rank": "EX",
+        "icon": 316
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -39,9 +46,9 @@
         "icon": 601
       }
     ]
-  },
-  "append_skills": {
-    "skill_1": [
+  ],
+  "append_skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -50,7 +57,7 @@
         "icon": 301
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -59,7 +66,7 @@
         "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -67,8 +74,26 @@
         "rank": "",
         "icon": 300
       }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
     ]
-  },
+  ],
   "costumes": [
     {
       "id": 20,
@@ -115,6 +140,31 @@
           },
           {
             "name": "智慧のスカラベ",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 113,
+      "name": "カルナ・夏コーデ",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "英雄の証",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "黄金釜",
             "piece": 5
           }
         ]

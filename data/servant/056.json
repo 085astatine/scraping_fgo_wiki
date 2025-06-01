@@ -4,8 +4,8 @@
   "alias_name": null,
   "klass": "Berserker",
   "rarity": 3,
-  "skills": {
-    "skill_1": [
+  "skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -21,16 +21,23 @@
         "icon": 400
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
         "name": "ストーキング",
         "rank": "B",
         "icon": 504
+      },
+      {
+        "slot": 2,
+        "level": 2,
+        "name": "スーパーポジティブストーカー",
+        "rank": "A+",
+        "icon": 504
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -39,9 +46,9 @@
         "icon": 306
       }
     ]
-  },
-  "append_skills": {
-    "skill_1": [
+  ],
+  "append_skills": [
+    [
       {
         "slot": 1,
         "level": 1,
@@ -50,7 +57,7 @@
         "icon": 301
       }
     ],
-    "skill_2": [
+    [
       {
         "slot": 2,
         "level": 1,
@@ -59,7 +66,7 @@
         "icon": 601
       }
     ],
-    "skill_3": [
+    [
       {
         "slot": 3,
         "level": 1,
@@ -67,9 +74,53 @@
         "rank": "",
         "icon": 417
       }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
     ]
-  },
-  "costumes": [],
+  ],
+  "costumes": [
+    {
+      "id": 112,
+      "name": "乙女清姫",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "蛇の宝玉",
+            "piece": 5
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "夢幻の鱗粉",
+            "piece": 5
+          },
+          {
+            "name": "鬼炎鬼灯",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 30000,
