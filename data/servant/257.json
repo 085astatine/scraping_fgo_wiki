@@ -87,7 +87,33 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 115,
+      "name": "スマイリー・サマーウェア",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "愚者の鎖",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "封魔のランプ",
+            "piece": 5
+          },
+          {
+            "name": "真理の卵",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 10000,

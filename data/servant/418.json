@@ -80,7 +80,58 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 116,
+      "name": "簡易霊衣：オープン・サマー",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "黄昏の儀式剣",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "混沌の爪",
+            "piece": 5
+          },
+          {
+            "name": "煌星のカケラ",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "name": "簡易霊衣：メガネオフモード",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "黒曜鋭刃",
+            "piece": 10
+          },
+          {
+            "name": "エーテル収光体",
+            "piece": 5
+          },
+          {
+            "name": "混沌の爪",
+            "piece": 5
+          },
+          {
+            "name": "蛮神の心臓",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

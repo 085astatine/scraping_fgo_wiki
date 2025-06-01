@@ -94,7 +94,58 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 121,
+      "name": "簡易霊衣：メガネあり（第二再臨）",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "世界樹の種",
+            "piece": 5
+          },
+          {
+            "name": "枯淡勾玉",
+            "piece": 5
+          },
+          {
+            "name": "精霊根",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "name": "簡易霊衣：メガネあり（第三再臨）",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虚影の塵",
+            "piece": 10
+          },
+          {
+            "name": "禁断の頁",
+            "piece": 5
+          },
+          {
+            "name": "閑古鈴",
+            "piece": 5
+          },
+          {
+            "name": "奇奇神酒",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

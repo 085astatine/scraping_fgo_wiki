@@ -80,7 +80,33 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 119,
+      "name": "簡易霊衣：ムリアン",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "虹の糸玉",
+            "piece": 5
+          },
+          {
+            "name": "夢幻の鱗粉",
+            "piece": 5
+          },
+          {
+            "name": "黒獣脂",
+            "piece": 5
+          },
+          {
+            "name": "真理の卵",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

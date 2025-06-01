@@ -94,7 +94,33 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 112,
+      "name": "乙女清姫",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "蛇の宝玉",
+            "piece": 5
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "夢幻の鱗粉",
+            "piece": 5
+          },
+          {
+            "name": "鬼炎鬼灯",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 30000,

@@ -87,7 +87,33 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 120,
+      "name": "簡易霊衣：決別のバルーンライト",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "無間の歯車",
+            "piece": 5
+          },
+          {
+            "name": "エーテル収光体",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "月光核",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 50000,

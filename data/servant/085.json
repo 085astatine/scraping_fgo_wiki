@@ -144,6 +144,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 113,
+      "name": "カルナ・夏コーデ",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "英雄の証",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "原初の産毛",
+            "piece": 5
+          },
+          {
+            "name": "黄金釜",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

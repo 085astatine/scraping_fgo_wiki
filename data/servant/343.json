@@ -87,7 +87,33 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 111,
+      "name": "ディスガイズ・コスチューム",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "励振火薬",
+            "piece": 10
+          },
+          {
+            "name": "禁断の頁",
+            "piece": 5
+          },
+          {
+            "name": "無間の歯車",
+            "piece": 5
+          },
+          {
+            "name": "煌星のカケラ",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,
