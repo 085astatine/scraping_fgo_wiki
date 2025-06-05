@@ -71,7 +71,7 @@ def validate_skills(
     # slots
     if len(skills) != 3:
         result = False
-        logger.error(f"{prefix} skills require 3 slots")
+        _logger.error(f"{prefix} skills require 3 slots")
     # skill
     for i, skill in enumerate(skills):
         if not _validate_skill_n(i + 1, skills[i], _logger, prefix, "skill"):
@@ -87,7 +87,7 @@ def validate_append_skills(
     # slots
     if len(skills) != 5:
         result = False
-        logger.error(f"{prefix} append skills require 5 slots")
+        _logger.error(f"{prefix} append skills require 5 slots")
     # append skill
     for i, skill in enumerate(skills):
         if not _validate_skill_n(i + 1, skills[i], _logger, prefix, "append_skill"):
