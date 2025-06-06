@@ -42,15 +42,10 @@ def load_dict(
     )
 
 
-def load_items(
-    path: pathlib.Path,
-    *,
-    force_update: bool = False,
-) -> list[lib.Item]:
+def load_items(path: pathlib.Path) -> list[lib.Item]:
     items = lib.load_json(path)
-    if items is None or force_update:
-        items = lib.item_list()
-        lib.save_json(path, items)
+    if items is None:
+        return []
     return items
 
 
@@ -92,7 +87,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Fate/Grand Order scrayping")
     parser.add_argument(
         "mode",
-        choices=["dict", "item", "servant", "sound", "merge"],
+        choices=["dict", "servant", "sound", "merge"],
         help="scraping target",
     )
     parser.add_argument(
@@ -130,12 +125,9 @@ def main() -> None:
             force_update=option.force or option.mode == "dict",
         )
     # item
-    if option.mode in ["item", "merge"]:
+    if option.mode in ["merge"]:
         logger.info("run: item")
-        items = load_items(
-            pathlib.Path("data/items.json"),
-            force_update=option.force or option.mode == "item",
-        )
+        items = load_items(pathlib.Path("data/items.json"))
     # servant
     if option.mode in ["servant", "merge"]:
         logger.info("run: servant")
