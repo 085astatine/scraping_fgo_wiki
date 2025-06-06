@@ -3,7 +3,6 @@ from __future__ import annotations
 import logging
 
 from .io import load_json, save_json
-from .item import item_dict
 from .merge import merge
 from .servant import servant_dict, servant_list, skill_dict
 from .sound import Sound, sound_list
