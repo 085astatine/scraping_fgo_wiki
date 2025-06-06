@@ -49,3 +49,6 @@ class Servant(TypedDict):
     ascension_resources: list[ResourceSet]
     skill_resources: list[ResourceSet]
     append_skill_resources: list[ResourceSet]
+
+
+type ItemDictionary = dict[int, str]

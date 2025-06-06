@@ -79,13 +79,19 @@ def _convert_text(
 
 
 def _convert_item(
-    item_: types.Item,
-    dictionary: text.Dictionary,
+    item: types.Item,
+    dictionary: types.ItemDictionary,
+    logger: logging.Logger,
 ) -> Item:
+    if item["id"] not in dictionary:
+        logger.warning("item ID %d is not found in dictionary", item["id"])
     return Item(
-        id=item_["id"],
-        rarity=item_["rarity"],
-        name=_convert_text(item_["name"], dictionary["item"]),
+        id=item["id"],
+        rarity=item["rarity"],
+        name=text.Text(
+            jp=item["name"],
+            en=dictionary.get(item["id"], item["name"]),
+        ),
     )
 
 
@@ -208,7 +214,7 @@ def merge(
     dictionary: text.Dictionary,
 ) -> MergedData:
     return MergedData(
-        items=[_convert_item(item, dictionary) for item in items],
+        items=[_convert_item(item, dictionary["item"], _logger) for item in items],
         servants=[_convert_servant(servant, items, dictionary) for servant in servants],
         sounds=[_convert_sound(sound, items) for sound in sounds],
     )

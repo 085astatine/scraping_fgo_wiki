@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+import pathlib
 from typing import TypedDict
+
+from .io import load_json
+from .types import ItemDictionary
 
 
 class Text(TypedDict):
@@ -9,6 +13,13 @@ class Text(TypedDict):
 
 
 class Dictionary(TypedDict):
-    item: dict[str, Text]
+    item: ItemDictionary
     servant: dict[str, Text]
     skill: dict[str, Text]
+
+
+def load_item_dictionary(path: pathlib.Path) -> ItemDictionary:
+    data = load_json(path)
+    if data is None:
+        return {}
+    return {int(key): value for key, value in data.items()}

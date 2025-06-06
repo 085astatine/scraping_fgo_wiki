@@ -18,11 +18,7 @@ def load_dict(
     force_update: bool = False,
 ) -> lib.Dictionary:
     # item
-    item_path = path.joinpath("item.json")
-    item_dict = lib.load_json(item_path)
-    if item_dict is None or force_update:
-        item_dict = lib.item_dict()
-        lib.save_json(item_path, item_dict)
+    item = lib.load_item_dictionary(pathlib.Path("data/english/item.json"))
     # servant
     servant_path = path.joinpath("servant.json")
     servant_dict = lib.load_json(servant_path)
@@ -36,7 +32,7 @@ def load_dict(
         skill_dict = lib.skill_dict()
         lib.save_json(skill_path, skill_dict)
     return lib.Dictionary(
-        item=item_dict,
+        item=item,
         servant=servant_dict,
         skill=skill_dict,
     )
