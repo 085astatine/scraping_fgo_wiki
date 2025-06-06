@@ -11,13 +11,13 @@ _logger = logging.getLogger(__name__)
 class Item(TypedDict):
     id: int
     rarity: str
-    name: text.Text
+    name: types.Text
 
 
 class Skill(TypedDict):
     slot: int
     level: int
-    name: text.Text
+    name: types.Text
     rank: str
     icon: int
 
@@ -38,14 +38,14 @@ class ResourceSet(TypedDict):
 
 class Costume(TypedDict):
     id: int
-    name: text.Text
+    name: types.Text
     resource: ResourceSet
 
 
 class Servant(TypedDict):
     id: int
-    name: text.Text
-    alias_name: Optional[text.Text]
+    name: types.Text
+    alias_name: Optional[types.Text]
     klass: str
     rarity: int
     skills: Skills
@@ -59,7 +59,7 @@ class Servant(TypedDict):
 class Sound(TypedDict):
     source: str
     index: int
-    title: text.Text
+    title: types.Text
     resource: ResourceSet
 
 
@@ -71,16 +71,16 @@ class MergedData(TypedDict):
 
 def _convert_text(
     text_: str,
-    dictionary: dict[str, text.Text],
-) -> text.Text:
+    dictionary: dict[str, types.Text],
+) -> types.Text:
     if text_ not in dictionary:
         _logger.warning('"%s" is not found in dictionary data', text_)
-    return dictionary.get(text_, text.Text(jp=text_, en=text_))
+    return dictionary.get(text_, types.Text(jp=text_, en=text_))
 
 
 def _convert_item(
     item: types.Item,
-    dictionary: text.Dictionary,
+    dictionary: types.Dictionary,
     logger: logging.Logger,
 ) -> Item:
     return Item(
@@ -92,7 +92,7 @@ def _convert_item(
 
 def _convert_skill(
     skill: types.Skill,
-    dictionary: text.Dictionary,
+    dictionary: types.Dictionary,
 ) -> Skill:
     return Skill(
         slot=skill["slot"],
@@ -105,7 +105,7 @@ def _convert_skill(
 
 def _convert_skills(
     skills: types.Skills,
-    dictionary: text.Dictionary,
+    dictionary: types.Dictionary,
 ) -> Skills:
     return [
         [_convert_skill(skill, dictionary) for skill in skill_n] for skill_n in skills
@@ -114,7 +114,7 @@ def _convert_skills(
 
 def _convert_append_skills(
     skills: types.AppendSkills,
-    dictionary: text.Dictionary,
+    dictionary: types.Dictionary,
 ) -> AppendSkills:
     return [
         [_convert_skill(skill, dictionary) for skill in skill_n] for skill_n in skills
@@ -160,7 +160,7 @@ def _convert_costume(
 def _convert_servant(
     servant_: types.Servant,
     items: list[types.Item],
-    dictionary: text.Dictionary,
+    dictionary: types.Dictionary,
 ) -> Servant:
     return Servant(
         id=servant_["id"],
@@ -206,7 +206,7 @@ def merge(
     items: list[types.Item],
     servants: list[types.Servant],
     sounds: list[sound.Sound],
-    dictionary: text.Dictionary,
+    dictionary: types.Dictionary,
 ) -> MergedData:
     return MergedData(
         items=[_convert_item(item, dictionary, _logger) for item in items],

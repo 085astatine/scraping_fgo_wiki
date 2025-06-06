@@ -51,4 +51,15 @@ class Servant(TypedDict):
     append_skill_resources: list[ResourceSet]
 
 
+class Text(TypedDict):
+    jp: str
+    en: str
+
+
 type ItemDictionary = dict[int, str]
+
+
+class Dictionary(TypedDict):
+    item: ItemDictionary
+    servant: dict[str, Text]
+    skill: dict[str, Text]

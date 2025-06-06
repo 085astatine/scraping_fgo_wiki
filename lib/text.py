@@ -2,21 +2,10 @@ from __future__ import annotations
 
 import logging
 import pathlib
-from typing import Optional, TypedDict
+from typing import Optional
 
 from .io import load_json
-from .types import Item, ItemDictionary
-
-
-class Text(TypedDict):
-    jp: str
-    en: str
-
-
-class Dictionary(TypedDict):
-    item: ItemDictionary
-    servant: dict[str, Text]
-    skill: dict[str, Text]
+from .types import Dictionary, Item, ItemDictionary, Text
 
 
 def load_item_dictionary(path: pathlib.Path) -> ItemDictionary:
