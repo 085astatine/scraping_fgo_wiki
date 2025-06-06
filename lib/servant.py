@@ -14,54 +14,13 @@ import requests
 
 from .io import load_json, save_json
 from .text import Text
+from .types import AppendSkills, Costume, Resource, ResourceSet, Servant, Skill, Skills
 from .validate import validate_append_skills, validate_skills
 
 _logger = logging.getLogger(__name__)
 
 
 _REQUEST_INTERVAL: Final[float] = 2.0
-
-
-class Skill(TypedDict):
-    slot: int
-    level: int
-    name: str
-    rank: str
-    icon: int
-
-
-type Skills = list[list[Skill]]
-type AppendSkills = list[list[Skill]]
-
-
-class Resource(TypedDict):
-    name: str
-    piece: int
-
-
-class ResourceSet(TypedDict):
-    qp: int
-    resources: list[Resource]
-
-
-class Costume(TypedDict):
-    id: int
-    name: str
-    resource: ResourceSet
-
-
-class Servant(TypedDict):
-    id: int
-    name: str
-    alias_name: Optional[str]
-    klass: str
-    rarity: int
-    skills: Skills
-    append_skills: AppendSkills
-    costumes: list[Costume]
-    ascension_resources: list[ResourceSet]
-    skill_resources: list[ResourceSet]
-    append_skill_resources: list[ResourceSet]
 
 
 class _ServantTable(TypedDict):

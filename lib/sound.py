@@ -7,7 +7,7 @@ from typing import Optional, TypedDict
 import lxml.html
 import requests
 
-from .servant import Resource, ResourceSet
+from .types import Resource, ResourceSet
 
 _logger = logging.getLogger(__name__)
 

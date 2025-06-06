@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import logging
-from typing import TypedDict
 
 import lxml.html
 import requests
@@ -9,12 +8,6 @@ import requests
 from .text import Text
 
 _logger = logging.getLogger(__name__)
-
-
-class Item(TypedDict):
-    id: int
-    rarity: str
-    name: str
 
 
 def item_dict() -> dict[str, Text]:

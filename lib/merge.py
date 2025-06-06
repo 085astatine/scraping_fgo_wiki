@@ -3,7 +3,7 @@ from __future__ import annotations
 import logging
 from typing import Optional, TypedDict
 
-from . import item, servant, sound, text
+from . import sound, text, types
 
 _logger = logging.getLogger(__name__)
 
@@ -79,7 +79,7 @@ def _convert_text(
 
 
 def _convert_item(
-    item_: item.Item,
+    item_: types.Item,
     dictionary: text.Dictionary,
 ) -> Item:
     return Item(
@@ -90,7 +90,7 @@ def _convert_item(
 
 
 def _convert_skill(
-    skill: servant.Skill,
+    skill: types.Skill,
     dictionary: text.Dictionary,
 ) -> Skill:
     return Skill(
@@ -103,7 +103,7 @@ def _convert_skill(
 
 
 def _convert_skills(
-    skills: servant.Skills,
+    skills: types.Skills,
     dictionary: text.Dictionary,
 ) -> Skills:
     return [
@@ -112,7 +112,7 @@ def _convert_skills(
 
 
 def _convert_append_skills(
-    skills: servant.AppendSkills,
+    skills: types.AppendSkills,
     dictionary: text.Dictionary,
 ) -> AppendSkills:
     return [
@@ -121,8 +121,8 @@ def _convert_append_skills(
 
 
 def _convert_resource(
-    resource: servant.Resource,
-    items: list[item.Item],
+    resource: types.Resource,
+    items: list[types.Item],
 ) -> Resource:
     invalid_item_id = 0
     item_id = [item["id"] for item in items if item["name"] == resource["name"]]
@@ -134,8 +134,8 @@ def _convert_resource(
 
 
 def _convert_resource_set(
-    resource_set: servant.ResourceSet,
-    items: list[item.Item],
+    resource_set: types.ResourceSet,
+    items: list[types.Item],
 ) -> ResourceSet:
     return ResourceSet(
         qp=resource_set["qp"],
@@ -146,8 +146,8 @@ def _convert_resource_set(
 
 
 def _convert_costume(
-    costume: servant.Costume,
-    items: list[item.Item],
+    costume: types.Costume,
+    items: list[types.Item],
 ) -> Costume:
     return Costume(
         id=costume["id"],
@@ -157,8 +157,8 @@ def _convert_costume(
 
 
 def _convert_servant(
-    servant_: servant.Servant,
-    items: list[item.Item],
+    servant_: types.Servant,
+    items: list[types.Item],
     dictionary: text.Dictionary,
 ) -> Servant:
     return Servant(
@@ -191,7 +191,7 @@ def _convert_servant(
 
 def _convert_sound(
     sound_: sound.Sound,
-    items: list[item.Item],
+    items: list[types.Item],
 ) -> Sound:
     return Sound(
         source=sound_["source"],
@@ -202,8 +202,8 @@ def _convert_sound(
 
 
 def merge(
-    items: list[item.Item],
-    servants: list[servant.Servant],
+    items: list[types.Item],
+    servants: list[types.Servant],
     sounds: list[sound.Sound],
     dictionary: text.Dictionary,
 ) -> MergedData:
