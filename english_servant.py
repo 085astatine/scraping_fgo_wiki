@@ -25,6 +25,11 @@ def main() -> None:
     if option.verbose:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
+    # load servants
+    servants = load_servants(
+        pathlib.Path("data/servant"),
+        logger=logger,
+    )
     # session
     session = create_session(logger=logger)
     # servant links
@@ -67,6 +72,58 @@ def argument_parser() -> argparse.ArgumentParser:
         help="force update",
     )
     return parser
+
+
+type Servants = dict[int, lib.Servant]
+
+
+def load_servants(
+    directory: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> Servants:
+    logger = logger or logging.getLogger(__name__)
+    servants: list[lib.Servant] = []
+    pattern = re.compile(r"^(?P<id>[0-9]{3}).json$")
+    for file in directory.iterdir():
+        if not file.is_file():
+            continue
+        match = pattern.match(file.name)
+        if match is None:
+            continue
+        servant = load_servant(file, logger=logger)
+        if servant is None:
+            continue
+        # check if filename match servant ID
+        if int(match.group("id")) != servant["id"]:
+            logger.error(
+                'file name mismatch servant ID: path="%s", servant_id=%d',
+                file,
+                servant["id"],
+            )
+        servants.append(servant)
+    # sort by servant ID
+    servants.sort(key=lambda servant: servant["id"])
+    return {servant["id"]: servant for servant in servants}
+
+
+def load_servant(
+    path: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> Optional[lib.Servant]:
+    logger = logger or logging.getLogger(__name__)
+    logger.info('load servant from "%s"', path)
+    servant = lib.load_json(path)
+    if servant is None:
+        logger.error('failed to load "%s"', path)
+        return None
+    logger.debug(
+        'loaded servant: %03d "%s"',
+        servant["id"],
+        servant["name"],
+    )
+    return servant
 
 
 def create_session(
