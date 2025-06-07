@@ -7,7 +7,7 @@ import logging
 import pathlib
 import re
 import time
-from typing import Optional, TypedDict
+from typing import Any, MutableMapping, Optional, TypedDict
 
 import fake_useragent
 import lxml.html
@@ -300,6 +300,25 @@ def unplayable_servant_ids() -> list[int]:
         412,  # Ｅ－アクアマリー
         436,  # Ｅ－グランマリー
     ]
+
+
+class ServantLogger(logging.LoggerAdapter):
+    def __init__(
+        self,
+        logger: logging.Logger,
+        servant_id: int,
+        servant_name: str,
+    ) -> None:
+        super().__init__(logger)
+        self._id = servant_id
+        self._name = servant_name
+
+    def process(
+        self,
+        msg: Any,
+        kwargs: MutableMapping[str, Any],
+    ) -> tuple[Any, MutableMapping[str, Any]]:
+        return super().process(f"[{self._id:03d}: {self._name}] {msg}", kwargs)
 
 
 if __name__ == "__main__":
