@@ -287,6 +287,90 @@ def request_servant_data(
     return root.xpath('//textarea[@name="wpTextbox1"]/text()')[0]
 
 
+class Skill(TypedDict):
+    name: str
+    rank: str
+
+
+def parse_servant_data(
+    source: str,
+    logger: ServantLogger,
+) -> None:
+    # active skills
+    skills = parse_active_skills(source, logger)
+
+
+def parse_active_skills(
+    source: str,
+    logger: ServantLogger,
+) -> list[list[Skill]]:
+    match = re.search(
+        r"==\s*Active Skills\s*==\n"
+        r"<tabber>\n"
+        r"First Skill=\n"
+        r"(?P<skill_1>(.*\n)+?)"
+        r"\|-\|\n"
+        r"Second Skill=\n"
+        r"(?P<skill_2>(.*\n)+?)"
+        r"\|-\|\n"
+        r"Third Skill=\n"
+        r"(?P<skill_3>(.*\n)+?)"
+        r"</tabber>\n",
+        source,
+    )
+    if match is None:
+        logger.error("failed to match active skill")
+        return []
+    return [
+        parse_skill(1, match.group("skill_1"), logger),
+        parse_skill(2, match.group("skill_2"), logger),
+        parse_skill(3, match.group("skill_3"), logger),
+    ]
+
+
+def parse_skill(
+    slot: int,
+    source: str,
+    logger: ServantLogger,
+) -> list[Skill]:
+    logger.debug("[skill %d] input=%s", slot, repr(source))
+    # Remove {{Unlock|...}}
+    source = re.sub(r"\{\{Unlock\|.+\}\}\n", "", source)
+    # mult level
+    if source.startswith("{{#tag:tabber"):
+        skill = [
+            parse_skill_rank(skill_texts.split("=")[0])
+            for skill_texts in source.removeprefix("{{#tag:tabber|\n")
+            .removesuffix("}}")
+            .split("{{!}}-{{!}}\n")
+        ]
+        skill.reverse()
+    else:
+        skill = []
+        match = re.match(r"\{\{:(?P<skill>.+)\}\}\n", source)
+        if match:
+            skill.append(parse_skill_rank(match.group("skill")))
+    logger.info("[skill %d] %s", slot, repr(skill))
+    return skill
+
+
+def parse_skill_rank(text: str) -> Skill:
+    rank_pattern = "(EX|[A-E])[+-]*"
+    # <name>|<rank>
+    match = re.match(rf"^(?P<name>.+)\|(?P<rank>{rank_pattern})$", text)
+    if match:
+        return Skill(name=match.group("name"), rank=match.group("rank"))
+    # <name> <rank>
+    match = re.match(rf"^(?P<name>.+?) (?P<rank>{rank_pattern})$", text)
+    if match:
+        return Skill(name=match.group("name"), rank=match.group("rank"))
+    # <name> '<rank>'
+    match = re.match(rf"^(?P<name>.+?) '(?P<rank>{rank_pattern})'$", text)
+    if match:
+        return Skill(name=match.group("name"), rank=match.group("rank"))
+    return Skill(name=text, rank="")
+
+
 def unplayable_servant_ids() -> list[int]:
     return [
         83,  # ソロモン
