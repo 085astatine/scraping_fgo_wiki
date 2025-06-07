@@ -40,6 +40,15 @@ def main() -> None:
         lib.save_json(servant_links_path, servant_links)
     else:
         servant_links = load_servant_links(servant_links_path, logger)
+    # servant data
+    servant_data_directory = pathlib.Path("data/english/servant/data")
+    servant_data = get_servant_data(
+        session,
+        servant_data_directory,
+        servant_links,
+        logger,
+        option,
+    )
 
 
 def create_logger() -> logging.Logger:
@@ -213,6 +222,84 @@ def parse_servant_links(
         url = f"https://fategrandorder.fandom.com/{href}"
         links.append(ServantLink(id=servant_id, url=url, title=title))
     return links
+
+
+def get_servant_data(
+    session: requests.Session,
+    directory: pathlib.Path,
+    links: ServantLinks,
+    logger: logging.Logger,
+    option: argparse.Namespace,
+) -> dict[int, str]:
+    unplayable_ids = unplayable_servant_ids()
+    servant_data: dict[int, str] = {}
+    for link in links.values():
+        # check playable
+        if link["id"] in unplayable_ids:
+            logger.info("skip unplayable servant %03d %s", link["id"], link["title"])
+            continue
+        path = directory.joinpath(f"{link['id']:03d}.txt")
+        if option.force_update or not path.exists():
+            # request data
+            data = request_servant_data(session, link, logger)
+            if data is not None:
+                logger.info(
+                    'save %03d %s data to "%s"',
+                    link["id"],
+                    link["title"],
+                    path,
+                )
+                path.write_text(data, encoding="utf-8")
+            time.sleep(5)
+        else:
+            # load data
+            data = load_servant_data(path, logger)
+        # add to servant_data
+        if data is not None:
+            servant_data[link["id"]] = data
+    return servant_data
+
+
+def load_servant_data(
+    path: pathlib.Path,
+    logger: logging.Logger,
+) -> Optional[str]:
+    logger.info('load servant from "%s"', path)
+    if not path.exists():
+        logger.error('"%s" does not exist', path)
+        return None
+    return path.read_text(encoding="utf-8")
+
+
+def request_servant_data(
+    session: requests.Session,
+    link: ServantLink,
+    logger: logging.Logger,
+) -> Optional[str]:
+    # request URL
+    logger.info('request %03d %s to "%s"', link["id"], link["title"], link["url"])
+    response = session.get(link["url"], params={"action": "edit"})
+    logger.debug("response: %d", response.status_code)
+    if not response.ok:
+        logger.error('failed to request "%s"', link["url"])
+        return None
+    root = lxml.html.fromstring(response.text)
+    return root.xpath('//textarea[@name="wpTextbox1"]/text()')[0]
+
+
+def unplayable_servant_ids() -> list[int]:
+    return [
+        83,  # ソロモン
+        149,  # ティアマト
+        151,  # ゲーティア
+        152,  # ソロモン
+        168,  # ビーストIII/R
+        240,  # ビーストIII/L
+        333,  # ビーストIV
+        411,  # Ｅ－フレアマリー
+        412,  # Ｅ－アクアマリー
+        436,  # Ｅ－グランマリー
+    ]
 
 
 if __name__ == "__main__":
