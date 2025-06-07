@@ -298,6 +298,8 @@ def parse_servant_data(
 ) -> None:
     # active skills
     skills = parse_active_skills(source, logger)
+    # append skills
+    append_skills = parse_append_skills(source, logger)
 
 
 def parse_active_skills(
@@ -322,18 +324,53 @@ def parse_active_skills(
         logger.error("failed to match active skill")
         return []
     return [
-        parse_skill(1, match.group("skill_1"), logger),
-        parse_skill(2, match.group("skill_2"), logger),
-        parse_skill(3, match.group("skill_3"), logger),
+        parse_skill("skill 1", match.group("skill_1"), logger),
+        parse_skill("skill 2", match.group("skill_2"), logger),
+        parse_skill("skill 3", match.group("skill_3"), logger),
+    ]
+
+
+def parse_append_skills(
+    source: str,
+    logger: ServantLogger,
+) -> list[list[Skill]]:
+    match = re.search(
+        r"==\s*Append Skills\s*==\n"
+        r"<tabber>\n"
+        r"First Skill=\n"
+        r"(?P<skill_1>(.*\n)+?)"
+        r"\|-\|\n"
+        r"Second Skill=\n"
+        r"(?P<skill_2>(.*\n)+?)"
+        r"\|-\|\n"
+        r"Third Skill=\n"
+        r"(?P<skill_3>(.*\n)+?)"
+        r"\|-\|\n"
+        r"Fourth Skill=\n"
+        r"(?P<skill_4>(.*\n)+?)"
+        r"\|-\|\n"
+        r"Fifth Skill=\n"
+        r"(?P<skill_5>(.*\n)+?)"
+        r"</tabber>\n",
+        source,
+    )
+    if match is None:
+        return []
+    return [
+        parse_skill("append skill 1", match.group("skill_1"), logger),
+        parse_skill("append skill 2", match.group("skill_2"), logger),
+        parse_skill("append skill 3", match.group("skill_3"), logger),
+        parse_skill("append skill 4", match.group("skill_4"), logger),
+        parse_skill("append skill 5", match.group("skill_5"), logger),
     ]
 
 
 def parse_skill(
-    slot: int,
+    target: str,
     source: str,
     logger: ServantLogger,
 ) -> list[Skill]:
-    logger.debug("[skill %d] input=%s", slot, repr(source))
+    logger.debug("[%s] input=%s", target, repr(source))
     # Remove {{Unlock|...}}
     source = re.sub(r"\{\{Unlock\|.+\}\}\n", "", source)
     # mult level
@@ -350,7 +387,7 @@ def parse_skill(
         match = re.match(r"\{\{:(?P<skill>.+)\}\}\n", source)
         if match:
             skill.append(parse_skill_rank(match.group("skill")))
-    logger.info("[skill %d] %s", slot, repr(skill))
+    logger.info("[%s] %s", target, repr(skill))
     return skill
 
 
