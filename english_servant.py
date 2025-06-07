@@ -296,10 +296,27 @@ def parse_servant_data(
     source: str,
     logger: ServantLogger,
 ) -> None:
+    # alias name
+    alias_name = parse_alias_name(source, logger)
     # active skills
     skills = parse_active_skills(source, logger)
     # append skills
     append_skills = parse_append_skills(source, logger)
+
+
+def parse_alias_name(
+    source: str,
+    logger: ServantLogger,
+) -> Optional[str]:
+    match = re.search(
+        r"\|aka = .?\{\{Tooltip\|Before True Name Reveal\|(?P<name>.+?)\}\}",
+        source,
+    )
+    if match is None:
+        return None
+    alias_name = match.group("name")
+    logger.info('alias name "%s"', alias_name)
+    return alias_name
 
 
 def parse_active_skills(
