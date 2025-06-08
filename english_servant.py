@@ -38,7 +38,7 @@ def main() -> None:
     # servant links
     servant_links_path = pathlib.Path("data/english/servant/link.json")
     if option.force_update or not servant_links_path.exists():
-        servant_links = request_servant_links(session, logger)
+        servant_links = request_servant_links(session, logger, option.request_inerval)
         logger.info('save servant links to "%s"', servant_links_path)
         lib.save_json(servant_links_path, servant_links)
     else:
@@ -82,6 +82,14 @@ def argument_parser() -> argparse.ArgumentParser:
         dest="force_update",
         action="store_true",
         help="force update",
+    )
+    parser.add_argument(
+        "--request-interval",
+        dest="request_interval",
+        type=float,
+        default=5.0,
+        help="request interval seconds (default: %(default)s)",
+        metavar="SECONDS",
     )
     return parser
 
@@ -127,6 +135,7 @@ def load_servant_links(
 def request_servant_links(
     session: requests.Session,
     logger: logging.Logger,
+    request_interval: float,
 ) -> ServantLinks:
     links: list[ServantLink] = []
     urls = [
@@ -146,7 +155,7 @@ def request_servant_links(
             break
         root = lxml.html.fromstring(response.text)
         links.extend(parse_servant_links(root, logger))
-        time.sleep(5)
+        time.sleep(request_interval)
     # sort by servant id
     links.sort(key=lambda link: link["id"])
     return {link["id"]: link for link in links}
@@ -201,7 +210,7 @@ def get_servant_data(
                     path,
                 )
                 path.write_text(data, encoding="utf-8")
-            time.sleep(5)
+            time.sleep(option.request_interval)
         else:
             # load data
             data = load_servant_data(path, logger)
