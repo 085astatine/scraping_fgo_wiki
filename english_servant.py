@@ -37,12 +37,12 @@ def main() -> None:
     session = create_session(logger=logger)
     # servant links
     servant_links_path = pathlib.Path("data/english/servant/link.json")
-    if option.force_update or not servant_links_path.exists():
-        servant_links = request_servant_links(session, logger, option.request_inerval)
-        logger.info('save servant links to "%s"', servant_links_path)
-        lib.save_json(servant_links_path, servant_links)
-    else:
-        servant_links = load_servant_links(servant_links_path, logger)
+    servant_links = get_servant_links(
+        servant_links_path,
+        session,
+        logger,
+        option,
+    )
     # servant data
     servant_data_directory = pathlib.Path("data/english/servant/data")
     servant_data = get_servant_data(
@@ -134,6 +134,21 @@ class ServantLink(TypedDict):
 
 
 type ServantLinks = dict[int, ServantLink]
+
+
+def get_servant_links(
+    path: pathlib.Path,
+    session: requests.Session,
+    logger: logging.Logger,
+    option: argparse.Namespace,
+) -> ServantLinks:
+    if option.force_update or not path.exists():
+        links = request_servant_links(session, logger, option.request_interval)
+        logger.info('save servant links to "%s"', path)
+        lib.save_json(path, links)
+    else:
+        links = load_servant_links(path, logger)
+    return links
 
 
 def load_servant_links(
