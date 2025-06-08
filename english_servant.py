@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import dataclasses
 import logging
 import pathlib
 import re
@@ -21,7 +22,7 @@ def main() -> None:
     logger = create_logger()
     logger.info("english_servant")
     # option
-    option = argument_parser().parse_args()
+    option = Option(**vars(argument_parser().parse_args()))
     if option.verbose:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
@@ -79,6 +80,13 @@ def create_logger() -> logging.Logger:
     )
     logger.addHandler(handler)
     return logger
+
+
+@dataclasses.dataclass(frozen=True)
+class Option:
+    verbose: bool
+    force_update: bool
+    request_interval: float
 
 
 def argument_parser() -> argparse.ArgumentParser:
@@ -140,7 +148,7 @@ def get_servant_links(
     path: pathlib.Path,
     session: requests.Session,
     logger: logging.Logger,
-    option: argparse.Namespace,
+    option: Option,
 ) -> ServantLinks:
     if option.force_update or not path.exists():
         links = request_servant_links(session, logger, option.request_interval)
@@ -220,7 +228,7 @@ def get_servant_data(
     directory: pathlib.Path,
     links: ServantLinks,
     logger: logging.Logger,
-    option: argparse.Namespace,
+    option: Option,
 ) -> dict[int, str]:
     unplayable_ids = lib.unplayable_servant_ids()
     servant_data: dict[int, str] = {}
@@ -296,7 +304,7 @@ def get_servants(
     links: ServantLinks,
     sources: dict[int, str],
     logger: logging.Logger,
-    option: argparse.Namespace,
+    option: Option,
 ) -> dict[int, Servant]:
     servants: dict[int, Servant] = {}
     for servant_id, source in sources.items():
