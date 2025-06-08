@@ -63,6 +63,11 @@ def main() -> None:
     )
     # compare English with Japanese
     compare_servants(servants_en, servants_jp, logger)
+    # to English dictionary
+    english_dictionary = to_dictionary(servants_en)
+    dictionary_path = pathlib.Path("data/english/servant.json")
+    logger.info('save english dictionary to "%s"', dictionary_path)
+    lib.save_json(dictionary_path, english_dictionary)
 
 
 def create_logger() -> logging.Logger:
@@ -590,6 +595,28 @@ def compare_skill(
                 en[i]["rank"],
                 jp[i]["rank"],
             )
+
+
+def to_dictionary(
+    servants: dict[int, Servant],
+) -> lib.ServantDictionary:
+    return {
+        servant_id: to_dictionary_value(servant)
+        for servant_id, servant in servants.items()
+    }
+
+
+def to_dictionary_value(servant: Servant) -> lib.ServantDictionaryValue:
+    return lib.ServantDictionaryValue(
+        name=servant["name"],
+        alias_name=servant["alias_name"],
+        skills=[
+            [skill["name"] for skill in skill_n] for skill_n in servant["active_skills"]
+        ],
+        append_skills=[
+            [skill["name"] for skill in skill_n] for skill_n in servant["append_skills"]
+        ],
+    )
 
 
 if __name__ == "__main__":
