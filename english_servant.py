@@ -154,6 +154,7 @@ def get_servant_links(
         links = request_servant_links(session, logger, option.request_interval)
         logger.info('save servant links to "%s"', path)
         lib.save_json(path, links)
+        time.sleep(option.request_interval)
     else:
         links = load_servant_links(path, logger)
     return links

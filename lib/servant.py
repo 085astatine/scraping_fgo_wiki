@@ -214,67 +214,6 @@ def _parse_skill_level(text: str) -> Optional[int]:
     return None
 
 
-def _parse_servant_table() -> list[_ServantTable]:
-    # URL: サーヴァント > 一覧 > 番号順
-    url = "https://w.atwiki.jp/f_go/pages/713.html"
-    # 入手不可サーヴァントID
-    unplayable_ids = unplayable_servant_ids()
-    # クラス変換
-    to_servant_class = {
-        "剣": "Saber",  # セイバー
-        "弓": "Archer",  # アーチャー
-        "槍": "Lancer",  # ランサー
-        "騎": "Rider",  # ライダー
-        "術": "Caster",  # キャスター
-        "殺": "Assassin",  # アサシン
-        "狂": "Berserker",  # バーサーカー
-        "盾": "Shielder",  # シールダー
-        "裁": "Ruler",  # ルーラー
-        "讐": "Avenger",  # アヴェンジャー
-        "分": "AlterEgo",  # アルターエゴ
-        "月": "MoonCancer",  # ムーンキャンサー
-        "降": "Foreigner",  # フォーリナー
-        "詐": "Pretender",  # プリテンダー
-        "獣": "Beast",  # ビースト
-    }
-    # access
-    response = requests.get(url)
-    etree = lxml.html.fromstring(response.text)
-    xpath = (
-        '//h2[normalize-space()="サーヴァント一覧"]/'
-        "following-sibling::div[1]//"
-        "table/tbody/tr[td]"
-    )
-    # サーヴァントリスト作成
-    result: list[_ServantTable] = []
-    for row in etree.xpath(xpath):
-        servant_id = int(row.xpath("td[1]")[0].text)
-        if servant_id in unplayable_ids:
-            continue
-        rarity = int(row.xpath("td[2]")[0].text)
-        servant_name = row.xpath("td[3]//a")[0].text
-        servant_class = to_servant_class[row.xpath("td[4]")[0].text.strip()]
-        servant_url = row.xpath("td[3]//a")[0].get("href")
-        _logger.debug(
-            "servant %d: %s, rarity:%d class:%s, url:%s",
-            servant_id,
-            servant_name,
-            rarity,
-            servant_class,
-            servant_url,
-        )
-        result.append(
-            _ServantTable(
-                id=servant_id,
-                name=servant_name,
-                klass=servant_class,
-                rarity=rarity,
-                url=servant_url,
-            )
-        )
-    return result
-
-
 def _parse_costume_table(servants: list[_ServantTable]) -> list[_CostumeTable]:
     # URL: 霊衣開放
     url = "https://w.atwiki.jp/f_go/pages/4685.html"
@@ -346,7 +285,7 @@ def _parse_servant_page(
     all_costumes: list[_CostumeTable],
 ) -> Servant:
     # access
-    response = requests.get("https:{0}".format(servant["url"]))
+    response = requests.get(servant["url"])
     root = lxml.html.fromstring(response.text)
     # 霊基再臨用素材
     _logger.debug("ascension resources")
@@ -561,28 +500,6 @@ def _parse_costumes(root: lxml.html.HtmlElement) -> list[Costume]:
     return result
 
 
-def _load_servant_table(
-    *,
-    path: Optional[pathlib.Path] = None,
-    force_update: bool = False,
-    request_interval: float = _REQUEST_INTERVAL,
-) -> list[_ServantTable]:
-    # load
-    if path is not None and not force_update:
-        result = load_json(path)
-        if result is not None:
-            _logger.debug('servant table is loaded from "%s"', path)
-            return result
-    # request
-    result = _parse_servant_table()
-    time.sleep(request_interval)
-    # save
-    if path is not None:
-        save_json(path, result)
-        _logger.debug('savant table is saved to "%s"', path)
-    return result
-
-
 def _load_costumes(
     servants: list[_ServantTable],
     *,
@@ -633,17 +550,12 @@ def _load_servant(
 
 
 def servant_list(
+    servant_table: list[_ServantTable],
     *,
     directory: Optional[pathlib.Path] = None,
     force_update: bool = False,
     request_interval: float = _REQUEST_INTERVAL,
 ) -> list[Servant]:
-    # table
-    servant_table = _load_servant_table(
-        path=(directory.joinpath("list.json") if directory is not None else None),
-        force_update=force_update,
-        request_interval=request_interval,
-    )
     # costumes
     costumes = _load_costumes(
         servant_table,
