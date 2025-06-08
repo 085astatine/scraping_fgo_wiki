@@ -475,20 +475,35 @@ def parse_skill(
 
 
 def parse_skill_rank(text: str) -> Skill:
-    rank_pattern = "(EX|[A-E])[+-]*"
+    rank_pattern = "((EX|[A-E])[+-]*)|None"
+    # <name>/Rank <rank>( (name))?(|<rank>)?(|preupgrade=y)
+    match = re.match(
+        rf"^(?P<name>.+?)/Rank (?P<rank>{rank_pattern})"
+        rf"(\s*\([\w& ]+\))?(\|(({rank_pattern})|preupgrade=y))?$",
+        text,
+    )
+    if match:
+        return to_skill(name=match.group("name"), rank=match.group("rank"))
     # <name>|<rank>
     match = re.match(rf"^(?P<name>.+)\|(?P<rank>{rank_pattern})$", text)
     if match:
-        return Skill(name=match.group("name"), rank=match.group("rank"))
+        return to_skill(name=match.group("name"), rank=match.group("rank"))
     # <name> <rank>
     match = re.match(rf"^(?P<name>.+?) (?P<rank>{rank_pattern})$", text)
     if match:
-        return Skill(name=match.group("name"), rank=match.group("rank"))
+        return to_skill(name=match.group("name"), rank=match.group("rank"))
     # <name> '<rank>'
     match = re.match(rf"^(?P<name>.+?) '(?P<rank>{rank_pattern})'$", text)
     if match:
-        return Skill(name=match.group("name"), rank=match.group("rank"))
+        return to_skill(name=match.group("name"), rank=match.group("rank"))
     return Skill(name=text, rank="")
+
+
+def to_skill(name: str, rank: str) -> Skill:
+    return Skill(
+        name=name,
+        rank=rank if rank != "None" else "",
+    )
 
 
 if __name__ == "__main__":
