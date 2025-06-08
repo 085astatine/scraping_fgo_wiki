@@ -7,7 +7,7 @@ import logging
 import pathlib
 import re
 import time
-from typing import Any, MutableMapping, Optional, TypedDict
+from typing import Optional, TypedDict
 
 import fake_useragent
 import lxml.html
@@ -26,10 +26,13 @@ def main() -> None:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
     # load servants
-    servants = load_servants(
-        pathlib.Path("data/servant"),
-        logger=logger,
-    )
+    servants: dict[int, lib.Servant] = {
+        servant["id"]: servant
+        for servant in lib.load_servants(
+            pathlib.Path("data/servant"),
+            logger=logger,
+        )
+    }
     # session
     session = create_session(logger=logger)
     # servant links
@@ -81,58 +84,6 @@ def argument_parser() -> argparse.ArgumentParser:
         help="force update",
     )
     return parser
-
-
-type Servants = dict[int, lib.Servant]
-
-
-def load_servants(
-    directory: pathlib.Path,
-    *,
-    logger: Optional[logging.Logger] = None,
-) -> Servants:
-    logger = logger or logging.getLogger(__name__)
-    servants: list[lib.Servant] = []
-    pattern = re.compile(r"^(?P<id>[0-9]{3}).json$")
-    for file in directory.iterdir():
-        if not file.is_file():
-            continue
-        match = pattern.match(file.name)
-        if match is None:
-            continue
-        servant = load_servant(file, logger=logger)
-        if servant is None:
-            continue
-        # check if filename match servant ID
-        if int(match.group("id")) != servant["id"]:
-            logger.error(
-                'file name mismatch servant ID: path="%s", servant_id=%d',
-                file,
-                servant["id"],
-            )
-        servants.append(servant)
-    # sort by servant ID
-    servants.sort(key=lambda servant: servant["id"])
-    return {servant["id"]: servant for servant in servants}
-
-
-def load_servant(
-    path: pathlib.Path,
-    *,
-    logger: Optional[logging.Logger] = None,
-) -> Optional[lib.Servant]:
-    logger = logger or logging.getLogger(__name__)
-    logger.info('load servant from "%s"', path)
-    servant = lib.load_json(path)
-    if servant is None:
-        logger.error('failed to load "%s"', path)
-        return None
-    logger.debug(
-        'loaded servant: %03d "%s"',
-        servant["id"],
-        servant["name"],
-    )
-    return servant
 
 
 def create_session(
@@ -231,7 +182,7 @@ def get_servant_data(
     logger: logging.Logger,
     option: argparse.Namespace,
 ) -> dict[int, str]:
-    unplayable_ids = unplayable_servant_ids()
+    unplayable_ids = lib.unplayable_servant_ids()
     servant_data: dict[int, str] = {}
     for link in links.values():
         # check playable
@@ -294,7 +245,7 @@ class Skill(TypedDict):
 
 def parse_servant_data(
     source: str,
-    logger: ServantLogger,
+    logger: lib.ServantLogger,
 ) -> None:
     # alias name
     alias_name = parse_alias_name(source, logger)
@@ -306,7 +257,7 @@ def parse_servant_data(
 
 def parse_alias_name(
     source: str,
-    logger: ServantLogger,
+    logger: lib.ServantLogger,
 ) -> Optional[str]:
     match = re.search(
         r"\|aka = .?\{\{Tooltip\|Before True Name Reveal\|(?P<name>.+?)\}\}",
@@ -321,7 +272,7 @@ def parse_alias_name(
 
 def parse_active_skills(
     source: str,
-    logger: ServantLogger,
+    logger: lib.ServantLogger,
 ) -> list[list[Skill]]:
     match = re.search(
         r"==\s*Active Skills\s*==\n"
@@ -349,7 +300,7 @@ def parse_active_skills(
 
 def parse_append_skills(
     source: str,
-    logger: ServantLogger,
+    logger: lib.ServantLogger,
 ) -> list[list[Skill]]:
     match = re.search(
         r"==\s*Append Skills\s*==\n"
@@ -385,7 +336,7 @@ def parse_append_skills(
 def parse_skill(
     target: str,
     source: str,
-    logger: ServantLogger,
+    logger: lib.ServantLogger,
 ) -> list[Skill]:
     logger.debug("[%s] input=%s", target, repr(source))
     # Remove {{Unlock|...}}
@@ -423,40 +374,6 @@ def parse_skill_rank(text: str) -> Skill:
     if match:
         return Skill(name=match.group("name"), rank=match.group("rank"))
     return Skill(name=text, rank="")
-
-
-def unplayable_servant_ids() -> list[int]:
-    return [
-        83,  # ソロモン
-        149,  # ティアマト
-        151,  # ゲーティア
-        152,  # ソロモン
-        168,  # ビーストIII/R
-        240,  # ビーストIII/L
-        333,  # ビーストIV
-        411,  # Ｅ－フレアマリー
-        412,  # Ｅ－アクアマリー
-        436,  # Ｅ－グランマリー
-    ]
-
-
-class ServantLogger(logging.LoggerAdapter):
-    def __init__(
-        self,
-        logger: logging.Logger,
-        servant_id: int,
-        servant_name: str,
-    ) -> None:
-        super().__init__(logger)
-        self._id = servant_id
-        self._name = servant_name
-
-    def process(
-        self,
-        msg: Any,
-        kwargs: MutableMapping[str, Any],
-    ) -> tuple[Any, MutableMapping[str, Any]]:
-        return super().process(f"[{self._id:03d}: {self._name}] {msg}", kwargs)
 
 
 if __name__ == "__main__":

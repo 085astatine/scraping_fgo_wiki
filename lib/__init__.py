@@ -4,7 +4,14 @@ import logging
 
 from .io import load_json, save_json
 from .merge import merge
-from .servant import servant_dict, servant_list, skill_dict
+from .servant import (
+    ServantLogger,
+    load_servants,
+    servant_dict,
+    servant_list,
+    skill_dict,
+    unplayable_servant_ids,
+)
 from .sound import Sound, sound_list
 from .text import load_item_dictionary
 from .types import Dictionary, Item, Servant, Text
