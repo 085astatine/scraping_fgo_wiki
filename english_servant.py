@@ -27,7 +27,7 @@ def main() -> None:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
     # load servants
-    servants_jp: dict[int, lib.Servant] = {
+    servants_jp: dict[lib.ServantID, lib.Servant] = {
         servant["id"]: servant
         for servant in lib.load_servants(
             pathlib.Path("data/servant"),
@@ -136,12 +136,12 @@ def create_session(
 
 
 class ServantLink(TypedDict):
-    id: int
+    id: lib.ServantID
     url: str
     title: str
 
 
-type ServantLinks = dict[int, ServantLink]
+type ServantLinks = dict[lib.ServantID, ServantLink]
 
 
 def get_servant_links(
@@ -229,9 +229,9 @@ def get_servant_data(
     links: ServantLinks,
     logger: logging.Logger,
     option: Option,
-) -> dict[int, str]:
+) -> dict[lib.ServantID, str]:
     unplayable_ids = lib.unplayable_servant_ids()
-    servant_data: dict[int, str] = {}
+    servant_data: dict[lib.ServantID, str] = {}
     for link in links.values():
         # check playable
         if link["id"] in unplayable_ids:
@@ -292,7 +292,7 @@ class Skill(TypedDict):
 
 
 class Servant(TypedDict):
-    id: int
+    id: lib.ServantID
     name: str
     alias_name: Optional[str]
     active_skills: list[list[Skill]]
@@ -302,11 +302,11 @@ class Servant(TypedDict):
 def get_servants(
     directory: pathlib.Path,
     links: ServantLinks,
-    sources: dict[int, str],
+    sources: dict[lib.ServantID, str],
     logger: logging.Logger,
     option: Option,
-) -> dict[int, Servant]:
-    servants: dict[int, Servant] = {}
+) -> dict[lib.ServantID, Servant]:
+    servants: dict[lib.ServantID, Servant] = {}
     for servant_id, source in sources.items():
         path = directory.joinpath(f"{servant_id:03d}.json")
         servant: Optional[Servant]
@@ -537,8 +537,8 @@ def to_skill(name: str, rank: str) -> Skill:
 
 
 def compare_servants(
-    en: dict[int, Servant],
-    jp: dict[int, lib.Servant],
+    en: dict[lib.ServantID, Servant],
+    jp: dict[lib.ServantID, lib.Servant],
     logger: logging.Logger,
 ) -> None:
     for servant_id, jp_servant in jp.items():
@@ -621,7 +621,7 @@ def compare_skill(
 
 
 def to_dictionary(
-    servants: dict[int, Servant],
+    servants: dict[lib.ServantID, Servant],
 ) -> lib.ServantDictionary:
     return {
         servant_id: to_dictionary_value(servant)

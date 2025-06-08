@@ -15,11 +15,14 @@ from .servant import (
 from .sound import Sound, sound_list
 from .text import load_item_dictionary
 from .types import (
+    CostumeID,
     Dictionary,
     Item,
+    ItemID,
     Servant,
     ServantDictionary,
     ServantDictionaryValue,
+    ServantID,
     Skill,
     Text,
 )
