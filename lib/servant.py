@@ -7,7 +7,7 @@ import pathlib
 import re
 import time
 import unicodedata
-from typing import Final, Literal, Optional, TypedDict
+from typing import Any, Final, Literal, MutableMapping, Optional, TypedDict
 
 import lxml.html
 import requests
@@ -21,6 +21,89 @@ _logger = logging.getLogger(__name__)
 
 
 _REQUEST_INTERVAL: Final[float] = 2.0
+
+
+def load_servants(
+    directory: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> list[Servant]:
+    logger = logger or logging.getLogger(__name__)
+    servants: list[Servant] = []
+    pattern = re.compile(r"^(?P<id>[0-9]{3}).json$")
+    for file in directory.iterdir():
+        if not file.is_file():
+            continue
+        match = pattern.match(file.name)
+        if match is None:
+            continue
+        servant = load_servant(file, logger=logger)
+        if servant is None:
+            continue
+        # check if filename match servant ID
+        if int(match.group("id")) != servant["id"]:
+            logger.error(
+                'file name mismatch servant ID: path="%s", servant_id=%d',
+                file,
+                servant["id"],
+            )
+        servants.append(servant)
+    # sort by servant ID
+    servants.sort(key=lambda servant: servant["id"])
+    return servants
+
+
+def load_servant(
+    path: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> Optional[Servant]:
+    logger = logger or logging.getLogger(__name__)
+    logger.info('load servant from "%s"', path)
+    servant = load_json(path)
+    if servant is None:
+        logger.error('failed to load "%s"', path)
+        return None
+    logger.debug(
+        'loaded servant: %03d "%s"',
+        servant["id"],
+        servant["name"],
+    )
+    return servant
+
+
+def unplayable_servant_ids() -> list[int]:
+    return [
+        83,  # ソロモン
+        149,  # ティアマト
+        151,  # ゲーティア
+        152,  # ソロモン
+        168,  # ビーストIII/R
+        240,  # ビーストIII/L
+        333,  # ビーストIV
+        411,  # Ｅ－フレアマリー
+        412,  # Ｅ－アクアマリー
+        436,  # Ｅ－グランマリー
+    ]
+
+
+class ServantLogger(logging.LoggerAdapter):
+    def __init__(
+        self,
+        logger: logging.Logger,
+        servant_id: int,
+        servant_name: str,
+    ) -> None:
+        super().__init__(logger)
+        self._id = servant_id
+        self._name = servant_name
+
+    def process(
+        self,
+        msg: Any,
+        kwargs: MutableMapping[str, Any],
+    ) -> tuple[Any, MutableMapping[str, Any]]:
+        return super().process(f"[{self._id:03d}: {self._name}] {msg}", kwargs)
 
 
 class _ServantTable(TypedDict):
@@ -135,18 +218,7 @@ def _parse_servant_table() -> list[_ServantTable]:
     # URL: サーヴァント > 一覧 > 番号順
     url = "https://w.atwiki.jp/f_go/pages/713.html"
     # 入手不可サーヴァントID
-    ignore_servant_ids = (
-        83,  # ソロモン
-        149,  # ティアマト
-        151,  # ゲーティア
-        152,  # ソロモン
-        168,  # ビーストIII/R
-        240,  # ビーストIII/L
-        333,  # ビーストIV
-        411,  # Ｅ－フレアマリー
-        412,  # Ｅ－アクアマリー
-        436,  # Ｅ－グランマリー
-    )
+    unplayable_ids = unplayable_servant_ids()
     # クラス変換
     to_servant_class = {
         "剣": "Saber",  # セイバー
@@ -177,7 +249,7 @@ def _parse_servant_table() -> list[_ServantTable]:
     result: list[_ServantTable] = []
     for row in etree.xpath(xpath):
         servant_id = int(row.xpath("td[1]")[0].text)
-        if servant_id in ignore_servant_ids:
+        if servant_id in unplayable_ids:
             continue
         rarity = int(row.xpath("td[2]")[0].text)
         servant_name = row.xpath("td[3]//a")[0].text

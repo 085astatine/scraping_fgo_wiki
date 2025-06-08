@@ -59,6 +59,16 @@ class Text(TypedDict):
 type ItemDictionary = dict[int, str]
 
 
+class ServantDictionaryValue(TypedDict):
+    name: str
+    alias_name: Optional[str]
+    skills: list[list[str]]
+    append_skills: list[list[str]]
+
+
+type ServantDictionary = dict[int, ServantDictionaryValue]
+
+
 class Dictionary(TypedDict):
     item: ItemDictionary
     servant: dict[str, Text]
