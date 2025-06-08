@@ -61,6 +61,8 @@ def main() -> None:
         logger,
         option,
     )
+    # compare English with Japanese
+    compare_servants(servants_en, servants_jp, logger)
 
 
 def create_logger() -> logging.Logger:
@@ -504,6 +506,90 @@ def to_skill(name: str, rank: str) -> Skill:
         name=name,
         rank=rank if rank != "None" else "",
     )
+
+
+def compare_servants(
+    en: dict[int, Servant],
+    jp: dict[int, lib.Servant],
+    logger: logging.Logger,
+) -> None:
+    for servant_id, jp_servant in jp.items():
+        servant_logger = lib.ServantLogger(logger, servant_id, jp_servant["name"])
+        servant_logger.debug("start comparing")
+        en_servant = en.get(servant_id, None)
+        if en_servant is not None:
+            compare_servant(en_servant, jp_servant, servant_logger)
+        else:
+            servant_logger.error("does not exits in English")
+
+
+def compare_servant(
+    en: Servant,
+    jp: lib.Servant,
+    logger: lib.ServantLogger,
+) -> None:
+    # id
+    if en["id"] != jp["id"]:
+        logger.error("servant IDs do not match")
+    # alias name
+    if en["alias_name"] is not None:
+        if jp["alias_name"] is None:
+            logger.error("only English has an alias name")
+    else:
+        if jp["alias_name"] is not None:
+            logger.error("only Japanese has an alias name")
+    # active skills
+    compare_skills("skill", en["active_skills"], jp["skills"], logger)
+    # append skills
+    compare_skills("append skill", en["append_skills"], jp["append_skills"], logger)
+
+
+def compare_skills(
+    target: str,
+    en: list[list[Skill]],
+    jp: list[list[lib.Skill]],
+    logger: lib.ServantLogger,
+) -> None:
+    # slots
+    if len(en) != len(jp):
+        logger.error(
+            "%s: slots don't match (en:%d, jp:%d)",
+            target,
+            len(en),
+            len(jp),
+        )
+    # skill
+    slots = len(en)
+    for i in range(slots):
+        compare_skill(f"{target} {i+1}", en[i], jp[i], logger)
+
+
+def compare_skill(
+    target: str,
+    en: list[Skill],
+    jp: list[lib.Skill],
+    logger: lib.ServantLogger,
+) -> None:
+    # levels
+    if len(en) != len(jp):
+        logger.error(
+            "%s: levels don't match (en:%d, jp:%d)",
+            target,
+            len(en),
+            len(jp),
+        )
+        return
+    # rank
+    levels = len(en)
+    for i in range(levels):
+        if en[i]["rank"] != jp[i]["rank"]:
+            logger.error(
+                '%s: rank don\'t match at level %d (en:"%s", jp:"%s")',
+                f"{target}-{i+1}",
+                i,
+                en[i]["rank"],
+                jp[i]["rank"],
+            )
 
 
 if __name__ == "__main__":
