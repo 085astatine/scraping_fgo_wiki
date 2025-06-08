@@ -214,72 +214,6 @@ def _parse_skill_level(text: str) -> Optional[int]:
     return None
 
 
-def _parse_costume_table(servants: list[_ServantTable]) -> list[_CostumeTable]:
-    # URL: 霊衣開放
-    url = "https://w.atwiki.jp/f_go/pages/4685.html"
-    # request
-    response = requests.get(url)
-    etree = lxml.html.fromstring(response.text)
-    # parse
-    xpath = (
-        '//div[@id="wikibody"]/h2[normalize-space()="霊衣一覧"]'
-        "/following-sibling::div/table/tbody"
-    )
-    costumes: list[_CostumeTable] = []
-    for tbody in etree.xpath(xpath):
-        # costume id
-        id_match = re.match(
-            r"No.(?P<id>\d+)",
-            tbody.xpath("tr[1]/td")[0].text_content().strip(),
-        )
-        if id_match is None:
-            continue
-        costume_id = int(id_match.group("id"))
-        _logger.debug("costume No.%d", costume_id)
-        # servant id
-        servant_url = tbody.xpath("tr[5]/td/a")[0].get("href")
-        _logger.debug("servant URL: %s", servant_url)
-        servant_id = next(
-            (servant["id"] for servant in servants if servant["url"] == servant_url),
-            None,
-        )
-        if servant_id is None:
-            _logger.error("costume %d: servant ID is not found", costume_id)
-            continue
-        _logger.debug("servant ID: %d", servant_id)
-        # name
-        name = tbody.xpath("tr[2]/td[2]")[0].text_content().strip()
-        _logger.debug("costume name: %s", name)
-        # flavor text
-        flavor_text_cell = copy.deepcopy(tbody.xpath("tr[3]/td")[0])
-        for br in flavor_text_cell.xpath("br"):
-            br.tail = ("\n" + br.tail) if br.tail else "\n"
-        flavor_text = flavor_text_cell.text_content().strip()
-        _logger.debug("flavor text: %s", repr(flavor_text))
-        # resoruce
-        resource = _to_resource_set(
-            _parse_resource(
-                tbody.xpath(
-                    'tr[td[normalize-space()="必要素材"]]'
-                    "/following-sibling::tr[1]/td"
-                )[0]
-                .text_content()
-                .strip()
-            )
-        )
-        # costume
-        costumes.append(
-            _CostumeTable(
-                costume_id=costume_id,
-                servant_id=servant_id,
-                name=name,
-                flavor_text=flavor_text,
-                resource=resource,
-            )
-        )
-    return costumes
-
-
 def _parse_servant_page(
     servant: _ServantTable,
     all_costumes: list[_CostumeTable],
@@ -472,57 +406,6 @@ def _parse_skill_resources(
     return parser.result()
 
 
-def _parse_costumes(root: lxml.html.HtmlElement) -> list[Costume]:
-    result: list[Costume] = []
-    xpath = (
-        '//div[@id="wikibody"]'
-        '//h3[normalize-space()="霊衣開放"]'
-        "/following-sibling::div"
-        "[preceding-sibling::h3[position()=1"
-        ' and normalize-space()="霊衣開放"]]'
-        "/table"
-    )
-    for table in root.xpath(xpath):
-        name = table.xpath("tbody/tr[1]/th")[0].text.strip()
-        _logger.debug("costume: %s", name)
-        resources: list[Resource] = []
-        for cell in table.xpath(
-            'tbody/tr[td[1 and normalize-space()="必要素材"]]' "/td[position() > 1]"
-        ):
-            resources.extend(_parse_resource(cell.text_content()))
-        result.append(
-            Costume(
-                id=0,
-                name=name,
-                resource=_to_resource_set(resources),
-            )
-        )
-    return result
-
-
-def _load_costumes(
-    servants: list[_ServantTable],
-    *,
-    path: Optional[pathlib.Path],
-    force_update: bool = False,
-    request_interval: float = _REQUEST_INTERVAL,
-) -> list[_CostumeTable]:
-    # load
-    if path is not None and not force_update:
-        result = load_json(path)
-        if result is not None:
-            _logger.debug('costume table is loaded from "%s"', path)
-            return result
-    # request
-    result = _parse_costume_table(servants)
-    time.sleep(request_interval)
-    # save
-    if path is not None:
-        save_json(path, result)
-        _logger.debug('costume_table is saved to "%s"', path)
-    return result
-
-
 def _load_servant(
     data: _ServantTable,
     costumes: list[_CostumeTable],
@@ -551,18 +434,12 @@ def _load_servant(
 
 def servant_list(
     servant_table: list[_ServantTable],
+    costumes: list[_CostumeTable],
     *,
     directory: Optional[pathlib.Path] = None,
     force_update: bool = False,
     request_interval: float = _REQUEST_INTERVAL,
 ) -> list[Servant]:
-    # costumes
-    costumes = _load_costumes(
-        servant_table,
-        path=(directory.joinpath("costumes.json") if directory is not None else None),
-        force_update=force_update,
-        request_interval=request_interval,
-    )
     # servant
     result: list[Servant] = []
     for row in servant_table:

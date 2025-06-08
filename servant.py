@@ -32,9 +32,13 @@ def main() -> None:
     # links
     links_path = directory.joinpath("link.json")
     links = get_servant_links(links_path, session, logger, option)
+    # costumes
+    costumes_path = directory.joinpath("costumes.json")
+    costumes = load_costumes(costumes_path, logger)
     # WIP
     lib.servant_list(
         links,
+        costumes,
         directory=directory,
         force_update=option.force_update,
         request_interval=option.request_interval,
@@ -211,6 +215,26 @@ def parse_servant_links(
     # sort by servant ID
     links.sort(key=lambda link: link["id"])
     return links
+
+
+class Costume(TypedDict):
+    costume_id: lib.CostumeID
+    servant_id: lib.ServantID
+    name: str
+    flavor_text: str
+    resource: lib.ResourceSet
+
+
+def load_costumes(
+    path: pathlib.Path,
+    logger: logging.Logger,
+) -> list[Costume]:
+    logger.info('load costumes from "%s"', path)
+    costumes = lib.load_json(path)
+    if costumes is None:
+        logger.error('failed to load costumes from "%s"', path)
+        return []
+    return costumes
 
 
 if __name__ == "__main__":
