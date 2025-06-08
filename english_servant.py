@@ -456,8 +456,8 @@ def parse_skill(
     logger: lib.ServantLogger,
 ) -> list[Skill]:
     logger.debug("[%s] input=%s", target, repr(source))
-    # Remove {{Unlock|...}}
-    source = re.sub(r"\{\{Unlock\|.+\}\}\n", "", source)
+    # Remove {{Unlock|...}} or {{unlock:...}}
+    source = re.sub(r"\{\{[Uu]nlock\|.+\}\}\n", "", source)
     # mult level
     if source.startswith("{{#tag:tabber"):
         skill = [
