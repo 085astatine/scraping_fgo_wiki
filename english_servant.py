@@ -26,7 +26,7 @@ def main() -> None:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
     # load servants
-    servants: dict[int, lib.Servant] = {
+    servants_jp: dict[int, lib.Servant] = {
         servant["id"]: servant
         for servant in lib.load_servants(
             pathlib.Path("data/servant"),
@@ -49,6 +49,15 @@ def main() -> None:
         session,
         servant_data_directory,
         servant_links,
+        logger,
+        option,
+    )
+    # servants
+    servant_directory = pathlib.Path("data/english/servant")
+    servants_en = get_servants(
+        servant_directory,
+        servant_links,
+        servant_data,
         logger,
         option,
     )
@@ -252,16 +261,113 @@ class Skill(TypedDict):
     rank: str
 
 
+class Servant(TypedDict):
+    id: int
+    name: str
+    alias_name: Optional[str]
+    active_skills: list[list[Skill]]
+    append_skills: list[list[Skill]]
+
+
+def get_servants(
+    directory: pathlib.Path,
+    links: ServantLinks,
+    sources: dict[int, str],
+    logger: logging.Logger,
+    option: argparse.Namespace,
+) -> dict[int, Servant]:
+    servants: dict[int, Servant] = {}
+    for servant_id, source in sources.items():
+        path = directory.joinpath(f"{servant_id:03d}.json")
+        servant: Optional[Servant]
+        if option.force_update or not path.exists():
+            # parse source
+            link = links.get(servant_id, None)
+            if link is None:
+                logger.error("servant ID %03d does not exist in links", servant_id)
+                continue
+            servant = parse_servant_data(
+                link,
+                source,
+                lib.ServantLogger(logger, servant_id, link["title"]),
+            )
+            logger.info('save servant to "%s"', path)
+            lib.save_json(path, servant)
+        else:
+            # load from file
+            servant = load_servant(path, logger=logger)
+        if servant is not None:
+            servants[servant["id"]] = servant
+    return servants
+
+
+def load_servants(
+    directory: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> list[Servant]:
+    logger = logger or logging.getLogger(__name__)
+    servants: list[Servant] = []
+    pattern = re.compile(r"^(?P<id>[0-9]{3}).json$")
+    for file in directory.iterdir():
+        if not file.is_file():
+            continue
+        match = pattern.match(file.name)
+        if match is None:
+            continue
+        servant = load_servant(file, logger=logger)
+        if servant is None:
+            continue
+        # check if filename match servant ID
+        if int(match.group("id")) != servant["id"]:
+            logger.error(
+                'file name mismatch servant ID: path="%s", servant_id=%d',
+                file,
+                servant["id"],
+            )
+        servants.append(servant)
+    # sort by servant ID
+    servants.sort(key=lambda servant: servant["id"])
+    return servants
+
+
+def load_servant(
+    path: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> Optional[Servant]:
+    logger = logger or logging.getLogger(__name__)
+    logger.info('load servant from "%s"', path)
+    servant = lib.load_json(path)
+    if servant is None:
+        logger.error('failed to load "%s"', path)
+        return None
+    logger.debug(
+        'loaded servant: %03d "%s"',
+        servant["id"],
+        servant["name"],
+    )
+    return servant
+
+
 def parse_servant_data(
+    link: ServantLink,
     source: str,
     logger: lib.ServantLogger,
-) -> None:
+) -> Servant:
     # alias name
     alias_name = parse_alias_name(source, logger)
     # active skills
-    skills = parse_active_skills(source, logger)
+    active_skills = parse_active_skills(source, logger)
     # append skills
     append_skills = parse_append_skills(source, logger)
+    return Servant(
+        id=link["id"],
+        name=link["title"],
+        alias_name=alias_name,
+        active_skills=active_skills,
+        append_skills=append_skills,
+    )
 
 
 def parse_alias_name(
