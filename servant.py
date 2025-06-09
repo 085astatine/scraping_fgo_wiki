@@ -377,7 +377,7 @@ def parse_skill(
 ) -> Optional[lib.Skill]:
     match = re.match(
         r"Skill(?P<slot>[0-9+])"
-        r"(|(?P<upgraded>(|\[強化後(|(?P<level>[0-9]+)))\]))"
+        r"(?P<upgraded>\[強化後(?P<level>[0-9]+)?\])?"
         r"：(?P<name>.+)",
         node.text_content().strip(),
     )
@@ -434,7 +434,7 @@ def parse_skill_icon(
     logger: lib.ServantLogger,
 ) -> int:
     text = node.text_content().strip()
-    match = re.match(r"(?P<id>[0-9]+)(,(?P<rank>.+)|)", text)
+    match = re.match(r"(?P<id>[0-9]+)(,(?P<rank>.+))?", text)
     if match is None:
         logger.warning('faild to parse as a skill icon "%s"', text)
         return 0
@@ -550,7 +550,7 @@ def parse_resource(
     logger: lib.ServantLogger,
 ) -> list[lib.Resource]:
     result: list[lib.Resource] = []
-    regexp = re.compile(r"(?P<item>.+),(x|)(?P<piece>[0-9万]+)")
+    regexp = re.compile(r"(?P<item>.+),x?(?P<piece>[0-9万]+)")
     match = regexp.search(text)
     while match:
         resource = lib.Resource(
