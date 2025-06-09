@@ -15,6 +15,7 @@ from .servant import (
 from .sound import Sound, sound_list
 from .text import load_item_dictionary
 from .types import (
+    AppendSkills,
     Costume,
     CostumeID,
     Dictionary,
@@ -26,6 +27,7 @@ from .types import (
     ServantDictionaryValue,
     ServantID,
     Skill,
+    Skills,
     Text,
 )
 from .validate import validate_servant, validate_servants

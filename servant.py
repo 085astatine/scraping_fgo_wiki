@@ -6,7 +6,9 @@ import argparse
 import dataclasses
 import logging
 import pathlib
+import re
 import time
+import unicodedata
 from typing import Optional, TypedDict
 
 import fake_useragent
@@ -305,19 +307,127 @@ def parse_servant_page(
     costumes: list[lib.Costume],
     logger: lib.ServantLogger,
 ) -> lib.Servant:
+    # skills
+    skills = parse_skills(root, logger)
+    # append skills
+    append_skills = parse_append_skills(root, logger)
     return lib.Servant(
         id=link["id"],
         name=link["name"],
         alias_name=None,
         klass=link["klass"],
         rarity=link["rarity"],
-        skills=[],
-        append_skills=[],
+        skills=skills,
+        append_skills=append_skills,
         costumes=costumes,
         ascension_resources=[],
         skill_resources=[],
         append_skill_resources=[],
     )
+
+
+def parse_skills(
+    root: lxml.html.HtmlElement,
+    logger: lib.ServantLogger,
+) -> lib.Skills:
+    skills: lib.Skills = [[] for _ in range(3)]
+    for node in root.xpath(
+        '//div[@id="wikibody"]'
+        '//h3[normalize-space()="保有スキル"]'
+        "/following-sibling::h4"
+    ):
+        skill = parse_skill(node, logger)
+        if skill is None:
+            continue
+        skills[skill["slot"] - 1].append(skill)
+    return skills
+
+
+def parse_append_skills(
+    root: lxml.html.HtmlElement,
+    logger: lib.ServantLogger,
+) -> lib.AppendSkills:
+    skills: lib.AppendSkills = [[] for _ in range(5)]
+    for node in root.xpath(
+        '//div[@id="wikibody"]'
+        '//h3[normalize-space()="アペンドスキル"]'
+        "/following-sibling::div/h4"
+    ):
+        skill = parse_skill(node, logger)
+        if skill is None:
+            continue
+        skills[skill["slot"] - 1].append(skill)
+    return skills
+
+
+def parse_skill(
+    node: lxml.html.HtmlElement,
+    logger: lib.ServantLogger,
+) -> Optional[lib.Skill]:
+    match = re.match(
+        r"Skill(?P<slot>[0-9+])"
+        r"(|(?P<upgraded>(|\[強化後(|(?P<level>[0-9]+)))\]))"
+        r"：(?P<name>.+)",
+        node.text_content().strip(),
+    )
+    if not match:
+        return None
+    slot = int(match.group("slot"))
+    level = (
+        1
+        if match.group("upgraded") is None
+        else 2 if match.group("level") is None else int(match.group("level")) + 1
+    )
+    # name rank
+    name, rank = parse_skill_rank(match.group("name"))
+    # icon
+    icon = parse_skill_icon(
+        node.xpath("following-sibling::div[1]/table//td[@rowspan]")[0],
+        logger,
+    )
+    logger.debug(
+        'skill %d-%d: "%s" (rank: "%s", icon: %d)',
+        slot,
+        level,
+        name,
+        rank,
+        icon,
+    )
+    return lib.Skill(
+        slot=slot,
+        level=level,
+        name=name,
+        rank=rank,
+        icon=icon,
+    )
+
+
+def parse_skill_rank(name: str) -> tuple[str, str]:
+    # half width katakana -> full width katakana
+    name = re.sub(
+        r"[\uff66-\uff9f]+",  # \uff66: ｦ - \uff9f: ﾟ
+        lambda x: unicodedata.normalize("NFKC", x.group(0)),
+        name,
+    )
+    # rank
+    rank = ""
+    match = re.match(r"(?P<name>.+)\s+(?P<rank>(EX|[A-E])[+-]*)", name)
+    if match:
+        name = match.group("name").strip()
+        rank = match.group("rank")
+    return (name, rank)
+
+
+def parse_skill_icon(
+    node: lxml.html.HtmlElement,
+    logger: lib.ServantLogger,
+) -> int:
+    text = node.text_content().strip()
+    match = re.match(r"(?P<id>[0-9]+)(,(?P<rank>.+)|)", text)
+    if match is None:
+        logger.warning('faild to parse as a skill icon "%s"', text)
+        return 0
+    return int(match.group("id"))
 
 
 if __name__ == "__main__":
