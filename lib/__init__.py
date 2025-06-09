@@ -21,6 +21,7 @@ from .types import (
     Dictionary,
     Item,
     ItemID,
+    Resource,
     ResourceSet,
     Servant,
     ServantDictionary,
