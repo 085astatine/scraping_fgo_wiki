@@ -35,13 +35,14 @@ def main() -> None:
     # costumes
     costumes_path = directory.joinpath("costumes.json")
     costumes = load_costumes(costumes_path, logger)
-    # WIP
-    lib.servant_list(
+    # update servants
+    update_servants(
+        directory,
+        session,
         links,
-        costumes,
-        directory=directory,
-        force_update=option.force_update,
-        request_interval=option.request_interval,
+        group_costumes_by_servant(costumes),
+        logger,
+        option,
     )
 
 
@@ -235,6 +236,88 @@ def load_costumes(
         logger.error('failed to load costumes from "%s"', path)
         return []
     return costumes
+
+
+def group_costumes_by_servant(
+    costumes: list[Costume],
+) -> dict[lib.ServantID, list[lib.Costume]]:
+    result: dict[lib.ServantID, list[lib.Costume]] = {}
+    for costume in costumes:
+        result.setdefault(costume["servant_id"], []).append(
+            lib.Costume(
+                id=costume["costume_id"],
+                name=costume["name"],
+                resource=costume["resource"],
+            )
+        )
+    return result
+
+
+def update_servants(
+    directory: pathlib.Path,
+    session: requests.Session,
+    links: list[ServantLink],
+    costumes: dict[lib.ServantID, list[lib.Costume]],
+    logger: logging.Logger,
+    option: Option,
+) -> None:
+    for link in links:
+        path = directory.joinpath(f"{link['id']:03d}.json")
+        if option.force_update or not path.exists():
+            servant = request_servant(
+                session,
+                link,
+                costumes.get(link["id"], []),
+                lib.ServantLogger(logger, link["id"], link["name"]),
+            )
+            if servant is not None:
+                logger.info(
+                    'save servant %03d %s to "%s"',
+                    servant["id"],
+                    servant["name"],
+                    path,
+                )
+                lib.save_json(path, servant)
+            time.sleep(option.request_interval)
+        else:
+            logger.info("skip updating %03d %s", link["id"], link["name"])
+
+
+def request_servant(
+    session: requests.Session,
+    link: ServantLink,
+    costumes: list[lib.Costume],
+    logger: lib.ServantLogger,
+) -> Optional[lib.Servant]:
+    logger.info('request "%s"', link["url"])
+    response = session.get(link["url"])
+    logger.debug("response %d", response.status_code)
+    if not response.ok:
+        logger.error('failed to request "%s"', link["url"])
+        return None
+    root = lxml.html.fromstring(response.text)
+    return parse_servant_page(root, link, costumes, logger)
+
+
+def parse_servant_page(
+    root: lxml.html.HtmlElement,
+    link: ServantLink,
+    costumes: list[lib.Costume],
+    logger: lib.ServantLogger,
+) -> lib.Servant:
+    return lib.Servant(
+        id=link["id"],
+        name=link["name"],
+        alias_name=None,
+        klass=link["klass"],
+        rarity=link["rarity"],
+        skills=[],
+        append_skills=[],
+        costumes=costumes,
+        ascension_resources=[],
+        skill_resources=[],
+        append_skill_resources=[],
+    )
 
 
 if __name__ == "__main__":
