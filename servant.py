@@ -350,6 +350,14 @@ def parse_skills(
         skill = parse_skill(node, logger)
         if skill is None:
             continue
+        logger.debug(
+            'skill %d-%d: "%s" (rank: "%s", icon: %d)',
+            skill["slot"],
+            skill["level"],
+            skill["name"],
+            skill["rank"],
+            skill["icon"],
+        )
         skills[skill["slot"] - 1].append(skill)
     return skills
 
@@ -367,6 +375,14 @@ def parse_append_skills(
         skill = parse_skill(node, logger)
         if skill is None:
             continue
+        logger.debug(
+            'append skill %d-%d: "%s" (rank: "%s", icon: %d)',
+            skill["slot"],
+            skill["level"],
+            skill["name"],
+            skill["rank"],
+            skill["icon"],
+        )
         skills[skill["slot"] - 1].append(skill)
     return skills
 
@@ -395,14 +411,6 @@ def parse_skill(
     icon = parse_skill_icon(
         node.xpath("following-sibling::div[1]/table//td[@rowspan]")[0],
         logger,
-    )
-    logger.debug(
-        'skill %d-%d: "%s" (rank: "%s", icon: %d)',
-        slot,
-        level,
-        name,
-        rank,
-        icon,
     )
     return lib.Skill(
         slot=slot,
