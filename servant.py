@@ -446,13 +446,12 @@ def parse_ascension_resources(
     logger: lib.ServantLogger,
 ) -> list[lib.ResourceSet]:
     parser = ResourceSetParser(mode="ascension", logger=logger)
-    for row in root.xpath(
+    for cell in root.xpath(
         '//div[@id="wikibody"]'
         '//h3[normalize-space()="霊基再臨"]'
-        "/following-sibling::div[1]/div/table[1]/tbody/tr[td]"
+        "/following-sibling::div[1]/div/table[1]/tbody/tr/td"
     ):
-        for cell in row.xpath("td"):
-            parser.push(cell)
+        parser.push(cell)
     return parser.result()
 
 
@@ -461,13 +460,12 @@ def parse_skill_resources(
     logger: lib.ServantLogger,
 ) -> list[lib.ResourceSet]:
     parser = ResourceSetParser(mode="skill", logger=logger)
-    for row in root.xpath(
+    for cell in root.xpath(
         '//div[@id="wikibody"]'
         '//h3[normalize-space()="スキル強化"]'
-        "/following-sibling::div[1]/div/table[1]/tbody/tr[td]"
+        "/following-sibling::div[1]/div/table[1]/tbody/tr/td"
     ):
-        for cell in row.xpath("td"):
-            parser.push(cell)
+        parser.push(cell)
     return parser.result()
 
 
@@ -476,13 +474,12 @@ def parse_append_skill_resources(
     logger: lib.ServantLogger,
 ) -> list[lib.ResourceSet]:
     parser = ResourceSetParser(mode="skill", logger=logger)
-    for row in root.xpath(
+    for cell in root.xpath(
         '//div[@id="wikibody"]'
         '//h3[normalize-space()="アペンドスキル強化"]'
-        "/following-sibling::div[1]/div/table[1]/tbody/tr[td]"
+        "/following-sibling::div[1]/div/table[1]/tbody/tr/td"
     ):
-        for cell in row.xpath("td"):
-            parser.push(cell)
+        parser.push(cell)
     return parser.result()
 
 
