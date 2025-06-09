@@ -8,7 +8,6 @@ from .servant import (
     ServantLogger,
     load_servants,
     servant_dict,
-    servant_list,
     skill_dict,
     unplayable_servant_ids,
 )

@@ -3,15 +3,13 @@ from __future__ import annotations
 import logging
 import pathlib
 import re
-from typing import TYPE_CHECKING, Literal
+from typing import Literal
 
 import jsonschema
 
 from .io import load_json
 from .schema import servant as servant_schema
-
-if TYPE_CHECKING:
-    from .servant import AppendSkills, Costume, Servant, Skill, Skills
+from .types import AppendSkills, Costume, Servant, Skill, Skills
 
 _logger = logging.getLogger(__name__)
 
