@@ -30,6 +30,11 @@ from .types import (
     Skills,
     Text,
 )
-from .validate import validate_servant, validate_servants
+from .validate import (
+    validate_append_skills,
+    validate_servant,
+    validate_servants,
+    validate_skills,
+)
 
 logging.getLogger(__package__).addHandler(logging.NullHandler())

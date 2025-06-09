@@ -359,6 +359,8 @@ def parse_skills(
             skill["icon"],
         )
         skills[skill["slot"] - 1].append(skill)
+    # check
+    lib.validate_skills(skills, logger)
     return skills
 
 
@@ -384,6 +386,8 @@ def parse_append_skills(
             skill["icon"],
         )
         skills[skill["slot"] - 1].append(skill)
+    # check
+    lib.validate_append_skills(skills, logger)
     return skills
 
 
