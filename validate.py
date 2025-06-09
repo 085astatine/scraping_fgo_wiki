@@ -19,8 +19,11 @@ def main() -> None:
     )
     logger.addHandler(handler)
     # validate servants
-    servant_directory = pathlib.Path("./data/servant")
-    if not lib.validate_servants(servant_directory):
+    servants = lib.load_servants(
+        pathlib.Path("./data/servant"),
+        logger=logger,
+    )
+    if not lib.validate_servants(servants, logger=logger):
         sys.exit(1)
 
 
