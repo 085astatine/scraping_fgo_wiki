@@ -326,6 +326,7 @@ def parse_servant_page(
         id=link["id"],
         name=link["name"],
         false_name=None,
+        ascension_names=None,
         klass=link["klass"],
         rarity=link["rarity"],
         skills=skills,

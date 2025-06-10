@@ -17,6 +17,17 @@ def servant() -> dict[str, Any]:
             "false_name": {
                 "type": ["null", "string"],
             },
+            "ascension_names": {
+                "oneOf": [
+                    {"type": "null"},
+                    {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "minItems": 4,
+                        "maxItems": 4,
+                    },
+                ],
+            },
             "klass": klass(),
             "rarity": {
                 "type": "integer",
@@ -52,6 +63,7 @@ def servant() -> dict[str, Any]:
             "id",
             "name",
             "false_name",
+            "ascension_names",
             "klass",
             "rarity",
             "costumes",

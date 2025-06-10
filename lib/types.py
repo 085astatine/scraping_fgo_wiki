@@ -45,6 +45,7 @@ class Servant(TypedDict):
     id: ServantID
     name: str
     false_name: Optional[str]
+    ascension_names: Optional[list[str]]
     klass: str
     rarity: int
     skills: Skills
