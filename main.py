@@ -45,19 +45,6 @@ def load_items(path: pathlib.Path) -> list[lib.Item]:
     return items
 
 
-def load_servants(
-    path: pathlib.Path,
-    *,
-    force_update: bool = False,
-    request_interval: float = _REQUEST_INTERVAL,
-) -> list[lib.Servant]:
-    return lib.servant_list(
-        directory=path,
-        force_update=force_update,
-        request_interval=request_interval,
-    )
-
-
 def load_sounds(
     path: pathlib.Path,
     *,
@@ -83,7 +70,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Fate/Grand Order scrayping")
     parser.add_argument(
         "mode",
-        choices=["dict", "servant", "sound", "merge"],
+        choices=["dict", "sound", "merge"],
         help="scraping target",
     )
     parser.add_argument(
@@ -120,17 +107,6 @@ def main() -> None:
             pathlib.Path("data/dictionary/"),
             force_update=option.force or option.mode == "dict",
         )
-    # item
-    if option.mode in ["merge"]:
-        logger.info("run: item")
-        items = load_items(pathlib.Path("data/items.json"))
-    # servant
-    if option.mode in ["servant", "merge"]:
-        logger.info("run: servant")
-        servants = load_servants(
-            pathlib.Path("data/servant/"),
-            force_update=option.force,
-        )
     # sound
     if option.mode in ["sound", "merge"]:
         logger.info("run: sound")
@@ -141,6 +117,11 @@ def main() -> None:
     # master data
     if option.mode == "merge":
         logger.info("run: merge")
+        items = load_items(pathlib.Path("data/items.json"))
+        servants = lib.load_servants(
+            pathlib.Path("data/servant/"),
+            logger=logger,
+        )
         data = lib.merge(items, servants, sounds, dictionary)
         lib.save_json(pathlib.Path("data/master_data.json"), data)
 

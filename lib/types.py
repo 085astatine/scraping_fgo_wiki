@@ -2,9 +2,13 @@ from __future__ import annotations
 
 from typing import Optional, TypedDict
 
+type ItemID = int
+type ServantID = int
+type CostumeID = int
+
 
 class Item(TypedDict):
-    id: int
+    id: ItemID
     rarity: str
     name: str
 
@@ -32,13 +36,13 @@ class ResourceSet(TypedDict):
 
 
 class Costume(TypedDict):
-    id: int
+    id: CostumeID
     name: str
     resource: ResourceSet
 
 
 class Servant(TypedDict):
-    id: int
+    id: ServantID
     name: str
     alias_name: Optional[str]
     klass: str
@@ -56,7 +60,7 @@ class Text(TypedDict):
     en: str
 
 
-type ItemDictionary = dict[int, str]
+type ItemDictionary = dict[ItemID, str]
 
 
 class ServantDictionaryValue(TypedDict):
@@ -66,7 +70,7 @@ class ServantDictionaryValue(TypedDict):
     append_skills: list[list[str]]
 
 
-type ServantDictionary = dict[int, ServantDictionaryValue]
+type ServantDictionary = dict[ServantID, ServantDictionaryValue]
 
 
 class Dictionary(TypedDict):
