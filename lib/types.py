@@ -44,7 +44,7 @@ class Costume(TypedDict):
 class Servant(TypedDict):
     id: ServantID
     name: str
-    alias_name: Optional[str]
+    false_name: Optional[str]
     klass: str
     rarity: int
     skills: Skills
@@ -65,7 +65,7 @@ type ItemDictionary = dict[ItemID, str]
 
 class ServantDictionaryValue(TypedDict):
     name: str
-    alias_name: Optional[str]
+    false_name: Optional[str]
     skills: list[list[str]]
     append_skills: list[list[str]]
 

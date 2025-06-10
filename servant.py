@@ -325,7 +325,7 @@ def parse_servant_page(
     return lib.Servant(
         id=link["id"],
         name=link["name"],
-        alias_name=None,
+        false_name=None,
         klass=link["klass"],
         rarity=link["rarity"],
         skills=skills,

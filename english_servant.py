@@ -295,7 +295,7 @@ class Skill(TypedDict):
 class Servant(TypedDict):
     id: lib.ServantID
     name: str
-    alias_name: Optional[str]
+    false_name: Optional[str]
     active_skills: list[list[Skill]]
     append_skills: list[list[Skill]]
 
@@ -387,7 +387,7 @@ def parse_servant_data(
     logger: lib.ServantLogger,
 ) -> Servant:
     # alias name
-    alias_name = parse_alias_name(source, logger)
+    false_name = parse_false_name(source, logger)
     # active skills
     active_skills = parse_active_skills(source, logger)
     # append skills
@@ -395,13 +395,13 @@ def parse_servant_data(
     return Servant(
         id=link["id"],
         name=link["title"],
-        alias_name=alias_name,
+        false_name=false_name,
         active_skills=active_skills,
         append_skills=append_skills,
     )
 
 
-def parse_alias_name(
+def parse_false_name(
     source: str,
     logger: lib.ServantLogger,
 ) -> Optional[str]:
@@ -411,9 +411,9 @@ def parse_alias_name(
     )
     if match is None:
         return None
-    alias_name = match.group("name")
-    logger.info('alias name "%s"', alias_name)
-    return alias_name
+    false_name = match.group("name")
+    logger.info('false name "%s"', false_name)
+    return false_name
 
 
 def parse_active_skills(
@@ -560,13 +560,13 @@ def compare_servant(
     # id
     if en["id"] != jp["id"]:
         logger.error("servant IDs do not match")
-    # alias name
-    if en["alias_name"] is not None:
-        if jp["alias_name"] is None:
-            logger.error("only English has an alias name")
+    # false name
+    if en["false_name"] is not None:
+        if jp["false_name"] is None:
+            logger.error("only English has an false name")
     else:
-        if jp["alias_name"] is not None:
-            logger.error("only Japanese has an alias name")
+        if jp["false_name"] is not None:
+            logger.error("only Japanese has an false name")
     # active skills
     compare_skills("skill", en["active_skills"], jp["skills"], logger)
     # append skills
@@ -633,7 +633,7 @@ def to_dictionary(
 def to_dictionary_value(servant: Servant) -> lib.ServantDictionaryValue:
     return lib.ServantDictionaryValue(
         name=servant["name"],
-        alias_name=servant["alias_name"],
+        false_name=servant["false_name"],
         skills=[
             [skill["name"] for skill in skill_n] for skill_n in servant["active_skills"]
         ],

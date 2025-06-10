@@ -14,7 +14,7 @@ def servant() -> dict[str, Any]:
                 "minimum": 1,
             },
             "name": {"type": "string"},
-            "alias_name": {
+            "false_name": {
                 "type": ["null", "string"],
             },
             "klass": klass(),
@@ -51,7 +51,7 @@ def servant() -> dict[str, Any]:
         "required": [
             "id",
             "name",
-            "alias_name",
+            "false_name",
             "klass",
             "rarity",
             "costumes",
