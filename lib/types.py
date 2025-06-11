@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Optional, TypedDict
+from typing import NotRequired, Optional, TypedDict
 
 type ItemID = int
 type ServantID = int
@@ -54,6 +54,13 @@ class Servant(TypedDict):
     ascension_resources: list[ResourceSet]
     skill_resources: list[ResourceSet]
     append_skill_resources: list[ResourceSet]
+
+
+class ServantName(TypedDict):
+    id: ServantID
+    name: NotRequired[str]
+    false_name: NotRequired[str]
+    ascension_names: NotRequired[list[str]]
 
 
 class CostumeData(TypedDict):

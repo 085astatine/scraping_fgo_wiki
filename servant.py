@@ -34,6 +34,12 @@ def main() -> None:
     # links
     links_path = directory.joinpath("link.json")
     links = get_servant_links(links_path, session, logger, option)
+    # servant names
+    servant_names_path = directory.joinpath("name.json")
+    servant_names = {
+        name["id"]: name
+        for name in lib.load_servant_names(servant_names_path, logger=logger) or []
+    }
     # costumes
     costumes_path = directory.joinpath("costumes.json")
     costumes = group_costumes_by_servant(
@@ -44,6 +50,7 @@ def main() -> None:
         directory,
         session,
         links,
+        servant_names,
         costumes,
         logger,
         option,
@@ -243,6 +250,7 @@ def update_servants(
     directory: pathlib.Path,
     session: requests.Session,
     links: list[ServantLink],
+    servant_names: dict[lib.ServantID, lib.ServantName],
     costumes: dict[lib.ServantID, list[lib.Costume]],
     logger: logging.Logger,
     option: Option,
@@ -253,6 +261,7 @@ def update_servants(
             servant = request_servant(
                 session,
                 link,
+                servant_names.get(link["id"], None),
                 costumes.get(link["id"], []),
                 lib.ServantLogger(logger, link["id"], link["name"]),
             )
@@ -272,6 +281,7 @@ def update_servants(
 def request_servant(
     session: requests.Session,
     link: ServantLink,
+    servant_name: Optional[lib.ServantName],
     costumes: list[lib.Costume],
     logger: lib.ServantLogger,
 ) -> Optional[lib.Servant]:
@@ -282,15 +292,21 @@ def request_servant(
         logger.error('failed to request "%s"', link["url"])
         return None
     root = lxml.html.fromstring(response.text)
-    return parse_servant_page(root, link, costumes, logger)
+    return parse_servant_page(root, link, servant_name, costumes, logger)
 
 
 def parse_servant_page(
     root: lxml.html.HtmlElement,
     link: ServantLink,
+    servant_name: Optional[lib.ServantName],
     costumes: list[lib.Costume],
     logger: lib.ServantLogger,
 ) -> lib.Servant:
+    # name, false_name, ascension_names
+    servant_name = servant_name or lib.ServantName(id=link["id"])
+    name = servant_name.get("name", None) or link["name"]
+    false_name = servant_name.get("false_name", None)
+    ascension_names = servant_name.get("ascension_names", None)
     # skills
     logger.debug("skills")
     skills = parse_skills(root, logger)
@@ -308,9 +324,9 @@ def parse_servant_page(
     append_skill_resources = parse_append_skill_resources(root, logger)
     return lib.Servant(
         id=link["id"],
-        name=link["name"],
-        false_name=None,
-        ascension_names=None,
+        name=name,
+        false_name=false_name,
+        ascension_names=ascension_names,
         klass=link["klass"],
         rarity=link["rarity"],
         skills=skills,

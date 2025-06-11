@@ -10,7 +10,7 @@ import requests
 
 from .io import load_json
 from .text import Text
-from .types import CostumeData, Servant
+from .types import CostumeData, Servant, ServantName
 
 
 def load_servants(
@@ -60,6 +60,20 @@ def load_servant(
         servant["name"],
     )
     return servant
+
+
+def load_servant_names(
+    path: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> Optional[list[ServantName]]:
+    logger = logger or logging.getLogger(__name__)
+    logger.info('load servant names from "%s"', path)
+    names = load_json(path)
+    if names is None:
+        logger.error('failed to load servant names from "%s"', path)
+        return None
+    return names
 
 
 def load_costumes(
