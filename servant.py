@@ -9,7 +9,7 @@ import pathlib
 import re
 import time
 import unicodedata
-from typing import Literal, Optional, TypedDict
+from typing import Literal, Optional
 
 import fake_useragent
 import lxml.html
@@ -34,15 +34,24 @@ def main() -> None:
     # links
     links_path = directory.joinpath("link.json")
     links = get_servant_links(links_path, session, logger, option)
+    # servant names
+    servant_names_path = directory.joinpath("name.json")
+    servant_names = {
+        name["id"]: name
+        for name in lib.load_servant_names(servant_names_path, logger=logger) or []
+    }
     # costumes
     costumes_path = directory.joinpath("costumes.json")
-    costumes = load_costumes(costumes_path, logger)
+    costumes = group_costumes_by_servant(
+        lib.load_costumes(costumes_path, logger=logger)
+    )
     # update servants
     update_servants(
         directory,
         session,
         links,
-        group_costumes_by_servant(costumes),
+        servant_names,
+        costumes,
         logger,
         option,
     )
@@ -112,46 +121,26 @@ def create_session(
     return session
 
 
-class ServantLink(TypedDict):
-    id: lib.ServantID
-    klass: str
-    rarity: int
-    name: str
-    url: str
-
-
 def get_servant_links(
     path: pathlib.Path,
     session: requests.Session,
     logger: logging.Logger,
     option: Option,
-) -> list[ServantLink]:
+) -> list[lib.ServantLink]:
     if option.force_update or not path.exists():
         links = request_servant_links(session, logger)
         logger.info('save servant links to "%s"', path)
         lib.save_json(path, links)
         time.sleep(option.request_interval)
     else:
-        links = load_servant_links(path, logger)
-    return links
-
-
-def load_servant_links(
-    path: pathlib.Path,
-    logger: logging.Logger,
-) -> list[ServantLink]:
-    logger.info('load servant links from "%s"', path)
-    links = lib.load_json(path)
-    if links is None:
-        logger.error('failed to load servant links from "%s"', path)
-        return []
+        links = lib.load_servant_links(path, logger=logger) or []
     return links
 
 
 def request_servant_links(
     session: requests.Session,
     logger: logging.Logger,
-) -> list[ServantLink]:
+) -> list[lib.ServantLink]:
     url = "https://w.atwiki.jp/f_go/pages/713.html"
     logger.info('request: "%s"', url)
     response = session.get(url)
@@ -166,7 +155,7 @@ def request_servant_links(
 def parse_servant_links(
     root: lxml.html.HtmlElement,
     logger: logging.Logger,
-) -> list[ServantLink]:
+) -> list[lib.ServantLink]:
     unplayable_ids = lib.unplayable_servant_ids()
     to_servant_class = {
         "剣": "Saber",  # セイバー
@@ -185,7 +174,7 @@ def parse_servant_links(
         "詐": "Pretender",  # プリテンダー
         "獣": "Beast",  # ビースト
     }
-    links: list[ServantLink] = []
+    links: list[lib.ServantLink] = []
     for row in root.xpath(
         '//h2[normalize-space()="サーヴァント一覧"]/'
         "following-sibling::div[1]//"
@@ -199,7 +188,7 @@ def parse_servant_links(
         name = row.xpath("td[3]//a")[0].text
         klass = to_servant_class[row.xpath("td[4]")[0].text.strip()]
         href = row.xpath("td[3]//a")[0].get("href")
-        link = ServantLink(
+        link = lib.ServantLink(
             id=servant_id,
             name=name,
             klass=klass,
@@ -220,29 +209,11 @@ def parse_servant_links(
     return links
 
 
-class Costume(TypedDict):
-    costume_id: lib.CostumeID
-    servant_id: lib.ServantID
-    name: str
-    flavor_text: str
-    resource: lib.ResourceSet
-
-
-def load_costumes(
-    path: pathlib.Path,
-    logger: logging.Logger,
-) -> list[Costume]:
-    logger.info('load costumes from "%s"', path)
-    costumes = lib.load_json(path)
-    if costumes is None:
-        logger.error('failed to load costumes from "%s"', path)
-        return []
-    return costumes
-
-
 def group_costumes_by_servant(
-    costumes: list[Costume],
+    costumes: Optional[list[lib.CostumeData]],
 ) -> dict[lib.ServantID, list[lib.Costume]]:
+    if costumes is None:
+        return {}
     result: dict[lib.ServantID, list[lib.Costume]] = {}
     for costume in costumes:
         result.setdefault(costume["servant_id"], []).append(
@@ -258,7 +229,8 @@ def group_costumes_by_servant(
 def update_servants(
     directory: pathlib.Path,
     session: requests.Session,
-    links: list[ServantLink],
+    links: list[lib.ServantLink],
+    servant_names: dict[lib.ServantID, lib.ServantName],
     costumes: dict[lib.ServantID, list[lib.Costume]],
     logger: logging.Logger,
     option: Option,
@@ -269,6 +241,7 @@ def update_servants(
             servant = request_servant(
                 session,
                 link,
+                servant_names.get(link["id"], None),
                 costumes.get(link["id"], []),
                 lib.ServantLogger(logger, link["id"], link["name"]),
             )
@@ -287,7 +260,8 @@ def update_servants(
 
 def request_servant(
     session: requests.Session,
-    link: ServantLink,
+    link: lib.ServantLink,
+    servant_name: Optional[lib.ServantName],
     costumes: list[lib.Costume],
     logger: lib.ServantLogger,
 ) -> Optional[lib.Servant]:
@@ -298,15 +272,21 @@ def request_servant(
         logger.error('failed to request "%s"', link["url"])
         return None
     root = lxml.html.fromstring(response.text)
-    return parse_servant_page(root, link, costumes, logger)
+    return parse_servant_page(root, link, servant_name, costumes, logger)
 
 
 def parse_servant_page(
     root: lxml.html.HtmlElement,
-    link: ServantLink,
+    link: lib.ServantLink,
+    servant_name: Optional[lib.ServantName],
     costumes: list[lib.Costume],
     logger: lib.ServantLogger,
 ) -> lib.Servant:
+    # name, false_name, ascension_names
+    servant_name = servant_name or lib.ServantName(id=link["id"])
+    name = servant_name.get("name", None) or link["name"]
+    false_name = servant_name.get("false_name", None)
+    ascension_names = servant_name.get("ascension_names", None)
     # skills
     logger.debug("skills")
     skills = parse_skills(root, logger)
@@ -324,8 +304,9 @@ def parse_servant_page(
     append_skill_resources = parse_append_skill_resources(root, logger)
     return lib.Servant(
         id=link["id"],
-        name=link["name"],
-        alias_name=None,
+        name=name,
+        false_name=false_name,
+        ascension_names=ascension_names,
         klass=link["klass"],
         rarity=link["rarity"],
         skills=skills,

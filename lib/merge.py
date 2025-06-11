@@ -166,8 +166,8 @@ def _convert_servant(
         id=servant_["id"],
         name=_convert_text(servant_["name"], dictionary["servant"]),
         alias_name=(
-            _convert_text(servant_["alias_name"], dictionary["servant"])
-            if servant_["alias_name"] is not None
+            _convert_text(servant_["false_name"], dictionary["servant"])
+            if servant_["false_name"] is not None
             else None
         ),
         klass=servant_["klass"],

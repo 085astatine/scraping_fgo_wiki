@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Optional, TypedDict
+from typing import NotRequired, Optional, TypedDict
 
 type ItemID = int
 type ServantID = int
@@ -44,7 +44,8 @@ class Costume(TypedDict):
 class Servant(TypedDict):
     id: ServantID
     name: str
-    alias_name: Optional[str]
+    false_name: Optional[str]
+    ascension_names: Optional[list[str]]
     klass: str
     rarity: int
     skills: Skills
@@ -53,6 +54,29 @@ class Servant(TypedDict):
     ascension_resources: list[ResourceSet]
     skill_resources: list[ResourceSet]
     append_skill_resources: list[ResourceSet]
+
+
+class ServantLink(TypedDict):
+    id: ServantID
+    klass: str
+    rarity: int
+    name: str
+    url: str
+
+
+class ServantName(TypedDict):
+    id: ServantID
+    name: NotRequired[str]
+    false_name: NotRequired[str]
+    ascension_names: NotRequired[list[str]]
+
+
+class CostumeData(TypedDict):
+    costume_id: CostumeID
+    servant_id: ServantID
+    name: str
+    flavor_text: str
+    resource: ResourceSet
 
 
 class Text(TypedDict):
@@ -65,7 +89,7 @@ type ItemDictionary = dict[ItemID, str]
 
 class ServantDictionaryValue(TypedDict):
     name: str
-    alias_name: Optional[str]
+    false_name: Optional[str]
     skills: list[list[str]]
     append_skills: list[list[str]]
 
