@@ -7,6 +7,7 @@ from .merge import merge
 from .servant import (
     ServantLogger,
     load_costumes,
+    load_servant_links,
     load_servant_names,
     load_servants,
     servant_dict,
@@ -29,6 +30,7 @@ from .types import (
     ServantDictionary,
     ServantDictionaryValue,
     ServantID,
+    ServantLink,
     ServantName,
     Skill,
     Skills,

@@ -10,7 +10,7 @@ import requests
 
 from .io import load_json
 from .text import Text
-from .types import CostumeData, Servant, ServantName
+from .types import CostumeData, Servant, ServantLink, ServantName
 
 
 def load_servants(
@@ -60,6 +60,20 @@ def load_servant(
         servant["name"],
     )
     return servant
+
+
+def load_servant_links(
+    path: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> Optional[list[ServantLink]]:
+    logger = logger or logging.getLogger(__name__)
+    logger.info('load servant links from "%s"', path)
+    links = load_json(path)
+    if links is None:
+        logger.error('failed to load servant links from "%s"', path)
+        return None
+    return links
 
 
 def load_servant_names(

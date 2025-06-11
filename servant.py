@@ -9,7 +9,7 @@ import pathlib
 import re
 import time
 import unicodedata
-from typing import Literal, Optional, TypedDict
+from typing import Literal, Optional
 
 import fake_useragent
 import lxml.html
@@ -121,46 +121,26 @@ def create_session(
     return session
 
 
-class ServantLink(TypedDict):
-    id: lib.ServantID
-    klass: str
-    rarity: int
-    name: str
-    url: str
-
-
 def get_servant_links(
     path: pathlib.Path,
     session: requests.Session,
     logger: logging.Logger,
     option: Option,
-) -> list[ServantLink]:
+) -> list[lib.ServantLink]:
     if option.force_update or not path.exists():
         links = request_servant_links(session, logger)
         logger.info('save servant links to "%s"', path)
         lib.save_json(path, links)
         time.sleep(option.request_interval)
     else:
-        links = load_servant_links(path, logger)
-    return links
-
-
-def load_servant_links(
-    path: pathlib.Path,
-    logger: logging.Logger,
-) -> list[ServantLink]:
-    logger.info('load servant links from "%s"', path)
-    links = lib.load_json(path)
-    if links is None:
-        logger.error('failed to load servant links from "%s"', path)
-        return []
+        links = lib.load_servant_links(path, logger=logger) or []
     return links
 
 
 def request_servant_links(
     session: requests.Session,
     logger: logging.Logger,
-) -> list[ServantLink]:
+) -> list[lib.ServantLink]:
     url = "https://w.atwiki.jp/f_go/pages/713.html"
     logger.info('request: "%s"', url)
     response = session.get(url)
@@ -175,7 +155,7 @@ def request_servant_links(
 def parse_servant_links(
     root: lxml.html.HtmlElement,
     logger: logging.Logger,
-) -> list[ServantLink]:
+) -> list[lib.ServantLink]:
     unplayable_ids = lib.unplayable_servant_ids()
     to_servant_class = {
         "剣": "Saber",  # セイバー
@@ -194,7 +174,7 @@ def parse_servant_links(
         "詐": "Pretender",  # プリテンダー
         "獣": "Beast",  # ビースト
     }
-    links: list[ServantLink] = []
+    links: list[lib.ServantLink] = []
     for row in root.xpath(
         '//h2[normalize-space()="サーヴァント一覧"]/'
         "following-sibling::div[1]//"
@@ -208,7 +188,7 @@ def parse_servant_links(
         name = row.xpath("td[3]//a")[0].text
         klass = to_servant_class[row.xpath("td[4]")[0].text.strip()]
         href = row.xpath("td[3]//a")[0].get("href")
-        link = ServantLink(
+        link = lib.ServantLink(
             id=servant_id,
             name=name,
             klass=klass,
@@ -249,7 +229,7 @@ def group_costumes_by_servant(
 def update_servants(
     directory: pathlib.Path,
     session: requests.Session,
-    links: list[ServantLink],
+    links: list[lib.ServantLink],
     servant_names: dict[lib.ServantID, lib.ServantName],
     costumes: dict[lib.ServantID, list[lib.Costume]],
     logger: logging.Logger,
@@ -280,7 +260,7 @@ def update_servants(
 
 def request_servant(
     session: requests.Session,
-    link: ServantLink,
+    link: lib.ServantLink,
     servant_name: Optional[lib.ServantName],
     costumes: list[lib.Costume],
     logger: lib.ServantLogger,
@@ -297,7 +277,7 @@ def request_servant(
 
 def parse_servant_page(
     root: lxml.html.HtmlElement,
-    link: ServantLink,
+    link: lib.ServantLink,
     servant_name: Optional[lib.ServantName],
     costumes: list[lib.Costume],
     logger: lib.ServantLogger,

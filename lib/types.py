@@ -56,6 +56,14 @@ class Servant(TypedDict):
     append_skill_resources: list[ResourceSet]
 
 
+class ServantLink(TypedDict):
+    id: ServantID
+    klass: str
+    rarity: int
+    name: str
+    url: str
+
+
 class ServantName(TypedDict):
     id: ServantID
     name: NotRequired[str]
