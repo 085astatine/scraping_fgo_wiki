@@ -319,6 +319,7 @@ class Servant(TypedDict):
     active_skills: list[list[Skill]]
     append_skills: list[list[Skill]]
     ascension_resources: list[lib.ResourceSet]
+    active_skill_resources: list[lib.ResourceSet]
 
 
 def get_servants(
@@ -415,6 +416,8 @@ def parse_servant_data(
     append_skills = parse_append_skills(source, logger)
     # ascension resources
     ascension_resources = parse_ascension_resources(source, logger)
+    # active skill resource
+    active_skill_resources = parse_active_skill_resources(source, logger)
     return Servant(
         id=link["id"],
         name=link["title"],
@@ -422,6 +425,7 @@ def parse_servant_data(
         active_skills=active_skills,
         append_skills=append_skills,
         ascension_resources=ascension_resources,
+        active_skill_resources=active_skill_resources,
     )
 
 
@@ -565,14 +569,57 @@ def parse_ascension_resources(
     source: str,
     logger: lib.ServantLogger,
 ) -> list[lib.ResourceSet]:
+    logger.debug("ascension resources")
     match = re.search(
         r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(\|.+\n)+?)\}\}",
         source,
     )
     if match is None:
         return []
-    resources = [lib.ResourceSet(qp=0, resources=[]) for _ in range(4)]
-    for line in match.group("body").split("\n"):
+    resources = parse_resource_set(
+        match.group("body").split("\n"),
+        4,
+        logger,
+    )
+    # qp
+    for i, qp in enumerate(ascension_qp()):
+        if resources[i]["resources"]:
+            resources[i]["qp"] = qp
+    return resources
+
+
+def parse_active_skill_resources(
+    source: str,
+    logger: lib.ServantLogger,
+) -> list[lib.ResourceSet]:
+    logger.debug("active skill resources")
+    match = re.search(
+        r"Active=\n\{\{Skillreinforcement\n(?P<body>(\|.+\n)+?)\}\}",
+        source,
+    )
+    if match is None:
+        return []
+    resources = parse_resource_set(
+        match.group("body").split("\n"),
+        9,
+        logger,
+    )
+    # qp
+    for i, qp in enumerate(skill_qp()):
+        if resources[i]["resources"]:
+            resources[i]["qp"] = qp
+    return resources
+
+
+def parse_resource_set(
+    lines: list[str],
+    max_level: int,
+    logger: lib.ServantLogger,
+) -> list[lib.ResourceSet]:
+    resources: list[lib.ResourceSet] = [
+        lib.ResourceSet(qp=0, resources=[]) for _ in range(max(0, max_level))
+    ]
+    for line in lines:
         resource = parse_resource(line)
         if resource is None:
             continue
@@ -583,17 +630,13 @@ def parse_ascension_resources(
             resource["item"],
             resource["piece"],
         )
-        if 1 <= resource["level"] and resource["level"] <= 4:
+        if 1 <= resource["level"] and resource["level"] <= max_level:
             resources[resource["level"] - 1]["resources"].append(
                 lib.Resource(
                     name=resource["item"],
                     piece=resource["piece"],
                 )
             )
-    # qp
-    for i, qp in enumerate(ascension_qp()):
-        if resources[i]["resources"]:
-            resources[i]["qp"] = qp
     return resources
 
 
@@ -626,6 +669,20 @@ def ascension_qp() -> list[int]:
         300000,
         1000000,
         3000000,
+    ]
+
+
+def skill_qp() -> list[int]:
+    return [
+        200000,
+        400000,
+        1200000,
+        1600000,
+        4000000,
+        5000000,
+        10000000,
+        12000000,
+        20000000,
     ]
 
 
