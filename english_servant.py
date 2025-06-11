@@ -87,6 +87,7 @@ class Option:
     verbose: bool
     force_update: bool
     request_interval: float
+    request_timeout: float
 
 
 def argument_parser() -> argparse.ArgumentParser:
@@ -113,6 +114,14 @@ def argument_parser() -> argparse.ArgumentParser:
         type=float,
         default=5.0,
         help="request interval seconds (default: %(default)s)",
+        metavar="SECONDS",
+    )
+    parser.add_argument(
+        "--request-timeout",
+        dest="request_timeout",
+        type=float,
+        default=10.0,
+        help="request timeout seconds (default: %(default)s)",
         metavar="SECONDS",
     )
     return parser
@@ -151,7 +160,12 @@ def get_servant_links(
     option: Option,
 ) -> ServantLinks:
     if option.force_update or not path.exists():
-        links = request_servant_links(session, logger, option.request_interval)
+        links = request_servant_links(
+            session,
+            logger,
+            option.request_interval,
+            option.request_timeout,
+        )
         logger.info('save servant links to "%s"', path)
         lib.save_json(path, links)
         time.sleep(option.request_interval)
@@ -176,6 +190,7 @@ def request_servant_links(
     session: requests.Session,
     logger: logging.Logger,
     request_interval: float,
+    request_timeout: float,
 ) -> ServantLinks:
     links: list[ServantLink] = []
     urls = [
@@ -188,7 +203,7 @@ def request_servant_links(
     for url in urls:
         # request URL
         logger.info('request "%s"', url)
-        response = session.get(url)
+        response = session.get(url, timeout=request_timeout)
         logger.debug("response: %d", response.status_code)
         if not response.ok:
             logger.error('failed to request "%s"', url)
@@ -241,7 +256,7 @@ def get_servant_data(
         path = directory.joinpath(f"{link['id']:03d}.txt")
         if option.force_update or not path.exists():
             # request data
-            data = request_servant_data(session, link, logger)
+            data = request_servant_data(session, link, logger, option.request_timeout)
             if data is not None:
                 logger.info(
                     'save %03d %s data to "%s"',
@@ -275,10 +290,15 @@ def request_servant_data(
     session: requests.Session,
     link: ServantLink,
     logger: logging.Logger,
+    request_timeout: float,
 ) -> Optional[str]:
     # request URL
     logger.info('request %03d %s to "%s"', link["id"], link["title"], link["url"])
-    response = session.get(link["url"], params={"action": "edit"})
+    response = session.get(
+        link["url"],
+        params={"action": "edit"},
+        timeout=request_timeout,
+    )
     logger.debug("response: %d", response.status_code)
     if not response.ok:
         logger.error('failed to request "%s"', link["url"])

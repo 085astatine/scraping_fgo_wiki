@@ -73,6 +73,7 @@ class Option:
     verbose: bool
     force_update: bool
     request_interval: float
+    request_timeout: float
 
 
 def argument_parser() -> argparse.ArgumentParser:
@@ -99,6 +100,14 @@ def argument_parser() -> argparse.ArgumentParser:
         type=float,
         default=5.0,
         help="request interval seconds (default: %(default)s)",
+        metavar="SECONDS",
+    )
+    parser.add_argument(
+        "--request-timeout",
+        dest="request_timeout",
+        type=float,
+        default=10.0,
+        help="request timeout seconds (default: %(default)s)",
         metavar="SECONDS",
     )
     return parser
@@ -128,7 +137,7 @@ def get_servant_links(
     option: Option,
 ) -> list[lib.ServantLink]:
     if option.force_update or not path.exists():
-        links = request_servant_links(session, logger)
+        links = request_servant_links(session, logger, option.request_timeout)
         logger.info('save servant links to "%s"', path)
         lib.save_json(path, links)
         time.sleep(option.request_interval)
@@ -140,10 +149,11 @@ def get_servant_links(
 def request_servant_links(
     session: requests.Session,
     logger: logging.Logger,
+    request_timeout: float,
 ) -> list[lib.ServantLink]:
     url = "https://w.atwiki.jp/f_go/pages/713.html"
     logger.info('request: "%s"', url)
-    response = session.get(url)
+    response = session.get(url, timeout=request_timeout)
     logger.debug("reqponse %d", response.status_code)
     if not response.ok:
         logger.error('failed to request "%s"', url)
@@ -227,6 +237,7 @@ def group_costumes_by_servant(
 
 
 def update_servants(
+    ## pylint: disable=too-many-arguments, too-many-positional-arguments
     directory: pathlib.Path,
     session: requests.Session,
     links: list[lib.ServantLink],
@@ -244,6 +255,7 @@ def update_servants(
                 servant_names.get(link["id"], None),
                 costumes.get(link["id"], []),
                 lib.ServantLogger(logger, link["id"], link["name"]),
+                option.request_timeout,
             )
             if servant is not None:
                 logger.info(
@@ -259,14 +271,16 @@ def update_servants(
 
 
 def request_servant(
+    ## pylint: disable=too-many-arguments, too-many-positional-arguments
     session: requests.Session,
     link: lib.ServantLink,
     servant_name: Optional[lib.ServantName],
     costumes: list[lib.Costume],
     logger: lib.ServantLogger,
+    request_timeout: float,
 ) -> Optional[lib.Servant]:
     logger.info('request "%s"', link["url"])
-    response = session.get(link["url"])
+    response = session.get(link["url"], timeout=request_timeout)
     logger.debug("response %d", response.status_code)
     if not response.ok:
         logger.error('failed to request "%s"', link["url"])
