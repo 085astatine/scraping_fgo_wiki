@@ -318,6 +318,7 @@ class Servant(TypedDict):
     false_name: Optional[str]
     active_skills: list[list[Skill]]
     append_skills: list[list[Skill]]
+    ascension_resources: list[lib.ResourceSet]
 
 
 def get_servants(
@@ -412,12 +413,15 @@ def parse_servant_data(
     active_skills = parse_active_skills(source, logger)
     # append skills
     append_skills = parse_append_skills(source, logger)
+    # ascension resources
+    ascension_resources = parse_ascension_resources(source, logger)
     return Servant(
         id=link["id"],
         name=link["title"],
         false_name=false_name,
         active_skills=active_skills,
         append_skills=append_skills,
+        ascension_resources=ascension_resources,
     )
 
 
@@ -555,6 +559,74 @@ def to_skill(name: str, rank: str) -> Skill:
         name=name,
         rank=rank if rank != "None" else "",
     )
+
+
+def parse_ascension_resources(
+    source: str,
+    logger: lib.ServantLogger,
+) -> list[lib.ResourceSet]:
+    match = re.search(
+        r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(\|.+\n)+?)\}\}",
+        source,
+    )
+    if match is None:
+        return []
+    resources = [lib.ResourceSet(qp=0, resources=[]) for _ in range(4)]
+    for line in match.group("body").split("\n"):
+        resource = parse_resource(line)
+        if resource is None:
+            continue
+        logger.debug(
+            '%d-%d "%s" x %d',
+            resource["level"],
+            resource["index"],
+            resource["item"],
+            resource["piece"],
+        )
+        if 1 <= resource["level"] and resource["level"] <= 4:
+            resources[resource["level"] - 1]["resources"].append(
+                lib.Resource(
+                    name=resource["item"],
+                    piece=resource["piece"],
+                )
+            )
+    # qp
+    for i, qp in enumerate(ascension_qp()):
+        if resources[i]["resources"]:
+            resources[i]["qp"] = qp
+    return resources
+
+
+class Resource(TypedDict):
+    level: int
+    index: int
+    item: str
+    piece: int
+
+
+def parse_resource(line: str) -> Optional[Resource]:
+    match = re.match(
+        r"\|(?P<level>[0-9]+)(?P<index>[0-9])"
+        r"\s*=\s*\{\{(?P<item>.+)\|(?P<piece>[0-9]+)\}\}",
+        line,
+    )
+    if match is None:
+        return None
+    return Resource(
+        level=int(match.group("level")),
+        index=int(match.group("index")),
+        item=match.group("item"),
+        piece=int(match.group("piece")),
+    )
+
+
+def ascension_qp() -> list[int]:
+    return [
+        100000,
+        300000,
+        1000000,
+        3000000,
+    ]
 
 
 def compare_servants(
