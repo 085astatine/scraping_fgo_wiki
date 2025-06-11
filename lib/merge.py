@@ -5,6 +5,7 @@ from typing import Optional, TypedDict
 
 from . import sound, text, types
 
+# pylint: disable=duplicate-code
 _logger = logging.getLogger(__name__)
 
 

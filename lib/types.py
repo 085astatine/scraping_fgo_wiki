@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from typing import NotRequired, Optional, TypedDict
 
-type ItemID = int
-type ServantID = int
-type CostumeID = int
+type ItemID = int  # pylint: disable=invalid-name
+type ServantID = int  # pylint: disable=invalid-name
+type CostumeID = int  # pylint: disable=invalid-name
 
 
 class Item(TypedDict):

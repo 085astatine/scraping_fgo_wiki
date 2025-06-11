@@ -227,6 +227,7 @@ def group_costumes_by_servant(
 
 
 def update_servants(
+    ## pylint: disable=too-many-arguments, too-many-positional-arguments
     directory: pathlib.Path,
     session: requests.Session,
     links: list[lib.ServantLink],
