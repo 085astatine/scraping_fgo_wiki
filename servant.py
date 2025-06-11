@@ -36,13 +36,15 @@ def main() -> None:
     links = get_servant_links(links_path, session, logger, option)
     # costumes
     costumes_path = directory.joinpath("costumes.json")
-    costumes = load_costumes(costumes_path, logger)
+    costumes = group_costumes_by_servant(
+        lib.load_costumes(costumes_path, logger=logger)
+    )
     # update servants
     update_servants(
         directory,
         session,
         links,
-        group_costumes_by_servant(costumes),
+        costumes,
         logger,
         option,
     )
@@ -220,29 +222,11 @@ def parse_servant_links(
     return links
 
 
-class Costume(TypedDict):
-    costume_id: lib.CostumeID
-    servant_id: lib.ServantID
-    name: str
-    flavor_text: str
-    resource: lib.ResourceSet
-
-
-def load_costumes(
-    path: pathlib.Path,
-    logger: logging.Logger,
-) -> list[Costume]:
-    logger.info('load costumes from "%s"', path)
-    costumes = lib.load_json(path)
-    if costumes is None:
-        logger.error('failed to load costumes from "%s"', path)
-        return []
-    return costumes
-
-
 def group_costumes_by_servant(
-    costumes: list[Costume],
+    costumes: Optional[list[lib.CostumeData]],
 ) -> dict[lib.ServantID, list[lib.Costume]]:
+    if costumes is None:
+        return {}
     result: dict[lib.ServantID, list[lib.Costume]] = {}
     for costume in costumes:
         result.setdefault(costume["servant_id"], []).append(

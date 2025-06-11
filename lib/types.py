@@ -56,6 +56,14 @@ class Servant(TypedDict):
     append_skill_resources: list[ResourceSet]
 
 
+class CostumeData(TypedDict):
+    costume_id: CostumeID
+    servant_id: ServantID
+    name: str
+    flavor_text: str
+    resource: ResourceSet
+
+
 class Text(TypedDict):
     jp: str
     en: str
