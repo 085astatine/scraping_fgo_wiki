@@ -24,7 +24,7 @@ def sound_list() -> list[Sound]:
     source_list = ["Part1", "Part1_5", "Part2", "Event"]
     # request
     url = "https://kamigame.jp/fgo/初心者攻略/サウンドプレイヤー.html"
-    response = requests.get(url)
+    response = requests.get(url, timeout=10.0)
     etree = lxml.html.fromstring(response.content)
     xpath = '//table[starts-with(@class, "wt")]'
     for i, table in enumerate(etree.xpath(xpath)):

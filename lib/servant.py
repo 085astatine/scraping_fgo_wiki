@@ -144,7 +144,7 @@ def servant_dict(
 ) -> dict[str, Text]:
     logger = logger or logging.getLogger(__name__)
     url = "https://grandorder.wiki/Servant_List"
-    response = requests.get(url)
+    response = requests.get(url, timeout=10.0)
     root = lxml.html.fromstring(response.text)
     xpath = '//table[@class="wikitable sortable"]//tr[td]'
     result: dict[str, Text] = {}
@@ -166,7 +166,7 @@ def skill_dict(
 ) -> dict[str, Text]:
     logger = logger or logging.getLogger(__name__)
     url = "https://grandorder.wiki/Skills"
-    response = requests.get(url)
+    response = requests.get(url, timeout=10.0)
     root = lxml.html.fromstring(response.text)
     xpath = '//h1[text()="Skills"]/following-sibling::div//table/tr[td]'
     result: dict[str, Text] = {}
