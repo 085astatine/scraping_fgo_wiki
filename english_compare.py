@@ -5,6 +5,10 @@ from __future__ import annotations
 import argparse
 import dataclasses
 import logging
+import pathlib
+
+import lib
+import lib.english
 
 
 def main() -> None:
@@ -16,6 +20,24 @@ def main() -> None:
     if option.verbose:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
+    # load english servants
+    en_servants: dict[lib.ServantID, lib.english.Servant] = {
+        servant["id"]: servant
+        for servant in lib.english.load_servants(
+            pathlib.Path("data/english/servant"),
+            logger=logger,
+        )
+    }
+    # load japanese servants
+    jp_servants: dict[lib.ServantID, lib.Servant] = {
+        servant["id"]: servant
+        for servant in lib.load_servants(
+            pathlib.Path("data/servant"),
+            logger=logger,
+        )
+    }
+    # compare
+    compare_servants(en_servants, jp_servants, logger)
 
 
 def create_logger() -> logging.Logger:
@@ -46,6 +68,90 @@ def argument_parser() -> argparse.ArgumentParser:
         help="set log level to debug",
     )
     return parser
+
+
+def compare_servants(
+    en: dict[lib.ServantID, lib.english.Servant],
+    jp: dict[lib.ServantID, lib.Servant],
+    logger: logging.Logger,
+) -> None:
+    for servant_id, jp_servant in jp.items():
+        servant_logger = lib.ServantLogger(logger, servant_id, jp_servant["name"])
+        servant_logger.debug("start comparing")
+        en_servant = en.get(servant_id, None)
+        if en_servant is not None:
+            compare_servant(en_servant, jp_servant, servant_logger)
+        else:
+            servant_logger.error("does not exits in English")
+
+
+def compare_servant(
+    en: lib.english.Servant,
+    jp: lib.Servant,
+    logger: lib.ServantLogger,
+) -> None:
+    # id
+    if en["id"] != jp["id"]:
+        logger.error("servant IDs do not match")
+    # false name
+    if en["false_name"] is not None:
+        if jp["false_name"] is None:
+            logger.error("only English has an false name")
+    else:
+        if jp["false_name"] is not None:
+            logger.error("only Japanese has an false name")
+    # active skills
+    compare_skills("skill", en["active_skills"], jp["skills"], logger)
+    # append skills
+    compare_skills("append skill", en["append_skills"], jp["append_skills"], logger)
+
+
+def compare_skills(
+    target: str,
+    en: list[list[lib.english.Skill]],
+    jp: list[list[lib.Skill]],
+    logger: lib.ServantLogger,
+) -> None:
+    # slots
+    if len(en) != len(jp):
+        logger.error(
+            "%s: slots don't match (en:%d, jp:%d)",
+            target,
+            len(en),
+            len(jp),
+        )
+    # skill
+    slots = len(en)
+    for i in range(slots):
+        compare_skill(f"{target} {i+1}", en[i], jp[i], logger)
+
+
+def compare_skill(
+    target: str,
+    en: list[lib.english.Skill],
+    jp: list[lib.Skill],
+    logger: lib.ServantLogger,
+) -> None:
+    # levels
+    if len(en) != len(jp):
+        logger.error(
+            "%s: levels don't match (en:%d, jp:%d)",
+            target,
+            len(en),
+            len(jp),
+        )
+        return
+    # rank
+    levels = len(en)
+    for i in range(levels):
+        if en[i]["rank"] != jp[i]["rank"]:
+            logger.error(
+                '%s: rank don\'t match at level %d (en:"%s", jp:"%s")',
+                f"{target}-{i+1}",
+                i,
+                en[i]["rank"],
+                jp[i]["rank"],
+            )
 
 
 if __name__ == "__main__":

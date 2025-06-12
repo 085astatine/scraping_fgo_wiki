@@ -27,14 +27,6 @@ def main() -> None:
     if option.verbose:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
-    # load servants
-    servants_jp: dict[lib.ServantID, lib.Servant] = {
-        servant["id"]: servant
-        for servant in lib.load_servants(
-            pathlib.Path("data/servant"),
-            logger=logger,
-        )
-    }
     # session
     session = create_session(logger=logger)
     # servant links
@@ -56,17 +48,15 @@ def main() -> None:
     )
     # servants
     servant_directory = pathlib.Path("data/english/servant")
-    servants_en = get_servants(
+    servants = get_servants(
         servant_directory,
         servant_links,
         servant_data,
         logger,
         option,
     )
-    # compare English with Japanese
-    compare_servants(servants_en, servants_jp, logger)
     # to English dictionary
-    english_dictionary = to_dictionary(servants_en)
+    english_dictionary = to_dictionary(servants)
     dictionary_path = pathlib.Path("data/english/servant.json")
     logger.info('save english dictionary to "%s"', dictionary_path)
     lib.save_json(dictionary_path, english_dictionary)
@@ -716,90 +706,6 @@ def skill_qp() -> list[int]:
         12000000,
         20000000,
     ]
-
-
-def compare_servants(
-    en: dict[lib.ServantID, lib.english.Servant],
-    jp: dict[lib.ServantID, lib.Servant],
-    logger: logging.Logger,
-) -> None:
-    for servant_id, jp_servant in jp.items():
-        servant_logger = lib.ServantLogger(logger, servant_id, jp_servant["name"])
-        servant_logger.debug("start comparing")
-        en_servant = en.get(servant_id, None)
-        if en_servant is not None:
-            compare_servant(en_servant, jp_servant, servant_logger)
-        else:
-            servant_logger.error("does not exits in English")
-
-
-def compare_servant(
-    en: lib.english.Servant,
-    jp: lib.Servant,
-    logger: lib.ServantLogger,
-) -> None:
-    # id
-    if en["id"] != jp["id"]:
-        logger.error("servant IDs do not match")
-    # false name
-    if en["false_name"] is not None:
-        if jp["false_name"] is None:
-            logger.error("only English has an false name")
-    else:
-        if jp["false_name"] is not None:
-            logger.error("only Japanese has an false name")
-    # active skills
-    compare_skills("skill", en["active_skills"], jp["skills"], logger)
-    # append skills
-    compare_skills("append skill", en["append_skills"], jp["append_skills"], logger)
-
-
-def compare_skills(
-    target: str,
-    en: list[list[lib.english.Skill]],
-    jp: list[list[lib.Skill]],
-    logger: lib.ServantLogger,
-) -> None:
-    # slots
-    if len(en) != len(jp):
-        logger.error(
-            "%s: slots don't match (en:%d, jp:%d)",
-            target,
-            len(en),
-            len(jp),
-        )
-    # skill
-    slots = len(en)
-    for i in range(slots):
-        compare_skill(f"{target} {i+1}", en[i], jp[i], logger)
-
-
-def compare_skill(
-    target: str,
-    en: list[lib.english.Skill],
-    jp: list[lib.Skill],
-    logger: lib.ServantLogger,
-) -> None:
-    # levels
-    if len(en) != len(jp):
-        logger.error(
-            "%s: levels don't match (en:%d, jp:%d)",
-            target,
-            len(en),
-            len(jp),
-        )
-        return
-    # rank
-    levels = len(en)
-    for i in range(levels):
-        if en[i]["rank"] != jp[i]["rank"]:
-            logger.error(
-                '%s: rank don\'t match at level %d (en:"%s", jp:"%s")',
-                f"{target}-{i+1}",
-                i,
-                en[i]["rank"],
-                jp[i]["rank"],
-            )
 
 
 def to_dictionary(
