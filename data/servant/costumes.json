@@ -3241,5 +3241,69 @@
         }
       ]
     }
+  },
+  {
+    "costume_id": 123,
+    "servant_id": 1,
+    "name": "パラディーン",
+    "flavor_text": "自ら選び、導き出した新たなマシュ\nカルデアが保証する未来を示す盾と剣",
+    "resource": {
+      "qp": 0,
+      "resources": []
+    }
+  },
+  {
+    "costume_id": 124,
+    "servant_id": 441,
+    "name": "イプシロン",
+    "flavor_text": "無常の果実が望んだ姿\n願いを許された、もう一人の自分",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "虚影の塵",
+          "piece": 10
+        },
+        {
+          "name": "神脈霊子",
+          "piece": 5
+        },
+        {
+          "name": "終の花",
+          "piece": 5
+        },
+        {
+          "name": "天命の聖水",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 125,
+    "servant_id": 277,
+    "name": "簡易霊衣：サバージオス",
+    "flavor_text": "ゼウス・サバージオス\n宙を夢見て、果てた、仮初めの現身",
+    "resource": {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "魔術髄液",
+          "piece": 10
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 5
+        },
+        {
+          "name": "蛇の宝玉",
+          "piece": 5
+        },
+        {
+          "name": "月光核",
+          "piece": 10
+        }
+      ]
+    }
   }
 ]

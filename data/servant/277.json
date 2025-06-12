@@ -131,6 +131,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 125,
+      "name": "簡易霊衣：サバージオス",
+      "resource": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "魔術髄液",
+            "piece": 10
+          },
+          {
+            "name": "隕蹄鉄",
+            "piece": 5
+          },
+          {
+            "name": "蛇の宝玉",
+            "piece": 5
+          },
+          {
+            "name": "月光核",
+            "piece": 10
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

@@ -162,6 +162,14 @@
         "qp": 0,
         "resources": []
       }
+    },
+    {
+      "id": 123,
+      "name": "パラディーン",
+      "resource": {
+        "qp": 0,
+        "resources": []
+      }
     }
   ],
   "ascension_resources": [
