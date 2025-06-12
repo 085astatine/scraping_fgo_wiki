@@ -15,6 +15,7 @@ import lxml.html
 import requests
 
 import lib
+import lib.english
 
 
 def main() -> None:
@@ -144,18 +145,12 @@ def create_session(
     return session
 
 
-class ServantLink(TypedDict):
-    id: lib.ServantID
-    url: str
-    title: str
-
-
 def get_servant_links(
     path: pathlib.Path,
     session: requests.Session,
     logger: logging.Logger,
     option: Option,
-) -> dict[lib.ServantID, ServantLink]:
+) -> dict[lib.ServantID, lib.english.ServantLink]:
     if option.force_update or not path.exists():
         links = request_servant_links(
             session,
@@ -167,20 +162,8 @@ def get_servant_links(
         lib.save_json(path, links)
         time.sleep(option.request_interval)
     else:
-        links = load_servant_links(path, logger) or []
+        links = lib.english.load_servant_links(path, logger=logger) or []
     return {link["id"]: link for link in links}
-
-
-def load_servant_links(
-    path: pathlib.Path,
-    logger: logging.Logger,
-) -> Optional[list[ServantLink]]:
-    logger.info('load servant links from "%s"', path)
-    links = lib.load_json(path)
-    if links is None:
-        logger.error('Failed to load "%s"', path)
-        return None
-    return links
 
 
 def request_servant_links(
@@ -188,8 +171,8 @@ def request_servant_links(
     logger: logging.Logger,
     request_interval: float,
     request_timeout: float,
-) -> list[ServantLink]:
-    links: list[ServantLink] = []
+) -> list[lib.english.ServantLink]:
+    links: list[lib.english.ServantLink] = []
     urls = [
         "https://fategrandorder.fandom.com/wiki/Sub:Servant_List_by_ID/1-100",
         "https://fategrandorder.fandom.com/wiki/Sub:Servant_List_by_ID/101-200",
@@ -216,8 +199,8 @@ def request_servant_links(
 def parse_servant_links(
     root: lxml.html.HtmlElement,
     logger: logging.Logger,
-) -> list[ServantLink]:
-    links: list[ServantLink] = []
+) -> list[lib.english.ServantLink]:
+    links: list[lib.english.ServantLink] = []
     table_rows = root.xpath(
         '//table[contains(@class, "wikitable sortable")]/tbody/tr[td]'
     )
@@ -232,14 +215,14 @@ def parse_servant_links(
             title,
         )
         url = f"https://fategrandorder.fandom.com/{href}"
-        links.append(ServantLink(id=servant_id, url=url, title=title))
+        links.append(lib.english.ServantLink(id=servant_id, url=url, title=title))
     return links
 
 
 def get_servant_data(
     session: requests.Session,
     directory: pathlib.Path,
-    links: dict[lib.ServantID, ServantLink],
+    links: dict[lib.ServantID, lib.english.ServantLink],
     logger: logging.Logger,
     option: Option,
 ) -> dict[lib.ServantID, str]:
@@ -285,7 +268,7 @@ def load_servant_data(
 
 def request_servant_data(
     session: requests.Session,
-    link: ServantLink,
+    link: lib.english.ServantLink,
     logger: logging.Logger,
     request_timeout: float,
 ) -> Optional[str]:
@@ -304,41 +287,17 @@ def request_servant_data(
     return root.xpath('//textarea[@name="wpTextbox1"]/text()')[0]
 
 
-class Skill(TypedDict):
-    name: str
-    rank: str
-
-
-class Costume(TypedDict):
-    name: str
-    text_jp: str
-    text_en: str
-    resources: lib.ResourceSet
-
-
-class Servant(TypedDict):
-    id: lib.ServantID
-    name: str
-    false_name: Optional[str]
-    active_skills: list[list[Skill]]
-    append_skills: list[list[Skill]]
-    costumes: list[Costume]
-    ascension_resources: list[lib.ResourceSet]
-    active_skill_resources: list[lib.ResourceSet]
-    append_skill_resources: list[lib.ResourceSet]
-
-
 def get_servants(
     directory: pathlib.Path,
-    links: dict[lib.ServantID, ServantLink],
+    links: dict[lib.ServantID, lib.english.ServantLink],
     sources: dict[lib.ServantID, str],
     logger: logging.Logger,
     option: Option,
-) -> dict[lib.ServantID, Servant]:
-    servants: dict[lib.ServantID, Servant] = {}
+) -> dict[lib.ServantID, lib.english.Servant]:
+    servants: dict[lib.ServantID, lib.english.Servant] = {}
     for servant_id, source in sources.items():
         path = directory.joinpath(f"{servant_id:03d}.json")
-        servant: Optional[Servant]
+        servant: Optional[lib.english.Servant]
         if option.force_update or not path.exists():
             # parse source
             link = links.get(servant_id, None)
@@ -354,66 +313,17 @@ def get_servants(
             lib.save_json(path, servant)
         else:
             # load from file
-            servant = load_servant(path, logger=logger)
+            servant = lib.english.load_servant(path, logger=logger)
         if servant is not None:
             servants[servant["id"]] = servant
     return servants
 
 
-def load_servants(
-    directory: pathlib.Path,
-    *,
-    logger: Optional[logging.Logger] = None,
-) -> list[Servant]:
-    logger = logger or logging.getLogger(__name__)
-    servants: list[Servant] = []
-    pattern = re.compile(r"^(?P<id>[0-9]{3}).json$")
-    for file in directory.iterdir():
-        if not file.is_file():
-            continue
-        match = pattern.match(file.name)
-        if match is None:
-            continue
-        servant = load_servant(file, logger=logger)
-        if servant is None:
-            continue
-        # check if filename match servant ID
-        if int(match.group("id")) != servant["id"]:
-            logger.error(
-                'file name mismatch servant ID: path="%s", servant_id=%d',
-                file,
-                servant["id"],
-            )
-        servants.append(servant)
-    # sort by servant ID
-    servants.sort(key=lambda servant: servant["id"])
-    return servants
-
-
-def load_servant(
-    path: pathlib.Path,
-    *,
-    logger: Optional[logging.Logger] = None,
-) -> Optional[Servant]:
-    logger = logger or logging.getLogger(__name__)
-    logger.info('load servant from "%s"', path)
-    servant = lib.load_json(path)
-    if servant is None:
-        logger.error('failed to load "%s"', path)
-        return None
-    logger.debug(
-        'loaded servant: %03d "%s"',
-        servant["id"],
-        servant["name"],
-    )
-    return servant
-
-
 def parse_servant_data(
-    link: ServantLink,
+    link: lib.english.ServantLink,
     source: str,
     logger: lib.ServantLogger,
-) -> Servant:
+) -> lib.english.Servant:
     # false name
     false_name = parse_false_name(source, logger)
     # active skills
@@ -428,7 +338,7 @@ def parse_servant_data(
     active_skill_resources = parse_active_skill_resources(source, logger)
     # append skill resource
     append_skill_resources = parse_append_skill_resources(source, logger)
-    return Servant(
+    return lib.english.Servant(
         id=link["id"],
         name=link["title"],
         false_name=false_name,
@@ -459,7 +369,7 @@ def parse_false_name(
 def parse_active_skills(
     source: str,
     logger: lib.ServantLogger,
-) -> list[list[Skill]]:
+) -> list[list[lib.english.Skill]]:
     match = re.search(
         r"==\s*Active Skills\s*==\n"
         r"<tabber>\n"
@@ -487,7 +397,7 @@ def parse_active_skills(
 def parse_append_skills(
     source: str,
     logger: lib.ServantLogger,
-) -> list[list[Skill]]:
+) -> list[list[lib.english.Skill]]:
     match = re.search(
         r"==\s*Append Skills\s*==\n"
         r"<tabber>\n"
@@ -523,7 +433,7 @@ def parse_skill(
     target: str,
     source: str,
     logger: lib.ServantLogger,
-) -> list[Skill]:
+) -> list[lib.english.Skill]:
     logger.debug("[%s] input=%s", target, repr(source))
     # Remove {{Unlock|...}} or {{unlock:...}}
     source = re.sub(r"\{\{[Uu]nlock\|.+\}\}\n", "", source)
@@ -545,7 +455,7 @@ def parse_skill(
     return skill
 
 
-def parse_skill_rank(text: str) -> Skill:
+def parse_skill_rank(text: str) -> lib.english.Skill:
     rank_pattern = "((EX|[A-E])[+-]*)|None"
     # <name>/Rank <rank>( (name))?(|<rank>)?(|preupgrade=y)
     match = re.match(
@@ -567,11 +477,11 @@ def parse_skill_rank(text: str) -> Skill:
     match = re.match(rf"^(?P<name>.+?) '(?P<rank>{rank_pattern})'$", text)
     if match:
         return to_skill(name=match.group("name"), rank=match.group("rank"))
-    return Skill(name=text, rank="")
+    return lib.english.Skill(name=text, rank="")
 
 
-def to_skill(name: str, rank: str) -> Skill:
-    return Skill(
+def to_skill(name: str, rank: str) -> lib.english.Skill:
+    return lib.english.Skill(
         name=name,
         rank=rank if rank != "None" else "",
     )
@@ -580,7 +490,7 @@ def to_skill(name: str, rank: str) -> Skill:
 def parse_costumes(
     source: str,
     logger: lib.ServantLogger,
-) -> list[Costume]:
+) -> list[lib.english.Costume]:
     logger.debug("costumes")
     match = re.search(
         r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(\|.+\n)+?)\}\}",
@@ -595,7 +505,7 @@ def parse_costumes(
 def parse_costume_data(
     lines: list[str],
     logger: lib.ServantLogger,
-) -> list[Costume]:
+) -> list[lib.english.Costume]:
     indexes: set[int] = set()
     name: dict[int, str] = {}
     text_en: dict[int, str] = {}
@@ -648,10 +558,10 @@ def parse_costume_data(
                         )
                     )
     # to costumes
-    costumes: list[Costume] = []
+    costumes: list[lib.english.Costume] = []
     for index in indexes:
         costumes.append(
-            Costume(
+            lib.english.Costume(
                 name=name.get(index, ""),
                 text_jp=text_jp.get(index, ""),
                 text_en=text_en.get(index, ""),
@@ -809,7 +719,7 @@ def skill_qp() -> list[int]:
 
 
 def compare_servants(
-    en: dict[lib.ServantID, Servant],
+    en: dict[lib.ServantID, lib.english.Servant],
     jp: dict[lib.ServantID, lib.Servant],
     logger: logging.Logger,
 ) -> None:
@@ -824,7 +734,7 @@ def compare_servants(
 
 
 def compare_servant(
-    en: Servant,
+    en: lib.english.Servant,
     jp: lib.Servant,
     logger: lib.ServantLogger,
 ) -> None:
@@ -846,7 +756,7 @@ def compare_servant(
 
 def compare_skills(
     target: str,
-    en: list[list[Skill]],
+    en: list[list[lib.english.Skill]],
     jp: list[list[lib.Skill]],
     logger: lib.ServantLogger,
 ) -> None:
@@ -866,7 +776,7 @@ def compare_skills(
 
 def compare_skill(
     target: str,
-    en: list[Skill],
+    en: list[lib.english.Skill],
     jp: list[lib.Skill],
     logger: lib.ServantLogger,
 ) -> None:
@@ -893,7 +803,7 @@ def compare_skill(
 
 
 def to_dictionary(
-    servants: dict[lib.ServantID, Servant],
+    servants: dict[lib.ServantID, lib.english.Servant],
 ) -> lib.ServantDictionary:
     return {
         servant_id: to_dictionary_value(servant)
@@ -901,7 +811,9 @@ def to_dictionary(
     }
 
 
-def to_dictionary_value(servant: Servant) -> lib.ServantDictionaryValue:
+def to_dictionary_value(
+    servant: lib.english.Servant,
+) -> lib.ServantDictionaryValue:
     return lib.ServantDictionaryValue(
         name=servant["name"],
         false_name=servant["false_name"],
