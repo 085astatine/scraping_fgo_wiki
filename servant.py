@@ -78,7 +78,7 @@ class Option:
 
 def argument_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Generate English servant dictionary",
+        description="Update Servant Data",
     )
     parser.add_argument(
         "-v",
