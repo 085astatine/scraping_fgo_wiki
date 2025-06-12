@@ -1,7 +1,8 @@
 {
   "id": 103,
   "name": "トーマス・エジソン",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 4,
   "skills": [

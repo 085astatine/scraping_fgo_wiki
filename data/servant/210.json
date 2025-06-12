@@ -1,7 +1,8 @@
 {
   "id": 210,
   "name": "岡田以蔵",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 3,
   "skills": [

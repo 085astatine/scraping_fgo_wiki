@@ -1,7 +1,8 @@
 {
   "id": 173,
   "name": "シャーロック・ホームズ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Ruler",
   "rarity": 5,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 172,
   "name": "クリストファー・コロンブス",
-  "alias_name": "レジスタンスのライダー",
+  "false_name": "レジスタンスのライダー",
+  "ascension_names": null,
   "klass": "Rider",
   "rarity": 3,
   "skills": [

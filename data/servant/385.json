@@ -1,7 +1,13 @@
 {
   "id": 385,
   "name": "雨の魔女トネリコ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "雨の魔女トネリコ",
+    "救世主トネリコ",
+    "水妃モルガン",
+    "トネリコ"
+  ],
   "klass": "Caster",
   "rarity": 5,
   "skills": [

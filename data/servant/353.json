@@ -1,7 +1,8 @@
 {
   "id": 353,
   "name": "レディ・アヴァロン",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Pretender",
   "rarity": 5,
   "skills": [

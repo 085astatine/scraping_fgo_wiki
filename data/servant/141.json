@@ -1,7 +1,8 @@
 {
   "id": 141,
   "name": "ジャンヌ・ダルク・オルタ・サンタ・リリィ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Lancer",
   "rarity": 4,
   "skills": [

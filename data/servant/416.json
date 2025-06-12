@@ -1,7 +1,13 @@
 {
   "id": 416,
   "name": "ひびき＆千鍵",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "ひびき＆千景",
+    "阿曇磯良",
+    "シリウス",
+    "阿曇磯良"
+  ],
   "klass": "AlterEgo",
   "rarity": 5,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 227,
   "name": "蘭陵王",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Saber",
   "rarity": 4,
   "skills": [

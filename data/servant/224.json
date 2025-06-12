@@ -1,7 +1,8 @@
 {
   "id": 224,
   "name": "シトナイ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "AlterEgo",
   "rarity": 5,
   "skills": [

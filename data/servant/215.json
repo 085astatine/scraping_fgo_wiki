@@ -1,7 +1,8 @@
 {
   "id": 215,
   "name": "スカサハ＝スカディ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 5,
   "skills": [

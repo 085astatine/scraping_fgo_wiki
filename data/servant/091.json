@@ -1,7 +1,8 @@
 {
   "id": 91,
   "name": "両儀式",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Saber",
   "rarity": 5,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 395,
   "name": "杉谷善住坊",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Archer",
   "rarity": 3,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 300,
   "name": "ヴリトラ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Lancer",
   "rarity": 5,
   "skills": [

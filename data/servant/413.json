@@ -1,7 +1,8 @@
 {
   "id": 413,
   "name": "蒼崎青子",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Foreigner",
   "rarity": 5,
   "skills": [
@@ -11,7 +12,7 @@
         "level": 1,
         "name": "魔弾装填",
         "rank": "B",
-        "icon": 813
+        "icon": 0
       }
     ],
     [

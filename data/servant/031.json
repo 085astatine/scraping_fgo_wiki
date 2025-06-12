@@ -1,7 +1,8 @@
 {
   "id": 31,
   "name": "メディア",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 3,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 387,
   "name": "鈴鹿御前〔サマバケ〕",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Rider",
   "rarity": 4,
   "skills": [

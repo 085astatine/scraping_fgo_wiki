@@ -1,7 +1,8 @@
 {
   "id": 435,
   "name": "小野小町",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 5,
   "skills": [

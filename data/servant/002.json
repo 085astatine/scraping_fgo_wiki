@@ -1,7 +1,8 @@
 {
   "id": 2,
   "name": "アルトリア・ペンドラゴン",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Saber",
   "rarity": 5,
   "skills": [

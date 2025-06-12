@@ -1,7 +1,13 @@
 {
   "id": 351,
   "name": "アーキタイプ：アース",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "千利休",
+    "千利休",
+    "駒姫",
+    "千利休"
+  ],
   "klass": "MoonCancer",
   "rarity": 5,
   "skills": [

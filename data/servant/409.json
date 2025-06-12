@@ -1,7 +1,8 @@
 {
   "id": 409,
   "name": "巌窟王 モンテ・クリスト",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Avenger",
   "rarity": 5,
   "skills": [

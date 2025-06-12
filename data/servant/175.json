@@ -1,7 +1,8 @@
 {
   "id": 175,
   "name": "ネロ・クラウディウス",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 5,
   "skills": [

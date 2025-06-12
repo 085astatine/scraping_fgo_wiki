@@ -1,7 +1,8 @@
 {
   "id": 105,
   "name": "ビリー・ザ・キッド",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Archer",
   "rarity": 3,
   "skills": [

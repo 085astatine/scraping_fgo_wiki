@@ -1,7 +1,13 @@
 {
   "id": 362,
   "name": "千利休",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "グレゴリー・ラスプーチン",
+    "言峰神父",
+    "言峰綺礼",
+    "言峰綺礼"
+  ],
   "klass": "Berserker",
   "rarity": 5,
   "skills": [

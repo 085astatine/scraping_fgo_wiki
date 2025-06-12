@@ -1,7 +1,8 @@
 {
   "id": 57,
   "name": "エイリーク・ブラッドアクス",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Berserker",
   "rarity": 2,
   "skills": [

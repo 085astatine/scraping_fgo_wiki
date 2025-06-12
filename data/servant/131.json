@@ -1,7 +1,8 @@
 {
   "id": 131,
   "name": "アン・ボニー＆メアリー・リード",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Archer",
   "rarity": 4,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 20,
   "name": "クー・フーリン〔プロトタイプ〕",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Lancer",
   "rarity": 3,
   "skills": [

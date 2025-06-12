@@ -1,7 +1,13 @@
 {
   "id": 250,
   "name": "魔王信長",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "織田信長",
+    "織田吉法師",
+    "魔王信長",
+    "魔王信長"
+  ],
   "klass": "Avenger",
   "rarity": 5,
   "skills": [

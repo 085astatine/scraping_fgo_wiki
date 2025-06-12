@@ -1,7 +1,8 @@
 {
   "id": 44,
   "name": "ファントム・オブ・ジ・オペラ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 2,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 117,
   "name": "風魔小太郎",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 3,
   "skills": [

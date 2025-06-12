@@ -1,7 +1,13 @@
 {
   "id": 390,
   "name": "メリュジーヌ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "メリュジーヌ",
+    "メリュジーヌ",
+    "メリュジーヌ・オンディーヌ",
+    "メリュジーヌ・オンディーヌ"
+  ],
   "klass": "Ruler",
   "rarity": 5,
   "skills": [

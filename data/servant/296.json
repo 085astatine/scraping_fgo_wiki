@@ -1,7 +1,8 @@
 {
   "id": 296,
   "name": "ネモ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Rider",
   "rarity": 5,
   "skills": [

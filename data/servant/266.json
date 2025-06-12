@@ -1,7 +1,8 @@
 {
   "id": 266,
   "name": "謎のアルターエゴ・Λ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Lancer",
   "rarity": 4,
   "skills": [

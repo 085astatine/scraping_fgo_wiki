@@ -1,7 +1,13 @@
 {
   "id": 417,
   "name": "スペース・エレシュキガル",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "エレシュキガル",
+    "アンキ・エレシュキガル",
+    "スペース・エレシュキガル",
+    "スペース・エレシュキガル"
+  ],
   "klass": "Beast",
   "rarity": 5,
   "skills": [

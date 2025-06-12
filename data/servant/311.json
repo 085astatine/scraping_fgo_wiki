@@ -1,7 +1,13 @@
 {
   "id": 311,
-  "name": "バーヴァン・シー",
-  "alias_name": "妖精騎士トリスタン",
+  "name": "妖精騎士トリスタン",
+  "false_name": null,
+  "ascension_names": [
+    "妖精騎士トリスタン",
+    "バーヴァン・シー",
+    "バーヴァン・シー",
+    "バーヴァン・シー"
+  ],
   "klass": "Archer",
   "rarity": 4,
   "skills": [

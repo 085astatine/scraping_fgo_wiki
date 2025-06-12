@@ -1,7 +1,8 @@
 {
   "id": 307,
   "name": "ミス・クレーン",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 5,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 129,
   "name": "アルトリア・ペンドラゴン",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Archer",
   "rarity": 5,
   "skills": [

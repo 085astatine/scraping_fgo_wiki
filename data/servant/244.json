@@ -1,7 +1,13 @@
 {
   "id": 244,
   "name": "ジナコ＝カリギリ",
-  "alias_name": "大いなる石像神",
+  "false_name": null,
+  "ascension_names": [
+    "大いなる石像神",
+    "ジナコ＝カリギリ",
+    "ジナコ＝カリギリ",
+    "ジナコ＝カリギリ"
+  ],
   "klass": "MoonCancer",
   "rarity": 5,
   "skills": [
