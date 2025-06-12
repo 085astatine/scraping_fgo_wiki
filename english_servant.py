@@ -320,6 +320,7 @@ class Servant(TypedDict):
     append_skills: list[list[Skill]]
     ascension_resources: list[lib.ResourceSet]
     active_skill_resources: list[lib.ResourceSet]
+    append_skill_resources: list[lib.ResourceSet]
 
 
 def get_servants(
@@ -418,6 +419,8 @@ def parse_servant_data(
     ascension_resources = parse_ascension_resources(source, logger)
     # active skill resource
     active_skill_resources = parse_active_skill_resources(source, logger)
+    # append skill resource
+    append_skill_resources = parse_append_skill_resources(source, logger)
     return Servant(
         id=link["id"],
         name=link["title"],
@@ -426,6 +429,7 @@ def parse_servant_data(
         append_skills=append_skills,
         ascension_resources=ascension_resources,
         active_skill_resources=active_skill_resources,
+        append_skill_resources=append_skill_resources,
     )
 
 
@@ -595,6 +599,29 @@ def parse_active_skill_resources(
     logger.debug("active skill resources")
     match = re.search(
         r"Active=\n\{\{Skillreinforcement\n(?P<body>(\|.+\n)+?)\}\}",
+        source,
+    )
+    if match is None:
+        return []
+    resources = parse_resource_set(
+        match.group("body").split("\n"),
+        9,
+        logger,
+    )
+    # qp
+    for i, qp in enumerate(skill_qp()):
+        if resources[i]["resources"]:
+            resources[i]["qp"] = qp
+    return resources
+
+
+def parse_append_skill_resources(
+    source: str,
+    logger: lib.ServantLogger,
+) -> list[lib.ResourceSet]:
+    logger.debug("append skill resources")
+    match = re.search(
+        r"Append=\n\{\{Skillreinforcement\n(?P<body>(\|.+\n)+?)\}\}",
         source,
     )
     if match is None:
