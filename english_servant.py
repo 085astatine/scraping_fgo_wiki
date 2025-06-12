@@ -150,15 +150,12 @@ class ServantLink(TypedDict):
     title: str
 
 
-type ServantLinks = dict[lib.ServantID, ServantLink]
-
-
 def get_servant_links(
     path: pathlib.Path,
     session: requests.Session,
     logger: logging.Logger,
     option: Option,
-) -> ServantLinks:
+) -> dict[lib.ServantID, ServantLink]:
     if option.force_update or not path.exists():
         links = request_servant_links(
             session,
@@ -170,20 +167,20 @@ def get_servant_links(
         lib.save_json(path, links)
         time.sleep(option.request_interval)
     else:
-        links = load_servant_links(path, logger)
-    return links
+        links = load_servant_links(path, logger) or []
+    return {link["id"]: link for link in links}
 
 
 def load_servant_links(
     path: pathlib.Path,
     logger: logging.Logger,
-) -> ServantLinks:
+) -> Optional[list[ServantLink]]:
     logger.info('load servant links from "%s"', path)
     links = lib.load_json(path)
     if links is None:
         logger.error('Failed to load "%s"', path)
-        return {}
-    return {int(key): value for key, value in links.items()}
+        return None
+    return links
 
 
 def request_servant_links(
@@ -191,7 +188,7 @@ def request_servant_links(
     logger: logging.Logger,
     request_interval: float,
     request_timeout: float,
-) -> ServantLinks:
+) -> list[ServantLink]:
     links: list[ServantLink] = []
     urls = [
         "https://fategrandorder.fandom.com/wiki/Sub:Servant_List_by_ID/1-100",
@@ -213,7 +210,7 @@ def request_servant_links(
         time.sleep(request_interval)
     # sort by servant id
     links.sort(key=lambda link: link["id"])
-    return {link["id"]: link for link in links}
+    return links
 
 
 def parse_servant_links(
@@ -242,7 +239,7 @@ def parse_servant_links(
 def get_servant_data(
     session: requests.Session,
     directory: pathlib.Path,
-    links: ServantLinks,
+    links: dict[lib.ServantID, ServantLink],
     logger: logging.Logger,
     option: Option,
 ) -> dict[lib.ServantID, str]:
@@ -333,7 +330,7 @@ class Servant(TypedDict):
 
 def get_servants(
     directory: pathlib.Path,
-    links: ServantLinks,
+    links: dict[lib.ServantID, ServantLink],
     sources: dict[lib.ServantID, str],
     logger: logging.Logger,
     option: Option,
