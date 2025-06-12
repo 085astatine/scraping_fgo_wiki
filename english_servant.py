@@ -312,12 +312,20 @@ class Skill(TypedDict):
     rank: str
 
 
+class Costume(TypedDict):
+    name: str
+    text_jp: str
+    text_en: str
+    resources: lib.ResourceSet
+
+
 class Servant(TypedDict):
     id: lib.ServantID
     name: str
     false_name: Optional[str]
     active_skills: list[list[Skill]]
     append_skills: list[list[Skill]]
+    costumes: list[Costume]
     ascension_resources: list[lib.ResourceSet]
     active_skill_resources: list[lib.ResourceSet]
     append_skill_resources: list[lib.ResourceSet]
@@ -409,12 +417,14 @@ def parse_servant_data(
     source: str,
     logger: lib.ServantLogger,
 ) -> Servant:
-    # alias name
+    # false name
     false_name = parse_false_name(source, logger)
     # active skills
     active_skills = parse_active_skills(source, logger)
     # append skills
     append_skills = parse_append_skills(source, logger)
+    # costumes
+    costumes = parse_costumes(source, logger)
     # ascension resources
     ascension_resources = parse_ascension_resources(source, logger)
     # active skill resource
@@ -427,6 +437,7 @@ def parse_servant_data(
         false_name=false_name,
         active_skills=active_skills,
         append_skills=append_skills,
+        costumes=costumes,
         ascension_resources=ascension_resources,
         active_skill_resources=active_skill_resources,
         append_skill_resources=append_skill_resources,
@@ -567,6 +578,93 @@ def to_skill(name: str, rank: str) -> Skill:
         name=name,
         rank=rank if rank != "None" else "",
     )
+
+
+def parse_costumes(
+    source: str,
+    logger: lib.ServantLogger,
+) -> list[Costume]:
+    logger.debug("costumes")
+    match = re.search(
+        r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(\|.+\n)+?)\}\}",
+        source,
+    )
+    if match is None:
+        return []
+    costumes = parse_costume_data(match.group("body").split("\n"), logger)
+    return costumes
+
+
+def parse_costume_data(
+    lines: list[str],
+    logger: lib.ServantLogger,
+) -> list[Costume]:
+    indexes: set[int] = set()
+    name: dict[int, str] = {}
+    text_en: dict[int, str] = {}
+    text_jp: dict[int, str] = {}
+    resources: dict[int, list[lib.Resource]] = {}
+    qp: dict[int, int] = {}
+    for line in lines:
+        match = re.match(
+            r"\|(?P<index>[0-9]+)(?P<key>(name|jdef|ndef|icon|qp|[1-4]))"
+            r"\s*=\s*(?P<value>.*)",
+            line,
+        )
+        if match is None:
+            continue
+        index = int(match.group("index"))
+        # skil ascension resources
+        if index <= 4:
+            continue
+        logger.debug(
+            "costume %d: key(%s), value(%s)",
+            int(match.group("index")),
+            match.group("key"),
+            match.group("value"),
+        )
+        indexes.add(index)
+        match match.group("key"):
+            case "name":
+                name[index] = match.group("value")
+            case "jdef":
+                text_jp[index] = match.group("value").replace("<br/>", "\n")
+            case "ndef":
+                text_en[index] = match.group("value")
+            case "qp":
+                qp_match = re.match(
+                    r"\{\{QP\|(?P<qp>[0-9,]+)\}\}",
+                    match.group("value"),
+                )
+                if qp_match:
+                    qp[index] = int(qp_match.group("qp").replace(",", ""))
+            case "1" | "2" | "3" | "4":
+                resource_match = re.match(
+                    r"\{\{(?P<name>.+)\|(?P<piece>[0-9]+)\}\}",
+                    match.group("value"),
+                )
+                if resource_match:
+                    resources.setdefault(index, []).append(
+                        lib.Resource(
+                            name=resource_match["name"],
+                            piece=int(resource_match["piece"]),
+                        )
+                    )
+    # to costumes
+    costumes: list[Costume] = []
+    for index in indexes:
+        costumes.append(
+            Costume(
+                name=name.get(index, ""),
+                text_jp=text_jp.get(index, ""),
+                text_en=text_en.get(index, ""),
+                resources=lib.ResourceSet(
+                    qp=qp.get(index, 0),
+                    resources=resources.get(index, []),
+                ),
+            )
+        )
+    return costumes
 
 
 def parse_ascension_resources(
