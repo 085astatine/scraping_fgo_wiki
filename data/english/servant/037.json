@@ -2,7 +2,26 @@
   "id": 37,
   "name": "Zhuge Liang (Lord El-Melloi II)",
   "false_name": null,
-  "active_skills": [],
+  "active_skills": [
+    [
+      {
+        "name": "Discerning Eye",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Advice of the Strategist",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Command of the Strategist",
+        "rank": "A+"
+      }
+    ]
+  ],
   "append_skills": [
     [
       {

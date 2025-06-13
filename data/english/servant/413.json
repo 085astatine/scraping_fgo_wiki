@@ -2,7 +2,26 @@
   "id": 413,
   "name": "Aozaki Aoko",
   "false_name": null,
-  "active_skills": [],
+  "active_skills": [
+    [
+      {
+        "name": "Magic Bullet Charging",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Magic Circuits (Rotation)",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Back to Those Days, Once More",
+        "rank": "EX"
+      }
+    ]
+  ],
   "append_skills": [
     [
       {

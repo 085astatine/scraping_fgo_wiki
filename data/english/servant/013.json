@@ -5,12 +5,8 @@
   "active_skills": [
     [
       {
-        "name": "Old",
-        "rank": ""
-      },
-      {
-        "name": "First Skill",
-        "rank": ""
+        "name": "Sabotage",
+        "rank": "A"
       }
     ],
     [
@@ -22,7 +18,7 @@
     [
       {
         "name": "May King",
-        "rank": ""
+        "rank": "B"
       }
     ]
   ],
