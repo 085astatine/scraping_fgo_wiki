@@ -3,6 +3,7 @@ from __future__ import annotations
 import logging
 
 from .io import load_json, save_json
+from .item import load_items
 from .merge import merge
 from .servant import (
     ServantLogger,

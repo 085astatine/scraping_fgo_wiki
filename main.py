@@ -38,13 +38,6 @@ def load_dict(
     )
 
 
-def load_items(path: pathlib.Path) -> list[lib.Item]:
-    items = lib.load_json(path)
-    if items is None:
-        return []
-    return items
-
-
 def load_sounds(
     path: pathlib.Path,
     *,
@@ -117,7 +110,7 @@ def main() -> None:
     # master data
     if option.mode == "merge":
         logger.info("run: merge")
-        items = load_items(pathlib.Path("data/items.json"))
+        items = lib.load_items(pathlib.Path("data/items.json")) or []
         servants = lib.load_servants(
             pathlib.Path("data/servant/"),
             logger=logger,
