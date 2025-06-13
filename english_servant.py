@@ -352,7 +352,7 @@ def parse_false_name(
     if match is None:
         return None
     false_name = match.group("name")
-    logger.info('false name "%s"', false_name)
+    logger.debug('false name "%s"', false_name)
     return false_name
 
 
@@ -424,7 +424,6 @@ def parse_skill(
     source: str,
     logger: lib.ServantLogger,
 ) -> list[lib.english.Skill]:
-    logger.debug("[%s] input=%s", target, repr(source))
     # Remove {{Unlock|...}} or {{unlock:...}}
     source = re.sub(r"\{\{[Uu]nlock\|.+\}\}\n", "", source)
     # mult level
@@ -441,7 +440,7 @@ def parse_skill(
         match = re.match(r"\{\{:(?P<skill>.+)\}\}\n", source)
         if match:
             skill.append(parse_skill_rank(match.group("skill")))
-    logger.info("[%s] %s", target, repr(skill))
+    logger.debug("[%s] %s", target, repr(skill))
     return skill
 
 
@@ -515,7 +514,7 @@ def parse_costume_data(
         if index <= 4:
             continue
         logger.debug(
-            "costume %d: key(%s), value(%s)",
+            'costume %d: key="%s", value="%s"',
             int(match.group("index")),
             match.group("key"),
             match.group("value"),
