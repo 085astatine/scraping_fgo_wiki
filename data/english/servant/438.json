@@ -1,0 +1,417 @@
+{
+  "id": 438,
+  "name": "Metatron Jeanne",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "True Name \"72\"",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Angel of the Covenant",
+        "rank": "B+"
+      }
+    ],
+    [
+      {
+        "name": "Agent of the Absolute",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Ruler Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 5
+        },
+        {
+          "name": "Caster Piece",
+          "piece": 5
+        },
+        {
+          "name": "Assassin Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 5
+        },
+        {
+          "name": "Archer Piece",
+          "piece": 5
+        },
+        {
+          "name": "Lancer Piece",
+          "piece": 5
+        },
+        {
+          "name": "Berserker Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 5
+        },
+        {
+          "name": "Caster Monument",
+          "piece": 5
+        },
+        {
+          "name": "Assassin Monument",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 5
+        },
+        {
+          "name": "Archer Monument",
+          "piece": 5
+        },
+        {
+          "name": "Lancer Monument",
+          "piece": 5
+        },
+        {
+          "name": "Berserker Monument",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Ether Photon Converger",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Holy Water of Destiny",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Divine Spectrum Lens",
+          "piece": 35
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "id": 14,
+  "name": "Atalanta",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Crossing Arcadia",
+        "rank": "B"
+      },
+      {
+        "name": "Crossing Arcadia",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Art of the Hunt",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Calydonian Hunt",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Berserker Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 7
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 30
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 4
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 15
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

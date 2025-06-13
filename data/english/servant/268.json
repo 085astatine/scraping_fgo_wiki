@@ -1,0 +1,295 @@
+{
+  "id": 268,
+  "name": "Space Ishtar",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Devil's Sugar",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Venus Driver",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Multiple Starling",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Archer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Ashtoreth Origin",
+      "text_jp": "記録すら残らぬ遥か時の彼方\n冷えきった宇宙にいた原初の女神の色彩",
+      "text_en": "The colorful hues of the primordial goddess who existed in the chilled outskirts of the galaxy, during a time so far in the distance that it doesn't even get recorded as a memory.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          },
+          {
+            "name": "Giant's Ring",
+            "piece": 5
+          },
+          {
+            "name": "Primordial Lanugo",
+            "piece": 5
+          },
+          {
+            "name": "Genesis Egg",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Octuplet Crystals",
+          "piece": 10
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Snake Jewel",
+          "piece": 10
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Bloodstone Tear",
+          "piece": 10
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 10
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Infinity Gear",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Aurora Steel",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Genesis Egg",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Octuplet Crystals",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Snake Jewel",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Black Tallow",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Primordial Lanugo",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Comet Shard",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}

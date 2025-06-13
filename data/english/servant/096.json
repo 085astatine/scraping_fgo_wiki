@@ -1,0 +1,299 @@
+{
+  "id": 96,
+  "name": "Edmond Dantès",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Determination of Steel",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Golden Rule",
+        "rank": "A"
+      },
+      {
+        "name": "The Treasure of Monte Cristo",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Wisdom from Desperation",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Avenger Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Monte Cristo Selection",
+      "text_jp": "巌窟王の夏の装い\n浮き輪が密かにお気に入りとのこと",
+      "text_en": "The Count of Monte Cristo's summer attire. He actually really likes the inflatable tube, but won't admit it.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Night-Weeping Iron Stake",
+            "piece": 10
+          },
+          {
+            "name": "Seashell of Reminiscence",
+            "piece": 5
+          },
+          {
+            "name": "Bloodstone Tear",
+            "piece": 5
+          },
+          {
+            "name": "Cursed Beast Cholecyst",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Snake Jewel",
+          "piece": 10
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Phoenix Plume ",
+          "piece": 10
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Dragon Fang ",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Ghost Lantern",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Genesis Egg",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": 271,
+  "name": "Nightingale (Santa)",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Assault Medicine",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Nurse of Steel (Holy Night)",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "The Angel that Rings the Bell on Holy Night",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Avenger Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Lamp of Devotion",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Lamp of Devotion",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Lamp of Devotion",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Lamp of Devotion",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 45
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 60
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 4
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 15
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

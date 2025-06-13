@@ -1,0 +1,322 @@
+{
+  "id": 216,
+  "name": "Jeanne d'Arc",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Endless Enjoy Summer!",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Waterfront Saintess (Dolphin)",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Servant Cheer!",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Berserker Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 12
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 5
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 10
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 12
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 10
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 12
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 12
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 15
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 12
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 12
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 4
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Aurora Steel",
+          "piece": 18
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

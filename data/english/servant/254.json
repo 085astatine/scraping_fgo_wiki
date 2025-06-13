@@ -1,0 +1,322 @@
+{
+  "id": 254,
+  "name": "Jason",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "The Requested Golden Fleece",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Flashing at the Tiger's Den",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Conquering the Distant Sea Routes with Friends",
+        "rank": "B++"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Caster Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 4
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 2
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 4
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 3
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 3
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 2
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Dragon Fang",
+          "piece": 8
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 6
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 2
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Primordial Lanugo",
+          "piece": 2
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 6
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

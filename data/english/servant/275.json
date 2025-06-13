@@ -1,0 +1,286 @@
+{
+  "id": 275,
+  "name": "Yang Guifei",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Embodiment of Three Thousand Affections",
+        "rank": "A"
+      },
+      {
+        "name": "Embodiment of Three Thousand Affections",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "One's Favourite Concubine",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Sun of a Calamitous Star",
+        "rank": "A"
+      },
+      {
+        "name": "Sun of a Calamitous Star",
+        "rank": "A+"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Ruler Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 10
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Bloodstone Tear",
+          "piece": 10
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 10
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Ghost Lantern",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Snake Jewel",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Comet Shard",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Bloodstone Tear",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Fruit of Longevity",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Rainbow Yarn",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Scales of Fantasies",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

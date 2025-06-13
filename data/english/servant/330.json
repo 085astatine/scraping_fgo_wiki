@@ -1,0 +1,282 @@
+{
+  "id": 330,
+  "name": "Martha (Santa)",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Martha's Home Cooking",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Elder Sister's Meddling",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Santa Claus's Invitation",
+        "rank": "C+"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Ruler Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 10
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 10
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Forbidden Page",
+          "piece": 8
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 6
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 10
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 10
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 15
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": 433,
+  "name": "Biscione",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Poisonous Dreams",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Mana Burst (Dragon)",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Serpent from the Coat of Arms",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Lancer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 12
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 18
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 5
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 8
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 12
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 4
+        },
+        {
+          "name": "Sunscale",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 12
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 12
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Dragon Fang",
+          "piece": 24
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 8
+        },
+        {
+          "name": "Golden Cauldron",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 12
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 12
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 24
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 18
+        },
+        {
+          "name": "Sunscale",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

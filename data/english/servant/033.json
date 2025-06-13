@@ -1,0 +1,330 @@
+{
+  "id": 33,
+  "name": "Hans Christian Andersen",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Human Observation",
+        "rank": "A"
+      },
+      {
+        "name": "Human Observation",
+        "rank": "A++"
+      }
+    ],
+    [
+      {
+        "name": "High-Speed Incantation",
+        "rank": "E"
+      }
+    ],
+    [
+      {
+        "name": "Innocent Monster",
+        "rank": "D"
+      },
+      {
+        "name": "The Little Mermaid's Love",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Alter Ego Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Caster Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Caster Piece",
+          "piece": 6
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Caster Monument",
+          "piece": 3
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 3
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Caster Monument",
+          "piece": 6
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 6
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 3
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 6
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 6
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 18
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 6
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 3
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 6
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 2
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Genesis Egg",
+          "piece": 4
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

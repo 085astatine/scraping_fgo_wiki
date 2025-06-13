@@ -1,0 +1,126 @@
+{
+  "id": 329,
+  "name": "Sakamoto Ryōma",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Dragon of the Reformation",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Enemy NPC",
+        "rank": ""
+      },
+      {
+        "name": "Normal",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Enemy NPC",
+        "rank": ""
+      },
+      {
+        "name": "Normal",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Alter Ego Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 12
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 22
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 5
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 20
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 12
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 6
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [],
+  "append_skill_resources": []
+}

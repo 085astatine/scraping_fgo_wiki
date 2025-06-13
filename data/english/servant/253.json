@@ -1,0 +1,343 @@
+{
+  "id": 253,
+  "name": "Leonardo Da Vinci",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Golden Rule (Body)",
+        "rank": "EX"
+      },
+      {
+        "name": "The Rut of All Creations",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Accel Turn",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Dream Upon the Stars",
+        "rank": "D"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Alter Ego Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Active Sailor",
+      "text_jp": "おしゃまなアクティブスタイル\n未完の馬にあった可能性のひとつ",
+      "text_en": "A precocious-looking activewear. One of the many possibilities drawn from her unfinished horse.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Permafrost Ice Crystal",
+            "piece": 5
+          },
+          {
+            "name": "Divine Leyline Spiritron",
+            "piece": 10
+          },
+          {
+            "name": "Primordial Lanugo",
+            "piece": 5
+          },
+          {
+            "name": "Comet Shard",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 12
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 5
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 10
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 12
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 10
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 10
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 11
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 4
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Fruit of Longevity",
+          "piece": 11
+        },
+        {
+          "name": "Rainbow Yarn",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": 277,
+  "name": "Odysseus",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Insight of the Cunning General",
+        "rank": "B++"
+      }
+    ],
+    [
+      {
+        "name": "Single-Mindedness (Love)",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Aegis",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Rider Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Aegis<br/>[2nd Ascension]",
+      "text_jp": "女神アテナから下賜された神体結界\n兜は所有者の意志により自在に開閉可能",
+      "text_en": "A Divine Form Bounded Field given as a gift by the goddess Athena. Opens and closes as its owner wills.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Meteoric Horseshoe",
+            "piece": 5
+          },
+          {
+            "name": "Aurora Steel",
+            "piece": 5
+          },
+          {
+            "name": "Dawnlight Reactor Core",
+            "piece": 5
+          },
+          {
+            "name": "Genesis Egg",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aegis<br/>[3rd Ascension]",
+      "text_jp": "兜を開くと胸部装甲も連動して開く仕様\n何かしらの設計意図があるようだが……",
+      "text_en": "Designed so the chest armor opens at the same time as the helmet. Why were they even designed like that...?",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Giant's Ring",
+            "piece": 5
+          },
+          {
+            "name": "Crown of Radiant Silver",
+            "piece": 5
+          },
+          {
+            "name": "Dawnlight Reactor Core",
+            "piece": 5
+          },
+          {
+            "name": "Comet Shard",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sabazios",
+      "text_jp": "ゼウス・サバージオス\n宙を夢見て、果てた、仮初めの現身",
+      "text_en": "",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Magical Cerebrospinal Fluid",
+            "piece": 10
+          },
+          {
+            "name": "Meteoric Horseshoe",
+            "piece": 5
+          },
+          {
+            "name": "Snake Jewel",
+            "piece": 5
+          },
+          {
+            "name": "Moonlight Nucleus",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 12
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 5
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 12
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 8
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Infinity Gear",
+          "piece": 10
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 11
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 4
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 18
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": 420,
+  "name": "Xu Fu",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Taoism Arts (Doll Manipulation)",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Encampment Evolution (Settlement)",
+        "rank": "B++"
+      }
+    ],
+    [
+      {
+        "name": "Collection of Ten Thousand Deaths",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Lancer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 8
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Forbidden Page",
+          "piece": 8
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 8
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Twilight Ceremonial Blade",
+          "piece": 8
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Forbidden Page",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Ghost Lantern",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Unforgettable Ashes",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

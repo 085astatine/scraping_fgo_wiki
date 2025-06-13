@@ -1,0 +1,334 @@
+{
+  "id": 77,
+  "name": "Nikola Tesla",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Galvanism",
+        "rank": "A"
+      },
+      {
+        "name": "Tesla Coil",
+        "rank": "A+"
+      },
+      {
+        "name": "Tesla Coil",
+        "rank": "A++"
+      }
+    ],
+    [
+      {
+        "name": "Natural Born Genius",
+        "rank": "A"
+      },
+      {
+        "name": "Natural Born Genius",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Pioneer of the Stars",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Caster Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 12
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 5
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 10
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 12
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 10
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 12
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 12
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 20
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 15
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 12
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 12
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 4
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 11
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

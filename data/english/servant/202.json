@@ -1,0 +1,276 @@
+{
+  "id": 202,
+  "name": "Atalanta (Alter)",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Self Evolution",
+        "rank": "EX"
+      },
+      {
+        "name": "Demonic Habituation",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Crossing Arcadia",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Wild Beast's Logic",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Archer Critical Attack Chance Resistance",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 10
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 10
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 45
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 10
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 10
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 15
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}

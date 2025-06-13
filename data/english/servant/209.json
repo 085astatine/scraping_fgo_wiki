@@ -1,0 +1,371 @@
+{
+  "id": 209,
+  "name": "Okita Sōji (Alter)",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Kyokuchi",
+        "rank": "A"
+      },
+      {
+        "name": "Kyokuchi",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Persistence",
+        "rank": "B"
+      },
+      {
+        "name": "Persistence",
+        "rank": "B+"
+      }
+    ],
+    [
+      {
+        "name": "Boundlessness",
+        "rank": "A"
+      },
+      {
+        "name": "Boundlessness",
+        "rank": "A+"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Caster Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Rengoku Alter",
+      "text_jp": "沖田オルタの霊基を緊急対応で制御中\n実のところ煉獄本来の役割ともいえる",
+      "text_en": "Okita Alter's Spirit Origin is currently suppressed for emergency purposes. In fact, it can be said that this was intended to be Rengoku's original role.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          },
+          {
+            "name": "Homunculus Baby",
+            "piece": 5
+          },
+          {
+            "name": "Lamp of Demon Sealing",
+            "piece": 5
+          },
+          {
+            "name": "Demonic Flame Hōzuki",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 5
+        },
+        {
+          "name": "Assassin Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 12
+        },
+        {
+          "name": "Assassin Piece",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 5
+        },
+        {
+          "name": "Assassin Monument",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 12
+        },
+        {
+          "name": "Assassin Monument",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Octuplet Crystals",
+          "piece": 8
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 9
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Rainbow Yarn",
+          "piece": 8
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 9
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}

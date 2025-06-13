@@ -1,0 +1,326 @@
+{
+  "id": 36,
+  "name": "Wolfgang Amadeus Mozart",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Protection of the Music God (False)",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Artistic Aesthetic",
+        "rank": "B"
+      },
+      {
+        "name": "Angel's Melody",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Eine Kleine Nachtmusik",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Avenger Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Caster Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Caster Piece",
+          "piece": 4
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Caster Monument",
+          "piece": 2
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 4
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Caster Monument",
+          "piece": 4
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 4
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 2
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 2
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 2
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Forbidden Page",
+          "piece": 4
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Comet Shard",
+          "piece": 3
+        },
+        {
+          "name": "Tiny Bell of Amnesty",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

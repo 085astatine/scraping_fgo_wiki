@@ -1,0 +1,302 @@
+{
+  "id": 208,
+  "name": "Sieg",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Artificial Hero (Fake)",
+        "rank": "B+"
+      }
+    ],
+    [
+      {
+        "name": "Magecraft",
+        "rank": "C"
+      }
+    ],
+    [
+      {
+        "name": "Dead Count Shapeshifter: Dragon Revelation Command Spells",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Saber Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Leaf of Remembrance",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Leaf of Remembrance",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Leaf of Remembrance",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Leaf of Remembrance",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 10
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 10
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Medal of Great Knight",
+          "piece": 16
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 6
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 10
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 10
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 8
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 45
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

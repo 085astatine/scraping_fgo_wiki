@@ -1,0 +1,322 @@
+{
+  "id": 342,
+  "name": "Constantine XI",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Prayer of Hagia Sophia",
+        "rank": "C-"
+      }
+    ],
+    [
+      {
+        "name": "Fallen Empire",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Cessation Privilege",
+        "rank": "C"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Archer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 12
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 22
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 5
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 10
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 12
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 6
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Hero's Proof",
+          "piece": 29
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Aurora Steel",
+          "piece": 18
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 12
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Medal of Great Knight",
+          "piece": 20
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 18
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

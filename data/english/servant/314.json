@@ -1,0 +1,349 @@
+{
+  "id": 314,
+  "name": "Koyanskaya of Light",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Innovator Bunny",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Aptitude for Slaughter (Man)",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "NFF Special",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Archer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "NFF Bunny",
+      "text_jp": "寒冷地用の白コートを脱いだ姿\n敏腕秘書はＴＰＯを弁えるのである",
+      "text_en": "Her appearance after taking off her white coat for arctic climates. A capable secretary must know her TPO.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          },
+          {
+            "name": "Sunscale",
+            "piece": 5
+          },
+          {
+            "name": "Dawnlight Reactor Core",
+            "piece": 5
+          },
+          {
+            "name": "Cursed Beast Cholecyst",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 12
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 22
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 5
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 29
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 12
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 29
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 29
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 29
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 18
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 10
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 8
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "id": 59,
+  "name": "Jeanne d'Arc",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Revelation",
+        "rank": "A"
+      },
+      {
+        "name": "At the End of the Pure and Clear Prayers",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "True Name Discernment",
+        "rank": "B"
+      },
+      {
+        "name": "Restoration of the Brilliant Holy Light",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "God's Resolution",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Ruler Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Prove",
+      "text_jp": "救国の聖女のダンス衣装\nゴージャスかつ清楚な純白のドレス",
+      "text_en": "A dance outfit worn by the holy maiden who saved a nation. This pure white dress is both lavish and chaste.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Homunculus Baby",
+            "piece": 5
+          },
+          {
+            "name": "Infinity Gear",
+            "piece": 5
+          },
+          {
+            "name": "Rainbow Yarn",
+            "piece": 5
+          },
+          {
+            "name": "Spirit Root",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 5
+        },
+        {
+          "name": "Archer Piece",
+          "piece": 5
+        },
+        {
+          "name": "Lancer Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 5
+        },
+        {
+          "name": "Caster Piece",
+          "piece": 5
+        },
+        {
+          "name": "Assassin Piece",
+          "piece": 5
+        },
+        {
+          "name": "Berserker Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 5
+        },
+        {
+          "name": "Archer Monument",
+          "piece": 5
+        },
+        {
+          "name": "Lancer Monument",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 5
+        },
+        {
+          "name": "Caster Monument",
+          "piece": 5
+        },
+        {
+          "name": "Assassin Monument",
+          "piece": 5
+        },
+        {
+          "name": "Berserker Monument",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}

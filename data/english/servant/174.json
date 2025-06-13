@@ -1,0 +1,339 @@
+{
+  "id": 174,
+  "name": "Paul Bunyan",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Happy Comrades",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Lake of Bean Soup|A ",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Popcorn Blizzard|B ",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Assassin Critical Attack Chance Resistance",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Mad Bunny",
+      "text_jp": "ポール・バニヤンのお祭り衣装\n血糊はベリーソース（自己申告）",
+      "text_en": "Paul Bunyan's festival outfit.<br/>The blood stain is from berry sauce (or so she claims)",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Yggdrasil Seed",
+            "piece": 10
+          },
+          {
+            "name": "Ghost Lantern",
+            "piece": 5
+          },
+          {
+            "name": "Giant's Ring",
+            "piece": 5
+          },
+          {
+            "name": "Spirit Root",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 2
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 4
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 2
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 4
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 18
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 2
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 6
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}

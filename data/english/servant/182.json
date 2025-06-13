@@ -1,0 +1,276 @@
+{
+  "id": 182,
+  "name": "Ishtar",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Glittering Aquatic Gown",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Accel Turn",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Summer Breaker!",
+        "rank": "A"
+      },
+      {
+        "name": "Summer Breaker!",
+        "rank": "A+"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Ruler Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 10
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 6
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 10
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 10
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Snake Jewel",
+          "piece": 7
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 6
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}

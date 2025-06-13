@@ -1,0 +1,306 @@
+{
+  "id": 92,
+  "name": "Ryōgi Shiki",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Mystic Eyes of Death Perception",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Eye of the Mind (False)",
+        "rank": "A"
+      },
+      {
+        "name": "Encounter Under the Rain",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Yin Yang",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Avenger Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Sharp Knife",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Sharp Knife",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Sharp Knife",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Sharp Knife",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 10
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 10
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Infinity Gear",
+          "piece": 15
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 10
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 10
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 4
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 15
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

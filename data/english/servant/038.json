@@ -1,0 +1,330 @@
+{
+  "id": 38,
+  "name": "Cú Chulainn",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Rune Magic",
+        "rank": "A"
+      },
+      {
+        "name": "Primeval Rune",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Protection from Arrows",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Disengage",
+        "rank": "C"
+      },
+      {
+        "name": "At the Well",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Foreigner Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Caster Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Caster Piece",
+          "piece": 8
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Caster Monument",
+          "piece": 4
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 2
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Caster Monument",
+          "piece": 8
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 4
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 8
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 8
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 10
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 8
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 8
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 3
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

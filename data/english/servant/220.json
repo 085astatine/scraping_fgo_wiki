@@ -1,0 +1,399 @@
+{
+  "id": 220,
+  "name": "BB",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Self-Modification",
+        "rank": "EX"
+      },
+      {
+        "name": "Self-Modification (Love)",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Aurea Pork Poculum",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Faceless Moon",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Foreigner Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Little Devil's Egg-colored Skin [2nd Ascension]",
+      "text_jp": "ＢＢ本来の肌色\n「紫外線は乙女の敵です！」",
+      "text_en": "BB's original skin color.<br/>\"UV rays are a maiden's enemy!\"",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Stimulus Gunpowder",
+            "piece": 10
+          },
+          {
+            "name": "Giant's Ring",
+            "piece": 5
+          },
+          {
+            "name": "Black Tallow",
+            "piece": 5
+          },
+          {
+            "name": "Bizarre Godly Wine",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Little Devil's Egg-colored Skin [3rd Ascension]",
+      "text_jp": "ＢＢ本来の肌色\n「ＵＶケアは乙女の味方です！」",
+      "text_en": "BB's original skin color.<br/>\"UV protection is a maiden's ally!\"",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Magical_Cerebrospinal_Fluid",
+            "piece": 10
+          },
+          {
+            "name": "Aurora Steel",
+            "piece": 5
+          },
+          {
+            "name": "Talon of Chaos",
+            "piece": 5
+          },
+          {
+            "name": "Heart of a Foreign God",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 5
+        },
+        {
+          "name": "Berserker Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 12
+        },
+        {
+          "name": "Berserker Piece",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 5
+        },
+        {
+          "name": "Berserker Monument",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 12
+        },
+        {
+          "name": "Berserker Monument",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 9
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 8
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 9
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

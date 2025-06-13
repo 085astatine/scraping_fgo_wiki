@@ -1,0 +1,353 @@
+{
+  "id": 43,
+  "name": "Charles-Henri Sanson",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Executioner",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Medical Techniques",
+        "rank": "A"
+      },
+      {
+        "name": "Medical Techniques",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Anatomy Study",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Saber Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Rimless Round",
+      "text_jp": "サンソンの眼鏡。普段は隠している\n優しさがにじみ出る",
+      "text_en": "Sanson's glasses. Something about them really brings out the kind nature he tries so hard to hide.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Chains of the Fool",
+            "piece": 10
+          },
+          {
+            "name": "Homunculus Baby",
+            "piece": 5
+          },
+          {
+            "name": "Bloodstone Tear",
+            "piece": 5
+          },
+          {
+            "name": "Scarab of Wisdom",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 6
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 3
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 1
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 6
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 2
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 6
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 3
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 6
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Forbidden Page",
+          "piece": 3
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Forbidden Page",
+          "piece": 9
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 6
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 3
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 6
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Bloodstone Tear",
+          "piece": 3
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 27
+        },
+        {
+          "name": "Tiny Bell of Amnesty",
+          "piece": 36
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

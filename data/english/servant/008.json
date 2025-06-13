@@ -1,0 +1,361 @@
+{
+  "id": 8,
+  "name": "Altera",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Military Tactics",
+        "rank": "B"
+      },
+      {
+        "name": "Scourge of God",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Natural Body",
+        "rank": "D"
+      },
+      {
+        "name": "Natural Body",
+        "rank": "EX"
+      },
+      {
+        "name": "Perfect Construct",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Star Emblem",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Foreigner Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Palmtop Stardust",
+      "text_jp": "神の鞭のダンス衣装\n草原の少女に在り得た、可能性の一つ",
+      "text_en": "The Scourge of God's dance outfit. An alternative form of the girl who once charged through the grassy fields.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          },
+          {
+            "name": "Meteoric Horseshoe",
+            "piece": 5
+          },
+          {
+            "name": "Warhorse's Immature Horn",
+            "piece": 5
+          },
+          {
+            "name": "Comet Shard",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 15
+        },
+        {
+          "name": "Saber Piece",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 6
+        },
+        {
+          "name": "Saber Monument",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 10
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        },
+        {
+          "name": "Saber Monument",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 20
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 18
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 54
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 29
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 10
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 18
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

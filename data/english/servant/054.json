@@ -1,0 +1,312 @@
+{
+  "id": 54,
+  "name": "Caligula",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Sadistic Constitution",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Imperial Privilege",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Glory of the Past",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Saber Critical Attack Chance Resistance",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 6
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 3
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 3
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 6
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 5
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 6
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 3
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 6
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 3
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 9
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 6
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 3
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 6
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Aurora Steel",
+          "piece": 9
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}

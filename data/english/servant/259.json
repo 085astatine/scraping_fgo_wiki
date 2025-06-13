@@ -1,0 +1,326 @@
+{
+  "id": 259,
+  "name": "Charlotte Corday",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Angel of Assassination",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Determination of Steel",
+        "rank": "D"
+      }
+    ],
+    [
+      {
+        "name": "Ludicrous Planning",
+        "rank": "D+"
+      },
+      {
+        "name": "Divine Providence (Assassination)",
+        "rank": "C"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Berserker Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 4
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 2
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 2
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 4
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 10
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 2
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 2
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 7
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 3
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 2
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 2
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 18
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "id": 364,
+  "name": "Iyo",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Kidō (Destruction)",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Dark Oracle",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Shrine Maiden of the End",
+        "rank": "C"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Foreigner Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Holiday Memories Style",
+      "text_jp": "神殿を抜け出す先輩にくっついて国を\n巡った遠く昨日の事のようなあの頃",
+      "text_en": "A memory of sneaking out of the shrine and traveling the countryside with her mentor. A faraway yesterday. ",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Yggdrasil Seed",
+            "piece": 10
+          },
+          {
+            "name": "Rainbow Yarn",
+            "piece": 5
+          },
+          {
+            "name": "Fruit of Longevity",
+            "piece": 5
+          },
+          {
+            "name": "Spirit Root",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Ghost Lantern",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Unforgettable Ashes",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

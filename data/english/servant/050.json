@@ -1,0 +1,326 @@
+{
+  "id": 50,
+  "name": "Spartacus",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Honor of the Battered",
+        "rank": "B"
+      },
+      {
+        "name": "Honor of the Battered",
+        "rank": "B+"
+      }
+    ],
+    [
+      {
+        "name": "Unyielding Will",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Triumphant Return of the Sword",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Rider Critical Attack Chance Resistance",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 4
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 2
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 2
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 4
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 4
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 2
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 3
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 8
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 2
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Black Tallow",
+          "piece": 2
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 18
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

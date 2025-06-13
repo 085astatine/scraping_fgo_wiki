@@ -1,0 +1,309 @@
+{
+  "id": 359,
+  "name": "Thrúd",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "SMG/SAM66",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Valkyrie Style Team Combat",
+        "rank": "B+"
+      }
+    ],
+    [
+      {
+        "name": "Warmaidens' Troth",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Saber Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Warmaiden Rindr",
+      "text_jp": "スルーズと同時期に製造された個体\n作戦参謀的な役割を有している",
+      "text_en": "A unit who was manufactured at the same time as Thrúd. Still possesses her mind for tactics.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Stimulus Gunpowder",
+            "piece": 10
+          },
+          {
+            "name": "Aurora Steel",
+            "piece": 5
+          },
+          {
+            "name": "Dawnlight Reactor Core",
+            "piece": 5
+          },
+          {
+            "name": "Tsukumo Mirror",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 7
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 45
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 10
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 10
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Infinity Gear",
+          "piece": 8
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Aurora Steel",
+          "piece": 15
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

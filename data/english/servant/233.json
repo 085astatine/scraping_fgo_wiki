@@ -1,0 +1,435 @@
+{
+  "id": 233,
+  "name": "Quetzalcoatl (Samba/Santa)",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Sambista",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Goddess's Gift",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Christmas Killing Method",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Ruler Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Técnica Mascara",
+      "text_jp": "ケツァル・コアトル愛用のマスク\n身につけるだけで闘志が溢れてくる",
+      "text_en": "Quetzalcoatl's favorite and most frequently used mask. Simply putting it on raises the wearer's fighting spirit.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Phoenix Plume",
+            "piece": 5
+          },
+          {
+            "name": "Permafrost Ice Crystal",
+            "piece": 5
+          },
+          {
+            "name": "Octuplet Crystals",
+            "piece": 5
+          },
+          {
+            "name": "Spirit Root",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rudos Mascara",
+      "text_jp": "真のサンタを目指した悪役の名残\n気を抜くと顔が怖くなってしまう",
+      "text_en": "A relic of the ruda who fought to become the true Santa. This mask can make the wearer seem quite frightening.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Chains of the Fool",
+            "piece": 10
+          },
+          {
+            "name": "Night-Weeping Iron Stake",
+            "piece": 10
+          },
+          {
+            "name": "Black Tallow",
+            "piece": 5
+          },
+          {
+            "name": "Heart of a Foreign God",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Kukulkan Mask",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Kukulkan Mask",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Kukulkan Mask",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Kukulkan Mask",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Fruit of Longevity",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

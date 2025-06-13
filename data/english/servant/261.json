@@ -1,0 +1,339 @@
+{
+  "id": 261,
+  "name": "Miyamoto Musashi",
+  "false_name": null,
+  "active_skills": [
+    [
+      {
+        "name": "Accel Turn",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Fifth Serving",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Tenma Gōgan",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Lancer Critical Attack Chance Resistance",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Musashi-chan Summer Mode",
+      "text_jp": "天魔と化した宮本武蔵、ではなく\nこちらは普通の日焼けとのコト",
+      "text_en": "Miyamoto Musashi transformed into a demon...er, actually, she just got a tan.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Night-Weeping Iron Stake",
+            "piece": 10
+          },
+          {
+            "name": "Giant's Ring",
+            "piece": 5
+          },
+          {
+            "name": "Phoenix Plume",
+            "piece": 5
+          },
+          {
+            "name": "Heart of a Foreign God",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 12
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 22
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 5
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 10
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 12
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 6
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 12
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 5
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 12
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Hero's Proof",
+          "piece": 29
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 18
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 12
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 12
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 4
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 18
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ]
+}
