@@ -20,6 +20,13 @@ def main() -> None:
     if option.verbose:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
+    # load english items
+    en_items = lib.load_item_dictionary(
+        pathlib.Path("data/english/item.json"),
+        logger=logger,
+    )
+    if en_items is None:
+        return
     # load english servants
     en_servants: dict[lib.ServantID, lib.english.Servant] = {
         servant["id"]: servant
@@ -28,6 +35,13 @@ def main() -> None:
             logger=logger,
         )
     }
+    # load japanese items
+    jp_items = lib.load_items(
+        pathlib.Path("data/items.json"),
+        logger=logger,
+    )
+    if jp_items is None:
+        return
     # load japanese servants
     jp_servants: dict[lib.ServantID, lib.Servant] = {
         servant["id"]: servant
@@ -36,7 +50,9 @@ def main() -> None:
             logger=logger,
         )
     }
-    # compare
+    # compare items
+    compare_items(en_items, jp_items, logger)
+    # compare servants
     compare_servants(en_servants, jp_servants, logger)
 
 
@@ -68,6 +84,27 @@ def argument_parser() -> argparse.ArgumentParser:
         help="set log level to debug",
     )
     return parser
+
+
+def compare_items(
+    en_items: lib.ItemDictionary,
+    jp_items: list[lib.Item],
+    logger: logging.Logger,
+) -> None:
+    en_item_ids = set(en_items.keys())
+    jp_item_ids = set(jp_item["id"] for jp_item in jp_items)
+    en_only_item_ids = en_item_ids - jp_item_ids
+    if en_only_item_ids:
+        logger.error(
+            "item IDs (%s) are only in English",
+            ", ".join(str(item_id) for item_id in en_only_item_ids),
+        )
+    jp_only_item_ids = jp_item_ids - en_item_ids
+    if jp_only_item_ids:
+        logger.error(
+            "item IDs (%s) are only in Japanse",
+            ", ".join(str(item_id) for item_id in jp_only_item_ids),
+        )
 
 
 def compare_servants(

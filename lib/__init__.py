@@ -24,6 +24,7 @@ from .types import (
     CostumeID,
     Dictionary,
     Item,
+    ItemDictionary,
     ItemID,
     Resource,
     ResourceSet,

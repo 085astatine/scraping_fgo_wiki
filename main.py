@@ -18,7 +18,7 @@ def load_dict(
     force_update: bool = False,
 ) -> lib.Dictionary:
     # item
-    item = lib.load_item_dictionary(pathlib.Path("data/english/item.json"))
+    item = lib.load_item_dictionary(pathlib.Path("data/english/item.json")) or {}
     # servant
     servant_path = path.joinpath("servant.json")
     servant_dict = lib.load_json(servant_path)
