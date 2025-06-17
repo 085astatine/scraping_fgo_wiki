@@ -27,15 +27,19 @@ class ItemNameConverter:
         self,
         data: dict[str, ItemID],
         *,
+        default_id: Optional[int] = None,
         logger: Optional[logging.Logger | logging.LoggerAdapter] = None,
     ) -> None:
         self._data = data
+        self._default_id = default_id
         self._logger = logger or logging.getLogger(__name__)
 
     def item_id(self, item_name: str) -> Optional[ItemID]:
         item_id = self._data.get(item_name, None)
         if item_id is None:
             self._logger.error('item ID is not found: name="%s"', item_name)
+            if self._default_id is not None:
+                return self._default_id
             return None
         return item_id
 
