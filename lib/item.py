@@ -5,7 +5,7 @@ import pathlib
 from typing import Optional
 
 from .io import load_json
-from .types import Item
+from .types import Item, ItemID, ItemsByID, Resource, ResourceByID, ResourceSet
 
 
 def load_items(
@@ -20,3 +20,40 @@ def load_items(
         logger.error('failed to load items from "%s"', path)
         return None
     return items
+
+
+class ItemNameConverter:
+    def __init__(
+        self,
+        data: dict[str, ItemID],
+        *,
+        logger: Optional[logging.Logger | logging.LoggerAdapter] = None,
+    ) -> None:
+        self._data = data
+        self._logger = logger or logging.getLogger(__name__)
+
+    def item_id(self, item_name: str) -> Optional[ItemID]:
+        item_id = self._data.get(item_name, None)
+        if item_id is None:
+            self._logger.error('item ID is not found: name="%s"', item_name)
+            return None
+        return item_id
+
+    def items(self, items: Resource) -> Optional[ItemsByID]:
+        item_id = self.item_id(items["name"])
+        if item_id is None:
+            return None
+        return ItemsByID(id=item_id, piece=items["piece"])
+
+    def resource(self, resource: ResourceSet) -> Optional[ResourceByID]:
+        ok = True
+        result: list[ItemsByID] = []
+        for items in resource["resources"]:
+            value = self.items(items)
+            if value is None:
+                ok = False
+            else:
+                result.append(value)
+        if not ok:
+            return None
+        return ResourceByID(qp=resource["qp"], items=result)

@@ -3,7 +3,7 @@ from __future__ import annotations
 import logging
 
 from .io import load_json, save_json
-from .item import load_items
+from .item import ItemNameConverter, load_items
 from .merge import merge
 from .servant import (
     ServantLogger,
@@ -26,7 +26,9 @@ from .types import (
     Item,
     ItemDictionary,
     ItemID,
+    ItemsByID,
     Resource,
+    ResourceByID,
     ResourceSet,
     Servant,
     ServantDictionary,
