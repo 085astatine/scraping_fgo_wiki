@@ -2,6 +2,8 @@
   "id": 287,
   "name": "Brynhildr",
   "false_name": null,
+  "klass": "Berserker",
+  "rarity": 4,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 171,
   "name": "Penthesilea",
   "false_name": "Berserker of El Dorado",
+  "klass": "Berserker",
+  "rarity": 4,
   "active_skills": [
     [
       {

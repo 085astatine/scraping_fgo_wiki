@@ -2,6 +2,8 @@
   "id": 225,
   "name": "Shuten Dōji",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 4,
   "active_skills": [
     [
       {

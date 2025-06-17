@@ -2,6 +2,8 @@
   "id": 192,
   "name": "Circe",
   "false_name": "Caster of Okeanos",
+  "klass": "Caster",
+  "rarity": 4,
   "active_skills": [
     [
       {

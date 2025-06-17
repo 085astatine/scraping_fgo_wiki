@@ -2,6 +2,8 @@
   "id": 380,
   "name": "Kashin Koji",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 5,
   "active_skills": [
     [
       {

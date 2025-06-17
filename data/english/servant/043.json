@@ -2,6 +2,8 @@
   "id": 43,
   "name": "Charles-Henri Sanson",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 2,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 376,
   "name": "Larva/Tiamat",
   "false_name": null,
+  "klass": "AlterEgo",
+  "rarity": 5,
   "active_skills": [
     [
       {

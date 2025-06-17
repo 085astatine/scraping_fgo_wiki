@@ -2,6 +2,8 @@
   "id": 299,
   "name": "Ibuki Dōji",
   "false_name": null,
+  "klass": "Saber",
+  "rarity": 5,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 358,
   "name": "Wu Zetian",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 4,
   "active_skills": [
     [
       {

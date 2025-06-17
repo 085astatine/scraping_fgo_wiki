@@ -2,6 +2,8 @@
   "id": 130,
   "name": "Marie Antoinette",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 4,
   "active_skills": [
     [
       {

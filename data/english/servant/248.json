@@ -2,6 +2,8 @@
   "id": 248,
   "name": "Aśvatthāman",
   "false_name": null,
+  "klass": "Archer",
+  "rarity": 4,
   "active_skills": [
     [
       {

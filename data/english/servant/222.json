@@ -2,6 +2,8 @@
   "id": 222,
   "name": "Mysterious Heroine XX",
   "false_name": null,
+  "klass": "Foreigner",
+  "rarity": 4,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 321,
   "name": "Kama",
   "false_name": null,
+  "klass": "Avenger",
+  "rarity": 5,
   "active_skills": [
     [
       {

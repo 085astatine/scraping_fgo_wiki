@@ -2,6 +2,8 @@
   "id": 95,
   "name": "Kid Gil",
   "false_name": null,
+  "klass": "Archer",
+  "rarity": 3,
   "active_skills": [
     [
       {

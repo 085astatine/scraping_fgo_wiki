@@ -2,6 +2,8 @@
   "id": 258,
   "name": "Chen Gong",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 2,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 99,
   "name": "Queen Medb",
   "false_name": null,
+  "klass": "Rider",
+  "rarity": 5,
   "active_skills": [
     [
       {

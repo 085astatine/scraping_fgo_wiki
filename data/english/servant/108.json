@@ -2,6 +2,8 @@
   "id": 108,
   "name": "Iskandar",
   "false_name": null,
+  "klass": "Rider",
+  "rarity": 5,
   "active_skills": [
     [
       {

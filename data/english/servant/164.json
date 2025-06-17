@@ -2,6 +2,8 @@
   "id": 164,
   "name": "Passionlip",
   "false_name": null,
+  "klass": "AlterEgo",
+  "rarity": 4,
   "active_skills": [
     [
       {

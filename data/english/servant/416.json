@@ -2,6 +2,8 @@
   "id": 416,
   "name": "Azumi no Isora (Hibiki & Chikagi)",
   "false_name": null,
+  "klass": "AlterEgo",
+  "rarity": 5,
   "active_skills": [
     [
       {

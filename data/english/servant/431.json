@@ -2,6 +2,8 @@
   "id": 431,
   "name": "Phantasmoon",
   "false_name": null,
+  "klass": "Pretender",
+  "rarity": 5,
   "active_skills": [
     [
       {

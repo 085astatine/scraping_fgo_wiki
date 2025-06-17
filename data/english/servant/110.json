@@ -2,6 +2,8 @@
   "id": 110,
   "name": "Hassan of the Hundred Faces",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 3,
   "active_skills": [
     [
       {

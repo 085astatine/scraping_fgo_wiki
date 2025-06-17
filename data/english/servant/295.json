@@ -2,6 +2,8 @@
   "id": 295,
   "name": "Van Gogh",
   "false_name": null,
+  "klass": "Foreigner",
+  "rarity": 5,
   "active_skills": [
     [
       {

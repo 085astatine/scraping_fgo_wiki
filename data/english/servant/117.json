@@ -2,6 +2,8 @@
   "id": 117,
   "name": "Fūma Kotarō",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 3,
   "active_skills": [
     [
       {

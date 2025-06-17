@@ -2,6 +2,8 @@
   "id": 77,
   "name": "Nikola Tesla",
   "false_name": null,
+  "klass": "Archer",
+  "rarity": 5,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 402,
   "name": "Yamato Takeru",
   "false_name": null,
+  "klass": "Saber",
+  "rarity": 5,
   "active_skills": [
     [
       {

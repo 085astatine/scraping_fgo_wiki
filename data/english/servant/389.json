@@ -2,6 +2,8 @@
   "id": 389,
   "name": "Cnoc na Riabh Yaraan-doo",
   "false_name": null,
+  "klass": "Foreigner",
+  "rarity": 4,
   "active_skills": [
     [
       {

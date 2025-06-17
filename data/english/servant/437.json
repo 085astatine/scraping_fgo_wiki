@@ -2,6 +2,8 @@
   "id": 437,
   "name": "Dante Alighieri",
   "false_name": null,
+  "klass": "Pretender",
+  "rarity": 5,
   "active_skills": [
     [
       {

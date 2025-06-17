@@ -2,6 +2,8 @@
   "id": 250,
   "name": "Demon King Nobunaga",
   "false_name": null,
+  "klass": "Avenger",
+  "rarity": 5,
   "active_skills": [
     [
       {

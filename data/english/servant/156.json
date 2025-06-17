@@ -2,6 +2,8 @@
   "id": 156,
   "name": "James Moriarty",
   "false_name": "Archer of Shinjuku",
+  "klass": "Archer",
+  "rarity": 5,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 308,
   "name": "Mysterious Idol X (Alter)",
   "false_name": null,
+  "klass": "Foreigner",
+  "rarity": 4,
   "active_skills": [
     [
       {

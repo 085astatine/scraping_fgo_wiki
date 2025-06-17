@@ -2,6 +2,8 @@
   "id": 78,
   "name": "Artoria Pendragon (Alter)",
   "false_name": null,
+  "klass": "Lancer",
+  "rarity": 4,
   "active_skills": [
     [
       {

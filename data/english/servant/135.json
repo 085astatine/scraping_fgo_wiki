@@ -2,6 +2,8 @@
   "id": 135,
   "name": "Martha",
   "false_name": null,
+  "klass": "Ruler",
+  "rarity": 4,
   "active_skills": [
     [
       {

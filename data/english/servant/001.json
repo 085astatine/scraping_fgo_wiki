@@ -2,6 +2,8 @@
   "id": 1,
   "name": "Mashu Kyrielight",
   "false_name": null,
+  "klass": "Shielder",
+  "rarity": 3,
   "active_skills": [
     [
       {

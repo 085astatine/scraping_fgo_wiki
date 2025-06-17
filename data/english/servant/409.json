@@ -2,6 +2,8 @@
   "id": 409,
   "name": "King of the Cavern, Monte Cristo",
   "false_name": null,
+  "klass": "Avenger",
+  "rarity": 5,
   "active_skills": [
     [
       {

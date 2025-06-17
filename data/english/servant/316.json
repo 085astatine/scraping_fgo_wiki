@@ -2,6 +2,8 @@
   "id": 316,
   "name": "Oberon",
   "false_name": null,
+  "klass": "Pretender",
+  "rarity": 5,
   "active_skills": [
     [
       {

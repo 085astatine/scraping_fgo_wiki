@@ -2,6 +2,8 @@
   "id": 169,
   "name": "Scheherazade",
   "false_name": "Caster of Nightless City",
+  "klass": "Caster",
+  "rarity": 5,
   "active_skills": [
     [
       {

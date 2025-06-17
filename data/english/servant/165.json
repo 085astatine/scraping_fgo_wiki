@@ -2,6 +2,8 @@
   "id": 165,
   "name": "Suzuka Gozen",
   "false_name": null,
+  "klass": "Saber",
+  "rarity": 4,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 46,
   "name": "Carmilla",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 4,
   "active_skills": [
     [
       {

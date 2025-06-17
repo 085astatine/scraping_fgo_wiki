@@ -2,6 +2,8 @@
   "id": 18,
   "name": "Elizabeth Báthory",
   "false_name": null,
+  "klass": "Lancer",
+  "rarity": 4,
   "active_skills": [
     [
       {

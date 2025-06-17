@@ -2,6 +2,8 @@
   "id": 51,
   "name": "Sakata Kintoki",
   "false_name": null,
+  "klass": "Berserker",
+  "rarity": 5,
   "active_skills": [
     [
       {

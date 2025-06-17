@@ -2,6 +2,8 @@
   "id": 306,
   "name": "Galatea",
   "false_name": null,
+  "klass": "Berserker",
+  "rarity": 5,
   "active_skills": [
     [
       {

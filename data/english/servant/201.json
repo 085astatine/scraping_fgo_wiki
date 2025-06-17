@@ -2,6 +2,8 @@
   "id": 201,
   "name": "Anastasia",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 5,
   "active_skills": [
     [
       {

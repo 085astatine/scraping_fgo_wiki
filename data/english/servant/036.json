@@ -2,6 +2,8 @@
   "id": 36,
   "name": "Wolfgang Amadeus Mozart",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 1,
   "active_skills": [
     [
       {

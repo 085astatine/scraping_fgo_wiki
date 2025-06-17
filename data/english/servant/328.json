@@ -2,6 +2,8 @@
   "id": 328,
   "name": "Mysterious Ranmaru X",
   "false_name": null,
+  "klass": "Avenger",
+  "rarity": 4,
   "active_skills": [
     [
       {

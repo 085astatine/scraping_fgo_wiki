@@ -2,6 +2,8 @@
   "id": 176,
   "name": "Frankenstein",
   "false_name": null,
+  "klass": "Saber",
+  "rarity": 4,
   "active_skills": [
     [
       {

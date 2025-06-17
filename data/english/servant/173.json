@@ -2,6 +2,8 @@
   "id": 173,
   "name": "Sherlock Holmes",
   "false_name": null,
+  "klass": "Ruler",
+  "rarity": 5,
   "active_skills": [
     [
       {

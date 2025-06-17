@@ -2,6 +2,8 @@
   "id": 153,
   "name": "Miyamoto Musashi",
   "false_name": null,
+  "klass": "Saber",
+  "rarity": 5,
   "active_skills": [
     [
       {

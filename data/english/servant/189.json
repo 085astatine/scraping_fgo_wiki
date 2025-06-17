@@ -2,6 +2,8 @@
   "id": 189,
   "name": "Osakabehime",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 5,
   "active_skills": [
     [
       {

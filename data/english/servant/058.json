@@ -2,6 +2,8 @@
   "id": 58,
   "name": "Tamamo Cat",
   "false_name": null,
+  "klass": "Berserker",
+  "rarity": 4,
   "active_skills": [
     [
       {

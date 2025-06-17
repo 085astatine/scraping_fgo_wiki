@@ -2,6 +2,8 @@
   "id": 257,
   "name": "Bartholomew Roberts",
   "false_name": null,
+  "klass": "Rider",
+  "rarity": 1,
   "active_skills": [
     [
       {

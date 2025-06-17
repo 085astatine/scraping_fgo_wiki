@@ -2,6 +2,8 @@
   "id": 274,
   "name": "Europa",
   "false_name": null,
+  "klass": "Rider",
+  "rarity": 5,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 102,
   "name": "Li Shuwen",
   "false_name": null,
+  "klass": "Lancer",
+  "rarity": 4,
   "active_skills": [
     [
       {

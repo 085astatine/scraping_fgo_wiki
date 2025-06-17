@@ -2,6 +2,8 @@
   "id": 438,
   "name": "Metatron Jeanne",
   "false_name": null,
+  "klass": "Ruler",
+  "rarity": 5,
   "active_skills": [
     [
       {

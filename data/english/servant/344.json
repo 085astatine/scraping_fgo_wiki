@@ -2,6 +2,8 @@
   "id": 344,
   "name": "Roland",
   "false_name": null,
+  "klass": "Saber",
+  "rarity": 4,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 178,
   "name": "Oda Nobunaga",
   "false_name": null,
+  "klass": "Berserker",
+  "rarity": 4,
   "active_skills": [
     [
       {

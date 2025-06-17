@@ -2,6 +2,8 @@
   "id": 194,
   "name": "Queen of Sheba",
   "false_name": "Caster of Midrash",
+  "klass": "Caster",
+  "rarity": 4,
   "active_skills": [
     [
       {

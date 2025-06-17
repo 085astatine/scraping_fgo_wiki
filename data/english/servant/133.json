@@ -2,6 +2,8 @@
   "id": 133,
   "name": "Scáthach",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 4,
   "active_skills": [
     [
       {

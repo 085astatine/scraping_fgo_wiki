@@ -2,6 +2,8 @@
   "id": 401,
   "name": "Nemo (Santa)",
   "false_name": null,
+  "klass": "Rider",
+  "rarity": 4,
   "active_skills": [
     [
       {

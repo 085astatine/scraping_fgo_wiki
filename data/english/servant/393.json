@@ -2,6 +2,8 @@
   "id": 393,
   "name": "Wandjina",
   "false_name": null,
+  "klass": "Foreigner",
+  "rarity": 5,
   "active_skills": [
     [
       {

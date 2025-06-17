@@ -2,6 +2,8 @@
   "id": 195,
   "name": "Abigail Williams",
   "false_name": null,
+  "klass": "Foreigner",
+  "rarity": 5,
   "active_skills": [
     [
       {

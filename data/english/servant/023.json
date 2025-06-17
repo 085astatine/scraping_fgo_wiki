@@ -2,6 +2,8 @@
   "id": 23,
   "name": "Medusa",
   "false_name": null,
+  "klass": "Rider",
+  "rarity": 3,
   "active_skills": [
     [
       {

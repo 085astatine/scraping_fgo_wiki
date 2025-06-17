@@ -2,6 +2,8 @@
   "id": 170,
   "name": "Wu Zetian",
   "false_name": "Assassin of Nightless City",
+  "klass": "Assassin",
+  "rarity": 4,
   "active_skills": [
     [
       {

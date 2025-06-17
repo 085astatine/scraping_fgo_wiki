@@ -2,6 +2,8 @@
   "id": 172,
   "name": "Christopher Columbus",
   "false_name": "Rider of Resistance",
+  "klass": "Rider",
+  "rarity": 3,
   "active_skills": [
     [
       {

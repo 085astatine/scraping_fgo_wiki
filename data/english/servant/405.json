@@ -2,6 +2,8 @@
   "id": 405,
   "name": "Miyamoto Iori",
   "false_name": null,
+  "klass": "Saber",
+  "rarity": 4,
   "active_skills": [
     [
       {

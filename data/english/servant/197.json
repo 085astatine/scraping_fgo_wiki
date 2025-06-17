@@ -2,6 +2,8 @@
   "id": 197,
   "name": "Altera the San(ta)",
   "false_name": null,
+  "klass": "Archer",
+  "rarity": 4,
   "active_skills": [
     [
       {

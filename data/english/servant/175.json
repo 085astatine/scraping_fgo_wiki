@@ -2,6 +2,8 @@
   "id": 175,
   "name": "Nero Claudius",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 5,
   "active_skills": [
     [
       {

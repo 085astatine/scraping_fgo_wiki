@@ -2,6 +2,8 @@
   "id": 123,
   "name": "Gawain",
   "false_name": null,
+  "klass": "Saber",
+  "rarity": 4,
   "active_skills": [
     [
       {

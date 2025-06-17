@@ -2,6 +2,8 @@
   "id": 49,
   "name": "Lu Bu Fengxian",
   "false_name": null,
+  "klass": "Berserker",
+  "rarity": 3,
   "active_skills": [
     [
       {

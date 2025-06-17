@@ -2,6 +2,8 @@
   "id": 147,
   "name": "Gorgon",
   "false_name": null,
+  "klass": "Avenger",
+  "rarity": 4,
   "active_skills": [
     [
       {

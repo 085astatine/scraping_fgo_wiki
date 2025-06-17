@@ -2,6 +2,8 @@
   "id": 100,
   "name": "Helena Blavatsky",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 4,
   "active_skills": [
     [
       {

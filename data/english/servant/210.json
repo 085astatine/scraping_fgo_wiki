@@ -2,6 +2,8 @@
   "id": 210,
   "name": "Okada Izō",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 3,
   "active_skills": [
     [
       {

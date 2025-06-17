@@ -2,6 +2,8 @@
   "id": 339,
   "name": "Super Bunyan",
   "false_name": null,
+  "klass": "AlterEgo",
+  "rarity": 5,
   "active_skills": [
     [
       {

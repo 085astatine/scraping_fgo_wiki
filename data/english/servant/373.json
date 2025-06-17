@@ -2,6 +2,8 @@
   "id": 373,
   "name": "Kukulkan",
   "false_name": null,
+  "klass": "Foreigner",
+  "rarity": 5,
   "active_skills": [
     [
       {

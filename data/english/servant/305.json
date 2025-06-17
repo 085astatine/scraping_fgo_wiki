@@ -2,6 +2,8 @@
   "id": 305,
   "name": "Amor (Caren)",
   "false_name": null,
+  "klass": "Ruler",
+  "rarity": 5,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 67,
   "name": "Medea (Lily)",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 4,
   "active_skills": [
     [
       {

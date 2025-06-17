@@ -2,6 +2,8 @@
   "id": 208,
   "name": "Sieg",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 4,
   "active_skills": [
     [
       {

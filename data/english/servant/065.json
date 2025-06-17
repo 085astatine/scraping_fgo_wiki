@@ -2,6 +2,8 @@
   "id": 65,
   "name": "Francis Drake",
   "false_name": null,
+  "klass": "Rider",
+  "rarity": 5,
   "active_skills": [
     [
       {

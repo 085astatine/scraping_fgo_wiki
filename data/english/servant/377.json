@@ -2,6 +2,8 @@
   "id": 377,
   "name": "Sodom's Beast/Draco",
   "false_name": null,
+  "klass": "Beast",
+  "rarity": 5,
   "active_skills": [
     [
       {

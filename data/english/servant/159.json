@@ -2,6 +2,8 @@
   "id": 159,
   "name": "Yan Qing",
   "false_name": "Assassin of Shinjuku",
+  "klass": "Assassin",
+  "rarity": 4,
   "active_skills": [
     [
       {

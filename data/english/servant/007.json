@@ -2,6 +2,8 @@
   "id": 7,
   "name": "Gaius Julius Caesar",
   "false_name": null,
+  "klass": "Saber",
+  "rarity": 3,
   "active_skills": [
     [
       {

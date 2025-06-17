@@ -2,6 +2,8 @@
   "id": 186,
   "name": "Hōzōin Inshun",
   "false_name": null,
+  "klass": "Lancer",
+  "rarity": 3,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 426,
   "name": "Kazuradrop",
   "false_name": null,
+  "klass": "AlterEgo",
+  "rarity": 5,
   "active_skills": [
     [
       {

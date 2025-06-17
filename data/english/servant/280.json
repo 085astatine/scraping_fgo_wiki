@@ -2,6 +2,8 @@
   "id": 280,
   "name": "Romulus-Quirinus",
   "false_name": null,
+  "klass": "Lancer",
+  "rarity": 5,
   "active_skills": [
     [
       {

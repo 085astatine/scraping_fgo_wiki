@@ -2,6 +2,8 @@
   "id": 419,
   "name": "Dobrynya Nikitich",
   "false_name": null,
+  "klass": "Lancer",
+  "rarity": 4,
   "active_skills": [
     [
       {

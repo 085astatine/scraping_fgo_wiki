@@ -2,6 +2,8 @@
   "id": 134,
   "name": "Kiyohime",
   "false_name": null,
+  "klass": "Lancer",
+  "rarity": 4,
   "active_skills": [
     [
       {

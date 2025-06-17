@@ -2,6 +2,8 @@
   "id": 55,
   "name": "Darius III",
   "false_name": null,
+  "klass": "Berserker",
+  "rarity": 3,
   "active_skills": [
     [
       {

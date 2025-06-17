@@ -2,6 +2,8 @@
   "id": 105,
   "name": "Billy the Kid",
   "false_name": null,
+  "klass": "Archer",
+  "rarity": 3,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 174,
   "name": "Paul Bunyan",
   "false_name": null,
+  "klass": "Berserker",
+  "rarity": 1,
   "active_skills": [
     [
       {

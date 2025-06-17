@@ -2,6 +2,8 @@
   "id": 154,
   "name": "\"The Old Man of the Mountain\"",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 5,
   "active_skills": [
     [
       {

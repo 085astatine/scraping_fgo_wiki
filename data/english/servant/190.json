@@ -2,6 +2,8 @@
   "id": 190,
   "name": "Mecha Eli-chan",
   "false_name": null,
+  "klass": "AlterEgo",
+  "rarity": 4,
   "active_skills": [
     [
       {

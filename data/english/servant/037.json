@@ -2,6 +2,8 @@
   "id": 37,
   "name": "Zhuge Liang (Lord El-Melloi II)",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 5,
   "active_skills": [
     [
       {

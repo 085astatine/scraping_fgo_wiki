@@ -2,6 +2,8 @@
   "id": 237,
   "name": "Murasaki Shikibu",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 5,
   "active_skills": [
     [
       {

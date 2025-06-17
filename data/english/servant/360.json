@@ -2,6 +2,8 @@
   "id": 360,
   "name": "Hildr",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 4,
   "active_skills": [
     [
       {

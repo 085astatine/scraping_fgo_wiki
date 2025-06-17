@@ -2,6 +2,8 @@
   "id": 294,
   "name": "Oda Nobukatsu",
   "false_name": null,
+  "klass": "Archer",
+  "rarity": 1,
   "active_skills": [
     [
       {

@@ -2,6 +2,8 @@
   "id": 243,
   "name": "Gray",
   "false_name": null,
+  "klass": "Assassin",
+  "rarity": 4,
   "active_skills": [
     [
       {

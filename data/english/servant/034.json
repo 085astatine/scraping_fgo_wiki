@@ -2,6 +2,8 @@
   "id": 34,
   "name": "William Shakespeare",
   "false_name": null,
+  "klass": "Caster",
+  "rarity": 2,
   "active_skills": [
     [
       {

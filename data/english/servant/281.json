@@ -2,6 +2,8 @@
   "id": 281,
   "name": "Voyager",
   "false_name": null,
+  "klass": "Foreigner",
+  "rarity": 5,
   "active_skills": [
     [
       {

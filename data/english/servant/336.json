@@ -2,6 +2,8 @@
   "id": 336,
   "name": "Manannán mac Lir (Bazett)",
   "false_name": null,
+  "klass": "AlterEgo",
+  "rarity": 5,
   "active_skills": [
     [
       {
