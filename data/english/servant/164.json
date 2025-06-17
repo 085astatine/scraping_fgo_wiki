@@ -94,7 +94,7 @@
   ],
   "ascension_resources": [
     {
-      "qp": 100000,
+      "qp": 50000,
       "resources": [
         {
           "name": "Archer Piece",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "qp": 300000,
+      "qp": 150000,
       "resources": [
         {
           "name": "Archer Piece",
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "qp": 1000000,
+      "qp": 500000,
       "resources": [
         {
           "name": "Archer Monument",
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "qp": 3000000,
+      "qp": 1500000,
       "resources": [
         {
           "name": "Archer Monument",
@@ -148,23 +148,23 @@
   ],
   "active_skill_resources": [
     {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
       "qp": 200000,
       "resources": [
         {
           "name": "Shining Gem of Bows",
-          "piece": 4
-        },
-        {
-          "name": "Shining Gem of Madness",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 400000,
-      "resources": [
-        {
-          "name": "Shining Gem of Bows",
           "piece": 10
         },
         {
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 600000,
       "resources": [
         {
           "name": "Magic Gem of Bows",
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 800000,
       "resources": [
         {
           "name": "Magic Gem of Bows",
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Secret Gem of Bows",
@@ -209,24 +209,24 @@
         {
           "name": "Secret Gem of Madness",
           "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 10
         }
       ]
     },
     {
       "qp": 5000000,
-      "resources": [
-        {
-          "name": "Secret Gem of Bows",
-          "piece": 10
-        },
-        {
-          "name": "Secret Gem of Madness",
-          "piece": 10
-        }
-      ]
-    },
-    {
-      "qp": 10000000,
       "resources": [
         {
           "name": "Bloodstone Tear",
@@ -239,7 +239,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 6000000,
       "resources": [
         {
           "name": "Spirit Root",
@@ -252,7 +252,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 10000000,
       "resources": [
         {
           "name": "Crystallized Lore",
@@ -263,23 +263,23 @@
   ],
   "append_skill_resources": [
     {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
       "qp": 200000,
       "resources": [
         {
           "name": "Shining Gem of Bows",
-          "piece": 4
-        },
-        {
-          "name": "Shining Gem of Madness",
-          "piece": 4
-        }
-      ]
-    },
-    {
-      "qp": 400000,
-      "resources": [
-        {
-          "name": "Shining Gem of Bows",
           "piece": 10
         },
         {
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 600000,
       "resources": [
         {
           "name": "Magic Gem of Bows",
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 800000,
       "resources": [
         {
           "name": "Magic Gem of Bows",
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Secret Gem of Bows",
@@ -324,24 +324,24 @@
         {
           "name": "Secret Gem of Madness",
           "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 10
+        },
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 10
         }
       ]
     },
     {
       "qp": 5000000,
-      "resources": [
-        {
-          "name": "Secret Gem of Bows",
-          "piece": 10
-        },
-        {
-          "name": "Secret Gem of Madness",
-          "piece": 10
-        }
-      ]
-    },
-    {
-      "qp": 10000000,
       "resources": [
         {
           "name": "Dawnlight Reactor Core",
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 6000000,
       "resources": [
         {
           "name": "Bizarre Godly Wine",
@@ -367,7 +367,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 10000000,
       "resources": [
         {
           "name": "Crystallized Lore",

@@ -112,7 +112,7 @@
   ],
   "ascension_resources": [
     {
-      "qp": 100000,
+      "qp": 50000,
       "resources": [
         {
           "name": "Kukulkan Mask",
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "qp": 300000,
+      "qp": 150000,
       "resources": [
         {
           "name": "Kukulkan Mask",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "qp": 1000000,
+      "qp": 500000,
       "resources": [
         {
           "name": "Kukulkan Mask",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "qp": 3000000,
+      "qp": 1500000,
       "resources": [
         {
           "name": "Kukulkan Mask",
@@ -150,7 +150,7 @@
   ],
   "active_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 100000,
       "resources": [
         {
           "name": "Shining Gem of Lances",
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 200000,
       "resources": [
         {
           "name": "Shining Gem of Swords",
@@ -188,7 +188,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 600000,
       "resources": [
         {
           "name": "Magic Gem of Lances",
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 800000,
       "resources": [
         {
           "name": "Magic Gem of Swords",
@@ -226,7 +226,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Secret Gem of Lances",
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 2500000,
       "resources": [
         {
           "name": "Secret Gem of Swords",
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 5000000,
       "resources": [
         {
           "name": "Giant's Ring",
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 6000000,
       "resources": [
         {
           "name": "Bizarre Godly Wine",
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 10000000,
       "resources": [
         {
           "name": "Crystallized Lore",
@@ -293,7 +293,7 @@
   ],
   "append_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 100000,
       "resources": [
         {
           "name": "Shining Gem of Lances",
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 200000,
       "resources": [
         {
           "name": "Shining Gem of Swords",
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 600000,
       "resources": [
         {
           "name": "Magic Gem of Lances",
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 800000,
       "resources": [
         {
           "name": "Magic Gem of Swords",
@@ -369,7 +369,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Secret Gem of Lances",
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 2500000,
       "resources": [
         {
           "name": "Secret Gem of Swords",
@@ -407,7 +407,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 5000000,
       "resources": [
         {
           "name": "Permafrost Ice Crystal",
@@ -416,7 +416,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 6000000,
       "resources": [
         {
           "name": "Fruit of Longevity",
@@ -425,7 +425,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 10000000,
       "resources": [
         {
           "name": "Crystallized Lore",

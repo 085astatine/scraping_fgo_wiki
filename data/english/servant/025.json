@@ -86,7 +86,7 @@
   ],
   "ascension_resources": [
     {
-      "qp": 100000,
+      "qp": 15000,
       "resources": [
         {
           "name": "Rider Piece",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "qp": 300000,
+      "qp": 45000,
       "resources": [
         {
           "name": "Rider Piece",
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "qp": 1000000,
+      "qp": 150000,
       "resources": [
         {
           "name": "Rider Monument",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "qp": 3000000,
+      "qp": 450000,
       "resources": [
         {
           "name": "Rider Monument",
@@ -144,7 +144,7 @@
   ],
   "active_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 20000,
       "resources": [
         {
           "name": "Shining Gem of Cavalry",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 40000,
       "resources": [
         {
           "name": "Shining Gem of Cavalry",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 120000,
       "resources": [
         {
           "name": "Magic Gem of Cavalry",
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 160000,
       "resources": [
         {
           "name": "Magic Gem of Cavalry",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 400000,
       "resources": [
         {
           "name": "Secret Gem of Cavalry",
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 500000,
       "resources": [
         {
           "name": "Secret Gem of Cavalry",
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 1000000,
       "resources": [
         {
           "name": "Unlucky Bone",
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 1200000,
       "resources": [
         {
           "name": "Homunculus Baby",
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Crystallized Lore",
@@ -247,7 +247,7 @@
   ],
   "append_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 20000,
       "resources": [
         {
           "name": "Shining Gem of Cavalry",
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 40000,
       "resources": [
         {
           "name": "Shining Gem of Cavalry",
@@ -265,7 +265,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 120000,
       "resources": [
         {
           "name": "Magic Gem of Cavalry",
@@ -274,7 +274,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 160000,
       "resources": [
         {
           "name": "Magic Gem of Cavalry",
@@ -287,7 +287,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 400000,
       "resources": [
         {
           "name": "Secret Gem of Cavalry",
@@ -300,7 +300,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 500000,
       "resources": [
         {
           "name": "Secret Gem of Cavalry",
@@ -313,7 +313,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 1000000,
       "resources": [
         {
           "name": "Magical Cerebrospinal Fluid",
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 1200000,
       "resources": [
         {
           "name": "Stimulus Gunpowder",
@@ -339,7 +339,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Crystallized Lore",

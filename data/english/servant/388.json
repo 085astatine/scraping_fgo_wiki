@@ -86,7 +86,7 @@
   ],
   "ascension_resources": [
     {
-      "qp": 100000,
+      "qp": 50000,
       "resources": [
         {
           "name": "Forbidden Page",
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "qp": 300000,
+      "qp": 150000,
       "resources": [
         {
           "name": "Chains of the Fool",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "qp": 1000000,
+      "qp": 500000,
       "resources": [
         {
           "name": "Seashell of Reminiscence",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "qp": 3000000,
+      "qp": 1500000,
       "resources": [
         {
           "name": "Primordial Lanugo",
@@ -140,7 +140,7 @@
   ],
   "active_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 100000,
       "resources": [
         {
           "name": "Forbidden Page",
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 200000,
       "resources": [
         {
           "name": "Infinity Gear",
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 600000,
       "resources": [
         {
           "name": "Chains of the Fool",
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 800000,
       "resources": [
         {
           "name": "Bloodstone Tear",
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Seashell of Reminiscence",
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 2500000,
       "resources": [
         {
           "name": "Night-Weeping Iron Stake",
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 5000000,
       "resources": [
         {
           "name": "Arrowhead of Maledictions",
@@ -203,7 +203,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 6000000,
       "resources": [
         {
           "name": "Obsidian Edge",
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 10000000,
       "resources": [
         {
           "name": "Crystallized Lore",
@@ -223,7 +223,7 @@
   ],
   "append_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 100000,
       "resources": [
         {
           "name": "Dragon Fang",
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 200000,
       "resources": [
         {
           "name": "Talon of Chaos",
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 600000,
       "resources": [
         {
           "name": "Black Tallow",
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 800000,
       "resources": [
         {
           "name": "Primordial Lanugo",
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Permafrost Ice Crystal",
@@ -268,7 +268,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 2500000,
       "resources": [
         {
           "name": "Cursed Beast Cholecyst",
@@ -277,7 +277,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 5000000,
       "resources": [
         {
           "name": "Dawnlight Reactor Core",
@@ -286,7 +286,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 6000000,
       "resources": [
         {
           "name": "Twilight Ceremonial Blade",
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 10000000,
       "resources": [
         {
           "name": "Crystallized Lore",

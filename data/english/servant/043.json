@@ -90,7 +90,7 @@
   ],
   "ascension_resources": [
     {
-      "qp": 100000,
+      "qp": 15000,
       "resources": [
         {
           "name": "Assassin Piece",
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "qp": 300000,
+      "qp": 45000,
       "resources": [
         {
           "name": "Assassin Piece",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "qp": 1000000,
+      "qp": 150000,
       "resources": [
         {
           "name": "Assassin Monument",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "qp": 3000000,
+      "qp": 450000,
       "resources": [
         {
           "name": "Assassin Monument",
@@ -148,7 +148,7 @@
   ],
   "active_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 20000,
       "resources": [
         {
           "name": "Shining Gem of Killing",
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 40000,
       "resources": [
         {
           "name": "Shining Gem of Killing",
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 120000,
       "resources": [
         {
           "name": "Magic Gem of Killing",
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 160000,
       "resources": [
         {
           "name": "Magic Gem of Killing",
@@ -188,7 +188,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 400000,
       "resources": [
         {
           "name": "Secret Gem of Killing",
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 500000,
       "resources": [
         {
           "name": "Secret Gem of Killing",
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 1000000,
       "resources": [
         {
           "name": "Forbidden Page",
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 1200000,
       "resources": [
         {
           "name": "Forbidden Page",
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Crystallized Lore",
@@ -251,7 +251,7 @@
   ],
   "append_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 20000,
       "resources": [
         {
           "name": "Shining Gem of Killing",
@@ -260,7 +260,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 40000,
       "resources": [
         {
           "name": "Shining Gem of Killing",
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 120000,
       "resources": [
         {
           "name": "Magic Gem of Killing",
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 160000,
       "resources": [
         {
           "name": "Magic Gem of Killing",
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 400000,
       "resources": [
         {
           "name": "Secret Gem of Killing",
@@ -304,7 +304,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 500000,
       "resources": [
         {
           "name": "Secret Gem of Killing",
@@ -317,7 +317,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 1000000,
       "resources": [
         {
           "name": "Bloodstone Tear",
@@ -330,7 +330,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 1200000,
       "resources": [
         {
           "name": "Night-Weeping Iron Stake",
@@ -343,7 +343,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 2000000,
       "resources": [
         {
           "name": "Crystallized Lore",

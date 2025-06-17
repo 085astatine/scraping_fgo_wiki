@@ -63,7 +63,7 @@
   "costumes": [],
   "ascension_resources": [
     {
-      "qp": 100000,
+      "qp": 30000,
       "resources": [
         {
           "name": "Berserker Piece",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "qp": 300000,
+      "qp": 100000,
       "resources": [
         {
           "name": "Berserker Piece",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "qp": 1000000,
+      "qp": 300000,
       "resources": [
         {
           "name": "Berserker Monument",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "qp": 3000000,
+      "qp": 900000,
       "resources": [
         {
           "name": "Berserker Monument",
@@ -121,7 +121,7 @@
   ],
   "active_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 50000,
       "resources": [
         {
           "name": "Shining Gem of Madness",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 100000,
       "resources": [
         {
           "name": "Shining Gem of Madness",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 300000,
       "resources": [
         {
           "name": "Magic Gem of Madness",
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 400000,
       "resources": [
         {
           "name": "Magic Gem of Madness",
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 1000000,
       "resources": [
         {
           "name": "Secret Gem of Madness",
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 1250000,
       "resources": [
         {
           "name": "Secret Gem of Madness",
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 2500000,
       "resources": [
         {
           "name": "Hero's Proof",
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 3000000,
       "resources": [
         {
           "name": "Kotan Magatama",
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 5000000,
       "resources": [
         {
           "name": "Crystallized Lore",
@@ -224,7 +224,7 @@
   ],
   "append_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 50000,
       "resources": [
         {
           "name": "Shining Gem of Madness",
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 100000,
       "resources": [
         {
           "name": "Shining Gem of Madness",
@@ -242,7 +242,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 300000,
       "resources": [
         {
           "name": "Magic Gem of Madness",
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 400000,
       "resources": [
         {
           "name": "Magic Gem of Madness",
@@ -264,7 +264,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 1000000,
       "resources": [
         {
           "name": "Secret Gem of Madness",
@@ -277,7 +277,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 1250000,
       "resources": [
         {
           "name": "Secret Gem of Madness",
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 2500000,
       "resources": [
         {
           "name": "Talon of Chaos",
@@ -303,7 +303,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 3000000,
       "resources": [
         {
           "name": "Ancient Bell of Tranquility",
@@ -316,7 +316,7 @@
       ]
     },
     {
-      "qp": 20000000,
+      "qp": 5000000,
       "resources": [
         {
           "name": "Crystallized Lore",

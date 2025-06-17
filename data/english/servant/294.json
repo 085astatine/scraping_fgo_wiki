@@ -86,7 +86,7 @@
   ],
   "ascension_resources": [
     {
-      "qp": 100000,
+      "qp": 10000,
       "resources": [
         {
           "name": "Archer Piece",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "qp": 300000,
+      "qp": 30000,
       "resources": [
         {
           "name": "Archer Piece",
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "qp": 1000000,
+      "qp": 90000,
       "resources": [
         {
           "name": "Archer Monument",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "qp": 3000000,
+      "qp": 300000,
       "resources": [
         {
           "name": "Archer Monument",
@@ -144,7 +144,7 @@
   ],
   "active_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 10000,
       "resources": [
         {
           "name": "Shining Gem of Bows",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 20000,
       "resources": [
         {
           "name": "Shining Gem of Bows",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 60000,
       "resources": [
         {
           "name": "Magic Gem of Bows",
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 80000,
       "resources": [
         {
           "name": "Magic Gem of Bows",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 200000,
       "resources": [
         {
           "name": "Secret Gem of Bows",
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 250000,
       "resources": [
         {
           "name": "Secret Gem of Bows",
@@ -210,7 +210,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 500000,
       "resources": [
         {
           "name": "Void's Refuse",
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 600000,
       "resources": [
         {
           "name": "Stimulus Gunpowder",
@@ -242,7 +242,7 @@
   ],
   "append_skill_resources": [
     {
-      "qp": 200000,
+      "qp": 10000,
       "resources": [
         {
           "name": "Shining Gem of Bows",
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "qp": 400000,
+      "qp": 20000,
       "resources": [
         {
           "name": "Shining Gem of Bows",
@@ -260,7 +260,7 @@
       ]
     },
     {
-      "qp": 1200000,
+      "qp": 60000,
       "resources": [
         {
           "name": "Magic Gem of Bows",
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "qp": 1600000,
+      "qp": 80000,
       "resources": [
         {
           "name": "Magic Gem of Bows",
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "qp": 4000000,
+      "qp": 200000,
       "resources": [
         {
           "name": "Secret Gem of Bows",
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "qp": 5000000,
+      "qp": 250000,
       "resources": [
         {
           "name": "Secret Gem of Bows",
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "qp": 10000000,
+      "qp": 500000,
       "resources": [
         {
           "name": "Stinger of Certain Death",
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "qp": 12000000,
+      "qp": 600000,
       "resources": [
         {
           "name": "Kotan Magatama",
