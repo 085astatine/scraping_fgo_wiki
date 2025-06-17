@@ -21,6 +21,8 @@ class Servant(TypedDict):
     id: ServantID
     name: str
     false_name: Optional[str]
+    klass: str
+    rarity: int
     active_skills: list[list[Skill]]
     append_skills: list[list[Skill]]
     costumes: list[Costume]

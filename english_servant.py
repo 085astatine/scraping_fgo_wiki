@@ -316,6 +316,10 @@ def parse_servant_data(
 ) -> lib.english.Servant:
     # false name
     false_name = parse_false_name(source, logger)
+    # class
+    servant_class = parse_servant_class(source, logger)
+    # stars
+    stars = parse_stars(source, logger)
     # active skills
     active_skills = parse_active_skills(source, logger)
     # append skills
@@ -332,6 +336,8 @@ def parse_servant_data(
         id=link["id"],
         name=link["title"],
         false_name=false_name,
+        klass=servant_class,
+        rarity=stars,
         active_skills=active_skills,
         append_skills=append_skills,
         costumes=costumes,
@@ -354,6 +360,38 @@ def parse_false_name(
     false_name = match.group("name")
     logger.debug('false name "%s"', false_name)
     return false_name
+
+
+def parse_servant_class(
+    source: str,
+    logger: lib.ServantLogger,
+) -> str:
+    match = re.search(
+        r"\|class = (?P<class>.+)",
+        source,
+    )
+    if match is None:
+        logger.error("failed to get class")
+        return ""
+    servant_class = match.group("class").replace(" ", "")
+    logger.debug('class "%s"', servant_class)
+    return servant_class
+
+
+def parse_stars(
+    source: str,
+    logger: lib.ServantLogger,
+) -> int:
+    match = re.search(
+        r"\|stars = (?P<stars>[0-5])",
+        source,
+    )
+    if match is None:
+        logger.error("failed to get stars")
+        return -1
+    stars = int(match.group("stars"))
+    logger.debug("stars %d", stars)
+    return stars
 
 
 def parse_active_skills(
