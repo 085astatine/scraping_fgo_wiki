@@ -327,11 +327,11 @@ def parse_servant_data(
     # costumes
     costumes = parse_costumes(source, logger)
     # ascension resources
-    ascension_resources = parse_ascension_resources(source, logger)
+    ascension_resources = parse_ascension_resources(source, stars, logger)
     # active skill resource
-    active_skill_resources = parse_active_skill_resources(source, logger)
+    active_skill_resources = parse_active_skill_resources(source, stars, logger)
     # append skill resource
-    append_skill_resources = parse_append_skill_resources(source, logger)
+    append_skill_resources = parse_append_skill_resources(source, stars, logger)
     return lib.english.Servant(
         id=link["id"],
         name=link["title"],
@@ -603,6 +603,7 @@ def parse_costume_data(
 
 def parse_ascension_resources(
     source: str,
+    stars: int,
     logger: lib.ServantLogger,
 ) -> list[lib.ResourceSet]:
     logger.debug("ascension resources")
@@ -618,7 +619,7 @@ def parse_ascension_resources(
         logger,
     )
     # qp
-    for i, qp in enumerate(ascension_qp()):
+    for i, qp in enumerate(ascension_qp(stars)):
         if resources[i]["resources"]:
             resources[i]["qp"] = qp
     return resources
@@ -626,6 +627,7 @@ def parse_ascension_resources(
 
 def parse_active_skill_resources(
     source: str,
+    stars: int,
     logger: lib.ServantLogger,
 ) -> list[lib.ResourceSet]:
     logger.debug("active skill resources")
@@ -641,7 +643,7 @@ def parse_active_skill_resources(
         logger,
     )
     # qp
-    for i, qp in enumerate(skill_qp()):
+    for i, qp in enumerate(skill_qp(stars)):
         if resources[i]["resources"]:
             resources[i]["qp"] = qp
     return resources
@@ -649,6 +651,7 @@ def parse_active_skill_resources(
 
 def parse_append_skill_resources(
     source: str,
+    stars: int,
     logger: lib.ServantLogger,
 ) -> list[lib.ResourceSet]:
     logger.debug("append skill resources")
@@ -664,7 +667,7 @@ def parse_append_skill_resources(
         logger,
     )
     # qp
-    for i, qp in enumerate(skill_qp()):
+    for i, qp in enumerate(skill_qp(stars)):
         if resources[i]["resources"]:
             resources[i]["qp"] = qp
     return resources
@@ -722,27 +725,49 @@ def parse_resource(line: str) -> Optional[Resource]:
     )
 
 
-def ascension_qp() -> list[int]:
-    return [
-        100000,
-        300000,
-        1000000,
-        3000000,
+def ascension_qp(stars: int) -> list[int]:
+    table: list[list[int]] = [
+        [0, 0, 0, 0],
+        [10000, 30000, 90000, 300000],
+        [15000, 45000, 150000, 450000],
+        [30000, 100000, 300000, 900000],
+        [50000, 150000, 500000, 1500000],
+        [100000, 300000, 1000000, 3000000],
     ]
+    row: int = 0
+    match stars:
+        case 1 | 2 | 3 | 4 | 5:
+            row = stars
+        case 0:
+            row = 2
+    return table[row]
 
 
-def skill_qp() -> list[int]:
-    return [
+def skill_qp(stars: int) -> list[int]:
+    base_qp: list[int] = [
+        10000,
+        20000,
+        60000,
+        80000,
         200000,
-        400000,
-        1200000,
-        1600000,
-        4000000,
-        5000000,
-        10000000,
-        12000000,
-        20000000,
+        250000,
+        500000,
+        600000,
+        1000000,
     ]
+    factor: float = 0.0
+    match stars:
+        case 1:
+            factor = 1.0
+        case 2 | 0:
+            factor = 2.0
+        case 3:
+            factor = 5.0
+        case 4:
+            factor = 10.0
+        case 5:
+            factor = 20.0
+    return [int(qp * factor) for qp in base_qp]
 
 
 def to_dictionary(
