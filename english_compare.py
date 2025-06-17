@@ -127,6 +127,7 @@ def compare_servant(
     jp: lib.Servant,
     logger: lib.ServantLogger,
 ) -> None:
+    logger.info("start comparing")
     # id
     if en["id"] != jp["id"]:
         logger.error("servant IDs do not match")
@@ -137,6 +138,12 @@ def compare_servant(
     else:
         if jp["false_name"] is not None:
             logger.error("only Japanese has an false name")
+    # class
+    if en["klass"] != jp["klass"]:
+        logger.error('klass is different: en="%s", jp="%s"', en["klass"], jp["klass"])
+    # rarity
+    if en["rarity"] != jp["rarity"]:
+        logger.error("rarity is different: en=%d, jp=%d", en["rarity"], jp["rarity"])
     # active skills
     compare_skills("skill", en["active_skills"], jp["skills"], logger)
     # append skills
