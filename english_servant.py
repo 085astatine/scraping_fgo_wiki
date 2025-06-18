@@ -608,6 +608,8 @@ def parse_costume_data(
     # to costumes
     costumes: list[lib.english.Costume] = []
     for index in indexes:
+        if index not in name:
+            continue
         costumes.append(
             lib.english.Costume(
                 name=name.get(index, ""),
