@@ -541,7 +541,7 @@ def parse_costumes(
 ) -> list[lib.english.Costume]:
     logger.debug("costumes")
     match = re.search(
-        r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(\|.+\n)+?)\}\}",
+        r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(.*\n)+?)\}\}",
         source,
     )
     if match is None:
@@ -631,7 +631,7 @@ def parse_ascension_resources(
 ) -> list[lib.ResourceSet]:
     logger.debug("ascension resources")
     match = re.search(
-        r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(\|.+\n)+?)\}\}",
+        r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(.*\n)+?)\}\}",
         source,
     )
     if match is None:
@@ -655,7 +655,7 @@ def parse_active_skill_resources(
 ) -> list[lib.ResourceSet]:
     logger.debug("active skill resources")
     match = re.search(
-        r"Active=\n\{\{Skillreinforcement\n(?P<body>(\|.+\n)+?)\}\}",
+        r"Active( Skills)?=\n?\{\{Skillreinforcement\n(?P<body>(.*\n)+?)\}\}",
         source,
     )
     if match is None:
@@ -679,7 +679,7 @@ def parse_append_skill_resources(
 ) -> list[lib.ResourceSet]:
     logger.debug("append skill resources")
     match = re.search(
-        r"Append=\n\{\{Skillreinforcement\n(?P<body>(\|.+\n)+?)\}\}",
+        r"Append( Skills)?=\n?\{\{Skillreinforcement\n(?P<body>(.*\n)+?)\}\}",
         source,
     )
     if match is None:
