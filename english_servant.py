@@ -46,12 +46,16 @@ def main() -> None:
         logger,
         option,
     )
+    # patch
+    patch_path = pathlib.Path("data/english/servant/patch.json")
+    patch = load_patch(patch_path, logger)
     # servants
     servant_directory = pathlib.Path("data/english/servant")
     servants = get_servants(
         servant_directory,
         servant_links,
         servant_data,
+        patch,
         logger,
         option,
     )
@@ -277,10 +281,24 @@ def request_servant_data(
     return root.xpath('//textarea[@name="wpTextbox1"]/text()')[0]
 
 
+def load_patch(
+    path: pathlib.Path,
+    logger: logging.Logger,
+) -> dict[lib.ServantID, list[lib.Patch]]:
+    logger.info('load patch from "%s"', path)
+    data = lib.load_json(path)
+    if data is None:
+        logger.error('failed to load patch from "%s"', path)
+        return {}
+    return {int(servant_id): patch for servant_id, patch in data.items()}
+
+
 def get_servants(
+    # pylint: disable=too-many-arguments, too-many-positional-arguments
     directory: pathlib.Path,
     links: dict[lib.ServantID, lib.english.ServantLink],
     sources: dict[lib.ServantID, str],
+    patches: dict[lib.ServantID, list[lib.Patch]],
     logger: logging.Logger,
     option: Option,
 ) -> dict[lib.ServantID, lib.english.Servant]:
@@ -294,11 +312,12 @@ def get_servants(
             if link is None:
                 logger.error("servant ID %03d does not exist in links", servant_id)
                 continue
-            servant = parse_servant_data(
-                link,
-                source,
-                lib.ServantLogger(logger, servant_id, link["title"]),
-            )
+            servant_logger = lib.ServantLogger(logger, servant_id, link["title"])
+            servant = parse_servant_data(link, source, servant_logger)
+            # patch
+            if servant_id in patches:
+                lib.apply_patches(servant, patches[servant_id], logger=servant_logger)
+            # save
             logger.info('save servant to "%s"', path)
             lib.save_json(path, servant)
         else:
