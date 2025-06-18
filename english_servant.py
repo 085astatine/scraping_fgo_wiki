@@ -512,7 +512,7 @@ def parse_skill_rank(text: str) -> lib.english.Skill:
     if match:
         return to_skill(name=match.group("name"), rank=match.group("rank"))
     # <name>|<rank>
-    match = re.match(rf"^(?P<name>.+)\|(?P<rank>{rank_pattern})$", text)
+    match = re.match(rf"^(?P<name>.+)\|(?P<rank>{rank_pattern})\s*$", text)
     if match:
         return to_skill(name=match.group("name"), rank=match.group("rank"))
     # <name> <rank>
@@ -523,10 +523,12 @@ def parse_skill_rank(text: str) -> lib.english.Skill:
     match = re.match(rf"^(?P<name>.+?) '(?P<rank>{rank_pattern})'$", text)
     if match:
         return to_skill(name=match.group("name"), rank=match.group("rank"))
-    return lib.english.Skill(name=text, rank="")
+    return to_skill(text, "")
 
 
 def to_skill(name: str, rank: str) -> lib.english.Skill:
+    # remove (Active Skill)
+    name = name.removesuffix(" (Active Skill)")
     return lib.english.Skill(
         name=name,
         rank=rank if rank != "None" else "",
