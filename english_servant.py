@@ -733,7 +733,7 @@ class Resource(TypedDict):
 def parse_resource(line: str) -> Optional[Resource]:
     match = re.match(
         r"\|(?P<level>[0-9]+)(?P<index>[0-9])"
-        r"\s*=\s*\{\{(?P<item>.+)\|(?P<piece>[0-9]+)\}\}",
+        r"\s*=\s*\{\{(?P<item>.+?)(\|(?P<piece>[0-9]+)\s*)?\}\}",
         line,
     )
     if match is None:
@@ -741,8 +741,8 @@ def parse_resource(line: str) -> Optional[Resource]:
     return Resource(
         level=int(match.group("level")),
         index=int(match.group("index")),
-        item=match.group("item"),
-        piece=int(match.group("piece")),
+        item=match.group("item").strip(),
+        piece=int(match.group("piece")) if match.group("piece") is not None else 1,
     )
 
 
