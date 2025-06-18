@@ -132,7 +132,7 @@
       "qp": 3000000,
       "resources": [
         {
-          "name": "Phoenix Plume ",
+          "name": "Phoenix Plume",
           "piece": 10
         },
         {
@@ -165,7 +165,7 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "Dragon Fang ",
+          "name": "Dragon Fang",
           "piece": 12
         }
       ]
@@ -216,8 +216,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ],
   "append_skill_resources": [
@@ -294,8 +299,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ]
 }

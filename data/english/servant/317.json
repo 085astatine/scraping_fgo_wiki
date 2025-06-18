@@ -56,17 +56,7 @@
       }
     ]
   ],
-  "costumes": [
-    {
-      "name": "",
-      "text_jp": "",
-      "text_en": "",
-      "resources": {
-        "qp": 3000000,
-        "resources": []
-      }
-    }
-  ],
+  "costumes": [],
   "ascension_resources": [
     {
       "qp": 100000,

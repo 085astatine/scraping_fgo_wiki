@@ -193,8 +193,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ],
   "append_skill_resources": [
@@ -291,8 +296,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ]
 }

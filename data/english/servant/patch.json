@@ -866,6 +866,17 @@
       "after": "A"
     }
   ],
+  "099": [
+    {
+      "path": [
+        "costumes",
+        1,
+        "text_en"
+      ],
+      "before": "",
+      "after": "The queen of honey's dance outfit. This Spiritron Dress has a powerful effect on a certain Child of Light...probably?"
+    }
+  ],
   "100": [
     {
       "path": [
@@ -2397,6 +2408,40 @@
           }
         ]
       ]
+    }
+  ],
+  "420": [
+    {
+      "path": [
+        "active_skill_resources",
+        6,
+        "resources",
+        0
+      ],
+      "before": {
+        "name": "Tiny Bell of Amnesty|",
+        "piece": 1
+      },
+      "after": {
+        "name": "Tiny Bell of Amnesty",
+        "piece": 12
+      }
+    },
+    {
+      "path": [
+        "active_skill_resources",
+        7,
+        "resources",
+        0
+      ],
+      "before": {
+        "name": "Twilight Ceremonial Blade|",
+        "piece": 1
+      },
+      "after": {
+        "name": "Twilight Ceremonial Blade",
+        "piece": 12
+      }
     }
   ],
   "427": [

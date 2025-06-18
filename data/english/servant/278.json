@@ -96,7 +96,7 @@
           "piece": 6
         },
         {
-          "name": "Dawnlight Reactor Core ",
+          "name": "Dawnlight Reactor Core",
           "piece": 3
         }
       ]
@@ -109,7 +109,7 @@
           "piece": 12
         },
         {
-          "name": "Dawnlight Reactor Core ",
+          "name": "Dawnlight Reactor Core",
           "piece": 6
         },
         {
@@ -194,7 +194,7 @@
           "piece": 29
         },
         {
-          "name": " Comet Shard ",
+          "name": "Comet Shard",
           "piece": 3
         }
       ]
@@ -203,7 +203,7 @@
       "qp": 12000000,
       "resources": [
         {
-          "name": " Comet Shard ",
+          "name": "Comet Shard",
           "piece": 8
         },
         {

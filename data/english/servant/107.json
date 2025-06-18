@@ -109,7 +109,7 @@
       "qp": 450000,
       "resources": [
         {
-          "name": "Spirit Root ",
+          "name": "Spirit Root",
           "piece": 10
         },
         {
@@ -187,14 +187,19 @@
       "qp": 1200000,
       "resources": [
         {
-          "name": "Spirit Root ",
+          "name": "Spirit Root",
           "piece": 15
         }
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ],
   "append_skill_resources": [
@@ -271,8 +276,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ]
 }

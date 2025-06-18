@@ -167,12 +167,22 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Tiny Bell of Amnesty",
+          "piece": 12
+        }
+      ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "Twilight Ceremonial Blade",
+          "piece": 12
+        }
+      ]
     },
     {
       "qp": 10000000,

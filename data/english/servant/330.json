@@ -59,20 +59,40 @@
   "costumes": [],
   "ascension_resources": [
     {
-      "qp": 0,
-      "resources": []
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Ladle Wand",
+          "piece": 1
+        }
+      ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Ladle Wand",
+          "piece": 1
+        }
+      ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Ladle Wand",
+          "piece": 1
+        }
+      ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "Ladle Wand",
+          "piece": 1
+        }
+      ]
     }
   ],
   "active_skill_resources": [

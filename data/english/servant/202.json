@@ -63,20 +63,60 @@
   "costumes": [],
   "ascension_resources": [
     {
-      "qp": 0,
-      "resources": []
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 4
+        }
+      ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 10
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 8
+        }
+      ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 4
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        }
+      ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 10
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 4
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 6
+        }
+      ]
     }
   ],
   "active_skill_resources": [
@@ -173,8 +213,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ],
   "append_skill_resources": [
@@ -271,8 +316,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ]
 }

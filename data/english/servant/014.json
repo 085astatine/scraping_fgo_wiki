@@ -61,7 +61,64 @@
     ]
   ],
   "costumes": [],
-  "ascension_resources": [],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 4
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 20
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 10
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 7
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 12
+        }
+      ]
+    }
+  ],
   "active_skill_resources": [
     {
       "qp": 100000,

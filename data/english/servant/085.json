@@ -399,8 +399,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ]
 }

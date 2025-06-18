@@ -274,12 +274,25 @@
         {
           "name": "Secret Gem of Lances",
           "piece": 6
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 3
         }
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 2
+        }
+      ]
     },
     {
       "qp": 1200000,
@@ -287,6 +300,10 @@
         {
           "name": "Bizarre Godly Wine",
           "piece": 4
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 12
         }
       ]
     },

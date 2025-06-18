@@ -62,7 +62,7 @@
       "qp": 10000,
       "resources": [
         {
-          "name": " Lancer Piece",
+          "name": "Lancer Piece",
           "piece": 2
         }
       ]
@@ -71,7 +71,7 @@
       "qp": 30000,
       "resources": [
         {
-          "name": " Lancer Piece",
+          "name": "Lancer Piece",
           "piece": 4
         },
         {

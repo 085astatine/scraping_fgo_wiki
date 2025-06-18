@@ -81,6 +81,10 @@
         {
           "name": "Berserker Piece",
           "piece": 12
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
         }
       ]
     },

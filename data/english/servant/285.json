@@ -146,7 +146,7 @@
           "piece": 5
         },
         {
-          "name": "Magic Gem of Killing ",
+          "name": "Magic Gem of Killing",
           "piece": 5
         }
       ]
@@ -159,7 +159,7 @@
           "piece": 12
         },
         {
-          "name": "Magic Gem of Killing ",
+          "name": "Magic Gem of Killing",
           "piece": 12
         }
       ]
@@ -172,7 +172,7 @@
           "piece": 5
         },
         {
-          "name": "Secret Gem of Killing ",
+          "name": "Secret Gem of Killing",
           "piece": 5
         }
       ]
@@ -185,7 +185,7 @@
           "piece": 12
         },
         {
-          "name": "Secret Gem of Killing ",
+          "name": "Secret Gem of Killing",
           "piece": 12
         }
       ]
@@ -217,8 +217,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ],
   "append_skill_resources": [
@@ -256,7 +261,7 @@
           "piece": 5
         },
         {
-          "name": "Magic Gem of Killing ",
+          "name": "Magic Gem of Killing",
           "piece": 5
         }
       ]
@@ -269,7 +274,7 @@
           "piece": 12
         },
         {
-          "name": "Magic Gem of Killing ",
+          "name": "Magic Gem of Killing",
           "piece": 12
         }
       ]
@@ -282,7 +287,7 @@
           "piece": 5
         },
         {
-          "name": "Secret Gem of Killing ",
+          "name": "Secret Gem of Killing",
           "piece": 5
         }
       ]
@@ -295,7 +300,7 @@
           "piece": 12
         },
         {
-          "name": "Secret Gem of Killing ",
+          "name": "Secret Gem of Killing",
           "piece": 12
         }
       ]
@@ -327,8 +332,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ]
 }

@@ -98,7 +98,7 @@
     {
       "name": "Hero My Love: My Dearest Antagonist",
       "text_jp": "蜜の女王のダンス衣装\n某光の御子特効霊衣、らしい？",
-      "text_en": "",
+      "text_en": "The queen of honey's dance outfit. This Spiritron Dress has a powerful effect on a certain Child of Light...probably?",
       "resources": {
         "qp": 3000000,
         "resources": [
@@ -119,15 +119,6 @@
             "piece": 5
           }
         ]
-      }
-    },
-    {
-      "name": "",
-      "text_jp": "",
-      "text_en": "The queen of honey's dance outfit. This Spiritron Dress has a powerful effect on a certain Child of Light...probably?",
-      "resources": {
-        "qp": 0,
-        "resources": []
       }
     }
   ],
@@ -283,8 +274,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ],
   "append_skill_resources": [
@@ -381,8 +377,13 @@
       ]
     },
     {
-      "qp": 0,
-      "resources": []
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
     }
   ]
 }
