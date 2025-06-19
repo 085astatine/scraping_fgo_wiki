@@ -660,14 +660,15 @@ def parse_resource_table(
     logger: lib.ServantLogger,
 ) -> Optional[list[ResourceTableRow]]:
     body = re.search(
-        rf"{{{{{title}(?P<body>(\|[a-z0-9]+\s*=\s*({{{{.+?}}}}|[^|]*))+)}}}}",
+        rf"{{{{{title}"
+        r"(?P<body>(\|[a-z0-9]+\s*=\s*({{.+?}}|(\[\[.*?\]\]|[^|])*))+)}}",
         source.replace("\n", ""),
     )
     if body is None:
         return None
     result: list[ResourceTableRow] = []
     for row in re.findall(
-        r"\|.+?\s*=\s*(?:{{.+?}}|[^|]*)",
+        r"\|.+?\s*=\s*(?:{{.+?}}|(?:\[\[.*?\]\]|[^|])*)",
         body.group("body"),
     ):
         value = parse_resource_table_row(row)
