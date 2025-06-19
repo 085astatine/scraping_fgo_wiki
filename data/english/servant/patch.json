@@ -2416,32 +2416,22 @@
         "active_skill_resources",
         6,
         "resources",
-        0
+        0,
+        "piece"
       ],
-      "before": {
-        "name": "Tiny Bell of Amnesty|",
-        "piece": 1
-      },
-      "after": {
-        "name": "Tiny Bell of Amnesty",
-        "piece": 12
-      }
+      "before": 1,
+      "after": 12
     },
     {
       "path": [
         "active_skill_resources",
         7,
         "resources",
-        0
+        0,
+        "piece"
       ],
-      "before": {
-        "name": "Twilight Ceremonial Blade|",
-        "piece": 1
-      },
-      "after": {
-        "name": "Twilight Ceremonial Blade",
-        "piece": 12
-      }
+      "before": 1,
+      "after": 12
     }
   ],
   "427": [

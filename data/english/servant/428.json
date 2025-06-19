@@ -63,7 +63,7 @@
   "costumes": [
     {
       "name": "Balloon Light of Parting",
-      "text_jp": "拓いた道に光を手向け、<br>ただひとり闇へと向かう、鉱員の装い",
+      "text_jp": "拓いた道に光を手向け、\nただひとり闇へと向かう、鉱員の装い",
       "text_en": "A miner's outfit, pointing light to the path she has paved and heading into the darkness alone.",
       "resources": {
         "qp": 3000000,

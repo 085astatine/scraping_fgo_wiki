@@ -299,12 +299,20 @@
         {
           "name": "Bloodstone Tear",
           "piece": 5
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 15
         }
       ]
     },
     {
       "qp": 6000000,
       "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 45
+        },
         {
           "name": "Night-Weeping Iron Stake",
           "piece": 60

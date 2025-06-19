@@ -72,7 +72,7 @@
     {
       "name": "White Rose",
       "text_jp": "───白い薔薇。一輪の。\n異世界の騎士によく似合うだろう",
-      "text_en": "A single white rose.<br/>It's sure to suit the knight from a different world.",
+      "text_en": "A single white rose.\nIt's sure to suit the knight from a different world.",
       "resources": {
         "qp": 3000000,
         "resources": [

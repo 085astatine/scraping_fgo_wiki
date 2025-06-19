@@ -68,7 +68,7 @@
     {
       "name": "Decapitating Bunny [1st Ascension]",
       "text_jp": "ウサ耳をつけた貴人\nクリティカルヒット",
-      "text_en": "Nobility wearing bunny ears.<br/>Critical hit.",
+      "text_en": "Nobility wearing bunny ears.\nCritical hit.",
       "resources": {
         "qp": 3000000,
         "resources": [
@@ -94,7 +94,7 @@
     {
       "name": "Decapitating Bunny [2nd Ascension]",
       "text_jp": "ウサ耳をつけた貴人\nつうこんのいちげき",
-      "text_en": "Nobility wearing bunny ears.<br/>A fatal blow.",
+      "text_en": "Nobility wearing bunny ears.\nA fatal blow.",
       "resources": {
         "qp": 3000000,
         "resources": [
@@ -120,7 +120,7 @@
     {
       "name": "Decapitating Bunny [3rd Ascension]",
       "text_jp": "ウサ耳をつけた貴人\nアルテミット・ニャン",
-      "text_en": "Nobility wearing bunny ears.<br/>Ultimate meow.",
+      "text_en": "Nobility wearing bunny ears.\nUltimate meow.",
       "resources": {
         "qp": 3000000,
         "resources": [
