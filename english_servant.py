@@ -37,6 +37,8 @@ def main() -> None:
         logger,
         option,
     )
+    if option.targets:
+        servant_links = {target: servant_links[target] for target in option.targets}
     # servant data
     servant_data_directory = pathlib.Path("data/english/servant/data")
     servant_data = get_servant_data(
@@ -81,6 +83,7 @@ def create_logger() -> logging.Logger:
 class Option:
     verbose: bool
     force_update: bool
+    targets: list[int]
     request_interval: float
     request_timeout: float
 
@@ -102,6 +105,16 @@ def argument_parser() -> argparse.ArgumentParser:
         dest="force_update",
         action="store_true",
         help="force update",
+    )
+    parser.add_argument(
+        "-t",
+        "--target",
+        dest="targets",
+        nargs="+",
+        action="extend",
+        type=int,
+        help="target servant id",
+        metavar="SERVANT_ID",
     )
     parser.add_argument(
         "--request-interval",
