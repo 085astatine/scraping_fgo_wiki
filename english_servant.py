@@ -8,7 +8,7 @@ import logging
 import pathlib
 import re
 import time
-from typing import Optional, TypedDict
+from typing import Literal, Optional
 
 import fake_useragent
 import lxml.html
@@ -356,10 +356,8 @@ def parse_servant_data(
     active_skills = parse_active_skills(source, logger)
     # append skills
     append_skills = parse_append_skills(source, logger)
-    # costumes
-    costumes = parse_costumes(source, logger)
-    # ascension resources
-    ascension_resources = parse_ascension_resources(source, stars, logger)
+    # ascension resources & costumes
+    ascension_resources, costumes = parse_ascension_table(source, stars, logger)
     # active skill resource
     active_skill_resources = parse_active_skill_resources(source, stars, logger)
     # append skill resource
@@ -548,24 +546,219 @@ def to_skill(name: str, rank: str) -> lib.english.Skill:
     )
 
 
-def parse_costumes(
+def parse_ascension_table(
     source: str,
+    stars: int,
     logger: lib.ServantLogger,
-) -> list[lib.english.Costume]:
-    logger.debug("costumes")
+) -> tuple[list[lib.ResourceSet], list[lib.english.Costume]]:
+    logger.debug("ascension & costume")
+    section = parse_section(source, "Ascension")
+    if section is None:
+        return [], []
+    rows = parse_resource_table(section, "Ascension", logger)
+    if rows is None:
+        return [], []
+    ascension_resources = to_ascension_resources(rows, stars)
+    costumes = to_costumes(rows)
+    return ascension_resources, costumes
+
+
+def parse_active_skill_resources(
+    source: str,
+    stars: int,
+    logger: lib.ServantLogger,
+) -> list[lib.ResourceSet]:
+    logger.debug("active skill resources")
+    section = parse_section(source, "Skill Reinforcement")
+    if section is None:
+        return []
     match = re.search(
-        r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(.*\n)+?)\}\}",
-        source,
+        r"Active( Skills)?\s*=(?P<table>.+?)\|-\|",
+        section,
+        flags=re.DOTALL,
     )
     if match is None:
         return []
-    costumes = parse_costume_data(match.group("body").split("\n"), logger)
-    return costumes
+    rows = parse_resource_table(
+        match.group("table"),
+        "Skillreinforcement",
+        logger,
+    )
+    if rows is None:
+        return []
+    return to_skill_resources(rows, stars)
 
 
-def parse_costume_data(
-    lines: list[str],
+def parse_append_skill_resources(
+    source: str,
+    stars: int,
     logger: lib.ServantLogger,
+) -> list[lib.ResourceSet]:
+    logger.debug("append skill resources")
+    section = parse_section(source, "Skill Reinforcement")
+    if section is None:
+        return []
+    match = re.search(
+        r"Append( Skills)?\s*=(?P<table>.+?)</tabber>",
+        section,
+        flags=re.DOTALL,
+    )
+    if match is None:
+        return []
+    rows = parse_resource_table(
+        match.group("table"),
+        "Skillreinforcement",
+        logger,
+    )
+    if rows is None:
+        return []
+    return to_skill_resources(rows, stars)
+
+
+def parse_section(
+    source: str,
+    title: str,
+) -> Optional[str]:
+    match = re.search(
+        rf"==\s*{title}\s*==(?P<section>.*?)==",
+        source,
+        flags=re.DOTALL,
+    )
+    if match is None:
+        return None
+    return match.group("section")
+
+
+@dataclasses.dataclass(frozen=True)
+class ItemsRow:
+    index: int
+    key: int
+    item: str
+    piece: int
+
+
+@dataclasses.dataclass(frozen=True)
+class QPRow:
+    index: int
+    key: Literal["qp"]
+    value: int
+
+
+@dataclasses.dataclass(frozen=True)
+class TextRow:
+    index: int
+    key: str
+    text: str
+
+
+type ResourceTableRow = ItemsRow | QPRow | TextRow
+
+
+def parse_resource_table(
+    source: str,
+    title: str,
+    logger: lib.ServantLogger,
+) -> Optional[list[ResourceTableRow]]:
+    body = re.search(
+        rf"{{{{{title}(?P<body>(\|[a-z0-9]+\s*=\s*({{{{.+?}}}}|[^|]*))+)}}}}",
+        source.replace("\n", ""),
+    )
+    if body is None:
+        return None
+    result: list[ResourceTableRow] = []
+    for row in re.findall(
+        r"\|.+?\s*=\s*(?:{{.+?}}|[^|]*)",
+        body.group("body"),
+    ):
+        value = parse_resource_table_row(row)
+        logger.debug("%s", value)
+        if value is not None:
+            result.append(value)
+    return result
+
+
+def parse_resource_table_row(row: str) -> Optional[ItemsRow | QPRow | TextRow]:
+    match = re.match(
+        r"\|(?P<index>[0-9]+)(?P<key>([1-4]|qp|name|jdef|ndef|icon))"
+        r"\s*=\s*"
+        r"(({{(?P<item>.+?)(\|(?P<piece>[0-9,]+)?\s*)?\}\})|(?P<text>.+))",
+        row,
+    )
+    if match is None:
+        return None
+    index = int(match.group("index"))
+    match match.group("key"):
+        case "1" | "2" | "3" | "4":
+            item = match.group("item")
+            piece = match.group("piece")
+            if item is not None:
+                return ItemsRow(
+                    index=index,
+                    key=int(match.group("key")),
+                    item=item.strip(),
+                    piece=int(piece) if piece is not None else 1,
+                )
+        case "qp":
+            if match.group("piece") is not None:
+                return QPRow(
+                    index=index,
+                    key="qp",
+                    value=int(match.group("piece").replace(",", "")),
+                )
+        case _:
+            if match.group("text") is not None:
+                return TextRow(
+                    index=index,
+                    key=match.group("key"),
+                    text=match.group("text").strip(),
+                )
+    return None
+
+
+def to_ascension_resources(
+    rows: list[ResourceTableRow],
+    stars: int,
+) -> list[lib.ResourceSet]:
+    resources = [lib.ResourceSet(qp=0, resources=[]) for _ in range(4)]
+    for row in rows:
+        index = row.index - 1
+        if not 0 <= index <= 3:
+            continue
+        match row:
+            case ItemsRow(item=item, piece=piece):
+                resources[index]["resources"].append(
+                    lib.Resource(name=item, piece=piece)
+                )
+    # set QP
+    for i, qp in enumerate(ascension_qp(stars)):
+        if resources[i]["resources"] and resources[i]["qp"] == 0:
+            resources[i]["qp"] = qp
+    return resources
+
+
+def to_skill_resources(
+    rows: list[ResourceTableRow],
+    stars: int,
+) -> list[lib.ResourceSet]:
+    resources = [lib.ResourceSet(qp=0, resources=[]) for _ in range(9)]
+    for row in rows:
+        index = row.index - 1
+        if not 0 <= index <= 8:
+            continue
+        match row:
+            case ItemsRow(item=item, piece=piece):
+                resources[index]["resources"].append(
+                    lib.Resource(name=item, piece=piece)
+                )
+    # set QP
+    for i, qp in enumerate(skill_reinforcement_qp(stars)):
+        if resources[i]["resources"] and resources[i]["qp"] == 0:
+            resources[i]["qp"] = qp
+    return resources
+
+
+def to_costumes(
+    rows: list[ResourceTableRow],
 ) -> list[lib.english.Costume]:
     indexes: set[int] = set()
     name: dict[int, str] = {}
@@ -573,51 +766,25 @@ def parse_costume_data(
     text_jp: dict[int, str] = {}
     resources: dict[int, list[lib.Resource]] = {}
     qp: dict[int, int] = {}
-    for line in lines:
-        match = re.match(
-            r"\|(?P<index>[0-9]+)(?P<key>(name|jdef|ndef|icon|qp|[1-4]))"
-            r"\s*=\s*(?P<value>.*)",
-            line,
-        )
-        if match is None:
+    for row in rows:
+        if row.index <= 4:
             continue
-        index = int(match.group("index"))
-        # skil ascension resources
-        if index <= 4:
-            continue
-        logger.debug(
-            'costume %d: key="%s", value="%s"',
-            int(match.group("index")),
-            match.group("key"),
-            match.group("value"),
-        )
-        indexes.add(index)
-        match match.group("key"):
-            case "name":
-                name[index] = match.group("value")
-            case "jdef":
-                text_jp[index] = match.group("value").replace("<br/>", "\n")
-            case "ndef":
-                text_en[index] = match.group("value")
-            case "qp":
-                qp_match = re.match(
-                    r"\{\{QP\|(?P<qp>[0-9,]+)\}\}",
-                    match.group("value"),
+        indexes.add(row.index)
+        match row:
+            case ItemsRow(item=item, piece=piece):
+                resources.setdefault(row.index, []).append(
+                    lib.Resource(name=item, piece=piece)
                 )
-                if qp_match:
-                    qp[index] = int(qp_match.group("qp").replace(",", ""))
-            case "1" | "2" | "3" | "4":
-                resource_match = re.match(
-                    r"\{\{(?P<name>.+)\|(?P<piece>[0-9]+)\}\}",
-                    match.group("value"),
-                )
-                if resource_match:
-                    resources.setdefault(index, []).append(
-                        lib.Resource(
-                            name=resource_match["name"],
-                            piece=int(resource_match["piece"]),
-                        )
-                    )
+            case QPRow(value=value):
+                qp[row.index] = value
+            case TextRow(key=key, text=text):
+                match key:
+                    case "name":
+                        name[row.index] = text
+                    case "jdef":
+                        text_jp[row.index] = text.replace("<br/>", "\n")
+                    case "ndef":
+                        text_en[row.index] = text
     # to costumes
     costumes: list[lib.english.Costume] = []
     for index in indexes:
@@ -635,130 +802,6 @@ def parse_costume_data(
             )
         )
     return costumes
-
-
-def parse_ascension_resources(
-    source: str,
-    stars: int,
-    logger: lib.ServantLogger,
-) -> list[lib.ResourceSet]:
-    logger.debug("ascension resources")
-    match = re.search(
-        r"==\s*Ascension\s*==\n\{\{Ascension\n(?P<body>(.*\n)+?)\}\}",
-        source,
-    )
-    if match is None:
-        return []
-    resources = parse_resource_set(
-        match.group("body").split("\n"),
-        4,
-        logger,
-    )
-    # qp
-    for i, qp in enumerate(ascension_qp(stars)):
-        if resources[i]["resources"]:
-            resources[i]["qp"] = qp
-    return resources
-
-
-def parse_active_skill_resources(
-    source: str,
-    stars: int,
-    logger: lib.ServantLogger,
-) -> list[lib.ResourceSet]:
-    logger.debug("active skill resources")
-    match = re.search(
-        r"Active( Skills)?=\n?\{\{Skillreinforcement\n(?P<body>(.*\n)+?)\}\}",
-        source,
-    )
-    if match is None:
-        return []
-    resources = parse_resource_set(
-        match.group("body").split("\n"),
-        9,
-        logger,
-    )
-    # qp
-    for i, qp in enumerate(skill_qp(stars)):
-        if resources[i]["resources"]:
-            resources[i]["qp"] = qp
-    return resources
-
-
-def parse_append_skill_resources(
-    source: str,
-    stars: int,
-    logger: lib.ServantLogger,
-) -> list[lib.ResourceSet]:
-    logger.debug("append skill resources")
-    match = re.search(
-        r"Append( Skills)?=\n?\{\{Skillreinforcement\n(?P<body>(.*\n)+?)\}\}",
-        source,
-    )
-    if match is None:
-        return []
-    resources = parse_resource_set(
-        match.group("body").split("\n"),
-        9,
-        logger,
-    )
-    # qp
-    for i, qp in enumerate(skill_qp(stars)):
-        if resources[i]["resources"]:
-            resources[i]["qp"] = qp
-    return resources
-
-
-def parse_resource_set(
-    lines: list[str],
-    max_level: int,
-    logger: lib.ServantLogger,
-) -> list[lib.ResourceSet]:
-    resources: list[lib.ResourceSet] = [
-        lib.ResourceSet(qp=0, resources=[]) for _ in range(max(0, max_level))
-    ]
-    for line in lines:
-        resource = parse_resource(line)
-        if resource is None:
-            continue
-        logger.debug(
-            '%d-%d "%s" x %d',
-            resource["level"],
-            resource["index"],
-            resource["item"],
-            resource["piece"],
-        )
-        if 1 <= resource["level"] and resource["level"] <= max_level:
-            resources[resource["level"] - 1]["resources"].append(
-                lib.Resource(
-                    name=resource["item"],
-                    piece=resource["piece"],
-                )
-            )
-    return resources
-
-
-class Resource(TypedDict):
-    level: int
-    index: int
-    item: str
-    piece: int
-
-
-def parse_resource(line: str) -> Optional[Resource]:
-    match = re.match(
-        r"\|(?P<level>[0-9]+)(?P<index>[0-9])"
-        r"\s*=\s*\{\{(?P<item>.+?)(\|(?P<piece>[0-9]+)\s*)?\}\}",
-        line,
-    )
-    if match is None:
-        return None
-    return Resource(
-        level=int(match.group("level")),
-        index=int(match.group("index")),
-        item=match.group("item").strip(),
-        piece=int(match.group("piece")) if match.group("piece") is not None else 1,
-    )
 
 
 def ascension_qp(stars: int) -> list[int]:
@@ -779,7 +822,7 @@ def ascension_qp(stars: int) -> list[int]:
     return table[row]
 
 
-def skill_qp(stars: int) -> list[int]:
+def skill_reinforcement_qp(stars: int) -> list[int]:
     base_qp: list[int] = [
         10000,
         20000,
