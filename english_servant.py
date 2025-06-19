@@ -783,9 +783,9 @@ def to_costumes(
                     case "name":
                         name[row.index] = text
                     case "jdef":
-                        text_jp[row.index] = text.replace("<br/>", "\n")
+                        text_jp[row.index] = re.sub("<br/?>", "\n", text)
                     case "ndef":
-                        text_en[row.index] = text
+                        text_en[row.index] = re.sub("<br/?>", "\n", text)
     # to costumes
     costumes: list[lib.english.Costume] = []
     for index in indexes:
