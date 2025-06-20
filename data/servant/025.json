@@ -87,7 +87,7 @@
       "name": "盛夏の紳士",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "励振火薬",
             "piece": 10
@@ -111,7 +111,7 @@
   "ascension_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーピース",
           "piece": 3
@@ -120,7 +120,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーピース",
           "piece": 6
@@ -133,7 +133,7 @@
     },
     {
       "qp": 150000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーモニュメント",
           "piece": 3
@@ -150,7 +150,7 @@
     },
     {
       "qp": 450000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーモニュメント",
           "piece": 6
@@ -169,7 +169,7 @@
   "skill_resources": [
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 3
@@ -178,7 +178,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 6
@@ -187,7 +187,7 @@
     },
     {
       "qp": 120000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 3
@@ -196,7 +196,7 @@
     },
     {
       "qp": 160000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 6
@@ -209,7 +209,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 3
@@ -222,7 +222,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 6
@@ -235,7 +235,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 15
@@ -248,7 +248,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "ホムンクルスベビー",
           "piece": 9
@@ -261,7 +261,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -272,7 +272,7 @@
   "append_skill_resources": [
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 3
@@ -281,7 +281,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 6
@@ -290,7 +290,7 @@
     },
     {
       "qp": 120000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 3
@@ -299,7 +299,7 @@
     },
     {
       "qp": 160000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 6
@@ -312,7 +312,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 3
@@ -325,7 +325,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 6
@@ -338,7 +338,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "魔術髄液",
           "piece": 15
@@ -351,7 +351,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 27
@@ -364,7 +364,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

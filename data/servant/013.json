@@ -87,7 +87,7 @@
       "name": "夏の狩人",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "万死の毒針",
             "piece": 10
@@ -111,7 +111,7 @@
   "ascension_resources": [
     {
       "qp": 30000,
-      "resources": [
+      "items": [
         {
           "name": "アーチャーピース",
           "piece": 4
@@ -120,7 +120,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "アーチャーピース",
           "piece": 8
@@ -133,7 +133,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "アーチャーモニュメント",
           "piece": 4
@@ -150,7 +150,7 @@
     },
     {
       "qp": 900000,
-      "resources": [
+      "items": [
         {
           "name": "アーチャーモニュメント",
           "piece": 8
@@ -169,7 +169,7 @@
   "skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "弓の輝石",
           "piece": 4
@@ -178,7 +178,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "弓の輝石",
           "piece": 8
@@ -187,7 +187,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "弓の魔石",
           "piece": 4
@@ -196,7 +196,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "弓の魔石",
           "piece": 8
@@ -209,7 +209,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "弓の秘石",
           "piece": 4
@@ -222,7 +222,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "弓の秘石",
           "piece": 8
@@ -235,7 +235,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 8
@@ -248,7 +248,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "鳳凰の羽根",
           "piece": 10
@@ -261,7 +261,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -272,7 +272,7 @@
   "append_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "弓の輝石",
           "piece": 4
@@ -281,7 +281,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "弓の輝石",
           "piece": 8
@@ -290,7 +290,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "弓の魔石",
           "piece": 4
@@ -299,7 +299,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "弓の魔石",
           "piece": 8
@@ -312,7 +312,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "弓の秘石",
           "piece": 4
@@ -325,7 +325,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "弓の秘石",
           "piece": 8
@@ -338,7 +338,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "精霊根",
           "piece": 3
@@ -351,7 +351,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "閑古鈴",
           "piece": 12
@@ -364,7 +364,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

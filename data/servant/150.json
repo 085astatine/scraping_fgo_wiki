@@ -94,7 +94,7 @@
       "name": "Camelot & Co",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "英雄の証",
             "piece": 10
@@ -119,7 +119,7 @@
       "name": "メガネ霊衣：Camelot&Co.モデルフレーム",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "世界樹の種",
             "piece": 10
@@ -143,7 +143,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "キャスターピース",
           "piece": 5
@@ -152,7 +152,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "キャスターピース",
           "piece": 12
@@ -165,7 +165,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "キャスターモニュメント",
           "piece": 5
@@ -182,7 +182,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "キャスターモニュメント",
           "piece": 12
@@ -201,7 +201,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "術の輝石",
           "piece": 5
@@ -210,7 +210,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "術の輝石",
           "piece": 12
@@ -219,7 +219,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "術の魔石",
           "piece": 5
@@ -228,7 +228,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "術の魔石",
           "piece": 12
@@ -241,7 +241,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "術の秘石",
           "piece": 5
@@ -254,7 +254,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "術の秘石",
           "piece": 12
@@ -267,7 +267,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "無間の歯車",
           "piece": 10
@@ -280,7 +280,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "精霊根",
           "piece": 8
@@ -293,7 +293,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -304,7 +304,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "術の輝石",
           "piece": 5
@@ -313,7 +313,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "術の輝石",
           "piece": 12
@@ -322,7 +322,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "術の魔石",
           "piece": 5
@@ -331,7 +331,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "術の魔石",
           "piece": 12
@@ -344,7 +344,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "術の秘石",
           "piece": 5
@@ -357,7 +357,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "術の秘石",
           "piece": 12
@@ -370,7 +370,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の逆鱗",
           "piece": 4
@@ -383,7 +383,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "智慧のスカラベ",
           "piece": 8
@@ -396,7 +396,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

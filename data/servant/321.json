@@ -85,7 +85,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -98,7 +98,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "ゴーストランタン",
           "piece": 10
@@ -111,7 +111,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "鳳凰の羽根",
           "piece": 10
@@ -124,7 +124,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "蛮神の心臓",
           "piece": 10
@@ -139,7 +139,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -148,7 +148,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "ゴーストランタン",
           "piece": 10
@@ -157,7 +157,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "ホムンクルスベビー",
           "piece": 12
@@ -166,7 +166,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "追憶の貝殻",
           "piece": 12
@@ -175,7 +175,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "巨人の指輪",
           "piece": 12
@@ -184,7 +184,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "禍罪の矢尻",
           "piece": 15
@@ -193,7 +193,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "虹の糸玉",
           "piece": 15
@@ -202,7 +202,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "煌星のカケラ",
           "piece": 15
@@ -211,7 +211,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -222,7 +222,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 10
@@ -231,7 +231,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -240,7 +240,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "蛇の宝玉",
           "piece": 12
@@ -249,7 +249,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "呪獣胆石",
           "piece": 12
@@ -258,7 +258,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "永遠結氷",
           "piece": 12
@@ -267,7 +267,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "巨人の指輪",
           "piece": 15
@@ -276,7 +276,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "神脈霊子",
           "piece": 15
@@ -285,7 +285,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "赦免の小鐘",
           "piece": 15
@@ -294,7 +294,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

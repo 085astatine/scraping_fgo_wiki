@@ -101,7 +101,7 @@
       "name": "夜に咲く毒の華",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "万死の毒針",
             "piece": 10
@@ -125,7 +125,7 @@
   "ascension_resources": [
     {
       "qp": 30000,
-      "resources": [
+      "items": [
         {
           "name": "アサシンピース",
           "piece": 4
@@ -134,7 +134,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "アサシンピース",
           "piece": 8
@@ -147,7 +147,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "アサシンモニュメント",
           "piece": 4
@@ -164,7 +164,7 @@
     },
     {
       "qp": 900000,
-      "resources": [
+      "items": [
         {
           "name": "アサシンモニュメント",
           "piece": 8
@@ -183,7 +183,7 @@
   "skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "殺の輝石",
           "piece": 4
@@ -192,7 +192,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "殺の輝石",
           "piece": 8
@@ -201,7 +201,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "殺の魔石",
           "piece": 4
@@ -210,7 +210,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "殺の魔石",
           "piece": 8
@@ -223,7 +223,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "殺の秘石",
           "piece": 4
@@ -236,7 +236,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "殺の秘石",
           "piece": 8
@@ -249,7 +249,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 20
@@ -262,7 +262,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 24
@@ -275,7 +275,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -286,7 +286,7 @@
   "append_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "殺の輝石",
           "piece": 4
@@ -295,7 +295,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "殺の輝石",
           "piece": 8
@@ -304,7 +304,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "殺の魔石",
           "piece": 4
@@ -313,7 +313,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "殺の魔石",
           "piece": 8
@@ -326,7 +326,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "殺の秘石",
           "piece": 4
@@ -339,7 +339,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "殺の秘石",
           "piece": 8
@@ -352,7 +352,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "黒獣脂",
           "piece": 4
@@ -365,7 +365,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "宵哭きの鉄杭",
           "piece": 36
@@ -378,7 +378,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

@@ -87,7 +87,7 @@
       "name": "簡易霊衣：ワンジナ・アイ",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "無間の歯車",
             "piece": 5
@@ -111,7 +111,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 10
@@ -124,7 +124,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "ホムンクルスベビー",
           "piece": 10
@@ -137,7 +137,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "原初の産毛",
           "piece": 10
@@ -150,7 +150,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "悠久の実",
           "piece": 10
@@ -165,7 +165,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 10
@@ -174,7 +174,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "隕蹄鉄",
           "piece": 10
@@ -183,7 +183,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "ホムンクルスベビー",
           "piece": 12
@@ -192,7 +192,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "戦馬の幼角",
           "piece": 12
@@ -201,7 +201,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "精霊根",
           "piece": 12
@@ -210,7 +210,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "原初の産毛",
           "piece": 15
@@ -219,7 +219,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "悠久の実",
           "piece": 15
@@ -228,7 +228,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "煌星のカケラ",
           "piece": 15
@@ -237,7 +237,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -248,7 +248,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -257,7 +257,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "八連双晶",
           "piece": 10
@@ -266,7 +266,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "オーロラ鋼",
           "piece": 12
@@ -275,7 +275,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "神脈霊子",
           "piece": 12
@@ -284,7 +284,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "虹の糸玉",
           "piece": 12
@@ -293,7 +293,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "夢幻の鱗粉",
           "piece": 15
@@ -302,7 +302,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "太陽皮",
           "piece": 15
@@ -311,7 +311,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "狂気の残滓",
           "piece": 15
@@ -320,7 +320,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

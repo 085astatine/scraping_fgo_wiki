@@ -87,7 +87,7 @@
       "name": "平安武者装束",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "枯淡勾玉",
             "piece": 5
@@ -111,7 +111,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "バーサーカーピース",
           "piece": 5
@@ -120,7 +120,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "バーサーカーピース",
           "piece": 12
@@ -133,7 +133,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "バーサーカーモニュメント",
           "piece": 5
@@ -150,7 +150,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "バーサーカーモニュメント",
           "piece": 12
@@ -169,7 +169,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "狂の輝石",
           "piece": 5
@@ -178,7 +178,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "狂の輝石",
           "piece": 12
@@ -187,7 +187,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "狂の魔石",
           "piece": 5
@@ -196,7 +196,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "狂の魔石",
           "piece": 12
@@ -209,7 +209,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "狂の秘石",
           "piece": 5
@@ -222,7 +222,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "狂の秘石",
           "piece": 12
@@ -235,7 +235,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 29
@@ -248,7 +248,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 36
@@ -261,7 +261,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -272,7 +272,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "狂の輝石",
           "piece": 5
@@ -281,7 +281,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "狂の輝石",
           "piece": 12
@@ -290,7 +290,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "狂の魔石",
           "piece": 5
@@ -299,7 +299,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "狂の魔石",
           "piece": 12
@@ -312,7 +312,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "狂の秘石",
           "piece": 5
@@ -325,7 +325,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "狂の秘石",
           "piece": 12
@@ -338,7 +338,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "原初の産毛",
           "piece": 6
@@ -351,7 +351,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "虹の糸玉",
           "piece": 18
@@ -364,7 +364,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

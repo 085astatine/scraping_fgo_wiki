@@ -101,7 +101,7 @@
       "name": "簡易霊衣：首切りバニー（第一再臨）",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "凶骨",
             "piece": 10
@@ -126,7 +126,7 @@
       "name": "簡易霊衣：首切りバニー（第二再臨）",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "愚者の鎖",
             "piece": 10
@@ -151,7 +151,7 @@
       "name": "簡易霊衣：首切りバニー（第三再臨）",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "閑古鈴",
             "piece": 5
@@ -175,7 +175,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーピース",
           "piece": 5
@@ -184,7 +184,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーピース",
           "piece": 12
@@ -197,7 +197,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーモニュメント",
           "piece": 5
@@ -214,7 +214,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーモニュメント",
           "piece": 12
@@ -233,7 +233,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 5
@@ -242,7 +242,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 12
@@ -251,7 +251,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 5
@@ -260,7 +260,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 12
@@ -273,7 +273,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 5
@@ -286,7 +286,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 12
@@ -299,7 +299,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 20
@@ -312,7 +312,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "八連双晶",
           "piece": 18
@@ -325,7 +325,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -336,7 +336,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 5
@@ -345,7 +345,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 12
@@ -354,7 +354,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 5
@@ -363,7 +363,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 12
@@ -376,7 +376,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 5
@@ -389,7 +389,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 12
@@ -402,7 +402,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "蛮神の心臓",
           "piece": 4
@@ -415,7 +415,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "枯淡勾玉",
           "piece": 18
@@ -428,7 +428,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

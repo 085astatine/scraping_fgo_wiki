@@ -85,7 +85,7 @@
   "ascension_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーピース",
           "piece": 2
@@ -94,7 +94,7 @@
     },
     {
       "qp": 30000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーピース",
           "piece": 4
@@ -107,7 +107,7 @@
     },
     {
       "qp": 90000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーモニュメント",
           "piece": 2
@@ -124,7 +124,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーモニュメント",
           "piece": 4
@@ -143,7 +143,7 @@
   "skill_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 2
@@ -152,7 +152,7 @@
     },
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 4
@@ -161,7 +161,7 @@
     },
     {
       "qp": 60000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 2
@@ -170,7 +170,7 @@
     },
     {
       "qp": 80000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 4
@@ -183,7 +183,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 2
@@ -196,7 +196,7 @@
     },
     {
       "qp": 250000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 4
@@ -209,7 +209,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 8
@@ -222,7 +222,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "巨人の指輪",
           "piece": 6
@@ -235,7 +235,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -246,7 +246,7 @@
   "append_skill_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 2
@@ -255,7 +255,7 @@
     },
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 4
@@ -264,7 +264,7 @@
     },
     {
       "qp": 60000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 2
@@ -273,7 +273,7 @@
     },
     {
       "qp": 80000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 4
@@ -286,7 +286,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 2
@@ -299,7 +299,7 @@
     },
     {
       "qp": 250000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 4
@@ -312,7 +312,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "原初の産毛",
           "piece": 2
@@ -325,7 +325,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "追憶の貝殻",
           "piece": 6
@@ -338,7 +338,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
