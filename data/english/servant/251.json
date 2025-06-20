@@ -1,0 +1,328 @@
+{
+  "id": 251,
+  "name": "Mori Nagayoshi",
+  "false_name": null,
+  "klass": "Berserker",
+  "rarity": 3,
+  "active_skills": [
+    [
+      {
+        "name": "Mental Pollution (Wicked)",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Blood-Soaked Recklessness",
+        "rank": "A"
+      },
+      {
+        "name": "Blood-Soaked Recklessness",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Demon Musashi's Will",
+        "rank": "C"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Avenger Critical Attack Chance Resistance",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Berserker Piece",
+          "piece": 8
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 4
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 20
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "Berserker Monument",
+          "piece": 8
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 7
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 8
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 8
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Hero's Proof",
+          "piece": 20
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 12
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 8
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 8
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 4
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 12
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

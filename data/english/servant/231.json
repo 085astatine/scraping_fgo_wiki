@@ -1,0 +1,328 @@
+{
+  "id": 231,
+  "name": "Red Hare",
+  "false_name": null,
+  "klass": "Rider",
+  "rarity": 3,
+  "active_skills": [
+    [
+      {
+        "name": "Thousand Mile Sprint (Horse)",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Various Martial Arts (Horse)",
+        "rank": "A"
+      },
+      {
+        "name": "Various Martial Arts (Horse)",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Combat Maneuver (Horse)",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Berserker Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 8
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 4
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 20
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 8
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 20
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 8
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 8
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 7
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 12
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 8
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 8
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 4
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 12
+        },
+        {
+          "name": "Tiny Bell of Amnesty",
+          "piece": 48
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "id": 183,
+  "name": "Parvati",
+  "false_name": null,
+  "klass": "Lancer",
+  "rarity": 4,
+  "active_skills": [
+    [
+      {
+        "name": "Imaginary Around",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Ashes of Kama",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Blessing of the Goddess",
+        "rank": "A+"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Alter Ego Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "A Girl's Most Sought After",
+      "text_jp": "存在としての結びつきとして\n手元に在るべき霊衣",
+      "text_en": "A Spiritron Dress that must be kept on-hand in order to maintain a connection to her existence.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Yggdrasil Seed",
+            "piece": 10
+          },
+          {
+            "name": "Infinity Gear",
+            "piece": 5
+          },
+          {
+            "name": "Phoenix Plume",
+            "piece": 5
+          },
+          {
+            "name": "Heart of a Foreign God",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 10
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 4
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 10
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 10
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 10
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Snake Jewel",
+          "piece": 7
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 6
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 10
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 10
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "resources": [
+        {
+          "name": "Fruit of Longevity",
+          "piece": 9
+        },
+        {
+          "name": "Rainbow Yarn",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

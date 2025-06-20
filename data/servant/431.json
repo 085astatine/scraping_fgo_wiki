@@ -1,7 +1,13 @@
 {
   "id": 431,
   "name": "ファンタズムーン",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "ファンタズムーン",
+    "スペース・ファンタズムーンＶ",
+    "サンタズムーン",
+    "ファンタズムーン"
+  ],
   "klass": "Pretender",
   "rarity": 5,
   "skills": [

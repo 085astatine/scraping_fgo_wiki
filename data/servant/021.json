@@ -1,7 +1,8 @@
 {
   "id": 21,
   "name": "レオニダス一世",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Lancer",
   "rarity": 2,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 191,
   "name": "メカエリチャンⅡ号機",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "AlterEgo",
   "rarity": 4,
   "skills": [

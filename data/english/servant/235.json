@@ -1,0 +1,377 @@
+{
+  "id": 235,
+  "name": "Li Shuwen",
+  "false_name": null,
+  "klass": "Assassin",
+  "rarity": 5,
+  "active_skills": [
+    [
+      {
+        "name": "Chinese Martial Arts (Bajiquan)",
+        "rank": "A+++"
+      }
+    ],
+    [
+      {
+        "name": "Sphere Boundary (Zenith)",
+        "rank": "A-"
+      }
+    ],
+    [
+      {
+        "name": "Intersection of Yin-Yang",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Lancer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Glassless<br/>[1st Ascension]",
+      "text_jp": "本人曰く、圏境極まれば、\n視界はさほど重要では無いらしい",
+      "text_en": "According to him, visibility isn't that important as long as one masters the sphere boundary.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Tsukumo Mirror",
+            "piece": 5
+          },
+          {
+            "name": "Bloodstone Tear",
+            "piece": 5
+          },
+          {
+            "name": "Ancient Bell of Tranquility",
+            "piece": 5
+          },
+          {
+            "name": "Magical Cerebrospinal Fluid",
+            "piece": 10
+          }
+        ]
+      }
+    },
+    {
+      "name": "Glassless<br/>[2nd Ascension]",
+      "text_jp": "色眼鏡は初動の視線を隠すのに役立つ\n老境に至れどその牙、いまだ衰えず",
+      "text_en": "Sunglasses are useful for concealing the line of sight to make the first move. Even at his age, his ferocity is undimmed.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Dawnlight Reactor Core",
+            "piece": 5
+          },
+          {
+            "name": "Cursed Beast Cholecyst",
+            "piece": 5
+          },
+          {
+            "name": "Kotan Magatama",
+            "piece": 5
+          },
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 12
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 22
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 2
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 12
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 4
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 29
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 44
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 6
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 18
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

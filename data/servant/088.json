@@ -1,7 +1,8 @@
 {
   "id": 88,
   "name": "ブリュンヒルデ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Lancer",
   "rarity": 5,
   "skills": [

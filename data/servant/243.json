@@ -1,7 +1,8 @@
 {
   "id": 243,
   "name": "グレイ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 4,
   "skills": [

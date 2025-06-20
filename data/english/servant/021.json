@@ -1,0 +1,328 @@
+{
+  "id": 21,
+  "name": "Leonidas I",
+  "false_name": null,
+  "klass": "Lancer",
+  "rarity": 2,
+  "active_skills": [
+    [
+      {
+        "name": "Pride of the Rearguard",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Battle Continuation",
+        "rank": "A"
+      },
+      {
+        "name": "Defiance of Three Hundred",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Warrior's War Cry",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Berserker Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 15000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 45000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 6
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 3
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 6
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 18
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 3
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 3
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Snake Jewel",
+          "piece": 8
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 36
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 3
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 9
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

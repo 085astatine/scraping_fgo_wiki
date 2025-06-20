@@ -1,7 +1,8 @@
 {
   "id": 373,
   "name": "ククルカン",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Foreigner",
   "rarity": 5,
   "skills": [

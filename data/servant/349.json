@@ -1,7 +1,8 @@
 {
   "id": 349,
   "name": "曲亭馬琴",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Rider",
   "rarity": 5,
   "skills": [

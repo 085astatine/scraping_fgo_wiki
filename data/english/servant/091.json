@@ -1,0 +1,411 @@
+{
+  "id": 91,
+  "name": "Ryōgi Shiki",
+  "false_name": null,
+  "klass": "Saber",
+  "rarity": 5,
+  "active_skills": [
+    [
+      {
+        "name": "Mystic Eyes of Death Perception",
+        "rank": "C"
+      },
+      {
+        "name": "Morning Star",
+        "rank": "C"
+      }
+    ],
+    [
+      {
+        "name": "Unyō",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Yin Yang",
+        "rank": "A"
+      },
+      {
+        "name": "Yin Yang",
+        "rank": "A+"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Foreigner Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Decapitating Bunny [1st Ascension]",
+      "text_jp": "ウサ耳をつけた貴人\nクリティカルヒット",
+      "text_en": "Nobility wearing bunny ears.\nCritical hit.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Unlucky Bone",
+            "piece": 10
+          },
+          {
+            "name": "Ghost Lantern",
+            "piece": 5
+          },
+          {
+            "name": "Lamp of Demon Sealing",
+            "piece": 5
+          },
+          {
+            "name": "Bizarre Godly Wine",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Decapitating Bunny [2nd Ascension]",
+      "text_jp": "ウサ耳をつけた貴人\nつうこんのいちげき",
+      "text_en": "Nobility wearing bunny ears.\nA fatal blow.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Chains of the Fool",
+            "piece": 10
+          },
+          {
+            "name": "Kotan Magatama",
+            "piece": 5
+          },
+          {
+            "name": "Primordial Lanugo",
+            "piece": 5
+          },
+          {
+            "name": "Tsukumo Mirror",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Decapitating Bunny [3rd Ascension]",
+      "text_jp": "ウサ耳をつけた貴人\nアルテミット・ニャン",
+      "text_en": "Nobility wearing bunny ears.\nUltimate meow.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Ancient Bell of Tranquility",
+            "piece": 5
+          },
+          {
+            "name": "Arrowhead of Maledictions",
+            "piece": 5
+          },
+          {
+            "name": "Dawnlight Reactor Core",
+            "piece": 5
+          },
+          {
+            "name": "Genesis Egg",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 12
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 8
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Saber Monument",
+          "piece": 12
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 6
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 20
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Octuplet Crystals",
+          "piece": 18
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 4
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 18
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

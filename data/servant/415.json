@@ -1,7 +1,8 @@
 {
   "id": 415,
   "name": "久遠寺有珠",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 5,
   "skills": [
@@ -29,7 +30,7 @@
         "level": 1,
         "name": "駒鳥の殺人",
         "rank": "E",
-        "icon": 814
+        "icon": 0
       }
     ]
   ],

@@ -1,7 +1,8 @@
 {
   "id": 29,
   "name": "マリー・アントワネット",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Rider",
   "rarity": 4,
   "skills": [

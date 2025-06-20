@@ -1,0 +1,328 @@
+{
+  "id": 256,
+  "name": "Gareth",
+  "false_name": null,
+  "klass": "Lancer",
+  "rarity": 2,
+  "active_skills": [
+    [
+      {
+        "name": "Battle Continuation",
+        "rank": "C"
+      },
+      {
+        "name": "The Wolf Never Sleeps",
+        "rank": "B++"
+      }
+    ],
+    [
+      {
+        "name": "Gareth Beaumains",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Ring of Transformation",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Rider Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 15000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 45000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 6
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 3
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 3
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 6
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 10
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 3
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 3
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Hero's Proof",
+          "piece": 15
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Medal of Great Knight",
+          "piece": 18
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 3
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 2
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Giant's Ring",
+          "piece": 9
+        },
+        {
+          "name": "Rainbow Yarn",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

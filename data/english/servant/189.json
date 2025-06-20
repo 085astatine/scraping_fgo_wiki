@@ -1,0 +1,385 @@
+{
+  "id": 189,
+  "name": "Osakabehime",
+  "false_name": null,
+  "klass": "Assassin",
+  "rarity": 5,
+  "active_skills": [
+    [
+      {
+        "name": "Shapeshift",
+        "rank": "A+"
+      },
+      {
+        "name": "Four Gods Divination (Hakuro)",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Chiyogami Manipulation",
+        "rank": "EX"
+      },
+      {
+        "name": "Chiyogami Manipulation",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Castle Ghost",
+        "rank": "A++"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Archer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "With Glasses<br/>[2nd Ascension]",
+      "text_jp": "メガネをかけた刑部姫\nお姫様オーラをシャットダウン",
+      "text_en": "Osakabehime with her glasses on shuts down her princess-like aura.",
+      "resources": {
+        "qp": 0,
+        "resources": [
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          },
+          {
+            "name": "Yggdrasil Seed",
+            "piece": 5
+          },
+          {
+            "name": "Kotan Magatama",
+            "piece": 5
+          },
+          {
+            "name": "Spirit Root",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "With Glasses<br/>[3rd Ascension]",
+      "text_jp": "メガネをかけた刑部姫\n姫様ムーブはしばらくお休み",
+      "text_en": "Osakabehime with her glasses on puts her princess-like moves momentarily on hold.",
+      "resources": {
+        "qp": 0,
+        "resources": [
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          },
+          {
+            "name": "Forbidden Page",
+            "piece": 5
+          },
+          {
+            "name": "Ancient Bell of Tranquility",
+            "piece": 5
+          },
+          {
+            "name": "Bizarre Godly Wine",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 12
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 5
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 20
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 12
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 10
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 12
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 8
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 4
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 8
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

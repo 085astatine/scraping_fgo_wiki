@@ -1,7 +1,13 @@
 {
   "id": 421,
-  "name": "BBドバイ",
-  "alias_name": null,
+  "name": "ＢＢドバイ",
+  "false_name": null,
+  "ascension_names": [
+    "ＢＢドバイ",
+    "ＢＢコスモ",
+    "ゴールデンＢＢ",
+    "ゴールデンＢＢ"
+  ],
   "klass": "MoonCancer",
   "rarity": 5,
   "skills": [

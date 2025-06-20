@@ -1,0 +1,324 @@
+{
+  "id": 24,
+  "name": "Georgios",
+  "false_name": null,
+  "klass": "Rider",
+  "rarity": 2,
+  "active_skills": [
+    [
+      {
+        "name": "Guardian Knight",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Martyr's Soul",
+        "rank": "B+"
+      }
+    ],
+    [
+      {
+        "name": "Battle Continuation",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Berserker Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 15000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 45000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 6
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 3
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 4
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 6
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 6
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 3
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 6
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Hero's Proof",
+          "piece": 15
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Infinity Gear",
+          "piece": 9
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 6
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 3
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 6
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 12
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 6
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

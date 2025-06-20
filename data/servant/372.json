@@ -1,7 +1,13 @@
 {
   "id": 372,
   "name": "トラロック",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "トラロック",
+    "ウィツィロポチトリ",
+    "テノチティトラン",
+    "テノチティトラン"
+  ],
   "klass": "Pretender",
   "rarity": 4,
   "skills": [

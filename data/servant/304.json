@@ -1,7 +1,8 @@
 {
   "id": 304,
   "name": "鬼一法眼",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 4,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 211,
   "name": "坂本龍馬",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Rider",
   "rarity": 4,
   "skills": [

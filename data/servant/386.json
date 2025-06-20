@@ -1,7 +1,8 @@
 {
   "id": 386,
   "name": "アルトリア・キャスター",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Berserker",
   "rarity": 5,
   "skills": [

@@ -1,0 +1,359 @@
+{
+  "id": 27,
+  "name": "Ushiwakamaru",
+  "false_name": null,
+  "klass": "Rider",
+  "rarity": 3,
+  "active_skills": [
+    [
+      {
+        "name": "Tengu Art of War",
+        "rank": "A"
+      },
+      {
+        "name": "Tengu Art of War",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Charisma",
+        "rank": "C+"
+      },
+      {
+        "name": "Six Secret Arts of War: Thunder and Gale",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Art of the Swallow",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Lancer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Psychedelic Wandering Tales",
+      "text_jp": "源氏の若武者のダンス衣装\n和風意匠を織り込んだ豪華な一品",
+      "text_en": "A dance outfit worn by the young warrior of Genji. It's a magnificent piece woven with Japanese designs.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Hero's Proof",
+            "piece": 10
+          },
+          {
+            "name": "Kotan Magatama",
+            "piece": 5
+          },
+          {
+            "name": "Crown of Radiant Silver",
+            "piece": 5
+          },
+          {
+            "name": "Spirit Root",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 8
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 4
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 7
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 8
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 7
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 8
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 8
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Hero's Proof",
+          "piece": 20
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Infinity Gear",
+          "piece": 12
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 8
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 8
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 7
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 12
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

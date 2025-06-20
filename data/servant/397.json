@@ -1,7 +1,13 @@
 {
   "id": 397,
   "name": "武田晴信",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "武田晴信",
+    "武田晴信",
+    "武田信玄",
+    "武田信玄"
+  ],
   "klass": "Rider",
   "rarity": 5,
   "skills": [

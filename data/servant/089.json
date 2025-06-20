@@ -1,7 +1,8 @@
 {
   "id": 89,
   "name": "ベオウルフ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Berserker",
   "rarity": 4,
   "skills": [

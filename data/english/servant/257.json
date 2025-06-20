@@ -1,0 +1,355 @@
+{
+  "id": 257,
+  "name": "Bartholomew Roberts",
+  "false_name": null,
+  "klass": "Rider",
+  "rarity": 1,
+  "active_skills": [
+    [
+      {
+        "name": "Voyager of the Storm",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Pirate Gentleman",
+        "rank": "A"
+      },
+      {
+        "name": "Pirate Gentleman",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Gale of Plunder",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Berserker Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Smiley Summer Wear",
+      "text_jp": "伊達男な海賊のサマーバージョン\n陽気な笑顔で夏のメカクレを求める",
+      "text_en": "",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Chains of the Fool",
+            "piece": 10
+          },
+          {
+            "name": "Seashell of Reminiscence",
+            "piece": 5
+          },
+          {
+            "name": "Lamp of Demon Sealing",
+            "piece": 5
+          },
+          {
+            "name": "Genesis Egg",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 4
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 2
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 2
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 4
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 4
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "secret Gem of Cavalry",
+          "piece": 2
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 6
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "secret Gem of Cavalry",
+          "piece": 2
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Snake Jewel",
+          "piece": 3
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 18
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

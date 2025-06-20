@@ -1,0 +1,320 @@
+{
+  "id": 19,
+  "name": "Musashibō Benkei",
+  "false_name": null,
+  "klass": "Lancer",
+  "rarity": 2,
+  "active_skills": [
+    [
+      {
+        "name": "Vengeful Spirit Exorcism",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Imposing Stance",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Blank Subscription List",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Rider Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 15000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 45000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 6
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 3
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 6
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 6
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 5
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 3
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 15
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 42
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 3
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 6
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 4
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "id": 33,
   "name": "ハンス・クリスチャン・アンデルセン",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 2,
   "skills": [

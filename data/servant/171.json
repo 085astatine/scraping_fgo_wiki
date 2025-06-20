@@ -1,7 +1,8 @@
 {
   "id": 171,
   "name": "ペンテシレイア",
-  "alias_name": "エルドラドのバーサーカー",
+  "false_name": "エルドラドのバーサーカー",
+  "ascension_names": null,
   "klass": "Berserker",
   "rarity": 4,
   "skills": [

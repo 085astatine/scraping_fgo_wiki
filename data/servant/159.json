@@ -1,7 +1,8 @@
 {
   "id": 159,
   "name": "燕青",
-  "alias_name": "新宿のアサシン",
+  "false_name": "新宿のアサシン",
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 4,
   "skills": [

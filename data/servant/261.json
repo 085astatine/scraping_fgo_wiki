@@ -1,7 +1,8 @@
 {
   "id": 261,
   "name": "宮本武蔵",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Berserker",
   "rarity": 5,
   "skills": [

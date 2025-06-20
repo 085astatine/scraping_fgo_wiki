@@ -1,0 +1,351 @@
+{
+  "id": 25,
+  "name": "Edward Teach",
+  "false_name": null,
+  "klass": "Rider",
+  "rarity": 2,
+  "active_skills": [
+    [
+      {
+        "name": "Voyager of the Storm",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Pirate's Honor",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Gentleman's Love",
+        "rank": "C"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Rider Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Midsummer Gentleman",
+      "text_jp": "驚くべきことに、趣味服以外のセンスは\n大変良好だった大海賊である",
+      "text_en": "Surprising everyone, this pirate who isn't usually a great dresser, turned out to have good fashion sense.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Stimulus Gunpowder",
+            "piece": 10
+          },
+          {
+            "name": "Seashell of Reminiscence",
+            "piece": 5
+          },
+          {
+            "name": "Permafrost Ice Crystal",
+            "piece": 5
+          },
+          {
+            "name": "Tsukumo Mirror",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 15000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 45000,
+      "resources": [
+        {
+          "name": "Rider Piece",
+          "piece": 6
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 3
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "Rider Monument",
+          "piece": 6
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 6
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 6
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 3
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 6
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 15
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 9
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 6
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 3
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 6
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 15
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 27
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

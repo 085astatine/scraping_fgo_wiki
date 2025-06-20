@@ -1,7 +1,8 @@
 {
   "id": 262,
   "name": "刑部姫",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Archer",
   "rarity": 4,
   "skills": [

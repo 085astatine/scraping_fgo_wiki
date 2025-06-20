@@ -1,7 +1,13 @@
 {
   "id": 383,
   "name": "ドゥルガー",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "ドゥルガー",
+    "ドゥルガー",
+    "カーリー",
+    "ドゥルガー"
+  ],
   "klass": "Archer",
   "rarity": 5,
   "skills": [

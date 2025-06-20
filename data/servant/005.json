@@ -1,7 +1,8 @@
 {
   "id": 5,
   "name": "ネロ・クラウディウス",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Saber",
   "rarity": 4,
   "skills": [

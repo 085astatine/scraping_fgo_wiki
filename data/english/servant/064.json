@@ -1,0 +1,332 @@
+{
+  "id": 64,
+  "name": "Hector",
+  "false_name": null,
+  "klass": "Lancer",
+  "rarity": 3,
+  "active_skills": [
+    [
+      {
+        "name": "Military Tactics",
+        "rank": "C+"
+      },
+      {
+        "name": "Guardian of Troy",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Proof of Friendship",
+        "rank": "C"
+      }
+    ],
+    [
+      {
+        "name": "Disengage",
+        "rank": "B"
+      },
+      {
+        "name": "Charisma of Defense",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Rider Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 8
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 4
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 20
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 8
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 8
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 7
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 8
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 8
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 7
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Octuplet Crystals",
+          "piece": 12
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 13
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 8
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 8
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 3
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Aurora Steel",
+          "piece": 12
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

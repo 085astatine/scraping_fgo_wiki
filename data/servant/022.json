@@ -1,7 +1,8 @@
 {
   "id": 22,
   "name": "ロムルス",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Lancer",
   "rarity": 3,
   "skills": [
@@ -17,7 +18,7 @@
         "slot": 1,
         "level": 2,
         "name": "浪漫の風",
-        "rank": "B",
+        "rank": "B+",
         "icon": 401
       }
     ],

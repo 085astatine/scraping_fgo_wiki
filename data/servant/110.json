@@ -1,7 +1,8 @@
 {
   "id": 110,
   "name": "百貌のハサン",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 3,
   "skills": [

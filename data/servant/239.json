@@ -1,7 +1,8 @@
 {
   "id": 239,
   "name": "カーマ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 5,
   "skills": [

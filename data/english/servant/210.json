@@ -1,0 +1,381 @@
+{
+  "id": 210,
+  "name": "Okada Izō",
+  "false_name": null,
+  "klass": "Assassin",
+  "rarity": 3,
+  "active_skills": [
+    [
+      {
+        "name": "Manslayer",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Eye of the Mind (False)",
+        "rank": "C"
+      }
+    ],
+    [
+      {
+        "name": "Swift and Powerful as a Falcon",
+        "rank": "A"
+      },
+      {
+        "name": "Swift and Powerful as a Falcon",
+        "rank": "A+"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Saber Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Yooo This Hakama Is Rad",
+      "text_jp": "カルデアパレスにいた酔いどれ侍の衣装\n風流人もかくやの粋で洒脱な羽織袴",
+      "text_en": "An outfit of a drunkard samurai who lives in Chaldea Palace.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Snake Jewel",
+            "piece": 5
+          },
+          {
+            "name": "Unlucky Bone",
+            "piece": 10
+          },
+          {
+            "name": "Primordial Lanugo",
+            "piece": 5
+          },
+          {
+            "name": "Bizarre Godly Wine",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "\"I'm One Dapping Fella\" Suit",
+      "text_jp": "ツケ払いで買うたイケちょるスーツ\n酒に博打に派手に遊びまわるぜよ！",
+      "text_en": "An awesome dapper suit bought on credit.\nI can't wait to go drinking and gambling in this getup!",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Unlucky Bone",
+            "piece": 10
+          },
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          },
+          {
+            "name": "Bloodstone Tear",
+            "piece": 5
+          },
+          {
+            "name": "Demonic Flame Hōzuki",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 8
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 4
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 7
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 900000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 8
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 20
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 8
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 8
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 20
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 36
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 50000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 8
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 1250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 8
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "resources": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 20
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 5
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

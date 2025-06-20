@@ -1,7 +1,13 @@
 {
   "id": 305,
   "name": "アムール〔カレン〕",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "アムール",
+    "カレン・Ｃ・オルテンシア",
+    "ゴッドカレン",
+    "ゴッドカレン"
+  ],
   "klass": "Ruler",
   "rarity": 5,
   "skills": [

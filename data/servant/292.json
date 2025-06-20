@@ -1,7 +1,8 @@
 {
   "id": 292,
   "name": "卑弥呼",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Ruler",
   "rarity": 5,
   "skills": [

@@ -1,7 +1,13 @@
 {
   "id": 418,
   "name": "謎の代行者C.I.E.L",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "謎の代行者C.I.E.L",
+    "教えて！シエル先生",
+    "スターシエル",
+    "スターシエル"
+  ],
   "klass": "MoonCancer",
   "rarity": 5,
   "skills": [

@@ -1,0 +1,351 @@
+{
+  "id": 294,
+  "name": "Oda Nobukatsu",
+  "false_name": null,
+  "klass": "Archer",
+  "rarity": 1,
+  "active_skills": [
+    [
+      {
+        "name": "Artless Stratagem",
+        "rank": "D"
+      }
+    ],
+    [
+      {
+        "name": "Into the Heavens I Sacrifice",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "War-torn Flower",
+        "rank": "C"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Caster Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Oda Gold-Rimmed Round Glasses",
+      "text_jp": "織田信勝の眼鏡\n姉上にもかけてほしいクラシックモデル",
+      "text_en": "Oda Nobukatsu's glasses. A classic model he wishes his sister would wear as well.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Stinger of Certain Death",
+            "piece": 10
+          },
+          {
+            "name": "Arrowhead of Maledictions",
+            "piece": 5
+          },
+          {
+            "name": "Bloodstone Tear",
+            "piece": 5
+          },
+          {
+            "name": "Scarab of Wisdom",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 4
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 2
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 4
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 4
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 3
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 2
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 7
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 18
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 2
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 8
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 6
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

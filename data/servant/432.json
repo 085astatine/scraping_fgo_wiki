@@ -1,7 +1,8 @@
 {
   "id": 432,
   "name": "リチャードⅠ世",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Saber",
   "rarity": 5,
   "skills": [
@@ -28,7 +29,7 @@
         "slot": 3,
         "level": 1,
         "name": "永久に遠き勝利の剣",
-        "rank": "D",
+        "rank": "D~A+",
         "icon": 601
       }
     ]

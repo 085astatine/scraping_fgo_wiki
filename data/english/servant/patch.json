@@ -1,0 +1,2476 @@
+{
+  "001": [
+    {
+      "path": [
+        "rarity"
+      ],
+      "before": 5,
+      "after": 3
+    }
+  ],
+  "004": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "008": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "009": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "010": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "013": [
+    {
+      "path": [
+        "active_skills",
+        0
+      ],
+      "before": [
+        {
+          "name": "Old",
+          "rank": ""
+        },
+        {
+          "name": "First Skill",
+          "rank": ""
+        }
+      ],
+      "after": [
+        {
+          "name": "Sabotage",
+          "rank": "A"
+        }
+      ]
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "014": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "016": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "021": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "022": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "023": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "024": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B+"
+    }
+  ],
+  "025": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "026": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "027": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "028": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "029": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "030": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "031": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "032": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "035": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    }
+  ],
+  "036": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "037": [
+    {
+      "path": [
+        "active_skills"
+      ],
+      "before": [],
+      "after": [
+        [
+          {
+            "name": "Discerning Eye",
+            "rank": "A"
+          }
+        ],
+        [
+          {
+            "name": "Advice of the Strategist",
+            "rank": "A+"
+          }
+        ],
+        [
+          {
+            "name": "Command of the Strategist",
+            "rank": "A+"
+          }
+        ]
+      ]
+    }
+  ],
+  "040": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "043": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A++"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "045": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "046": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "049": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "053": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A++"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "054": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "056": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "057": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    }
+  ],
+  "060": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    }
+  ],
+  "061": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "063": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "064": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "065": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "066": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "069": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "070": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        1,
+        "name"
+      ],
+      "before": "'Primeval Rune'",
+      "after": "Primeval Rune"
+    }
+  ],
+  "071": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "074": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        1,
+        "rank"
+      ],
+      "before": "A+",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "076": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "077": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "079": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    }
+  ],
+  "080": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "081": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "085": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "088": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        1,
+        "name"
+      ],
+      "before": "'Primeval Rune'",
+      "after": "Primeval Rune"
+    }
+  ],
+  "089": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "090": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "091": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "094": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "D"
+    }
+  ],
+  "096": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "097": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "098": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "099": [
+    {
+      "path": [
+        "costumes",
+        1,
+        "text_en"
+      ],
+      "before": "",
+      "after": "The queen of honey's dance outfit. This Spiritron Dress has a powerful effect on a certain Child of Light...probably?"
+    }
+  ],
+  "100": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "101": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "102": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+++"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "148": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    }
+  ],
+  "172": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "183": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "185": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "193": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "201": [
+    {
+      "path": [
+        "klass"
+      ],
+      "before": "caster",
+      "after": "Caster"
+    }
+  ],
+  "208": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "212": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B+"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "213": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "214": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "name"
+      ],
+      "before": "Primeval Rune/Valkyrie",
+      "after": "Primeval Rune"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "215": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "name"
+      ],
+      "before": "Primeval Rune/Scáthach-Skaði",
+      "after": "Primeval Rune"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B+"
+    }
+  ],
+  "216": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "217": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B++"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "218": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    }
+  ],
+  "219": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "223": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B+"
+    }
+  ],
+  "226": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "227": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "228": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "229": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "231": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "234": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "241": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "242": [
+    {
+      "path": [
+        "klass"
+      ],
+      "before": "ruler",
+      "after": "Ruler"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "244": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "245": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B+"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "248": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    }
+  ],
+  "251": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    }
+  ],
+  "252": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "254": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "255": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B+"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "257": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "258": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "260": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "261": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "262": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "263": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0
+      ],
+      "before": {
+        "name": "Mistress",
+        "rank": "C"
+      },
+      "after": {
+        "name": "Mistress C",
+        "rank": "EX"
+      }
+    }
+  ],
+  "264": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "265": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "266": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "268": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "270": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "271": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C+"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "272": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B+"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    }
+  ],
+  "273": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "278": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "279": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "280": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "281": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "285": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        1
+      ],
+      "before": [
+        {
+          "name": "Supernatural Power (Ink)",
+          "rank": "B"
+        },
+        {
+          "name": "Supernatural Power (Ink)",
+          "rank": "B+"
+        },
+        {
+          "name": "Supernatural Power (Ink)",
+          "rank": "A"
+        }
+      ],
+      "after": [
+        {
+          "name": "Supernatural Power (Ink)",
+          "rank": "B"
+        }
+      ]
+    },
+    {
+      "path": [
+        "active_skills",
+        2
+      ],
+      "before": [
+        {
+          "name": "Clam Palace",
+          "rank": "A"
+        },
+        {
+          "name": "Clam Palace",
+          "rank": "A+"
+        },
+        {
+          "name": "Clam Palace",
+          "rank": "A++"
+        }
+      ],
+      "after": [
+        {
+          "name": "Clam Palace",
+          "rank": "A"
+        }
+      ]
+    }
+  ],
+  "286": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B++"
+    }
+  ],
+  "287": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "288": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    }
+  ],
+  "289": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "291": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "C++"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "302": [
+    {
+      "path": [
+        "active_skills",
+        2
+      ],
+      "before": [
+        {
+          "name": "NPC",
+          "rank": ""
+        },
+        {
+          "name": "Normal",
+          "rank": ""
+        }
+      ],
+      "after": [
+        {
+          "name": "Blaze",
+          "rank": "EX"
+        }
+      ]
+    }
+  ],
+  "303": [
+    {
+      "path": [
+        "active_skills",
+        1
+      ],
+      "before": [
+        {
+          "name": "NPC",
+          "rank": ""
+        },
+        {
+          "name": "Normal",
+          "rank": ""
+        }
+      ],
+      "after": [
+        {
+          "name": "Kagekiyo Never Dies",
+          "rank": "EX"
+        }
+      ]
+    }
+  ],
+  "312": [
+    {
+      "path": [
+        "active_skills",
+        2
+      ],
+      "before": [
+        {
+          "name": "Stage 3",
+          "rank": ""
+        },
+        {
+          "name": "Stage 1-2",
+          "rank": ""
+        }
+      ],
+      "after": [
+        {
+          "name": "Ray Horizon",
+          "rank": "A"
+        }
+      ]
+    }
+  ],
+  "329": [
+    {
+      "path": [
+        "active_skills",
+        1
+      ],
+      "before": [
+        {
+          "name": "Enemy NPC",
+          "rank": ""
+        },
+        {
+          "name": "Normal",
+          "rank": ""
+        }
+      ],
+      "after": [
+        {
+          "name": "White Orochi of Takachiho",
+          "rank": "A-"
+        }
+      ]
+    },
+    {
+      "path": [
+        "active_skills",
+        2
+      ],
+      "before": [
+        {
+          "name": "Enemy NPC",
+          "rank": ""
+        },
+        {
+          "name": "Normal",
+          "rank": ""
+        }
+      ],
+      "after": [
+        {
+          "name": "Amasakahoko (Dual)",
+          "rank": "B"
+        }
+      ]
+    }
+  ],
+  "369": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A+"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    }
+  ],
+  "383": [
+    {
+      "path": [
+        "active_skills",
+        0,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2
+      ],
+      "before": [
+        {
+          "name": "Paper Moon NPC",
+          "rank": ""
+        },
+        {
+          "name": "Normal",
+          "rank": ""
+        }
+      ],
+      "after": [
+        {
+          "name": "The Third Eye",
+          "rank": "EX"
+        }
+      ]
+    }
+  ],
+  "394": [
+    {
+      "path": [
+        "active_skills",
+        2
+      ],
+      "before": [
+        {
+          "name": "Stage 3",
+          "rank": ""
+        },
+        {
+          "name": "Stage 1-2",
+          "rank": ""
+        }
+      ],
+      "after": [
+        {
+          "name": "Contact with Wisdom",
+          "rank": "EX"
+        }
+      ]
+    }
+  ],
+  "413": [
+    {
+      "path": [
+        "active_skills"
+      ],
+      "before": [],
+      "after": [
+        [
+          {
+            "name": "Magic Bullet Charging",
+            "rank": "B"
+          }
+        ],
+        [
+          {
+            "name": "Magic Circuits (Rotation)",
+            "rank": "A"
+          }
+        ],
+        [
+          {
+            "name": "Back to Those Days, Once More",
+            "rank": "EX"
+          }
+        ]
+      ]
+    }
+  ],
+  "420": [
+    {
+      "path": [
+        "active_skill_resources",
+        6,
+        "resources",
+        0,
+        "piece"
+      ],
+      "before": 1,
+      "after": 12
+    },
+    {
+      "path": [
+        "active_skill_resources",
+        7,
+        "resources",
+        0,
+        "piece"
+      ],
+      "before": 1,
+      "after": 12
+    }
+  ],
+  "427": [
+    {
+      "path": [
+        "active_skills",
+        1,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "EX"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "432": [
+    {
+      "path": [
+        "active_skills",
+        2,
+        0
+      ],
+      "before": {
+        "name": "Excalibur (Active Skill)|D~A+",
+        "rank": ""
+      },
+      "after": {
+        "name": "Excalibur",
+        "rank": "D~A+"
+      }
+    }
+  ]
+}

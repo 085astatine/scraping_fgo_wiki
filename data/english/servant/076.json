@@ -1,0 +1,385 @@
+{
+  "id": 76,
+  "name": "Mordred",
+  "false_name": null,
+  "klass": "Saber",
+  "rarity": 5,
+  "active_skills": [
+    [
+      {
+        "name": "Mana Burst",
+        "rank": "A"
+      },
+      {
+        "name": "Knight of Crimson Thunder",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Instinct",
+        "rank": "B"
+      },
+      {
+        "name": "Cigarette Lion",
+        "rank": "B+"
+      }
+    ],
+    [
+      {
+        "name": "Secret of Pedigree",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Saber Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Memories of Trifas",
+      "text_jp": "どこかの戦場で着ていたお気に入りの服\n誰かが買ってくれたような憶えがある",
+      "text_en": "A favorite outfit worn on a certain battlefield.\nSome memory lingers of the one who bought it.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Unlucky Bone",
+            "piece": 10
+          },
+          {
+            "name": "Dragon Fang",
+            "piece": 10
+          },
+          {
+            "name": "Bloodstone Tear",
+            "piece": 5
+          },
+          {
+            "name": "Dragon's Reverse Scale",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Red Saber",
+      "text_jp": "モードレッドの眼鏡\n赤いフレームがチャームポイント",
+      "text_en": "Mordred's glasses. The red frames really help them stand out.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Unlucky Bone",
+            "piece": 5
+          },
+          {
+            "name": "Medal of Great Knight",
+            "piece": 5
+          },
+          {
+            "name": "Primordial Lanugo",
+            "piece": 5
+          },
+          {
+            "name": "Scarab of Wisdom",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "resources": [
+        {
+          "name": "Saber Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Dragon Fang",
+          "piece": 18
+        },
+        {
+          "name": "Saber Piece",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 2
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 10
+        },
+        {
+          "name": "Saber Monument",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "resources": [
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 4
+        },
+        {
+          "name": "Saber Monument",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Dragon Fang",
+          "piece": 24
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 11
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Medal of Great Knight",
+          "piece": 20
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Aurora Steel",
+          "piece": 18
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

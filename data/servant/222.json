@@ -1,7 +1,8 @@
 {
   "id": 222,
   "name": "謎のヒロインXX",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Foreigner",
   "rarity": 4,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 249,
   "name": "アスクレピオス",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 3,
   "skills": [

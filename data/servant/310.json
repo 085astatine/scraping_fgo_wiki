@@ -1,7 +1,13 @@
 {
   "id": 310,
-  "name": "バーゲスト",
-  "alias_name": "妖精騎士ガウェイン",
+  "name": "妖精騎士ガウェイン",
+  "false_name": null,
+  "ascension_names": [
+    "妖精騎士ガウェイン",
+    "バーゲスト",
+    "バーゲスト",
+    "バーゲスト"
+  ],
   "klass": "Saber",
   "rarity": 4,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 170,
   "name": "武則天",
-  "alias_name": "不夜城のアサシン",
+  "false_name": "不夜城のアサシン",
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 4,
   "skills": [

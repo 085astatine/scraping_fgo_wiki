@@ -1,7 +1,8 @@
 {
   "id": 185,
   "name": "望月千代女",
-  "alias_name": "アサシン・パライソ",
+  "false_name": "アサシン・パライソ",
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 4,
   "skills": [
@@ -17,7 +18,7 @@
         "slot": 1,
         "level": 2,
         "name": "呪術(巫)",
-        "rank": "C+",
+        "rank": "C++",
         "icon": 512
       }
     ],

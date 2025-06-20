@@ -1,0 +1,328 @@
+{
+  "id": 45,
+  "name": "Mata Hari",
+  "false_name": null,
+  "klass": "Assassin",
+  "rarity": 1,
+  "active_skills": [
+    [
+      {
+        "name": "Espionage",
+        "rank": "A++"
+      },
+      {
+        "name": "The Sun Falls on Vincennes",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Pheromone",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Double Cross",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Assassin Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 4
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 2
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 4
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 4
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 4
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 2
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 2
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 6
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 2
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 4
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 8
+        },
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 18
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

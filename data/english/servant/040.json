@@ -1,0 +1,328 @@
+{
+  "id": 40,
+  "name": "Hassan of the Cursed Arm",
+  "false_name": null,
+  "klass": "Assassin",
+  "rarity": 2,
+  "active_skills": [
+    [
+      {
+        "name": "Throwing (Dagger)",
+        "rank": "B"
+      },
+      {
+        "name": "Throwing/Retrieval",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Self-Modification",
+        "rank": "C"
+      }
+    ],
+    [
+      {
+        "name": "Protection from Wind",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Lancer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 15000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 45000,
+      "resources": [
+        {
+          "name": "Assassin Piece",
+          "piece": 6
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 11
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 3
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "Assassin Monument",
+          "piece": 6
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 6
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 6
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 3
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 6
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Ghost Lantern",
+          "piece": 3
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Ghost Lantern",
+          "piece": 9
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 6
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 3
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 6
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 2
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 27
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 36
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

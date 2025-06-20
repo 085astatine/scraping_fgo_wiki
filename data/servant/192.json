@@ -1,7 +1,8 @@
 {
   "id": 192,
   "name": "キルケー",
-  "alias_name": "オケアノスのキャスター",
+  "false_name": "オケアノスのキャスター",
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 4,
   "skills": [

@@ -1,7 +1,8 @@
 {
   "id": 380,
   "name": "果心居士",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 5,
   "skills": [

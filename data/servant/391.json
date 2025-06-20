@@ -1,7 +1,13 @@
 {
   "id": 391,
-  "name": "UDK-バーゲスト",
-  "alias_name": null,
+  "name": "ＵＤＫ－バーゲスト",
+  "false_name": null,
+  "ascension_names": [
+    "ＵＤＫ－バーゲスト",
+    "バーゲスト",
+    "妖精騎士バーゲスト",
+    "ＵＤＫ－バーゲスト"
+  ],
   "klass": "Archer",
   "rarity": 4,
   "skills": [

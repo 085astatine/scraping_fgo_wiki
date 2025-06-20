@@ -1,7 +1,13 @@
 {
   "id": 312,
-  "name": "メリュジーヌ",
-  "alias_name": "妖精騎士ランスロット",
+  "name": "妖精騎士ランスロット",
+  "false_name": null,
+  "ascension_names": [
+    "妖精騎士ランスロット",
+    "メリュジーヌ",
+    "メリュジーヌ",
+    "メリュジーヌ"
+  ],
   "klass": "Lancer",
   "rarity": 5,
   "skills": [

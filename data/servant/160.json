@@ -1,7 +1,8 @@
 {
   "id": 160,
   "name": "アーサー・ペンドラゴン〔プロトタイプ〕",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Saber",
   "rarity": 5,
   "skills": [

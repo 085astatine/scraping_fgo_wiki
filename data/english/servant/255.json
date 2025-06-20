@@ -1,0 +1,324 @@
+{
+  "id": 255,
+  "name": "Paris",
+  "false_name": null,
+  "klass": "Archer",
+  "rarity": 2,
+  "active_skills": [
+    [
+      {
+        "name": "Eyes of Apollo (False)",
+        "rank": "B+"
+      }
+    ],
+    [
+      {
+        "name": "Affection of Male God",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Dystychía Milo",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Rider Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 15000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 45000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 6
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 3
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 12
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 450000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 6
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 3
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 3
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 6
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 3
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 6
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 6
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Primordial Lanugo",
+          "piece": 6
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 40000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 120000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 160000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 6
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 3
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 6
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 9
+        },
+        {
+          "name": "Tiny Bell of Amnesty",
+          "piece": 36
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

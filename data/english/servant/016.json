@@ -1,0 +1,324 @@
+{
+  "id": 16,
+  "name": "Arash",
+  "false_name": null,
+  "klass": "Archer",
+  "rarity": 1,
+  "active_skills": [
+    [
+      {
+        "name": "Robust Health",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Clairvoyance",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Bow and Arrow Creation",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Rider Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Archer Piece",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 2
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Archer Monument",
+          "piece": 4
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 8
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 2
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 4
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 6
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 16
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Bows",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 2
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Bows",
+          "piece": 4
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 2
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 4
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

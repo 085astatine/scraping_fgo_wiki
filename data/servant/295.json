@@ -1,7 +1,8 @@
 {
   "id": 295,
   "name": "ヴァン・ゴッホ",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Foreigner",
   "rarity": 5,
   "skills": [

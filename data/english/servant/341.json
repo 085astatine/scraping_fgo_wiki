@@ -1,0 +1,324 @@
+{
+  "id": 341,
+  "name": "Mary Anning",
+  "false_name": null,
+  "klass": "Lancer",
+  "rarity": 1,
+  "active_skills": [
+    [
+      {
+        "name": "Charisma of Sea Lilies",
+        "rank": "C"
+      }
+    ],
+    [
+      {
+        "name": "Fossil Lady's Great Discovery",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Business Sense",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Alter Ego Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 30000,
+      "resources": [
+        {
+          "name": "Lancer Piece",
+          "piece": 4
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 90000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 2
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 3
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "resources": [
+        {
+          "name": "Lancer Monument",
+          "piece": 4
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 4
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 2
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 2
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Dragon Fang",
+          "piece": 8
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 6
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 10000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 20000,
+      "resources": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 60000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 80000,
+      "resources": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 2
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 250000,
+      "resources": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "resources": [
+        {
+          "name": "Bloodstone Tear",
+          "piece": 2
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "resources": [
+        {
+          "name": "Genesis Egg",
+          "piece": 3
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

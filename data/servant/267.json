@@ -1,7 +1,13 @@
 {
   "id": 267,
   "name": "沖田総司",
-  "alias_name": "オキタ・Ｊ・ソウジ",
+  "false_name": null,
+  "ascension_names": [
+    "オキタ・Ｊ・ソウジ",
+    "オキタ・Ｊ・ソウジ",
+    "沖田総司",
+    "沖田総司"
+  ],
   "klass": "Assassin",
   "rarity": 4,
   "skills": [
@@ -27,7 +33,7 @@
       {
         "slot": 3,
         "level": 1,
-        "name": "M・DRIVE",
+        "name": "Ｍ・ＤＲＩＶＥ",
         "rank": "EX",
         "icon": 304
       },

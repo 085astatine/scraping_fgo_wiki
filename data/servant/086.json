@@ -1,7 +1,8 @@
 {
   "id": 86,
   "name": "謎のヒロインX",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Assassin",
   "rarity": 5,
   "skills": [

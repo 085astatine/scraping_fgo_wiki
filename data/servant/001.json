@@ -1,7 +1,8 @@
 {
   "id": 1,
   "name": "マシュ・キリエライト",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Shielder",
   "rarity": 3,
   "skills": [
@@ -157,6 +158,14 @@
     {
       "id": 63,
       "name": "Bright Voyager",
+      "resource": {
+        "qp": 0,
+        "resources": []
+      }
+    },
+    {
+      "id": 123,
+      "name": "パラディーン",
       "resource": {
         "qp": 0,
         "resources": []

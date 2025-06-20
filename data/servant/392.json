@@ -1,7 +1,13 @@
 {
   "id": 392,
   "name": "ケット・クー・ミコケル",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "ケット・クー・ミコケル",
+    "バーヴァン・シー",
+    "妖精騎士トリスタン",
+    "バーヴァン・シー"
+  ],
   "klass": "Pretender",
   "rarity": 4,
   "skills": [

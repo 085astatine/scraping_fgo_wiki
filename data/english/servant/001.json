@@ -1,0 +1,337 @@
+{
+  "id": 1,
+  "name": "Mashu Kyrielight",
+  "false_name": null,
+  "klass": "Shielder",
+  "rarity": 3,
+  "active_skills": [
+    [
+      {
+        "name": "Transient Wall of Snowflakes",
+        "rank": ""
+      },
+      {
+        "name": "Exalted Impervious Wall of Snowflakes",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Obscurant Wall of Chalk",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Shield of Rousing Resolution",
+        "rank": ""
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Extra Class Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [
+    {
+      "name": "Ortenaus",
+      "text_jp": "ダ・ヴィンチが改良した霊基外骨骼。\nアーマードとも呼ばれる",
+      "text_en": "A Spirit Origin exoskeleton modified by Da Vinci. Also referred to as just \"Armored.\"",
+      "resources": {
+        "qp": 0,
+        "resources": []
+      }
+    },
+    {
+      "name": "Ortenaus (Refurbished)",
+      "text_jp": "シオンの協力により、アトラス院の技術\nが組み込まれた霊基外骨骼",
+      "text_en": "A Spirit Origin exoskeleton that incorporates technology from the Atlas Institute, thanks to Sion's help.",
+      "resources": {
+        "qp": 0,
+        "resources": []
+      }
+    },
+    {
+      "name": "Swimsuit of Perpetual Summer",
+      "text_jp": "カルデアのみんなに選んでもらった\n初めての水着。2016年の思い出",
+      "text_en": "The first swimsuit chosen by everyone at Chaldea. A reminder of 2018.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Seashell of Reminiscence",
+            "piece": 5
+          },
+          {
+            "name": "Octuplet Crystals",
+            "piece": 5
+          },
+          {
+            "name": "Medal of Great Knight",
+            "piece": 5
+          },
+          {
+            "name": "Phoenix Plume",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swimsuit of Perpetual Summer Ver.02",
+      "text_jp": "マシュの新しい水着。今年は自分で可愛\nいと思ったものを選んだとのこと",
+      "text_en": "Mash's new swimsuit. This year she chose one she thought was cute.",
+      "resources": {
+        "qp": 3000000,
+        "resources": [
+          {
+            "name": "Seashell of Reminiscence",
+            "piece": 5
+          },
+          {
+            "name": "Medal of Great Knight",
+            "piece": 5
+          },
+          {
+            "name": "Permafrost Ice Crystal",
+            "piece": 5
+          },
+          {
+            "name": "Aurora Steel",
+            "piece": 5
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bright Voyager",
+      "text_jp": "「旅」をテーマにしたダンス衣装\nアクティブ＆キュートなデザイン",
+      "text_en": "A travel-themed dance outfit. It's designed to be both cute and functional for an active wearer.",
+      "resources": {
+        "qp": 0,
+        "resources": []
+      }
+    },
+    {
+      "name": "Paladin",
+      "text_jp": "自ら選び、導き出した新たなマシュ\nカルデアが保障する未来を示す盾と剣",
+      "text_en": "",
+      "resources": {
+        "qp": 0,
+        "resources": []
+      }
+    }
+  ],
+  "ascension_resources": [
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    },
+    {
+      "qp": 0,
+      "resources": []
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Hero's Proof",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Dragon Fang",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Void's Refuse",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "resources": [
+        {
+          "name": "Hero's Proof",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "resources": [
+        {
+          "name": "Dragon Fang",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "resources": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "resources": [
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "resources": [
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "resources": [
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "resources": [
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "resources": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "resources": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "id": 169,
   "name": "シェヘラザード",
-  "alias_name": "不夜城のキャスター",
+  "false_name": "不夜城のキャスター",
+  "ascension_names": null,
   "klass": "Caster",
   "rarity": 5,
   "skills": [

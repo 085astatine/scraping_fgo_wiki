@@ -1,7 +1,8 @@
 {
   "id": 73,
   "name": "アルトリア・ペンドラゴン〔サンタオルタ〕",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": null,
   "klass": "Rider",
   "rarity": 4,
   "skills": [
@@ -10,7 +11,7 @@
         "slot": 1,
         "level": 1,
         "name": "聖者の贈り物",
-        "rank": "C+",
+        "rank": "EX",
         "icon": 600
       }
     ],

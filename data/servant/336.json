@@ -1,7 +1,13 @@
 {
   "id": 336,
   "name": "マナナン・マク・リール〔バゼット〕",
-  "alias_name": null,
+  "false_name": null,
+  "ascension_names": [
+    "バゼット・フラガ・マクレミッツ",
+    "バゼット・フラガ・マクレミッツ",
+    "マナナン・マク・リール",
+    "マナナン・マク・リール"
+  ],
   "klass": "AlterEgo",
   "rarity": 5,
   "skills": [
