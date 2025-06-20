@@ -792,7 +792,7 @@ def to_costumes(
                 name=name.get(index, ""),
                 text_jp=text_jp.get(index, ""),
                 text_en=text_en.get(index, ""),
-                resources=lib.Resource(
+                resource=lib.Resource(
                     qp=qp.get(index, 0),
                     items=items.get(index, []),
                 ),

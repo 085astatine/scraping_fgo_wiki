@@ -5,6 +5,7 @@ from typing import Optional, TypedDict
 from ..types import Resource, ServantID
 
 
+# pylint: disable=duplicate-code
 class Skill(TypedDict):
     name: str
     rank: str
@@ -14,7 +15,7 @@ class Costume(TypedDict):
     name: str
     text_jp: str
     text_en: str
-    resources: Resource
+    resource: Resource
 
 
 class Servant(TypedDict):
