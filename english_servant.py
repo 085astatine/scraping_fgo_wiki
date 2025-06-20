@@ -550,7 +550,7 @@ def parse_ascension_table(
     source: str,
     stars: int,
     logger: lib.ServantLogger,
-) -> tuple[list[lib.ResourceSet], list[lib.english.Costume]]:
+) -> tuple[list[lib.Resource], list[lib.english.Costume]]:
     logger.debug("ascension & costume")
     section = parse_section(source, "Ascension")
     if section is None:
@@ -567,7 +567,7 @@ def parse_active_skill_resources(
     source: str,
     stars: int,
     logger: lib.ServantLogger,
-) -> list[lib.ResourceSet]:
+) -> list[lib.Resource]:
     logger.debug("active skill resources")
     section = parse_section(source, "Skill Reinforcement")
     if section is None:
@@ -593,7 +593,7 @@ def parse_append_skill_resources(
     source: str,
     stars: int,
     logger: lib.ServantLogger,
-) -> list[lib.ResourceSet]:
+) -> list[lib.Resource]:
     logger.debug("append skill resources")
     section = parse_section(source, "Skill Reinforcement")
     if section is None:
@@ -719,17 +719,15 @@ def parse_resource_table_row(row: str) -> Optional[ItemsRow | QPRow | TextRow]:
 def to_ascension_resources(
     rows: list[ResourceTableRow],
     stars: int,
-) -> list[lib.ResourceSet]:
-    resources = [lib.ResourceSet(qp=0, resources=[]) for _ in range(4)]
+) -> list[lib.Resource]:
+    resources = [lib.Resource(qp=0, resources=[]) for _ in range(4)]
     for row in rows:
         index = row.index - 1
         if not 0 <= index <= 3:
             continue
         match row:
             case ItemsRow(item=item, piece=piece):
-                resources[index]["resources"].append(
-                    lib.Resource(name=item, piece=piece)
-                )
+                resources[index]["resources"].append(lib.Items(name=item, piece=piece))
     # set QP
     for i, qp in enumerate(ascension_qp(stars)):
         if resources[i]["resources"] and resources[i]["qp"] == 0:
@@ -740,17 +738,15 @@ def to_ascension_resources(
 def to_skill_resources(
     rows: list[ResourceTableRow],
     stars: int,
-) -> list[lib.ResourceSet]:
-    resources = [lib.ResourceSet(qp=0, resources=[]) for _ in range(9)]
+) -> list[lib.Resource]:
+    resources = [lib.Resource(qp=0, resources=[]) for _ in range(9)]
     for row in rows:
         index = row.index - 1
         if not 0 <= index <= 8:
             continue
         match row:
             case ItemsRow(item=item, piece=piece):
-                resources[index]["resources"].append(
-                    lib.Resource(name=item, piece=piece)
-                )
+                resources[index]["resources"].append(lib.Items(name=item, piece=piece))
     # set QP
     for i, qp in enumerate(skill_reinforcement_qp(stars)):
         if resources[i]["resources"] and resources[i]["qp"] == 0:
@@ -765,7 +761,7 @@ def to_costumes(
     name: dict[int, str] = {}
     text_en: dict[int, str] = {}
     text_jp: dict[int, str] = {}
-    resources: dict[int, list[lib.Resource]] = {}
+    items: dict[int, list[lib.Items]] = {}
     qp: dict[int, int] = {}
     for row in rows:
         if row.index <= 4:
@@ -773,8 +769,8 @@ def to_costumes(
         indexes.add(row.index)
         match row:
             case ItemsRow(item=item, piece=piece):
-                resources.setdefault(row.index, []).append(
-                    lib.Resource(name=item, piece=piece)
+                items.setdefault(row.index, []).append(
+                    lib.Items(name=item, piece=piece)
                 )
             case QPRow(value=value):
                 qp[row.index] = value
@@ -796,9 +792,9 @@ def to_costumes(
                 name=name.get(index, ""),
                 text_jp=text_jp.get(index, ""),
                 text_en=text_en.get(index, ""),
-                resources=lib.ResourceSet(
+                resources=lib.Resource(
                     qp=qp.get(index, 0),
-                    resources=resources.get(index, []),
+                    resources=items.get(index, []),
                 ),
             )
         )

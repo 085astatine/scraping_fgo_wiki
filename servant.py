@@ -464,8 +464,8 @@ def parse_skill_icon(
 def parse_ascension_resources(
     root: lxml.html.HtmlElement,
     logger: lib.ServantLogger,
-) -> list[lib.ResourceSet]:
-    parser = ResourceSetParser(mode="ascension", logger=logger)
+) -> list[lib.Resource]:
+    parser = ResourceParser(mode="ascension", logger=logger)
     for cell in root.xpath(
         '//div[@id="wikibody"]'
         '//h3[normalize-space()="霊基再臨"]'
@@ -478,8 +478,8 @@ def parse_ascension_resources(
 def parse_skill_resources(
     root: lxml.html.HtmlElement,
     logger: lib.ServantLogger,
-) -> list[lib.ResourceSet]:
-    parser = ResourceSetParser(mode="skill", logger=logger)
+) -> list[lib.Resource]:
+    parser = ResourceParser(mode="skill", logger=logger)
     for cell in root.xpath(
         '//div[@id="wikibody"]'
         '//h3[normalize-space()="スキル強化"]'
@@ -492,8 +492,8 @@ def parse_skill_resources(
 def parse_append_skill_resources(
     root: lxml.html.HtmlElement,
     logger: lib.ServantLogger,
-) -> list[lib.ResourceSet]:
-    parser = ResourceSetParser(mode="skill", logger=logger)
+) -> list[lib.Resource]:
+    parser = ResourceParser(mode="skill", logger=logger)
     for cell in root.xpath(
         '//div[@id="wikibody"]'
         '//h3[normalize-space()="アペンドスキル強化"]'
@@ -503,7 +503,7 @@ def parse_append_skill_resources(
     return parser.result()
 
 
-class ResourceSetParser:
+class ResourceParser:
     def __init__(
         self,
         mode: Literal["ascension", "skill"],
@@ -511,9 +511,9 @@ class ResourceSetParser:
     ) -> None:
         self._mode = mode
         self._logger = logger
-        self._result: list[lib.ResourceSet] = []
+        self._result: list[lib.Resource] = []
         self._level: Optional[int] = None
-        self._resources: list[lib.Resource] = []
+        self._items: list[lib.Items] = []
 
     def push(self, cell: lxml.html.HtmlElement):
         text = cell.text_content().strip()
@@ -522,18 +522,18 @@ class ResourceSetParser:
         # level
         if self._parse_level(text):
             return
-        # resource
+        # items
         if self._level is not None:
-            self._resources.extend(parse_resource(text, self._logger))
+            self._items.extend(parse_items(text, self._logger))
 
-    def result(self) -> list[lib.ResourceSet]:
+    def result(self) -> list[lib.Resource]:
         if self._level is not None:
             self._pack()
         return self._result
 
     def _pack(self) -> None:
-        self._result.append(to_resource_set(self._resources))
-        self._resources = []
+        self._result.append(to_resource(self._items))
+        self._items = []
 
     def _parse_level(self, text) -> bool:
         level: Optional[int] = None
@@ -552,30 +552,30 @@ class ResourceSetParser:
         return False
 
 
-def to_resource_set(resources: list[lib.Resource]) -> lib.ResourceSet:
-    result = lib.ResourceSet(qp=0, resources=[])
-    for resource in resources:
-        if resource["name"] == "QP":
-            result["qp"] += resource["piece"]
+def to_resource(items: list[lib.Items]) -> lib.Resource:
+    result = lib.Resource(qp=0, resources=[])
+    for item in items:
+        if item["name"] == "QP":
+            result["qp"] += item["piece"]
         else:
-            result["resources"].append(resource)
+            result["resources"].append(item)
     return result
 
 
-def parse_resource(
+def parse_items(
     text: str,
     logger: lib.ServantLogger,
-) -> list[lib.Resource]:
-    result: list[lib.Resource] = []
+) -> list[lib.Items]:
+    result: list[lib.Items] = []
     regexp = re.compile(r"(?P<item>.+),x?(?P<piece>[0-9万]+)")
     match = regexp.search(text)
     while match:
-        resource = lib.Resource(
+        items = lib.Items(
             name=match.group("item"),
             piece=int(match.group("piece").replace("万", "0000")),
         )
-        logger.debug("resource %s x %d", resource["name"], resource["piece"])
-        result.append(resource)
+        logger.debug("items %s x %d", items["name"], items["piece"])
+        result.append(items)
         text = regexp.sub("", text, count=1)
         match = regexp.search(text)
     return result

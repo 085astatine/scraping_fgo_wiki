@@ -7,7 +7,7 @@ from typing import Optional, TypedDict
 import lxml.html
 import requests
 
-from .types import Resource, ResourceSet
+from .types import Items, Resource
 
 _logger = logging.getLogger(__name__)
 
@@ -16,7 +16,7 @@ class Sound(TypedDict):
     source: str
     index: int
     title: str
-    resource: ResourceSet
+    resource: Resource
 
 
 def sound_list() -> list[Sound]:
@@ -57,8 +57,8 @@ def _parse_sound(
     )
 
 
-def _parse_resource(cell: lxml.html.HtmlElement) -> ResourceSet:
-    resources: list[Resource] = []
+def _parse_resource(cell: lxml.html.HtmlElement) -> Resource:
+    items: list[Items] = []
     img = cell.xpath("span/a/img")
     if img:
         item = img[0].get("alt").strip()
@@ -67,7 +67,7 @@ def _parse_resource(cell: lxml.html.HtmlElement) -> ResourceSet:
             _logger.error("piece match failed %s", cell.text_content())
         piece = int(piece_match.group()) if piece_match is not None else -1
         _logger.debug("resource: %s x %d", item, piece)
-        resources.append(Resource(name=item, piece=piece))
+        items.append(Items(name=item, piece=piece))
     else:
         _logger.debug("resource: none")
-    return ResourceSet(qp=0, resources=resources)
+    return Resource(qp=0, resources=items)

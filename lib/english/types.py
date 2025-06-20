@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Optional, TypedDict
 
-from ..types import ResourceSet, ServantID
+from ..types import Resource, ServantID
 
 
 class Skill(TypedDict):
@@ -14,7 +14,7 @@ class Costume(TypedDict):
     name: str
     text_jp: str
     text_en: str
-    resources: ResourceSet
+    resources: Resource
 
 
 class Servant(TypedDict):
@@ -26,9 +26,9 @@ class Servant(TypedDict):
     active_skills: list[list[Skill]]
     append_skills: list[list[Skill]]
     costumes: list[Costume]
-    ascension_resources: list[ResourceSet]
-    active_skill_resources: list[ResourceSet]
-    append_skill_resources: list[ResourceSet]
+    ascension_resources: list[Resource]
+    active_skill_resources: list[Resource]
+    append_skill_resources: list[Resource]
 
 
 class ServantLink(TypedDict):
