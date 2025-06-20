@@ -2415,7 +2415,7 @@
       "path": [
         "active_skill_resources",
         6,
-        "resources",
+        "items",
         0,
         "piece"
       ],
@@ -2426,7 +2426,7 @@
       "path": [
         "active_skill_resources",
         7,
-        "resources",
+        "items",
         0,
         "piece"
       ],

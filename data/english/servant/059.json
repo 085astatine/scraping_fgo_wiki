@@ -69,9 +69,9 @@
       "name": "Prove",
       "text_jp": "救国の聖女のダンス衣装\nゴージャスかつ清楚な純白のドレス",
       "text_en": "A dance outfit worn by the holy maiden who saved a nation. This pure white dress is both lavish and chaste.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Homunculus Baby",
             "piece": 5
@@ -95,7 +95,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Saber Piece",
           "piece": 5
@@ -112,7 +112,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Piece",
           "piece": 5
@@ -133,7 +133,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Saber Monument",
           "piece": 5
@@ -150,7 +150,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Monument",
           "piece": 5
@@ -173,7 +173,7 @@
   "active_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Swords",
           "piece": 5
@@ -190,7 +190,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 5
@@ -211,7 +211,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Swords",
           "piece": 5
@@ -228,7 +228,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 5
@@ -249,7 +249,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Swords",
           "piece": 5
@@ -266,7 +266,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 5
@@ -287,7 +287,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Heart of a Foreign God",
           "piece": 5
@@ -296,7 +296,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Heart of a Foreign God",
           "piece": 15
@@ -305,7 +305,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -316,7 +316,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Swords",
           "piece": 5
@@ -333,7 +333,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 5
@@ -354,7 +354,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Swords",
           "piece": 5
@@ -371,7 +371,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 5
@@ -392,7 +392,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Swords",
           "piece": 5
@@ -409,7 +409,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 5
@@ -430,7 +430,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Spirit Root",
           "piece": 5
@@ -439,7 +439,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Spirit Root",
           "piece": 15
@@ -448,7 +448,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

@@ -65,9 +65,9 @@
       "name": "Chicken of Luluhawa",
       "text_jp": "ベディヴィエールが買ってくれたアロハ\n皆で遊ぶためにゴーグルは常時複数携帯",
       "text_en": "",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Arrowhead of Maledictions",
             "piece": 5
@@ -91,7 +91,7 @@
   "ascension_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Archer Piece",
           "piece": 4
@@ -100,7 +100,7 @@
     },
     {
       "qp": 150000,
-      "resources": [
+      "items": [
         {
           "name": "Archer Piece",
           "piece": 10
@@ -113,7 +113,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Archer Monument",
           "piece": 4
@@ -130,7 +130,7 @@
     },
     {
       "qp": 1500000,
-      "resources": [
+      "items": [
         {
           "name": "Archer Monument",
           "piece": 10
@@ -149,7 +149,7 @@
   "active_skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 4
@@ -158,7 +158,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 10
@@ -167,7 +167,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 4
@@ -176,7 +176,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 10
@@ -189,7 +189,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 4
@@ -202,7 +202,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 10
@@ -215,7 +215,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Medal of Great Knight",
           "piece": 16
@@ -228,7 +228,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "Ghost Lantern",
           "piece": 15
@@ -241,7 +241,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -252,7 +252,7 @@
   "append_skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 4
@@ -261,7 +261,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 10
@@ -270,7 +270,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 4
@@ -279,7 +279,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 10
@@ -292,7 +292,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 4
@@ -305,7 +305,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 10
@@ -318,7 +318,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Bloodstone Tear",
           "piece": 5
@@ -331,7 +331,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "Night-Weeping Iron Stake",
           "piece": 45
@@ -344,7 +344,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

@@ -65,9 +65,9 @@
       "name": "Reading Glasses",
       "text_jp": "メドゥーサの丸眼鏡\nなぜかとても馴染む、とは本人の弁",
       "text_en": "Medusa's round glasses. She insists there's something about them that just feels right.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Night-Weeping Iron Stake",
             "piece": 10
@@ -91,7 +91,7 @@
   "ascension_resources": [
     {
       "qp": 30000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Piece",
           "piece": 4
@@ -100,7 +100,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Piece",
           "piece": 8
@@ -113,7 +113,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Monument",
           "piece": 4
@@ -130,7 +130,7 @@
     },
     {
       "qp": 900000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Monument",
           "piece": 8
@@ -149,7 +149,7 @@
   "active_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 4
@@ -158,7 +158,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 8
@@ -167,7 +167,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 4
@@ -176,7 +176,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 8
@@ -189,7 +189,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 4
@@ -202,7 +202,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 8
@@ -215,7 +215,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Snake Jewel",
           "piece": 6
@@ -228,7 +228,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Heart of a Foreign God",
           "piece": 5
@@ -241,7 +241,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -252,7 +252,7 @@
   "append_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 4
@@ -261,7 +261,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 8
@@ -270,7 +270,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 4
@@ -279,7 +279,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 8
@@ -292,7 +292,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 4
@@ -305,7 +305,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 8
@@ -318,7 +318,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Lamp of Demon Sealing",
           "piece": 4
@@ -331,7 +331,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Tsukumo Mirror",
           "piece": 5
@@ -344,7 +344,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

@@ -69,9 +69,9 @@
       "name": "Burning Garment of Three Gods",
       "text_jp": "シヴァ神とヴィシュヌ神の力を得た姿\n別名のスーパーカルナは自称である",
       "text_en": "A form that has gained the powers of both Shiva and Vishnu. The nickname Super Karna is something he came up with himself.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Octuplet Crystals",
             "piece": 5
@@ -95,9 +95,9 @@
       "name": "Iridescence Shining at the End",
       "text_jp": "施しの英雄がなぜか持参したサングラス\nダークでファイナルでゴッド",
       "text_en": "Sunglasses the Hero of Benefaction was carrying around in secret, for some reason. Dark. Divine. Definitive.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Hero's Proof",
             "piece": 10
@@ -121,9 +121,9 @@
       "name": "Karna's Summer Outfit",
       "text_jp": "真の英雄の夏コーデ\n太陽神の加護でUV対策はバッチリ",
       "text_en": "",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Hero's Proof",
             "piece": 10
@@ -147,7 +147,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Lancer Piece",
           "piece": 5
@@ -156,7 +156,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Lancer Piece",
           "piece": 12
@@ -169,7 +169,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Lancer Monument",
           "piece": 5
@@ -186,7 +186,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Lancer Monument",
           "piece": 12
@@ -205,7 +205,7 @@
   "active_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Lances",
           "piece": 5
@@ -214,7 +214,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Lances",
           "piece": 12
@@ -223,7 +223,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Lances",
           "piece": 5
@@ -232,7 +232,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Lances",
           "piece": 12
@@ -245,7 +245,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Lances",
           "piece": 5
@@ -258,7 +258,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Lances",
           "piece": 12
@@ -271,7 +271,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Octuplet Crystals",
           "piece": 10
@@ -284,7 +284,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Hero's Proof",
           "piece": 54
@@ -297,7 +297,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -308,7 +308,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Lances",
           "piece": 5
@@ -317,7 +317,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Lances",
           "piece": 12
@@ -326,7 +326,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Lances",
           "piece": 5
@@ -335,7 +335,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Lances",
           "piece": 12
@@ -348,7 +348,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Lances",
           "piece": 5
@@ -361,7 +361,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Lances",
           "piece": 12
@@ -374,7 +374,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Black Tallow",
           "piece": 6
@@ -387,7 +387,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Dawnlight Reactor Core",
           "piece": 11
@@ -400,7 +400,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

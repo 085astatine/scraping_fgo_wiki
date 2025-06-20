@@ -64,7 +64,7 @@
   "ascension_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Golden Skull",
           "piece": 1
@@ -73,7 +73,7 @@
     },
     {
       "qp": 150000,
-      "resources": [
+      "items": [
         {
           "name": "Golden Skull",
           "piece": 1
@@ -82,7 +82,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Golden Skull",
           "piece": 1
@@ -91,7 +91,7 @@
     },
     {
       "qp": 1500000,
-      "resources": [
+      "items": [
         {
           "name": "Golden Skull",
           "piece": 1
@@ -102,7 +102,7 @@
   "active_skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 4
@@ -111,7 +111,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 10
@@ -120,7 +120,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 4
@@ -129,7 +129,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 10
@@ -142,7 +142,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 4
@@ -155,7 +155,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 10
@@ -168,7 +168,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Octuplet Crystals",
           "piece": 8
@@ -181,7 +181,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "Talon of Chaos",
           "piece": 9
@@ -194,7 +194,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -205,7 +205,7 @@
   "append_skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 4
@@ -214,7 +214,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 10
@@ -223,7 +223,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 4
@@ -232,7 +232,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 10
@@ -245,7 +245,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 4
@@ -258,7 +258,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 10
@@ -271,7 +271,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Lamp of Demon Sealing",
           "piece": 5
@@ -284,7 +284,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "Stimulus Gunpowder",
           "piece": 45
@@ -297,7 +297,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

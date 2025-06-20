@@ -73,9 +73,9 @@
       "name": "Alluring Chief Warden Look",
       "text_jp": "メイヴ大監獄を支配する者の衣装。\n赤い看守服が実に似合っている",
       "text_en": "A costume worn by the one who rules Medb Penitentiary. The red prison guard attire is quite fetching.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Chains of the Fool",
             "piece": 10
@@ -99,9 +99,9 @@
       "name": "Hero My Love: My Dearest Antagonist",
       "text_jp": "蜜の女王のダンス衣装\n某光の御子特効霊衣、らしい？",
       "text_en": "The queen of honey's dance outfit. This Spiritron Dress has a powerful effect on a certain Child of Light...probably?",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Chains of the Fool",
             "piece": 10
@@ -125,7 +125,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Piece",
           "piece": 5
@@ -134,7 +134,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Piece",
           "piece": 12
@@ -147,7 +147,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Monument",
           "piece": 5
@@ -164,7 +164,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Monument",
           "piece": 12
@@ -183,7 +183,7 @@
   "active_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 5
@@ -192,7 +192,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 12
@@ -201,7 +201,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 5
@@ -210,7 +210,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 12
@@ -223,7 +223,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 5
@@ -236,7 +236,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 12
@@ -249,7 +249,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Snake Jewel",
           "piece": 8
@@ -262,7 +262,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Ghost Lantern",
           "piece": 18
@@ -275,7 +275,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -286,7 +286,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 5
@@ -295,7 +295,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 12
@@ -304,7 +304,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 5
@@ -313,7 +313,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 12
@@ -326,7 +326,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 5
@@ -339,7 +339,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 12
@@ -352,7 +352,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Spirit Root",
           "piece": 4
@@ -365,7 +365,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Bizarre Godly Wine",
           "piece": 8
@@ -378,7 +378,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

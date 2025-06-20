@@ -65,9 +65,9 @@
       "name": "Camelot & Co",
       "text_jp": "謎のマーリン専用服飾ブランド\nそういう事する、と円卓騎士は語る",
       "text_en": "The mysterious Merlin's exclusive fashion line. The Knights of the Round Table question its necessity.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Hero's Proof",
             "piece": 10
@@ -91,9 +91,9 @@
       "name": "Camelot & Co Model Frame",
       "text_jp": "謎のマーリン専用服飾ブランドの新作\n黙っていればグランド素敵なお兄さん",
       "text_en": "The newest member of the mysterious Merlin-exclusive accessory brand. He'd be a pretty great guy if he'd just learn when to shut up.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Yggdrasil Seed",
             "piece": 10
@@ -117,7 +117,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Caster Piece",
           "piece": 5
@@ -126,7 +126,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Caster Piece",
           "piece": 12
@@ -139,7 +139,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Caster Monument",
           "piece": 5
@@ -156,7 +156,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Caster Monument",
           "piece": 12
@@ -175,7 +175,7 @@
   "active_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Spells",
           "piece": 5
@@ -184,7 +184,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Spells",
           "piece": 12
@@ -193,7 +193,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Spells",
           "piece": 5
@@ -202,7 +202,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Spells",
           "piece": 12
@@ -215,7 +215,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Spells",
           "piece": 5
@@ -228,7 +228,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Spells",
           "piece": 12
@@ -241,7 +241,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Infinity Gear",
           "piece": 10
@@ -254,7 +254,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Spirit Root",
           "piece": 8
@@ -267,7 +267,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -278,7 +278,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Spells",
           "piece": 5
@@ -287,7 +287,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Spells",
           "piece": 12
@@ -296,7 +296,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Spells",
           "piece": 5
@@ -305,7 +305,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Spells",
           "piece": 12
@@ -318,7 +318,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Spells",
           "piece": 5
@@ -331,7 +331,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Spells",
           "piece": 12
@@ -344,7 +344,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Dragon's Reverse Scale",
           "piece": 4
@@ -357,7 +357,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Scarab of Wisdom",
           "piece": 8
@@ -370,7 +370,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

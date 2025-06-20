@@ -64,7 +64,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Dragon Fang",
           "piece": 10
@@ -77,7 +77,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Phoenix Plume",
           "piece": 10
@@ -90,7 +90,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Primordial Lanugo",
           "piece": 10
@@ -103,7 +103,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Kotan Magatama",
           "piece": 10
@@ -118,7 +118,7 @@
   "active_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Unlucky Bone",
           "piece": 10
@@ -127,7 +127,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Void's Refuse",
           "piece": 10
@@ -136,7 +136,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Forbidden Page",
           "piece": 12
@@ -145,7 +145,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Octuplet Crystals",
           "piece": 12
@@ -154,7 +154,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Ghost Lantern",
           "piece": 12
@@ -163,7 +163,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Black Tallow",
           "piece": 15
@@ -172,7 +172,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Dragon's Reverse Scale",
           "piece": 15
@@ -181,7 +181,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Cursed Beast Cholecyst",
           "piece": 15
@@ -190,7 +190,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -201,7 +201,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Yggdrasil Seed",
           "piece": 10
@@ -210,7 +210,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Seashell of Reminiscence",
           "piece": 10
@@ -219,7 +219,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Homunculus Baby",
           "piece": 12
@@ -228,7 +228,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Spirit Root",
           "piece": 12
@@ -237,7 +237,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Permafrost Ice Crystal",
           "piece": 12
@@ -246,7 +246,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Kotan Magatama",
           "piece": 15
@@ -255,7 +255,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Tsukumo Mirror",
           "piece": 15
@@ -264,7 +264,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Comet Shard",
           "piece": 15
@@ -273,7 +273,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

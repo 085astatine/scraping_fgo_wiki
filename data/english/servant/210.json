@@ -65,9 +65,9 @@
       "name": "Yooo This Hakama Is Rad",
       "text_jp": "カルデアパレスにいた酔いどれ侍の衣装\n風流人もかくやの粋で洒脱な羽織袴",
       "text_en": "An outfit of a drunkard samurai who lives in Chaldea Palace.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Snake Jewel",
             "piece": 5
@@ -91,9 +91,9 @@
       "name": "\"I'm One Dapping Fella\" Suit",
       "text_jp": "ツケ払いで買うたイケちょるスーツ\n酒に博打に派手に遊びまわるぜよ！",
       "text_en": "An awesome dapper suit bought on credit.\nI can't wait to go drinking and gambling in this getup!",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Unlucky Bone",
             "piece": 10
@@ -117,7 +117,7 @@
   "ascension_resources": [
     {
       "qp": 30000,
-      "resources": [
+      "items": [
         {
           "name": "Assassin Piece",
           "piece": 4
@@ -126,7 +126,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Assassin Piece",
           "piece": 8
@@ -139,7 +139,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Assassin Monument",
           "piece": 4
@@ -156,7 +156,7 @@
     },
     {
       "qp": 900000,
-      "resources": [
+      "items": [
         {
           "name": "Assassin Monument",
           "piece": 8
@@ -175,7 +175,7 @@
   "active_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Killing",
           "piece": 4
@@ -184,7 +184,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Killing",
           "piece": 8
@@ -193,7 +193,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Killing",
           "piece": 4
@@ -202,7 +202,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Killing",
           "piece": 8
@@ -215,7 +215,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Killing",
           "piece": 4
@@ -228,7 +228,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Killing",
           "piece": 8
@@ -241,7 +241,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Unlucky Bone",
           "piece": 20
@@ -254,7 +254,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Night-Weeping Iron Stake",
           "piece": 36
@@ -267,7 +267,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -278,7 +278,7 @@
   "append_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Killing",
           "piece": 4
@@ -287,7 +287,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Killing",
           "piece": 8
@@ -296,7 +296,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Killing",
           "piece": 4
@@ -305,7 +305,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Killing",
           "piece": 8
@@ -318,7 +318,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Killing",
           "piece": 4
@@ -331,7 +331,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Killing",
           "piece": 8
@@ -344,7 +344,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Stimulus Gunpowder",
           "piece": 20
@@ -357,7 +357,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Bizarre Godly Wine",
           "piece": 5
@@ -370,7 +370,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
