@@ -142,7 +142,7 @@ def _convert_resource_set(
     return ResourceSet(
         qp=resource_set["qp"],
         resources=[
-            _convert_resource(resource, items) for resource in resource_set["resources"]
+            _convert_resource(resource, items) for resource in resource_set["items"]
         ],
     )
 

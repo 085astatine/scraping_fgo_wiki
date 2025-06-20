@@ -720,17 +720,17 @@ def to_ascension_resources(
     rows: list[ResourceTableRow],
     stars: int,
 ) -> list[lib.Resource]:
-    resources = [lib.Resource(qp=0, resources=[]) for _ in range(4)]
+    resources = [lib.Resource(qp=0, items=[]) for _ in range(4)]
     for row in rows:
         index = row.index - 1
         if not 0 <= index <= 3:
             continue
         match row:
             case ItemsRow(item=item, piece=piece):
-                resources[index]["resources"].append(lib.Items(name=item, piece=piece))
+                resources[index]["items"].append(lib.Items(name=item, piece=piece))
     # set QP
     for i, qp in enumerate(ascension_qp(stars)):
-        if resources[i]["resources"] and resources[i]["qp"] == 0:
+        if resources[i]["items"] and resources[i]["qp"] == 0:
             resources[i]["qp"] = qp
     return resources
 
@@ -739,17 +739,17 @@ def to_skill_resources(
     rows: list[ResourceTableRow],
     stars: int,
 ) -> list[lib.Resource]:
-    resources = [lib.Resource(qp=0, resources=[]) for _ in range(9)]
+    resources = [lib.Resource(qp=0, items=[]) for _ in range(9)]
     for row in rows:
         index = row.index - 1
         if not 0 <= index <= 8:
             continue
         match row:
             case ItemsRow(item=item, piece=piece):
-                resources[index]["resources"].append(lib.Items(name=item, piece=piece))
+                resources[index]["items"].append(lib.Items(name=item, piece=piece))
     # set QP
     for i, qp in enumerate(skill_reinforcement_qp(stars)):
-        if resources[i]["resources"] and resources[i]["qp"] == 0:
+        if resources[i]["items"] and resources[i]["qp"] == 0:
             resources[i]["qp"] = qp
     return resources
 
@@ -794,7 +794,7 @@ def to_costumes(
                 text_en=text_en.get(index, ""),
                 resources=lib.Resource(
                     qp=qp.get(index, 0),
-                    resources=items.get(index, []),
+                    items=items.get(index, []),
                 ),
             )
         )

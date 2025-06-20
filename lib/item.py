@@ -52,7 +52,7 @@ class ItemNameConverter:
     def resource(self, resource: Resource) -> Optional[ResourceByID]:
         ok = True
         result: list[ItemsByID] = []
-        for items in resource["resources"]:
+        for items in resource["items"]:
             value = self.items(items)
             if value is None:
                 ok = False

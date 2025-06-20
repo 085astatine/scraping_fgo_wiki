@@ -553,12 +553,12 @@ class ResourceParser:
 
 
 def to_resource(items: list[lib.Items]) -> lib.Resource:
-    result = lib.Resource(qp=0, resources=[])
+    result = lib.Resource(qp=0, items=[])
     for item in items:
         if item["name"] == "QP":
             result["qp"] += item["piece"]
         else:
-            result["resources"].append(item)
+            result["items"].append(item)
     return result
 
 

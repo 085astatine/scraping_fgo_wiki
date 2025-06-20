@@ -70,4 +70,4 @@ def _parse_resource(cell: lxml.html.HtmlElement) -> Resource:
         items.append(Items(name=item, piece=piece))
     else:
         _logger.debug("resource: none")
-    return Resource(qp=0, resources=items)
+    return Resource(qp=0, items=items)

@@ -32,7 +32,7 @@ class Items(TypedDict):
 
 class Resource(TypedDict):
     qp: int
-    resources: list[Items]
+    items: list[Items]
 
 
 class ItemsByID(TypedDict):
