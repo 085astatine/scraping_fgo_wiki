@@ -18,7 +18,7 @@ def load_dict(
     force_update: bool = False,
 ) -> lib.Dictionary:
     # item
-    item = lib.load_item_dictionary(pathlib.Path("data/english/item.json"))
+    item = lib.load_item_dictionary(pathlib.Path("data/english/item.json")) or {}
     # servant
     servant_path = path.joinpath("servant.json")
     servant_dict = lib.load_json(servant_path)
@@ -36,13 +36,6 @@ def load_dict(
         servant=servant_dict,
         skill=skill_dict,
     )
-
-
-def load_items(path: pathlib.Path) -> list[lib.Item]:
-    items = lib.load_json(path)
-    if items is None:
-        return []
-    return items
 
 
 def load_sounds(
@@ -117,7 +110,7 @@ def main() -> None:
     # master data
     if option.mode == "merge":
         logger.info("run: merge")
-        items = load_items(pathlib.Path("data/items.json"))
+        items = lib.load_items(pathlib.Path("data/items.json")) or []
         servants = lib.load_servants(
             pathlib.Path("data/servant/"),
             logger=logger,

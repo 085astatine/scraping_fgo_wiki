@@ -34,6 +34,8 @@ def main() -> None:
     # links
     links_path = directory.joinpath("link.json")
     links = get_servant_links(links_path, session, logger, option)
+    if option.targets:
+        links = [link for link in links if link["id"] in option.targets]
     # servant names
     servant_names_path = directory.joinpath("name.json")
     servant_names = {
@@ -72,13 +74,14 @@ def create_logger() -> logging.Logger:
 class Option:
     verbose: bool
     force_update: bool
+    targets: list[int]
     request_interval: float
     request_timeout: float
 
 
 def argument_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Generate English servant dictionary",
+        description="Update Servant Data",
     )
     parser.add_argument(
         "-v",
@@ -93,6 +96,16 @@ def argument_parser() -> argparse.ArgumentParser:
         dest="force_update",
         action="store_true",
         help="force update",
+    )
+    parser.add_argument(
+        "-t",
+        "--target",
+        dest="targets",
+        nargs="+",
+        action="extend",
+        type=int,
+        help="target servant id",
+        metavar="SERVANT_ID",
     )
     parser.add_argument(
         "--request-interval",

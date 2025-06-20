@@ -8,10 +8,17 @@ from .io import load_json
 from .types import Dictionary, Item, ItemDictionary, Text
 
 
-def load_item_dictionary(path: pathlib.Path) -> ItemDictionary:
+def load_item_dictionary(
+    path: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> Optional[ItemDictionary]:
+    logger = logger or logging.getLogger(__name__)
+    logger.info('load item dictionary from "%s"', path)
     data = load_json(path)
     if data is None:
-        return {}
+        logger.error('failed to load item dictionary from "%s"', path)
+        return None
     return {int(key): value for key, value in data.items()}
 
 

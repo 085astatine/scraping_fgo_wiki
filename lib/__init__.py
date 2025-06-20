@@ -3,7 +3,9 @@ from __future__ import annotations
 import logging
 
 from .io import load_json, save_json
+from .item import ItemNameConverter, load_items
 from .merge import merge
+from .patch import Patch, apply_patch, apply_patches
 from .servant import (
     ServantLogger,
     load_costumes,
@@ -23,8 +25,11 @@ from .types import (
     CostumeID,
     Dictionary,
     Item,
+    ItemDictionary,
     ItemID,
+    ItemsByID,
     Resource,
+    ResourceByID,
     ResourceSet,
     Servant,
     ServantDictionary,

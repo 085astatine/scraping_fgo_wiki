@@ -8,13 +8,14 @@ import logging
 import pathlib
 import re
 import time
-from typing import Optional, TypedDict
+from typing import Literal, Optional
 
 import fake_useragent
 import lxml.html
 import requests
 
 import lib
+import lib.english
 
 
 def main() -> None:
@@ -26,14 +27,6 @@ def main() -> None:
     if option.verbose:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
-    # load servants
-    servants_jp: dict[lib.ServantID, lib.Servant] = {
-        servant["id"]: servant
-        for servant in lib.load_servants(
-            pathlib.Path("data/servant"),
-            logger=logger,
-        )
-    }
     # session
     session = create_session(logger=logger)
     # servant links
@@ -44,6 +37,8 @@ def main() -> None:
         logger,
         option,
     )
+    if option.targets:
+        servant_links = {target: servant_links[target] for target in option.targets}
     # servant data
     servant_data_directory = pathlib.Path("data/english/servant/data")
     servant_data = get_servant_data(
@@ -53,19 +48,21 @@ def main() -> None:
         logger,
         option,
     )
+    # patch
+    patch_path = pathlib.Path("data/english/servant/patch.json")
+    patch = load_patch(patch_path, logger)
     # servants
     servant_directory = pathlib.Path("data/english/servant")
-    servants_en = get_servants(
+    servants = get_servants(
         servant_directory,
         servant_links,
         servant_data,
+        patch,
         logger,
         option,
     )
-    # compare English with Japanese
-    compare_servants(servants_en, servants_jp, logger)
     # to English dictionary
-    english_dictionary = to_dictionary(servants_en)
+    english_dictionary = to_dictionary(servants)
     dictionary_path = pathlib.Path("data/english/servant.json")
     logger.info('save english dictionary to "%s"', dictionary_path)
     lib.save_json(dictionary_path, english_dictionary)
@@ -86,6 +83,7 @@ def create_logger() -> logging.Logger:
 class Option:
     verbose: bool
     force_update: bool
+    targets: list[int]
     request_interval: float
     request_timeout: float
 
@@ -107,6 +105,16 @@ def argument_parser() -> argparse.ArgumentParser:
         dest="force_update",
         action="store_true",
         help="force update",
+    )
+    parser.add_argument(
+        "-t",
+        "--target",
+        dest="targets",
+        nargs="+",
+        action="extend",
+        type=int,
+        help="target servant id",
+        metavar="SERVANT_ID",
     )
     parser.add_argument(
         "--request-interval",
@@ -144,21 +152,12 @@ def create_session(
     return session
 
 
-class ServantLink(TypedDict):
-    id: lib.ServantID
-    url: str
-    title: str
-
-
-type ServantLinks = dict[lib.ServantID, ServantLink]
-
-
 def get_servant_links(
     path: pathlib.Path,
     session: requests.Session,
     logger: logging.Logger,
     option: Option,
-) -> ServantLinks:
+) -> dict[lib.ServantID, lib.english.ServantLink]:
     if option.force_update or not path.exists():
         links = request_servant_links(
             session,
@@ -170,20 +169,8 @@ def get_servant_links(
         lib.save_json(path, links)
         time.sleep(option.request_interval)
     else:
-        links = load_servant_links(path, logger)
-    return links
-
-
-def load_servant_links(
-    path: pathlib.Path,
-    logger: logging.Logger,
-) -> ServantLinks:
-    logger.info('load servant links from "%s"', path)
-    links = lib.load_json(path)
-    if links is None:
-        logger.error('Failed to load "%s"', path)
-        return {}
-    return {int(key): value for key, value in links.items()}
+        links = lib.english.load_servant_links(path, logger=logger) or []
+    return {link["id"]: link for link in links}
 
 
 def request_servant_links(
@@ -191,8 +178,8 @@ def request_servant_links(
     logger: logging.Logger,
     request_interval: float,
     request_timeout: float,
-) -> ServantLinks:
-    links: list[ServantLink] = []
+) -> list[lib.english.ServantLink]:
+    links: list[lib.english.ServantLink] = []
     urls = [
         "https://fategrandorder.fandom.com/wiki/Sub:Servant_List_by_ID/1-100",
         "https://fategrandorder.fandom.com/wiki/Sub:Servant_List_by_ID/101-200",
@@ -213,14 +200,14 @@ def request_servant_links(
         time.sleep(request_interval)
     # sort by servant id
     links.sort(key=lambda link: link["id"])
-    return {link["id"]: link for link in links}
+    return links
 
 
 def parse_servant_links(
     root: lxml.html.HtmlElement,
     logger: logging.Logger,
-) -> list[ServantLink]:
-    links: list[ServantLink] = []
+) -> list[lib.english.ServantLink]:
+    links: list[lib.english.ServantLink] = []
     table_rows = root.xpath(
         '//table[contains(@class, "wikitable sortable")]/tbody/tr[td]'
     )
@@ -235,14 +222,14 @@ def parse_servant_links(
             title,
         )
         url = f"https://fategrandorder.fandom.com/{href}"
-        links.append(ServantLink(id=servant_id, url=url, title=title))
+        links.append(lib.english.ServantLink(id=servant_id, url=url, title=title))
     return links
 
 
 def get_servant_data(
     session: requests.Session,
     directory: pathlib.Path,
-    links: ServantLinks,
+    links: dict[lib.ServantID, lib.english.ServantLink],
     logger: logging.Logger,
     option: Option,
 ) -> dict[lib.ServantID, str]:
@@ -288,7 +275,7 @@ def load_servant_data(
 
 def request_servant_data(
     session: requests.Session,
-    link: ServantLink,
+    link: lib.english.ServantLink,
     logger: logging.Logger,
     request_timeout: float,
 ) -> Optional[str]:
@@ -307,117 +294,86 @@ def request_servant_data(
     return root.xpath('//textarea[@name="wpTextbox1"]/text()')[0]
 
 
-class Skill(TypedDict):
-    name: str
-    rank: str
-
-
-class Servant(TypedDict):
-    id: lib.ServantID
-    name: str
-    false_name: Optional[str]
-    active_skills: list[list[Skill]]
-    append_skills: list[list[Skill]]
+def load_patch(
+    path: pathlib.Path,
+    logger: logging.Logger,
+) -> dict[lib.ServantID, list[lib.Patch]]:
+    logger.info('load patch from "%s"', path)
+    data = lib.load_json(path)
+    if data is None:
+        logger.error('failed to load patch from "%s"', path)
+        return {}
+    return {int(servant_id): patch for servant_id, patch in data.items()}
 
 
 def get_servants(
+    # pylint: disable=too-many-arguments, too-many-positional-arguments
     directory: pathlib.Path,
-    links: ServantLinks,
+    links: dict[lib.ServantID, lib.english.ServantLink],
     sources: dict[lib.ServantID, str],
+    patches: dict[lib.ServantID, list[lib.Patch]],
     logger: logging.Logger,
     option: Option,
-) -> dict[lib.ServantID, Servant]:
-    servants: dict[lib.ServantID, Servant] = {}
+) -> dict[lib.ServantID, lib.english.Servant]:
+    servants: dict[lib.ServantID, lib.english.Servant] = {}
     for servant_id, source in sources.items():
         path = directory.joinpath(f"{servant_id:03d}.json")
-        servant: Optional[Servant]
+        servant: Optional[lib.english.Servant]
         if option.force_update or not path.exists():
             # parse source
             link = links.get(servant_id, None)
             if link is None:
                 logger.error("servant ID %03d does not exist in links", servant_id)
                 continue
-            servant = parse_servant_data(
-                link,
-                source,
-                lib.ServantLogger(logger, servant_id, link["title"]),
-            )
+            servant_logger = lib.ServantLogger(logger, servant_id, link["title"])
+            servant = parse_servant_data(link, source, servant_logger)
+            # patch
+            if servant_id in patches:
+                lib.apply_patches(servant, patches[servant_id], logger=servant_logger)
+            # save
             logger.info('save servant to "%s"', path)
             lib.save_json(path, servant)
         else:
             # load from file
-            servant = load_servant(path, logger=logger)
+            servant = lib.english.load_servant(path, logger=logger)
         if servant is not None:
             servants[servant["id"]] = servant
     return servants
 
 
-def load_servants(
-    directory: pathlib.Path,
-    *,
-    logger: Optional[logging.Logger] = None,
-) -> list[Servant]:
-    logger = logger or logging.getLogger(__name__)
-    servants: list[Servant] = []
-    pattern = re.compile(r"^(?P<id>[0-9]{3}).json$")
-    for file in directory.iterdir():
-        if not file.is_file():
-            continue
-        match = pattern.match(file.name)
-        if match is None:
-            continue
-        servant = load_servant(file, logger=logger)
-        if servant is None:
-            continue
-        # check if filename match servant ID
-        if int(match.group("id")) != servant["id"]:
-            logger.error(
-                'file name mismatch servant ID: path="%s", servant_id=%d',
-                file,
-                servant["id"],
-            )
-        servants.append(servant)
-    # sort by servant ID
-    servants.sort(key=lambda servant: servant["id"])
-    return servants
-
-
-def load_servant(
-    path: pathlib.Path,
-    *,
-    logger: Optional[logging.Logger] = None,
-) -> Optional[Servant]:
-    logger = logger or logging.getLogger(__name__)
-    logger.info('load servant from "%s"', path)
-    servant = lib.load_json(path)
-    if servant is None:
-        logger.error('failed to load "%s"', path)
-        return None
-    logger.debug(
-        'loaded servant: %03d "%s"',
-        servant["id"],
-        servant["name"],
-    )
-    return servant
-
-
 def parse_servant_data(
-    link: ServantLink,
+    link: lib.english.ServantLink,
     source: str,
     logger: lib.ServantLogger,
-) -> Servant:
-    # alias name
+) -> lib.english.Servant:
+    # false name
     false_name = parse_false_name(source, logger)
+    # class
+    servant_class = parse_servant_class(source, logger)
+    # stars
+    stars = parse_stars(source, logger)
     # active skills
     active_skills = parse_active_skills(source, logger)
     # append skills
     append_skills = parse_append_skills(source, logger)
-    return Servant(
+    # ascension resources & costumes
+    ascension_resources, costumes = parse_ascension_table(source, stars, logger)
+    # active skill resource
+    active_skill_resources = parse_active_skill_resources(source, stars, logger)
+    # append skill resource
+    append_skill_resources = parse_append_skill_resources(source, stars, logger)
+    return lib.english.Servant(
         id=link["id"],
         name=link["title"],
         false_name=false_name,
+        klass=servant_class,
+        rarity=stars,
         active_skills=active_skills,
         append_skills=append_skills,
+        costumes=costumes,
+        ascension_resources=ascension_resources,
+        active_skill_resources=active_skill_resources,
+        append_skill_resources=append_skill_resources,
     )
 
 
@@ -432,14 +388,46 @@ def parse_false_name(
     if match is None:
         return None
     false_name = match.group("name")
-    logger.info('false name "%s"', false_name)
+    logger.debug('false name "%s"', false_name)
     return false_name
+
+
+def parse_servant_class(
+    source: str,
+    logger: lib.ServantLogger,
+) -> str:
+    match = re.search(
+        r"\|class = (?P<class>.+)",
+        source,
+    )
+    if match is None:
+        logger.error("failed to get class")
+        return ""
+    servant_class = match.group("class").replace(" ", "")
+    logger.debug('class "%s"', servant_class)
+    return servant_class
+
+
+def parse_stars(
+    source: str,
+    logger: lib.ServantLogger,
+) -> int:
+    match = re.search(
+        r"\|stars = (?P<stars>[0-5])",
+        source,
+    )
+    if match is None:
+        logger.error("failed to get stars")
+        return -1
+    stars = int(match.group("stars"))
+    logger.debug("stars %d", stars)
+    return stars
 
 
 def parse_active_skills(
     source: str,
     logger: lib.ServantLogger,
-) -> list[list[Skill]]:
+) -> list[list[lib.english.Skill]]:
     match = re.search(
         r"==\s*Active Skills\s*==\n"
         r"<tabber>\n"
@@ -467,7 +455,7 @@ def parse_active_skills(
 def parse_append_skills(
     source: str,
     logger: lib.ServantLogger,
-) -> list[list[Skill]]:
+) -> list[list[lib.english.Skill]]:
     match = re.search(
         r"==\s*Append Skills\s*==\n"
         r"<tabber>\n"
@@ -503,8 +491,7 @@ def parse_skill(
     target: str,
     source: str,
     logger: lib.ServantLogger,
-) -> list[Skill]:
-    logger.debug("[%s] input=%s", target, repr(source))
+) -> list[lib.english.Skill]:
     # Remove {{Unlock|...}} or {{unlock:...}}
     source = re.sub(r"\{\{[Uu]nlock\|.+\}\}\n", "", source)
     # mult level
@@ -521,11 +508,11 @@ def parse_skill(
         match = re.match(r"\{\{:(?P<skill>.+)\}\}\n", source)
         if match:
             skill.append(parse_skill_rank(match.group("skill")))
-    logger.info("[%s] %s", target, repr(skill))
+    logger.debug("[%s] %s", target, repr(skill))
     return skill
 
 
-def parse_skill_rank(text: str) -> Skill:
+def parse_skill_rank(text: str) -> lib.english.Skill:
     rank_pattern = "((EX|[A-E])[+-]*)|None"
     # <name>/Rank <rank>( (name))?(|<rank>)?(|preupgrade=y)
     match = re.match(
@@ -536,7 +523,7 @@ def parse_skill_rank(text: str) -> Skill:
     if match:
         return to_skill(name=match.group("name"), rank=match.group("rank"))
     # <name>|<rank>
-    match = re.match(rf"^(?P<name>.+)\|(?P<rank>{rank_pattern})$", text)
+    match = re.match(rf"^(?P<name>.+)\|(?P<rank>{rank_pattern})\s*$", text)
     if match:
         return to_skill(name=match.group("name"), rank=match.group("rank"))
     # <name> <rank>
@@ -547,102 +534,324 @@ def parse_skill_rank(text: str) -> Skill:
     match = re.match(rf"^(?P<name>.+?) '(?P<rank>{rank_pattern})'$", text)
     if match:
         return to_skill(name=match.group("name"), rank=match.group("rank"))
-    return Skill(name=text, rank="")
+    return to_skill(text, "")
 
 
-def to_skill(name: str, rank: str) -> Skill:
-    return Skill(
+def to_skill(name: str, rank: str) -> lib.english.Skill:
+    # remove (Active Skill)
+    name = name.removesuffix(" (Active Skill)")
+    return lib.english.Skill(
         name=name,
         rank=rank if rank != "None" else "",
     )
 
 
-def compare_servants(
-    en: dict[lib.ServantID, Servant],
-    jp: dict[lib.ServantID, lib.Servant],
-    logger: logging.Logger,
-) -> None:
-    for servant_id, jp_servant in jp.items():
-        servant_logger = lib.ServantLogger(logger, servant_id, jp_servant["name"])
-        servant_logger.debug("start comparing")
-        en_servant = en.get(servant_id, None)
-        if en_servant is not None:
-            compare_servant(en_servant, jp_servant, servant_logger)
-        else:
-            servant_logger.error("does not exits in English")
-
-
-def compare_servant(
-    en: Servant,
-    jp: lib.Servant,
+def parse_ascension_table(
+    source: str,
+    stars: int,
     logger: lib.ServantLogger,
-) -> None:
-    # id
-    if en["id"] != jp["id"]:
-        logger.error("servant IDs do not match")
-    # false name
-    if en["false_name"] is not None:
-        if jp["false_name"] is None:
-            logger.error("only English has an false name")
-    else:
-        if jp["false_name"] is not None:
-            logger.error("only Japanese has an false name")
-    # active skills
-    compare_skills("skill", en["active_skills"], jp["skills"], logger)
-    # append skills
-    compare_skills("append skill", en["append_skills"], jp["append_skills"], logger)
+) -> tuple[list[lib.ResourceSet], list[lib.english.Costume]]:
+    logger.debug("ascension & costume")
+    section = parse_section(source, "Ascension")
+    if section is None:
+        return [], []
+    rows = parse_resource_table(section, "Ascension", logger)
+    if rows is None:
+        return [], []
+    ascension_resources = to_ascension_resources(rows, stars)
+    costumes = to_costumes(rows)
+    return ascension_resources, costumes
 
 
-def compare_skills(
-    target: str,
-    en: list[list[Skill]],
-    jp: list[list[lib.Skill]],
+def parse_active_skill_resources(
+    source: str,
+    stars: int,
     logger: lib.ServantLogger,
-) -> None:
-    # slots
-    if len(en) != len(jp):
-        logger.error(
-            "%s: slots don't match (en:%d, jp:%d)",
-            target,
-            len(en),
-            len(jp),
-        )
-    # skill
-    slots = len(en)
-    for i in range(slots):
-        compare_skill(f"{target} {i+1}", en[i], jp[i], logger)
+) -> list[lib.ResourceSet]:
+    logger.debug("active skill resources")
+    section = parse_section(source, "Skill Reinforcement")
+    if section is None:
+        return []
+    match = re.search(
+        r"Active( Skills)?\s*=(?P<table>.+?)\|-\|",
+        section,
+        flags=re.DOTALL,
+    )
+    if match is None:
+        return []
+    rows = parse_resource_table(
+        match.group("table"),
+        "Skillreinforcement",
+        logger,
+    )
+    if rows is None:
+        return []
+    return to_skill_resources(rows, stars)
 
 
-def compare_skill(
-    target: str,
-    en: list[Skill],
-    jp: list[lib.Skill],
+def parse_append_skill_resources(
+    source: str,
+    stars: int,
     logger: lib.ServantLogger,
-) -> None:
-    # levels
-    if len(en) != len(jp):
-        logger.error(
-            "%s: levels don't match (en:%d, jp:%d)",
-            target,
-            len(en),
-            len(jp),
-        )
-        return
-    # rank
-    levels = len(en)
-    for i in range(levels):
-        if en[i]["rank"] != jp[i]["rank"]:
-            logger.error(
-                '%s: rank don\'t match at level %d (en:"%s", jp:"%s")',
-                f"{target}-{i+1}",
-                i,
-                en[i]["rank"],
-                jp[i]["rank"],
+) -> list[lib.ResourceSet]:
+    logger.debug("append skill resources")
+    section = parse_section(source, "Skill Reinforcement")
+    if section is None:
+        return []
+    match = re.search(
+        r"Append( Skills)?\s*=(?P<table>.+?)</tabber>",
+        section,
+        flags=re.DOTALL,
+    )
+    if match is None:
+        return []
+    rows = parse_resource_table(
+        match.group("table"),
+        "Skillreinforcement",
+        logger,
+    )
+    if rows is None:
+        return []
+    return to_skill_resources(rows, stars)
+
+
+def parse_section(
+    source: str,
+    title: str,
+) -> Optional[str]:
+    match = re.search(
+        rf"==\s*{title}\s*==(?P<section>.*?)==",
+        source,
+        flags=re.DOTALL,
+    )
+    if match is None:
+        return None
+    return match.group("section")
+
+
+@dataclasses.dataclass(frozen=True)
+class ItemsRow:
+    index: int
+    key: int
+    item: str
+    piece: int
+
+
+@dataclasses.dataclass(frozen=True)
+class QPRow:
+    index: int
+    key: Literal["qp"]
+    value: int
+
+
+@dataclasses.dataclass(frozen=True)
+class TextRow:
+    index: int
+    key: str
+    text: str
+
+
+type ResourceTableRow = ItemsRow | QPRow | TextRow
+
+
+def parse_resource_table(
+    source: str,
+    title: str,
+    logger: lib.ServantLogger,
+) -> Optional[list[ResourceTableRow]]:
+    body = re.search(
+        rf"{{{{{title}"
+        r"(?P<body>(\|[a-z0-9]+\s*=\s*({{.+?}}|(\[\[.*?\]\]|[^|])*))+)}}",
+        source.replace("\n", ""),
+    )
+    if body is None:
+        return None
+    result: list[ResourceTableRow] = []
+    for row in re.findall(
+        r"\|.+?\s*=\s*(?:{{.+?}}|(?:\[\[.*?\]\]|[^|])*)",
+        body.group("body"),
+    ):
+        value = parse_resource_table_row(row)
+        logger.debug("%s", value)
+        if value is not None:
+            result.append(value)
+    return result
+
+
+def parse_resource_table_row(row: str) -> Optional[ItemsRow | QPRow | TextRow]:
+    match = re.match(
+        r"\|(?P<index>[0-9]+)(?P<key>([1-4]|qp|name|jdef|ndef|icon))"
+        r"\s*=\s*"
+        r"(({{(?P<item>.+?)(\|(?P<piece>[0-9,]+)?\s*)?\}\})|(?P<text>.+))",
+        row,
+    )
+    if match is None:
+        return None
+    index = int(match.group("index"))
+    match match.group("key"):
+        case "1" | "2" | "3" | "4":
+            item = match.group("item")
+            piece = match.group("piece")
+            if item is not None:
+                return ItemsRow(
+                    index=index,
+                    key=int(match.group("key")),
+                    item=item.strip(),
+                    piece=int(piece) if piece is not None else 1,
+                )
+        case "qp":
+            if match.group("piece") is not None:
+                return QPRow(
+                    index=index,
+                    key="qp",
+                    value=int(match.group("piece").replace(",", "")),
+                )
+        case _:
+            if match.group("text") is not None:
+                return TextRow(
+                    index=index,
+                    key=match.group("key"),
+                    text=match.group("text").strip(),
+                )
+    return None
+
+
+def to_ascension_resources(
+    rows: list[ResourceTableRow],
+    stars: int,
+) -> list[lib.ResourceSet]:
+    resources = [lib.ResourceSet(qp=0, resources=[]) for _ in range(4)]
+    for row in rows:
+        index = row.index - 1
+        if not 0 <= index <= 3:
+            continue
+        match row:
+            case ItemsRow(item=item, piece=piece):
+                resources[index]["resources"].append(
+                    lib.Resource(name=item, piece=piece)
+                )
+    # set QP
+    for i, qp in enumerate(ascension_qp(stars)):
+        if resources[i]["resources"] and resources[i]["qp"] == 0:
+            resources[i]["qp"] = qp
+    return resources
+
+
+def to_skill_resources(
+    rows: list[ResourceTableRow],
+    stars: int,
+) -> list[lib.ResourceSet]:
+    resources = [lib.ResourceSet(qp=0, resources=[]) for _ in range(9)]
+    for row in rows:
+        index = row.index - 1
+        if not 0 <= index <= 8:
+            continue
+        match row:
+            case ItemsRow(item=item, piece=piece):
+                resources[index]["resources"].append(
+                    lib.Resource(name=item, piece=piece)
+                )
+    # set QP
+    for i, qp in enumerate(skill_reinforcement_qp(stars)):
+        if resources[i]["resources"] and resources[i]["qp"] == 0:
+            resources[i]["qp"] = qp
+    return resources
+
+
+def to_costumes(
+    rows: list[ResourceTableRow],
+) -> list[lib.english.Costume]:
+    indexes: set[int] = set()
+    name: dict[int, str] = {}
+    text_en: dict[int, str] = {}
+    text_jp: dict[int, str] = {}
+    resources: dict[int, list[lib.Resource]] = {}
+    qp: dict[int, int] = {}
+    for row in rows:
+        if row.index <= 4:
+            continue
+        indexes.add(row.index)
+        match row:
+            case ItemsRow(item=item, piece=piece):
+                resources.setdefault(row.index, []).append(
+                    lib.Resource(name=item, piece=piece)
+                )
+            case QPRow(value=value):
+                qp[row.index] = value
+            case TextRow(key=key, text=text):
+                match key:
+                    case "name":
+                        name[row.index] = text
+                    case "jdef":
+                        text_jp[row.index] = re.sub("<br/?>", "\n", text)
+                    case "ndef":
+                        text_en[row.index] = re.sub("<br/?>", "\n", text)
+    # to costumes
+    costumes: list[lib.english.Costume] = []
+    for index in indexes:
+        if index not in name:
+            continue
+        costumes.append(
+            lib.english.Costume(
+                name=name.get(index, ""),
+                text_jp=text_jp.get(index, ""),
+                text_en=text_en.get(index, ""),
+                resources=lib.ResourceSet(
+                    qp=qp.get(index, 0),
+                    resources=resources.get(index, []),
+                ),
             )
+        )
+    return costumes
+
+
+def ascension_qp(stars: int) -> list[int]:
+    table: list[list[int]] = [
+        [0, 0, 0, 0],
+        [10000, 30000, 90000, 300000],
+        [15000, 45000, 150000, 450000],
+        [30000, 100000, 300000, 900000],
+        [50000, 150000, 500000, 1500000],
+        [100000, 300000, 1000000, 3000000],
+    ]
+    row: int = 0
+    match stars:
+        case 1 | 2 | 3 | 4 | 5:
+            row = stars
+        case 0:
+            row = 2
+    return table[row]
+
+
+def skill_reinforcement_qp(stars: int) -> list[int]:
+    base_qp: list[int] = [
+        10000,
+        20000,
+        60000,
+        80000,
+        200000,
+        250000,
+        500000,
+        600000,
+        1000000,
+    ]
+    factor: float = 0.0
+    match stars:
+        case 1:
+            factor = 1.0
+        case 2 | 0:
+            factor = 2.0
+        case 3:
+            factor = 5.0
+        case 4:
+            factor = 10.0
+        case 5:
+            factor = 20.0
+    return [int(qp * factor) for qp in base_qp]
 
 
 def to_dictionary(
-    servants: dict[lib.ServantID, Servant],
+    servants: dict[lib.ServantID, lib.english.Servant],
 ) -> lib.ServantDictionary:
     return {
         servant_id: to_dictionary_value(servant)
@@ -650,7 +859,9 @@ def to_dictionary(
     }
 
 
-def to_dictionary_value(servant: Servant) -> lib.ServantDictionaryValue:
+def to_dictionary_value(
+    servant: lib.english.Servant,
+) -> lib.ServantDictionaryValue:
     return lib.ServantDictionaryValue(
         name=servant["name"],
         false_name=servant["false_name"],

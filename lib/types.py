@@ -35,6 +35,16 @@ class ResourceSet(TypedDict):
     resources: list[Resource]
 
 
+class ItemsByID(TypedDict):
+    id: ItemID
+    piece: int
+
+
+class ResourceByID(TypedDict):
+    qp: int
+    items: list[ItemsByID]
+
+
 class Costume(TypedDict):
     id: CostumeID
     name: str
