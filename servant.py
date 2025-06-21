@@ -261,14 +261,24 @@ def update_servants(
 ) -> None:
     for link in links:
         path = directory.joinpath(f"{link['id']:03d}.json")
+        servant_logger = lib.ServantLogger(logger, link["id"], link["name"])
         if option.force_update or not path.exists():
-            servant = request_servant(
+            page_text = servant_page(
                 session,
+                directory.joinpath(f"page/{link['id']:03d}.html"),
+                link,
+                servant_logger,
+                option,
+            )
+            if page_text is None:
+                logger.error("failed to get page data")
+                continue
+            servant = parse_servant_page(
+                lxml.html.fromstring(page_text),
                 link,
                 servant_names.get(link["id"], None),
                 costumes.get(link["id"], []),
-                lib.ServantLogger(logger, link["id"], link["name"]),
-                option.request_timeout,
+                servant_logger,
             )
             if servant is not None:
                 logger.info(
@@ -278,28 +288,49 @@ def update_servants(
                     path,
                 )
                 lib.save_json(path, servant)
-            time.sleep(option.request_interval)
         else:
             logger.info("skip updating %03d %s", link["id"], link["name"])
 
 
-def request_servant(
-    ## pylint: disable=too-many-arguments, too-many-positional-arguments
+def servant_page(
+    session: requests.Session,
+    path: pathlib.Path,
+    link: lib.ServantLink,
+    logger: lib.ServantLogger,
+    option: Option,
+) -> Optional[str]:
+    if option.force_update or not path.exists():
+        # request
+        text = request_servant_page(
+            session,
+            link,
+            logger,
+            option.request_timeout,
+        )
+        # save
+        if text is not None:
+            logger.info('save page to "%s"', path)
+            path.write_text(text, encoding="utf-8")
+        time.sleep(option.request_interval)
+    else:
+        # load page
+        logger.info('load page from "%s"', path)
+        text = path.read_text(encoding="utf-8")
+    return text
+
+
+def request_servant_page(
     session: requests.Session,
     link: lib.ServantLink,
-    servant_name: Optional[lib.ServantName],
-    costumes: list[lib.Costume],
     logger: lib.ServantLogger,
     request_timeout: float,
-) -> Optional[lib.Servant]:
-    logger.info('request "%s"', link["url"])
+) -> Optional[str]:
     response = session.get(link["url"], timeout=request_timeout)
     logger.debug("response %d", response.status_code)
     if not response.ok:
         logger.error('failed to request "%s"', link["url"])
         return None
-    root = lxml.html.fromstring(response.text)
-    return parse_servant_page(root, link, servant_name, costumes, logger)
+    return response.text
 
 
 def parse_servant_page(
