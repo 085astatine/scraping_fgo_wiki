@@ -5,7 +5,7 @@ import pathlib
 from typing import Optional
 
 from .io import load_json
-from .types import Item, ItemID, ItemsByID, Resource, ResourceByID, ResourceSet
+from .types import Item, ItemID, Items, ItemsByID, Resource, ResourceByID
 
 
 def load_items(
@@ -43,16 +43,16 @@ class ItemNameConverter:
             return None
         return item_id
 
-    def items(self, items: Resource) -> Optional[ItemsByID]:
+    def items(self, items: Items) -> Optional[ItemsByID]:
         item_id = self.item_id(items["name"])
         if item_id is None:
             return None
         return ItemsByID(id=item_id, piece=items["piece"])
 
-    def resource(self, resource: ResourceSet) -> Optional[ResourceByID]:
+    def resource(self, resource: Resource) -> Optional[ResourceByID]:
         ok = True
         result: list[ItemsByID] = []
-        for items in resource["resources"]:
+        for items in resource["items"]:
             value = self.items(items)
             if value is None:
                 ok = False

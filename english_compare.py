@@ -268,9 +268,9 @@ def compare_skill(
 def compare_resources(
     # pylint: disable=too-many-arguments, too-many-positional-arguments
     target: str,
-    en_resources: list[lib.ResourceSet],
+    en_resources: list[lib.Resource],
     en_items: lib.ItemNameConverter,
-    jp_resources: list[lib.ResourceSet],
+    jp_resources: list[lib.Resource],
     jp_items: lib.ItemNameConverter,
     logger: lib.ServantLogger,
 ) -> None:
@@ -292,9 +292,9 @@ def compare_resources(
 def compare_resource(
     # pylint: disable=too-many-arguments, too-many-positional-arguments
     target: str,
-    en_resource: lib.ResourceSet,
+    en_resource: lib.Resource,
     en_items: lib.ItemNameConverter,
-    jp_resource: lib.ResourceSet,
+    jp_resource: lib.Resource,
     jp_items: lib.ItemNameConverter,
     logger: lib.ServantLogger,
 ) -> None:

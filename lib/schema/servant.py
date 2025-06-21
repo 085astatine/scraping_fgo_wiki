@@ -123,7 +123,7 @@ def append_skills() -> dict[str, Any]:
     return schema
 
 
-def item_resource() -> dict[str, Any]:
+def items() -> dict[str, Any]:
     schema = {
         "type": "object",
         "properties": {
@@ -147,12 +147,12 @@ def resource() -> dict[str, Any]:
                 "type": "integer",
                 "minimum": 0,
             },
-            "resources": {
+            "items": {
                 "type": "array",
-                "items": item_resource(),
+                "items": items(),
             },
         },
-        "required": ["qp", "resources"],
+        "required": ["qp", "items"],
         "additionalProperties": False,
     }
     return schema

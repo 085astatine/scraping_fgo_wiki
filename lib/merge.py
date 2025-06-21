@@ -123,7 +123,7 @@ def _convert_append_skills(
 
 
 def _convert_resource(
-    resource: types.Resource,
+    resource: types.Items,
     items: list[types.Item],
 ) -> Resource:
     invalid_item_id = 0
@@ -136,13 +136,13 @@ def _convert_resource(
 
 
 def _convert_resource_set(
-    resource_set: types.ResourceSet,
+    resource_set: types.Resource,
     items: list[types.Item],
 ) -> ResourceSet:
     return ResourceSet(
         qp=resource_set["qp"],
         resources=[
-            _convert_resource(resource, items) for resource in resource_set["resources"]
+            _convert_resource(resource, items) for resource in resource_set["items"]
         ],
     )
 

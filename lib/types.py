@@ -25,14 +25,14 @@ type Skills = list[list[Skill]]
 type AppendSkills = list[list[Skill]]
 
 
-class Resource(TypedDict):
+class Items(TypedDict):
     name: str
     piece: int
 
 
-class ResourceSet(TypedDict):
+class Resource(TypedDict):
     qp: int
-    resources: list[Resource]
+    items: list[Items]
 
 
 class ItemsByID(TypedDict):
@@ -48,7 +48,7 @@ class ResourceByID(TypedDict):
 class Costume(TypedDict):
     id: CostumeID
     name: str
-    resource: ResourceSet
+    resource: Resource
 
 
 class Servant(TypedDict):
@@ -61,9 +61,9 @@ class Servant(TypedDict):
     skills: Skills
     append_skills: AppendSkills
     costumes: list[Costume]
-    ascension_resources: list[ResourceSet]
-    skill_resources: list[ResourceSet]
-    append_skill_resources: list[ResourceSet]
+    ascension_resources: list[Resource]
+    skill_resources: list[Resource]
+    append_skill_resources: list[Resource]
 
 
 class ServantLink(TypedDict):
@@ -86,7 +86,7 @@ class CostumeData(TypedDict):
     servant_id: ServantID
     name: str
     flavor_text: str
-    resource: ResourceSet
+    resource: Resource
 
 
 class Text(TypedDict):
