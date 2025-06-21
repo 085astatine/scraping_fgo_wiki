@@ -69,9 +69,9 @@
       "name": "Decapitating Bunny [1st Ascension]",
       "text_jp": "ウサ耳をつけた貴人\nクリティカルヒット",
       "text_en": "Nobility wearing bunny ears.\nCritical hit.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Unlucky Bone",
             "piece": 10
@@ -95,9 +95,9 @@
       "name": "Decapitating Bunny [2nd Ascension]",
       "text_jp": "ウサ耳をつけた貴人\nつうこんのいちげき",
       "text_en": "Nobility wearing bunny ears.\nA fatal blow.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Chains of the Fool",
             "piece": 10
@@ -121,9 +121,9 @@
       "name": "Decapitating Bunny [3rd Ascension]",
       "text_jp": "ウサ耳をつけた貴人\nアルテミット・ニャン",
       "text_en": "Nobility wearing bunny ears.\nUltimate meow.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Ancient Bell of Tranquility",
             "piece": 5
@@ -147,7 +147,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Saber Piece",
           "piece": 5
@@ -156,7 +156,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Saber Piece",
           "piece": 12
@@ -169,7 +169,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Saber Monument",
           "piece": 5
@@ -186,7 +186,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Saber Monument",
           "piece": 12
@@ -205,7 +205,7 @@
   "active_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Swords",
           "piece": 5
@@ -214,7 +214,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Swords",
           "piece": 12
@@ -223,7 +223,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Swords",
           "piece": 5
@@ -232,7 +232,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Swords",
           "piece": 12
@@ -245,7 +245,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Swords",
           "piece": 5
@@ -258,7 +258,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Swords",
           "piece": 12
@@ -271,7 +271,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Void's Refuse",
           "piece": 20
@@ -284,7 +284,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Octuplet Crystals",
           "piece": 18
@@ -297,7 +297,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -308,7 +308,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Swords",
           "piece": 5
@@ -317,7 +317,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Swords",
           "piece": 12
@@ -326,7 +326,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Swords",
           "piece": 5
@@ -335,7 +335,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Swords",
           "piece": 12
@@ -348,7 +348,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Swords",
           "piece": 5
@@ -361,7 +361,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Swords",
           "piece": 12
@@ -374,7 +374,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Heart of a Foreign God",
           "piece": 4
@@ -387,7 +387,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Kotan Magatama",
           "piece": 18
@@ -400,7 +400,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

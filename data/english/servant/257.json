@@ -65,9 +65,9 @@
       "name": "Smiley Summer Wear",
       "text_jp": "伊達男な海賊のサマーバージョン\n陽気な笑顔で夏のメカクレを求める",
       "text_en": "",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Chains of the Fool",
             "piece": 10
@@ -91,7 +91,7 @@
   "ascension_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Piece",
           "piece": 2
@@ -100,7 +100,7 @@
     },
     {
       "qp": 30000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Piece",
           "piece": 4
@@ -113,7 +113,7 @@
     },
     {
       "qp": 90000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Monument",
           "piece": 2
@@ -130,7 +130,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Monument",
           "piece": 4
@@ -149,7 +149,7 @@
   "active_skill_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 2
@@ -158,7 +158,7 @@
     },
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 4
@@ -167,7 +167,7 @@
     },
     {
       "qp": 60000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 2
@@ -176,7 +176,7 @@
     },
     {
       "qp": 80000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 4
@@ -189,7 +189,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "secret Gem of Cavalry",
           "piece": 2
@@ -202,7 +202,7 @@
     },
     {
       "qp": 250000,
-      "resources": [
+      "items": [
         {
           "name": "secret Gem of Cavalry",
           "piece": 4
@@ -215,7 +215,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Chains of the Fool",
           "piece": 10
@@ -228,7 +228,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Seashell of Reminiscence",
           "piece": 6
@@ -241,7 +241,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -252,7 +252,7 @@
   "append_skill_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 2
@@ -261,7 +261,7 @@
     },
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 4
@@ -270,7 +270,7 @@
     },
     {
       "qp": 60000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 2
@@ -279,7 +279,7 @@
     },
     {
       "qp": 80000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 4
@@ -292,7 +292,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "secret Gem of Cavalry",
           "piece": 2
@@ -305,7 +305,7 @@
     },
     {
       "qp": 250000,
-      "resources": [
+      "items": [
         {
           "name": "secret Gem of Cavalry",
           "piece": 4
@@ -318,7 +318,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Snake Jewel",
           "piece": 3
@@ -331,7 +331,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Magical Cerebrospinal Fluid",
           "piece": 18
@@ -344,7 +344,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

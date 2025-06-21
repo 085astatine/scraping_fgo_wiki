@@ -94,7 +94,7 @@
       "name": "簡易霊衣：小悪魔たまご肌（第二再臨）",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "励振火薬",
             "piece": 10
@@ -119,7 +119,7 @@
       "name": "簡易霊衣：小悪魔たまご肌（第三再臨）",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "魔術髄液",
             "piece": 10
@@ -143,7 +143,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーピース",
           "piece": 5
@@ -156,7 +156,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーピース",
           "piece": 12
@@ -169,7 +169,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーモニュメント",
           "piece": 5
@@ -182,7 +182,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーモニュメント",
           "piece": 12
@@ -197,7 +197,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 5
@@ -210,7 +210,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 12
@@ -223,7 +223,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 5
@@ -236,7 +236,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 12
@@ -249,7 +249,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 5
@@ -262,7 +262,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 12
@@ -275,7 +275,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "黒獣脂",
           "piece": 5
@@ -288,7 +288,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "奇奇神酒",
           "piece": 9
@@ -301,7 +301,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -312,7 +312,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 5
@@ -325,7 +325,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 12
@@ -338,7 +338,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 5
@@ -351,7 +351,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 12
@@ -364,7 +364,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 5
@@ -377,7 +377,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 12
@@ -390,7 +390,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "巨人の指輪",
           "piece": 8
@@ -403,7 +403,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "鬼炎鬼灯",
           "piece": 9
@@ -416,7 +416,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

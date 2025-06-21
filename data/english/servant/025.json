@@ -61,9 +61,9 @@
       "name": "Midsummer Gentleman",
       "text_jp": "驚くべきことに、趣味服以外のセンスは\n大変良好だった大海賊である",
       "text_en": "Surprising everyone, this pirate who isn't usually a great dresser, turned out to have good fashion sense.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Stimulus Gunpowder",
             "piece": 10
@@ -87,7 +87,7 @@
   "ascension_resources": [
     {
       "qp": 15000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Piece",
           "piece": 3
@@ -96,7 +96,7 @@
     },
     {
       "qp": 45000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Piece",
           "piece": 6
@@ -109,7 +109,7 @@
     },
     {
       "qp": 150000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Monument",
           "piece": 3
@@ -126,7 +126,7 @@
     },
     {
       "qp": 450000,
-      "resources": [
+      "items": [
         {
           "name": "Rider Monument",
           "piece": 6
@@ -145,7 +145,7 @@
   "active_skill_resources": [
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 3
@@ -154,7 +154,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 6
@@ -163,7 +163,7 @@
     },
     {
       "qp": 120000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 3
@@ -172,7 +172,7 @@
     },
     {
       "qp": 160000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 6
@@ -185,7 +185,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 3
@@ -198,7 +198,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 6
@@ -211,7 +211,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Unlucky Bone",
           "piece": 15
@@ -224,7 +224,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Homunculus Baby",
           "piece": 9
@@ -237,7 +237,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -248,7 +248,7 @@
   "append_skill_resources": [
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 3
@@ -257,7 +257,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Cavalry",
           "piece": 6
@@ -266,7 +266,7 @@
     },
     {
       "qp": 120000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 3
@@ -275,7 +275,7 @@
     },
     {
       "qp": 160000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Cavalry",
           "piece": 6
@@ -288,7 +288,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 3
@@ -301,7 +301,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Cavalry",
           "piece": 6
@@ -314,7 +314,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Magical Cerebrospinal Fluid",
           "piece": 15
@@ -327,7 +327,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Stimulus Gunpowder",
           "piece": 27
@@ -340,7 +340,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

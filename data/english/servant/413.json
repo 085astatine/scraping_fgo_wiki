@@ -60,7 +60,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Forbidden Page",
           "piece": 10
@@ -73,7 +73,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Lamp of Demon Sealing",
           "piece": 10
@@ -86,7 +86,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Aurora Steel",
           "piece": 10
@@ -99,7 +99,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Comet Shard",
           "piece": 10
@@ -114,7 +114,7 @@
   "active_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Forbidden Page",
           "piece": 10
@@ -123,7 +123,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Octuplet Crystals",
           "piece": 10
@@ -132,7 +132,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Scarab of Wisdom",
           "piece": 12
@@ -141,7 +141,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Aurora Steel",
           "piece": 12
@@ -150,7 +150,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Divine Leyline Spiritron",
           "piece": 12
@@ -159,7 +159,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Rainbow Yarn",
           "piece": 15
@@ -168,7 +168,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Comet Shard",
           "piece": 15
@@ -177,7 +177,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Ether Photon Converger",
           "piece": 15
@@ -186,7 +186,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -197,7 +197,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Seashell of Reminiscence",
           "piece": 10
@@ -206,7 +206,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Snake Jewel",
           "piece": 10
@@ -215,7 +215,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Lamp of Demon Sealing",
           "piece": 12
@@ -224,7 +224,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "Dawnlight Reactor Core",
           "piece": 12
@@ -233,7 +233,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "Demonic Flame Hōzuki",
           "piece": 12
@@ -242,7 +242,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Tiny Bell of Amnesty",
           "piece": 15
@@ -251,7 +251,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Unforgettable Ashes",
           "piece": 15
@@ -260,7 +260,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "Flower of the End",
           "piece": 15
@@ -269,7 +269,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

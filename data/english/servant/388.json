@@ -61,9 +61,9 @@
       "name": "Serious Mode",
       "text_jp": "有能美少女編集者の本気のオフモード\n何に本気になっているかは言わぬが花",
       "text_en": "",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Magical Cerebrospinal Fluid",
             "piece": 10
@@ -87,7 +87,7 @@
   "ascension_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Forbidden Page",
           "piece": 8
@@ -100,7 +100,7 @@
     },
     {
       "qp": 150000,
-      "resources": [
+      "items": [
         {
           "name": "Chains of the Fool",
           "piece": 8
@@ -113,7 +113,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Seashell of Reminiscence",
           "piece": 8
@@ -126,7 +126,7 @@
     },
     {
       "qp": 1500000,
-      "resources": [
+      "items": [
         {
           "name": "Primordial Lanugo",
           "piece": 8
@@ -141,7 +141,7 @@
   "active_skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Forbidden Page",
           "piece": 8
@@ -150,7 +150,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Infinity Gear",
           "piece": 8
@@ -159,7 +159,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Chains of the Fool",
           "piece": 10
@@ -168,7 +168,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "Bloodstone Tear",
           "piece": 10
@@ -177,7 +177,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Seashell of Reminiscence",
           "piece": 10
@@ -186,7 +186,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Night-Weeping Iron Stake",
           "piece": 12
@@ -195,7 +195,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Arrowhead of Maledictions",
           "piece": 12
@@ -204,7 +204,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "Obsidian Edge",
           "piece": 12
@@ -213,7 +213,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -224,7 +224,7 @@
   "append_skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Dragon Fang",
           "piece": 8
@@ -233,7 +233,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Talon of Chaos",
           "piece": 8
@@ -242,7 +242,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Black Tallow",
           "piece": 10
@@ -251,7 +251,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "Primordial Lanugo",
           "piece": 10
@@ -260,7 +260,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Permafrost Ice Crystal",
           "piece": 10
@@ -269,7 +269,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Cursed Beast Cholecyst",
           "piece": 12
@@ -278,7 +278,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Dawnlight Reactor Core",
           "piece": 12
@@ -287,7 +287,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "Twilight Ceremonial Blade",
           "piece": 12
@@ -296,7 +296,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

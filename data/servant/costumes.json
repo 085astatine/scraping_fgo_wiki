@@ -6,7 +6,7 @@
     "flavor_text": "カルデアのみんなに選んでもらった\n初めての水着。2016年の思い出。",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "追憶の貝殻",
           "piece": 5
@@ -33,7 +33,7 @@
     "flavor_text": "メイヴ大監獄を支配する者の衣装。\n赤い看守服が実に似合っている。",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -60,7 +60,7 @@
     "flavor_text": "人類最古の体操服といっても過言では\nないのかもしれない。",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -87,7 +87,7 @@
     "flavor_text": "存在としての結びつきとして\n手元に在るべき霊衣。",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 10
@@ -114,7 +114,7 @@
     "flavor_text": "大切な友人たちがいたことを\n思い出させてくれる霊衣。",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -141,7 +141,7 @@
     "flavor_text": "ファヴニールが私にもっと黒に染まれと\n囁いてくるのよファヴニールが。",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "魔術髄液",
           "piece": 10
@@ -168,7 +168,7 @@
     "flavor_text": "———白い薔薇。一輪の。\n異世界の騎士によく似合うだろう。",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -195,7 +195,7 @@
     "flavor_text": "ダ・ヴィンチが改良した霊基外骨骼。\nアーマードとも呼ばれる。",
     "resource": {
       "qp": 0,
-      "resources": []
+      "items": []
     }
   },
   {
@@ -205,7 +205,7 @@
     "flavor_text": "巌窟王の夏の装い\n浮き輪が密かにお気に入りとのこと",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "宵哭きの鉄杭",
           "piece": 10
@@ -232,7 +232,7 @@
     "flavor_text": "無造作に着こなしているが、\nいずれも超高級ブランド品である",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -259,7 +259,7 @@
     "flavor_text": "BBによって強制的に着せられた霊衣\nだが、本人は割と気に入っている",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "万死の毒針",
           "piece": 10
@@ -286,7 +286,7 @@
     "flavor_text": "BB本来の肌色\n「紫外線は乙女の敵です！」",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 10
@@ -313,7 +313,7 @@
     "flavor_text": "BB本来の肌色\n「UVケアは乙女の味方です！」",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "魔術髄液",
           "piece": 10
@@ -340,7 +340,7 @@
     "flavor_text": "ケツァル・コアトル愛用のマスク\n身につけるだけで闘志が溢れてくる",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "八連双晶",
           "piece": 5
@@ -367,7 +367,7 @@
     "flavor_text": "真のサンタを目指した悪役の名残\n気を抜くと顔が怖くなってしまう",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -394,7 +394,7 @@
     "flavor_text": "あくまで衣装で、心身に影響はない\nと、某ステッキは主張している",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -421,7 +421,7 @@
     "flavor_text": "蝶モチーフのバーテン服\n教授本人のデザインセンスが光る一品",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "宵哭きの鉄杭",
           "piece": 10
@@ -448,7 +448,7 @@
     "flavor_text": "本人曰く、圏境極まれば\n視界はさほど重要では無いらしい",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "魔術髄液",
           "piece": 10
@@ -475,7 +475,7 @@
     "flavor_text": "色眼鏡は初動の視線を隠すのに役立つ\n老境に至れどその牙、いまだ衰えず",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -502,7 +502,7 @@
     "flavor_text": "シヴァ神とヴィシュヌ神の力を得た姿\n別名のスーパーカルナは自称である",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "八連双晶",
           "piece": 5
@@ -529,7 +529,7 @@
     "flavor_text": "白手巾にてつふりをつつみし\n景虎自慢のスタイリッシュ頭巾姿",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "枯淡勾玉",
           "piece": 5
@@ -556,7 +556,7 @@
     "flavor_text": "大胆に背中が全開になっているスーツ\n通気性はとても良い",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -583,7 +583,7 @@
     "flavor_text": "小太郎の用意した現代衣装\n市井に溶け込むは忍者の得手なり",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "万死の毒針",
           "piece": 10
@@ -610,7 +610,7 @@
     "flavor_text": "謎のマーリン専用服飾ブランド\nそういう事する、と円卓騎士は語る",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -637,7 +637,7 @@
     "flavor_text": "ウサ耳を着けた貴人\nクリティカルヒット",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 10
@@ -664,7 +664,7 @@
     "flavor_text": "ウサ耳を着けた貴人\nつうこんのいちげき",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -691,7 +691,7 @@
     "flavor_text": "ウサ耳を着けた貴人\nアルテミット・ニャン",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "閑古鈴",
           "piece": 5
@@ -718,7 +718,7 @@
     "flavor_text": "天魔と化した宮本武蔵、ではなく\nこちらは普通の日焼けとのコト",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "宵哭きの鉄杭",
           "piece": 10
@@ -745,7 +745,7 @@
     "flavor_text": "氷上のプリマドンナのお忍びモード\nその立ち振る舞いはまさにスタァ",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "永遠結氷",
           "piece": 5
@@ -772,7 +772,7 @@
     "flavor_text": "謎のヒロインXにとってすら謎な存在\nセイバー飽和現象が生んだパラレルX",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -799,7 +799,7 @@
     "flavor_text": "記憶すら残らぬ遥か時の彼方\n冷え切った宇宙にいた原初の女神の色彩",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -826,7 +826,7 @@
     "flavor_text": "霊基接触の影響か、この霊衣で\n戦闘すると言動に謎の変化が見られる",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -853,7 +853,7 @@
     "flavor_text": "ストリートという劇場に舞い降りた\n黒騎士は、シーンの最前線に立ち続ける",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -880,7 +880,7 @@
     "flavor_text": "どこかの戦場で着ていたお気に入りの服\n誰かが買ってくれたような憶えがある",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -907,7 +907,7 @@
     "flavor_text": "シオンの協力により、アトラス院の技術\nが組み込まれた霊基外骨骼",
     "resource": {
       "qp": 0,
-      "resources": []
+      "items": []
     }
   },
   {
@@ -917,7 +917,7 @@
     "flavor_text": "とある英霊が日本を訪れた時の衣装\nお供の猿は猿拳を使いこなす武闘派",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "閑古鈴",
           "piece": 5
@@ -944,7 +944,7 @@
     "flavor_text": "おしゃまなアクティブスタイル\n未完の馬にあった可能性のひとつ",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -971,7 +971,7 @@
     "flavor_text": "薔薇の皇帝のパーティードレス\nかの美神ヴィナスに喩えられる華やかさ",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -998,7 +998,7 @@
     "flavor_text": "カルデアパレスにいた酔いどれ侍の衣装\n風流人もかくやの粋で洒脱な羽織袴",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 10
@@ -1025,7 +1025,7 @@
     "flavor_text": "ポール・バニヤンのお祭り衣装\n血糊はベリーソース（自己申告）",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 10
@@ -1052,7 +1052,7 @@
     "flavor_text": "騎士王の纏う風の宝具\n主に聖剣の不可視化に用いられる",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -1079,7 +1079,7 @@
     "flavor_text": "愛しき者と過ごしたひと夏の記憶\nストールは自分で染めたらしい",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -1106,7 +1106,7 @@
     "flavor_text": "蘭陵王の涼やかな夏の衣装\n叡智の結晶はシグルド作",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -1133,7 +1133,7 @@
     "flavor_text": "とある夏の事件の時に来ていた衣装\nキャンプの引率者として参加していた",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -1160,7 +1160,7 @@
     "flavor_text": "マシュの新しい水着。今年は自分で可愛\nいと思ったものを選んだとのこと",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "追憶の貝殻",
           "piece": 5
@@ -1187,7 +1187,7 @@
     "flavor_text": "首切り、マッドに続く第三のバニー衣装\n本人は割と気に入っている",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -1214,7 +1214,7 @@
     "flavor_text": "浅葱の羽織袴。袴姿の新選組隊服\n任務によって使い分けていたとの事",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -1241,7 +1241,7 @@
     "flavor_text": "とある騎士が纏う執事服\n動きやすさと優美さを備えたデザイン",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -1268,7 +1268,7 @@
     "flavor_text": "坂田金時の頼光四天王としての姿\n大江山での決戦においても纏っていた",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "枯淡勾玉",
           "piece": 5
@@ -1295,7 +1295,7 @@
     "flavor_text": "伊吹童子の古き神としての姿\n自然の顕れとしての荒ぶる神、その分霊",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "混沌の爪",
           "piece": 5
@@ -1322,7 +1322,7 @@
     "flavor_text": "さらにテンションあがったカレン\nわからせる事は困難と思われる",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "宵哭きの鉄杭",
           "piece": 10
@@ -1349,7 +1349,7 @@
     "flavor_text": "とある微小特異点での天草四郎の衣装\nまず形から入りました、とは本人の言",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "魔術髄液",
           "piece": 10
@@ -1376,7 +1376,7 @@
     "flavor_text": "神の鞭のダンス衣装\n草原の少女に在り得た、可能性の一つ",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -1403,7 +1403,7 @@
     "flavor_text": "薔薇の皇帝のダンス衣装\nそのステップは軽やかにして優美",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -1430,7 +1430,7 @@
     "flavor_text": "可憐の女神が纏うダンス衣装\nその魅力を更に際立たせるきらめき",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "魔術髄液",
           "piece": 10
@@ -1457,7 +1457,7 @@
     "flavor_text": "源氏の若武者のダンス衣装\n和風意匠を織り込んだ豪華な一品",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -1484,7 +1484,7 @@
     "flavor_text": "蜜の女王のダンス衣装\n某光の御子特効霊衣、らしい？",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -1511,7 +1511,7 @@
     "flavor_text": "異端の魔術師のダンス衣装\nマハトマ的可愛さの集大成",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 10
@@ -1538,7 +1538,7 @@
     "flavor_text": "天空のファラオのダンス衣装\n本人は口にしないが大変お気に入り",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 10
@@ -1565,7 +1565,7 @@
     "flavor_text": "鬼の化生のダンス衣装\n時にはのんびり、はんなりと",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 10
@@ -1592,7 +1592,7 @@
     "flavor_text": "孤独な暗殺者のドレス衣装\nその笑顔は、あなたのために",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "万死の毒針",
           "piece": 10
@@ -1619,7 +1619,7 @@
     "flavor_text": "万能有能猫（？）のダンス衣装\nいわゆるダイナースタイルだワン☆",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "宵哭きの鉄杭",
           "piece": 10
@@ -1646,7 +1646,7 @@
     "flavor_text": "「旅」をテーマにしたダンス衣装\nアクティブ＆キュートなデザイン",
     "resource": {
       "qp": 0,
-      "resources": []
+      "items": []
     }
   },
   {
@@ -1656,7 +1656,7 @@
     "flavor_text": "救国の聖女のダンス衣装\nゴージャスかつ清楚な純白のドレス",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "ホムンクルスベビー",
           "piece": 5
@@ -1683,7 +1683,7 @@
     "flavor_text": "ある世界における最速の騎士の姿\nもっとも強く、美しい妖精騎士",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "夢幻の鱗粉",
           "piece": 5
@@ -1710,7 +1710,7 @@
     "flavor_text": "ある世界における最速の騎士の姿\n隠された素顔は気ままな百面相である",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "赦免の小鐘",
           "piece": 5
@@ -1737,7 +1737,7 @@
     "flavor_text": "希望の地の門番として現れる竜の影。\n白き竜と赤き竜は相克し、また同一。",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -1764,7 +1764,7 @@
     "flavor_text": "楽園の妖精の統治者としての姿\n最果ての地から来襲した、冷たい冬の嵐",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "追憶の貝殻",
           "piece": 5
@@ -1791,7 +1791,7 @@
     "flavor_text": "驚くべきことに、趣味服以外のセンスは\n大変良好だった大海賊である",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 10
@@ -1818,7 +1818,7 @@
     "flavor_text": "彗星走法は戦場を選ばず\n当然、海でも人類最速の座は揺るがない",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -1845,7 +1845,7 @@
     "flavor_text": "アマゾネス.comで購入した、動き易さと\nファッション性を兼ね備えた外出着",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -1872,7 +1872,7 @@
     "flavor_text": "ツケ払いで買うたイケちょるスーツ\n酒に博打に派手に遊びまわるぜよ！",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 10
@@ -1899,7 +1899,7 @@
     "flavor_text": "ガウェインの眼鏡。領主としての知性が\n光る、チェーンの付いた一品",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -1926,7 +1926,7 @@
     "flavor_text": "斎藤一の眼鏡\nヘラヘラが真面目そうに見えなくもない",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 5
@@ -1953,7 +1953,7 @@
     "flavor_text": "モードレッドの眼鏡\n赤いフレームがチャームポイント",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 10
@@ -1980,7 +1980,7 @@
     "flavor_text": "織田信勝の眼鏡\n姉上にもかけてほしいクラシックモデル",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "万死の毒針",
           "piece": 10
@@ -2007,7 +2007,7 @@
     "flavor_text": "エルキドゥの眼鏡\nスタイリッシュなハーフリムデザイン",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -2034,7 +2034,7 @@
     "flavor_text": "施しの英雄がなぜか持参したサングラス\nダークでファイナルでゴッド",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -2061,7 +2061,7 @@
     "flavor_text": "ネモの眼鏡。フレームのシルバーが\nワンポイント。似合いすぎる",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -2088,7 +2088,7 @@
     "flavor_text": "メドゥーサの眼鏡\nなぜかとても馴染む、とは本人の弁",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "宵哭きの鉄杭",
           "piece": 10
@@ -2115,7 +2115,7 @@
     "flavor_text": "パラケルススの眼鏡\n実は一種の魔術礼装で拡大機能がある",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "魔術髄液",
           "piece": 10
@@ -2142,7 +2142,7 @@
     "flavor_text": "謎のマーリン専用服飾ブランドの新作\n黙っていればグランド素敵なお兄さん",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 10
@@ -2169,7 +2169,7 @@
     "flavor_text": "サンソンの眼鏡。普段は隠している\n優しさがにじみ出る",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -2196,7 +2196,7 @@
     "flavor_text": "生徒会長モードのアルジュナ\n普段より少しだけ表情が柔らかい",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "禁断の頁",
           "piece": 5
@@ -2223,7 +2223,7 @@
     "flavor_text": "学生服と眼鏡を着用したアルジュナ\n本人曰く少し浮かれている状態らしい",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "禁断の頁",
           "piece": 5
@@ -2250,7 +2250,7 @@
     "flavor_text": "クー・フーリン〔オルタ〕の眼鏡\n理系ギャングの趣がたまらない",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 10
@@ -2277,7 +2277,7 @@
     "flavor_text": "女神アテナから下賜された神体結界\n兜は所有者の意思により自在に開閉可能",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "隕蹄鉄",
           "piece": 5
@@ -2304,7 +2304,7 @@
     "flavor_text": "兜を開くと胸部装甲も連動して開く仕様\n何かしらの設計意図があるようだが……",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "巨人の指輪",
           "piece": 5
@@ -2331,7 +2331,7 @@
     "flavor_text": "カルデア救護班の夏の装い\nバッグの中身は開かない方が良いらしい",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 10
@@ -2358,7 +2358,7 @@
     "flavor_text": "修練時代の服を現代仕様にしたもの\n身軽さが身上の素晴らしい装い",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "万死の毒針",
           "piece": 10
@@ -2385,7 +2385,7 @@
     "flavor_text": "時折奇妙な朝顔が表面に現れるが、\n言うまでもなく式神である",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 10
@@ -2412,7 +2412,7 @@
     "flavor_text": "スルーズと同時期に製造された個体\n作戦参謀的な役割を有している",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 10
@@ -2439,7 +2439,7 @@
     "flavor_text": "ヒルドと同時期の製造個体\nなお覚醒時期はオルトリンデと同じ",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 10
@@ -2466,7 +2466,7 @@
     "flavor_text": "単独行動向きの個体\nオルトリンデと同時期に製造された",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 10
@@ -2493,7 +2493,7 @@
     "flavor_text": "夏モードの伊吹童子の荒ぶる姿\n第三再臨の姿よりもさらに荒ぶっている",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 10
@@ -2520,7 +2520,7 @@
     "flavor_text": "沖田オルタの霊基を緊急対応で制御中\n実のところ煉獄本来の役割ともいえる",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -2547,7 +2547,7 @@
     "flavor_text": "神殿を抜け出す先輩にくっついて国を\n巡った遠く昨日のようなあの頃",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 10
@@ -2574,7 +2574,7 @@
     "flavor_text": "寒冷地用の白コートを脱いだ姿\n敏腕秘書はTPOを弁えるのである",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -2601,7 +2601,7 @@
     "flavor_text": "第三冥界の番人としての姿\n自称、悪辣で淫蕩で強欲な女神",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "黒曜鋭刃",
           "piece": 10
@@ -2628,7 +2628,7 @@
     "flavor_text": "第一冥界の番人としての姿\n悪い子プロテアだが、根はやはりプロテア",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "赦免の小鐘",
           "piece": 10
@@ -2655,7 +2655,7 @@
     "flavor_text": "第一冥界の番人としての姿\n怪獣衣装が増えた、と割りと本人には好評",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "忘れじの灰",
           "piece": 10
@@ -2682,7 +2682,7 @@
     "flavor_text": "『ジャガーの戦士』たちの王であって\nジャガーそのものなワケではない",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "黒曜鋭刃",
           "piece": 10
@@ -2709,7 +2709,7 @@
     "flavor_text": "円卓騎士の夏の装い\n節度を弁えるながらも開放感のある姿",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "黄昏の儀式剣",
           "piece": 10
@@ -2736,7 +2736,7 @@
     "flavor_text": "円卓騎士の夏の装い。ここまでするのが\nランスロットなんだよね",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "八連双晶",
           "piece": 5
@@ -2763,7 +2763,7 @@
     "flavor_text": "ベディヴィエールが買ってくれたアロハ\n皆で遊ぶためにゴーグルは常時複数携帯",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "禍罪の矢尻",
           "piece": 5
@@ -2790,7 +2790,7 @@
     "flavor_text": "カルデア食堂で拝借したパーカー\nアイスと共に夏を満喫するスタイル",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -2817,7 +2817,7 @@
     "flavor_text": "有能美少女編集者の本気のオフモード\n何に本気になっているかは言わぬが花",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "魔術髄液",
           "piece": 10
@@ -2844,7 +2844,7 @@
     "flavor_text": "ケルトのスカサハと選んだ水着\nあまり人前では着られていなかった",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "神脈霊子",
           "piece": 5
@@ -2871,7 +2871,7 @@
     "flavor_text": "現地購入した黒のサマーパーカー\n正直暑い",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "忘れじの灰",
           "piece": 10
@@ -2898,7 +2898,7 @@
     "flavor_text": "大精霊たるワンジナの惑星観察モード\n交信用の表情機能は意外とパターン豊か",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "無間の歯車",
           "piece": 5
@@ -2925,7 +2925,7 @@
     "flavor_text": "シャルルマーニュの変装衣装\n色々隠せていないが本人はお気に入り",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 10
@@ -2952,7 +2952,7 @@
     "flavor_text": "竜の少女の姫衣装\n見た目とは裏腹に相変わらずの強火属性",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "蛇の宝玉",
           "piece": 5
@@ -2979,7 +2979,7 @@
     "flavor_text": "真の英雄の夏コーデ\n太陽神の加護でUV対策はバッチリ",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 10
@@ -3006,7 +3006,7 @@
     "flavor_text": "マーリンからもらった夏の装い\n機動力の向上が期待できるようだ",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "大騎士勲章",
           "piece": 10
@@ -3033,7 +3033,7 @@
     "flavor_text": "伊達男な海賊のサマーバージョン\n陽気な笑顔で夏のメカクレを求める",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "愚者の鎖",
           "piece": 10
@@ -3060,7 +3060,7 @@
     "flavor_text": "色々とオープンにした代行者\n月のお姫様に見せつけてあげよう",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "黄昏の儀式剣",
           "piece": 10
@@ -3087,7 +3087,7 @@
     "flavor_text": "メガネを外した代行者\nオフの素顔でいつもと違う雰囲気に",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "黒曜鋭刃",
           "piece": 10
@@ -3114,7 +3114,7 @@
     "flavor_text": "初期化状態で起動したパッションリップ\n片鱗はあるものの、まだエゴは持たない",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "宵哭きの鉄杭",
           "piece": 10
@@ -3141,7 +3141,7 @@
     "flavor_text": "翅の氏族の、とある妖精の姿\n妖精國随一の知恵者、蕗下の出会いの姫",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虹の糸玉",
           "piece": 5
@@ -3168,7 +3168,7 @@
     "flavor_text": "拓いた道に光を手向け\nただひとり闇へと向かう、鉱員の装い",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "無間の歯車",
           "piece": 5
@@ -3195,7 +3195,7 @@
     "flavor_text": "メガネをかけた刑部姫\nお姫様オーラをシャットダウン",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -3222,7 +3222,7 @@
     "flavor_text": "メガネをかけた刑部姫\n姫様ムーブはしばらくお休み",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -3249,7 +3249,7 @@
     "flavor_text": "自ら選び、導き出した新たなマシュ\nカルデアが保証する未来を示す盾と剣",
     "resource": {
       "qp": 0,
-      "resources": []
+      "items": []
     }
   },
   {
@@ -3259,7 +3259,7 @@
     "flavor_text": "無常の果実が望んだ姿\n願いを許された、もう一人の自分",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 10
@@ -3286,7 +3286,7 @@
     "flavor_text": "ゼウス・サバージオス\n宙を夢見て、果てた、仮初めの現身",
     "resource": {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "魔術髄液",
           "piece": 10

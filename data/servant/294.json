@@ -87,7 +87,7 @@
       "name": "メガネ霊衣：織田金縁丸眼鏡",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "万死の毒針",
             "piece": 10
@@ -111,7 +111,7 @@
   "ascension_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "アーチャーピース",
           "piece": 2
@@ -120,7 +120,7 @@
     },
     {
       "qp": 30000,
-      "resources": [
+      "items": [
         {
           "name": "アーチャーピース",
           "piece": 4
@@ -133,7 +133,7 @@
     },
     {
       "qp": 90000,
-      "resources": [
+      "items": [
         {
           "name": "アーチャーモニュメント",
           "piece": 2
@@ -150,7 +150,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "アーチャーモニュメント",
           "piece": 4
@@ -169,7 +169,7 @@
   "skill_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "弓の輝石",
           "piece": 2
@@ -178,7 +178,7 @@
     },
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "弓の輝石",
           "piece": 4
@@ -187,7 +187,7 @@
     },
     {
       "qp": 60000,
-      "resources": [
+      "items": [
         {
           "name": "弓の魔石",
           "piece": 2
@@ -196,7 +196,7 @@
     },
     {
       "qp": 80000,
-      "resources": [
+      "items": [
         {
           "name": "弓の魔石",
           "piece": 4
@@ -209,7 +209,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "弓の秘石",
           "piece": 2
@@ -222,7 +222,7 @@
     },
     {
       "qp": 250000,
-      "resources": [
+      "items": [
         {
           "name": "弓の秘石",
           "piece": 4
@@ -235,7 +235,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 7
@@ -248,7 +248,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "励振火薬",
           "piece": 18
@@ -261,7 +261,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -272,7 +272,7 @@
   "append_skill_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "弓の輝石",
           "piece": 2
@@ -281,7 +281,7 @@
     },
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "弓の輝石",
           "piece": 4
@@ -290,7 +290,7 @@
     },
     {
       "qp": 60000,
-      "resources": [
+      "items": [
         {
           "name": "弓の魔石",
           "piece": 2
@@ -299,7 +299,7 @@
     },
     {
       "qp": 80000,
-      "resources": [
+      "items": [
         {
           "name": "弓の魔石",
           "piece": 4
@@ -312,7 +312,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "弓の秘石",
           "piece": 2
@@ -325,7 +325,7 @@
     },
     {
       "qp": 250000,
-      "resources": [
+      "items": [
         {
           "name": "弓の秘石",
           "piece": 4
@@ -338,7 +338,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "万死の毒針",
           "piece": 8
@@ -351,7 +351,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "枯淡勾玉",
           "piece": 6
@@ -364,7 +364,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

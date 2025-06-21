@@ -108,7 +108,7 @@
       "name": "魅惑の獄長ルック",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "愚者の鎖",
             "piece": 10
@@ -133,7 +133,7 @@
       "name": "愛しき私の敵対者",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "愚者の鎖",
             "piece": 10
@@ -157,7 +157,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーピース",
           "piece": 5
@@ -166,7 +166,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーピース",
           "piece": 12
@@ -179,7 +179,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーモニュメント",
           "piece": 5
@@ -196,7 +196,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーモニュメント",
           "piece": 12
@@ -215,7 +215,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 5
@@ -224,7 +224,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 12
@@ -233,7 +233,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 5
@@ -242,7 +242,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 12
@@ -255,7 +255,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 5
@@ -268,7 +268,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 12
@@ -281,7 +281,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "蛇の宝玉",
           "piece": 8
@@ -294,7 +294,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "ゴーストランタン",
           "piece": 18
@@ -307,7 +307,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -318,7 +318,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 5
@@ -327,7 +327,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 12
@@ -336,7 +336,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 5
@@ -345,7 +345,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 12
@@ -358,7 +358,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 5
@@ -371,7 +371,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 12
@@ -384,7 +384,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "精霊根",
           "piece": 4
@@ -397,7 +397,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "奇奇神酒",
           "piece": 8
@@ -410,7 +410,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

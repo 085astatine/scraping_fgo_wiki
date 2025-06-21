@@ -85,7 +85,7 @@
   "ascension_resources": [
     {
       "qp": 10000,
-      "resources": [
+      "items": [
         {
           "name": "ランサーピース",
           "piece": 3
@@ -94,7 +94,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "ランサーピース",
           "piece": 6
@@ -107,7 +107,7 @@
     },
     {
       "qp": 150000,
-      "resources": [
+      "items": [
         {
           "name": "ランサーモニュメント",
           "piece": 3
@@ -124,7 +124,7 @@
     },
     {
       "qp": 450000,
-      "resources": [
+      "items": [
         {
           "name": "ランサーモニュメント",
           "piece": 6
@@ -143,7 +143,7 @@
   "skill_resources": [
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "槍の輝石",
           "piece": 3
@@ -152,7 +152,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "槍の輝石",
           "piece": 6
@@ -161,7 +161,7 @@
     },
     {
       "qp": 120000,
-      "resources": [
+      "items": [
         {
           "name": "槍の魔石",
           "piece": 3
@@ -170,7 +170,7 @@
     },
     {
       "qp": 160000,
-      "resources": [
+      "items": [
         {
           "name": "槍の魔石",
           "piece": 6
@@ -183,7 +183,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "槍の秘石",
           "piece": 3
@@ -196,7 +196,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "槍の秘石",
           "piece": 6
@@ -209,7 +209,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "凶骨",
           "piece": 15
@@ -222,7 +222,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 42
@@ -231,7 +231,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -242,7 +242,7 @@
   "append_skill_resources": [
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "槍の輝石",
           "piece": 3
@@ -251,7 +251,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "槍の輝石",
           "piece": 6
@@ -260,7 +260,7 @@
     },
     {
       "qp": 120000,
-      "resources": [
+      "items": [
         {
           "name": "槍の魔石",
           "piece": 3
@@ -269,7 +269,7 @@
     },
     {
       "qp": 160000,
-      "resources": [
+      "items": [
         {
           "name": "槍の魔石",
           "piece": 6
@@ -282,7 +282,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "槍の秘石",
           "piece": 3
@@ -295,7 +295,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "槍の秘石",
           "piece": 6
@@ -308,7 +308,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "枯淡勾玉",
           "piece": 5
@@ -321,7 +321,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "奇奇神酒",
           "piece": 4
@@ -334,7 +334,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

@@ -94,7 +94,7 @@
       "name": "常夏の水着",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "追憶の貝殻",
             "piece": 5
@@ -119,7 +119,7 @@
       "name": "オルテナウス",
       "resource": {
         "qp": 0,
-        "resources": []
+        "items": []
       }
     },
     {
@@ -127,7 +127,7 @@
       "name": "オルテナウス（改修型）",
       "resource": {
         "qp": 0,
-        "resources": []
+        "items": []
       }
     },
     {
@@ -135,7 +135,7 @@
       "name": "常夏の水着Ver.02",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "追憶の貝殻",
             "piece": 5
@@ -160,7 +160,7 @@
       "name": "Bright Voyager",
       "resource": {
         "qp": 0,
-        "resources": []
+        "items": []
       }
     },
     {
@@ -168,32 +168,32 @@
       "name": "パラディーン",
       "resource": {
         "qp": 0,
-        "resources": []
+        "items": []
       }
     }
   ],
   "ascension_resources": [
     {
       "qp": 0,
-      "resources": []
+      "items": []
     },
     {
       "qp": 0,
-      "resources": []
+      "items": []
     },
     {
       "qp": 0,
-      "resources": []
+      "items": []
     },
     {
       "qp": 0,
-      "resources": []
+      "items": []
     }
   ],
   "skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 5
@@ -202,7 +202,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 5
@@ -211,7 +211,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 5
@@ -220,7 +220,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "八連双晶",
           "piece": 5
@@ -229,7 +229,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "虚影の塵",
           "piece": 5
@@ -238,7 +238,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "無間の歯車",
           "piece": 5
@@ -247,7 +247,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "鳳凰の羽根",
           "piece": 5
@@ -256,7 +256,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の逆鱗",
           "piece": 5
@@ -265,7 +265,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -276,7 +276,7 @@
   "append_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "英雄の証",
           "piece": 5
@@ -285,7 +285,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "竜の牙",
           "piece": 5
@@ -294,7 +294,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "世界樹の種",
           "piece": 5
@@ -303,7 +303,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "八連双晶",
           "piece": 5
@@ -312,7 +312,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "大騎士勲章",
           "piece": 5
@@ -321,7 +321,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "原初の産毛",
           "piece": 5
@@ -330,7 +330,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "精霊根",
           "piece": 5
@@ -339,7 +339,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "智慧のスカラベ",
           "piece": 5
@@ -348,7 +348,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

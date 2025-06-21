@@ -85,7 +85,7 @@
   "ascension_resources": [
     {
       "qp": 30000,
-      "resources": [
+      "items": [
         {
           "name": "キャスターピース",
           "piece": 4
@@ -94,7 +94,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "キャスターピース",
           "piece": 8
@@ -107,7 +107,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "キャスターモニュメント",
           "piece": 4
@@ -124,7 +124,7 @@
     },
     {
       "qp": 900000,
-      "resources": [
+      "items": [
         {
           "name": "キャスターモニュメント",
           "piece": 8
@@ -143,7 +143,7 @@
   "skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "術の輝石",
           "piece": 4
@@ -152,7 +152,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "術の輝石",
           "piece": 8
@@ -161,7 +161,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "術の魔石",
           "piece": 4
@@ -170,7 +170,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "術の魔石",
           "piece": 8
@@ -183,7 +183,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "術の秘石",
           "piece": 4
@@ -196,7 +196,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "術の秘石",
           "piece": 8
@@ -209,7 +209,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "八連双晶",
           "piece": 7
@@ -222,7 +222,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "永遠結氷",
           "piece": 12
@@ -235,7 +235,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -246,7 +246,7 @@
   "append_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "術の輝石",
           "piece": 4
@@ -255,7 +255,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "術の輝石",
           "piece": 8
@@ -264,7 +264,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "術の魔石",
           "piece": 4
@@ -273,7 +273,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "術の魔石",
           "piece": 8
@@ -286,7 +286,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "術の秘石",
           "piece": 4
@@ -299,7 +299,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "術の秘石",
           "piece": 8
@@ -312,7 +312,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "智慧のスカラベ",
           "piece": 3
@@ -325,7 +325,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "真理の卵",
           "piece": 5
@@ -338,7 +338,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

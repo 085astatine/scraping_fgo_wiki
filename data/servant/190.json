@@ -92,7 +92,7 @@
   "ascension_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Bペレット",
           "piece": 1
@@ -101,7 +101,7 @@
     },
     {
       "qp": 150000,
-      "resources": [
+      "items": [
         {
           "name": "Bペレット",
           "piece": 1
@@ -110,7 +110,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Bペレット",
           "piece": 1
@@ -119,7 +119,7 @@
     },
     {
       "qp": 1500000,
-      "resources": [
+      "items": [
         {
           "name": "Bペレット",
           "piece": 1
@@ -130,7 +130,7 @@
   "skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 4
@@ -143,7 +143,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 10
@@ -156,7 +156,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 4
@@ -169,7 +169,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 10
@@ -182,7 +182,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 4
@@ -195,7 +195,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 10
@@ -208,7 +208,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "血の涙石",
           "piece": 4
@@ -221,7 +221,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の逆鱗",
           "piece": 7
@@ -234,7 +234,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -245,7 +245,7 @@
   "append_skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 4
@@ -258,7 +258,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 10
@@ -271,7 +271,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 4
@@ -284,7 +284,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 10
@@ -297,7 +297,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 4
@@ -310,7 +310,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 10
@@ -323,7 +323,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "無間の歯車",
           "piece": 6
@@ -336,7 +336,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "暁光炉心",
           "piece": 10
@@ -349,7 +349,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

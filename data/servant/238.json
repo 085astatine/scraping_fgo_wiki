@@ -108,7 +108,7 @@
       "name": "トラトラウキの番人",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "赦免の小鐘",
             "piece": 10
@@ -133,7 +133,7 @@
       "name": "ダーク・プロテア",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "忘れじの灰",
             "piece": 10
@@ -157,7 +157,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーピース",
           "piece": 5
@@ -170,7 +170,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーピース",
           "piece": 12
@@ -183,7 +183,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーモニュメント",
           "piece": 5
@@ -196,7 +196,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーモニュメント",
           "piece": 12
@@ -211,7 +211,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 5
@@ -224,7 +224,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 12
@@ -237,7 +237,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 5
@@ -250,7 +250,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 12
@@ -263,7 +263,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 5
@@ -276,7 +276,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 12
@@ -289,7 +289,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "巨人の指輪",
           "piece": 5
@@ -302,7 +302,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "竜の逆鱗",
           "piece": 9
@@ -315,7 +315,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -326,7 +326,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 5
@@ -339,7 +339,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 12
@@ -352,7 +352,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 5
@@ -365,7 +365,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 12
@@ -378,7 +378,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 5
@@ -391,7 +391,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 12
@@ -404,7 +404,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "ホムンクルスベビー",
           "piece": 8
@@ -417,7 +417,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "九十九鏡",
           "piece": 9
@@ -430,7 +430,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

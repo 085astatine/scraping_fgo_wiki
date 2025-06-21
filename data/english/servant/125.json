@@ -64,7 +64,7 @@
   "ascension_resources": [
     {
       "qp": 30000,
-      "resources": [
+      "items": [
         {
           "name": "Archer Piece",
           "piece": 4
@@ -73,7 +73,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Archer Piece",
           "piece": 8
@@ -86,7 +86,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Archer Monument",
           "piece": 4
@@ -103,7 +103,7 @@
     },
     {
       "qp": 900000,
-      "resources": [
+      "items": [
         {
           "name": "Archer Monument",
           "piece": 8
@@ -122,7 +122,7 @@
   "active_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 4
@@ -131,7 +131,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 8
@@ -140,7 +140,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 4
@@ -149,7 +149,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 8
@@ -162,7 +162,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 4
@@ -175,7 +175,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 8
@@ -188,7 +188,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Yggdrasil Seed",
           "piece": 8
@@ -201,7 +201,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Octuplet Crystals",
           "piece": 12
@@ -214,7 +214,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -225,7 +225,7 @@
   "append_skill_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 4
@@ -234,7 +234,7 @@
     },
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Bows",
           "piece": 8
@@ -243,7 +243,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 4
@@ -252,7 +252,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Bows",
           "piece": 8
@@ -265,7 +265,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 4
@@ -278,7 +278,7 @@
     },
     {
       "qp": 1250000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Bows",
           "piece": 8
@@ -291,7 +291,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Spirit Root",
           "piece": 3
@@ -304,7 +304,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "Kotan Magatama",
           "piece": 12
@@ -317,7 +317,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

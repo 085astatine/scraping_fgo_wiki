@@ -65,9 +65,9 @@
       "name": "Rimless Round",
       "text_jp": "サンソンの眼鏡。普段は隠している\n優しさがにじみ出る",
       "text_en": "Sanson's glasses. Something about them really brings out the kind nature he tries so hard to hide.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Chains of the Fool",
             "piece": 10
@@ -91,7 +91,7 @@
   "ascension_resources": [
     {
       "qp": 15000,
-      "resources": [
+      "items": [
         {
           "name": "Assassin Piece",
           "piece": 3
@@ -100,7 +100,7 @@
     },
     {
       "qp": 45000,
-      "resources": [
+      "items": [
         {
           "name": "Assassin Piece",
           "piece": 6
@@ -113,7 +113,7 @@
     },
     {
       "qp": 150000,
-      "resources": [
+      "items": [
         {
           "name": "Assassin Monument",
           "piece": 3
@@ -130,7 +130,7 @@
     },
     {
       "qp": 450000,
-      "resources": [
+      "items": [
         {
           "name": "Assassin Monument",
           "piece": 6
@@ -149,7 +149,7 @@
   "active_skill_resources": [
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Killing",
           "piece": 3
@@ -158,7 +158,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Killing",
           "piece": 6
@@ -167,7 +167,7 @@
     },
     {
       "qp": 120000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Killing",
           "piece": 3
@@ -176,7 +176,7 @@
     },
     {
       "qp": 160000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Killing",
           "piece": 6
@@ -189,7 +189,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Killing",
           "piece": 3
@@ -202,7 +202,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Killing",
           "piece": 6
@@ -215,7 +215,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Forbidden Page",
           "piece": 3
@@ -228,7 +228,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Forbidden Page",
           "piece": 9
@@ -241,7 +241,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -252,7 +252,7 @@
   "append_skill_resources": [
     {
       "qp": 20000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Killing",
           "piece": 3
@@ -261,7 +261,7 @@
     },
     {
       "qp": 40000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Killing",
           "piece": 6
@@ -270,7 +270,7 @@
     },
     {
       "qp": 120000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Killing",
           "piece": 3
@@ -279,7 +279,7 @@
     },
     {
       "qp": 160000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Killing",
           "piece": 6
@@ -292,7 +292,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Killing",
           "piece": 3
@@ -305,7 +305,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Killing",
           "piece": 6
@@ -318,7 +318,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "Bloodstone Tear",
           "piece": 3
@@ -331,7 +331,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "Night-Weeping Iron Stake",
           "piece": 27
@@ -344,7 +344,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1

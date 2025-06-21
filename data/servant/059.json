@@ -101,7 +101,7 @@
       "name": "Prove",
       "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "ホムンクルスベビー",
             "piece": 5
@@ -125,7 +125,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーピース",
           "piece": 5
@@ -142,7 +142,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーピース",
           "piece": 5
@@ -163,7 +163,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "セイバーモニュメント",
           "piece": 5
@@ -180,7 +180,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "ライダーモニュメント",
           "piece": 5
@@ -203,7 +203,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 5
@@ -220,7 +220,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 5
@@ -241,7 +241,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 5
@@ -258,7 +258,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 5
@@ -279,7 +279,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 5
@@ -296,7 +296,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 5
@@ -317,7 +317,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "蛮神の心臓",
           "piece": 5
@@ -326,7 +326,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "蛮神の心臓",
           "piece": 15
@@ -335,7 +335,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -346,7 +346,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の輝石",
           "piece": 5
@@ -363,7 +363,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "騎の輝石",
           "piece": 5
@@ -384,7 +384,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "剣の魔石",
           "piece": 5
@@ -401,7 +401,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "騎の魔石",
           "piece": 5
@@ -422,7 +422,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "剣の秘石",
           "piece": 5
@@ -439,7 +439,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "騎の秘石",
           "piece": 5
@@ -460,7 +460,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "精霊根",
           "piece": 5
@@ -469,7 +469,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "精霊根",
           "piece": 15
@@ -478,7 +478,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

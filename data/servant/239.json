@@ -85,7 +85,7 @@
   "ascension_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "アサシンピース",
           "piece": 5
@@ -94,7 +94,7 @@
     },
     {
       "qp": 300000,
-      "resources": [
+      "items": [
         {
           "name": "アサシンピース",
           "piece": 12
@@ -107,7 +107,7 @@
     },
     {
       "qp": 1000000,
-      "resources": [
+      "items": [
         {
           "name": "アサシンモニュメント",
           "piece": 5
@@ -124,7 +124,7 @@
     },
     {
       "qp": 3000000,
-      "resources": [
+      "items": [
         {
           "name": "アサシンモニュメント",
           "piece": 12
@@ -143,7 +143,7 @@
   "skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "殺の輝石",
           "piece": 5
@@ -152,7 +152,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "殺の輝石",
           "piece": 12
@@ -161,7 +161,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "殺の魔石",
           "piece": 5
@@ -170,7 +170,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "殺の魔石",
           "piece": 12
@@ -183,7 +183,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "殺の秘石",
           "piece": 5
@@ -196,7 +196,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "殺の秘石",
           "piece": 12
@@ -209,7 +209,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "血の涙石",
           "piece": 6
@@ -222,7 +222,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "蛮神の心臓",
           "piece": 8
@@ -235,7 +235,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1
@@ -246,7 +246,7 @@
   "append_skill_resources": [
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "殺の輝石",
           "piece": 5
@@ -255,7 +255,7 @@
     },
     {
       "qp": 400000,
-      "resources": [
+      "items": [
         {
           "name": "殺の輝石",
           "piece": 12
@@ -264,7 +264,7 @@
     },
     {
       "qp": 1200000,
-      "resources": [
+      "items": [
         {
           "name": "殺の魔石",
           "piece": 5
@@ -273,7 +273,7 @@
     },
     {
       "qp": 1600000,
-      "resources": [
+      "items": [
         {
           "name": "殺の魔石",
           "piece": 12
@@ -286,7 +286,7 @@
     },
     {
       "qp": 4000000,
-      "resources": [
+      "items": [
         {
           "name": "殺の秘石",
           "piece": 5
@@ -299,7 +299,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "殺の秘石",
           "piece": 12
@@ -312,7 +312,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "ホムンクルスベビー",
           "piece": 10
@@ -325,7 +325,7 @@
     },
     {
       "qp": 12000000,
-      "resources": [
+      "items": [
         {
           "name": "九十九鏡",
           "piece": 8
@@ -338,7 +338,7 @@
     },
     {
       "qp": 20000000,
-      "resources": [
+      "items": [
         {
           "name": "伝承結晶",
           "piece": 1

@@ -61,9 +61,9 @@
       "name": "Holiday Memories Style",
       "text_jp": "神殿を抜け出す先輩にくっついて国を\n巡った遠く昨日の事のようなあの頃",
       "text_en": "A memory of sneaking out of the shrine and traveling the countryside with her mentor. A faraway yesterday.",
-      "resources": {
+      "resource": {
         "qp": 3000000,
-        "resources": [
+        "items": [
           {
             "name": "Yggdrasil Seed",
             "piece": 10
@@ -87,7 +87,7 @@
   "ascension_resources": [
     {
       "qp": 50000,
-      "resources": [
+      "items": [
         {
           "name": "Dusk Magatama",
           "piece": 1
@@ -96,7 +96,7 @@
     },
     {
       "qp": 150000,
-      "resources": [
+      "items": [
         {
           "name": "Dusk Magatama",
           "piece": 1
@@ -105,7 +105,7 @@
     },
     {
       "qp": 500000,
-      "resources": [
+      "items": [
         {
           "name": "Dusk Magatama",
           "piece": 1
@@ -114,7 +114,7 @@
     },
     {
       "qp": 1500000,
-      "resources": [
+      "items": [
         {
           "name": "Dusk Magatama",
           "piece": 1
@@ -125,7 +125,7 @@
   "active_skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Spells",
           "piece": 4
@@ -142,7 +142,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Swords",
           "piece": 4
@@ -163,7 +163,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Spells",
           "piece": 4
@@ -180,7 +180,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Swords",
           "piece": 4
@@ -201,7 +201,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Spells",
           "piece": 4
@@ -218,7 +218,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Swords",
           "piece": 4
@@ -239,7 +239,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Kotan Magatama",
           "piece": 10
@@ -248,7 +248,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "Demonic Flame Hōzuki",
           "piece": 12
@@ -257,7 +257,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
@@ -268,7 +268,7 @@
   "append_skill_resources": [
     {
       "qp": 100000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Spells",
           "piece": 4
@@ -285,7 +285,7 @@
     },
     {
       "qp": 200000,
-      "resources": [
+      "items": [
         {
           "name": "Shining Gem of Swords",
           "piece": 4
@@ -306,7 +306,7 @@
     },
     {
       "qp": 600000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Spells",
           "piece": 4
@@ -323,7 +323,7 @@
     },
     {
       "qp": 800000,
-      "resources": [
+      "items": [
         {
           "name": "Magic Gem of Swords",
           "piece": 4
@@ -344,7 +344,7 @@
     },
     {
       "qp": 2000000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Spells",
           "piece": 4
@@ -361,7 +361,7 @@
     },
     {
       "qp": 2500000,
-      "resources": [
+      "items": [
         {
           "name": "Secret Gem of Swords",
           "piece": 4
@@ -382,7 +382,7 @@
     },
     {
       "qp": 5000000,
-      "resources": [
+      "items": [
         {
           "name": "Ghost Lantern",
           "piece": 10
@@ -391,7 +391,7 @@
     },
     {
       "qp": 6000000,
-      "resources": [
+      "items": [
         {
           "name": "Unforgettable Ashes",
           "piece": 12
@@ -400,7 +400,7 @@
     },
     {
       "qp": 10000000,
-      "resources": [
+      "items": [
         {
           "name": "Crystallized Lore",
           "piece": 1
