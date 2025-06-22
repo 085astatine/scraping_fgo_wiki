@@ -30,24 +30,15 @@ def main() -> None:
     # session
     session = create_session(logger=logger)
     # servant links
-    servant_links_path = pathlib.Path("data/english/servant/link.json")
-    servant_links = get_servant_links(
-        servant_links_path,
+    links_path = pathlib.Path("data/english/servant/link.json")
+    links = get_servant_links(
+        links_path,
         session,
         logger,
         option,
     )
     if option.targets:
-        servant_links = {target: servant_links[target] for target in option.targets}
-    # servant data
-    servant_data_directory = pathlib.Path("data/english/servant/data")
-    servant_data = get_servant_data(
-        session,
-        servant_data_directory,
-        servant_links,
-        logger,
-        option,
-    )
+        links = [link for link in links if link["id"] in option.targets]
     # patch
     patch_path = pathlib.Path("data/english/servant/patch.json")
     patch = load_patch(patch_path, logger)
@@ -55,8 +46,8 @@ def main() -> None:
     servant_directory = pathlib.Path("data/english/servant")
     servants = get_servants(
         servant_directory,
-        servant_links,
-        servant_data,
+        session,
+        links,
         patch,
         logger,
         option,
@@ -165,7 +156,7 @@ def get_servant_links(
     session: requests.Session,
     logger: logging.Logger,
     option: Option,
-) -> dict[lib.ServantID, lib.english.ServantLink]:
+) -> list[lib.english.ServantLink]:
     if option.force_update or not path.exists():
         links = request_servant_links(
             session,
@@ -180,7 +171,7 @@ def get_servant_links(
         time.sleep(option.request_interval)
     else:
         links = lib.english.load_servant_links(path, logger=logger) or []
-    return {link["id"]: link for link in links}
+    return links
 
 
 def request_servant_links(
@@ -236,58 +227,103 @@ def parse_servant_links(
     return links
 
 
-def get_servant_data(
-    session: requests.Session,
-    directory: pathlib.Path,
-    links: dict[lib.ServantID, lib.english.ServantLink],
-    logger: logging.Logger,
-    option: Option,
-) -> dict[lib.ServantID, str]:
-    unplayable_ids = lib.unplayable_servant_ids()
-    servant_data: dict[lib.ServantID, str] = {}
-    for link in links.values():
-        # check playable
-        if link["id"] in unplayable_ids:
-            logger.info("skip unplayable servant %03d %s", link["id"], link["title"])
-            continue
-        path = directory.joinpath(f"{link['id']:03d}.txt")
-        if option.force_update or not path.exists():
-            # request data
-            data = request_servant_data(session, link, logger, option.request_timeout)
-            # save
-            if not option.no_save and data is not None:
-                logger.info(
-                    'save %03d %s data to "%s"',
-                    link["id"],
-                    link["title"],
-                    path,
-                )
-                path.write_text(data, encoding="utf-8")
-            time.sleep(option.request_interval)
-        else:
-            # load data
-            data = load_servant_data(path, logger)
-        # add to servant_data
-        if data is not None:
-            servant_data[link["id"]] = data
-    return servant_data
-
-
-def load_servant_data(
+def load_patch(
     path: pathlib.Path,
     logger: logging.Logger,
+) -> dict[lib.ServantID, list[lib.Patch]]:
+    logger.info('load patch from "%s"', path)
+    data = lib.load_json(path)
+    if data is None:
+        logger.error('failed to load patch from "%s"', path)
+        return {}
+    return {int(servant_id): patch for servant_id, patch in data.items()}
+
+
+def get_servants(
+    # pylint: disable=too-many-arguments, too-many-positional-arguments
+    directory: pathlib.Path,
+    session: requests.Session,
+    links: list[lib.english.ServantLink],
+    patches: dict[lib.ServantID, list[lib.Patch]],
+    logger: logging.Logger,
+    option: Option,
+) -> dict[lib.ServantID, lib.english.Servant]:
+    servants: dict[lib.ServantID, lib.english.Servant] = {}
+    unplayable_ids = lib.unplayable_servant_ids()
+    for link in links:
+        servant_id = link["id"]
+        # check playable
+        if servant_id in unplayable_ids:
+            logger.info("skip unplayable servant %03d %s", link["id"], link["title"])
+            continue
+        # logger
+        servant_logger = lib.ServantLogger(logger, servant_id, link["title"])
+        # get servant
+        path = directory.joinpath(f"{servant_id:03d}.json")
+        servant: Optional[lib.english.Servant]
+        if option.force_update or not path.exists():
+            # get source
+            source = get_servant_data(
+                directory.joinpath(f"data/{servant_id:03d}.txt"),
+                session,
+                link,
+                servant_logger,
+                option,
+            )
+            if source is None:
+                servant_logger.error("failed to get source")
+                continue
+            # parse source
+            servant = parse_servant_data(link, source, servant_logger)
+            # patch
+            if servant_id in patches:
+                lib.apply_patches(servant, patches[servant_id], logger=servant_logger)
+            # save
+            if not option.no_save:
+                servant_logger.info('save servant to "%s"', path)
+                lib.save_json(path, servant)
+        else:
+            # load from file
+            servant = lib.english.load_servant(path, logger=logger)
+        if servant is not None:
+            servants[servant["id"]] = servant
+    return servants
+
+
+def get_servant_data(
+    path: pathlib.Path,
+    session: requests.Session,
+    link: lib.english.ServantLink,
+    logger: lib.ServantLogger,
+    option: Option,
 ) -> Optional[str]:
-    logger.info('load servant from "%s"', path)
-    if not path.exists():
-        logger.error('"%s" does not exist', path)
-        return None
-    return path.read_text(encoding="utf-8")
+    if option.force_update or not path.exists():
+        # request
+        data = request_servant_data(
+            session,
+            link,
+            logger,
+            option.request_interval,
+        )
+        # save
+        if not option.no_save and data is not None:
+            logger.info(
+                'save %03d %s data to "%s"',
+                link["id"],
+                link["title"],
+                path,
+            )
+            path.write_text(data, encoding="utf-8")
+        time.sleep(option.request_interval)
+    else:
+        data = load_servant_data(path, logger)
+    return data
 
 
 def request_servant_data(
     session: requests.Session,
     link: lib.english.ServantLink,
-    logger: logging.Logger,
+    logger: lib.ServantLogger,
     request_timeout: float,
 ) -> Optional[str]:
     # request URL
@@ -305,52 +341,15 @@ def request_servant_data(
     return root.xpath('//textarea[@name="wpTextbox1"]/text()')[0]
 
 
-def load_patch(
+def load_servant_data(
     path: pathlib.Path,
-    logger: logging.Logger,
-) -> dict[lib.ServantID, list[lib.Patch]]:
-    logger.info('load patch from "%s"', path)
-    data = lib.load_json(path)
-    if data is None:
-        logger.error('failed to load patch from "%s"', path)
-        return {}
-    return {int(servant_id): patch for servant_id, patch in data.items()}
-
-
-def get_servants(
-    # pylint: disable=too-many-arguments, too-many-positional-arguments
-    directory: pathlib.Path,
-    links: dict[lib.ServantID, lib.english.ServantLink],
-    sources: dict[lib.ServantID, str],
-    patches: dict[lib.ServantID, list[lib.Patch]],
-    logger: logging.Logger,
-    option: Option,
-) -> dict[lib.ServantID, lib.english.Servant]:
-    servants: dict[lib.ServantID, lib.english.Servant] = {}
-    for servant_id, source in sources.items():
-        path = directory.joinpath(f"{servant_id:03d}.json")
-        servant: Optional[lib.english.Servant]
-        if option.force_update or not path.exists():
-            # parse source
-            link = links.get(servant_id, None)
-            if link is None:
-                logger.error("servant ID %03d does not exist in links", servant_id)
-                continue
-            servant_logger = lib.ServantLogger(logger, servant_id, link["title"])
-            servant = parse_servant_data(link, source, servant_logger)
-            # patch
-            if servant_id in patches:
-                lib.apply_patches(servant, patches[servant_id], logger=servant_logger)
-            # save
-            if not option.no_save:
-                logger.info('save servant to "%s"', path)
-                lib.save_json(path, servant)
-        else:
-            # load from file
-            servant = lib.english.load_servant(path, logger=logger)
-        if servant is not None:
-            servants[servant["id"]] = servant
-    return servants
+    logger: lib.ServantLogger,
+) -> Optional[str]:
+    logger.info('load servant from "%s"', path)
+    if not path.exists():
+        logger.error('"%s" does not exist', path)
+        return None
+    return path.read_text(encoding="utf-8")
 
 
 def parse_servant_data(
