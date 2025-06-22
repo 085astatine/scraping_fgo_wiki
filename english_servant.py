@@ -64,8 +64,9 @@ def main() -> None:
     # to English dictionary
     english_dictionary = to_dictionary(servants)
     dictionary_path = pathlib.Path("data/english/servant.json")
-    logger.info('save english dictionary to "%s"', dictionary_path)
-    lib.save_json(dictionary_path, english_dictionary)
+    if not option.no_save:
+        logger.info('save english dictionary to "%s"', dictionary_path)
+        lib.save_json(dictionary_path, english_dictionary)
 
 
 def create_logger() -> logging.Logger:
@@ -83,6 +84,7 @@ def create_logger() -> logging.Logger:
 class Option:
     verbose: bool
     force_update: bool
+    no_save: bool
     targets: list[int]
     request_interval: float
     request_timeout: float
@@ -105,6 +107,12 @@ def argument_parser() -> argparse.ArgumentParser:
         dest="force_update",
         action="store_true",
         help="force update",
+    )
+    parser.add_argument(
+        "--no-save",
+        dest="no_save",
+        action="store_true",
+        help="skip saving JSON files",
     )
     parser.add_argument(
         "-t",
@@ -165,8 +173,10 @@ def get_servant_links(
             option.request_interval,
             option.request_timeout,
         )
-        logger.info('save servant links to "%s"', path)
-        lib.save_json(path, links)
+        # save
+        if not option.no_save:
+            logger.info('save servant links to "%s"', path)
+            lib.save_json(path, links)
         time.sleep(option.request_interval)
     else:
         links = lib.english.load_servant_links(path, logger=logger) or []
@@ -244,7 +254,8 @@ def get_servant_data(
         if option.force_update or not path.exists():
             # request data
             data = request_servant_data(session, link, logger, option.request_timeout)
-            if data is not None:
+            # save
+            if not option.no_save and data is not None:
                 logger.info(
                     'save %03d %s data to "%s"',
                     link["id"],
@@ -331,8 +342,9 @@ def get_servants(
             if servant_id in patches:
                 lib.apply_patches(servant, patches[servant_id], logger=servant_logger)
             # save
-            logger.info('save servant to "%s"', path)
-            lib.save_json(path, servant)
+            if not option.no_save:
+                logger.info('save servant to "%s"', path)
+                lib.save_json(path, servant)
         else:
             # load from file
             servant = lib.english.load_servant(path, logger=logger)

@@ -74,6 +74,7 @@ def create_logger() -> logging.Logger:
 class Option:
     verbose: bool
     force_update: bool
+    no_save: bool
     targets: list[int]
     request_interval: float
     request_timeout: float
@@ -96,6 +97,12 @@ def argument_parser() -> argparse.ArgumentParser:
         dest="force_update",
         action="store_true",
         help="force update",
+    )
+    parser.add_argument(
+        "--no-save",
+        dest="no_save",
+        action="store_true",
+        help="skip saving JSON files",
     )
     parser.add_argument(
         "-t",
@@ -151,8 +158,9 @@ def get_servant_links(
 ) -> list[lib.ServantLink]:
     if option.force_update or not path.exists():
         links = request_servant_links(session, logger, option.request_timeout)
-        logger.info('save servant links to "%s"', path)
-        lib.save_json(path, links)
+        if not option.no_save:
+            logger.info('save servant links to "%s"', path)
+            lib.save_json(path, links)
         time.sleep(option.request_interval)
     else:
         links = lib.load_servant_links(path, logger=logger) or []
@@ -280,7 +288,7 @@ def update_servants(
                 costumes.get(link["id"], []),
                 servant_logger,
             )
-            if servant is not None:
+            if not option.no_save and servant is not None:
                 logger.info(
                     'save servant %03d %s to "%s"',
                     servant["id"],
@@ -308,7 +316,7 @@ def servant_page(
             option.request_timeout,
         )
         # save
-        if text is not None:
+        if not option.no_save and text is not None:
             logger.info('save page to "%s"', path)
             path.write_text(text, encoding="utf-8")
         time.sleep(option.request_interval)
