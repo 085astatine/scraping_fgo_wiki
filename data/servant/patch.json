@@ -1,0 +1,297 @@
+{
+  "005": [
+    {
+      "path": [
+        "append_skills",
+        3
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 4,
+          "level": 1,
+          "name": "特撃技巧向上",
+          "rank": "",
+          "icon": 303
+        }
+      ]
+    },
+    {
+      "path": [
+        "append_skills",
+        4
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 5,
+          "level": 1,
+          "name": "スキル再装填",
+          "rank": "",
+          "icon": 613
+        }
+      ]
+    }
+  ],
+  "094": [
+    {
+      "path": [
+        "append_skills",
+        3
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 4,
+          "level": 1,
+          "name": "特撃技巧向上",
+          "rank": "",
+          "icon": 303
+        }
+      ]
+    },
+    {
+      "path": [
+        "append_skills",
+        4
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 5,
+          "level": 1,
+          "name": "スキル再装填",
+          "rank": "",
+          "icon": 613
+        }
+      ]
+    }
+  ],
+  "189": [
+    {
+      "path": [
+        "skills",
+        1
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 2,
+          "level": 1,
+          "name": "千代紙操法",
+          "rank": "EX",
+          "icon": 601
+        },
+        {
+          "slot": 2,
+          "level": 2,
+          "name": "千代紙操法",
+          "rank": "EX",
+          "icon": 601
+        }
+      ]
+    },
+    {
+      "path": [
+        "skills",
+        2
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 3,
+          "level": 1,
+          "name": "城化物",
+          "rank": "A++",
+          "icon": 504
+        }
+      ]
+    }
+  ],
+  "193": [
+    {
+      "path": [
+        "skills",
+        0
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 1,
+          "level": 1,
+          "name": "道術",
+          "rank": "A",
+          "icon": 316
+        }
+      ]
+    },
+    {
+      "path": [
+        "skills",
+        1
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 2,
+          "level": 1,
+          "name": "霊珠子",
+          "rank": "A",
+          "icon": 404
+        }
+      ]
+    }
+  ],
+  "231": [
+    {
+      "path": [
+        "skills"
+      ],
+      "before": [
+        [],
+        [],
+        []
+      ],
+      "after": [
+        [
+          {
+            "slot": 1,
+            "level": 1,
+            "name": "千里疾走（馬）",
+            "rank": "EX",
+            "icon": 304
+          }
+        ],
+        [
+          {
+            "slot": 2,
+            "level": 1,
+            "name": "武芸百般（馬）",
+            "rank": "A",
+            "icon": 402
+          },
+          {
+            "slot": 2,
+            "level": 2,
+            "name": "武芸百般（馬）",
+            "rank": "EX",
+            "icon": 312
+          }
+        ],
+        [
+          {
+            "slot": 3,
+            "level": 1,
+            "name": "戦闘機動（馬）",
+            "rank": "B",
+            "icon": 303
+          }
+        ]
+      ]
+    }
+  ],
+  "264": [
+    {
+      "path": [
+        "append_skills",
+        3
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 4,
+          "level": 1,
+          "name": "特撃技巧向上",
+          "rank": "",
+          "icon": 303
+        }
+      ]
+    },
+    {
+      "path": [
+        "append_skills",
+        4
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 5,
+          "level": 1,
+          "name": "スキル再装填",
+          "rank": "",
+          "icon": 613
+        }
+      ]
+    }
+  ],
+  "312": [
+    {
+      "path": [
+        "skills",
+        2
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 3,
+          "level": 1,
+          "name": "レイ・ホライゾン",
+          "rank": "A",
+          "icon": 803
+        }
+      ]
+    }
+  ],
+  "394": [
+    {
+      "path": [
+        "skills",
+        2
+      ],
+      "before": [],
+      "after": [
+        {
+          "slot": 3,
+          "level": 1,
+          "name": "叡智への接触",
+          "rank": "EX",
+          "icon": 812
+        }
+      ]
+    }
+  ],
+  "427": [
+    {
+      "path": [
+        "skills",
+        2,
+        0,
+        "name"
+      ],
+      "before": "？？？",
+      "after": "幻なる日の出の翼"
+    },
+    {
+      "path": [
+        "skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "",
+      "after": "B"
+    }
+  ],
+  "432": [
+    {
+      "path": [
+        "skills",
+        2,
+        0,
+        "rank"
+      ],
+      "before": "D",
+      "after": "D~A+"
+    }
+  ]
+}
