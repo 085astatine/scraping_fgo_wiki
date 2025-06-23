@@ -7,8 +7,8 @@ import dataclasses
 import logging
 import pathlib
 
-import lib
-import lib.english
+import fgo
+import fgo.english
 
 
 def main() -> None:
@@ -21,31 +21,31 @@ def main() -> None:
         logger.setLevel(logging.DEBUG)
     logger.debug("option: %s", option)
     # load english items
-    en_items = lib.load_item_dictionary(
+    en_items = fgo.load_item_dictionary(
         pathlib.Path("data/english/item.json"),
         logger=logger,
     )
     if en_items is None:
         return
     # load english servants
-    en_servants: dict[lib.ServantID, lib.english.Servant] = {
+    en_servants: dict[fgo.ServantID, fgo.english.Servant] = {
         servant["id"]: servant
-        for servant in lib.english.load_servants(
+        for servant in fgo.english.load_servants(
             pathlib.Path("data/english/servant"),
             logger=logger,
         )
     }
     # load japanese items
-    jp_items = lib.load_items(
+    jp_items = fgo.load_items(
         pathlib.Path("data/items.json"),
         logger=logger,
     )
     if jp_items is None:
         return
     # load japanese servants
-    jp_servants: dict[lib.ServantID, lib.Servant] = {
+    jp_servants: dict[fgo.ServantID, fgo.Servant] = {
         servant["id"]: servant
-        for servant in lib.load_servants(
+        for servant in fgo.load_servants(
             pathlib.Path("data/servant"),
             logger=logger,
         )
@@ -93,8 +93,8 @@ def argument_parser() -> argparse.ArgumentParser:
 
 
 def compare_items(
-    en_items: lib.ItemDictionary,
-    jp_items: list[lib.Item],
+    en_items: fgo.ItemDictionary,
+    jp_items: list[fgo.Item],
     logger: logging.Logger,
 ) -> None:
     en_item_ids = set(en_items.keys())
@@ -114,25 +114,25 @@ def compare_items(
 
 
 def compare_servants(
-    en_servants: dict[lib.ServantID, lib.english.Servant],
-    en_items: dict[str, lib.ItemID],
-    jp_servants: dict[lib.ServantID, lib.Servant],
-    jp_items: dict[str, lib.ItemID],
+    en_servants: dict[fgo.ServantID, fgo.english.Servant],
+    en_items: dict[str, fgo.ItemID],
+    jp_servants: dict[fgo.ServantID, fgo.Servant],
+    jp_items: dict[str, fgo.ItemID],
     logger: logging.Logger,
 ) -> None:
     for servant_id, jp_servant in jp_servants.items():
-        servant_logger = lib.ServantLogger(logger, servant_id, jp_servant["name"])
+        servant_logger = fgo.ServantLogger(logger, servant_id, jp_servant["name"])
         servant_logger.debug("start comparing")
         en_servant = en_servants.get(servant_id, None)
         if en_servant is not None:
             compare_servant(
                 en_servant,
-                lib.ItemNameConverter(
+                fgo.ItemNameConverter(
                     en_items,
                     logger=servant_logger,
                 ),
                 jp_servant,
-                lib.ItemNameConverter(
+                fgo.ItemNameConverter(
                     jp_items,
                     logger=servant_logger,
                 ),
@@ -143,11 +143,11 @@ def compare_servants(
 
 
 def compare_servant(
-    en_servant: lib.english.Servant,
-    en_items: lib.ItemNameConverter,
-    jp_servant: lib.Servant,
-    jp_items: lib.ItemNameConverter,
-    logger: lib.ServantLogger,
+    en_servant: fgo.english.Servant,
+    en_items: fgo.ItemNameConverter,
+    jp_servant: fgo.Servant,
+    jp_items: fgo.ItemNameConverter,
+    logger: fgo.ServantLogger,
 ) -> None:
     logger.info("start comparing")
     # id
@@ -219,9 +219,9 @@ def compare_servant(
 
 def compare_skills(
     target: str,
-    en: list[list[lib.english.Skill]],
-    jp: list[list[lib.Skill]],
-    logger: lib.ServantLogger,
+    en: list[list[fgo.english.Skill]],
+    jp: list[list[fgo.Skill]],
+    logger: fgo.ServantLogger,
 ) -> None:
     # slots
     if len(en) != len(jp):
@@ -239,9 +239,9 @@ def compare_skills(
 
 def compare_skill(
     target: str,
-    en: list[lib.english.Skill],
-    jp: list[lib.Skill],
-    logger: lib.ServantLogger,
+    en: list[fgo.english.Skill],
+    jp: list[fgo.Skill],
+    logger: fgo.ServantLogger,
 ) -> None:
     # levels
     if len(en) != len(jp):
@@ -268,11 +268,11 @@ def compare_skill(
 def compare_resources(
     # pylint: disable=too-many-arguments, too-many-positional-arguments
     target: str,
-    en_resources: list[lib.Resource],
-    en_items: lib.ItemNameConverter,
-    jp_resources: list[lib.Resource],
-    jp_items: lib.ItemNameConverter,
-    logger: lib.ServantLogger,
+    en_resources: list[fgo.Resource],
+    en_items: fgo.ItemNameConverter,
+    jp_resources: list[fgo.Resource],
+    jp_items: fgo.ItemNameConverter,
+    logger: fgo.ServantLogger,
 ) -> None:
     # length
     if len(en_resources) != len(jp_resources):
@@ -292,11 +292,11 @@ def compare_resources(
 def compare_resource(
     # pylint: disable=too-many-arguments, too-many-positional-arguments
     target: str,
-    en_resource: lib.Resource,
-    en_items: lib.ItemNameConverter,
-    jp_resource: lib.Resource,
-    jp_items: lib.ItemNameConverter,
-    logger: lib.ServantLogger,
+    en_resource: fgo.Resource,
+    en_items: fgo.ItemNameConverter,
+    jp_resource: fgo.Resource,
+    jp_items: fgo.ItemNameConverter,
+    logger: fgo.ServantLogger,
 ) -> None:
     en = en_items.resource(en_resource)
     jp = jp_items.resource(jp_resource)
@@ -326,8 +326,8 @@ def compare_resource(
             )
 
 
-def sorted_resource(resource: lib.ResourceByID) -> lib.ResourceByID:
-    return lib.ResourceByID(
+def sorted_resource(resource: fgo.ResourceByID) -> fgo.ResourceByID:
+    return fgo.ResourceByID(
         qp=resource["qp"],
         items=sorted(resource["items"], key=lambda item: item["id"]),
     )

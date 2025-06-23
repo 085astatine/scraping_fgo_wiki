@@ -7,7 +7,7 @@ import logging
 import pathlib
 from typing import Final
 
-import lib
+import fgo
 
 _REQUEST_INTERVAL: Final[float] = 2.0
 
@@ -16,22 +16,22 @@ def load_dict(
     path: pathlib.Path,
     *,
     force_update: bool = False,
-) -> lib.Dictionary:
+) -> fgo.Dictionary:
     # item
-    item = lib.load_item_dictionary(pathlib.Path("data/english/item.json")) or {}
+    item = fgo.load_item_dictionary(pathlib.Path("data/english/item.json")) or {}
     # servant
     servant_path = path.joinpath("servant.json")
-    servant_dict = lib.load_json(servant_path)
+    servant_dict = fgo.load_json(servant_path)
     if servant_dict is None or force_update:
-        servant_dict = lib.servant_dict()
-        lib.save_json(servant_path, servant_dict)
+        servant_dict = fgo.servant_dict()
+        fgo.save_json(servant_path, servant_dict)
     # skill
     skill_path = path.joinpath("skill.json")
-    skill_dict = lib.load_json(skill_path)
+    skill_dict = fgo.load_json(skill_path)
     if skill_dict is None or force_update:
-        skill_dict = lib.skill_dict()
-        lib.save_json(skill_path, skill_dict)
-    return lib.Dictionary(
+        skill_dict = fgo.skill_dict()
+        fgo.save_json(skill_path, skill_dict)
+    return fgo.Dictionary(
         item=item,
         servant=servant_dict,
         skill=skill_dict,
@@ -42,11 +42,11 @@ def load_sounds(
     path: pathlib.Path,
     *,
     force_update: bool = False,
-) -> list[lib.Sound]:
-    sounds = lib.load_json(path)
+) -> list[fgo.Sound]:
+    sounds = fgo.load_json(path)
     if sounds is None or force_update:
-        sounds = lib.sound_list()
-        lib.save_json(path, sounds)
+        sounds = fgo.sound_list()
+        fgo.save_json(path, sounds)
     return sounds
 
 
@@ -110,13 +110,13 @@ def main() -> None:
     # master data
     if option.mode == "merge":
         logger.info("run: merge")
-        items = lib.load_items(pathlib.Path("data/items.json")) or []
-        servants = lib.load_servants(
+        items = fgo.load_items(pathlib.Path("data/items.json")) or []
+        servants = fgo.load_servants(
             pathlib.Path("data/servant/"),
             logger=logger,
         )
-        data = lib.merge(items, servants, sounds, dictionary)
-        lib.save_json(pathlib.Path("data/master_data.json"), data)
+        data = fgo.merge(items, servants, sounds, dictionary)
+        fgo.save_json(pathlib.Path("data/master_data.json"), data)
 
 
 if __name__ == "__main__":
