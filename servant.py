@@ -79,6 +79,7 @@ class Option:
     verbose: bool
     force_update: bool
     no_save: bool
+    no_patch: bool
     targets: list[int]
     request_interval: float
     request_timeout: float
@@ -107,6 +108,12 @@ def argument_parser() -> argparse.ArgumentParser:
         dest="no_save",
         action="store_true",
         help="skip saving JSON files",
+    )
+    parser.add_argument(
+        "--no-patch",
+        dest="no_patch",
+        action="store_true",
+        help="skip applying patch file",
     )
     parser.add_argument(
         "-t",
@@ -306,7 +313,7 @@ def update_servants(
                 servant_logger,
             )
             # patch
-            if link["id"] in patches:
+            if not option.no_patch and link["id"] in patches:
                 fgo.apply_patches(
                     servant,
                     patches[link["id"]],
