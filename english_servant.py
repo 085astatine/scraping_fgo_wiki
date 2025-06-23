@@ -14,8 +14,8 @@ import fake_useragent
 import lxml.html
 import requests
 
-import lib
-import lib.english
+import fgo
+import fgo.english
 
 
 def main() -> None:
@@ -57,7 +57,7 @@ def main() -> None:
     dictionary_path = pathlib.Path("data/english/servant.json")
     if not option.no_save:
         logger.info('save english dictionary to "%s"', dictionary_path)
-        lib.save_json(dictionary_path, english_dictionary)
+        fgo.save_json(dictionary_path, english_dictionary)
 
 
 def create_logger() -> logging.Logger:
@@ -156,7 +156,7 @@ def get_servant_links(
     session: requests.Session,
     logger: logging.Logger,
     option: Option,
-) -> list[lib.english.ServantLink]:
+) -> list[fgo.english.ServantLink]:
     if option.force_update or not path.exists():
         links = request_servant_links(
             session,
@@ -167,10 +167,10 @@ def get_servant_links(
         # save
         if not option.no_save:
             logger.info('save servant links to "%s"', path)
-            lib.save_json(path, links)
+            fgo.save_json(path, links)
         time.sleep(option.request_interval)
     else:
-        links = lib.english.load_servant_links(path, logger=logger) or []
+        links = fgo.english.load_servant_links(path, logger=logger) or []
     return links
 
 
@@ -179,8 +179,8 @@ def request_servant_links(
     logger: logging.Logger,
     request_interval: float,
     request_timeout: float,
-) -> list[lib.english.ServantLink]:
-    links: list[lib.english.ServantLink] = []
+) -> list[fgo.english.ServantLink]:
+    links: list[fgo.english.ServantLink] = []
     urls = [
         "https://fategrandorder.fandom.com/wiki/Sub:Servant_List_by_ID/1-100",
         "https://fategrandorder.fandom.com/wiki/Sub:Servant_List_by_ID/101-200",
@@ -207,8 +207,8 @@ def request_servant_links(
 def parse_servant_links(
     root: lxml.html.HtmlElement,
     logger: logging.Logger,
-) -> list[lib.english.ServantLink]:
-    links: list[lib.english.ServantLink] = []
+) -> list[fgo.english.ServantLink]:
+    links: list[fgo.english.ServantLink] = []
     table_rows = root.xpath(
         '//table[contains(@class, "wikitable sortable")]/tbody/tr[td]'
     )
@@ -223,16 +223,16 @@ def parse_servant_links(
             title,
         )
         url = f"https://fategrandorder.fandom.com/{href}"
-        links.append(lib.english.ServantLink(id=servant_id, url=url, title=title))
+        links.append(fgo.english.ServantLink(id=servant_id, url=url, title=title))
     return links
 
 
 def load_patch(
     path: pathlib.Path,
     logger: logging.Logger,
-) -> dict[lib.ServantID, list[lib.Patch]]:
+) -> dict[fgo.ServantID, list[fgo.Patch]]:
     logger.info('load patch from "%s"', path)
-    data = lib.load_json(path)
+    data = fgo.load_json(path)
     if data is None:
         logger.error('failed to load patch from "%s"', path)
         return {}
@@ -243,13 +243,13 @@ def get_servants(
     # pylint: disable=too-many-arguments, too-many-positional-arguments
     directory: pathlib.Path,
     session: requests.Session,
-    links: list[lib.english.ServantLink],
-    patches: dict[lib.ServantID, list[lib.Patch]],
+    links: list[fgo.english.ServantLink],
+    patches: dict[fgo.ServantID, list[fgo.Patch]],
     logger: logging.Logger,
     option: Option,
-) -> dict[lib.ServantID, lib.english.Servant]:
-    servants: dict[lib.ServantID, lib.english.Servant] = {}
-    unplayable_ids = lib.unplayable_servant_ids()
+) -> dict[fgo.ServantID, fgo.english.Servant]:
+    servants: dict[fgo.ServantID, fgo.english.Servant] = {}
+    unplayable_ids = fgo.unplayable_servant_ids()
     for link in links:
         servant_id = link["id"]
         # check playable
@@ -257,10 +257,10 @@ def get_servants(
             logger.info("skip unplayable servant %03d %s", link["id"], link["title"])
             continue
         # logger
-        servant_logger = lib.ServantLogger(logger, servant_id, link["title"])
+        servant_logger = fgo.ServantLogger(logger, servant_id, link["title"])
         # get servant
         path = directory.joinpath(f"{servant_id:03d}.json")
-        servant: Optional[lib.english.Servant]
+        servant: Optional[fgo.english.Servant]
         if option.force_update or not path.exists():
             # get source
             source = get_servant_data(
@@ -277,14 +277,14 @@ def get_servants(
             servant = parse_servant_data(link, source, servant_logger)
             # patch
             if servant_id in patches:
-                lib.apply_patches(servant, patches[servant_id], logger=servant_logger)
+                fgo.apply_patches(servant, patches[servant_id], logger=servant_logger)
             # save
             if not option.no_save:
                 servant_logger.info('save servant to "%s"', path)
-                lib.save_json(path, servant)
+                fgo.save_json(path, servant)
         else:
             # load from file
-            servant = lib.english.load_servant(path, logger=logger)
+            servant = fgo.english.load_servant(path, logger=logger)
         if servant is not None:
             servants[servant["id"]] = servant
     return servants
@@ -293,8 +293,8 @@ def get_servants(
 def get_servant_data(
     path: pathlib.Path,
     session: requests.Session,
-    link: lib.english.ServantLink,
-    logger: lib.ServantLogger,
+    link: fgo.english.ServantLink,
+    logger: fgo.ServantLogger,
     option: Option,
 ) -> Optional[str]:
     if option.force_update or not path.exists():
@@ -322,8 +322,8 @@ def get_servant_data(
 
 def request_servant_data(
     session: requests.Session,
-    link: lib.english.ServantLink,
-    logger: lib.ServantLogger,
+    link: fgo.english.ServantLink,
+    logger: fgo.ServantLogger,
     request_timeout: float,
 ) -> Optional[str]:
     # request URL
@@ -343,7 +343,7 @@ def request_servant_data(
 
 def load_servant_data(
     path: pathlib.Path,
-    logger: lib.ServantLogger,
+    logger: fgo.ServantLogger,
 ) -> Optional[str]:
     logger.info('load servant from "%s"', path)
     if not path.exists():
@@ -353,10 +353,10 @@ def load_servant_data(
 
 
 def parse_servant_data(
-    link: lib.english.ServantLink,
+    link: fgo.english.ServantLink,
     source: str,
-    logger: lib.ServantLogger,
-) -> lib.english.Servant:
+    logger: fgo.ServantLogger,
+) -> fgo.english.Servant:
     # false name
     false_name = parse_false_name(source, logger)
     # class
@@ -373,7 +373,7 @@ def parse_servant_data(
     active_skill_resources = parse_active_skill_resources(source, stars, logger)
     # append skill resource
     append_skill_resources = parse_append_skill_resources(source, stars, logger)
-    return lib.english.Servant(
+    return fgo.english.Servant(
         id=link["id"],
         name=link["title"],
         false_name=false_name,
@@ -390,7 +390,7 @@ def parse_servant_data(
 
 def parse_false_name(
     source: str,
-    logger: lib.ServantLogger,
+    logger: fgo.ServantLogger,
 ) -> Optional[str]:
     match = re.search(
         r"\|aka = .?\{\{Tooltip\|Before True Name Reveal\|(?P<name>.+?)\}\}",
@@ -405,7 +405,7 @@ def parse_false_name(
 
 def parse_servant_class(
     source: str,
-    logger: lib.ServantLogger,
+    logger: fgo.ServantLogger,
 ) -> str:
     match = re.search(
         r"\|class = (?P<class>.+)",
@@ -421,7 +421,7 @@ def parse_servant_class(
 
 def parse_stars(
     source: str,
-    logger: lib.ServantLogger,
+    logger: fgo.ServantLogger,
 ) -> int:
     match = re.search(
         r"\|stars = (?P<stars>[0-5])",
@@ -437,8 +437,8 @@ def parse_stars(
 
 def parse_active_skills(
     source: str,
-    logger: lib.ServantLogger,
-) -> list[list[lib.english.Skill]]:
+    logger: fgo.ServantLogger,
+) -> list[list[fgo.english.Skill]]:
     match = re.search(
         r"==\s*Active Skills\s*==\n"
         r"<tabber>\n"
@@ -465,8 +465,8 @@ def parse_active_skills(
 
 def parse_append_skills(
     source: str,
-    logger: lib.ServantLogger,
-) -> list[list[lib.english.Skill]]:
+    logger: fgo.ServantLogger,
+) -> list[list[fgo.english.Skill]]:
     match = re.search(
         r"==\s*Append Skills\s*==\n"
         r"<tabber>\n"
@@ -501,8 +501,8 @@ def parse_append_skills(
 def parse_skill(
     target: str,
     source: str,
-    logger: lib.ServantLogger,
-) -> list[lib.english.Skill]:
+    logger: fgo.ServantLogger,
+) -> list[fgo.english.Skill]:
     # Remove {{Unlock|...}} or {{unlock:...}}
     source = re.sub(r"\{\{[Uu]nlock\|.+\}\}\n", "", source)
     # mult level
@@ -523,7 +523,7 @@ def parse_skill(
     return skill
 
 
-def parse_skill_rank(text: str) -> lib.english.Skill:
+def parse_skill_rank(text: str) -> fgo.english.Skill:
     rank_pattern = "((EX|[A-E])[+-]*)|None"
     # <name>/Rank <rank>( (name))?(|<rank>)?(|preupgrade=y)
     match = re.match(
@@ -548,10 +548,10 @@ def parse_skill_rank(text: str) -> lib.english.Skill:
     return to_skill(text, "")
 
 
-def to_skill(name: str, rank: str) -> lib.english.Skill:
+def to_skill(name: str, rank: str) -> fgo.english.Skill:
     # remove (Active Skill)
     name = name.removesuffix(" (Active Skill)")
-    return lib.english.Skill(
+    return fgo.english.Skill(
         name=name,
         rank=rank if rank != "None" else "",
     )
@@ -560,8 +560,8 @@ def to_skill(name: str, rank: str) -> lib.english.Skill:
 def parse_ascension_table(
     source: str,
     stars: int,
-    logger: lib.ServantLogger,
-) -> tuple[list[lib.Resource], list[lib.english.Costume]]:
+    logger: fgo.ServantLogger,
+) -> tuple[list[fgo.Resource], list[fgo.english.Costume]]:
     logger.debug("ascension & costume")
     section = parse_section(source, "Ascension")
     if section is None:
@@ -577,8 +577,8 @@ def parse_ascension_table(
 def parse_active_skill_resources(
     source: str,
     stars: int,
-    logger: lib.ServantLogger,
-) -> list[lib.Resource]:
+    logger: fgo.ServantLogger,
+) -> list[fgo.Resource]:
     logger.debug("active skill resources")
     section = parse_section(source, "Skill Reinforcement")
     if section is None:
@@ -603,8 +603,8 @@ def parse_active_skill_resources(
 def parse_append_skill_resources(
     source: str,
     stars: int,
-    logger: lib.ServantLogger,
-) -> list[lib.Resource]:
+    logger: fgo.ServantLogger,
+) -> list[fgo.Resource]:
     logger.debug("append skill resources")
     section = parse_section(source, "Skill Reinforcement")
     if section is None:
@@ -668,7 +668,7 @@ type ResourceTableRow = ItemsRow | QPRow | TextRow
 def parse_resource_table(
     source: str,
     title: str,
-    logger: lib.ServantLogger,
+    logger: fgo.ServantLogger,
 ) -> Optional[list[ResourceTableRow]]:
     body = re.search(
         rf"{{{{{title}"
@@ -730,15 +730,15 @@ def parse_resource_table_row(row: str) -> Optional[ItemsRow | QPRow | TextRow]:
 def to_ascension_resources(
     rows: list[ResourceTableRow],
     stars: int,
-) -> list[lib.Resource]:
-    resources = [lib.Resource(qp=0, items=[]) for _ in range(4)]
+) -> list[fgo.Resource]:
+    resources = [fgo.Resource(qp=0, items=[]) for _ in range(4)]
     for row in rows:
         index = row.index - 1
         if not 0 <= index <= 3:
             continue
         match row:
             case ItemsRow(item=item, piece=piece):
-                resources[index]["items"].append(lib.Items(name=item, piece=piece))
+                resources[index]["items"].append(fgo.Items(name=item, piece=piece))
     # set QP
     for i, qp in enumerate(ascension_qp(stars)):
         if resources[i]["items"] and resources[i]["qp"] == 0:
@@ -749,15 +749,15 @@ def to_ascension_resources(
 def to_skill_resources(
     rows: list[ResourceTableRow],
     stars: int,
-) -> list[lib.Resource]:
-    resources = [lib.Resource(qp=0, items=[]) for _ in range(9)]
+) -> list[fgo.Resource]:
+    resources = [fgo.Resource(qp=0, items=[]) for _ in range(9)]
     for row in rows:
         index = row.index - 1
         if not 0 <= index <= 8:
             continue
         match row:
             case ItemsRow(item=item, piece=piece):
-                resources[index]["items"].append(lib.Items(name=item, piece=piece))
+                resources[index]["items"].append(fgo.Items(name=item, piece=piece))
     # set QP
     for i, qp in enumerate(skill_reinforcement_qp(stars)):
         if resources[i]["items"] and resources[i]["qp"] == 0:
@@ -767,12 +767,12 @@ def to_skill_resources(
 
 def to_costumes(
     rows: list[ResourceTableRow],
-) -> list[lib.english.Costume]:
+) -> list[fgo.english.Costume]:
     indexes: set[int] = set()
     name: dict[int, str] = {}
     text_en: dict[int, str] = {}
     text_jp: dict[int, str] = {}
-    items: dict[int, list[lib.Items]] = {}
+    items: dict[int, list[fgo.Items]] = {}
     qp: dict[int, int] = {}
     for row in rows:
         if row.index <= 4:
@@ -781,7 +781,7 @@ def to_costumes(
         match row:
             case ItemsRow(item=item, piece=piece):
                 items.setdefault(row.index, []).append(
-                    lib.Items(name=item, piece=piece)
+                    fgo.Items(name=item, piece=piece)
                 )
             case QPRow(value=value):
                 qp[row.index] = value
@@ -794,16 +794,16 @@ def to_costumes(
                     case "ndef":
                         text_en[row.index] = re.sub("<br/?>", "\n", text)
     # to costumes
-    costumes: list[lib.english.Costume] = []
+    costumes: list[fgo.english.Costume] = []
     for index in indexes:
         if index not in name:
             continue
         costumes.append(
-            lib.english.Costume(
+            fgo.english.Costume(
                 name=name.get(index, ""),
                 text_jp=text_jp.get(index, ""),
                 text_en=text_en.get(index, ""),
-                resource=lib.Resource(
+                resource=fgo.Resource(
                     qp=qp.get(index, 0),
                     items=items.get(index, []),
                 ),
@@ -858,8 +858,8 @@ def skill_reinforcement_qp(stars: int) -> list[int]:
 
 
 def to_dictionary(
-    servants: dict[lib.ServantID, lib.english.Servant],
-) -> lib.ServantDictionary:
+    servants: dict[fgo.ServantID, fgo.english.Servant],
+) -> fgo.ServantDictionary:
     return {
         servant_id: to_dictionary_value(servant)
         for servant_id, servant in servants.items()
@@ -867,9 +867,9 @@ def to_dictionary(
 
 
 def to_dictionary_value(
-    servant: lib.english.Servant,
-) -> lib.ServantDictionaryValue:
-    return lib.ServantDictionaryValue(
+    servant: fgo.english.Servant,
+) -> fgo.ServantDictionaryValue:
+    return fgo.ServantDictionaryValue(
         name=servant["name"],
         false_name=servant["false_name"],
         skills=[

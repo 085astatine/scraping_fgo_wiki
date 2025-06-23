@@ -15,7 +15,7 @@ import fake_useragent
 import lxml.html
 import requests
 
-import lib
+import fgo
 
 
 def main() -> None:
@@ -40,12 +40,12 @@ def main() -> None:
     servant_names_path = directory.joinpath("name.json")
     servant_names = {
         name["id"]: name
-        for name in lib.load_servant_names(servant_names_path, logger=logger) or []
+        for name in fgo.load_servant_names(servant_names_path, logger=logger) or []
     }
     # costumes
     costumes_path = directory.joinpath("costumes.json")
     costumes = group_costumes_by_servant(
-        lib.load_costumes(costumes_path, logger=logger)
+        fgo.load_costumes(costumes_path, logger=logger)
     )
     # update servants
     update_servants(
@@ -155,15 +155,15 @@ def get_servant_links(
     session: requests.Session,
     logger: logging.Logger,
     option: Option,
-) -> list[lib.ServantLink]:
+) -> list[fgo.ServantLink]:
     if option.force_update or not path.exists():
         links = request_servant_links(session, logger, option.request_timeout)
         if not option.no_save:
             logger.info('save servant links to "%s"', path)
-            lib.save_json(path, links)
+            fgo.save_json(path, links)
         time.sleep(option.request_interval)
     else:
-        links = lib.load_servant_links(path, logger=logger) or []
+        links = fgo.load_servant_links(path, logger=logger) or []
     return links
 
 
@@ -171,7 +171,7 @@ def request_servant_links(
     session: requests.Session,
     logger: logging.Logger,
     request_timeout: float,
-) -> list[lib.ServantLink]:
+) -> list[fgo.ServantLink]:
     url = "https://w.atwiki.jp/f_go/pages/713.html"
     logger.info('request: "%s"', url)
     response = session.get(url, timeout=request_timeout)
@@ -186,8 +186,8 @@ def request_servant_links(
 def parse_servant_links(
     root: lxml.html.HtmlElement,
     logger: logging.Logger,
-) -> list[lib.ServantLink]:
-    unplayable_ids = lib.unplayable_servant_ids()
+) -> list[fgo.ServantLink]:
+    unplayable_ids = fgo.unplayable_servant_ids()
     to_servant_class = {
         "剣": "Saber",  # セイバー
         "弓": "Archer",  # アーチャー
@@ -205,7 +205,7 @@ def parse_servant_links(
         "詐": "Pretender",  # プリテンダー
         "獣": "Beast",  # ビースト
     }
-    links: list[lib.ServantLink] = []
+    links: list[fgo.ServantLink] = []
     for row in root.xpath(
         '//h2[normalize-space()="サーヴァント一覧"]/'
         "following-sibling::div[1]//"
@@ -219,7 +219,7 @@ def parse_servant_links(
         name = row.xpath("td[3]//a")[0].text
         klass = to_servant_class[row.xpath("td[4]")[0].text.strip()]
         href = row.xpath("td[3]//a")[0].get("href")
-        link = lib.ServantLink(
+        link = fgo.ServantLink(
             id=servant_id,
             name=name,
             klass=klass,
@@ -241,14 +241,14 @@ def parse_servant_links(
 
 
 def group_costumes_by_servant(
-    costumes: Optional[list[lib.CostumeData]],
-) -> dict[lib.ServantID, list[lib.Costume]]:
+    costumes: Optional[list[fgo.CostumeData]],
+) -> dict[fgo.ServantID, list[fgo.Costume]]:
     if costumes is None:
         return {}
-    result: dict[lib.ServantID, list[lib.Costume]] = {}
+    result: dict[fgo.ServantID, list[fgo.Costume]] = {}
     for costume in costumes:
         result.setdefault(costume["servant_id"], []).append(
-            lib.Costume(
+            fgo.Costume(
                 id=costume["costume_id"],
                 name=costume["name"],
                 resource=costume["resource"],
@@ -261,15 +261,15 @@ def update_servants(
     ## pylint: disable=too-many-arguments, too-many-positional-arguments
     directory: pathlib.Path,
     session: requests.Session,
-    links: list[lib.ServantLink],
-    servant_names: dict[lib.ServantID, lib.ServantName],
-    costumes: dict[lib.ServantID, list[lib.Costume]],
+    links: list[fgo.ServantLink],
+    servant_names: dict[fgo.ServantID, fgo.ServantName],
+    costumes: dict[fgo.ServantID, list[fgo.Costume]],
     logger: logging.Logger,
     option: Option,
 ) -> None:
     for link in links:
         path = directory.joinpath(f"{link['id']:03d}.json")
-        servant_logger = lib.ServantLogger(logger, link["id"], link["name"])
+        servant_logger = fgo.ServantLogger(logger, link["id"], link["name"])
         if option.force_update or not path.exists():
             page_text = servant_page(
                 session,
@@ -295,7 +295,7 @@ def update_servants(
                     servant["name"],
                     path,
                 )
-                lib.save_json(path, servant)
+                fgo.save_json(path, servant)
         else:
             logger.info("skip updating %03d %s", link["id"], link["name"])
 
@@ -303,8 +303,8 @@ def update_servants(
 def servant_page(
     session: requests.Session,
     path: pathlib.Path,
-    link: lib.ServantLink,
-    logger: lib.ServantLogger,
+    link: fgo.ServantLink,
+    logger: fgo.ServantLogger,
     option: Option,
 ) -> Optional[str]:
     if option.force_update or not path.exists():
@@ -329,8 +329,8 @@ def servant_page(
 
 def request_servant_page(
     session: requests.Session,
-    link: lib.ServantLink,
-    logger: lib.ServantLogger,
+    link: fgo.ServantLink,
+    logger: fgo.ServantLogger,
     request_timeout: float,
 ) -> Optional[str]:
     response = session.get(link["url"], timeout=request_timeout)
@@ -343,13 +343,13 @@ def request_servant_page(
 
 def parse_servant_page(
     root: lxml.html.HtmlElement,
-    link: lib.ServantLink,
-    servant_name: Optional[lib.ServantName],
-    costumes: list[lib.Costume],
-    logger: lib.ServantLogger,
-) -> lib.Servant:
+    link: fgo.ServantLink,
+    servant_name: Optional[fgo.ServantName],
+    costumes: list[fgo.Costume],
+    logger: fgo.ServantLogger,
+) -> fgo.Servant:
     # name, false_name, ascension_names
-    servant_name = servant_name or lib.ServantName(id=link["id"])
+    servant_name = servant_name or fgo.ServantName(id=link["id"])
     name = servant_name.get("name", None) or link["name"]
     false_name = servant_name.get("false_name", None)
     ascension_names = servant_name.get("ascension_names", None)
@@ -368,7 +368,7 @@ def parse_servant_page(
     # append skill resources
     logger.debug("append skill resources")
     append_skill_resources = parse_append_skill_resources(root, logger)
-    return lib.Servant(
+    return fgo.Servant(
         id=link["id"],
         name=name,
         false_name=false_name,
@@ -386,9 +386,9 @@ def parse_servant_page(
 
 def parse_skills(
     root: lxml.html.HtmlElement,
-    logger: lib.ServantLogger,
-) -> lib.Skills:
-    skills: lib.Skills = [[] for _ in range(3)]
+    logger: fgo.ServantLogger,
+) -> fgo.Skills:
+    skills: fgo.Skills = [[] for _ in range(3)]
     for node in root.xpath(
         '//div[@id="wikibody"]'
         '//h3[normalize-space()="保有スキル"]'
@@ -407,15 +407,15 @@ def parse_skills(
         )
         skills[skill["slot"] - 1].append(skill)
     # check
-    lib.validate_skills(skills, logger)
+    fgo.validate_skills(skills, logger)
     return skills
 
 
 def parse_append_skills(
     root: lxml.html.HtmlElement,
-    logger: lib.ServantLogger,
-) -> lib.AppendSkills:
-    skills: lib.AppendSkills = [[] for _ in range(5)]
+    logger: fgo.ServantLogger,
+) -> fgo.AppendSkills:
+    skills: fgo.AppendSkills = [[] for _ in range(5)]
     for node in root.xpath(
         '//div[@id="wikibody"]'
         '//h3[normalize-space()="アペンドスキル"]'
@@ -434,14 +434,14 @@ def parse_append_skills(
         )
         skills[skill["slot"] - 1].append(skill)
     # check
-    lib.validate_append_skills(skills, logger)
+    fgo.validate_append_skills(skills, logger)
     return skills
 
 
 def parse_skill(
     node: lxml.html.HtmlElement,
-    logger: lib.ServantLogger,
-) -> Optional[lib.Skill]:
+    logger: fgo.ServantLogger,
+) -> Optional[fgo.Skill]:
     match = re.match(
         r"Skill(?P<slot>[0-9+])"
         r"(?P<upgraded>\[強化後(?P<level>[0-9]+)?\])?"
@@ -463,7 +463,7 @@ def parse_skill(
         node.xpath("following-sibling::div[1]/table//td[@rowspan]")[0],
         logger,
     )
-    return lib.Skill(
+    return fgo.Skill(
         slot=slot,
         level=level,
         name=name,
@@ -490,7 +490,7 @@ def parse_skill_rank(name: str) -> tuple[str, str]:
 
 def parse_skill_icon(
     node: lxml.html.HtmlElement,
-    logger: lib.ServantLogger,
+    logger: fgo.ServantLogger,
 ) -> int:
     text = node.text_content().strip()
     match = re.match(r"(?P<id>[0-9]+)(,(?P<rank>.+))?", text)
@@ -502,8 +502,8 @@ def parse_skill_icon(
 
 def parse_ascension_resources(
     root: lxml.html.HtmlElement,
-    logger: lib.ServantLogger,
-) -> list[lib.Resource]:
+    logger: fgo.ServantLogger,
+) -> list[fgo.Resource]:
     parser = ResourceParser(mode="ascension", logger=logger)
     for cell in root.xpath(
         '//div[@id="wikibody"]'
@@ -516,8 +516,8 @@ def parse_ascension_resources(
 
 def parse_skill_resources(
     root: lxml.html.HtmlElement,
-    logger: lib.ServantLogger,
-) -> list[lib.Resource]:
+    logger: fgo.ServantLogger,
+) -> list[fgo.Resource]:
     parser = ResourceParser(mode="skill", logger=logger)
     for cell in root.xpath(
         '//div[@id="wikibody"]'
@@ -530,8 +530,8 @@ def parse_skill_resources(
 
 def parse_append_skill_resources(
     root: lxml.html.HtmlElement,
-    logger: lib.ServantLogger,
-) -> list[lib.Resource]:
+    logger: fgo.ServantLogger,
+) -> list[fgo.Resource]:
     parser = ResourceParser(mode="skill", logger=logger)
     for cell in root.xpath(
         '//div[@id="wikibody"]'
@@ -546,13 +546,13 @@ class ResourceParser:
     def __init__(
         self,
         mode: Literal["ascension", "skill"],
-        logger: lib.ServantLogger,
+        logger: fgo.ServantLogger,
     ) -> None:
         self._mode = mode
         self._logger = logger
-        self._result: list[lib.Resource] = []
+        self._result: list[fgo.Resource] = []
         self._level: Optional[int] = None
-        self._items: list[lib.Items] = []
+        self._items: list[fgo.Items] = []
 
     def push(self, cell: lxml.html.HtmlElement):
         text = cell.text_content().strip()
@@ -565,7 +565,7 @@ class ResourceParser:
         if self._level is not None:
             self._items.extend(parse_items(text, self._logger))
 
-    def result(self) -> list[lib.Resource]:
+    def result(self) -> list[fgo.Resource]:
         if self._level is not None:
             self._pack()
         return self._result
@@ -591,8 +591,8 @@ class ResourceParser:
         return False
 
 
-def to_resource(items: list[lib.Items]) -> lib.Resource:
-    result = lib.Resource(qp=0, items=[])
+def to_resource(items: list[fgo.Items]) -> fgo.Resource:
+    result = fgo.Resource(qp=0, items=[])
     for item in items:
         if item["name"] == "QP":
             result["qp"] += item["piece"]
@@ -603,13 +603,13 @@ def to_resource(items: list[lib.Items]) -> lib.Resource:
 
 def parse_items(
     text: str,
-    logger: lib.ServantLogger,
-) -> list[lib.Items]:
-    result: list[lib.Items] = []
+    logger: fgo.ServantLogger,
+) -> list[fgo.Items]:
+    result: list[fgo.Items] = []
     regexp = re.compile(r"(?P<item>.+),x?(?P<piece>[0-9万]+)")
     match = regexp.search(text)
     while match:
-        items = lib.Items(
+        items = fgo.Items(
             name=match.group("item"),
             piece=int(match.group("piece").replace("万", "0000")),
         )

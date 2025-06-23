@@ -6,7 +6,7 @@ import logging
 import pathlib
 import sys
 
-import lib
+import fgo
 
 
 def main() -> None:
@@ -19,11 +19,11 @@ def main() -> None:
     )
     logger.addHandler(handler)
     # validate servants
-    servants = lib.load_servants(
+    servants = fgo.load_servants(
         pathlib.Path("./data/servant"),
         logger=logger,
     )
-    if not lib.validate_servants(servants, logger=logger):
+    if not fgo.validate_servants(servants, logger=logger):
         sys.exit(1)
 
 
