@@ -47,6 +47,9 @@ def main() -> None:
     costumes = group_costumes_by_servant(
         fgo.load_costumes(costumes_path, logger=logger)
     )
+    # patch
+    patch_path = directory.joinpath("patch.json")
+    patch = load_patch(patch_path, logger)
     # update servants
     update_servants(
         directory,
@@ -54,6 +57,7 @@ def main() -> None:
         links,
         servant_names,
         costumes,
+        patch,
         logger,
         option,
     )
@@ -257,6 +261,18 @@ def group_costumes_by_servant(
     return result
 
 
+def load_patch(
+    path: pathlib.Path,
+    logger: logging.Logger,
+) -> dict[fgo.ServantID, list[fgo.Patch]]:
+    logger.info('load patch from "%s"', path)
+    data = fgo.load_json(path)
+    if data is None:
+        logger.error('failed to load patch from "%s"', path)
+        return {}
+    return {int(servant_id): patch for servant_id, patch in data.items()}
+
+
 def update_servants(
     ## pylint: disable=too-many-arguments, too-many-positional-arguments
     directory: pathlib.Path,
@@ -264,6 +280,7 @@ def update_servants(
     links: list[fgo.ServantLink],
     servant_names: dict[fgo.ServantID, fgo.ServantName],
     costumes: dict[fgo.ServantID, list[fgo.Costume]],
+    patches: dict[fgo.ServantID, list[fgo.Patch]],
     logger: logging.Logger,
     option: Option,
 ) -> None:
@@ -288,6 +305,13 @@ def update_servants(
                 costumes.get(link["id"], []),
                 servant_logger,
             )
+            # patch
+            if link["id"] in patches:
+                fgo.apply_patches(
+                    servant,
+                    patches[link["id"]],
+                    logger=servant_logger,
+                )
             if not option.no_save and servant is not None:
                 logger.info(
                     'save servant %03d %s to "%s"',
