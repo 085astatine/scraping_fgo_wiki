@@ -17,7 +17,7 @@ from .servant import (
     unplayable_servant_ids,
 )
 from .sound import Sound, sound_list
-from .text import load_item_dictionary
+from .text import load_item_dictionary, load_servant_dictionary
 from .types import (
     AppendSkills,
     Costume,
