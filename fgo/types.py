@@ -110,5 +110,4 @@ type ServantDictionary = dict[ServantID, ServantDictionaryValue]
 
 class Dictionary(TypedDict):
     item: ItemDictionary
-    servant: dict[str, Text]
-    skill: dict[str, Text]
+    servant: ServantDictionary
