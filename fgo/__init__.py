@@ -1,10 +1,7 @@
 from __future__ import annotations
 
-import logging
-
 from .io import load_json, save_json
 from .item import ItemNameConverter, load_items
-from .merge import merge
 from .patch import Patch, apply_patch, apply_patches
 from .servant import (
     ServantLogger,
@@ -12,8 +9,6 @@ from .servant import (
     load_servant_links,
     load_servant_names,
     load_servants,
-    servant_dict,
-    skill_dict,
     unplayable_servant_ids,
 )
 from .sound import Sound, sound_list
@@ -47,5 +42,3 @@ from .validate import (
     validate_servants,
     validate_skills,
 )
-
-logging.getLogger(__package__).addHandler(logging.NullHandler())

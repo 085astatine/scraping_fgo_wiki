@@ -5,7 +5,7 @@ import pathlib
 from typing import Optional
 
 from .io import load_json
-from .types import Dictionary, Item, ItemDictionary, ServantDictionary, Text
+from .types import ItemDictionary, ServantDictionary
 
 
 def load_item_dictionary(
@@ -34,19 +34,3 @@ def load_servant_dictionary(
         logger.error('failed to load servant dictionary from "%s"', path)
         return None
     return {int(key): value for key, value in data.items()}
-
-
-def item_name(
-    item: Item,
-    dictionary: Dictionary,
-    *,
-    logger: Optional[logging.Logger] = None,
-) -> Text:
-    logger = logger or logging.getLogger(__name__)
-    item_id = item["id"]
-    if item_id not in dictionary["item"]:
-        logger.warning("Item %d is not found in dictionary", item_id)
-    return Text(
-        jp=item["name"],
-        en=dictionary["item"].get(item_id, item["name"]),
-    )
