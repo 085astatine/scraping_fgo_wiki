@@ -885,6 +885,7 @@ def to_dictionary_value(
         append_skills=[
             [skill["name"] for skill in skill_n] for skill_n in servant["append_skills"]
         ],
+        costumes=[costume["name"] for costume in servant["costumes"]],
     )
 
 
