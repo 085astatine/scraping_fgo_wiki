@@ -102,6 +102,7 @@ class ServantDictionaryValue(TypedDict):
     false_name: Optional[str]
     skills: list[list[str]]
     append_skills: list[list[str]]
+    costumes: list[str]
 
 
 type ServantDictionary = dict[ServantID, ServantDictionaryValue]
@@ -109,5 +110,4 @@ type ServantDictionary = dict[ServantID, ServantDictionaryValue]
 
 class Dictionary(TypedDict):
     item: ItemDictionary
-    servant: dict[str, Text]
-    skill: dict[str, Text]
+    servant: ServantDictionary
