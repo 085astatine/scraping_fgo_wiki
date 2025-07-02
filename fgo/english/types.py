@@ -1,11 +1,18 @@
 from __future__ import annotations
 
-from typing import Optional, TypedDict
+from typing import Literal, Optional, TypedDict
 
-from ..types import Resource, ServantID
-
+from ..types import CostumeID, Resource, ServantID
 
 # pylint: disable=duplicate-code
+type CostumeType = Literal["full", "simple"]
+
+
+class Text(TypedDict):
+    en: str
+    jp: str
+
+
 class Skill(TypedDict):
     name: str
     rank: str
@@ -36,3 +43,11 @@ class ServantLink(TypedDict):
     id: ServantID
     url: str
     title: str
+
+
+class CostumeData(TypedDict):
+    costume_id: CostumeID
+    costume_type: CostumeType
+    servant: str
+    name: Text
+    resource: Resource

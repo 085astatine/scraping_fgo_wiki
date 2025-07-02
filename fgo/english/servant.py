@@ -6,7 +6,7 @@ import re
 from typing import Optional
 
 from ..io import load_json
-from .types import Servant, ServantLink
+from .types import CostumeData, Servant, ServantLink
 
 
 # pylint: disable=duplicate-code
@@ -71,3 +71,17 @@ def load_servant_links(
         logger.error('failed to load "%s"', path)
         return None
     return links
+
+
+def load_costumes(
+    path: pathlib.Path,
+    *,
+    logger: Optional[logging.Logger] = None,
+) -> Optional[list[CostumeData]]:
+    logger = logger or logging.getLogger(__name__)
+    logger.info('load costumes from "%s"', path)
+    costumes = load_json(path)
+    if costumes is None:
+        logger.error('failed to load costumes from "%s"', path)
+        return None
+    return costumes
