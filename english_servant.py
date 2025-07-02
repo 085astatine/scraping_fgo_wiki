@@ -10,6 +10,7 @@ import logging
 import pathlib
 import re
 import time
+import urllib.parse
 from typing import Literal, Optional
 
 import fake_useragent
@@ -238,7 +239,7 @@ def parse_servant_links(
             href,
             title,
         )
-        url = f"https://fategrandorder.fandom.com/{href}"
+        url = urllib.parse.urljoin("https://fategrandorder.fandom.com", href)
         links.append(fgo.english.ServantLink(id=servant_id, url=url, title=title))
     return links
 
