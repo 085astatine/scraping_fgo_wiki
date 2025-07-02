@@ -43,11 +43,14 @@ def main() -> None:
     if option.targets:
         links = [link for link in links if link["id"] in option.targets]
     # costumes
-    costumes = get_costumes(
-        pathlib.Path("data/english/servant"),
-        session,
-        logger,
-        option,
+    costumes = group_costumes_by_servant(
+        get_costumes(
+            pathlib.Path("data/english/servant"),
+            session,
+            logger,
+            option,
+        ),
+        links,
     )
     # patch
     patch_path = pathlib.Path("data/english/servant/patch.json")
@@ -450,6 +453,25 @@ def parse_costume_resource(
                 )
             )
     return resource
+
+
+def group_costumes_by_servant(
+    costumes: list[fgo.english.CostumeData],
+    links: list[fgo.english.ServantLink],
+) -> dict[fgo.ServantID, list[fgo.english.CostumeData]]:
+    link_to_id: dict[str, fgo.ServantID] = {
+        urllib.parse.unquote(
+            link["url"]
+            .removeprefix("https://fategrandorder.fandom.com/wiki/")
+            .removesuffix(".html")
+            .replace("_", " ")
+        ): link["id"]
+        for link in links
+    }
+    result: dict[fgo.ServantID, list[fgo.english.CostumeData]] = {}
+    for costume in costumes:
+        result.setdefault(link_to_id[costume["servant"]], []).append(costume)
+    return result
 
 
 def load_patch(
