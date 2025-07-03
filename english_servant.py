@@ -11,7 +11,7 @@ import pathlib
 import re
 import time
 import urllib.parse
-from typing import Literal, Optional
+from typing import Literal, Optional, TypedDict
 
 import fake_useragent
 import lxml.html
@@ -1012,51 +1012,55 @@ def to_skill_resources(
     return resources
 
 
+class CostumeData(TypedDict, total=False):
+    name: str
+    text_en: str
+    text_jp: str
+    items: list[fgo.Items]
+    qp: int
+
+
 def to_costumes(
     rows: list[ResourceTableRow],
 ) -> list[fgo.english.Costume]:
-    indexes: set[int] = set()
-    name: dict[int, str] = {}
-    text_en: dict[int, str] = {}
-    text_jp: dict[int, str] = {}
-    items: dict[int, list[fgo.Items]] = {}
-    qp: dict[int, int] = {}
+    costumes: dict[int, CostumeData] = {}
     for row in rows:
         if row.index <= 4:
             continue
-        indexes.add(row.index)
         match row:
-            case ItemsRow(item=item, piece=piece):
-                items.setdefault(row.index, []).append(
+            case ItemsRow(index=index, item=item, piece=piece):
+                costumes.setdefault(index, {}).setdefault("items", []).append(
                     fgo.Items(name=item, piece=piece)
                 )
-            case QPRow(value=value):
-                qp[row.index] = value
-            case TextRow(key=key, text=text):
+            case QPRow(index=index, value=value):
+                costumes.setdefault(index, {})["qp"] = value
+            case TextRow(index=index, key=key, text=text):
                 match key:
                     case "name":
-                        name[row.index] = text
+                        costumes.setdefault(index, {})["name"] = text
                     case "jdef":
-                        text_jp[row.index] = re.sub("<br/?>", "\n", text)
+                        text_jp = re.sub("<br/?>", "\n", text)
+                        costumes.setdefault(index, {})["text_jp"] = text_jp
                     case "ndef":
-                        text_en[row.index] = re.sub("<br/?>", "\n", text)
+                        text_en = re.sub("<br/?>", "\n", text)
+                        costumes.setdefault(index, {})["text_en"] = text_en
     # to costumes
-    costumes: list[fgo.english.Costume] = []
-    for index in indexes:
-        if index not in name:
+    result: list[fgo.english.Costume] = []
+    for costume in costumes.values():
+        if "name" not in costume:
             continue
-        costumes.append(
+        result.append(
             fgo.english.Costume(
-                name=name.get(index, ""),
-                text_jp=text_jp.get(index, ""),
-                text_en=text_en.get(index, ""),
+                name=costume["name"],
+                text_jp=costume.get("text_jp", ""),
+                text_en=costume.get("text_en", ""),
                 resource=fgo.Resource(
-                    qp=qp.get(index, 0),
-                    items=items.get(index, []),
+                    qp=costume.get("qp", 0),
+                    items=costume.get("items", []),
                 ),
             )
         )
-    return costumes
+    return result
 
 
 def ascension_qp(stars: int) -> list[int]:
