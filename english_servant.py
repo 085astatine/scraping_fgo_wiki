@@ -1025,34 +1025,12 @@ def to_costumes(
     rows: list[ResourceTableRow],
     logger: fgo.ServantLogger,
 ) -> list[fgo.english.Costume]:
-    costumes: dict[int, CostumeData] = {}
-    for row in rows:
-        if row.index <= 4:
-            continue
-        match row:
-            case ItemsRow(index=index, item=item, piece=piece):
-                costumes.setdefault(index, {}).setdefault("items", []).append(
-                    fgo.Items(name=item, piece=piece)
-                )
-            case QPRow(index=index, value=value):
-                costumes.setdefault(index, {})["qp"] = value
-            case TextRow(index=index, key=key, text=text):
-                match key:
-                    case "name":
-                        costumes.setdefault(index, {})["name"] = text
-                    case "icon":
-                        stage = parse_costume_servant(text, logger)[1]
-                        costumes.setdefault(index, {})["stage"] = stage
-                    case "jdef":
-                        text_jp = re.sub("<br/?>", "\n", text)
-                        costumes.setdefault(index, {})["text_jp"] = text_jp
-                    case "ndef":
-                        text_en = re.sub("<br/?>", "\n", text)
-                        costumes.setdefault(index, {})["text_en"] = text_en
+    # parse rows
+    costumes = parse_costume_rows(rows, logger)
     # to costumes
     result: list[fgo.english.Costume] = []
-    for costume in costumes.values():
-        if "name" not in costume:
+    for costume in costumes:
+        if "stage" not in costume:
             continue
         result.append(
             fgo.english.Costume(
@@ -1065,7 +1043,39 @@ def to_costumes(
                 ),
             )
         )
+    # sort by id
+    result.sort(key=lambda costume: costume["id"])
     return result
+
+
+def parse_costume_rows(
+    rows: list[ResourceTableRow],
+    logger: fgo.ServantLogger,
+) -> list[CostumeData]:
+    data: dict[int, CostumeData] = {}
+    for row in rows:
+        if row.index <= 4:
+            continue
+        match row:
+            case ItemsRow(index=index, item=item, piece=piece):
+                items = fgo.Items(name=item, piece=piece)
+                data.setdefault(index, {}).setdefault("items", []).append(items)
+            case QPRow(index=index, value=value):
+                data.setdefault(index, {})["qp"] = value
+            case TextRow(index=index, key=key, text=text):
+                match key:
+                    case "name":
+                        data.setdefault(index, {})["name"] = text
+                    case "icon":
+                        stage = parse_costume_servant(text, logger)[1]
+                        data.setdefault(index, {})["stage"] = stage
+                    case "jdef":
+                        text_jp = re.sub("<br/?>", "\n", text)
+                        data.setdefault(index, {})["text_jp"] = text_jp
+                    case "ndef":
+                        text_en = re.sub("<br/?>", "\n", text)
+                        data.setdefault(index, {})["text_en"] = text_en
+    return list(data.values())
 
 
 def ascension_qp(stars: int) -> list[int]:
