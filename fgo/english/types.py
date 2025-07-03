@@ -49,5 +49,6 @@ class CostumeData(TypedDict):
     costume_id: CostumeID
     costume_type: CostumeType
     servant: str
+    stage: str
     name: Text
     resource: Resource

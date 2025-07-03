@@ -366,8 +366,8 @@ def parse_costume_list_item(
     ).split("\t")
     # costume id
     costume_id = int(cells[0])
-    # servant
-    servant = parse_costume_servant(cells[1], costume_id, logger)
+    # servant & stage
+    servant, stage = parse_costume_servant(cells[1], logger)
     # name
     name_jp, name_en = parse_costume_name(cells[2])
     logger.debug(
@@ -383,6 +383,7 @@ def parse_costume_list_item(
         costume_id=costume_id,
         costume_type=costume_type,
         servant=servant,
+        stage=stage,
         name={
             "en": name_en,
             "jp": name_jp,
@@ -393,17 +394,16 @@ def parse_costume_list_item(
 
 def parse_costume_servant(
     text: str,
-    costume_id: fgo.CostumeID,
-    logger: logging.Logger,
-) -> str:
+    logger: logging.Logger | fgo.ServantLogger,
+) -> tuple[str, str]:
     match = re.match(
         r"{{(?P<servant>.+)\|stage=(?P<stage>.+)}}",
         text,
     )
     if match is None:
-        logger.error("costume %d: failed to get servant", costume_id)
-        return ""
-    return match.group("servant")
+        logger.error('failed to parse servant and stage from "%s"', text)
+        return "", ""
+    return match.group("servant"), match.group("stage")
 
 
 def parse_costume_name(
@@ -817,7 +817,7 @@ def parse_ascension_table(
     if rows is None:
         return [], []
     ascension_resources = to_ascension_resources(rows, stars)
-    costumes = to_costumes(rows)
+    costumes = to_costumes(rows, logger)
     return ascension_resources, costumes
 
 
@@ -940,7 +940,7 @@ def parse_resource_table_row(row: str) -> Optional[ItemsRow | QPRow | TextRow]:
     match = re.match(
         r"\|(?P<index>[0-9]+)(?P<key>([1-4]|qp|name|jdef|ndef|icon))"
         r"\s*=\s*"
-        r"(({{(?P<item>.+?)(\|(?P<piece>[0-9,]+)?\s*)?\}\})|(?P<text>.+))",
+        r"(({{(?P<item>[^|]+?)(\|(?P<piece>[0-9,]+)?\s*)?\}\})|(?P<text>.+))",
         row,
     )
     if match is None:
@@ -1014,6 +1014,7 @@ def to_skill_resources(
 
 class CostumeData(TypedDict, total=False):
     name: str
+    stage: str
     text_en: str
     text_jp: str
     items: list[fgo.Items]
@@ -1022,6 +1023,7 @@ class CostumeData(TypedDict, total=False):
 
 def to_costumes(
     rows: list[ResourceTableRow],
+    logger: fgo.ServantLogger,
 ) -> list[fgo.english.Costume]:
     costumes: dict[int, CostumeData] = {}
     for row in rows:
@@ -1038,6 +1040,9 @@ def to_costumes(
                 match key:
                     case "name":
                         costumes.setdefault(index, {})["name"] = text
+                    case "icon":
+                        stage = parse_costume_servant(text, logger)[1]
+                        costumes.setdefault(index, {})["stage"] = stage
                     case "jdef":
                         text_jp = re.sub("<br/?>", "\n", text)
                         costumes.setdefault(index, {})["text_jp"] = text_jp
