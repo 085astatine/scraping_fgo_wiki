@@ -470,7 +470,9 @@ def group_costumes_by_servant(
     }
     result: dict[fgo.ServantID, list[fgo.english.CostumeData]] = {}
     for costume in costumes:
-        result.setdefault(link_to_id[costume["servant"]], []).append(costume)
+        servant_id = link_to_id.get(costume["servant"], None)
+        if servant_id is not None:
+            result.setdefault(servant_id, []).append(costume)
     return result
 
 
