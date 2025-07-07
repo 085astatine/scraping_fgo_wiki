@@ -19,9 +19,10 @@ class Skill(TypedDict):
 
 
 class Costume(TypedDict):
-    name: str
-    text_jp: str
-    text_en: str
+    id: CostumeID
+    type: CostumeType
+    name: Text
+    flavor_text: Text
     resource: Resource
 
 

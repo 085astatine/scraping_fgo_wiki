@@ -61,6 +61,7 @@ def main() -> None:
         servant_directory,
         session,
         links,
+        costumes,
         patch,
         logger,
         option,
@@ -493,6 +494,7 @@ def get_servants(
     directory: pathlib.Path,
     session: requests.Session,
     links: list[fgo.english.ServantLink],
+    costumes: dict[fgo.ServantID, list[fgo.english.CostumeData]],
     patches: dict[fgo.ServantID, list[fgo.Patch]],
     logger: logging.Logger,
     option: Option,
@@ -523,10 +525,19 @@ def get_servants(
                 servant_logger.error("failed to get source")
                 continue
             # parse source
-            servant = parse_servant_data(link, source, servant_logger)
+            servant = parse_servant_data(
+                link,
+                source,
+                costumes.get(servant_id, []),
+                servant_logger,
+            )
             # patch
             if not option.no_patch and servant_id in patches:
-                fgo.apply_patches(servant, patches[servant_id], logger=servant_logger)
+                fgo.apply_patches(
+                    servant,
+                    patches[servant_id],
+                    logger=servant_logger,
+                )
             # save
             if not option.no_save:
                 servant_logger.info('save servant to "%s"', path)
@@ -604,6 +615,7 @@ def load_servant_data(
 def parse_servant_data(
     link: fgo.english.ServantLink,
     source: str,
+    costume_data: list[fgo.english.CostumeData],
     logger: fgo.ServantLogger,
 ) -> fgo.english.Servant:
     # false name
@@ -617,7 +629,12 @@ def parse_servant_data(
     # append skills
     append_skills = parse_append_skills(source, logger)
     # ascension resources & costumes
-    ascension_resources, costumes = parse_ascension_table(source, stars, logger)
+    ascension_resources, costumes = parse_ascension_table(
+        source,
+        stars,
+        costume_data,
+        logger,
+    )
     # active skill resource
     active_skill_resources = parse_active_skill_resources(source, stars, logger)
     # append skill resource
@@ -809,6 +826,7 @@ def to_skill(name: str, rank: str) -> fgo.english.Skill:
 def parse_ascension_table(
     source: str,
     stars: int,
+    costume_data: list[fgo.english.CostumeData],
     logger: fgo.ServantLogger,
 ) -> tuple[list[fgo.Resource], list[fgo.english.Costume]]:
     logger.debug("ascension & costume")
@@ -819,7 +837,7 @@ def parse_ascension_table(
     if rows is None:
         return [], []
     ascension_resources = to_ascension_resources(rows, stars)
-    costumes = to_costumes(rows, logger)
+    costumes = to_costumes(rows, costume_data, logger)
     return ascension_resources, costumes
 
 
@@ -1025,6 +1043,7 @@ class CostumeData(TypedDict, total=False):
 
 def to_costumes(
     rows: list[ResourceTableRow],
+    costume_data: list[fgo.english.CostumeData],
     logger: fgo.ServantLogger,
 ) -> list[fgo.english.Costume]:
     # parse rows
@@ -1034,17 +1053,16 @@ def to_costumes(
     for costume in costumes:
         if "stage" not in costume:
             continue
-        result.append(
-            fgo.english.Costume(
-                name=costume["name"],
-                text_jp=costume.get("text_jp", ""),
-                text_en=costume.get("text_en", ""),
-                resource=fgo.Resource(
-                    qp=costume.get("qp", 0),
-                    items=costume.get("items", []),
-                ),
-            )
+        data = next(
+            (data for data in costume_data if data["stage"] == costume["stage"]),
+            None,
         )
+        if data is None:
+            logger.error('failed to get "%s" from costume data', costume["stage"])
+            continue
+        value = to_costume(data, costume, logger)
+        if value is not None:
+            result.append(value)
     # sort by id
     result.sort(key=lambda costume: costume["id"])
     return result
@@ -1078,6 +1096,51 @@ def parse_costume_rows(
                         text_en = re.sub("<br/?>", "\n", text)
                         data.setdefault(index, {})["text_en"] = text_en
     return list(data.values())
+
+
+def to_costume(
+    data_from_list: fgo.english.CostumeData,
+    data_from_servant: CostumeData,
+    logger: fgo.ServantLogger,
+) -> Optional[fgo.english.Costume]:
+    costume_id = data_from_list["costume_id"]
+    # check stage
+    if data_from_list["stage"] != data_from_servant.get("stage", ""):
+        logger.error("costume %d: stage do not match", costume_id)
+        return None
+    # compare name
+    if data_from_list["name"]["en"] != data_from_servant.get("name", ""):
+        logger.warning(
+            'costume %d: name.en do not match ("%s" != "%s")',
+            costume_id,
+            data_from_list["name"]["en"],
+            data_from_servant.get("name", ""),
+        )
+    # compare resource
+    if data_from_list["resource"]["qp"] != data_from_servant.get("qp", 0):
+        logger.warning(
+            "cotume %s: resource.qp do not match (%d != %d)",
+            costume_id,
+            data_from_list["resource"]["qp"],
+            data_from_servant.get("qp", 0),
+        )
+    if data_from_list["resource"]["items"] != data_from_servant.get("items", []):
+        logger.warning(
+            "costume %d: resource.items do not match (%s != %s)",
+            costume_id,
+            data_from_list["resource"]["items"],
+            data_from_servant.get("items", []),
+        )
+    return fgo.english.Costume(
+        id=data_from_list["costume_id"],
+        type=data_from_list["costume_type"],
+        name=data_from_list["name"],
+        flavor_text={
+            "en": data_from_servant.get("text_en", ""),
+            "jp": data_from_servant.get("text_jp", ""),
+        },
+        resource=data_from_list["resource"],
+    )
 
 
 def ascension_qp(stars: int) -> list[int]:
@@ -1146,7 +1209,7 @@ def to_dictionary_value(
         append_skills=[
             [skill["name"] for skill in skill_n] for skill_n in servant["append_skills"]
         ],
-        costumes=[costume["name"] for costume in servant["costumes"]],
+        costumes=[costume["name"]["en"] for costume in servant["costumes"]],
     )
 
 
