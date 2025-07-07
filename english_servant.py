@@ -1085,7 +1085,8 @@ def parse_costume_rows(
             case TextRow(index=index, key=key, text=text):
                 match key:
                     case "name":
-                        data.setdefault(index, {})["name"] = text
+                        name = re.sub("<br/?>", " ", text)
+                        data.setdefault(index, {})["name"] = name
                     case "icon":
                         stage = parse_costume_servant(text, logger)[1]
                         data.setdefault(index, {})["stage"] = stage
