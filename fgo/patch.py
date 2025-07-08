@@ -19,8 +19,16 @@ def apply_patch(
     logger: Optional[logging.Logger | logging.LoggerAdapter] = None,
 ) -> None:
     logger = logger or logging.getLogger(__name__)
-    parent = functools.reduce(operator.getitem, patch["path"][:-1], data)
-    before = parent[patch["path"][-1]]
+    try:
+        parent = functools.reduce(operator.getitem, patch["path"][:-1], data)
+        before = parent[patch["path"][-1]]
+    except (IndexError, KeyError) as error:
+        logger.error(
+            "failed to apply patch with %s(%s)",
+            type(error).__name__,
+            error,
+        )
+        return
     if before != patch["before"]:
         logger.error(
             'patch %s: before is different. actual="%s", expected="%s"',
