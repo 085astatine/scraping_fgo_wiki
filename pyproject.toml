@@ -26,10 +26,14 @@ types-requests = "^2.32.0.20250515"
 profile = "black"
 
 [tool.pylint]
+enable = [
+  "useless-suppression",  # I0021
+]
 disable = [
   "missing-module-docstring",  # C0114
   "missing-class-docstring",  # C0115
   "missing-function-docstring",  # C0116
+  "too-many-lines",  # C0302
 ]
 
 [build-system]

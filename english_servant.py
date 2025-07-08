@@ -8,7 +8,8 @@ import logging
 import pathlib
 import re
 import time
-from typing import Literal, Optional
+import urllib.parse
+from typing import Literal, Optional, TypedDict
 
 import fake_useragent
 import lxml.html
@@ -29,32 +30,45 @@ def main() -> None:
     logger.debug("option: %s", option)
     # session
     session = create_session(logger=logger)
+    # directiory
+    directory = pathlib.Path("data/english/servant")
     # servant links
-    links_path = pathlib.Path("data/english/servant/link.json")
     links = get_servant_links(
-        links_path,
+        directory.joinpath("link.json"),
         session,
         logger,
         option,
     )
     if option.targets:
         links = [link for link in links if link["id"] in option.targets]
+    # costumes
+    costumes = group_costumes_by_servant(
+        get_costumes(
+            directory.joinpath("servant"),
+            session,
+            logger,
+            option,
+        ),
+        links,
+    )
     # patch
-    patch_path = pathlib.Path("data/english/servant/patch.json")
-    patch = load_patch(patch_path, logger)
+    patch = load_patch(
+        pathlib.Path("data/english/servant/patch.json"),
+        logger,
+    )
     # servants
-    servant_directory = pathlib.Path("data/english/servant")
     servants = get_servants(
-        servant_directory,
+        directory.joinpath("servant"),
         session,
         links,
+        costumes,
         patch,
         logger,
         option,
     )
     # to English dictionary
     english_dictionary = to_dictionary(servants)
-    dictionary_path = pathlib.Path("data/english/servant.json")
+    dictionary_path = directory.joinpath("servant.json")
     if not option.no_save:
         logger.info('save english dictionary to "%s"', dictionary_path)
         fgo.save_json(dictionary_path, english_dictionary)
@@ -229,9 +243,238 @@ def parse_servant_links(
             href,
             title,
         )
-        url = f"https://fategrandorder.fandom.com/{href}"
+        url = urllib.parse.urljoin("https://fategrandorder.fandom.com", href)
         links.append(fgo.english.ServantLink(id=servant_id, url=url, title=title))
     return links
+
+
+def get_costumes(
+    directory: pathlib.Path,
+    session: requests.Session,
+    logger: logging.Logger,
+    option: Option,
+) -> list[fgo.english.CostumeData]:
+    path = directory.joinpath("costume.json")
+    if option.force_update or not path.exists():
+        costume_types: list[fgo.english.CostumeType] = ["full", "simple"]
+        costumes: list[fgo.english.CostumeData] = []
+        for costume_type in costume_types:
+            source = get_costume_data(
+                costume_type,
+                directory.joinpath(f"data/{costume_type}_costume.txt"),
+                session,
+                logger,
+                option,
+            )
+            if source is None:
+                continue
+            costumes.extend(parse_costume_list(costume_type, source, logger))
+        # sort by costume_id
+        costumes.sort(key=lambda costume: costume["costume_id"])
+        # save
+        if not option.no_save:
+            logger.info('save costumes to "%s"', path)
+            fgo.save_json(path, costumes)
+    else:
+        costumes = fgo.load_json(path) or []
+    return costumes
+
+
+def get_costume_data(
+    costume_type: fgo.english.CostumeType,
+    path: pathlib.Path,
+    session: requests.Session,
+    logger: logging.Logger,
+    option: Option,
+) -> Optional[str]:
+    if option.force_update or not path.exists():
+        # request
+        data = request_costume_list(
+            costume_type,
+            session,
+            logger,
+            option.request_timeout,
+        )
+        # save
+        if not option.no_save and data is not None:
+            logger.info('save costume list to "%s"', path)
+            path.write_text(data, encoding="utf-8")
+        time.sleep(option.request_interval)
+    else:
+        data = path.read_text(encoding="utf-8")
+    return data
+
+
+def request_costume_list(
+    costume_type: fgo.english.CostumeType,
+    session: requests.Session,
+    logger: logging.Logger,
+    request_timeout: float,
+) -> Optional[str]:
+    url = costume_list_url(costume_type)
+    logger.info('request "%s"', url)
+    response = session.get(
+        url,
+        params={"action": "edit"},
+        timeout=request_timeout,
+    )
+    logger.debug("response: %d", response.status_code)
+    if not response.ok:
+        logger.error('failed to request "%s"', url)
+        return None
+    root = lxml.html.fromstring(response.text)
+    return root.xpath('//textarea[@name="wpTextbox1"]/text()')[0]
+
+
+def costume_list_url(costume_type: fgo.english.CostumeType) -> str:
+    match costume_type:
+        case "full":
+            return "https://fategrandorder.fandom.com/wiki/Sub:Costume_Dress/Full_Costume_List"
+        case "simple":
+            return "https://fategrandorder.fandom.com/wiki/Sub:Costume_Dress/Simple_Costume_List"
+
+
+def parse_costume_list(
+    costume_type: fgo.english.CostumeType,
+    source: str,
+    logger: logging.Logger,
+) -> list[fgo.english.CostumeData]:
+    costumes: list[fgo.english.CostumeData] = []
+    for row in re.findall(
+        r"(?<=\|-).+?(?=\|[-}])",
+        source,
+        flags=re.DOTALL,
+    ):
+        costumes.append(
+            parse_costume_list_item(
+                costume_type,
+                row,
+                logger,
+            )
+        )
+    return costumes
+
+
+def parse_costume_list_item(
+    costume_type: fgo.english.CostumeType,
+    text: str,
+    logger: logging.Logger,
+) -> fgo.english.CostumeData:
+    cells = re.sub(
+        r"({{.+?}}|\[\[.+?\]\]|(?P<delimiter>\|))",
+        lambda x: "\t" if x.group("delimiter") else x.group(0),
+        text.replace("\n", "").removeprefix("|"),
+    ).split("\t")
+    # costume id
+    costume_id = int(cells[0])
+    # servant & stage
+    servant, stage = parse_costume_servant(cells[1], logger)
+    # name
+    name_jp, name_en = parse_costume_name(cells[2])
+    logger.debug(
+        'costume %d: servant="%s", jp="%s", en="%s"',
+        costume_id,
+        servant,
+        name_jp,
+        name_en,
+    )
+    # resource
+    resource = parse_costume_resource(cells[5], costume_id, logger)
+    return fgo.english.CostumeData(
+        costume_id=costume_id,
+        costume_type=costume_type,
+        servant=servant,
+        stage=stage,
+        name={
+            "en": name_en,
+            "jp": name_jp,
+        },
+        resource=resource,
+    )
+
+
+def parse_costume_servant(
+    text: str,
+    logger: logging.Logger | fgo.ServantLogger,
+) -> tuple[str, str]:
+    match = re.match(
+        r"{{(?P<servant>.+)\|stage=(?P<stage>.+)}}",
+        text,
+    )
+    if match is None:
+        logger.error('failed to parse servant and stage from "%s"', text)
+        return "", ""
+    return match.group("servant"), match.group("stage")
+
+
+def parse_costume_name(
+    text: str,
+) -> tuple[str, str]:
+    # {jp}<br>{en}
+    if "<br>" in text:
+        jp, en = text.split("<br>", maxsplit=1)
+        # {{Ruby|(text)|(ruby)}}
+        ruby_match = re.match(
+            r"{{Ruby\|(?P<text>.+)\|(?P<ruby>.+)}}",
+            jp,
+        )
+        if ruby_match:
+            jp = ruby_match.group("text")
+        # remove quotation ''...'' & replace <br> with space
+        en = en.removeprefix("''").removesuffix("''").replace("<br>", " ")
+        return jp, en
+    # english name only
+    return text, text
+
+
+def parse_costume_resource(
+    text: str,
+    costume_id,
+    logger: logging.Logger,
+) -> fgo.Resource:
+    resource = fgo.Resource(qp=0, items=[])
+    for name, piece in re.findall(
+        r"{{(?P<name>.+?)\|(?P<piece>[0-9]+M?)}}",
+        text,
+    ):
+        number = int(piece.replace("M", "000000"))
+        logger.debug(
+            'costume %d: resouce "%s" x %d',
+            costume_id,
+            name,
+            number,
+        )
+        if name == "QP":
+            resource["qp"] = number
+        else:
+            resource["items"].append(
+                fgo.Items(
+                    name=name,
+                    piece=number,
+                )
+            )
+    return resource
+
+
+def group_costumes_by_servant(
+    costumes: list[fgo.english.CostumeData],
+    links: list[fgo.english.ServantLink],
+) -> dict[fgo.ServantID, list[fgo.english.CostumeData]]:
+    link_to_id: dict[str, fgo.ServantID] = {
+        urllib.parse.unquote(
+            link["url"]
+            .removeprefix("https://fategrandorder.fandom.com/wiki/")
+            .removesuffix(".html")
+            .replace("_", " ")
+        ): link["id"]
+        for link in links
+    }
+    result: dict[fgo.ServantID, list[fgo.english.CostumeData]] = {}
+    for costume in costumes:
+        servant_id = link_to_id.get(costume["servant"], None)
+        if servant_id is not None:
+            result.setdefault(servant_id, []).append(costume)
+    return result
 
 
 def load_patch(
@@ -251,6 +494,7 @@ def get_servants(
     directory: pathlib.Path,
     session: requests.Session,
     links: list[fgo.english.ServantLink],
+    costumes: dict[fgo.ServantID, list[fgo.english.CostumeData]],
     patches: dict[fgo.ServantID, list[fgo.Patch]],
     logger: logging.Logger,
     option: Option,
@@ -281,10 +525,19 @@ def get_servants(
                 servant_logger.error("failed to get source")
                 continue
             # parse source
-            servant = parse_servant_data(link, source, servant_logger)
+            servant = parse_servant_data(
+                link,
+                source,
+                costumes.get(servant_id, []),
+                servant_logger,
+            )
             # patch
             if not option.no_patch and servant_id in patches:
-                fgo.apply_patches(servant, patches[servant_id], logger=servant_logger)
+                fgo.apply_patches(
+                    servant,
+                    patches[servant_id],
+                    logger=servant_logger,
+                )
             # save
             if not option.no_save:
                 servant_logger.info('save servant to "%s"', path)
@@ -362,6 +615,7 @@ def load_servant_data(
 def parse_servant_data(
     link: fgo.english.ServantLink,
     source: str,
+    costume_data: list[fgo.english.CostumeData],
     logger: fgo.ServantLogger,
 ) -> fgo.english.Servant:
     # false name
@@ -375,7 +629,12 @@ def parse_servant_data(
     # append skills
     append_skills = parse_append_skills(source, logger)
     # ascension resources & costumes
-    ascension_resources, costumes = parse_ascension_table(source, stars, logger)
+    ascension_resources, costumes = parse_ascension_table(
+        source,
+        stars,
+        costume_data,
+        logger,
+    )
     # active skill resource
     active_skill_resources = parse_active_skill_resources(source, stars, logger)
     # append skill resource
@@ -567,6 +826,7 @@ def to_skill(name: str, rank: str) -> fgo.english.Skill:
 def parse_ascension_table(
     source: str,
     stars: int,
+    costume_data: list[fgo.english.CostumeData],
     logger: fgo.ServantLogger,
 ) -> tuple[list[fgo.Resource], list[fgo.english.Costume]]:
     logger.debug("ascension & costume")
@@ -577,7 +837,7 @@ def parse_ascension_table(
     if rows is None:
         return [], []
     ascension_resources = to_ascension_resources(rows, stars)
-    costumes = to_costumes(rows)
+    costumes = to_costumes(rows, costume_data, logger)
     return ascension_resources, costumes
 
 
@@ -700,7 +960,7 @@ def parse_resource_table_row(row: str) -> Optional[ItemsRow | QPRow | TextRow]:
     match = re.match(
         r"\|(?P<index>[0-9]+)(?P<key>([1-4]|qp|name|jdef|ndef|icon))"
         r"\s*=\s*"
-        r"(({{(?P<item>.+?)(\|(?P<piece>[0-9,]+)?\s*)?\}\})|(?P<text>.+))",
+        r"(({{(?P<item>[^|]+?)(\|(?P<piece>[0-9,]+)?\s*)?\}\})|(?P<text>.+))",
         row,
     )
     if match is None:
@@ -772,51 +1032,116 @@ def to_skill_resources(
     return resources
 
 
+class CostumeData(TypedDict, total=False):
+    name: str
+    stage: str
+    text_en: str
+    text_jp: str
+    items: list[fgo.Items]
+    qp: int
+
+
 def to_costumes(
     rows: list[ResourceTableRow],
+    costume_data: list[fgo.english.CostumeData],
+    logger: fgo.ServantLogger,
 ) -> list[fgo.english.Costume]:
-    indexes: set[int] = set()
-    name: dict[int, str] = {}
-    text_en: dict[int, str] = {}
-    text_jp: dict[int, str] = {}
-    items: dict[int, list[fgo.Items]] = {}
-    qp: dict[int, int] = {}
+    # parse rows
+    costumes = parse_costume_rows(rows, logger)
+    # to costumes
+    result: list[fgo.english.Costume] = []
+    for costume in costumes:
+        if "stage" not in costume:
+            continue
+        data = next(
+            (data for data in costume_data if data["stage"] == costume["stage"]),
+            None,
+        )
+        if data is None:
+            logger.error('failed to get "%s" from costume data', costume["stage"])
+            continue
+        value = to_costume(data, costume, logger)
+        if value is not None:
+            result.append(value)
+    # sort by id
+    result.sort(key=lambda costume: costume["id"])
+    return result
+
+
+def parse_costume_rows(
+    rows: list[ResourceTableRow],
+    logger: fgo.ServantLogger,
+) -> list[CostumeData]:
+    data: dict[int, CostumeData] = {}
     for row in rows:
         if row.index <= 4:
             continue
-        indexes.add(row.index)
         match row:
-            case ItemsRow(item=item, piece=piece):
-                items.setdefault(row.index, []).append(
-                    fgo.Items(name=item, piece=piece)
-                )
-            case QPRow(value=value):
-                qp[row.index] = value
-            case TextRow(key=key, text=text):
+            case ItemsRow(index=index, item=item, piece=piece):
+                items = fgo.Items(name=item, piece=piece)
+                data.setdefault(index, {}).setdefault("items", []).append(items)
+            case QPRow(index=index, value=value):
+                data.setdefault(index, {})["qp"] = value
+            case TextRow(index=index, key=key, text=text):
                 match key:
                     case "name":
-                        name[row.index] = text
+                        name = re.sub("<br/?>", " ", text)
+                        data.setdefault(index, {})["name"] = name
+                    case "icon":
+                        stage = parse_costume_servant(text, logger)[1]
+                        data.setdefault(index, {})["stage"] = stage
                     case "jdef":
-                        text_jp[row.index] = re.sub("<br/?>", "\n", text)
+                        text_jp = re.sub("<br/?>", "\n", text)
+                        data.setdefault(index, {})["text_jp"] = text_jp
                     case "ndef":
-                        text_en[row.index] = re.sub("<br/?>", "\n", text)
-    # to costumes
-    costumes: list[fgo.english.Costume] = []
-    for index in indexes:
-        if index not in name:
-            continue
-        costumes.append(
-            fgo.english.Costume(
-                name=name.get(index, ""),
-                text_jp=text_jp.get(index, ""),
-                text_en=text_en.get(index, ""),
-                resource=fgo.Resource(
-                    qp=qp.get(index, 0),
-                    items=items.get(index, []),
-                ),
-            )
+                        text_en = re.sub("<br/?>", "\n", text)
+                        data.setdefault(index, {})["text_en"] = text_en
+    return list(data.values())
+
+
+def to_costume(
+    data_from_list: fgo.english.CostumeData,
+    data_from_servant: CostumeData,
+    logger: fgo.ServantLogger,
+) -> Optional[fgo.english.Costume]:
+    costume_id = data_from_list["costume_id"]
+    # check stage
+    if data_from_list["stage"] != data_from_servant.get("stage", ""):
+        logger.error("costume %d: stage do not match", costume_id)
+        return None
+    # compare name
+    if data_from_list["name"]["en"] != data_from_servant.get("name", ""):
+        logger.warning(
+            'costume %d: name.en do not match ("%s" != "%s")',
+            costume_id,
+            data_from_list["name"]["en"],
+            data_from_servant.get("name", ""),
         )
-    return costumes
+    # compare resource
+    if data_from_list["resource"]["qp"] != data_from_servant.get("qp", 0):
+        logger.warning(
+            "cotume %s: resource.qp do not match (%d != %d)",
+            costume_id,
+            data_from_list["resource"]["qp"],
+            data_from_servant.get("qp", 0),
+        )
+    if data_from_list["resource"]["items"] != data_from_servant.get("items", []):
+        logger.warning(
+            "costume %d: resource.items do not match (%s != %s)",
+            costume_id,
+            data_from_list["resource"]["items"],
+            data_from_servant.get("items", []),
+        )
+    return fgo.english.Costume(
+        id=data_from_list["costume_id"],
+        type=data_from_list["costume_type"],
+        name=data_from_list["name"],
+        flavor_text={
+            "en": data_from_servant.get("text_en", ""),
+            "jp": data_from_servant.get("text_jp", ""),
+        },
+        resource=data_from_list["resource"],
+    )
 
 
 def ascension_qp(stars: int) -> list[int]:
@@ -885,7 +1210,7 @@ def to_dictionary_value(
         append_skills=[
             [skill["name"] for skill in skill_n] for skill_n in servant["append_skills"]
         ],
-        costumes=[costume["name"] for costume in servant["costumes"]],
+        costumes=[costume["name"]["en"] for costume in servant["costumes"]],
     )
 
 
