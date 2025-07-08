@@ -32,24 +32,35 @@ def main() -> None:
     # root directory
     directory = pathlib.Path("data/servant")
     # links
-    links_path = directory.joinpath("link.json")
-    links = get_servant_links(links_path, session, logger, option)
+    links = get_servant_links(
+        directory.joinpath("link.json"),
+        session,
+        logger,
+        option,
+    )
     if option.targets:
         links = [link for link in links if link["id"] in option.targets]
     # servant names
-    servant_names_path = directory.joinpath("name.json")
     servant_names = {
         name["id"]: name
-        for name in fgo.load_servant_names(servant_names_path, logger=logger) or []
+        for name in fgo.load_servant_names(
+            directory.joinpath("name.json"),
+            logger=logger,
+        )
+        or []
     }
     # costumes
-    costumes_path = directory.joinpath("costumes.json")
     costumes = group_costumes_by_servant(
-        fgo.load_costumes(costumes_path, logger=logger)
+        fgo.load_costumes(
+            directory.joinpath("costumes.json"),
+            logger=logger,
+        )
     )
     # patch
-    patch_path = directory.joinpath("patch.json")
-    patch = load_patch(patch_path, logger)
+    patch = load_patch(
+        directory.joinpath("patch.json"),
+        logger,
+    )
     # update servants
     update_servants(
         directory,

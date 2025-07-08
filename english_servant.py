@@ -30,10 +30,11 @@ def main() -> None:
     logger.debug("option: %s", option)
     # session
     session = create_session(logger=logger)
+    # directiory
+    directory = pathlib.Path("data/english/servant")
     # servant links
-    links_path = pathlib.Path("data/english/servant/link.json")
     links = get_servant_links(
-        links_path,
+        directory.joinpath("link.json"),
         session,
         logger,
         option,
@@ -43,7 +44,7 @@ def main() -> None:
     # costumes
     costumes = group_costumes_by_servant(
         get_costumes(
-            pathlib.Path("data/english/servant"),
+            directory.joinpath("servant"),
             session,
             logger,
             option,
@@ -51,12 +52,13 @@ def main() -> None:
         links,
     )
     # patch
-    patch_path = pathlib.Path("data/english/servant/patch.json")
-    patch = load_patch(patch_path, logger)
+    patch = load_patch(
+        pathlib.Path("data/english/servant/patch.json"),
+        logger,
+    )
     # servants
-    servant_directory = pathlib.Path("data/english/servant")
     servants = get_servants(
-        servant_directory,
+        directory.joinpath("servant"),
         session,
         links,
         costumes,
@@ -66,7 +68,7 @@ def main() -> None:
     )
     # to English dictionary
     english_dictionary = to_dictionary(servants)
-    dictionary_path = pathlib.Path("data/english/servant.json")
+    dictionary_path = directory.joinpath("servant.json")
     if not option.no_save:
         logger.info('save english dictionary to "%s"', dictionary_path)
         fgo.save_json(dictionary_path, english_dictionary)
