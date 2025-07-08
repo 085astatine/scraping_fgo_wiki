@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Jet Black King of Knights ver. Shinjuku 1999",
-      "text_jp": "ストリートという劇場に舞い降りた\n黒騎士は、シーンの最前線に立ち続ける",
-      "text_en": "The black knight stands firm, forever at the vanguard on the streets.",
+      "id": 33,
+      "type": "full",
+      "name": {
+        "en": "Pitch Black King of Knights Shinjuku 1999 Ver.",
+        "jp": "漆黒の騎士王ver新宿1999"
+      },
+      "flavor_text": {
+        "en": "The black knight stands firm, forever at the vanguard on the streets.",
+        "jp": "ストリートという劇場に舞い降りた\n黒騎士は、シーンの最前線に立ち続ける"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

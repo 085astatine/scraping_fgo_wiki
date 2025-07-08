@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Kiyohime the Otohime",
-      "text_jp": "竜の少女の姫衣装\n見た目とは裏腹に相変わらずの強火属性",
-      "text_en": "",
+      "id": 112,
+      "type": "full",
+      "name": {
+        "en": "Kiyohime the Otohime",
+        "jp": "乙姫清姫"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "竜の少女の姫衣装\n見た目とは裏腹に相変わらずの強火属性"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

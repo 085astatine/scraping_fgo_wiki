@@ -70,9 +70,16 @@
   ],
   "costumes": [
     {
-      "name": "Alluring Chief Warden Look",
-      "text_jp": "メイヴ大監獄を支配する者の衣装。\n赤い看守服が実に似合っている",
-      "text_en": "A costume worn by the one who rules Medb Penitentiary. The red prison guard attire is quite fetching.",
+      "id": 2,
+      "type": "full",
+      "name": {
+        "en": "Bewitching Prison Warden Look",
+        "jp": "魅惑の獄長ルック"
+      },
+      "flavor_text": {
+        "en": "A costume worn by the one who rules Medb Penitentiary. The red prison guard attire is quite fetching.",
+        "jp": "メイヴ大監獄を支配する者の衣装。\n赤い看守服が実に似合っている"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -96,9 +103,16 @@
       }
     },
     {
-      "name": "Hero My Love: My Dearest Antagonist",
-      "text_jp": "蜜の女王のダンス衣装\n某光の御子特効霊衣、らしい？",
-      "text_en": "The queen of honey's dance outfit. This Spiritron Dress has a powerful effect on a certain Child of Light...probably?",
+      "id": 57,
+      "type": "full",
+      "name": {
+        "en": "Hero, My Love: My Dearest Antagonist",
+        "jp": "愛しき私の敵対者"
+      },
+      "flavor_text": {
+        "en": "The queen of honey's dance outfit. This Spiritron Dress has a powerful effect on a certain Child of Light...probably?",
+        "jp": "蜜の女王のダンス衣装\n某光の御子特効霊衣、らしい？"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

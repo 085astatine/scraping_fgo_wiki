@@ -66,11 +66,18 @@
   ],
   "costumes": [
     {
-      "name": "With Glasses<br/>[2nd Ascension]",
-      "text_jp": "メガネをかけた刑部姫\nお姫様オーラをシャットダウン",
-      "text_en": "Osakabehime with her glasses on shuts down her princess-like aura.",
+      "id": 121,
+      "type": "simple",
+      "name": {
+        "en": "With Glasses (2nd Ascension)",
+        "jp": "メガネあり（第二再臨）"
+      },
+      "flavor_text": {
+        "en": "Osakabehime with her glasses on shuts down her princess-like aura.",
+        "jp": "メガネをかけた刑部姫\nお姫様オーラをシャットダウン"
+      },
       "resource": {
-        "qp": 0,
+        "qp": 3000000,
         "items": [
           {
             "name": "Void's Refuse",
@@ -92,11 +99,18 @@
       }
     },
     {
-      "name": "With Glasses<br/>[3rd Ascension]",
-      "text_jp": "メガネをかけた刑部姫\n姫様ムーブはしばらくお休み",
-      "text_en": "Osakabehime with her glasses on puts her princess-like moves momentarily on hold.",
+      "id": 122,
+      "type": "simple",
+      "name": {
+        "en": "With Glasses (3rd Ascension)",
+        "jp": "メガネあり（第三再臨）"
+      },
+      "flavor_text": {
+        "en": "Osakabehime with her glasses on puts her princess-like moves momentarily on hold.",
+        "jp": "メガネをかけた刑部姫\n姫様ムーブはしばらくお休み"
+      },
       "resource": {
-        "qp": 0,
+        "qp": 3000000,
         "items": [
           {
             "name": "Void's Refuse",

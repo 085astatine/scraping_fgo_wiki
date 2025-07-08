@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Splendid Cherry Blossom Song",
-      "text_jp": "鬼の化生のダンス衣装\n時にはのんびり、はんなりと",
-      "text_en": "A dance outfit worn by the incarnation of an oni. At times she may show her laid-back and elegant side.",
+      "id": 60,
+      "type": "full",
+      "name": {
+        "en": "Song of Cherry Blossoms in Full Glory",
+        "jp": "桜歌爛漫"
+      },
+      "flavor_text": {
+        "en": "A dance outfit worn by the incarnation of an oni. At times she may show her laid-back and elegant side.",
+        "jp": "鬼の化生のダンス衣装\n時にはのんびり、はんなりと"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

@@ -62,27 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Ortenaus",
-      "text_jp": "ダ・ヴィンチが改良した霊基外骨骼。\nアーマードとも呼ばれる",
-      "text_en": "A Spirit Origin exoskeleton modified by Da Vinci. Also referred to as just \"Armored.\"",
-      "resource": {
-        "qp": 0,
-        "items": []
-      }
-    },
-    {
-      "name": "Ortenaus (Refurbished)",
-      "text_jp": "シオンの協力により、アトラス院の技術\nが組み込まれた霊基外骨骼",
-      "text_en": "A Spirit Origin exoskeleton that incorporates technology from the Atlas Institute, thanks to Sion's help.",
-      "resource": {
-        "qp": 0,
-        "items": []
-      }
-    },
-    {
-      "name": "Swimsuit of Perpetual Summer",
-      "text_jp": "カルデアのみんなに選んでもらった\n初めての水着。2016年の思い出",
-      "text_en": "The first swimsuit chosen by everyone at Chaldea. A reminder of 2018.",
+      "id": 1,
+      "type": "full",
+      "name": {
+        "en": "Swimsuit of Everlasting Summer",
+        "jp": "常夏の水着"
+      },
+      "flavor_text": {
+        "en": "The first swimsuit chosen by everyone at Chaldea. A reminder of 2018.",
+        "jp": "カルデアのみんなに選んでもらった\n初めての水着。2016年の思い出"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -106,9 +95,48 @@
       }
     },
     {
-      "name": "Swimsuit of Perpetual Summer Ver.02",
-      "text_jp": "マシュの新しい水着。今年は自分で可愛\nいと思ったものを選んだとのこと",
-      "text_en": "Mash's new swimsuit. This year she chose one she thought was cute.",
+      "id": 8,
+      "type": "full",
+      "name": {
+        "en": "Ortenaus",
+        "jp": "オルテナウス"
+      },
+      "flavor_text": {
+        "en": "A Spirit Origin exoskeleton modified by Da Vinci. Also referred to as just \"Armored.\"",
+        "jp": "ダ・ヴィンチが改良した霊基外骨骼。\nアーマードとも呼ばれる"
+      },
+      "resource": {
+        "qp": 0,
+        "items": []
+      }
+    },
+    {
+      "id": 35,
+      "type": "simple",
+      "name": {
+        "en": "Ortenaus (Refurbished)",
+        "jp": "オルテナウス（改修型）"
+      },
+      "flavor_text": {
+        "en": "A Spirit Origin exoskeleton that incorporates technology from the Atlas Institute, thanks to Sion's help.",
+        "jp": "シオンの協力により、アトラス院の技術\nが組み込まれた霊基外骨骼"
+      },
+      "resource": {
+        "qp": 0,
+        "items": []
+      }
+    },
+    {
+      "id": 45,
+      "type": "full",
+      "name": {
+        "en": "Swimsuit of Everlasting Summer Ver. 02",
+        "jp": "常夏の水着Ver.02"
+      },
+      "flavor_text": {
+        "en": "Mash's new swimsuit. This year she chose one she thought was cute.",
+        "jp": "マシュの新しい水着。今年は自分で可愛\nいと思ったものを選んだとのこと"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -132,18 +160,32 @@
       }
     },
     {
-      "name": "Bright Voyager",
-      "text_jp": "「旅」をテーマにしたダンス衣装\nアクティブ＆キュートなデザイン",
-      "text_en": "A travel-themed dance outfit. It's designed to be both cute and functional for an active wearer.",
+      "id": 63,
+      "type": "full",
+      "name": {
+        "en": "Bright Voyager",
+        "jp": "Bright Voyager"
+      },
+      "flavor_text": {
+        "en": "A travel-themed dance outfit. It's designed to be both cute and functional for an active wearer.",
+        "jp": "「旅」をテーマにしたダンス衣装\nアクティブ＆キュートなデザイン"
+      },
       "resource": {
         "qp": 0,
         "items": []
       }
     },
     {
-      "name": "Paladin",
-      "text_jp": "自ら選び、導き出した新たなマシュ\nカルデアが保障する未来を示す盾と剣",
-      "text_en": "",
+      "id": 123,
+      "type": "full",
+      "name": {
+        "en": "Shielder Paladin",
+        "jp": "シールダーパラディーン"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "自ら選び、導き出した新たなマシュ\nカルデアが保障する未来を示す盾と剣"
+      },
       "resource": {
         "qp": 0,
         "items": []

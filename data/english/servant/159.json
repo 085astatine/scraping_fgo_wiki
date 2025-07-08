@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Training Wear (Modern Ver.)",
-      "text_jp": "修業時代の服を現代仕様にしたもの\n身軽さが身上の燕青らしい装い",
-      "text_en": "Yan Qing's classic training outfit redesigned for modern times. You can tell how light he must be on his feet just by looking at it.",
+      "id": 90,
+      "type": "full",
+      "name": {
+        "en": "Training Outfit (Modern Version)",
+        "jp": "修練着（現代Ver.）"
+      },
+      "flavor_text": {
+        "en": "Yan Qing's classic training outfit redesigned for modern times. You can tell how light he must be on his feet just by looking at it.",
+        "jp": "修業時代の服を現代仕様にしたもの\n身軽さが身上の燕青らしい装い"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

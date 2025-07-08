@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Malevolent Midsummer Goddess",
-      "text_jp": "夏モードの伊吹童子の荒ぶる姿\n第三再臨の姿よりもさらに荒ぶっている",
-      "text_en": "Summer Mode Ibuki Doji's berserk appearance. More violent than the image of her third ascension stage.",
+      "id": 95,
+      "type": "simple",
+      "name": {
+        "en": "Wild Midsummer Goddess",
+        "jp": "荒ぶる真夏の女神"
+      },
+      "flavor_text": {
+        "en": "Summer Mode Ibuki Doji's berserk appearance. More violent than the image of her third ascension stage.",
+        "jp": "夏モードの伊吹童子の荒ぶる姿\n第三再臨の姿よりもさらに荒ぶっている"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

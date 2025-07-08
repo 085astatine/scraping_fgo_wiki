@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Stylish Top Rim",
-      "text_jp": "エルキドゥの眼鏡\nスタイリッシュなハーフリムデザイン",
-      "text_en": "Enkidu's glasses. A chic half-rim design.",
+      "id": 77,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Stylish Top Rim",
+        "jp": "メガネ霊衣：スタイリッシュトップリム"
+      },
+      "flavor_text": {
+        "en": "Enkidu's glasses. A chic half-rim design.",
+        "jp": "エルキドゥの眼鏡\nスタイリッシュなハーフリムデザイン"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

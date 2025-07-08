@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Gray Collar",
-      "text_jp": "蝶モチーフのバーテン服\n教授本人のデザインセンスが光る一品",
-      "text_en": "A bartender's outfit with a butterfly motif. The Professor's fashion sense really shines through in this outfit.",
+      "id": 17,
+      "type": "full",
+      "name": {
+        "en": "Gray Collar",
+        "jp": "グレイ・カラー"
+      },
+      "flavor_text": {
+        "en": "A bartender's outfit with a butterfly motif. The Professor's fashion sense really shines through in this outfit.",
+        "jp": "蝶モチーフのバーテン服\n教授本人のデザインセンスが光る一品"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

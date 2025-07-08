@@ -70,9 +70,16 @@
   ],
   "costumes": [
     {
-      "name": "Palmtop Stardust",
-      "text_jp": "神の鞭のダンス衣装\n草原の少女に在り得た、可能性の一つ",
-      "text_en": "The Scourge of God's dance outfit. An alternative form of the girl who once charged through the grassy fields.",
+      "id": 53,
+      "type": "full",
+      "name": {
+        "en": "Stardust in the Palm",
+        "jp": "掌の星屑"
+      },
+      "flavor_text": {
+        "en": "The Scourge of God's dance outfit. An alternative form of the girl who once charged through the grassy fields.",
+        "jp": "神の鞭のダンス衣装\n草原の少女に在り得た、可能性の一つ"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Oval Glasses",
-      "text_jp": "クー・フーリン〔オルタ〕の眼鏡\n理系ギャングの趣きがたまらない",
-      "text_en": "Cú Chulainn (Alter)'s glasses. The intellectual bad boy look really suits him.",
+      "id": 86,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Oval Glasses",
+        "jp": "メガネ霊衣：オーバルグラス"
+      },
+      "flavor_text": {
+        "en": "Cú Chulainn (Alter)'s glasses. The intellectual bad boy look really suits him.",
+        "jp": "クー・フーリン〔オルタ〕の眼鏡\n理系ギャングの趣きがたまらない"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

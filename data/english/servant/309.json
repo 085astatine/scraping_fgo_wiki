@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Queen of Winter",
-      "text_jp": "楽園の妖精の統治者としての姿\n最果ての地から来襲した、冷たい冬の嵐",
-      "text_en": "The ruler of the Faeries of Paradise who has come as a cold, winter storm from the farthest lands to attack.",
+      "id": 68,
+      "type": "simple",
+      "name": {
+        "en": "The Winter Queen",
+        "jp": "冬の女王"
+      },
+      "flavor_text": {
+        "en": "The ruler of the Faeries of Paradise who has come as a cold, winter storm from the farthest lands to attack.",
+        "jp": "楽園の妖精の統治者としての姿\n最果ての地から来襲した、冷たい冬の嵐"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

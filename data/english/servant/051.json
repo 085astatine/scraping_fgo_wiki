@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Heian Warrior Attire",
-      "text_jp": "坂田金時の頼光四天王としての姿\n大江山での決戦においても纏っていた",
-      "text_en": "Sakata Kintoki's outfit during his service with Raikou's Four Heavenly Kings. He wore it at the decisive battle on Mt. Ooe.",
+      "id": 49,
+      "type": "full",
+      "name": {
+        "en": "Heian Warrior Attire",
+        "jp": "平安武者装束"
+      },
+      "flavor_text": {
+        "en": "Sakata Kintoki's outfit during his service with Raikou's Four Heavenly Kings. He wore it at the decisive battle on Mt. Ooe.",
+        "jp": "坂田金時の頼光四天王としての姿\n大江山での決戦においても纏っていた"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

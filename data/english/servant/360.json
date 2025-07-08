@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Warmaiden Ölrún",
-      "text_jp": "愛称エルン、ヒルドと同時期の製造個体\nなお覚醒時期はオルトリンデと同じ",
-      "text_en": "Nickname: Rún\nA unit that was manufactured at the same time as Hildr, though she only became conscious at the same time as Ortlinde.",
+      "id": 93,
+      "type": "full",
+      "name": {
+        "en": "Valkyrie Ölrún",
+        "jp": "戦乙女エルルーン"
+      },
+      "flavor_text": {
+        "en": "Nickname: Rún\nA unit that was manufactured at the same time as Hildr, though she only became conscious at the same time as Ortlinde.",
+        "jp": "愛称エルン、ヒルドと同時期の製造個体\nなお覚醒時期はオルトリンデと同じ"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

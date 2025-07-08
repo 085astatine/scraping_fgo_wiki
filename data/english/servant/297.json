@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Asagao-Patterned Yukata (Curse)",
-      "text_jp": "時折奇妙な朝顔が表面に現れるが、\n言うまでもなく式神である",
-      "text_en": "Creepy morning glories sometimes appear on this outfit, but they're just his shikigami.",
+      "id": 91,
+      "type": "full",
+      "name": {
+        "en": "Morning Glory Yukata (Cursed)",
+        "jp": "朝顔柄の浴衣（呪）"
+      },
+      "flavor_text": {
+        "en": "Creepy morning glories sometimes appear on this outfit, but they're just his shikigami.",
+        "jp": "時折奇妙な朝顔が表面に現れるが、\n言うまでもなく式神である"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Refreshing Summer Prince",
-      "text_jp": "カルデア食堂で拝借したパーカー\nアイスと共に夏を満喫するスタイル",
-      "text_en": "",
+      "id": 106,
+      "type": "full",
+      "name": {
+        "en": "Refreshing Summer Prince",
+        "jp": "爽やかサマー・プリンス"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "カルデア食堂で拝借したパーカー\nアイスと共に夏を満喫するスタイル"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -84,14 +91,25 @@
       }
     },
     {
-      "name": "Moody Summer Oberon",
-      "text_jp": "現地購入した黒のサマーパーカー\n正直暑い",
-      "text_en": "",
+      "id": 109,
+      "type": "full",
+      "name": {
+        "en": "Moody Summer Oberon",
+        "jp": "不機嫌サマー・オベロン"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "現地購入した黒のサマーパーカー\n正直暑い"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
             "name": "Unforgettable Ashes",
+            "piece": 10
+          },
+          {
+            "name": "Obsidian Edge",
             "piece": 10
           },
           {
@@ -101,10 +119,6 @@
           {
             "name": "Black Tallow",
             "piece": 5
-          },
-          {
-            "name": "Obsidian Edge",
-            "piece": 10
           }
         ]
       }

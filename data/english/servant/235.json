@@ -58,14 +58,21 @@
   ],
   "costumes": [
     {
-      "name": "Glassless<br/>[1st Ascension]",
-      "text_jp": "本人曰く、圏境極まれば、\n視界はさほど重要では無いらしい",
-      "text_en": "According to him, visibility isn't that important as long as one masters the sphere boundary.",
+      "id": 18,
+      "type": "simple",
+      "name": {
+        "en": "Glassless (1st Ascension)",
+        "jp": "グラスレス（第一再臨）"
+      },
+      "flavor_text": {
+        "en": "According to him, visibility isn't that important as long as one masters the sphere boundary.",
+        "jp": "本人曰く、圏境極まれば、\n視界はさほど重要では無いらしい"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Tsukumo Mirror",
+            "name": "Ancient Bell of Tranquility",
             "piece": 5
           },
           {
@@ -73,31 +80,30 @@
             "piece": 5
           },
           {
-            "name": "Ancient Bell of Tranquility",
-            "piece": 5
-          },
-          {
             "name": "Magical Cerebrospinal Fluid",
             "piece": 10
+          },
+          {
+            "name": "Tsukumo Mirror",
+            "piece": 5
           }
         ]
       }
     },
     {
-      "name": "Glassless<br/>[2nd Ascension]",
-      "text_jp": "色眼鏡は初動の視線を隠すのに役立つ\n老境に至れどその牙、いまだ衰えず",
-      "text_en": "Sunglasses are useful for concealing the line of sight to make the first move. Even at his age, his ferocity is undimmed.",
+      "id": 19,
+      "type": "simple",
+      "name": {
+        "en": "Glassless (2nd Ascension)",
+        "jp": "グラスレス（第二再臨）"
+      },
+      "flavor_text": {
+        "en": "Sunglasses are useful for concealing the line of sight to make the first move. Even at his age, his ferocity is undimmed.",
+        "jp": "色眼鏡は初動の視線を隠すのに役立つ\n老境に至れどその牙、いまだ衰えず"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
-          {
-            "name": "Dawnlight Reactor Core",
-            "piece": 5
-          },
-          {
-            "name": "Cursed Beast Cholecyst",
-            "piece": 5
-          },
           {
             "name": "Kotan Magatama",
             "piece": 5
@@ -105,6 +111,14 @@
           {
             "name": "Void's Refuse",
             "piece": 10
+          },
+          {
+            "name": "Dawnlight Reactor Core",
+            "piece": 5
+          },
+          {
+            "name": "Cursed Beast Cholecyst",
+            "piece": 5
           }
         ]
       }

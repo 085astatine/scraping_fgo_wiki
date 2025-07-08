@@ -62,15 +62,22 @@
   ],
   "costumes": [
     {
-      "name": "Chicken of Luluhawa",
-      "text_jp": "ベディヴィエールが買ってくれたアロハ\n皆で遊ぶためにゴーグルは常時複数携帯",
-      "text_en": "",
+      "id": 105,
+      "type": "full",
+      "name": {
+        "en": "Chicken of Luluhawa",
+        "jp": "ルルハワの鶏"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "ベディヴィエールが買ってくれたアロハ\n皆で遊ぶためにゴーグルは常時複数携帯"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
             "name": "Arrowhead of Maledictions",
-            "piece": 5
+            "piece": 10
           },
           {
             "name": "Seashell of Reminiscence",

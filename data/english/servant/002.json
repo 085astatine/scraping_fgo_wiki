@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Invisible Air: Barrier of the Wind King",
-      "text_jp": "騎士王の纏う風の宝具\n主に聖剣の不可視化に用いられる",
-      "text_en": "The King of Knights' Noble Phantasm of the wind. Mostly used to make the sacred sword invisible.",
+      "id": 41,
+      "type": "simple",
+      "name": {
+        "en": "Invisible Air: Barrier of the Wind King",
+        "jp": "風王結界"
+      },
+      "flavor_text": {
+        "en": "The King of Knights' Noble Phantasm of the wind. Mostly used to make the sacred sword invisible.",
+        "jp": "騎士王の纏う風の宝具\n主に聖剣の不可視化に用いられる"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

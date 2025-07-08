@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Jaguar Man",
-      "text_jp": "『ジャガーの戦士』たちの王であって\nジャガーそのものなワケではない",
-      "text_en": "A wardrobe that makes him king of all jaguar warriors. It doesn't literally make him a jaguar.",
+      "id": 102,
+      "type": "simple",
+      "name": {
+        "en": "Jaguar Man",
+        "jp": "ジャガーマン"
+      },
+      "flavor_text": {
+        "en": "A wardrobe that makes him king of all jaguar warriors. It doesn't literally make him a jaguar.",
+        "jp": "『ジャガーの戦士』たちの王であって\nジャガーそのものなワケではない"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

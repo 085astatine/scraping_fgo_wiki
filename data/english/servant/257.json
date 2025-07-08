@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Smiley Summer Wear",
-      "text_jp": "伊達男な海賊のサマーバージョン\n陽気な笑顔で夏のメカクレを求める",
-      "text_en": "",
+      "id": 115,
+      "type": "full",
+      "name": {
+        "en": "Smiley Summer Wear",
+        "jp": "スマイリー・サマーウェア"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "伊達男な海賊のサマーバージョン\n陽気な笑顔で夏のメカクレを求める"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

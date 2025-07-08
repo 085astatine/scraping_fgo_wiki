@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Silver Butler",
-      "text_jp": "とある騎士が纏う執事服\n動きやすさと優美さを備えたデザイン",
-      "text_en": "A butler outfit worn by a certain knight.\nIt's both easy to move in as well as elegant.",
+      "id": 48,
+      "type": "full",
+      "name": {
+        "en": "Silver Butler",
+        "jp": "シルバー・バトラー"
+      },
+      "flavor_text": {
+        "en": "A butler outfit worn by a certain knight.\nIt's both easy to move in as well as elegant.",
+        "jp": "とある騎士が纏う執事服\n動きやすさと優美さを備えたデザイン"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

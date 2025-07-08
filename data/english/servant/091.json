@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Decapitating Bunny [1st Ascension]",
-      "text_jp": "ウサ耳をつけた貴人\nクリティカルヒット",
-      "text_en": "Nobility wearing bunny ears.\nCritical hit.",
+      "id": 25,
+      "type": "simple",
+      "name": {
+        "en": "Decapitating Bunny (First Ascension)",
+        "jp": "首切りバニー（第一再臨）"
+      },
+      "flavor_text": {
+        "en": "Nobility wearing bunny ears.\nCritical hit.",
+        "jp": "ウサ耳をつけた貴人\nクリティカルヒット"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -92,9 +99,16 @@
       }
     },
     {
-      "name": "Decapitating Bunny [2nd Ascension]",
-      "text_jp": "ウサ耳をつけた貴人\nつうこんのいちげき",
-      "text_en": "Nobility wearing bunny ears.\nA fatal blow.",
+      "id": 26,
+      "type": "simple",
+      "name": {
+        "en": "Decapitating Bunny (Second Ascension)",
+        "jp": "首切りバニー（第二再臨）"
+      },
+      "flavor_text": {
+        "en": "Nobility wearing bunny ears.\nA fatal blow.",
+        "jp": "ウサ耳をつけた貴人\nつうこんのいちげき"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -118,9 +132,16 @@
       }
     },
     {
-      "name": "Decapitating Bunny [3rd Ascension]",
-      "text_jp": "ウサ耳をつけた貴人\nアルテミット・ニャン",
-      "text_en": "Nobility wearing bunny ears.\nUltimate meow.",
+      "id": 27,
+      "type": "simple",
+      "name": {
+        "en": "Decapitating Bunny (Third Ascension)",
+        "jp": "首切りバニー（第三再臨）"
+      },
+      "flavor_text": {
+        "en": "Nobility wearing bunny ears.\nUltimate meow.",
+        "jp": "ウサ耳をつけた貴人\nアルテミット・ニャン"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

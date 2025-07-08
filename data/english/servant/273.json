@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Summer Sportswear",
-      "text_jp": "アマゾネス.comで購入した、動き易さと\nファッション性を兼ね備えた外出着",
-      "text_en": "Street clothes purchased at Amazones.com that mix fashion and comfort in equal measure.",
+      "id": 70,
+      "type": "full",
+      "name": {
+        "en": "Summer Sportswear",
+        "jp": "サマー・スポーツウェア"
+      },
+      "flavor_text": {
+        "en": "Street clothes purchased at Amazones.com that mix fashion and comfort in equal measure.",
+        "jp": "アマゾネス.comで購入した、動き易さと\nファッション性を兼ね備えた外出着"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

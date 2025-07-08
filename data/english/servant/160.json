@@ -70,9 +70,16 @@
   ],
   "costumes": [
     {
-      "name": "White Rose",
-      "text_jp": "───白い薔薇。一輪の。\n異世界の騎士によく似合うだろう",
-      "text_en": "A single white rose.\nIt's sure to suit the knight from a different world.",
+      "id": 7,
+      "type": "full",
+      "name": {
+        "en": "White Rose",
+        "jp": "ホワイトローズ"
+      },
+      "flavor_text": {
+        "en": "A single white rose.\nIt's sure to suit the knight from a different world.",
+        "jp": "───白い薔薇。一輪の。\n異世界の騎士によく似合うだろう"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

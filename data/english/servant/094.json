@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Memories of Trifas",
-      "text_jp": "大切な友人たちがいたことを\n思い出させてくれる霊衣",
-      "text_en": "A Spiritron Dress that serves as a reminder of friends who were near and dear.",
+      "id": 5,
+      "type": "full",
+      "name": {
+        "en": "Memories at Trifas",
+        "jp": "トゥリファスでの思い出"
+      },
+      "flavor_text": {
+        "en": "A Spiritron Dress that serves as a reminder of friends who were near and dear.",
+        "jp": "大切な友人たちがいたことを\n思い出させてくれる霊衣"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

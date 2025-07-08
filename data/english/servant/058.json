@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Smiling glory day",
-      "text_jp": "万能有能猫（？）のダンス衣装\nいわゆるダイナースタイルだワン☆",
-      "text_en": "The dance outfit for the almighty and capable cat(?) It's diner-themed, woof☆",
+      "id": 62,
+      "type": "full",
+      "name": {
+        "en": "Smiling Glory Day",
+        "jp": "笑顔 glory day"
+      },
+      "flavor_text": {
+        "en": "The dance outfit for the almighty and capable cat(?) It's diner-themed, woof☆",
+        "jp": "万能有能猫（？）のダンス衣装\nいわゆるダイナースタイルだワン☆"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

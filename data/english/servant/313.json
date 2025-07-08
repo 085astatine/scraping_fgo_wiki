@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Summer Knight Outfit",
-      "text_jp": "マーリンからもらった夏の装い\n機動力の向上が期待できるようだ",
-      "text_en": "",
+      "id": 114,
+      "type": "full",
+      "name": {
+        "en": "Summer Knight Outfit",
+        "jp": "夏の騎士の装い"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "マーリンからもらった夏の装い\n機動力の向上が期待できるようだ"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

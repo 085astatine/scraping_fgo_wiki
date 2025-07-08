@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Little Devil's Egg-colored Skin [2nd Ascension]",
-      "text_jp": "ＢＢ本来の肌色\n「紫外線は乙女の敵です！」",
-      "text_en": "BB's original skin color.\n\"UV rays are a maiden's enemy!\"",
+      "id": 12,
+      "type": "simple",
+      "name": {
+        "en": "Devilish Flawless Skin (2nd Ascension)",
+        "jp": "小悪魔たまご肌（第二再臨）"
+      },
+      "flavor_text": {
+        "en": "BB's original skin color.\n\"UV rays are a maiden's enemy!\"",
+        "jp": "ＢＢ本来の肌色\n「紫外線は乙女の敵です！」"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -88,14 +95,21 @@
       }
     },
     {
-      "name": "Little Devil's Egg-colored Skin [3rd Ascension]",
-      "text_jp": "ＢＢ本来の肌色\n「ＵＶケアは乙女の味方です！」",
-      "text_en": "BB's original skin color.\n\"UV protection is a maiden's ally!\"",
+      "id": 13,
+      "type": "simple",
+      "name": {
+        "en": "Devilish Flawless Skin (3rd Ascension)",
+        "jp": "小悪魔たまご肌（第三再臨）"
+      },
+      "flavor_text": {
+        "en": "BB's original skin color.\n\"UV protection is a maiden's ally!\"",
+        "jp": "ＢＢ本来の肌色\n「ＵＶケアは乙女の味方です！」"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Magical_Cerebrospinal_Fluid",
+            "name": "Magical Cerebrospinal Fluid",
             "piece": 10
           },
           {

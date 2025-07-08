@@ -58,15 +58,22 @@
   ],
   "costumes": [
     {
-      "name": "Ashtoreth Origin",
-      "text_jp": "記録すら残らぬ遥か時の彼方\n冷えきった宇宙にいた原初の女神の色彩",
-      "text_en": "The colorful hues of the primordial goddess who existed in the chilled outskirts of the galaxy, during a time so far in the distance that it doesn't even get recorded as a memory.",
+      "id": 31,
+      "type": "simple",
+      "name": {
+        "en": "Ashtart Origin",
+        "jp": "アシュタレト・オリジン"
+      },
+      "flavor_text": {
+        "en": "The colorful hues of the primordial goddess who existed in the chilled outskirts of the galaxy, during a time so far in the distance that it doesn't even get recorded as a memory.",
+        "jp": "記録すら残らぬ遥か時の彼方\n冷えきった宇宙にいた原初の女神の色彩"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
             "name": "Void's Refuse",
-            "piece": 10
+            "piece": 5
           },
           {
             "name": "Giant's Ring",

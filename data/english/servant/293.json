@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Hajime-chan Glasses",
-      "text_jp": "斎藤一の眼鏡\nヘラヘラが真面目そうに見えなくもない",
-      "text_en": "Saito Hajime's glasses. Helps him look like he takes his job seriously.",
+      "id": 74,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Hajime-chan Glasses",
+        "jp": "メガネ霊衣：はじめちゃんグラス"
+      },
+      "flavor_text": {
+        "en": "Saito Hajime's glasses. Helps him look like he takes his job seriously.",
+        "jp": "斎藤一の眼鏡\nヘラヘラが真面目そうに見えなくもない"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

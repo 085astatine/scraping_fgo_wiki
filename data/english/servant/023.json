@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Reading Glasses",
-      "text_jp": "メドゥーサの丸眼鏡\nなぜかとても馴染む、とは本人の弁",
-      "text_en": "Medusa's round glasses. She insists there's something about them that just feels right.",
+      "id": 80,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Reading Glasses",
+        "jp": "メガネ霊衣：リーディンググラス"
+      },
+      "flavor_text": {
+        "en": "Medusa's round glasses. She insists there's something about them that just feels right.",
+        "jp": "メドゥーサの丸眼鏡\nなぜかとても馴染む、とは本人の弁"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

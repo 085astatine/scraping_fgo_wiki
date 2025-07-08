@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Serious Mode",
-      "text_jp": "有能美少女編集者の本気のオフモード\n何に本気になっているかは言わぬが花",
-      "text_en": "",
+      "id": 107,
+      "type": "simple",
+      "name": {
+        "en": "Serious Mode",
+        "jp": "本気モード"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "有能美少女編集者の本気のオフモード\n何に本気になっているかは言わぬが花"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

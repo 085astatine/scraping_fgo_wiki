@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Fearless Diver",
-      "text_jp": "彗星走法は戦場を選ばず\n当然、海でも人類最速の座は揺るがない",
-      "text_en": "Drómos Komḗtēs dominates any battlefield. Naturally, its speed at sea is unmatched.",
+      "id": 69,
+      "type": "full",
+      "name": {
+        "en": "Fearless Diver",
+        "jp": "フィアレス・ダイバー"
+      },
+      "flavor_text": {
+        "en": "Drómos Komḗtēs dominates any battlefield. Naturally, its speed at sea is unmatched.",
+        "jp": "彗星走法は戦場を選ばず\n当然、海でも人類最速の座は揺るがない"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Mad Bunny",
-      "text_jp": "ポール・バニヤンのお祭り衣装\n血糊はベリーソース（自己申告）",
-      "text_en": "Paul Bunyan's festival outfit.\nThe blood stain is from berry sauce (or so she claims)",
+      "id": 40,
+      "type": "full",
+      "name": {
+        "en": "Mad Bunny",
+        "jp": "マッド・バニー"
+      },
+      "flavor_text": {
+        "en": "Paul Bunyan's festival outfit.\nThe blood stain is from berry sauce (or so she claims)",
+        "jp": "ポール・バニヤンのお祭り衣装\n血糊はベリーソース（自己申告）"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

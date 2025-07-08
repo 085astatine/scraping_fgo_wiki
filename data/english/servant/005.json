@@ -70,9 +70,16 @@
   ],
   "costumes": [
     {
-      "name": "Olympian Bloomers",
-      "text_jp": "人類最古の体操服といっても過言では\nないのかもしれない",
-      "text_en": "It may not be an exaggeration to call it humanity's oldest exercise uniform.",
+      "id": 3,
+      "type": "full",
+      "name": {
+        "en": "Olympian Gym Uniform",
+        "jp": "オリンピアの体操服"
+      },
+      "flavor_text": {
+        "en": "It may not be an exaggeration to call it humanity's oldest exercise uniform.",
+        "jp": "人類最古の体操服といっても過言では\nないのかもしれない"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -96,9 +103,16 @@
       }
     },
     {
-      "name": "Silk of Venus",
-      "text_jp": "薔薇の皇帝のパーティードレス\nかの美神ヴィナスに喩えられる華やかさ",
-      "text_en": "The rose emperor's party dress.\nIt's glamorous, like Venus the god of beauty.",
+      "id": 38,
+      "type": "full",
+      "name": {
+        "en": "Venus's Silk",
+        "jp": "ヴィナスのシルク"
+      },
+      "flavor_text": {
+        "en": "The rose emperor's party dress.\nIt's glamorous, like Venus the god of beauty.",
+        "jp": "薔薇の皇帝のパーティードレス\nかの美神ヴィナスに喩えられる華やかさ"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -122,9 +136,16 @@
       }
     },
     {
-      "name": "Barbaric Tyrant's Rhapsodia",
-      "text_jp": "薔薇の皇帝のダンス衣装\nそのステップは軽やかにして優美",
-      "text_en": "The Rose Emperor's dance outfit. Her steps are light and graceful.",
+      "id": 54,
+      "type": "full",
+      "name": {
+        "en": "Tumultuous Rapsodia",
+        "jp": "覇嵐蛮嬢ラプソディア"
+      },
+      "flavor_text": {
+        "en": "The Rose Emperor's dance outfit. Her steps are light and graceful.",
+        "jp": "薔薇の皇帝のダンス衣装\nそのステップは軽やかにして優美"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

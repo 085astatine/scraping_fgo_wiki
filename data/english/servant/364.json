@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Holiday Memories Style",
-      "text_jp": "神殿を抜け出す先輩にくっついて国を\n巡った遠く昨日の事のようなあの頃",
-      "text_en": "A memory of sneaking out of the shrine and traveling the countryside with her mentor. A faraway yesterday.",
+      "id": 97,
+      "type": "simple",
+      "name": {
+        "en": "Nostalgic Day Off",
+        "jp": "思い出の休日スタイル"
+      },
+      "flavor_text": {
+        "en": "A memory of sneaking out of the shrine and traveling the countryside with her mentor. A faraway yesterday.",
+        "jp": "神殿を抜け出す先輩にくっついて国を\n巡った遠く昨日の事のようなあの頃"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

@@ -66,22 +66,29 @@
   ],
   "costumes": [
     {
-      "name": "Innocent Flower",
-      "text_jp": "初期化状態で起動したパッションリップ\n片鱗はあるものの、まだエゴは持たない",
-      "text_en": "",
+      "id": 118,
+      "type": "simple",
+      "name": {
+        "en": "Innocent Flower",
+        "jp": "イノセントフラワー"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "初期化状態で起動したパッションリップ\n片鱗はあるものの、まだエゴは持たない"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
             "name": "Night-Weeping Iron Stake",
-            "piece": 10
+            "piece": 5
           },
           {
             "name": "Ether Photon Converger",
             "piece": 5
           },
           {
-            "name": "Talon of Chaos",
+            "name": "Black Tallow",
             "piece": 5
           },
           {

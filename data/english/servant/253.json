@@ -62,22 +62,29 @@
   ],
   "costumes": [
     {
-      "name": "Active Sailor",
-      "text_jp": "おしゃまなアクティブスタイル\n未完の馬にあった可能性のひとつ",
-      "text_en": "A precocious-looking activewear. One of the many possibilities drawn from her unfinished horse.",
+      "id": 37,
+      "type": "full",
+      "name": {
+        "en": "Active Sailor",
+        "jp": "アクティブ・セーラー"
+      },
+      "flavor_text": {
+        "en": "A precocious-looking activewear. One of the many possibilities drawn from her unfinished horse.",
+        "jp": "おしゃまなアクティブスタイル\n未完の馬にあった可能性のひとつ"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          },
           {
             "name": "Permafrost Ice Crystal",
             "piece": 5
           },
           {
             "name": "Divine Leyline Spiritron",
-            "piece": 10
-          },
-          {
-            "name": "Primordial Lanugo",
             "piece": 5
           },
           {

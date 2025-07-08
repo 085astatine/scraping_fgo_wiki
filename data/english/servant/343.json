@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Disguise Costume",
-      "text_jp": "シャルルマーニュの変装衣装\n色々隠せていないが本人はお気に入り",
-      "text_en": "",
+      "id": 111,
+      "type": "full",
+      "name": {
+        "en": "Disguise Costume",
+        "jp": "ディスガイズ・コスチューム"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "シャルルマーニュの変装衣装\n色々隠せていないが本人はお気に入り"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

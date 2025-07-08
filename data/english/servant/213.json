@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Memories with My Lover",
-      "text_jp": "愛しき者と過ごしたひと夏の記憶\nストールは自分で染めたらしい",
-      "text_en": "Memories of summer spent with his love.\nHe dyed the scarf himself.",
+      "id": 42,
+      "type": "full",
+      "name": {
+        "en": "Memories with My Love",
+        "jp": "我が愛との思い出"
+      },
+      "flavor_text": {
+        "en": "Memories of summer spent with his love.\nHe dyed the scarf himself.",
+        "jp": "愛しき者と過ごしたひと夏の記憶\nストールは自分で染めたらしい"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

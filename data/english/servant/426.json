@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Muryan",
-      "text_jp": "翅の氏族の、とある妖精の姿\n妖精國一の知恵者、蕗下の出逢いの姫",
-      "text_en": "",
+      "id": 119,
+      "type": "full",
+      "name": {
+        "en": "Muryan",
+        "jp": "ムリアン"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "翅の氏族の、とある妖精の姿\n妖精國一の知恵者、蕗下の出逢いの姫"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

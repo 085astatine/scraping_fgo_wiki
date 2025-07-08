@@ -66,16 +66,19 @@
   ],
   "costumes": [
     {
-      "name": "Pale Turquoise Haori and Hakama",
-      "text_jp": "浅葱の羽織袴。袴姿の新選組隊服\n任務によって使い分けていたとの事",
-      "text_en": "A teal haori and hakama uniform of the Shinsengumi. Different uniforms were apparently worn depending on the the assignment being carried out.",
+      "id": 47,
+      "type": "simple",
+      "name": {
+        "en": "Teal Haori and Hakama",
+        "jp": "浅葱の羽織袴"
+      },
+      "flavor_text": {
+        "en": "A teal haori and hakama uniform of the Shinsengumi. Different uniforms were apparently worn depending on the the assignment being carried out.",
+        "jp": "浅葱の羽織袴。袴姿の新選組隊服\n任務によって使い分けていたとの事"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
-          {
-            "name": "Hero's Proof",
-            "piece": 10
-          },
           {
             "name": "Tsukumo Mirror",
             "piece": 5
@@ -87,6 +90,10 @@
           {
             "name": "Kotan Magatama",
             "piece": 5
+          },
+          {
+            "name": "Hero's Proof",
+            "piece": 10
           }
         ]
       }

@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Elegant Square",
-      "text_jp": "ガウェインの眼鏡。領主としての知性が\n光る、チェーンの付いた一品",
-      "text_en": "Gawain's glasses. Adorned with a chain, they shine with his noble intelligence.",
+      "id": 73,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Elegant Square",
+        "jp": "メガネ霊衣：エレガントスクエア"
+      },
+      "flavor_text": {
+        "en": "Gawain's glasses. Adorned with a chain, they shine with his noble intelligence.",
+        "jp": "ガウェインの眼鏡。領主としての知性が\n光る、チェーンの付いた一品"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -88,9 +95,16 @@
       }
     },
     {
-      "name": "Scion of Summer",
-      "text_jp": "円卓騎士の夏の装い\n節度を弁えながらも解放感のある姿",
-      "text_en": "",
+      "id": 103,
+      "type": "full",
+      "name": {
+        "en": "Scion of Summer",
+        "jp": "夏の御曹司"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "円卓騎士の夏の装い\n節度を弁えながらも解放感のある姿"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
