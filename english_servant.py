@@ -44,7 +44,7 @@ def main() -> None:
     # costumes
     costumes = group_costumes_by_servant(
         get_costumes(
-            directory.joinpath("servant"),
+            directory,
             session,
             logger,
             option,
@@ -58,7 +58,7 @@ def main() -> None:
     )
     # servants
     servants = get_servants(
-        directory.joinpath("servant"),
+        directory,
         session,
         links,
         costumes,
