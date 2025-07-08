@@ -1,0 +1,3809 @@
+[
+  {
+    "costume_id": 1,
+    "costume_type": "full",
+    "servant": "Mashu Kyrielight",
+    "stage": "cos1g",
+    "name": {
+      "en": "Swimsuit of Everlasting Summer",
+      "jp": "常夏の水着"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 2,
+    "costume_type": "full",
+    "servant": "Queen Medb",
+    "stage": "cos1",
+    "name": {
+      "en": "Bewitching Prison Warden Look",
+      "jp": "魅惑の獄長ルック"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 3,
+    "costume_type": "full",
+    "servant": "Nero Claudius",
+    "stage": "cos1",
+    "name": {
+      "en": "Olympian Gym Uniform",
+      "jp": "オリンピアの体操服"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 4,
+    "costume_type": "full",
+    "servant": "Parvati",
+    "stage": "cos1",
+    "name": {
+      "en": "What the Girl Seeks",
+      "jp": "少女の捜し物"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 5,
+    "costume_type": "full",
+    "servant": "Astolfo",
+    "stage": "cos1",
+    "name": {
+      "en": "Memories at Trifas",
+      "jp": "トゥリファスでの思い出"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 6,
+    "costume_type": "full",
+    "servant": "Jeanne d'Arc (Alter)",
+    "stage": "cos1",
+    "name": {
+      "en": "Dragon Witch Shinjuku 1999 Ver.",
+      "jp": "邪竜の魔女ver新宿1999"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        },
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 10
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 7,
+    "costume_type": "full",
+    "servant": "Arthur Pendragon (Prototype)",
+    "stage": "cos1",
+    "name": {
+      "en": "White Rose",
+      "jp": "ホワイトローズ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 5
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 8,
+    "costume_type": "full",
+    "servant": "Mashu Kyrielight",
+    "stage": "ort1",
+    "name": {
+      "en": "Ortenaus",
+      "jp": "オルテナウス"
+    },
+    "resource": {
+      "qp": 0,
+      "items": []
+    }
+  },
+  {
+    "costume_id": 9,
+    "costume_type": "full",
+    "servant": "Edmond Dantès",
+    "stage": "cos1",
+    "name": {
+      "en": "Monte Cristo Selection",
+      "jp": "モンテ･クリストセレクション"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 10,
+    "costume_type": "full",
+    "servant": "Gilgamesh (Caster)",
+    "stage": "cos1",
+    "name": {
+      "en": "Establishment",
+      "jp": "エスタブリッシュメント"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 11,
+    "costume_type": "full",
+    "servant": "Robin Hood",
+    "stage": "cos1",
+    "name": {
+      "en": "Summer Hunter",
+      "jp": "夏の狩人"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 12,
+    "costume_type": "simple",
+    "servant": "BB (Summer)",
+    "stage": "cos1",
+    "name": {
+      "en": "Devilish Flawless Skin (2nd Ascension)",
+      "jp": "小悪魔たまご肌（第二再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 10
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 13,
+    "costume_type": "simple",
+    "servant": "BB (Summer)",
+    "stage": "cos2",
+    "name": {
+      "en": "Devilish Flawless Skin (3rd Ascension)",
+      "jp": "小悪魔たまご肌（第三再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 14,
+    "costume_type": "simple",
+    "servant": "Quetzalcoatl (Samba/Santa)",
+    "stage": "cos1",
+    "name": {
+      "en": "Técnica Mascara",
+      "jp": "テクニコ・マスカラ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 15,
+    "costume_type": "simple",
+    "servant": "Quetzalcoatl (Samba/Santa)",
+    "stage": "cos2",
+    "name": {
+      "en": "Rudos Mascara",
+      "jp": "ルーダ・マスカラ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 10
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 16,
+    "costume_type": "simple",
+    "servant": "Illyasviel von Einzbern",
+    "stage": "cos1",
+    "name": {
+      "en": "[[Testament]] Form",
+      "jp": "テスタメント･フォーム"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 17,
+    "costume_type": "full",
+    "servant": "James Moriarty",
+    "stage": "cos1",
+    "name": {
+      "en": "Gray Collar",
+      "jp": "グレイ・カラー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 10
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 18,
+    "costume_type": "simple",
+    "servant": "Li Shuwen",
+    "stage": "cos1",
+    "name": {
+      "en": "Glassless (1st Ascension)",
+      "jp": "グラスレス（第一再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 19,
+    "costume_type": "simple",
+    "servant": "Li Shuwen",
+    "stage": "cos2",
+    "name": {
+      "en": "Glassless (2nd Ascension)",
+      "jp": "グラスレス（第二再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 20,
+    "costume_type": "full",
+    "servant": "Karna",
+    "stage": "cos1",
+    "name": {
+      "en": "Robe of the Fiery Three Gods",
+      "jp": "燃える三神の衣"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 21,
+    "costume_type": "simple",
+    "servant": "Nagao Kagetora",
+    "stage": "cos1",
+    "name": {
+      "en": "Traveler's Hood",
+      "jp": "行人包"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 5
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 22,
+    "costume_type": "full",
+    "servant": "Siegfried",
+    "stage": "cos1",
+    "name": {
+      "en": "Super Cool Biz",
+      "jp": "スーパー・クールビズ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 23,
+    "costume_type": "full",
+    "servant": "Fūma Kotarō",
+    "stage": "cos1",
+    "name": {
+      "en": "Shinobi Summer Attire",
+      "jp": "夏休み満喫用忍び装束"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 24,
+    "costume_type": "full",
+    "servant": "Merlin",
+    "stage": "cos1",
+    "name": {
+      "en": "Camelot & Co.",
+      "jp": "Camelot & Co."
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 25,
+    "costume_type": "simple",
+    "servant": "Ryōgi Shiki (Saber)",
+    "stage": "cos1",
+    "name": {
+      "en": "Decapitating Bunny (First Ascension)",
+      "jp": "首切りバニー（第一再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 26,
+    "costume_type": "simple",
+    "servant": "Ryōgi Shiki (Saber)",
+    "stage": "cos2",
+    "name": {
+      "en": "Decapitating Bunny (Second Ascension)",
+      "jp": "首切りバニー（第二再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 27,
+    "costume_type": "simple",
+    "servant": "Ryōgi Shiki (Saber)",
+    "stage": "cos3",
+    "name": {
+      "en": "Decapitating Bunny (Third Ascension)",
+      "jp": "首切りバニー（第三再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 28,
+    "costume_type": "simple",
+    "servant": "Miyamoto Musashi (Berserker)",
+    "stage": "cos1",
+    "name": {
+      "en": "Musashi-chan Summer Mode",
+      "jp": "武蔵ちゃんの夏モード"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 10
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 29,
+    "costume_type": "simple",
+    "servant": "Mysterious Alter Ego Λ",
+    "stage": "cos1",
+    "name": {
+      "en": "Ice Celebrity",
+      "jp": "アイス・セレブリティ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 30,
+    "costume_type": "simple",
+    "servant": "Mysterious Heroine X",
+    "stage": "cos1",
+    "name": {
+      "en": "Mysterious Heroine Z",
+      "jp": "謎のヒロインZ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 31,
+    "costume_type": "simple",
+    "servant": "Space Ishtar",
+    "stage": "cos1",
+    "name": {
+      "en": "Ashtart Origin",
+      "jp": "アシュタレト・オリジン"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 5
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 32,
+    "costume_type": "simple",
+    "servant": "Penthesilea",
+    "stage": "cos1",
+    "name": {
+      "en": "Amazones CEO Set",
+      "jp": "アマゾネスCEOセット"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        },
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 33,
+    "costume_type": "full",
+    "servant": "Artoria Pendragon (Alter)",
+    "stage": "cos1",
+    "name": {
+      "en": "Pitch Black King of Knights Shinjuku 1999 Ver.",
+      "jp": "漆黒の騎士王ver新宿1999"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 34,
+    "costume_type": "full",
+    "servant": "Mordred",
+    "stage": "cos1",
+    "name": {
+      "en": "Memories at Trifas",
+      "jp": "トゥリファスの記憶"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 35,
+    "costume_type": "simple",
+    "servant": "Mashu Kyrielight",
+    "stage": "ort2",
+    "name": {
+      "en": "Ortenaus (Refurbished)",
+      "jp": "オルテナウス（改修型）"
+    },
+    "resource": {
+      "qp": 0,
+      "items": []
+    }
+  },
+  {
+    "costume_id": 36,
+    "costume_type": "full",
+    "servant": "Arjuna",
+    "stage": "cos1",
+    "name": {
+      "en": "Bequeathed Traveling Clothes",
+      "jp": "授かりし旅装"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 37,
+    "costume_type": "full",
+    "servant": "Leonardo Da Vinci (Rider)",
+    "stage": "cos1",
+    "name": {
+      "en": "Active Sailor",
+      "jp": "アクティブ・セーラー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 5
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 38,
+    "costume_type": "full",
+    "servant": "Nero Claudius",
+    "stage": "cos2",
+    "name": {
+      "en": "Venus's Silk",
+      "jp": "ヴィナスのシルク"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 39,
+    "costume_type": "full",
+    "servant": "Okada Izō",
+    "stage": "cos1",
+    "name": {
+      "en": "Absolutely Cool Haori and Hakama",
+      "jp": "まっこと格好えい羽織袴"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 40,
+    "costume_type": "full",
+    "servant": "Paul Bunyan",
+    "stage": "cos1",
+    "name": {
+      "en": "Mad Bunny",
+      "jp": "マッド・バニー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 5
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 41,
+    "costume_type": "simple",
+    "servant": "Artoria Pendragon",
+    "stage": "cos1",
+    "name": {
+      "en": "Invisible Air: Barrier of the Wind King",
+      "jp": "風王結界"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 42,
+    "costume_type": "full",
+    "servant": "Sigurd",
+    "stage": "cos1",
+    "name": {
+      "en": "Memories with My Love",
+      "jp": "我が愛との思い出"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 43,
+    "costume_type": "full",
+    "servant": "Lanling Wang",
+    "stage": "cos1",
+    "name": {
+      "en": "Robe of Sarasvati",
+      "jp": "辨天衣"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 44,
+    "costume_type": "full",
+    "servant": "EMIYA",
+    "stage": "cos1",
+    "name": {
+      "en": "Summer Casual",
+      "jp": "サマー・カジュアル"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 45,
+    "costume_type": "full",
+    "servant": "Mashu Kyrielight",
+    "stage": "cos2g",
+    "name": {
+      "en": "Swimsuit of Everlasting Summer Ver. 02",
+      "jp": "常夏の水着Ver.02"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 46,
+    "costume_type": "full",
+    "servant": "Scáthach",
+    "stage": "cos1",
+    "name": {
+      "en": "Piercing Bunny",
+      "jp": "刺し穿つバニー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 47,
+    "costume_type": "simple",
+    "servant": "Okita Sōji",
+    "stage": "cos1",
+    "name": {
+      "en": "Teal Haori and Hakama",
+      "jp": "浅葱の羽織袴"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 48,
+    "costume_type": "full",
+    "servant": "Bedivere",
+    "stage": "cos1",
+    "name": {
+      "en": "Silver Butler",
+      "jp": "シルバー・バトラー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 49,
+    "costume_type": "full",
+    "servant": "Sakata Kintoki",
+    "stage": "cos1",
+    "name": {
+      "en": "Heian Warrior Attire",
+      "jp": "平安武者装束"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 50,
+    "costume_type": "simple",
+    "servant": "Ibuki Dōji",
+    "stage": "cos1",
+    "name": {
+      "en": "Avatar of the Great Serpent God",
+      "jp": "大蛇神の分け御霊"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 51,
+    "costume_type": "simple",
+    "servant": "Amor (Caren)",
+    "stage": "cos1",
+    "name": {
+      "en": "Devil Caren",
+      "jp": "デビルカレン"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 10
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 52,
+    "costume_type": "full",
+    "servant": "Amakusa Shirō",
+    "stage": "cos1",
+    "name": {
+      "en": "Phantom Thief Amakusa Shirō",
+      "jp": "怪盗天草四郎"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 53,
+    "costume_type": "full",
+    "servant": "Altera",
+    "stage": "cos1",
+    "name": {
+      "en": "Stardust in the Palm",
+      "jp": "掌の星屑"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 5
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 54,
+    "costume_type": "full",
+    "servant": "Nero Claudius",
+    "stage": "cos3",
+    "name": {
+      "en": "Tumultuous Rapsodia",
+      "jp": "覇嵐蛮嬢ラプソディア"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Octuplet Crystals",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 55,
+    "costume_type": "full",
+    "servant": "Euryale",
+    "stage": "cos1",
+    "name": {
+      "en": "mirage",
+      "jp": "mirage"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 56,
+    "costume_type": "full",
+    "servant": "Ushiwakamaru",
+    "stage": "cos1",
+    "name": {
+      "en": "Psychedelic Wandering Tales",
+      "jp": "サイケデリック流離譚"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 57,
+    "costume_type": "full",
+    "servant": "Queen Medb",
+    "stage": "cos2",
+    "name": {
+      "en": "Hero, My Love: My Dearest Antagonist",
+      "jp": "愛しき私の敵対者"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 5
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 58,
+    "costume_type": "full",
+    "servant": "Helena Blavatsky",
+    "stage": "cos1",
+    "name": {
+      "en": "That's So Mahatma☆",
+      "jp": "それってとってもマハトマね☆"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 10
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 59,
+    "costume_type": "full",
+    "servant": "Nitocris",
+    "stage": "cos1",
+    "name": {
+      "en": "Beyond the Mirror",
+      "jp": "Beyond the Mirror"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 60,
+    "costume_type": "full",
+    "servant": "Shuten Dōji",
+    "stage": "cos1",
+    "name": {
+      "en": "Song of Cherry Blossoms in Full Glory",
+      "jp": "桜歌爛漫"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 61,
+    "costume_type": "full",
+    "servant": "Hassan of the Serenity",
+    "stage": "cos1",
+    "name": {
+      "en": "Poisonous Flower Blooming at Night",
+      "jp": "夜に咲く毒の華"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 10
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 62,
+    "costume_type": "full",
+    "servant": "Tamamo Cat",
+    "stage": "cos1",
+    "name": {
+      "en": "Smiling Glory Day",
+      "jp": "笑顔 glory day"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 10
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 63,
+    "costume_type": "full",
+    "servant": "Mashu Kyrielight",
+    "stage": "cos3g",
+    "name": {
+      "en": "Bright Voyager",
+      "jp": "Bright Voyager"
+    },
+    "resource": {
+      "qp": 0,
+      "items": []
+    }
+  },
+  {
+    "costume_id": 64,
+    "costume_type": "full",
+    "servant": "Jeanne d'Arc",
+    "stage": "cos1",
+    "name": {
+      "en": "Prove",
+      "jp": "Prove"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 5
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        },
+        {
+          "name": "Rainbow Yarn",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 65,
+    "costume_type": "simple",
+    "servant": "Mélusine",
+    "stage": "cos1",
+    "name": {
+      "en": "Faerie Knight Lancelot (1st Ascension)",
+      "jp": "妖精騎士ランスロット（第一再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Scales of Fantasies",
+          "piece": 5
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 66,
+    "costume_type": "simple",
+    "servant": "Mélusine",
+    "stage": "cos2",
+    "name": {
+      "en": "Faerie Knight Lancelot (2nd Ascension)",
+      "jp": "妖精騎士ランスロット（第二再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Tiny Bell of Amnesty",
+          "piece": 5
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 67,
+    "costume_type": "simple",
+    "servant": "Mélusine",
+    "stage": "cos3",
+    "name": {
+      "en": "Red Hot Deviation",
+      "jp": "赤熱偏位"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 68,
+    "costume_type": "simple",
+    "servant": "Morgan",
+    "stage": "cos1",
+    "name": {
+      "en": "The Winter Queen",
+      "jp": "冬の女王"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 5
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 69,
+    "costume_type": "full",
+    "servant": "Achilles",
+    "stage": "cos1",
+    "name": {
+      "en": "Fearless Diver",
+      "jp": "フィアレス・ダイバー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 70,
+    "costume_type": "full",
+    "servant": "Mandricardo",
+    "stage": "cos1",
+    "name": {
+      "en": "Summer Sportswear",
+      "jp": "サマー・スポーツウェア"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 71,
+    "costume_type": "full",
+    "servant": "Edward Teach",
+    "stage": "cos1",
+    "name": {
+      "en": "High Summer Gentleman",
+      "jp": "盛夏の紳士"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 72,
+    "costume_type": "full",
+    "servant": "Okada Izō",
+    "stage": "cos2",
+    "name": {
+      "en": "Awesome Dapper Suit",
+      "jp": "えろうイケちょるスーツ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 73,
+    "costume_type": "simple",
+    "servant": "Gawain",
+    "stage": "cos1",
+    "name": {
+      "en": "Bespectacled Costume Dress: Elegant Square",
+      "jp": "メガネ霊衣：エレガントスクエア"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 74,
+    "costume_type": "simple",
+    "servant": "Saitō Hajime",
+    "stage": "cos1",
+    "name": {
+      "en": "Bespectacled Costume Dress: Hajime-chan Glasses",
+      "jp": "メガネ霊衣：はじめちゃんグラス"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 10
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 75,
+    "costume_type": "simple",
+    "servant": "Mordred",
+    "stage": "cos2",
+    "name": {
+      "en": "Bespectacled Costume Dress: Red Saber",
+      "jp": "メガネ霊衣：レッドセイバー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 76,
+    "costume_type": "simple",
+    "servant": "Oda Nobukatsu",
+    "stage": "cos1",
+    "name": {
+      "en": "Bespectacled Costume Dress: Gold-Rimmed Oda Glasses",
+      "jp": "メガネ霊衣：織田金縁丸眼鏡"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 10
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 77,
+    "costume_type": "simple",
+    "servant": "Enkidu",
+    "stage": "cos1",
+    "name": {
+      "en": "Bespectacled Costume Dress: Stylish Top Rim",
+      "jp": "メガネ霊衣：スタイリッシュトップリム"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 78,
+    "costume_type": "simple",
+    "servant": "Karna",
+    "stage": "cos2",
+    "name": {
+      "en": "Bespectacled Costume Dress: Rainbow Shining at the End of Time",
+      "jp": "メガネ霊衣：終末に輝く彩虹"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 79,
+    "costume_type": "simple",
+    "servant": "Nemo",
+    "stage": "cos1",
+    "name": {
+      "en": "Bespectacled Costume Dress: Browline Frame",
+      "jp": "メガネ霊衣：ブローフレーム"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 80,
+    "costume_type": "simple",
+    "servant": "Medusa",
+    "stage": "cos1",
+    "name": {
+      "en": "Bespectacled Costume Dress: Reading Glasses",
+      "jp": "メガネ霊衣：リーディンググラス"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 10
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 5
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 81,
+    "costume_type": "simple",
+    "servant": "Paracelsus von Hohenheim",
+    "stage": "cos1",
+    "name": {
+      "en": "Bespectacled Costume Dress: Magnifiers",
+      "jp": "メガネ霊衣：マグニファイアーズ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 82,
+    "costume_type": "simple",
+    "servant": "Merlin",
+    "stage": "cos2",
+    "name": {
+      "en": "Bespectacled Costume Dress: Camelot & Co. Model Frames",
+      "jp": "メガネ霊衣：Camelot & Coモデルフレーム"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        },
+        {
+          "name": "Rainbow Yarn",
+          "piece": 5
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 83,
+    "costume_type": "simple",
+    "servant": "Charles-Henri Sanson",
+    "stage": "cos1",
+    "name": {
+      "en": "Bespectacled Costume Dress: Rimless Round",
+      "jp": "メガネ霊衣：リムレスラウンド"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 84,
+    "costume_type": "full",
+    "servant": "Arjuna (Alter)",
+    "stage": "cos1",
+    "name": {
+      "en": "Student Council President Arjuna",
+      "jp": "生徒会長たるアルジュナ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 85,
+    "costume_type": "simple",
+    "servant": "Arjuna (Alter)",
+    "stage": "cos2",
+    "name": {
+      "en": "Bespectacled Costume Dress: Student Council President Arjuna (Glasses)",
+      "jp": "メガネ霊衣：生徒会長たるアルジュナ（メガネ）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 86,
+    "costume_type": "simple",
+    "servant": "Cú Chulainn (Alter)",
+    "stage": "cos1",
+    "name": {
+      "en": "Bespectacled Costume Dress: Oval Glasses",
+      "jp": "メガネ霊衣：オーバルグラス"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 87,
+    "costume_type": "simple",
+    "servant": "Odysseus",
+    "stage": "cos1",
+    "name": {
+      "en": "Aegis [2nd Ascension]",
+      "jp": "アイギス（第二再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 88,
+    "costume_type": "simple",
+    "servant": "Odysseus",
+    "stage": "cos2",
+    "name": {
+      "en": "Aegis [3rd Ascension]",
+      "jp": "アイギス（第三再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Giant's Ring",
+          "piece": 5
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 89,
+    "costume_type": "full",
+    "servant": "Asclepius",
+    "stage": "cos1",
+    "name": {
+      "en": "Summer Rescue",
+      "jp": "サマーレスキュー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 90,
+    "costume_type": "full",
+    "servant": "Yan Qing",
+    "stage": "cos1",
+    "name": {
+      "en": "Training Outfit (Modern Version)",
+      "jp": "修練着（現代Ver.）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stinger of Certain Death",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 91,
+    "costume_type": "full",
+    "servant": "Ashiya Dōman",
+    "stage": "cos1",
+    "name": {
+      "en": "Morning Glory Yukata (Cursed)",
+      "jp": "朝顔柄の浴衣（呪）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 92,
+    "costume_type": "full",
+    "servant": "Thrúd (Assassin)",
+    "stage": "cos1",
+    "name": {
+      "en": "Valkyrie Rindr",
+      "jp": "戦乙女リンド"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 10
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 93,
+    "costume_type": "full",
+    "servant": "Hildr (Assassin)",
+    "stage": "cos1",
+    "name": {
+      "en": "Valkyrie Ölrún",
+      "jp": "戦乙女エルルーン"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 10
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 94,
+    "costume_type": "full",
+    "servant": "Ortlinde (Assassin)",
+    "stage": "cos1",
+    "name": {
+      "en": "Valkyrie Geirskögul",
+      "jp": "戦乙女ゲイルスケグル"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 10
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 95,
+    "costume_type": "simple",
+    "servant": "Ibuki Dōji (Berserker)",
+    "stage": "cos1",
+    "name": {
+      "en": "Wild Midsummer Goddess",
+      "jp": "荒ぶる真夏の女神"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unlucky Bone",
+          "piece": 10
+        },
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 10
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 96,
+    "costume_type": "simple",
+    "servant": "Okita Sōji (Alter)",
+    "stage": "cos1",
+    "name": {
+      "en": "Rengoku Alter",
+      "jp": "煉獄オルタ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 97,
+    "costume_type": "simple",
+    "servant": "Iyo",
+    "stage": "cos1",
+    "name": {
+      "en": "Nostalgic Day Off",
+      "jp": "思い出の休日スタイル"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        },
+        {
+          "name": "Rainbow Yarn",
+          "piece": 5
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 98,
+    "costume_type": "simple",
+    "servant": "Koyanskaya of Light",
+    "stage": "cos1",
+    "name": {
+      "en": "NFF Bunny",
+      "jp": "ＮＦＦバニー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Sunscale",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 99,
+    "costume_type": "full",
+    "servant": "Ereshkigal",
+    "stage": "cos1",
+    "name": {
+      "en": "Ninkigal",
+      "jp": "ニンキガル"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Obsidian Edge",
+          "piece": 10
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 5
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 5
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 100,
+    "costume_type": "full",
+    "servant": "Kingprotea",
+    "stage": "cos1",
+    "name": {
+      "en": "Tlatlauhqui's Guard",
+      "jp": "トラトラウキの番人"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Tiny Bell of Amnesty",
+          "piece": 10
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 5
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 101,
+    "costume_type": "full",
+    "servant": "Kingprotea",
+    "stage": "cos2",
+    "name": {
+      "en": "Dark Protea",
+      "jp": "ダーク・プロテア"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unforgettable Ashes",
+          "piece": 10
+        },
+        {
+          "name": "Ghost Lantern",
+          "piece": 5
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 102,
+    "costume_type": "simple",
+    "servant": "Tezcatlipoca",
+    "stage": "cos1",
+    "name": {
+      "en": "Jaguar Man",
+      "jp": "ジャガーマン"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Obsidian Edge",
+          "piece": 10
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 5
+        },
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 103,
+    "costume_type": "full",
+    "servant": "Gawain",
+    "stage": "cos2",
+    "name": {
+      "en": "Scion of Summer",
+      "jp": "夏の御曹司"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Twilight Ceremonial Blade",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Sunscale",
+          "piece": 5
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 104,
+    "costume_type": "full",
+    "servant": "Lancelot (Saber)",
+    "stage": "cos1",
+    "name": {
+      "en": "Strongest Knight of Summer",
+      "jp": "夏の最強騎士"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Octuplet Twin Crystals",
+          "piece": 5
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Ether Photon Converger",
+          "piece": 5
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 105,
+    "costume_type": "full",
+    "servant": "Tristan",
+    "stage": "cos1",
+    "name": {
+      "en": "Chicken of Luluhawa",
+      "jp": "ルルハワの鶏"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 106,
+    "costume_type": "full",
+    "servant": "Oberon",
+    "stage": "cos1",
+    "name": {
+      "en": "Refreshing Summer Prince",
+      "jp": "爽やかサマー・プリンス"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 107,
+    "costume_type": "simple",
+    "servant": "Chloe von Einzbern (Avenger)",
+    "stage": "cos1",
+    "name": {
+      "en": "Serious Mode",
+      "jp": "本気モード"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        },
+        {
+          "name": "Bloodstone Tear",
+          "piece": 5
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 108,
+    "costume_type": "simple",
+    "servant": "Scáthach-Skaði (Ruler)",
+    "stage": "cos1",
+    "name": {
+      "en": "Verdant Summer Goddess",
+      "jp": "青翠の夏女神"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 5
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        },
+        {
+          "name": "Rainbow Yarn",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 109,
+    "costume_type": "full",
+    "servant": "Oberon",
+    "stage": "cos2",
+    "name": {
+      "en": "Moody Summer Oberon",
+      "jp": "不機嫌サマー・オベロン"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unforgettable Ashes",
+          "piece": 10
+        },
+        {
+          "name": "Obsidian Edge",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 110,
+    "costume_type": "simple",
+    "servant": "Wandjina",
+    "stage": "cos1",
+    "name": {
+      "en": "Wandjina Eye",
+      "jp": "ワンジナ・アイ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        },
+        {
+          "name": "Ether Photon Converger",
+          "piece": 5
+        },
+        {
+          "name": "Dawnlight Reactor Core",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 111,
+    "costume_type": "full",
+    "servant": "Charlemagne",
+    "stage": "cos1",
+    "name": {
+      "en": "Disguise Costume",
+      "jp": "ディスガイズ・コスチューム"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Stimulus Gunpowder",
+          "piece": 10
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        },
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 112,
+    "costume_type": "full",
+    "servant": "Kiyohime",
+    "stage": "cos1",
+    "name": {
+      "en": "Kiyohime the Otohime",
+      "jp": "乙姫清姫"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Snake Jewel",
+          "piece": 5
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 5
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 113,
+    "costume_type": "full",
+    "servant": "Karna",
+    "stage": "cos3",
+    "name": {
+      "en": "Karna's Summer Outfit",
+      "jp": "カルナ・夏コーデ"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Golden Cauldron",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 114,
+    "costume_type": "full",
+    "servant": "Percival",
+    "stage": "cos1",
+    "name": {
+      "en": "Summer Knight Outfit",
+      "jp": "夏の騎士の装い"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Medal of Great Knight",
+          "piece": 5
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 115,
+    "costume_type": "full",
+    "servant": "Bartholomew Roberts",
+    "stage": "cos1",
+    "name": {
+      "en": "Smiley Summer Wear",
+      "jp": "スマイリー・サマーウェア"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Chains of the Fool",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 116,
+    "costume_type": "simple",
+    "servant": "Mysterious Executor C.I.E.L",
+    "stage": "cos1",
+    "name": {
+      "en": "Open Summer",
+      "jp": "オープン・サマー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Twilight Ceremonial Blade",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 117,
+    "costume_type": "simple",
+    "servant": "Mysterious Executor C.I.E.L",
+    "stage": "cos2",
+    "name": {
+      "en": "Glasses-Off Mode",
+      "jp": "メガネオフモード"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Obsidian Edge",
+          "piece": 10
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 118,
+    "costume_type": "simple",
+    "servant": "Passionlip",
+    "stage": "cos1",
+    "name": {
+      "en": "Innocent Flower",
+      "jp": "イノセントフラワー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Night-Weeping Iron Stake",
+          "piece": 5
+        },
+        {
+          "name": "Ether Photon Converger",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 119,
+    "costume_type": "full",
+    "servant": "Kazuradrop",
+    "stage": "cos1",
+    "name": {
+      "en": "Muryan",
+      "jp": "ムリアン"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Rainbow Yarn",
+          "piece": 5
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 120,
+    "costume_type": "simple",
+    "servant": "Van Gogh (Miner)",
+    "stage": "cos1",
+    "name": {
+      "en": "Balloon Light of Parting",
+      "jp": "決別のバルーンライト"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Infinity Gear",
+          "piece": 5
+        },
+        {
+          "name": "Ether Photon Converger",
+          "piece": 5
+        },
+        {
+          "name": "Primordial Lanugo",
+          "piece": 5
+        },
+        {
+          "name": "Moonlight Nucleus",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 121,
+    "costume_type": "simple",
+    "servant": "Osakabehime",
+    "stage": "cos1",
+    "name": {
+      "en": "With Glasses (2nd Ascension)",
+      "jp": "メガネあり（第二再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 5
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 122,
+    "costume_type": "simple",
+    "servant": "Osakabehime",
+    "stage": "cos2",
+    "name": {
+      "en": "With Glasses (3rd Ascension)",
+      "jp": "メガネあり（第三再臨）"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Forbidden Page",
+          "piece": 5
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 123,
+    "costume_type": "full",
+    "servant": "Mashu Kyrielight",
+    "stage": "pal1",
+    "name": {
+      "en": "Shielder Paladin",
+      "jp": "シールダーパラディーン"
+    },
+    "resource": {
+      "qp": 0,
+      "items": []
+    }
+  },
+  {
+    "costume_id": 124,
+    "costume_type": "simple",
+    "servant": "Typhon Ephemeros",
+    "stage": "cos1",
+    "name": {
+      "en": "Epsilon",
+      "jp": "イプシロン"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 10
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 5
+        },
+        {
+          "name": "Flower of the End",
+          "piece": 5
+        },
+        {
+          "name": "Holy Water of Destiny",
+          "piece": 10
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 125,
+    "costume_type": "simple",
+    "servant": "Odysseus",
+    "stage": "cos3",
+    "name": {
+      "en": "Sabazios",
+      "jp": "サバージオス"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 10
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 5
+        },
+        {
+          "name": "Snake Jewel",
+          "piece": 5
+        },
+        {
+          "name": "Moonlight Nucleus",
+          "piece": 5
+        }
+      ]
+    }
+  }
+]
