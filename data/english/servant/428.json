@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Balloon Light of Parting",
-      "text_jp": "拓いた道に光を手向け、\nただひとり闇へと向かう、鉱員の装い",
-      "text_en": "A miner's outfit, pointing light to the path she has paved and heading into the darkness alone.",
+      "id": 120,
+      "type": "simple",
+      "name": {
+        "en": "Balloon Light of Parting",
+        "jp": "決別のバルーンライト"
+      },
+      "flavor_text": {
+        "en": "A miner's outfit, pointing light to the path she has paved and heading into the darkness alone.",
+        "jp": "拓いた道に光を手向け、\nただひとり闇へと向かう、鉱員の装い"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

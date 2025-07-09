@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Musashi-chan Summer Mode",
-      "text_jp": "天魔と化した宮本武蔵、ではなく\nこちらは普通の日焼けとのコト",
-      "text_en": "Miyamoto Musashi transformed into a demon...er, actually, she just got a tan.",
+      "id": 28,
+      "type": "simple",
+      "name": {
+        "en": "Musashi-chan Summer Mode",
+        "jp": "武蔵ちゃんの夏モード"
+      },
+      "flavor_text": {
+        "en": "Miyamoto Musashi transformed into a demon...er, actually, she just got a tan.",
+        "jp": "天魔と化した宮本武蔵、ではなく\nこちらは普通の日焼けとのコト"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

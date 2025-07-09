@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Beyond the Mirror",
-      "text_jp": "天空のファラオのダンス衣装\n本人は口にしないが大変お気に入り",
-      "text_en": "The pharaoh of the sky's dance outfit. She may not admit it, but it's become one of her favorites.",
+      "id": 59,
+      "type": "full",
+      "name": {
+        "en": "Beyond the Mirror",
+        "jp": "Beyond the Mirror"
+      },
+      "flavor_text": {
+        "en": "The pharaoh of the sky's dance outfit. She may not admit it, but it's become one of her favorites.",
+        "jp": "天空のファラオのダンス衣装\n本人は口にしないが大変お気に入り"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

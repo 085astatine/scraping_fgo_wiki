@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Prove",
-      "text_jp": "救国の聖女のダンス衣装\nゴージャスかつ清楚な純白のドレス",
-      "text_en": "A dance outfit worn by the holy maiden who saved a nation. This pure white dress is both lavish and chaste.",
+      "id": 64,
+      "type": "full",
+      "name": {
+        "en": "Prove",
+        "jp": "Prove"
+      },
+      "flavor_text": {
+        "en": "A dance outfit worn by the holy maiden who saved a nation. This pure white dress is both lavish and chaste.",
+        "jp": "救国の聖女のダンス衣装\nゴージャスかつ清楚な純白のドレス"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

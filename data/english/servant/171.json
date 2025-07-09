@@ -58,19 +58,26 @@
   ],
   "costumes": [
     {
-      "name": "Amazones CEO Set",
-      "text_jp": "霊基接触の影響か、この霊衣で\n戦闘すると言動に謎の変化が見られる",
-      "text_en": "Strange speech and mannerisms can be observed when she battles with this Spiritron Wardrobe, perhaps due to it affecting her Spirit Origin.",
+      "id": 32,
+      "type": "simple",
+      "name": {
+        "en": "Amazones CEO Set",
+        "jp": "アマゾネスCEOセット"
+      },
+      "flavor_text": {
+        "en": "Strange speech and mannerisms can be observed when she battles with this Spiritron Wardrobe, perhaps due to it affecting her Spirit Origin.",
+        "jp": "霊基接触の影響か、この霊衣で\n戦闘すると言動に謎の変化が見られる"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Chains of the Fool",
-            "piece": 10
-          },
-          {
             "name": "Infinity Gear",
             "piece": 5
+          },
+          {
+            "name": "Chains of the Fool",
+            "piece": 10
           },
           {
             "name": "Scarab of Wisdom",

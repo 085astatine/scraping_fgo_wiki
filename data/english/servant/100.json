@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "That is Very Mahatma~!☆",
-      "text_jp": "異端の魔術師のダンス衣装\nマハトマ的可愛さの集大成",
-      "text_en": "A dance outfit worn by the heretical mage. It's a compilation of cuteness on a Mahatma level.",
+      "id": 58,
+      "type": "full",
+      "name": {
+        "en": "That's So Mahatma☆",
+        "jp": "それってとってもマハトマね☆"
+      },
+      "flavor_text": {
+        "en": "A dance outfit worn by the heretical mage. It's a compilation of cuteness on a Mahatma level.",
+        "jp": "異端の魔術師のダンス衣装\nマハトマ的可愛さの集大成"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

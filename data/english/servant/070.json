@@ -66,20 +66,19 @@
   ],
   "costumes": [
     {
-      "name": "Piercing Bunny",
-      "text_jp": "首切り、マッドに続く第三のバニー衣装\n本人は割と気に入っている",
-      "text_en": "Following Decapitating Bunny and Mad Bunny, this represents a third installment of the bunny costume series. The wearer has apparently taken a liking to it.",
+      "id": 46,
+      "type": "full",
+      "name": {
+        "en": "Piercing Bunny",
+        "jp": "刺し穿つバニー"
+      },
+      "flavor_text": {
+        "en": "Following Decapitating Bunny and Mad Bunny, this represents a third installment of the bunny costume series. The wearer has apparently taken a liking to it.",
+        "jp": "首切り、マッドに続く第三のバニー衣装\n本人は割と気に入っている"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
-          {
-            "name": "Hero's Proof",
-            "piece": 10
-          },
-          {
-            "name": "Void's Refuse",
-            "piece": 10
-          },
           {
             "name": "Primordial Lanugo",
             "piece": 5
@@ -87,6 +86,14 @@
           {
             "name": "Cursed Beast Cholecyst",
             "piece": 5
+          },
+          {
+            "name": "Void's Refuse",
+            "piece": 10
+          },
+          {
+            "name": "Hero's Proof",
+            "piece": 10
           }
         ]
       }

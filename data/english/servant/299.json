@@ -58,18 +58,21 @@
   ],
   "costumes": [
     {
-      "name": "Fragment of the Great Serpent God's Spirit",
-      "text_jp": "伊吹童子の古き神としての姿\n自然の顕れとしての荒ぶる神、その分霊",
-      "text_en": "Ibuki-Douji in her appearance as an ancient god, the raging manifestation of nature...or its Divided Spirit.",
+      "id": 50,
+      "type": "simple",
+      "name": {
+        "en": "Avatar of the Great Serpent God",
+        "jp": "大蛇神の分け御霊"
+      },
+      "flavor_text": {
+        "en": "Ibuki-Douji in her appearance as an ancient god, the raging manifestation of nature...or its Divided Spirit.",
+        "jp": "伊吹童子の古き神としての姿\n自然の顕れとしての荒ぶる神、その分霊"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Talon of Chaos",
-            "piece": 5
-          },
-          {
-            "name": "Black Tallow",
+            "name": "Demonic Flame Hōzuki",
             "piece": 5
           },
           {
@@ -77,7 +80,11 @@
             "piece": 5
           },
           {
-            "name": "Demonic Flame Hōzuki",
+            "name": "Talon of Chaos",
+            "piece": 5
+          },
+          {
+            "name": "Black Tallow",
             "piece": 5
           }
         ]

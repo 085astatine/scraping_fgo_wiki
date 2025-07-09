@@ -70,9 +70,16 @@
   ],
   "costumes": [
     {
-      "name": "Mysterious Heroine Z",
-      "text_jp": "謎のヒロインXにとってすら謎な存在\nセイバー飽和現象が生んだパラレルX",
-      "text_en": "X from a parallel world born from the Saber saturation phenomenon, considered bizarre even by Mysterious Heroine X's standards.",
+      "id": 30,
+      "type": "simple",
+      "name": {
+        "en": "Mysterious Heroine Z",
+        "jp": "謎のヒロインZ"
+      },
+      "flavor_text": {
+        "en": "X from a parallel world born from the Saber saturation phenomenon, considered bizarre even by Mysterious Heroine X's standards.",
+        "jp": "謎のヒロインXにとってすら謎な存在\nセイバー飽和現象が生んだパラレルX"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

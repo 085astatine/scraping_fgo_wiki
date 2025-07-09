@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Establishment",
-      "text_jp": "無造作に着こなしているが、\nいずれも超高級ブランド品である",
-      "text_en": "He may be treating it like it's no big deal, but it's all expensive, designer stuff.",
+      "id": 10,
+      "type": "full",
+      "name": {
+        "en": "Establishment",
+        "jp": "エスタブリッシュメント"
+      },
+      "flavor_text": {
+        "en": "He may be treating it like it's no big deal, but it's all expensive, designer stuff.",
+        "jp": "無造作に着こなしているが、\nいずれも超高級ブランド品である"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

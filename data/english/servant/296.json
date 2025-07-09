@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Browline Frame",
-      "text_jp": "ネモの眼鏡。フレームのシルバーが\nワンポイント。似合いすぎる",
-      "text_en": "Nemo's glasses. The silver in the frame really brings it together. Looks impossibly good on him.",
+      "id": 79,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Browline Frame",
+        "jp": "メガネ霊衣：ブローフレーム"
+      },
+      "flavor_text": {
+        "en": "Nemo's glasses. The silver in the frame really brings it together. Looks impossibly good on him.",
+        "jp": "ネモの眼鏡。フレームのシルバーが\nワンポイント。似合いすぎる"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

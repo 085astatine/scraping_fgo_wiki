@@ -70,9 +70,16 @@
   ],
   "costumes": [
     {
-      "name": "Keeper of Tlatlauqui",
-      "text_jp": "第一冥界の番人としての姿\n悪い子プロテアだが、根はやはりプロテア",
-      "text_en": "Appearance as the first underworld's guardian. Although she is a bad younger Protea, she is Protea in essence.",
+      "id": 100,
+      "type": "full",
+      "name": {
+        "en": "Tlatlauhqui's Guard",
+        "jp": "トラトラウキの番人"
+      },
+      "flavor_text": {
+        "en": "Appearance as the first underworld's guardian. Although she is a bad younger Protea, she is Protea in essence.",
+        "jp": "第一冥界の番人としての姿\n悪い子プロテアだが、根はやはりプロテア"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -96,9 +103,16 @@
       }
     },
     {
-      "name": "Dark Protea",
-      "text_jp": "第一冥界の番人としての姿\n怪獣衣装が増えた、と割と本人には好評",
-      "text_en": "Her form as the guardian of the first underworld. She is particularly in approval of the increase of monster costumes despite differing opinions.",
+      "id": 101,
+      "type": "full",
+      "name": {
+        "en": "Dark Protea",
+        "jp": "ダーク・プロテア"
+      },
+      "flavor_text": {
+        "en": "Her form as the guardian of the first underworld. She is particularly in approval of the increase of monster costumes despite differing opinions.",
+        "jp": "第一冥界の番人としての姿\n怪獣衣装が増えた、と割と本人には好評"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

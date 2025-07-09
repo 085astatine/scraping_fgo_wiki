@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Oda Gold-Rimmed Round Glasses",
-      "text_jp": "織田信勝の眼鏡\n姉上にもかけてほしいクラシックモデル",
-      "text_en": "Oda Nobukatsu's glasses. A classic model he wishes his sister would wear as well.",
+      "id": 76,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Gold-Rimmed Oda Glasses",
+        "jp": "メガネ霊衣：織田金縁丸眼鏡"
+      },
+      "flavor_text": {
+        "en": "Oda Nobukatsu's glasses. A classic model he wishes his sister would wear as well.",
+        "jp": "織田信勝の眼鏡\n姉上にもかけてほしいクラシックモデル"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

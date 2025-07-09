@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Poisonous Flower that Blooms During the Night",
-      "text_jp": "孤独な暗殺者のドレス衣装\nその笑顔は、あなたのために",
-      "text_en": "A dress worn by the lonely assassin. Her smile is for you alone.",
+      "id": 61,
+      "type": "full",
+      "name": {
+        "en": "Poisonous Flower Blooming at Night",
+        "jp": "夜に咲く毒の華"
+      },
+      "flavor_text": {
+        "en": "A dress worn by the lonely assassin. Her smile is for you alone.",
+        "jp": "孤独な暗殺者のドレス衣装\nその笑顔は、あなたのために"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

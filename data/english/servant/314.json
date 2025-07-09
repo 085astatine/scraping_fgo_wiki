@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "NFF Bunny",
-      "text_jp": "寒冷地用の白コートを脱いだ姿\n敏腕秘書はＴＰＯを弁えるのである",
-      "text_en": "Her appearance after taking off her white coat for arctic climates. A capable secretary must know her TPO.",
+      "id": 98,
+      "type": "simple",
+      "name": {
+        "en": "NFF Bunny",
+        "jp": "ＮＦＦバニー"
+      },
+      "flavor_text": {
+        "en": "Her appearance after taking off her white coat for arctic climates. A capable secretary must know her TPO.",
+        "jp": "寒冷地用の白コートを脱いだ姿\n敏腕秘書はＴＰＯを弁えるのである"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Summertime Hunter",
-      "text_jp": "ＢＢによって強制的に着せられた霊衣\nだが、本人は割と気に入っている",
-      "text_en": "A Spiritron Dress BB forced on him. He actually ended up liking it though.",
+      "id": 11,
+      "type": "full",
+      "name": {
+        "en": "Summer Hunter",
+        "jp": "夏の狩人"
+      },
+      "flavor_text": {
+        "en": "A Spiritron Dress BB forced on him. He actually ended up liking it though.",
+        "jp": "ＢＢによって強制的に着せられた霊衣\nだが、本人は割と気に入っている"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

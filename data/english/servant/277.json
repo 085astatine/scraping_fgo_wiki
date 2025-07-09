@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Aegis<br/>[2nd Ascension]",
-      "text_jp": "女神アテナから下賜された神体結界\n兜は所有者の意志により自在に開閉可能",
-      "text_en": "A Divine Form Bounded Field given as a gift by the goddess Athena. Opens and closes as its owner wills.",
+      "id": 87,
+      "type": "simple",
+      "name": {
+        "en": "Aegis [2nd Ascension]",
+        "jp": "アイギス（第二再臨）"
+      },
+      "flavor_text": {
+        "en": "A Divine Form Bounded Field given as a gift by the goddess Athena. Opens and closes as its owner wills.",
+        "jp": "女神アテナから下賜された神体結界\n兜は所有者の意志により自在に開閉可能"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -84,9 +91,16 @@
       }
     },
     {
-      "name": "Aegis<br/>[3rd Ascension]",
-      "text_jp": "兜を開くと胸部装甲も連動して開く仕様\n何かしらの設計意図があるようだが……",
-      "text_en": "Designed so the chest armor opens at the same time as the helmet. Why were they even designed like that...?",
+      "id": 88,
+      "type": "simple",
+      "name": {
+        "en": "Aegis [3rd Ascension]",
+        "jp": "アイギス（第三再臨）"
+      },
+      "flavor_text": {
+        "en": "Designed so the chest armor opens at the same time as the helmet. Why were they even designed like that...?",
+        "jp": "兜を開くと胸部装甲も連動して開く仕様\n何かしらの設計意図があるようだが……"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -110,9 +124,16 @@
       }
     },
     {
-      "name": "Sabazios",
-      "text_jp": "ゼウス・サバージオス\n宙を夢見て、果てた、仮初めの現身",
-      "text_en": "",
+      "id": 125,
+      "type": "simple",
+      "name": {
+        "en": "Sabazios",
+        "jp": "サバージオス"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "ゼウス・サバージオス\n宙を夢見て、果てた、仮初めの現身"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

@@ -58,14 +58,21 @@
   ],
   "costumes": [
     {
-      "name": "Verdant Summer Goddess",
-      "text_jp": "ケルトのスカサハと選んだ水着\nあまり人前では着られていなかった",
-      "text_en": "",
+      "id": 108,
+      "type": "simple",
+      "name": {
+        "en": "Verdant Summer Goddess",
+        "jp": "青翠の夏女神"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "ケルトのスカサハと選んだ水着\nあまり人前では着られていなかった"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Divine Spiricle Vein",
+            "name": "Divine Leyline Spiritron",
             "piece": 5
           },
           {

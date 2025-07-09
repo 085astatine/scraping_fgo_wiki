@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Rimless Round",
-      "text_jp": "サンソンの眼鏡。普段は隠している\n優しさがにじみ出る",
-      "text_en": "Sanson's glasses. Something about them really brings out the kind nature he tries so hard to hide.",
+      "id": 83,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Rimless Round",
+        "jp": "メガネ霊衣：リムレスラウンド"
+      },
+      "flavor_text": {
+        "en": "Sanson's glasses. Something about them really brings out the kind nature he tries so hard to hide.",
+        "jp": "サンソンの眼鏡。普段は隠している\n優しさがにじみ出る"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

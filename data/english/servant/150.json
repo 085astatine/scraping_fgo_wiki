@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Camelot & Co",
-      "text_jp": "謎のマーリン専用服飾ブランド\nそういう事する、と円卓騎士は語る",
-      "text_en": "The mysterious Merlin's exclusive fashion line. The Knights of the Round Table question its necessity.",
+      "id": 24,
+      "type": "full",
+      "name": {
+        "en": "Camelot & Co.",
+        "jp": "Camelot & Co."
+      },
+      "flavor_text": {
+        "en": "The mysterious Merlin's exclusive fashion line. The Knights of the Round Table question its necessity.",
+        "jp": "謎のマーリン専用服飾ブランド\nそういう事する、と円卓騎士は語る"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -88,9 +95,16 @@
       }
     },
     {
-      "name": "Camelot & Co Model Frame",
-      "text_jp": "謎のマーリン専用服飾ブランドの新作\n黙っていればグランド素敵なお兄さん",
-      "text_en": "The newest member of the mysterious Merlin-exclusive accessory brand. He'd be a pretty great guy if he'd just learn when to shut up.",
+      "id": 82,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Camelot & Co. Model Frames",
+        "jp": "メガネ霊衣：Camelot & Coモデルフレーム"
+      },
+      "flavor_text": {
+        "en": "The newest member of the mysterious Merlin-exclusive accessory brand. He'd be a pretty great guy if he'd just learn when to shut up.",
+        "jp": "謎のマーリン専用服飾ブランドの新作\n黙っていればグランド素敵なお兄さん"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

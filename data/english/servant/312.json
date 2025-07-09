@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Faerie Knight Lancelot [1st Ascension]",
-      "text_jp": "ある世界における最速の騎士の姿\nもっとも強く、美しい妖精騎士",
-      "text_en": "The fastest knight in a certain world. She is the strongest and most beautiful Tam Lin.",
+      "id": 65,
+      "type": "simple",
+      "name": {
+        "en": "Faerie Knight Lancelot (1st Ascension)",
+        "jp": "妖精騎士ランスロット（第一再臨）"
+      },
+      "flavor_text": {
+        "en": "The fastest knight in a certain world. She is the strongest and most beautiful Tam Lin.",
+        "jp": "ある世界における最速の騎士の姿\nもっとも強く、美しい妖精騎士"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -84,9 +91,16 @@
       }
     },
     {
-      "name": "Faerie Knight Lancelot [2nd Ascension]",
-      "text_jp": "ある世界における最速の騎士の姿\n隠された素顔は気ままな百面相である",
-      "text_en": "The fastest knight in a certain world. Behind her true visage bears numerous willful expressions.",
+      "id": 66,
+      "type": "simple",
+      "name": {
+        "en": "Faerie Knight Lancelot (2nd Ascension)",
+        "jp": "妖精騎士ランスロット（第二再臨）"
+      },
+      "flavor_text": {
+        "en": "The fastest knight in a certain world. Behind her true visage bears numerous willful expressions.",
+        "jp": "ある世界における最速の騎士の姿\n隠された素顔は気ままな百面相である"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -110,9 +124,16 @@
       }
     },
     {
-      "name": "Red Hot Deviation",
-      "text_jp": "希望の地の門番として現れる竜の影。\n白き竜と赤き竜は相克し、また同一",
-      "text_en": "The shadow of the dragon who guards the land of hope. A rival of the white and red dragons, and identical to them.",
+      "id": 67,
+      "type": "simple",
+      "name": {
+        "en": "Red Hot Deviation",
+        "jp": "赤熱偏位"
+      },
+      "flavor_text": {
+        "en": "The shadow of the dragon who guards the land of hope. A rival of the white and red dragons, and identical to them.",
+        "jp": "希望の地の門番として現れる竜の影。\n白き竜と赤き竜は相克し、また同一"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

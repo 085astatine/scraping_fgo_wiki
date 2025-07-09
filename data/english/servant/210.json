@@ -62,19 +62,26 @@
   ],
   "costumes": [
     {
-      "name": "Yooo This Hakama Is Rad",
-      "text_jp": "カルデアパレスにいた酔いどれ侍の衣装\n風流人もかくやの粋で洒脱な羽織袴",
-      "text_en": "An outfit of a drunkard samurai who lives in Chaldea Palace.",
+      "id": 39,
+      "type": "full",
+      "name": {
+        "en": "Absolutely Cool Haori and Hakama",
+        "jp": "まっこと格好えい羽織袴"
+      },
+      "flavor_text": {
+        "en": "An outfit of a drunkard samurai who lives in Chaldea Palace.",
+        "jp": "カルデアパレスにいた酔いどれ侍の衣装\n風流人もかくやの粋で洒脱な羽織袴"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Snake Jewel",
-            "piece": 5
-          },
-          {
             "name": "Unlucky Bone",
             "piece": 10
+          },
+          {
+            "name": "Snake Jewel",
+            "piece": 5
           },
           {
             "name": "Primordial Lanugo",
@@ -88,9 +95,16 @@
       }
     },
     {
-      "name": "\"I'm One Dapping Fella\" Suit",
-      "text_jp": "ツケ払いで買うたイケちょるスーツ\n酒に博打に派手に遊びまわるぜよ！",
-      "text_en": "An awesome dapper suit bought on credit.\nI can't wait to go drinking and gambling in this getup!",
+      "id": 72,
+      "type": "full",
+      "name": {
+        "en": "Awesome Dapper Suit",
+        "jp": "えろうイケちょるスーツ"
+      },
+      "flavor_text": {
+        "en": "An awesome dapper suit bought on credit.\nI can't wait to go drinking and gambling in this getup!",
+        "jp": "ツケ払いで買うたイケちょるスーツ\n酒に博打に派手に遊びまわるぜよ！"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

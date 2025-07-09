@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Wandjina Eye",
-      "text_jp": "大精霊たるワンジナの惑星観察モード\n交信用の表情機能は意外とパターン豊か",
-      "text_en": "",
+      "id": 110,
+      "type": "simple",
+      "name": {
+        "en": "Wandjina Eye",
+        "jp": "ワンジナ・アイ"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "大精霊たるワンジナの惑星観察モード\n交信用の表情機能は意外とパターン豊か"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

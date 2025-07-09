@@ -58,14 +58,21 @@
   ],
   "costumes": [
     {
-      "name": "Strongest Knight of Summer",
-      "text_jp": "円卓騎士の夏の装い。ここまでするのが\nランスロットなんだよね",
-      "text_en": "",
+      "id": 104,
+      "type": "full",
+      "name": {
+        "en": "Strongest Knight of Summer",
+        "jp": "夏の最強騎士"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "円卓騎士の夏の装い。ここまでするのが\nランスロットなんだよね"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Octuplet Crystals",
+            "name": "Octuplet Twin Crystals",
             "piece": 5
           },
           {

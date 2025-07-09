@@ -74,9 +74,16 @@
   ],
   "costumes": [
     {
-      "name": "Summer Casual",
-      "text_jp": "とある夏の事件の時に着ていた衣装\nキャンプの引率者として参加していた",
-      "text_en": "An outfit worn during a certain incident that happened over the summer. He accompanied the group as a camp chaperone.",
+      "id": 44,
+      "type": "full",
+      "name": {
+        "en": "Summer Casual",
+        "jp": "サマー・カジュアル"
+      },
+      "flavor_text": {
+        "en": "An outfit worn during a certain incident that happened over the summer. He accompanied the group as a camp chaperone.",
+        "jp": "とある夏の事件の時に着ていた衣装\nキャンプの引率者として参加していた"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

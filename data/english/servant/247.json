@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Student Council President Arjuna",
-      "text_jp": "生徒会長モードのアルジュナ\n普段より少しだけ表情が柔らかい",
-      "text_en": "Arjuna the student council president. His expression is gentler than usual.",
+      "id": 84,
+      "type": "full",
+      "name": {
+        "en": "Student Council President Arjuna",
+        "jp": "生徒会長たるアルジュナ"
+      },
+      "flavor_text": {
+        "en": "Arjuna the student council president. His expression is gentler than usual.",
+        "jp": "生徒会長モードのアルジュナ\n普段より少しだけ表情が柔らかい"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -84,9 +91,16 @@
       }
     },
     {
-      "name": "Student Council President Arjuna (Glasses)",
-      "text_jp": "学生服と眼鏡を着用したアルジュナ\n本人曰く少し浮かれている状態らしい",
-      "text_en": "Arjuna wearing a school uniform and glasses. According to him, he seems to be in a slightly excited state.",
+      "id": 85,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Student Council President Arjuna (Glasses)",
+        "jp": "メガネ霊衣：生徒会長たるアルジュナ（メガネ）"
+      },
+      "flavor_text": {
+        "en": "Arjuna wearing a school uniform and glasses. According to him, he seems to be in a slightly excited state.",
+        "jp": "学生服と眼鏡を着用したアルジュナ\n本人曰く少し浮かれている状態らしい"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

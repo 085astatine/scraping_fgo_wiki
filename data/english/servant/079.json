@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Magnifiers",
-      "text_jp": "パラケルススの眼鏡\n実は一種の魔術礼装で拡大機能がある",
-      "text_en": "Paracelsus's glasses. As the name suggests, they are capable of magnification thanks to a kind of Mystic Code.",
+      "id": 81,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Magnifiers",
+        "jp": "メガネ霊衣：マグニファイアーズ"
+      },
+      "flavor_text": {
+        "en": "Paracelsus's glasses. As the name suggests, they are capable of magnification thanks to a kind of Mystic Code.",
+        "jp": "パラケルススの眼鏡\n実は一種の魔術礼装で拡大機能がある"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

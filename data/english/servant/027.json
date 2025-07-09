@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Psychedelic Wandering Tales",
-      "text_jp": "源氏の若武者のダンス衣装\n和風意匠を織り込んだ豪華な一品",
-      "text_en": "A dance outfit worn by the young warrior of Genji. It's a magnificent piece woven with Japanese designs.",
+      "id": 56,
+      "type": "full",
+      "name": {
+        "en": "Psychedelic Wandering Tales",
+        "jp": "サイケデリック流離譚"
+      },
+      "flavor_text": {
+        "en": "A dance outfit worn by the young warrior of Genji. It's a magnificent piece woven with Japanese designs.",
+        "jp": "源氏の若武者のダンス衣装\n和風意匠を織り込んだ豪華な一品"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

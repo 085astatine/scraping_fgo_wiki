@@ -70,9 +70,16 @@
   ],
   "costumes": [
     {
-      "name": "Rengoku Alter",
-      "text_jp": "沖田オルタの霊基を緊急対応で制御中\n実のところ煉獄本来の役割ともいえる",
-      "text_en": "Okita Alter's Spirit Origin is currently suppressed for emergency purposes. In fact, it can be said that this was intended to be Rengoku's original role.",
+      "id": 96,
+      "type": "simple",
+      "name": {
+        "en": "Rengoku Alter",
+        "jp": "煉獄オルタ"
+      },
+      "flavor_text": {
+        "en": "Okita Alter's Spirit Origin is currently suppressed for emergency purposes. In fact, it can be said that this was intended to be Rengoku's original role.",
+        "jp": "沖田オルタの霊基を緊急対応で制御中\n実のところ煉獄本来の役割ともいえる"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

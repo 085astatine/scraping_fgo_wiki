@@ -66,9 +66,16 @@
   ],
   "costumes": [
     {
-      "name": "Super Cool Biz",
-      "text_jp": "大胆に背中が全開になっているスーツ\n通気性はとても良い",
-      "text_en": "A suit with a bold open back design.\nThe material breathes very well.",
+      "id": 22,
+      "type": "full",
+      "name": {
+        "en": "Super Cool Biz",
+        "jp": "スーパー・クールビズ"
+      },
+      "flavor_text": {
+        "en": "A suit with a bold open back design.\nThe material breathes very well.",
+        "jp": "大胆に背中が全開になっているスーツ\n通気性はとても良い"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

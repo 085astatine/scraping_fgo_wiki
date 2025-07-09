@@ -70,18 +70,25 @@
   ],
   "costumes": [
     {
-      "name": "Endowed Travel Wear",
-      "text_jp": "とある英霊が日本を訪れた時の衣装\nお供の猿は猿拳を使いこなす武闘派",
-      "text_en": "An outfit that a certain Heroic Spirit wore during his visit to Japan. The monkey that accompanies him is a master in the art of monkey fist.",
+      "id": 36,
+      "type": "full",
+      "name": {
+        "en": "Bequeathed Traveling Clothes",
+        "jp": "授かりし旅装"
+      },
+      "flavor_text": {
+        "en": "An outfit that a certain Heroic Spirit wore during his visit to Japan. The monkey that accompanies him is a master in the art of monkey fist.",
+        "jp": "とある英霊が日本を訪れた時の衣装\nお供の猿は猿拳を使いこなす武闘派"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Kotan Magatama",
+            "name": "Ancient Bell of Tranquility",
             "piece": 5
           },
           {
-            "name": "Ancient Bell of Tranquility",
+            "name": "Kotan Magatama",
             "piece": 5
           },
           {

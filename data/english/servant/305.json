@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Devil Caren",
-      "text_jp": "さらにテンションあがったカレン\nわからせる事は困難と思われる",
-      "text_en": "Caren's gotten even more intense. It's probably going to be really hard to snap her back to her senses now.",
+      "id": 51,
+      "type": "simple",
+      "name": {
+        "en": "Devil Caren",
+        "jp": "デビルカレン"
+      },
+      "flavor_text": {
+        "en": "Caren's gotten even more intense. It's probably going to be really hard to snap her back to her senses now.",
+        "jp": "さらにテンションあがったカレン\nわからせる事は困難と思われる"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

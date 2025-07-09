@@ -871,7 +871,8 @@
       "path": [
         "costumes",
         1,
-        "text_en"
+        "flavor_text",
+        "en"
       ],
       "before": "",
       "after": "The queen of honey's dance outfit. This Spiritron Dress has a powerful effect on a certain Child of Light...probably?"

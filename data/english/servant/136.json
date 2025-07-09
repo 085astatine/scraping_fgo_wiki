@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Testament Form",
-      "text_jp": "あくまで衣装で、心身に影響はない\nと、某ステッキは主張している",
-      "text_en": "It's just a costume, and it won't affect the wearer's mind or body.\n...That's what a certain magical stick claims, anyway.",
+      "id": 16,
+      "type": "simple",
+      "name": {
+        "en": "[[Testament]] Form",
+        "jp": "テスタメント･フォーム"
+      },
+      "flavor_text": {
+        "en": "It's just a costume, and it won't affect the wearer's mind or body.\n...That's what a certain magical stick claims, anyway.",
+        "jp": "あくまで衣装で、心身に影響はない\nと、某ステッキは主張している"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

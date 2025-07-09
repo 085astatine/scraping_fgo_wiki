@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Ice Celebrity",
-      "text_jp": "氷上のプリマドンナのお忍びモード\nその立ち振る舞いはまさにスタァ",
-      "text_en": "A disguise worn by the prima ballerina on ice. The way she carries herself definitely makes her a star.",
+      "id": 29,
+      "type": "simple",
+      "name": {
+        "en": "Ice Celebrity",
+        "jp": "アイス・セレブリティ"
+      },
+      "flavor_text": {
+        "en": "A disguise worn by the prima ballerina on ice. The way she carries herself definitely makes her a star.",
+        "jp": "氷上のプリマドンナのお忍びモード\nその立ち振る舞いはまさにスタァ"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

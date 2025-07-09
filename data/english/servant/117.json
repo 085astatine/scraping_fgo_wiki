@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Shinobi Summer Attire",
-      "text_jp": "小太郎の用意した現代衣装\n市井に溶け込むは忍者の得手なり",
-      "text_en": "A modern outfit that Kotarou prepared.\nBlending into the scenery is a ninja's forte.",
+      "id": 23,
+      "type": "full",
+      "name": {
+        "en": "Shinobi Summer Attire",
+        "jp": "夏休み満喫用忍び装束"
+      },
+      "flavor_text": {
+        "en": "A modern outfit that Kotarou prepared.\nBlending into the scenery is a ninja's forte.",
+        "jp": "小太郎の用意した現代衣装\n市井に溶け込むは忍者の得手なり"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -73,11 +80,11 @@
             "piece": 10
           },
           {
-            "name": "Spirit Root",
+            "name": "Seashell of Reminiscence",
             "piece": 5
           },
           {
-            "name": "Seashell of Reminiscence",
+            "name": "Spirit Root",
             "piece": 5
           },
           {

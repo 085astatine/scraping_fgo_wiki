@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Midsummer Gentleman",
-      "text_jp": "驚くべきことに、趣味服以外のセンスは\n大変良好だった大海賊である",
-      "text_en": "Surprising everyone, this pirate who isn't usually a great dresser, turned out to have good fashion sense.",
+      "id": 71,
+      "type": "full",
+      "name": {
+        "en": "High Summer Gentleman",
+        "jp": "盛夏の紳士"
+      },
+      "flavor_text": {
+        "en": "Surprising everyone, this pirate who isn't usually a great dresser, turned out to have good fashion sense.",
+        "jp": "驚くべきことに、趣味服以外のセンスは\n大変良好だった大海賊である"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

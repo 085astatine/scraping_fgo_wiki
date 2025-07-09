@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Open Summer",
-      "text_jp": "色々とオープンにした代行者\n月のお姫さまに見せつけてあげよう",
-      "text_en": "",
+      "id": 116,
+      "type": "simple",
+      "name": {
+        "en": "Open Summer",
+        "jp": "オープン・サマー"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "色々とオープンにした代行者\n月のお姫さまに見せつけてあげよう"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
@@ -84,9 +91,16 @@
       }
     },
     {
-      "name": "Glasses-Off Mode",
-      "text_jp": "メガネを外した代行者\nオフの素顔でいつもと違う雰囲気に",
-      "text_en": "",
+      "id": 117,
+      "type": "simple",
+      "name": {
+        "en": "Glasses-Off Mode",
+        "jp": "メガネオフモード"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "メガネを外した代行者\nオフの素顔でいつもと違う雰囲気に"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Summer Rescue",
-      "text_jp": "カルデア救護班の夏の装い\nバッグの中身は聞かない方が良いらしい",
-      "text_en": "The summer uniform of Chaldea's emergency care team. Best if you just don't ask what's in the bag.",
+      "id": 89,
+      "type": "full",
+      "name": {
+        "en": "Summer Rescue",
+        "jp": "サマーレスキュー"
+      },
+      "flavor_text": {
+        "en": "The summer uniform of Chaldea's emergency care team. Best if you just don't ask what's in the bag.",
+        "jp": "カルデア救護班の夏の装い\nバッグの中身は聞かない方が良いらしい"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

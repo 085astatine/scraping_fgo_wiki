@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "A Girl's Most Sought After",
-      "text_jp": "存在としての結びつきとして\n手元に在るべき霊衣",
-      "text_en": "A Spiritron Dress that must be kept on-hand in order to maintain a connection to her existence.",
+      "id": 4,
+      "type": "full",
+      "name": {
+        "en": "What the Girl Seeks",
+        "jp": "少女の捜し物"
+      },
+      "flavor_text": {
+        "en": "A Spiritron Dress that must be kept on-hand in order to maintain a connection to her existence.",
+        "jp": "存在としての結びつきとして\n手元に在るべき霊衣"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

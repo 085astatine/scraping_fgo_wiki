@@ -66,18 +66,25 @@
   ],
   "costumes": [
     {
-      "name": "Memories of Trifas",
-      "text_jp": "どこかの戦場で着ていたお気に入りの服\n誰かが買ってくれたような憶えがある",
-      "text_en": "A favorite outfit worn on a certain battlefield.\nSome memory lingers of the one who bought it.",
+      "id": 34,
+      "type": "full",
+      "name": {
+        "en": "Memories at Trifas",
+        "jp": "トゥリファスの記憶"
+      },
+      "flavor_text": {
+        "en": "A favorite outfit worn on a certain battlefield.\nSome memory lingers of the one who bought it.",
+        "jp": "どこかの戦場で着ていたお気に入りの服\n誰かが買ってくれたような憶えがある"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Unlucky Bone",
+            "name": "Dragon Fang",
             "piece": 10
           },
           {
-            "name": "Dragon Fang",
+            "name": "Unlucky Bone",
             "piece": 10
           },
           {
@@ -92,15 +99,22 @@
       }
     },
     {
-      "name": "Red Saber",
-      "text_jp": "モードレッドの眼鏡\n赤いフレームがチャームポイント",
-      "text_en": "Mordred's glasses. The red frames really help them stand out.",
+      "id": 75,
+      "type": "simple",
+      "name": {
+        "en": "Bespectacled Costume Dress: Red Saber",
+        "jp": "メガネ霊衣：レッドセイバー"
+      },
+      "flavor_text": {
+        "en": "Mordred's glasses. The red frames really help them stand out.",
+        "jp": "モードレッドの眼鏡\n赤いフレームがチャームポイント"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
-            "name": "Unlucky Bone",
-            "piece": 5
+            "name": "Dragon Fang",
+            "piece": 10
           },
           {
             "name": "Medal of Great Knight",

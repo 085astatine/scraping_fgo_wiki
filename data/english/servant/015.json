@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "mirage",
-      "text_jp": "可憐の女神が纏うダンス衣装\nその魅力を更に際立たせるきらめき",
-      "text_en": "A dance outfit worn by a lovely goddess. It sparkles to further accentuate her charm.",
+      "id": 55,
+      "type": "full",
+      "name": {
+        "en": "mirage",
+        "jp": "mirage"
+      },
+      "flavor_text": {
+        "en": "A dance outfit worn by a lovely goddess. It sparkles to further accentuate her charm.",
+        "jp": "可憐の女神が纏うダンス衣装\nその魅力を更に際立たせるきらめき"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

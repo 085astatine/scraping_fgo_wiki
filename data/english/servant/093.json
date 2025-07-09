@@ -70,9 +70,16 @@
   ],
   "costumes": [
     {
-      "name": "Phantom Thief Amakusa Shirō",
-      "text_jp": "とある微小特異点での天草四郎の衣装\nまず形から入りました、とは本人の言",
-      "text_en": "An outfit worn by Amakusa Shirou in a certain minute Singularity. He believes it's important to dress for the job you want.",
+      "id": 52,
+      "type": "full",
+      "name": {
+        "en": "Phantom Thief Amakusa Shirō",
+        "jp": "怪盗天草四郎"
+      },
+      "flavor_text": {
+        "en": "An outfit worn by Amakusa Shirou in a certain minute Singularity. He believes it's important to dress for the job you want.",
+        "jp": "とある微小特異点での天草四郎の衣装\nまず形から入りました、とは本人の言"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

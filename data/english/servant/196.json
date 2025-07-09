@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Ninkigal",
-      "text_jp": "第三冥界の番人としての姿\n自称、悪辣で淫蕩で強欲な女神",
-      "text_en": "Appearance as the third underworld's guardian. Self-proclaimed, vicious, lascivious, greedy goddess.",
+      "id": 99,
+      "type": "full",
+      "name": {
+        "en": "Ninkigal",
+        "jp": "ニンキガル"
+      },
+      "flavor_text": {
+        "en": "Appearance as the third underworld's guardian. Self-proclaimed, vicious, lascivious, greedy goddess.",
+        "jp": "第三冥界の番人としての姿\n自称、悪辣で淫蕩で強欲な女神"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

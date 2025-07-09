@@ -58,9 +58,16 @@
   ],
   "costumes": [
     {
-      "name": "Epsilon",
-      "text_jp": "無常の果実が望んだ姿\n願いを許された、もう一人の自分",
-      "text_en": "",
+      "id": 124,
+      "type": "simple",
+      "name": {
+        "en": "Epsilon",
+        "jp": "イプシロン"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "無常の果実が望んだ姿\n願いを許された、もう一人の自分"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

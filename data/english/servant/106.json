@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Wicked Dragon Witch ver. Shinjuku 1999",
-      "text_jp": "ファヴニールが私にもっと黒に染まれ\nと囁いてくるのよファヴニールが",
-      "text_en": "Fafnir keeps whispering to me to go even blacker.",
+      "id": 6,
+      "type": "full",
+      "name": {
+        "en": "Dragon Witch Shinjuku 1999 Ver.",
+        "jp": "邪竜の魔女ver新宿1999"
+      },
+      "flavor_text": {
+        "en": "Fafnir keeps whispering to me to go even blacker.",
+        "jp": "ファヴニールが私にもっと黒に染まれ\nと囁いてくるのよファヴニールが"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

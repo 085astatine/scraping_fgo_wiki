@@ -58,18 +58,21 @@
   ],
   "costumes": [
     {
-      "name": "Técnica Mascara",
-      "text_jp": "ケツァル・コアトル愛用のマスク\n身につけるだけで闘志が溢れてくる",
-      "text_en": "Quetzalcoatl's favorite and most frequently used mask. Simply putting it on raises the wearer's fighting spirit.",
+      "id": 14,
+      "type": "simple",
+      "name": {
+        "en": "Técnica Mascara",
+        "jp": "テクニコ・マスカラ"
+      },
+      "flavor_text": {
+        "en": "Quetzalcoatl's favorite and most frequently used mask. Simply putting it on raises the wearer's fighting spirit.",
+        "jp": "ケツァル・コアトル愛用のマスク\n身につけるだけで闘志が溢れてくる"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
           {
             "name": "Phoenix Plume",
-            "piece": 5
-          },
-          {
-            "name": "Permafrost Ice Crystal",
             "piece": 5
           },
           {
@@ -79,14 +82,25 @@
           {
             "name": "Spirit Root",
             "piece": 5
+          },
+          {
+            "name": "Permafrost Ice Crystal",
+            "piece": 5
           }
         ]
       }
     },
     {
-      "name": "Rudos Mascara",
-      "text_jp": "真のサンタを目指した悪役の名残\n気を抜くと顔が怖くなってしまう",
-      "text_en": "A relic of the ruda who fought to become the true Santa. This mask can make the wearer seem quite frightening.",
+      "id": 15,
+      "type": "simple",
+      "name": {
+        "en": "Rudos Mascara",
+        "jp": "ルーダ・マスカラ"
+      },
+      "flavor_text": {
+        "en": "A relic of the ruda who fought to become the true Santa. This mask can make the wearer seem quite frightening.",
+        "jp": "真のサンタを目指した悪役の名残\n気を抜くと顔が怖くなってしまう"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

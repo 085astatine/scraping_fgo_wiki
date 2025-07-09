@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Monte Cristo Selection",
-      "text_jp": "巌窟王の夏の装い\n浮き輪が密かにお気に入りとのこと",
-      "text_en": "The Count of Monte Cristo's summer attire. He actually really likes the inflatable tube, but won't admit it.",
+      "id": 9,
+      "type": "full",
+      "name": {
+        "en": "Monte Cristo Selection",
+        "jp": "モンテ･クリストセレクション"
+      },
+      "flavor_text": {
+        "en": "The Count of Monte Cristo's summer attire. He actually really likes the inflatable tube, but won't admit it.",
+        "jp": "巌窟王の夏の装い\n浮き輪が密かにお気に入りとのこと"
+      },
       "resource": {
         "qp": 3000000,
         "items": [

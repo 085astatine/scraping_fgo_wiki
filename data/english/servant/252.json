@@ -62,9 +62,16 @@
   ],
   "costumes": [
     {
-      "name": "Traveler's Wrap",
-      "text_jp": "白手巾にてつふりをつつみし\n景虎自慢のスタイリッシュ頭巾姿",
-      "text_en": "A white handkerchief enveloping the head, making a stylish white hood of which Kagetora is quite proud.",
+      "id": 21,
+      "type": "simple",
+      "name": {
+        "en": "Traveler's Hood",
+        "jp": "行人包"
+      },
+      "flavor_text": {
+        "en": "A white handkerchief enveloping the head, making a stylish white hood of which Kagetora is quite proud.",
+        "jp": "白手巾にてつふりをつつみし\n景虎自慢のスタイリッシュ頭巾姿"
+      },
       "resource": {
         "qp": 3000000,
         "items": [
