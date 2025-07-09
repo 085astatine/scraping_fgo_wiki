@@ -68,7 +68,7 @@ def main() -> None:
     )
     # to English dictionary
     english_dictionary = to_dictionary(servants)
-    dictionary_path = directory.joinpath("servant.json")
+    dictionary_path = pathlib.Path("data/english/servant.json")
     if not option.no_save:
         logger.info('save english dictionary to "%s"', dictionary_path)
         fgo.save_json(dictionary_path, english_dictionary)
