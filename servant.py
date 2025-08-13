@@ -359,6 +359,8 @@ def servant_page(
         )
         # save
         if not option.no_save and text is not None:
+            if not path.parent.exists():
+                path.parent.mkdir(parents=True)
             logger.info('save page to "%s"', path)
             path.write_text(text, encoding="utf-8")
         time.sleep(option.request_interval)

@@ -297,6 +297,8 @@ def get_costume_data(
         )
         # save
         if not option.no_save and data is not None:
+            if not path.parent.exists():
+                path.parent.mkdir(parents=True)
             logger.info('save costume list to "%s"', path)
             path.write_text(data, encoding="utf-8")
         time.sleep(option.request_interval)
@@ -573,6 +575,8 @@ def get_servant_data(
                 link["title"],
                 path,
             )
+            if not path.parent.exists():
+                path.parent.mkdir(parents=True)
             path.write_text(data, encoding="utf-8")
         time.sleep(option.request_interval)
     else:
