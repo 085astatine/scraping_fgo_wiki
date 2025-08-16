@@ -709,17 +709,20 @@ def parse_active_skills(
     source: str,
     logger: fgo.ServantLogger,
 ) -> list[list[fgo.english.Skill]]:
+    section = parse_section(source, "Active Skills")
+    if section is None:
+        logger.error('failed to find "Active Skills" section')
+        return []
     match = re.search(
-        r"==\s*Active Skills\s*==\n"
         r"{{Tabber\n"
         r"\|First Skill\n"
         r"\|(?P<skill_1>(.*\n)+?)"
         r"\|Second Skill\n"
         r"\|(?P<skill_2>(.*\n)+?)"
         r"\|Third Skill\n"
-        r"\|(?P<skill_3>(.*\n)+?)"
-        r"}}\n",
-        source,
+        r"\|(?P<skill_3>(.*\n)+)"
+        r"}}",
+        section,
     )
     if match is None:
         logger.error("failed to match active skill")
@@ -735,8 +738,11 @@ def parse_append_skills(
     source: str,
     logger: fgo.ServantLogger,
 ) -> list[list[fgo.english.Skill]]:
+    section = parse_section(source, "Append Skills")
+    if section is None:
+        logger.error('failed to find "Append Skills" section')
+        return []
     match = re.search(
-        r"==\s*Append Skills\s*==\n"
         r"{{Tabber\n"
         r"\|First Skill\n"
         r"\|(?P<skill_1>(.*\n)+?)"
@@ -747,9 +753,9 @@ def parse_append_skills(
         r"\|Fourth Skill\n"
         r"\|(?P<skill_4>(.*\n)+?)"
         r"\|Fifth Skill\n"
-        r"\|(?P<skill_5>(.*\n)+?)"
-        r"}}\n",
-        source,
+        r"\|(?P<skill_5>(.*\n)+)"
+        r"}}",
+        section,
     )
     if match is None:
         return []
