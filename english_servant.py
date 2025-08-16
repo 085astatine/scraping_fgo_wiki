@@ -711,16 +711,14 @@ def parse_active_skills(
 ) -> list[list[fgo.english.Skill]]:
     match = re.search(
         r"==\s*Active Skills\s*==\n"
-        r"<tabber>\n"
-        r"First Skill=\n"
-        r"(?P<skill_1>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Second Skill=\n"
-        r"(?P<skill_2>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Third Skill=\n"
-        r"(?P<skill_3>(.*\n)+?)"
-        r"</tabber>\n",
+        r"{{Tabber\n"
+        r"\|First Skill\n"
+        r"\|(?P<skill_1>(.*\n)+?)"
+        r"\|Second Skill\n"
+        r"\|(?P<skill_2>(.*\n)+?)"
+        r"\|Third Skill\n"
+        r"\|(?P<skill_3>(.*\n)+?)"
+        r"}}\n",
         source,
     )
     if match is None:
@@ -739,22 +737,18 @@ def parse_append_skills(
 ) -> list[list[fgo.english.Skill]]:
     match = re.search(
         r"==\s*Append Skills\s*==\n"
-        r"<tabber>\n"
-        r"First Skill=\n"
-        r"(?P<skill_1>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Second Skill=\n"
-        r"(?P<skill_2>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Third Skill=\n"
-        r"(?P<skill_3>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Fourth Skill=\n"
-        r"(?P<skill_4>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Fifth Skill=\n"
-        r"(?P<skill_5>(.*\n)+?)"
-        r"</tabber>\n",
+        r"{{Tabber\n"
+        r"\|First Skill\n"
+        r"\|(?P<skill_1>(.*\n)+?)"
+        r"\|Second Skill\n"
+        r"\|(?P<skill_2>(.*\n)+?)"
+        r"\|Third Skill\n"
+        r"\|(?P<skill_3>(.*\n)+?)"
+        r"\|Fourth Skill\n"
+        r"\|(?P<skill_4>(.*\n)+?)"
+        r"\|Fifth Skill\n"
+        r"\|(?P<skill_5>(.*\n)+?)"
+        r"}}\n",
         source,
     )
     if match is None:
@@ -773,19 +767,19 @@ def parse_skill(
     source: str,
     logger: fgo.ServantLogger,
 ) -> list[fgo.english.Skill]:
-    # Remove {{Unlock|...}} or {{unlock:...}}
-    source = re.sub(r"\{\{[Uu]nlock\|.+\}\}\n", "", source)
     # mult level
-    if source.startswith("{{#tag:tabber"):
+    if source.startswith("{{Tabber<!--"):
         skill = [
-            parse_skill_rank(skill_texts.split("=")[0])
-            for skill_texts in source.removeprefix("{{#tag:tabber|\n")
-            .removesuffix("}}")
-            .split("{{!}}-{{!}}\n")
+            parse_skill_rank(skill_text.removeprefix("-->|").removesuffix("<!--"))
+            for skill_text in source.removeprefix("{{Tabber<!--\n")
+            .removesuffix("\n-->}}\n")
+            .split("\n")[::3]
         ]
         skill.reverse()
     else:
         skill = []
+        # Remove {{Unlock|...}} or {{unlock:...}}
+        source = re.sub(r"\{\{[Uu]nlock\|.+\}\}\n", "", source)
         match = re.match(r"\{\{:(?P<skill>.+)\}\}\n", source)
         if match:
             skill.append(parse_skill_rank(match.group("skill")))
@@ -968,7 +962,7 @@ def parse_resource_table_row(row: str) -> Optional[ItemsRow | QPRow | TextRow]:
 
 def parse_skill_reinforcement(
     source: str,
-    target: Literal['Active', 'Append'],
+    target: Literal["Active", "Append"],
     logger: fgo.ServantLogger,
 ) -> list[ResourceTableRow]:
     section = parse_section(source, "Skill Reinforcement")
@@ -977,10 +971,10 @@ def parse_skill_reinforcement(
     match = re.search(
         rf"\|{target}"
         r"\|(?P<table>"
-        r"{{\w+"
+        r"{{Skillreinforcement"
         r"(\|[a-z0-9]+\s*=\s*{{.+}})*"
         r"}})",
-        section.replace('\n', ''),
+        section.replace("\n", ""),
     )
     if match is None:
         return []
