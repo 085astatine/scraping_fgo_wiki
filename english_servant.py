@@ -836,6 +836,7 @@ def parse_ascension_table(
     logger.debug("ascension & costume")
     section = parse_section(source, "Ascension")
     if section is None:
+        logger.error('failed to find "Ascension" section')
         return [], []
     rows = parse_resource_table(section, "Ascension", logger)
     if rows is None:
@@ -973,6 +974,7 @@ def parse_skill_reinforcement(
 ) -> list[ResourceTableRow]:
     section = parse_section(source, "Skill Reinforcement")
     if section is None:
+        logger.error('failed to find "Skill Reinforcement" section')
         return []
     match = re.search(
         rf"\|{target}( Skills)?"
