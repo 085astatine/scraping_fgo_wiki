@@ -969,9 +969,10 @@ def parse_skill_reinforcement(
     if section is None:
         return []
     match = re.search(
-        rf"\|{target}"
-        r"\|(?P<table>"
+        rf"\|{target}( Skills)?"
+        r"(=|\|)(?P<table>"
         r"{{Skillreinforcement"
+        r"(\|rarity\s*=\s*[0-5])?"
         r"(\|[a-z0-9]+\s*=\s*{{.+}})*"
         r"}})",
         section.replace("\n", ""),
