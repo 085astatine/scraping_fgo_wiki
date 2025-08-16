@@ -851,23 +851,7 @@ def parse_active_skill_resources(
     logger: fgo.ServantLogger,
 ) -> list[fgo.Resource]:
     logger.debug("active skill resources")
-    section = parse_section(source, "Skill Reinforcement")
-    if section is None:
-        return []
-    match = re.search(
-        r"Active( Skills)?\s*=(?P<table>.+?)\|-\|",
-        section,
-        flags=re.DOTALL,
-    )
-    if match is None:
-        return []
-    rows = parse_resource_table(
-        match.group("table"),
-        "Skillreinforcement",
-        logger,
-    )
-    if rows is None:
-        return []
+    rows = parse_skill_reinforcement(source, "Active", logger)
     return to_skill_resources(rows, stars)
 
 
@@ -877,23 +861,7 @@ def parse_append_skill_resources(
     logger: fgo.ServantLogger,
 ) -> list[fgo.Resource]:
     logger.debug("append skill resources")
-    section = parse_section(source, "Skill Reinforcement")
-    if section is None:
-        return []
-    match = re.search(
-        r"Append( Skills)?\s*=(?P<table>.+?)</tabber>",
-        section,
-        flags=re.DOTALL,
-    )
-    if match is None:
-        return []
-    rows = parse_resource_table(
-        match.group("table"),
-        "Skillreinforcement",
-        logger,
-    )
-    if rows is None:
-        return []
+    rows = parse_skill_reinforcement(source, "Append", logger)
     return to_skill_resources(rows, stars)
 
 
@@ -996,6 +964,34 @@ def parse_resource_table_row(row: str) -> Optional[ItemsRow | QPRow | TextRow]:
                     text=match.group("text").strip(),
                 )
     return None
+
+
+def parse_skill_reinforcement(
+    source: str,
+    target: Literal['Active', 'Append'],
+    logger: fgo.ServantLogger,
+) -> list[ResourceTableRow]:
+    section = parse_section(source, "Skill Reinforcement")
+    if section is None:
+        return []
+    match = re.search(
+        rf"\|{target}"
+        r"\|(?P<table>"
+        r"{{\w+"
+        r"(\|[a-z0-9]+\s*=\s*{{.+}})*"
+        r"}})",
+        section.replace('\n', ''),
+    )
+    if match is None:
+        return []
+    rows = parse_resource_table(
+        match.group("table"),
+        "Skillreinforcement",
+        logger,
+    )
+    if rows is None:
+        return []
+    return rows
 
 
 def to_ascension_resources(
