@@ -721,7 +721,7 @@ def parse_active_skills(
         r"\|(?P<skill_2>(.*\n)+?)"
         r"\|Third Skill\n"
         r"\|(?P<skill_3>(.*\n)+)"
-        r"}}",
+        r"\|?}}",
         section,
     )
     if match is None:
@@ -774,12 +774,17 @@ def parse_skill(
     logger: fgo.ServantLogger,
 ) -> list[fgo.english.Skill]:
     # mult level
-    if source.startswith("{{Tabber<!--"):
+    if source.startswith("{{Tabber"):
+        source = re.sub(r"^{{Tabber(<!--)?\n", "", source)
+        source = re.sub(r"\n(-->)?}}\n$", "", source)
+        source = re.sub(r"^-->", "", source, flags=re.MULTILINE)
+        source = re.sub(r"<!--$", "", source, flags=re.MULTILINE)
         skill = [
-            parse_skill_rank(skill_text.removeprefix("-->|").removesuffix("<!--"))
-            for skill_text in source.removeprefix("{{Tabber<!--\n")
-            .removesuffix("\n-->}}\n")
-            .split("\n")[::3]
+            parse_skill_rank(skill_text)
+            for skill_text in re.findall(
+                r"\|([^|]+?)\|{{Unlock\|.+?}}\s*{{.+?}}",
+                source.replace("\n", ""),
+            )
         ]
         skill.reverse()
     else:
