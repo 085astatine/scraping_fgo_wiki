@@ -3015,5 +3015,68 @@
     "klass": "Pretender",
     "rarity": 5,
     "url": "https://w.atwiki.jp/f_go/pages/6607.html"
+  },
+  {
+    "id": 442,
+    "name": "インドラ",
+    "klass": "Lancer",
+    "rarity": 5,
+    "url": "https://w.atwiki.jp/f_go/pages/6619.html"
+  },
+  {
+    "id": 444,
+    "name": "Ｕ－オルガマリー",
+    "klass": "UnBeast",
+    "rarity": 5,
+    "url": "https://w.atwiki.jp/f_go/pages/6633.html"
+  },
+  {
+    "id": 445,
+    "name": "パッションリップ",
+    "klass": "Saber",
+    "rarity": 5,
+    "url": "https://w.atwiki.jp/f_go/pages/6643.html"
+  },
+  {
+    "id": 446,
+    "name": "クリームヒルト",
+    "klass": "Rider",
+    "rarity": 4,
+    "url": "https://w.atwiki.jp/f_go/pages/6644.html"
+  },
+  {
+    "id": 447,
+    "name": "呼延灼",
+    "klass": "Berserker",
+    "rarity": 4,
+    "url": "https://w.atwiki.jp/f_go/pages/6645.html"
+  },
+  {
+    "id": 448,
+    "name": "玉兎",
+    "klass": "MoonCancer",
+    "rarity": 5,
+    "url": "https://w.atwiki.jp/f_go/pages/6667.html"
+  },
+  {
+    "id": 449,
+    "name": "美遊・エーデルフェルト",
+    "klass": "Lancer",
+    "rarity": 4,
+    "url": "https://w.atwiki.jp/f_go/pages/6669.html"
+  },
+  {
+    "id": 450,
+    "name": "ラーヴァ／ティアマト",
+    "klass": "Archer",
+    "rarity": 5,
+    "url": "https://w.atwiki.jp/f_go/pages/6681.html"
+  },
+  {
+    "id": 451,
+    "name": "ジュネス・クレーン",
+    "klass": "AlterEgo",
+    "rarity": 4,
+    "url": "https://w.atwiki.jp/f_go/pages/6683.html"
   }
 ]

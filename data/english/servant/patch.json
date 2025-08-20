@@ -2473,5 +2473,37 @@
         "rank": "D~A+"
       }
     }
+  ],
+  "444": [
+    {
+      "path": [
+        "active_skills"
+      ],
+      "before": [
+        [],
+        [],
+        []
+      ],
+      "after": [
+        [
+          {
+            "name": "Unparalleled",
+            "rank": "EX"
+          }
+        ],
+        [
+          {
+            "name": "Earth-Shattering",
+            "rank": "B"
+          }
+        ],
+        [
+          {
+            "name": "Flawlessness",
+            "rank": "EX"
+          }
+        ]
+      ]
+    }
   ]
 }

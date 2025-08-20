@@ -1,0 +1,324 @@
+{
+  "id": 445,
+  "name": "Passionlip",
+  "false_name": null,
+  "klass": "Saber",
+  "rarity": 5,
+  "active_skills": [
+    [
+      {
+        "name": "Breast Pouch",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Trash and Crash",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Princess Order",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Alter Ego Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Saber Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "items": [
+        {
+          "name": "Saber Piece",
+          "piece": 12
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "items": [
+        {
+          "name": "Saber Monument",
+          "piece": 5
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 10
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Saber Monument",
+          "piece": 12
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 10
+        },
+        {
+          "name": "Twilight Ceremonial Blade",
+          "piece": 36
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Aurora Steel",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 10
+        },
+        {
+          "name": "Giant's Ring",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "Giant's Ring",
+          "piece": 18
+        },
+        {
+          "name": "Universal Cube",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Hero's Proof",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 10
+        },
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "Crown of Radiant Silver",
+          "piece": 18
+        },
+        {
+          "name": "Twilight Ceremonial Blade",
+          "piece": 72
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

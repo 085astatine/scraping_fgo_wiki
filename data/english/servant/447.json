@@ -1,0 +1,304 @@
+{
+  "id": 447,
+  "name": "Huyan Zhuo",
+  "false_name": null,
+  "klass": "Berserker",
+  "rarity": 4,
+  "active_skills": [
+    [
+      {
+        "name": "Heavenly Force Star (Summer)",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Self-Esteem Needs at Summer",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Chain-Linked Horse (Possession)",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Assassin Critical Attack Chance Resistance",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "items": [
+        {
+          "name": "Empusa Glasses",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "items": [
+        {
+          "name": "Empusa Glasses",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "items": [
+        {
+          "name": "Empusa Glasses",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "items": [
+        {
+          "name": "Empusa Glasses",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 10
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Meteoric Horseshoe",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 8
+        },
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "Warhorse's Immature Horn",
+          "piece": 9
+        },
+        {
+          "name": "Comet Shard",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Madness",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "Magic Gem of Madness",
+          "piece": 10
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 4
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "Secret Gem of Madness",
+          "piece": 10
+        },
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Ancient Bell of Tranquility",
+          "piece": 8
+        },
+        {
+          "name": "Obsidian Edge",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "Obsidian Edge",
+          "piece": 45
+        },
+        {
+          "name": "Divine Spectrum Lens",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

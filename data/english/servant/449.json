@@ -1,0 +1,324 @@
+{
+  "id": 449,
+  "name": "Miyu Edelfelt",
+  "false_name": null,
+  "klass": "Lancer",
+  "rarity": 4,
+  "active_skills": [
+    [
+      {
+        "name": "Playing Alone",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Shrine Maiden of In Shumura",
+        "rank": "A+"
+      }
+    ],
+    [
+      {
+        "name": "Illyaism",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Caster Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "items": [
+        {
+          "name": "Lancer Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "items": [
+        {
+          "name": "Lancer Piece",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "items": [
+        {
+          "name": "Lancer Monument",
+          "piece": 4
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 8
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "items": [
+        {
+          "name": "Lancer Monument",
+          "piece": 10
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 8
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 10
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Homunculus Baby",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 8
+        },
+        {
+          "name": "Tiny Bell of Amnesty",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "Tiny Bell of Amnesty",
+          "piece": 45
+        },
+        {
+          "name": "Genesis Egg",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 10
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 4
+        },
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 10
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 8
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "Scales of Fantasies",
+          "piece": 15
+        },
+        {
+          "name": "Vestige of Madness",
+          "piece": 60
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "id": 448,
+  "name": "Ryōgi Shiki",
+  "false_name": null,
+  "klass": "MoonCancer",
+  "rarity": 5,
+  "active_skills": [
+    [
+      {
+        "name": "Mystic Eyes of Death Perception",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Dancing Under the Full Moon",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Strolling Under the Moonlight/Napping Under the Sun",
+        "rank": "A"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Archer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Saber Piece",
+          "piece": 5
+        },
+        {
+          "name": "Assassin Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "items": [
+        {
+          "name": "Saber Piece",
+          "piece": 12
+        },
+        {
+          "name": "Assassin Piece",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "items": [
+        {
+          "name": "Saber Monument",
+          "piece": 5
+        },
+        {
+          "name": "Assassin Monument",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Saber Monument",
+          "piece": 12
+        },
+        {
+          "name": "Assassin Monument",
+          "piece": 12
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 8
+        },
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "Primordial Lanugo",
+          "piece": 12
+        },
+        {
+          "name": "Moonlight Nucleus",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Shining Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Magic Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 5
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 12
+        },
+        {
+          "name": "Secret Gem of Killing",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 8
+        },
+        {
+          "name": "Obsidian Edge",
+          "piece": 24
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "Cursed Beast Cholecyst",
+          "piece": 9
+        },
+        {
+          "name": "Reliquary of Departed Soul",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

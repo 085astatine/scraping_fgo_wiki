@@ -1,0 +1,324 @@
+{
+  "id": 446,
+  "name": "Kriemhild",
+  "false_name": null,
+  "klass": "Rider",
+  "rarity": 4,
+  "active_skills": [
+    [
+      {
+        "name": "Dignity of a Court Lady",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Charisma of Shark",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Noblewoman's Reciprocation",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Saber Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "items": [
+        {
+          "name": "Rider Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "items": [
+        {
+          "name": "Rider Piece",
+          "piece": 10
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "items": [
+        {
+          "name": "Rider Monument",
+          "piece": 4
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 8
+        },
+        {
+          "name": "Flower of the End",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "items": [
+        {
+          "name": "Rider Monument",
+          "piece": 10
+        },
+        {
+          "name": "Flower of the End",
+          "piece": 8
+        },
+        {
+          "name": "Holy Water of Destiny",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 10
+        },
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 20
+        },
+        {
+          "name": "Medal of Great Knight",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "Medal of Great Knight",
+          "piece": 30
+        },
+        {
+          "name": "Dragon's Reverse Scale",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Cavalry",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "Magic Gem of Cavalry",
+          "piece": 10
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 4
+        },
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "Secret Gem of Cavalry",
+          "piece": 10
+        },
+        {
+          "name": "Void's Refuse",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Void's Refuse",
+          "piece": 16
+        },
+        {
+          "name": "Flower of the End",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "Flower of the End",
+          "piece": 15
+        },
+        {
+          "name": "Holy Water of Destiny",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

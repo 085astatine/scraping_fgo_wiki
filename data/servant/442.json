@@ -1,0 +1,349 @@
+{
+  "id": 442,
+  "name": "インドラ",
+  "false_name": null,
+  "ascension_names": null,
+  "klass": "Lancer",
+  "rarity": 5,
+  "skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "神々の王",
+        "rank": "EX",
+        "icon": 601
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力放出（神雷）",
+        "rank": "A",
+        "icon": 317
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ヴリトラハン",
+        "rank": "EX",
+        "icon": 300
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対ランサー攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "ランサーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "items": [
+        {
+          "name": "ランサーピース",
+          "piece": 12
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "items": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 4
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "蛮神の心臓",
+          "piece": 4
+        },
+        {
+          "name": "遺霊箱",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "槍の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "槍の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "槍の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "槍の魔石",
+          "piece": 12
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "槍の秘石",
+          "piece": 5
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "槍の秘石",
+          "piece": 12
+        },
+        {
+          "name": "鳳凰の羽根",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "鳳凰の羽根",
+          "piece": 8
+        },
+        {
+          "name": "黄金釜",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "黄金釜",
+          "piece": 8
+        },
+        {
+          "name": "天命の聖水",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "槍の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "槍の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "槍の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "槍の魔石",
+          "piece": 12
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "槍の秘石",
+          "piece": 5
+        },
+        {
+          "name": "封魔のランプ",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "槍の秘石",
+          "piece": 12
+        },
+        {
+          "name": "禍罪の矢尻",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "禍罪の矢尻",
+          "piece": 10
+        },
+        {
+          "name": "黒曜鋭刃",
+          "piece": 18
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "黒曜鋭刃",
+          "piece": 54
+        },
+        {
+          "name": "遺霊箱",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
