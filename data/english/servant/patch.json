@@ -294,6 +294,16 @@
       ],
       "before": "",
       "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        1,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
     }
   ],
   "032": [
@@ -363,6 +373,10 @@
           {
             "name": "Discerning Eye",
             "rank": "A"
+          },
+          {
+            "name": "Clock Tower's Eccentric Treasure",
+            "rank": "EX"
           }
         ],
         [
