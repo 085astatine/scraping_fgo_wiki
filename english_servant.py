@@ -713,7 +713,7 @@ def parse_active_skills(
     if section is None:
         logger.error('failed to find "Active Skills" section')
         return []
-    match = re.search(
+    match = re.match(
         r"{{Tabber\n"
         r"\|First Skill\n"
         r"\|(?P<skill_1>(.*\n)+?)"
@@ -742,7 +742,7 @@ def parse_append_skills(
     if section is None:
         logger.error('failed to find "Append Skills" section')
         return []
-    match = re.search(
+    match = re.match(
         r"{{Tabber\n"
         r"\|First Skill\n"
         r"\|(?P<skill_1>(.*\n)+?)"
@@ -876,7 +876,7 @@ def parse_section(
     title: str,
 ) -> Optional[str]:
     match = re.search(
-        rf"==\s*{title}\s*==(?P<section>.*?)==",
+        rf"==\s*{title}\s*==\n(?P<section>.*?)==",
         source,
         flags=re.DOTALL,
     )
