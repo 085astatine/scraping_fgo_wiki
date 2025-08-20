@@ -2243,16 +2243,7 @@
         "active_skills",
         2
       ],
-      "before": [
-        {
-          "name": "Stage 3",
-          "rank": ""
-        },
-        {
-          "name": "Stage 1-2",
-          "rank": ""
-        }
-      ],
+      "before": [],
       "after": [
         {
           "name": "Ray Horizon",
@@ -2271,10 +2262,6 @@
         {
           "name": "Enemy NPC",
           "rank": ""
-        },
-        {
-          "name": "Normal",
-          "rank": ""
         }
       ],
       "after": [
@@ -2292,10 +2279,6 @@
       "before": [
         {
           "name": "Enemy NPC",
-          "rank": ""
-        },
-        {
-          "name": "Normal",
           "rank": ""
         }
       ],
@@ -2379,16 +2362,7 @@
         "active_skills",
         2
       ],
-      "before": [
-        {
-          "name": "Stage 3",
-          "rank": ""
-        },
-        {
-          "name": "Stage 1-2",
-          "rank": ""
-        }
-      ],
+      "before": [],
       "after": [
         {
           "name": "Contact with Wisdom",
