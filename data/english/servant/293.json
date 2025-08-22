@@ -93,6 +93,39 @@
           }
         ]
       }
+    },
+    {
+      "id": 127,
+      "type": "full",
+      "name": {
+        "en": "Frivolous Dude on the Beach",
+        "jp": "渚のヘラヘラ男"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "夏の空、渚をふらつく、ヘラヘラ男\n自由気ままに、マスターちゃんと"
+      },
+      "resource": {
+        "qp": 3000000,
+        "items": [
+          {
+            "name": "Unforgettable Ashes",
+            "piece": 10
+          },
+          {
+            "name": "Seashell of Reminiscence",
+            "piece": 5
+          },
+          {
+            "name": "Kotan Magatama",
+            "piece": 5
+          },
+          {
+            "name": "Bizarre Godly Wine",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

@@ -113,6 +113,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 127,
+      "name": "渚のヘラヘラ男",
+      "resource": {
+        "qp": 3000000,
+        "items": [
+          {
+            "name": "忘れじの灰",
+            "piece": 10
+          },
+          {
+            "name": "追憶の貝殻",
+            "piece": 5
+          },
+          {
+            "name": "枯淡勾玉",
+            "piece": 5
+          },
+          {
+            "name": "奇奇神酒",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [

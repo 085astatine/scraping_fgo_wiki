@@ -64,7 +64,41 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 128,
+      "type": "full",
+      "name": {
+        "en": "Tropical Rune Summer",
+        "jp": "トロピカル･ルーンサマー"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "ナチュラルなサマースタイル\n仕込んだルーンで暑さ対策も完璧"
+      },
+      "resource": {
+        "qp": 3000000,
+        "items": [
+          {
+            "name": "Yggdrasil Seed",
+            "piece": 10
+          },
+          {
+            "name": "Seashell of Reminiscence",
+            "piece": 5
+          },
+          {
+            "name": "Flower of the End",
+            "piece": 5
+          },
+          {
+            "name": "Spirit Root",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 30000,

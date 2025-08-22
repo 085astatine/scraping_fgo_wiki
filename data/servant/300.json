@@ -81,7 +81,33 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 126,
+      "name": "簡易霊衣：ヴリトラ・トリシラス",
+      "resource": {
+        "qp": 3000000,
+        "items": [
+          {
+            "name": "竜の牙",
+            "piece": 10
+          },
+          {
+            "name": "夢幻の鱗粉",
+            "piece": 5
+          },
+          {
+            "name": "エーテル収光体",
+            "piece": 5
+          },
+          {
+            "name": "奇奇神酒",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

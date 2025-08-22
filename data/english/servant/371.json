@@ -89,6 +89,39 @@
           }
         ]
       }
+    },
+    {
+      "id": 129,
+      "type": "full",
+      "name": {
+        "en": "Wild Gunman",
+        "jp": "ワイルド･ガンマン"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "荒々しくも洗練された銃使いの姿\n現代に降臨したガン・オブ・ゴッド"
+      },
+      "resource": {
+        "qp": 3000000,
+        "items": [
+          {
+            "name": "Obsidian Edge",
+            "piece": 10
+          },
+          {
+            "name": "Seashell of Reminiscence",
+            "piece": 5
+          },
+          {
+            "name": "Sunscale",
+            "piece": 5
+          },
+          {
+            "name": "Heart of a Foreign God",
+            "piece": 5
+          }
+        ]
+      }
     }
   ],
   "ascension_resources": [
