@@ -3929,5 +3929,36 @@
         }
       ]
     }
+  },
+  {
+    "costume_id": 130,
+    "costume_type": "simple",
+    "servant": "Ryōgi Shiki (Moon Cancer)",
+    "stage": "cos1",
+    "name": {
+      "en": "Incognito Shades",
+      "jp": "お忍びサングラス"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Divine Spectrum Lens",
+          "piece": 5
+        },
+        {
+          "name": "Moonlight Nucleus",
+          "piece": 5
+        }
+      ]
+    }
   }
 ]

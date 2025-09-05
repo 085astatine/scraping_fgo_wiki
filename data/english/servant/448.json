@@ -56,7 +56,41 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 130,
+      "type": "simple",
+      "name": {
+        "en": "Incognito Shades",
+        "jp": "お忍びサングラス"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "即興の変装スタイル。キャッツは語る\n「玉兎なのに猫なのだな」"
+      },
+      "resource": {
+        "qp": 3000000,
+        "items": [
+          {
+            "name": "Talon of Chaos",
+            "piece": 5
+          },
+          {
+            "name": "Black Tallow",
+            "piece": 5
+          },
+          {
+            "name": "Divine Spectrum Lens",
+            "piece": 5
+          },
+          {
+            "name": "Moonlight Nucleus",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

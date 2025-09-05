@@ -86,7 +86,33 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 130,
+      "name": "簡易霊衣：お忍びサングラス",
+      "resource": {
+        "qp": 3000000,
+        "items": [
+          {
+            "name": "混沌の爪",
+            "piece": 5
+          },
+          {
+            "name": "黒獣脂",
+            "piece": 5
+          },
+          {
+            "name": "神彩のレンズ",
+            "piece": 5
+          },
+          {
+            "name": "月光核",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,
