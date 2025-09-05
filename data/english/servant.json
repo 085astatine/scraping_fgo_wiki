@@ -447,7 +447,8 @@
         "Sabotage"
       ],
       [
-        "Golden Rule"
+        "Golden Rule",
+        "Sage of the Forest"
       ],
       [
         "May King"
@@ -1071,7 +1072,8 @@
         "Argon Coin"
       ],
       [
-        "Teachings of Circe"
+        "Teachings of Circe",
+        "Witch of Colchis"
       ]
     ],
     "append_skills": [
@@ -1170,7 +1172,8 @@
         "Enchant"
       ],
       [
-        "Self-Preservation"
+        "Self-Preservation",
+        "Iambic Pentameter"
       ],
       [
         "The Globe"
@@ -1268,7 +1271,8 @@
     "false_name": null,
     "skills": [
       [
-        "Discerning Eye"
+        "Discerning Eye",
+        "Clock Tower's Eccentric Treasure"
       ],
       [
         "Advice of the Strategist"
@@ -1329,7 +1333,9 @@
         "Skill Reloading"
       ]
     ],
-    "costumes": []
+    "costumes": [
+      "Tropical Rune Summer"
+    ]
   },
   "39": {
     "name": "Sasaki Kojirō",
@@ -1480,7 +1486,8 @@
         "Medical Techniques"
       ],
       [
-        "Anatomy Study"
+        "Anatomy Study",
+        "Lifeline Severance"
       ]
     ],
     "append_skills": [
@@ -1548,7 +1555,8 @@
         "The Sun Falls on Vincennes"
       ],
       [
-        "Pheromone"
+        "Pheromone",
+        "The Sweet Fragrance of Indulgence"
       ],
       [
         "Double Cross"
@@ -1818,7 +1826,8 @@
         "Monstrous Strength"
       ],
       [
-        "Natural Demon"
+        "Natural Demon",
+        "Fierce Thunderbolt"
       ],
       [
         "Labrys of the Abyss"
@@ -1881,7 +1890,8 @@
     "false_name": null,
     "skills": [
       [
-        "Golden Rule"
+        "Golden Rule",
+        "The Divine Gate Shall Not Be Sealed Off"
       ],
       [
         "Disengage"
@@ -2579,6 +2589,7 @@
     "false_name": null,
     "skills": [
       [
+        "Murderer of the Misty Night",
         "Murderer of the Misty Night"
       ],
       [
@@ -4898,7 +4909,8 @@
         "Gleaming Brilliant Crown"
       ],
       [
-        "Mana Burst (Gems)"
+        "Mana Burst (Gems)",
+        "Jewel Formation of Absolute Fortune"
       ]
     ],
     "append_skills": [
@@ -6183,6 +6195,7 @@
         "Ashes of Kama"
       ],
       [
+        "Blessing of the Goddess",
         "Blessing of the Goddess"
       ]
     ],
@@ -9898,6 +9911,7 @@
         "Eye of the Mind (True)"
       ],
       [
+        "Invincible Sword",
         "Invincible Sword"
       ]
     ],
@@ -9919,7 +9933,8 @@
       ]
     ],
     "costumes": [
-      "Bespectacled Costume Dress: Hajime-chan Glasses"
+      "Bespectacled Costume Dress: Hajime-chan Glasses",
+      "Frivolous Dude on the Beach"
     ]
   },
   "294": {
@@ -10160,7 +10175,9 @@
         "Skill Reloading"
       ]
     ],
-    "costumes": []
+    "costumes": [
+      "Vritra Trishira"
+    ]
   },
   "301": {
     "name": "Karna (Santa)",
@@ -12510,7 +12527,8 @@
       ]
     ],
     "costumes": [
-      "Jaguar Man"
+      "Jaguar Man",
+      "Wild Gunman"
     ]
   },
   "372": {
@@ -13010,7 +13028,7 @@
     "costumes": []
   },
   "387": {
-    "name": "Suzuka Gozen (Summer Vacation)",
+    "name": "Suzuka Gozen (Vacay)",
     "false_name": null,
     "skills": [
       [
@@ -14738,5 +14756,304 @@
     "costumes": [
       "Epsilon"
     ]
+  },
+  "442": {
+    "name": "Indra",
+    "false_name": null,
+    "skills": [
+      [
+        "King of the Gods"
+      ],
+      [
+        "Mana Burst (Divine Thunder)"
+      ],
+      [
+        "Vritrahan"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Lancer Attack Damage Aptitude"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": []
+  },
+  "444": {
+    "name": "U-Olga Marie",
+    "false_name": null,
+    "skills": [
+      [
+        "Unparalleled"
+      ],
+      [
+        "Earth-Shattering"
+      ],
+      [
+        "Flawlessness"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Pretender Attack Damage Aptitude"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": []
+  },
+  "445": {
+    "name": "Passionlip",
+    "false_name": null,
+    "skills": [
+      [
+        "Breast Pouch"
+      ],
+      [
+        "Trash and Crash"
+      ],
+      [
+        "Princess Order"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Alter Ego Attack Damage Aptitude"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": []
+  },
+  "446": {
+    "name": "Kriemhild",
+    "false_name": null,
+    "skills": [
+      [
+        "Dignity of a Court Lady"
+      ],
+      [
+        "Charisma of Shark"
+      ],
+      [
+        "Noblewoman's Reciprocation"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Saber Attack Damage Aptitude"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": []
+  },
+  "447": {
+    "name": "Huyan Zhuo",
+    "false_name": null,
+    "skills": [
+      [
+        "Heavenly Force Star (Summer)"
+      ],
+      [
+        "Self-Esteem Needs at Summer"
+      ],
+      [
+        "Chain-Linked Horse (Possession)"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Assassin Critical Attack Chance Resistance"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": []
+  },
+  "448": {
+    "name": "Ryōgi Shiki",
+    "false_name": null,
+    "skills": [
+      [
+        "Mystic Eyes of Death Perception"
+      ],
+      [
+        "Dancing Under the Full Moon"
+      ],
+      [
+        "Strolling Under the Moonlight/Napping Under the Sun"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Archer Attack Damage Aptitude"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": [
+      "Incognito Shades"
+    ]
+  },
+  "449": {
+    "name": "Miyu Edelfelt",
+    "false_name": null,
+    "skills": [
+      [
+        "Playing Alone"
+      ],
+      [
+        "Shrine Maiden of In Shumura"
+      ],
+      [
+        "Illyaism"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Caster Attack Damage Aptitude"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": []
+  },
+  "450": {
+    "name": "Larva/Tiamat",
+    "false_name": null,
+    "skills": [
+      [
+        "Azure Summerwear"
+      ],
+      [
+        "Housework of All Kinds"
+      ],
+      [
+        "Summer Mirage"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Alter Ego Attack Damage Aptitude"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": []
+  },
+  "451": {
+    "name": "Jeunesse Crane",
+    "false_name": null,
+    "skills": [
+      [
+        "My Adolescent Distance"
+      ],
+      [
+        "A Song of Raiment for You"
+      ],
+      [
+        "I Can't Lie to Summer and Myself"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Caster Attack Damage Aptitude"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": []
   }
 }
