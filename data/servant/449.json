@@ -1,0 +1,349 @@
+{
+  "id": 449,
+  "name": "美遊・エーデルフェルト",
+  "false_name": null,
+  "ascension_names": null,
+  "klass": "Lancer",
+  "rarity": 4,
+  "skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "ひとり遊び",
+        "rank": "B",
+        "icon": 314
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "因習村の巫女",
+        "rank": "A+",
+        "icon": 601
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "イリヤズム",
+        "rank": "EX",
+        "icon": 403
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対キャスター攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "items": [
+        {
+          "name": "ランサーピース",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "items": [
+        {
+          "name": "ランサーピース",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "items": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 4
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 8
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "items": [
+        {
+          "name": "ランサーモニュメント",
+          "piece": 10
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 8
+        },
+        {
+          "name": "精霊根",
+          "piece": 4
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "槍の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "槍の魔石",
+          "piece": 10
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "ホムンクルスベビー",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "槍の秘石",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 8
+        },
+        {
+          "name": "赦免の小鐘",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "赦免の小鐘",
+          "piece": 45
+        },
+        {
+          "name": "真理の卵",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "槍の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "槍の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "槍の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "槍の魔石",
+          "piece": 10
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "槍の秘石",
+          "piece": 4
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "槍の秘石",
+          "piece": 10
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "永遠結氷",
+          "piece": 8
+        },
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "夢幻の鱗粉",
+          "piece": 15
+        },
+        {
+          "name": "狂気の残滓",
+          "piece": 60
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

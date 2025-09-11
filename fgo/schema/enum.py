@@ -116,6 +116,7 @@ def item() -> dict[str, Any]:
             "黄金釜",
             "月光核",
             "天命の聖水",
+            "遺霊箱",
             # Crystallizezd Lore
             "伝承結晶",
             # Piece
@@ -180,6 +181,7 @@ def item() -> dict[str, Any]:
             "おしおきチョーカー",
             "マイナーメット",
             "サンタユーゴ",
+            "エンプーサ・グラス",
         ],
     }
     return schema

@@ -1,0 +1,280 @@
+{
+  "id": 444,
+  "name": "U-Olga Marie",
+  "false_name": null,
+  "klass": "Unbeast",
+  "rarity": 5,
+  "active_skills": [
+    [
+      {
+        "name": "Unparalleled",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Earth-Shattering",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "Flawlessness",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Pretender Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Forbidden Page",
+          "piece": 10
+        },
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "items": [
+        {
+          "name": "Genesis Egg",
+          "piece": 10
+        },
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 10
+        },
+        {
+          "name": "Flower of the End",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Comet Shard",
+          "piece": 10
+        },
+        {
+          "name": "Moonlight Nucleus",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Forbidden Page",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "Scarab of Wisdom",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "Genesis Egg",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "Divine Leyline Spiritron",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "Ether Photon Converger",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Universal Cube",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Comet Shard",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "Moonlight Nucleus",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Infinity Gear",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "Homunculus Baby",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "Magical Cerebrospinal Fluid",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "Unforgettable Ashes",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Vestige of Madness",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Flower of the End",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "Reliquary of Departed Soul",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

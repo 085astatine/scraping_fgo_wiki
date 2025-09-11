@@ -294,6 +294,16 @@
       ],
       "before": "",
       "after": "A"
+    },
+    {
+      "path": [
+        "active_skills",
+        2,
+        1,
+        "rank"
+      ],
+      "before": "",
+      "after": "A"
     }
   ],
   "032": [
@@ -363,6 +373,10 @@
           {
             "name": "Discerning Eye",
             "rank": "A"
+          },
+          {
+            "name": "Clock Tower's Eccentric Treasure",
+            "rank": "EX"
           }
         ],
         [
@@ -2229,16 +2243,7 @@
         "active_skills",
         2
       ],
-      "before": [
-        {
-          "name": "Stage 3",
-          "rank": ""
-        },
-        {
-          "name": "Stage 1-2",
-          "rank": ""
-        }
-      ],
+      "before": [],
       "after": [
         {
           "name": "Ray Horizon",
@@ -2257,10 +2262,6 @@
         {
           "name": "Enemy NPC",
           "rank": ""
-        },
-        {
-          "name": "Normal",
-          "rank": ""
         }
       ],
       "after": [
@@ -2278,10 +2279,6 @@
       "before": [
         {
           "name": "Enemy NPC",
-          "rank": ""
-        },
-        {
-          "name": "Normal",
           "rank": ""
         }
       ],
@@ -2365,16 +2362,7 @@
         "active_skills",
         2
       ],
-      "before": [
-        {
-          "name": "Stage 3",
-          "rank": ""
-        },
-        {
-          "name": "Stage 1-2",
-          "rank": ""
-        }
-      ],
+      "before": [],
       "after": [
         {
           "name": "Contact with Wisdom",
@@ -2472,6 +2460,38 @@
         "name": "Excalibur",
         "rank": "D~A+"
       }
+    }
+  ],
+  "444": [
+    {
+      "path": [
+        "active_skills"
+      ],
+      "before": [
+        [],
+        [],
+        []
+      ],
+      "after": [
+        [
+          {
+            "name": "Unparalleled",
+            "rank": "EX"
+          }
+        ],
+        [
+          {
+            "name": "Earth-Shattering",
+            "rank": "B"
+          }
+        ],
+        [
+          {
+            "name": "Flawlessness",
+            "rank": "EX"
+          }
+        ]
+      ]
     }
   ]
 }

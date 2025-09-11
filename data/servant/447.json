@@ -1,0 +1,329 @@
+{
+  "id": 447,
+  "name": "呼延灼",
+  "false_name": null,
+  "ascension_names": null,
+  "klass": "Berserker",
+  "rarity": 4,
+  "skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "天威星（夏）",
+        "rank": "A",
+        "icon": 334
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "夏の承認欲求",
+        "rank": "B",
+        "icon": 304
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "連環馬（憑依）",
+        "rank": "A",
+        "icon": 601
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対アサシンクリティカル発生耐性",
+        "rank": "",
+        "icon": 417
+      }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "items": [
+        {
+          "name": "エンプーサ・グラス",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "items": [
+        {
+          "name": "エンプーサ・グラス",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "items": [
+        {
+          "name": "エンプーサ・グラス",
+          "piece": 1
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "items": [
+        {
+          "name": "エンプーサ・グラス",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "狂の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "狂の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "狂の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "狂の魔石",
+          "piece": 10
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "狂の秘石",
+          "piece": 4
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "狂の秘石",
+          "piece": 10
+        },
+        {
+          "name": "追憶の貝殻",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "追憶の貝殻",
+          "piece": 8
+        },
+        {
+          "name": "戦馬の幼角",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "戦馬の幼角",
+          "piece": 9
+        },
+        {
+          "name": "煌星のカケラ",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "狂の輝石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "狂の輝石",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "狂の魔石",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "狂の魔石",
+          "piece": 10
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "狂の秘石",
+          "piece": 4
+        },
+        {
+          "name": "永遠結氷",
+          "piece": 8
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "狂の秘石",
+          "piece": 10
+        },
+        {
+          "name": "閑古鈴",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "閑古鈴",
+          "piece": 8
+        },
+        {
+          "name": "黒曜鋭刃",
+          "piece": 15
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "黒曜鋭刃",
+          "piece": 45
+        },
+        {
+          "name": "神彩のレンズ",
+          "piece": 20
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

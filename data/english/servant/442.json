@@ -1,0 +1,324 @@
+{
+  "id": 442,
+  "name": "Indra",
+  "false_name": null,
+  "klass": "Lancer",
+  "rarity": 5,
+  "active_skills": [
+    [
+      {
+        "name": "King of the Gods",
+        "rank": "EX"
+      }
+    ],
+    [
+      {
+        "name": "Mana Burst (Divine Thunder)",
+        "rank": "A"
+      }
+    ],
+    [
+      {
+        "name": "Vritrahan",
+        "rank": "EX"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Lancer Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Lancer Piece",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "items": [
+        {
+          "name": "Lancer Piece",
+          "piece": 12
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "items": [
+        {
+          "name": "Lancer Monument",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 4
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Lancer Monument",
+          "piece": 12
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 4
+        },
+        {
+          "name": "Reliquary of Departed Soul",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 12
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 12
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Phoenix Plume",
+          "piece": 8
+        },
+        {
+          "name": "Golden Cauldron",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "Golden Cauldron",
+          "piece": 8
+        },
+        {
+          "name": "Holy Water of Destiny",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "Shining Gem of Lances",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "Magic Gem of Lances",
+          "piece": 12
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 3
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 5
+        },
+        {
+          "name": "Lamp of Demon Sealing",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Secret Gem of Lances",
+          "piece": 12
+        },
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Arrowhead of Maledictions",
+          "piece": 10
+        },
+        {
+          "name": "Obsidian Edge",
+          "piece": 18
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "Obsidian Edge",
+          "piece": 54
+        },
+        {
+          "name": "Reliquary of Departed Soul",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

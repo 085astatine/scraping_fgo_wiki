@@ -3770,7 +3770,7 @@
         },
         {
           "name": "Holy Water of Destiny",
-          "piece": 10
+          "piece": 5
         }
       ]
     }
@@ -3797,6 +3797,161 @@
         },
         {
           "name": "Snake Jewel",
+          "piece": 5
+        },
+        {
+          "name": "Moonlight Nucleus",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 126,
+    "costume_type": "simple",
+    "servant": "Vritra",
+    "stage": "cos1",
+    "name": {
+      "en": "Vritra Trishira",
+      "jp": "ヴリトラ・トリシラス"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Dragon Fang",
+          "piece": 10
+        },
+        {
+          "name": "Scales of Fantasies",
+          "piece": 5
+        },
+        {
+          "name": "Ether Photon Converger",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 127,
+    "costume_type": "full",
+    "servant": "Saitō Hajime",
+    "stage": "cos2",
+    "name": {
+      "en": "Frivolous Dude on the Beach",
+      "jp": "渚のヘラヘラ男"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Unforgettable Ashes",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Kotan Magatama",
+          "piece": 5
+        },
+        {
+          "name": "Bizarre Godly Wine",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 128,
+    "costume_type": "full",
+    "servant": "Cú Chulainn (Caster)",
+    "stage": "cos1",
+    "name": {
+      "en": "Tropical Rune Summer",
+      "jp": "トロピカル･ルーンサマー"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Yggdrasil Seed",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Flower of the End",
+          "piece": 5
+        },
+        {
+          "name": "Spirit Root",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 129,
+    "costume_type": "full",
+    "servant": "Tezcatlipoca",
+    "stage": "cos2",
+    "name": {
+      "en": "Wild Gunman",
+      "jp": "ワイルド･ガンマン"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Obsidian Edge",
+          "piece": 10
+        },
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 5
+        },
+        {
+          "name": "Sunscale",
+          "piece": 5
+        },
+        {
+          "name": "Heart of a Foreign God",
+          "piece": 5
+        }
+      ]
+    }
+  },
+  {
+    "costume_id": 130,
+    "costume_type": "simple",
+    "servant": "Moon Rabbit",
+    "stage": "cos1",
+    "name": {
+      "en": "Incognito Shades",
+      "jp": "お忍びサングラス"
+    },
+    "resource": {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "Talon of Chaos",
+          "piece": 5
+        },
+        {
+          "name": "Black Tallow",
+          "piece": 5
+        },
+        {
+          "name": "Divine Spectrum Lens",
           "piece": 5
         },
         {

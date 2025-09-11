@@ -1,0 +1,344 @@
+{
+  "id": 451,
+  "name": "Jeunesse Crane",
+  "false_name": null,
+  "klass": "AlterEgo",
+  "rarity": 4,
+  "active_skills": [
+    [
+      {
+        "name": "My Adolescent Distance",
+        "rank": "C"
+      }
+    ],
+    [
+      {
+        "name": "A Song of Raiment for You",
+        "rank": "B"
+      }
+    ],
+    [
+      {
+        "name": "I Can't Lie to Summer and Myself",
+        "rank": "B"
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "name": "Extra Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Mana Loading",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Anti-Caster Attack Damage Aptitude",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Special Attack Finesse Improvement",
+        "rank": ""
+      }
+    ],
+    [
+      {
+        "name": "Skill Reloading",
+        "rank": ""
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 50000,
+      "items": [
+        {
+          "name": "Saber Piece",
+          "piece": 4
+        },
+        {
+          "name": "Caster Piece",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 150000,
+      "items": [
+        {
+          "name": "Saber Piece",
+          "piece": 10
+        },
+        {
+          "name": "Caster Piece",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 500000,
+      "items": [
+        {
+          "name": "Saber Monument",
+          "piece": 4
+        },
+        {
+          "name": "Caster Monument",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 1500000,
+      "items": [
+        {
+          "name": "Saber Monument",
+          "piece": 10
+        },
+        {
+          "name": "Caster Monument",
+          "piece": 10
+        }
+      ]
+    }
+  ],
+  "active_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 10
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 10
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 10
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Seashell of Reminiscence",
+          "piece": 6
+        },
+        {
+          "name": "Phoenix Plume",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "Rainbow Yarn",
+          "piece": 14
+        },
+        {
+          "name": "Ether Photon Converger",
+          "piece": 14
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "Shining Gem of Swords",
+          "piece": 10
+        },
+        {
+          "name": "Shining Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 600000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 800000,
+      "items": [
+        {
+          "name": "Magic Gem of Swords",
+          "piece": 10
+        },
+        {
+          "name": "Magic Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 2000000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 4
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 2500000,
+      "items": [
+        {
+          "name": "Secret Gem of Swords",
+          "piece": 10
+        },
+        {
+          "name": "Secret Gem of Spells",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "Permafrost Ice Crystal",
+          "piece": 6
+        },
+        {
+          "name": "Fruit of Longevity",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 6000000,
+      "items": [
+        {
+          "name": "Tsukumo Mirror",
+          "piece": 7
+        },
+        {
+          "name": "Demonic Flame Hōzuki",
+          "piece": 7
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "Crystallized Lore",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}

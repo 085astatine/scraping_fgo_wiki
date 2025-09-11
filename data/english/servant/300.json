@@ -56,7 +56,41 @@
       }
     ]
   ],
-  "costumes": [],
+  "costumes": [
+    {
+      "id": 126,
+      "type": "simple",
+      "name": {
+        "en": "Vritra Trishira",
+        "jp": "ヴリトラ・トリシラス"
+      },
+      "flavor_text": {
+        "en": "",
+        "jp": "霊酒の力を得たヴリトラ\nヴィシュヴァルーパを宿した姿"
+      },
+      "resource": {
+        "qp": 3000000,
+        "items": [
+          {
+            "name": "Dragon Fang",
+            "piece": 10
+          },
+          {
+            "name": "Scales of Fantasies",
+            "piece": 5
+          },
+          {
+            "name": "Ether Photon Converger",
+            "piece": 5
+          },
+          {
+            "name": "Bizarre Godly Wine",
+            "piece": 5
+          }
+        ]
+      }
+    }
+  ],
   "ascension_resources": [
     {
       "qp": 100000,

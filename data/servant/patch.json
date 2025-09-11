@@ -293,5 +293,46 @@
       "before": "D",
       "after": "D~A+"
     }
+  ],
+  "444": [
+    {
+      "path": [
+        "skills"
+      ],
+      "before": [
+        [],
+        [],
+        []
+      ],
+      "after": [
+        [
+          {
+            "slot": 1,
+            "level": 1,
+            "name": "空前絶後",
+            "rank": "EX",
+            "icon": 609
+          }
+        ],
+        [
+          {
+            "slot": 2,
+            "level": 1,
+            "name": "驚天動地",
+            "rank": "B",
+            "icon": 601
+          }
+        ],
+        [
+          {
+            "slot": 3,
+            "level": 1,
+            "name": "天衣無縫",
+            "rank": "EX",
+            "icon": 306
+          }
+        ]
+      ]
+    }
   ]
 }
