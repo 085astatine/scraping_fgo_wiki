@@ -1,0 +1,349 @@
+{
+  "id": 452,
+  "name": "ネモ／ノア",
+  "false_name": null,
+  "ascension_names": null,
+  "klass": "Rider",
+  "rarity": 5,
+  "skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "救世の航海者",
+        "rank": "B",
+        "icon": 302
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "信仰の加護",
+        "rank": "EX",
+        "icon": 401
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "ゾーハルの輝石",
+        "rank": "EX",
+        "icon": 305
+      }
+    ]
+  ],
+  "append_skills": [
+    [
+      {
+        "slot": 1,
+        "level": 1,
+        "name": "追撃技巧向上",
+        "rank": "",
+        "icon": 301
+      }
+    ],
+    [
+      {
+        "slot": 2,
+        "level": 1,
+        "name": "魔力装填",
+        "rank": "",
+        "icon": 601
+      }
+    ],
+    [
+      {
+        "slot": 3,
+        "level": 1,
+        "name": "対アルターエゴ攻撃適性",
+        "rank": "",
+        "icon": 300
+      }
+    ],
+    [
+      {
+        "slot": 4,
+        "level": 1,
+        "name": "特撃技巧向上",
+        "rank": "",
+        "icon": 303
+      }
+    ],
+    [
+      {
+        "slot": 5,
+        "level": 1,
+        "name": "スキル再装填",
+        "rank": "",
+        "icon": 613
+      }
+    ]
+  ],
+  "costumes": [],
+  "ascension_resources": [
+    {
+      "qp": 100000,
+      "items": [
+        {
+          "name": "ライダーピース",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 300000,
+      "items": [
+        {
+          "name": "ライダーピース",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 9
+        }
+      ]
+    },
+    {
+      "qp": 1000000,
+      "items": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 5
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        },
+        {
+          "name": "天命の聖水",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 3000000,
+      "items": [
+        {
+          "name": "ライダーモニュメント",
+          "piece": 12
+        },
+        {
+          "name": "天命の聖水",
+          "piece": 4
+        },
+        {
+          "name": "遺霊箱",
+          "piece": 5
+        }
+      ]
+    }
+  ],
+  "skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "騎の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "騎の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "騎の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "騎の魔石",
+          "piece": 12
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "騎の秘石",
+          "piece": 5
+        },
+        {
+          "name": "隕蹄鉄",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "騎の秘石",
+          "piece": 12
+        },
+        {
+          "name": "世界樹の種",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "世界樹の種",
+          "piece": 12
+        },
+        {
+          "name": "原初の産毛",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "原初の産毛",
+          "piece": 11
+        },
+        {
+          "name": "遺霊箱",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ],
+  "append_skill_resources": [
+    {
+      "qp": 200000,
+      "items": [
+        {
+          "name": "騎の輝石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 400000,
+      "items": [
+        {
+          "name": "騎の輝石",
+          "piece": 12
+        }
+      ]
+    },
+    {
+      "qp": 1200000,
+      "items": [
+        {
+          "name": "騎の魔石",
+          "piece": 5
+        }
+      ]
+    },
+    {
+      "qp": 1600000,
+      "items": [
+        {
+          "name": "騎の魔石",
+          "piece": 12
+        },
+        {
+          "name": "精霊根",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 4000000,
+      "items": [
+        {
+          "name": "騎の秘石",
+          "piece": 5
+        },
+        {
+          "name": "精霊根",
+          "piece": 4
+        }
+      ]
+    },
+    {
+      "qp": 5000000,
+      "items": [
+        {
+          "name": "騎の秘石",
+          "piece": 12
+        },
+        {
+          "name": "奇奇神酒",
+          "piece": 2
+        }
+      ]
+    },
+    {
+      "qp": 10000000,
+      "items": [
+        {
+          "name": "奇奇神酒",
+          "piece": 4
+        },
+        {
+          "name": "巨人の指輪",
+          "piece": 6
+        }
+      ]
+    },
+    {
+      "qp": 12000000,
+      "items": [
+        {
+          "name": "巨人の指輪",
+          "piece": 18
+        },
+        {
+          "name": "天命の聖水",
+          "piece": 10
+        }
+      ]
+    },
+    {
+      "qp": 20000000,
+      "items": [
+        {
+          "name": "伝承結晶",
+          "piece": 1
+        }
+      ]
+    }
+  ]
+}
