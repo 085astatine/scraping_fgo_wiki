@@ -21,6 +21,7 @@ def klass() -> dict[str, Any]:
             "Foreigner",
             "Pretender",
             "Beast",
+            "UnBeast",
         ],
     }
     return schema

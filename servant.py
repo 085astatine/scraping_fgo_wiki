@@ -225,7 +225,7 @@ def parse_servant_links(
         "月": "MoonCancer",  # ムーンキャンサー
         "降": "Foreigner",  # フォーリナー
         "詐": "Pretender",  # プリテンダー
-        "獣": "Beast",  # ビースト
+        "獣": "Beast",  # ビースト or アンビースト
     }
     links: list[fgo.ServantLink] = []
     for row in root.xpath(
@@ -240,6 +240,9 @@ def parse_servant_links(
         rarity = int(row.xpath("td[2]")[0].text)
         name = row.xpath("td[3]//a")[0].text
         klass = to_servant_class[row.xpath("td[4]")[0].text.strip()]
+        if klass == "Beast":
+            if servant_id == 444:  # 444: Ｕ－オルガマリー
+                klass = "UnBeast"
         href = row.xpath("td[3]//a")[0].get("href")
         link = fgo.ServantLink(
             id=servant_id,
@@ -359,6 +362,8 @@ def servant_page(
         )
         # save
         if not option.no_save and text is not None:
+            if not path.parent.exists():
+                path.parent.mkdir(parents=True)
             logger.info('save page to "%s"', path)
             path.write_text(text, encoding="utf-8")
         time.sleep(option.request_interval)

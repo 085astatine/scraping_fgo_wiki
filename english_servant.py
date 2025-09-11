@@ -297,6 +297,8 @@ def get_costume_data(
         )
         # save
         if not option.no_save and data is not None:
+            if not path.parent.exists():
+                path.parent.mkdir(parents=True)
             logger.info('save costume list to "%s"', path)
             path.write_text(data, encoding="utf-8")
         time.sleep(option.request_interval)
@@ -573,6 +575,8 @@ def get_servant_data(
                 link["title"],
                 path,
             )
+            if not path.parent.exists():
+                path.parent.mkdir(parents=True)
             path.write_text(data, encoding="utf-8")
         time.sleep(option.request_interval)
     else:
@@ -705,19 +709,20 @@ def parse_active_skills(
     source: str,
     logger: fgo.ServantLogger,
 ) -> list[list[fgo.english.Skill]]:
-    match = re.search(
-        r"==\s*Active Skills\s*==\n"
-        r"<tabber>\n"
-        r"First Skill=\n"
-        r"(?P<skill_1>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Second Skill=\n"
-        r"(?P<skill_2>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Third Skill=\n"
-        r"(?P<skill_3>(.*\n)+?)"
-        r"</tabber>\n",
-        source,
+    section = parse_section(source, "Active Skills")
+    if section is None:
+        logger.error('failed to find "Active Skills" section')
+        return []
+    match = re.match(
+        r"{{Tabber\n"
+        r"\|First Skill\n"
+        r"\|(?P<skill_1>(.*\n)+?)"
+        r"\|Second Skill\n"
+        r"\|(?P<skill_2>(.*\n)+?)"
+        r"\|Third Skill\n"
+        r"\|(?P<skill_3>(.*\n)+)"
+        r"\|?}}",
+        section,
     )
     if match is None:
         logger.error("failed to match active skill")
@@ -733,25 +738,24 @@ def parse_append_skills(
     source: str,
     logger: fgo.ServantLogger,
 ) -> list[list[fgo.english.Skill]]:
-    match = re.search(
-        r"==\s*Append Skills\s*==\n"
-        r"<tabber>\n"
-        r"First Skill=\n"
-        r"(?P<skill_1>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Second Skill=\n"
-        r"(?P<skill_2>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Third Skill=\n"
-        r"(?P<skill_3>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Fourth Skill=\n"
-        r"(?P<skill_4>(.*\n)+?)"
-        r"\|-\|\n"
-        r"Fifth Skill=\n"
-        r"(?P<skill_5>(.*\n)+?)"
-        r"</tabber>\n",
-        source,
+    section = parse_section(source, "Append Skills")
+    if section is None:
+        logger.error('failed to find "Append Skills" section')
+        return []
+    match = re.match(
+        r"{{Tabber\n"
+        r"\|First Skill\n"
+        r"\|(?P<skill_1>(.*\n)+?)"
+        r"\|Second Skill\n"
+        r"\|(?P<skill_2>(.*\n)+?)"
+        r"\|Third Skill\n"
+        r"\|(?P<skill_3>(.*\n)+?)"
+        r"\|Fourth Skill\n"
+        r"\|(?P<skill_4>(.*\n)+?)"
+        r"\|Fifth Skill\n"
+        r"\|(?P<skill_5>(.*\n)+)"
+        r"}}",
+        section,
     )
     if match is None:
         return []
@@ -769,19 +773,24 @@ def parse_skill(
     source: str,
     logger: fgo.ServantLogger,
 ) -> list[fgo.english.Skill]:
-    # Remove {{Unlock|...}} or {{unlock:...}}
-    source = re.sub(r"\{\{[Uu]nlock\|.+\}\}\n", "", source)
     # mult level
-    if source.startswith("{{#tag:tabber"):
+    if source.startswith("{{Tabber"):
+        source = re.sub(r"^{{Tabber(<!--)?\n", "", source)
+        source = re.sub(r"\n(-->)?}}\n$", "", source)
+        source = re.sub(r"^-->", "", source, flags=re.MULTILINE)
+        source = re.sub(r"<!--$", "", source, flags=re.MULTILINE)
         skill = [
-            parse_skill_rank(skill_texts.split("=")[0])
-            for skill_texts in source.removeprefix("{{#tag:tabber|\n")
-            .removesuffix("}}")
-            .split("{{!}}-{{!}}\n")
+            parse_skill_rank(skill_text)
+            for skill_text in re.findall(
+                r"\|([^|]+?)\|{{Unlock\|.+?}}\s*{{.+?}}",
+                source.replace("\n", ""),
+            )
         ]
         skill.reverse()
     else:
         skill = []
+        # Remove {{Unlock|...}} or {{unlock:...}}
+        source = re.sub(r"\{\{[Uu]nlock\|.+\}\}\n", "", source)
         match = re.match(r"\{\{:(?P<skill>.+)\}\}\n", source)
         if match:
             skill.append(parse_skill_rank(match.group("skill")))
@@ -832,6 +841,7 @@ def parse_ascension_table(
     logger.debug("ascension & costume")
     section = parse_section(source, "Ascension")
     if section is None:
+        logger.error('failed to find "Ascension" section')
         return [], []
     rows = parse_resource_table(section, "Ascension", logger)
     if rows is None:
@@ -847,23 +857,7 @@ def parse_active_skill_resources(
     logger: fgo.ServantLogger,
 ) -> list[fgo.Resource]:
     logger.debug("active skill resources")
-    section = parse_section(source, "Skill Reinforcement")
-    if section is None:
-        return []
-    match = re.search(
-        r"Active( Skills)?\s*=(?P<table>.+?)\|-\|",
-        section,
-        flags=re.DOTALL,
-    )
-    if match is None:
-        return []
-    rows = parse_resource_table(
-        match.group("table"),
-        "Skillreinforcement",
-        logger,
-    )
-    if rows is None:
-        return []
+    rows = parse_skill_reinforcement(source, "Active", logger)
     return to_skill_resources(rows, stars)
 
 
@@ -873,23 +867,7 @@ def parse_append_skill_resources(
     logger: fgo.ServantLogger,
 ) -> list[fgo.Resource]:
     logger.debug("append skill resources")
-    section = parse_section(source, "Skill Reinforcement")
-    if section is None:
-        return []
-    match = re.search(
-        r"Append( Skills)?\s*=(?P<table>.+?)</tabber>",
-        section,
-        flags=re.DOTALL,
-    )
-    if match is None:
-        return []
-    rows = parse_resource_table(
-        match.group("table"),
-        "Skillreinforcement",
-        logger,
-    )
-    if rows is None:
-        return []
+    rows = parse_skill_reinforcement(source, "Append", logger)
     return to_skill_resources(rows, stars)
 
 
@@ -898,7 +876,7 @@ def parse_section(
     title: str,
 ) -> Optional[str]:
     match = re.search(
-        rf"==\s*{title}\s*==(?P<section>.*?)==",
+        rf"==\s*{title}\s*==\n(?P<section>.*?)==",
         source,
         flags=re.DOTALL,
     )
@@ -992,6 +970,36 @@ def parse_resource_table_row(row: str) -> Optional[ItemsRow | QPRow | TextRow]:
                     text=match.group("text").strip(),
                 )
     return None
+
+
+def parse_skill_reinforcement(
+    source: str,
+    target: Literal["Active", "Append"],
+    logger: fgo.ServantLogger,
+) -> list[ResourceTableRow]:
+    section = parse_section(source, "Skill Reinforcement")
+    if section is None:
+        logger.error('failed to find "Skill Reinforcement" section')
+        return []
+    match = re.search(
+        rf"\|{target}( Skills)?"
+        r"(=|\|)(?P<table>"
+        r"{{Skillreinforcement"
+        r"(\|rarity\s*=\s*[0-5])?"
+        r"(\|[a-z0-9]+\s*=\s*{{.+}})*"
+        r"}})",
+        section.replace("\n", ""),
+    )
+    if match is None:
+        return []
+    rows = parse_resource_table(
+        match.group("table"),
+        "Skillreinforcement",
+        logger,
+    )
+    if rows is None:
+        return []
+    return rows
 
 
 def to_ascension_resources(
