@@ -6505,7 +6505,8 @@
         "Intoxicated Meal"
       ],
       [
-        "Advice for Sailing"
+        "Advice for Sailing",
+        "Advice for the Underworld Voyage"
       ]
     ],
     "append_skills": [
@@ -10011,7 +10012,8 @@
     "false_name": null,
     "skills": [
       [
-        "Voyager of the Storm"
+        "Voyager of the Storm",
+        "Submariner Beneath the Shimmering Waves"
       ],
       [
         "Indomitable"
