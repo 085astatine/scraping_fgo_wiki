@@ -15055,5 +15055,38 @@
       ]
     ],
     "costumes": []
+  },
+  "452": {
+    "name": "Nemo/Noah",
+    "false_name": null,
+    "skills": [
+      [
+        "Voyager of Salvation"
+      ],
+      [
+        "Protection of Faith"
+      ],
+      [
+        "Zohar's Shining Gem"
+      ]
+    ],
+    "append_skills": [
+      [
+        "Extra Attack Finesse Improvement"
+      ],
+      [
+        "Mana Loading"
+      ],
+      [
+        "Anti-Alter Ego Attack Damage Aptitude"
+      ],
+      [
+        "Special Attack Finesse Improvement"
+      ],
+      [
+        "Skill Reloading"
+      ]
+    ],
+    "costumes": []
   }
 }
